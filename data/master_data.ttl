@@ -1,0 +1,50 @@
+@prefix : <http://example.com/healthcare#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+### Define the Address
+:PostalAddress_001 a :PostalAddress ;
+    :identifier "001"^^xsd:string ;
+    :streetAddress "123 Main Street" ;
+    :addressLocality "Sample City" ;
+    :postalCode "12345" ;
+    :addressCountry "Sample Country" .
+
+### Define the ContactPoint
+:ContactPoint_001 a :ContactPoint ;
+    :identifier "C001"^^xsd:string ;
+    :telephone "+1234567890" ;
+    :email "contact@healthcare.org" ;
+    :faxNumber "123-456-7890" ;
+    :contactType "General Inquiry" ;
+    :available_language "en" .
+
+### Define the Healthcare Organization
+:HealthCareOrganization_001 a :MedicalOrganization ;
+    :identifier "HCO001"^^xsd:string ;
+    :name "Sample Health Center" ;
+    :contactPoint :ContactPoint_001_identifier ;
+    :employee :person_001_identifier ;
+    :subOrganization :ServiceDepartment_001_identifier ;
+    :address :Address_001_identifier .
+
+### Define the Service Department
+:ServiceDepartment_001 a :Department ;
+    :identifier "SD001"^^xsd:string ;
+    :name "Cardiology" ;
+    :parentOrganization :HealthCareOrganization_001_identifier ;
+    :member :person_001_identifier ;
+    :contactPoint :ContactPoint_001_identifier ;
+    :address :Address_001_identifier .
+
+### Define the Person
+:Person_001 a :Person ;
+    :identifier "P001"^^xsd:string ;
+    :name "John Doe" ;
+    :birthDate "1985-05-20"^^xsd:date ;
+    :gender "Male" ;
+    :knowsLanguage "en" ;
+    :jobTitle "Cardiologist" ;
+    :worksFor :HealthCareOrganization_001_identifier ;
+    :memberOf :ServiceDepartment_001_identifier ;
+    :email "doctor@healthcare.org" .

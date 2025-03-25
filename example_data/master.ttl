@@ -1,0 +1,85 @@
+@prefix : <http://example.com/healthcare#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+### Define the Person
+:Person_001 a :Person ;
+    :PersonId "001"^^xsd:string ;
+    :FamilyName "Smith" ;
+    :GivenName "John" ;
+    :BirthDate "1980-06-15"^^xsd:date ;
+    :Gender "Male" ;
+    :HealthcarePersonnel :HealthcarePersonnel_001 ;
+    :Communications :Communication_001 ;
+    :ContactPoints :ContactPoint_001 .
+
+### Define the Healthcare Personnel
+:HealthcarePersonnel_001 a :HealthcarePersonnel ;
+    :HealthcarePersonnelId "HP001"^^xsd:string ;
+    :HealthcareOrganization :HealthcareOrganization_001 ;
+    :IsOrganizationContactPerson true ;
+    :ServiceDepartment :ServiceDepartment_001 ;
+    :Specialty "Cardiology" ;
+    :HealthcarePersonIdentifier :HealthcarePersonIdentifier_001 .
+
+### Define the Healthcare Personnel Identifier
+:HealthcarePersonIdentifier_001 a :HealthcarePersonIdentifier ;
+    :HealthcarePersonIdentifierId "ID001"^^xsd:string ;
+    :type "https://hl7.org/fhir/R4/valueset-identifier-type.html"^^xsd:string ;
+    :value "123456789"^^xsd:string .
+
+### Define the Healthcare Organization
+:HealthcareOrganization_001 a :HealthcareOrganization ;
+    a <https://biomedit.ch/rdf/sphn-ontology/sphn#HealthcareProvider> ;
+    :HealthcareOrganizationId "ORG001"^^xsd:string ;
+    :HealthcareOrganizationName "Zalim Insan Hosbital (ZIBS)" ;
+    :OrganizationType "prov" ;
+    :Address :Address_001 ;
+    :HealthcarePersonnels :HealthcarePersonnel_001 ;
+    :ServiceDepartments :ServiceDepartment_001 .
+
+### Define the Service Department
+:ServiceDepartment_001 a :ServiceDepartment ;
+    :ServiceDepartmentId "SD001"^^xsd:string ;
+    :HealthcareOrganization :HealthcareOrganization_001 ;
+    :ServiceDepartmentName "Cardiology" ;
+    :OrganizationType "dept" ;
+    :Address :Address_002 .
+
+### Define Address for Healthcare Organization
+:Address_001 a :Address ;
+    :FhirAddressId "ADDR001"^^xsd:string ;
+    :Use "work" ;
+    :Type "postal" ;
+    :Text "123 Main St, Cityville" ;
+    :Line "123 Main St" ;
+    :City "Cityville" ;
+    :District "District 1" ;
+    :State "Stateville" ;
+    :PostalCode "12345" ;
+    :Country "Countryland" .
+
+### Define Address for Service Department
+:Address_002 a :Address ;
+    :FhirAddressId "ADDR002"^^xsd:string ;
+    :Use "work" ;
+    :Type "postal" ;
+    :Text "456 Main St, Cityville" ;
+    :Line "456 Main St" ;
+    :City "Cityville" ;
+    :District "District 1" ;
+    :State "Stateville" ;
+    :PostalCode "12345" ;
+    :Country "Countryland" .
+
+### Define ContactPoint
+:ContactPoint_001 a :ContactPoint ;
+    :ContactPointId "CP001"^^xsd:string ;
+    :System "phone" ;
+    :Value "+123456789" .
+
+### Define Communication
+:Communication_001 a :Communication ;
+    :CommunicationId "COM001"^^xsd:string ;
+    :LanguageISO639 "en" ;
+    :Preferred true .

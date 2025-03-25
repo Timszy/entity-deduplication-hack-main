@@ -1,0 +1,2459 @@
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/Person/00e9b876-ebb2-4a05-bd19-f33e0f5190f7> a schema:Person ;
+    schema:birthDate "1966-11-16"^^xsd:date ;
+    schema:email "jennifermartinez@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "00e9b876-ebb2-4a05-bd19-f33e0f5190f7"^^xsd:string ;
+    schema:jobTitle "Clinical Genetics Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/afdb4e0b-0171-4f1d-956a-2f20ee283bb7> ;
+    schema:name "Jennifer Martinez"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/08527049-e432-472a-8b84-a1dda528dd88> .
+
+<http://example.org/Person/04ee7da3-4652-4c7c-ae28-ec0d581dd25b> a schema:Person ;
+    schema:birthDate "1995-01-25"^^xsd:date ;
+    schema:email "mariasitark@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "04ee7da3-4652-4c7c-ae28-ec0d581dd25b"^^xsd:string ;
+    schema:jobTitle "Physical Therapy Assistant"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/d855fb35-d763-4159-ad9a-189a50852f4f> ;
+    schema:name "Maria Stark"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/e10f5aca-4c5f-4d77-bbd5-5c5b00c5dc64> .
+
+<http://example.org/Person/05d1ff7e-25eb-442e-82d6-f8ad5b37518c> a schema:Person ;
+    schema:birthDate "1989-01-03"^^xsd:date ;
+    schema:email "davidpraker@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "05d1ff7e-25eb-442e-82d6-f8ad5b37518c"^^xsd:string ;
+    schema:jobTitle "Genetic Counselor"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/26b61b06-a164-4f58-bb78-eb2d0ee5144d> ;
+    schema:name "David Parker"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/c79b4739-161b-400c-8109-15d390489d3c> .
+
+<http://example.org/Person/06d54703-656a-4ec1-acb7-4b5a3f5527de> a schema:Person ;
+    schema:birthDate "1972-12-02"^^xsd:date ;
+    schema:email "nicholasdonaldson@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "06d54703-656a-4ec1-acb7-4b5a3f5527de"^^xsd:string ;
+    schema:jobTitle "Rehabilitation Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/d855fb35-d763-4159-ad9a-189a50852f4f> ;
+    schema:name "Nicholas Donaldson"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/e10f5aca-4c5f-4d77-bbd5-5c5b00c5dc64> .
+
+<http://example.org/Person/078f7099-c8cd-430b-9535-dface17c17ba> a schema:Person ;
+    schema:birthDate "1971-04-12"^^xsd:date ;
+    schema:email "aaronmosley@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "078f7099-c8cd-430b-9535-dface17c17ba"^^xsd:string ;
+    schema:jobTitle "Epidemiologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/12bdf75f-b3c1-41c3-93f2-a37c64d02759> ;
+    schema:name "Aarn Mosley"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/Person/0905c244-7ddb-4ba4-b3c6-c428065b9a91> a schema:Person ;
+    schema:birthDate "1991-11-07"^^xsd:date ;
+    schema:email "victorshaw@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "0905c244-7ddb-4ba4-b3c6-c428065b9a91"^^xsd:string ;
+    schema:jobTitle "Psychologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/c334f558-02ce-4581-be15-aa2c07b6e28f> ;
+    schema:name "Victor Shaw"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/9a396f78-73c3-42ff-8a86-f9e50490b88f> .
+
+<http://example.org/Person/0f7c5fea-d423-4f0c-8b49-a8854c0e3449> a schema:Person ;
+    schema:birthDate "1986-08-03"^^xsd:date ;
+    schema:email "krystalbell@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "0f7c5fea-d423-4f0c-8b49-a8854c0e3449"^^xsd:string ;
+    schema:jobTitle "Epidemiologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/69199a8a-aea6-4315-88ef-444a6e63ffa4> ;
+    schema:name "Krystal Bell"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/Person/108d9107-e6bf-4f31-bf15-1845ec4db955> a schema:Person ;
+    schema:birthDate "1991-04-10"^^xsd:date ;
+    schema:email "loganguerra@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "108d9107-e6bf-4f31-bf15-1845ec4db955"^^xsd:string ;
+    schema:jobTitle "Nutritionist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/b368c553-9c30-4eaa-8f66-b32de19b5837> ;
+    schema:name "Logan Guerra"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/8a0f6258-8687-42d8-9a76-a6220d477718> .
+
+<http://example.org/Person/1134f798-22e7-441b-96ca-e81ba1b74fae> a schema:Person ;
+    schema:birthDate "1989-07-21"^^xsd:date ;
+    schema:email "stevensosa@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "1134f798-22e7-441b-96ca-e81ba1b74fae"^^xsd:string ;
+    schema:jobTitle "Geneticist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/afdb4e0b-0171-4f1d-956a-2f20ee283bb7> ;
+    schema:name "Steven Sosa"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/08527049-e432-472a-8b84-a1dda528dd88> .
+
+<http://example.org/Person/118da3bb-eb48-4496-8532-e533a3a0f430> a schema:Person ;
+    schema:birthDate "1968-10-12"^^xsd:date ;
+    schema:email "richardolson@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "118da3bb-eb48-4496-8532-e533a3a0f430"^^xsd:string ;
+    schema:jobTitle "Hematology Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/606e8502-002f-4cc4-896b-fafff5b7751f> ;
+    schema:name "Olson Richard"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/08527049-e432-472a-8b84-a1dda528dd88> .
+
+<http://example.org/Person/12b4589c-20ba-475b-85e4-78e80cdfd419> a schema:Person ;
+    schema:birthDate "1963-01-16"^^xsd:date ;
+    schema:email "daniellebeasley@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "12b4589c-20ba-475b-85e4-78e80cdfd419"^^xsd:string ;
+    schema:jobTitle "Neurological Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/a71b80ef-8e36-482f-b856-be31f568c9c6> ;
+    schema:name "Danielle Beasley"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/c79b4739-161b-400c-8109-15d390489d3c> .
+
+<http://example.org/Person/144299f1-6fef-464d-8a98-867e58eee4f4> a schema:Person ;
+    schema:birthDate "1968-06-13"^^xsd:date ;
+    schema:email "amymerritt@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "144299f1-6fef-464d-8a98-867e58eee4f4"^^xsd:string ;
+    schema:jobTitle "X-Ray Technician"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/c846bf90-40fe-4898-b56b-9357b34dc8b0> ;
+    schema:name "Amy Merritt"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/e10f5aca-4c5f-4d77-bbd5-5c5b00c5dc64> .
+
+<http://example.org/Person/14f82a32-5733-4863-96c7-e81b0a738815> a schema:Person ;
+    schema:birthDate "1994-02-01"^^xsd:date ;
+    schema:email "amandareyes@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "14f82a32-5733-4863-96c7-e81b0a738815"^^xsd:string ;
+    schema:jobTitle "Infection Control Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/69199a8a-aea6-4315-88ef-444a6e63ffa4> ;
+    schema:name "Amanda Reyes"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/Person/1614ba92-de2f-4fbf-b646-05be9034d0ab> a schema:Person ;
+    schema:birthDate "1991-09-13"^^xsd:date ;
+    schema:email "tinarowe@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "1614ba92-de2f-4fbf-b646-05be9034d0ab"^^xsd:string ;
+    schema:jobTitle "Vision Therapist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/2347b24f-a0f9-4074-9177-b6d45f2e9167> ;
+    schema:name "Tina Rowe"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/Person/16dbdb27-3c71-41dd-a6cf-cf20bca65905> a schema:Person ;
+    schema:birthDate "1982-03-17"^^xsd:date ;
+    schema:email "sharonvdyer@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "16dbdb27-3c71-41dd-a6cf-cf20bca65905"^^xsd:string ;
+    schema:jobTitle "Dental Hygienist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/57d1d37c-c7af-4e8f-9fec-b2ae58e760bf> ;
+    schema:name "Sharon Dyer"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/18bd0ce0-4c53-4e77-b90b-9a90e0c5f22e> a schema:Person ;
+    schema:birthDate "1997-09-25"^^xsd:date ;
+    schema:email "michaelhester@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "18bd0ce0-4c53-4e77-b90b-9a90e0c5f22e"^^xsd:string ;
+    schema:jobTitle "Audiologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/90e639e1-e44f-43a9-ad0c-62c3254bf7ae> ;
+    schema:name "Michael Hester"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/8a0f6258-8687-42d8-9a76-a6220d477718> .
+
+<http://example.org/Person/1964a264-8cc6-4a20-84be-91dae2db895c> a schema:Person ;
+    schema:birthDate "1997-04-21"^^xsd:date ;
+    schema:email "williamflores@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "1964a264-8cc6-4a20-84be-91dae2db895c"^^xsd:string ;
+    schema:jobTitle "Optometrist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/2347b24f-a0f9-4074-9177-b6d45f2e9167> ;
+    schema:name "William Flores"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/Person/1ebbc4b9-ed35-4d5d-a4d3-2312eb75658f> a schema:Person ;
+    schema:birthDate "1973-07-10"^^xsd:date ;
+    schema:email "crystaltperry@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "1ebbc4b9-ed35-4d5d-a4d3-2312eb75658f"^^xsd:string ;
+    schema:jobTitle "Optician"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/c4841a8d-2f75-4bde-a616-3e5beda2fc4c> ;
+    schema:name "Crystal Perry"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/Person/20327741-8593-4c70-8419-abdefff0084d> a schema:Person ;
+    schema:birthDate "1966-01-11"^^xsd:date ;
+    schema:email "ashleylopez@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "20327741-8593-4c70-8419-abdefff0084d"^^xsd:string ;
+    schema:jobTitle "Vision Therapist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/3ee29e68-6fa0-4319-a54c-e0de6e797a92> ;
+    schema:name "Ashley Lopez"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/08527049-e432-472a-8b84-a1dda528dd88> .
+
+<http://example.org/Person/2510c517-de31-486e-bb1c-02d63d8b7f1b> a schema:Person ;
+    schema:birthDate "1995-08-08"^^xsd:date ;
+    schema:email "michaelohnson@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "2510c517-de31-486e-bb1c-02d63d8b7f1b"^^xsd:string ;
+    schema:jobTitle "Renal Dietitian"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/eecb325b-064f-468d-b080-e0035e7f503c> ;
+    schema:name "Michael Johnson"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/Person/288d336b-fe65-41b0-a485-c7d0c4958128> a schema:Person ;
+    schema:birthDate "1964-09-24"^^xsd:date ;
+    schema:email "tylermunoz@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "288d336b-fe65-41b0-a485-c7d0c4958128"^^xsd:string ;
+    schema:jobTitle "Registered Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/4d6d99a6-28d7-48b4-9d44-38218a7f03ae> ;
+    schema:name "Tyler Munoz"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/2a6e4777-96ee-4495-a738-f2a04c4c2273> a schema:Person ;
+    schema:birthDate "1985-01-03"^^xsd:date ;
+    schema:email "deniseschwartz@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "2a6e4777-96ee-4495-a738-f2a04c4c2273"^^xsd:string ;
+    schema:jobTitle "Clinical Pharmacologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/94e4cc44-e3fb-4bda-86ae-9d5c65ff6adc> ;
+    schema:name "D. Schwartz"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/Person/2b189dd9-f3dd-48a7-9d09-bcba32e236e3> a schema:Person ;
+    schema:birthDate "1980-05-07"^^xsd:date ;
+    schema:email "williamsmih@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "2b189dd9-f3dd-48a7-9d09-bcba32e236e3"^^xsd:string ;
+    schema:jobTitle "ER Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/739ac9e2-91fd-4d4a-9a31-a6a69b87cc5e> ;
+    schema:name "William Smith"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/e10f5aca-4c5f-4d77-bbd5-5c5b00c5dc64> .
+
+<http://example.org/Person/2c87bf21-43a5-4708-b678-d657cd1e3071> a schema:Person ;
+    schema:birthDate "1965-06-07"^^xsd:date ;
+    schema:email "tracydavis@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "2c87bf21-43a5-4708-b678-d657cd1e3071"^^xsd:string ;
+    schema:jobTitle "Orthodontist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/57d1d37c-c7af-4e8f-9fec-b2ae58e760bf> ;
+    schema:name "Tracy Davis"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/2e58e819-9124-48ab-9a83-0269031849e0> a schema:Person ;
+    schema:birthDate "1982-04-16"^^xsd:date ;
+    schema:email "codycrawfford@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "2e58e819-9124-48ab-9a83-0269031849e0"^^xsd:string ;
+    schema:jobTitle "Communication Disorders Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/00f520f4-9ef1-4846-9dbc-24fd0a8aa1e4> ;
+    schema:name "C. Crawford"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/Person/2eac3a4a-53b8-4eaa-94dc-d4cb03c0ae6d> a schema:Person ;
+    schema:birthDate "1964-12-18"^^xsd:date ;
+    schema:email "davidrivera@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "2eac3a4a-53b8-4eaa-94dc-d4cb03c0ae6d"^^xsd:string ;
+    schema:jobTitle "Blood Bank Technologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/af273f40-55cd-472e-8b10-cf68b7691470> ;
+    schema:name "David Rivera"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/Person/2f785ff9-8971-4008-91ff-dd1d0c185060> a schema:Person ;
+    schema:birthDate "1991-02-11"^^xsd:date ;
+    schema:email "brittneyjohnson@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "2f785ff9-8971-4008-91ff-dd1d0c185060"^^xsd:string ;
+    schema:jobTitle "Vision Therapist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/2347b24f-a0f9-4074-9177-b6d45f2e9167> ;
+    schema:name "Brittney Johnson"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/Person/3036f8ed-6f60-4235-813d-78f3250034bd> a schema:Person ;
+    schema:birthDate "1961-05-05"^^xsd:date ;
+    schema:email "lawrencewalls@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "3036f8ed-6f60-4235-813d-78f3250034bd"^^xsd:string ;
+    schema:jobTitle "Respiratory Therapist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/7b69e690-4130-4879-a279-d944dc2897c6> ;
+    schema:name "Lawrence Walls"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/Person/34495a88-1136-4c13-9161-e4f131e92694> a schema:Person ;
+    schema:birthDate "1977-06-10"^^xsd:date ;
+    schema:email "cathythompson@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "34495a88-1136-4c13-9161-e4f131e92694"^^xsd:string ;
+    schema:jobTitle "Radiologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/c846bf90-40fe-4898-b56b-9357b34dc8b0> ;
+    schema:name "Cathy Thompson"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/e10f5aca-4c5f-4d77-bbd5-5c5b00c5dc64> .
+
+<http://example.org/Person/3465e49f-285e-4722-98d0-d57cd9988345> a schema:Person ;
+    schema:birthDate "1969-02-14"^^xsd:date ;
+    schema:email "jaystevenson@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "3465e49f-285e-4722-98d0-d57cd9988345"^^xsd:string ;
+    schema:jobTitle "Orthotic Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/209818d1-ef7e-45ec-a417-956f29ee7f3d> ;
+    schema:name "Jay Stevenson"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/8a0f6258-8687-42d8-9a76-a6220d477718> .
+
+<http://example.org/Person/35d9bdaa-3a2d-4ab0-b3e3-d269a7758e89> a schema:Person ;
+    schema:birthDate "1971-05-24"^^xsd:date ;
+    schema:email "oscarharrell@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "35d9bdaa-3a2d-4ab0-b3e3-d269a7758e89"^^xsd:string ;
+    schema:jobTitle "Clinical Pharmacologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/439f4b86-cd6a-4e0c-b427-965607db34e0> ;
+    schema:name "Oscar Harrell"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/e10f5aca-4c5f-4d77-bbd5-5c5b00c5dc64> .
+
+<http://example.org/Person/367b6976-e200-4567-ad22-4a61b73d4937> a schema:Person ;
+    schema:birthDate "1964-07-01"^^xsd:date ;
+    schema:email "jonarroyo@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "367b6976-e200-4567-ad22-4a61b73d4937"^^xsd:string ;
+    schema:jobTitle "Nurse Practitioner"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/ccf719ab-2922-4bd8-9ca5-b35354a1d505> ;
+    schema:name "Jon Arroyo"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/8a0f6258-8687-42d8-9a76-a6220d477718> .
+
+<http://example.org/Person/3d15586e-4a39-4484-abe4-1b6325fcb720> a schema:Person ;
+    schema:birthDate "1961-02-14"^^xsd:date ;
+    schema:email "heathermiller@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "3d15586e-4a39-4484-abe4-1b6325fcb720"^^xsd:string ;
+    schema:jobTitle "Cardiovascular Surgeon"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/e7e3f52c-0cbf-404d-b5c2-5d429626d8c4> ;
+    schema:name "Heather Miller"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/Person/3d5d80e6-e0d1-4580-81e0-003802b3078d> a schema:Person ;
+    schema:birthDate "1968-05-17"^^xsd:date ;
+    schema:email "andreagriffin@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "3d5d80e6-e0d1-4580-81e0-003802b3078d"^^xsd:string ;
+    schema:jobTitle "Nutrition Counselor"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/094f7d5a-f313-40b0-b6d1-42d05c66a9bb> ;
+    schema:name "Griffin Andrea"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/9a396f78-73c3-42ff-8a86-f9e50490b88f> .
+
+<http://example.org/Person/4015561e-543a-4330-ba04-a12f49474e3b> a schema:Person ;
+    schema:birthDate "1983-09-01"^^xsd:date ;
+    schema:email "timothynewton@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "4015561e-543a-4330-ba04-a12f49474e3b"^^xsd:string ;
+    schema:jobTitle "Foot Care Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/209818d1-ef7e-45ec-a417-956f29ee7f3d> ;
+    schema:name "Timothy Newton"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/8a0f6258-8687-42d8-9a76-a6220d477718> .
+
+<http://example.org/Person/42efc180-6797-441a-9670-11cb04c810e1> a schema:Person ;
+    schema:birthDate "1986-03-01"^^xsd:date ;
+    schema:email "rogermilleer@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "42efc180-6797-441a-9670-11cb04c810e1"^^xsd:string ;
+    schema:jobTitle "Epidemiologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/571c9d78-8429-4eae-877e-5ea1c33993f2> ;
+    schema:name "Roger Miller"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/9a396f78-73c3-42ff-8a86-f9e50490b88f> .
+
+<http://example.org/Person/44722bce-af07-44a0-83bc-c2b6204a22c1> a schema:Person ;
+    schema:birthDate "1973-12-18"^^xsd:date ;
+    schema:email "savannahwerner@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "44722bce-af07-44a0-83bc-c2b6204a22c1"^^xsd:string ;
+    schema:jobTitle "X-Ray Technician"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/c846bf90-40fe-4898-b56b-9357b34dc8b0> ;
+    schema:name "Savannah Werner"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/e10f5aca-4c5f-4d77-bbd5-5c5b00c5dc64> .
+
+<http://example.org/Person/46aa2cf1-cb3d-4202-bb11-c80425d326eb> a schema:Person ;
+    schema:birthDate "1975-01-12"^^xsd:date ;
+    schema:email "emmacaldwell@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "46aa2cf1-cb3d-4202-bb11-c80425d326eb"^^xsd:string ;
+    schema:jobTitle "Hematologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/af273f40-55cd-472e-8b10-cf68b7691470> ;
+    schema:name "Emma Caldwell"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/Person/48dd05a8-c7d1-4188-961c-4f3e6265020a> a schema:Person ;
+    schema:birthDate "1959-11-02"^^xsd:date ;
+    schema:email "lauraroberts@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "48dd05a8-c7d1-4188-961c-4f3e6265020a"^^xsd:string ;
+    schema:jobTitle "Community Outreach Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/dec772b7-bb22-4a31-abc9-e970c48ae374> ;
+    schema:name "Laura Roberts"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/Person/4c621cf4-7891-4858-888a-ddced944f470> a schema:Person ;
+    schema:birthDate "1974-08-26"^^xsd:date ;
+    schema:email "chrisvargasmd@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "4c621cf4-7891-4858-888a-ddced944f470"^^xsd:string ;
+    schema:jobTitle "MRI Technologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/c846bf90-40fe-4898-b56b-9357b34dc8b0> ;
+    schema:name "Chris Vargas MD"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/e10f5aca-4c5f-4d77-bbd5-5c5b00c5dc64> .
+
+<http://example.org/Person/4d8b693f-5624-4579-839e-4544c09af912> a schema:Person ;
+    schema:birthDate "1967-06-08"^^xsd:date ;
+    schema:email "michellecmpbell@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "4d8b693f-5624-4579-839e-4544c09af912"^^xsd:string ;
+    schema:jobTitle "ENT Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/90e639e1-e44f-43a9-ad0c-62c3254bf7ae> ;
+    schema:name "Michelle Campbell"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/8a0f6258-8687-42d8-9a76-a6220d477718> .
+
+<http://example.org/Person/5065f500-302b-455e-8e74-965766560a92> a schema:Person ;
+    schema:birthDate "1975-09-05"^^xsd:date ;
+    schema:email "jennarichardson@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "5065f500-302b-455e-8e74-965766560a92"^^xsd:string ;
+    schema:jobTitle "Nurse Practitioner"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/4d6d99a6-28d7-48b4-9d44-38218a7f03ae> ;
+    schema:name "Jenna Richardson"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/50fdf568-eacc-45f0-8a9d-baaeb4a3d122> a schema:Person ;
+    schema:birthDate "1995-09-13"^^xsd:date ;
+    schema:email "jessicaihll@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "50fdf568-eacc-45f0-8a9d-baaeb4a3d122"^^xsd:string ;
+    schema:jobTitle "Ophthalmologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/3ee29e68-6fa0-4319-a54c-e0de6e797a92> ;
+    schema:name "Jessica Hill"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/08527049-e432-472a-8b84-a1dda528dd88> .
+
+<http://example.org/Person/525b64ab-b980-4ed6-acd8-f2ba763be7ac> a schema:Person ;
+    schema:birthDate "1977-11-25"^^xsd:date ;
+    schema:email "melissaallen@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "525b64ab-b980-4ed6-acd8-f2ba763be7ac"^^xsd:string ;
+    schema:jobTitle "Registered Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/ccf719ab-2922-4bd8-9ca5-b35354a1d505> ;
+    schema:name "Melissa Allen"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/8a0f6258-8687-42d8-9a76-a6220d477718> .
+
+<http://example.org/Person/5287114a-f753-48eb-8ea5-b0cf0dbd9133> a schema:Person ;
+    schema:birthDate "1996-03-28"^^xsd:date ;
+    schema:email "mavryschmidt@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "5287114a-f753-48eb-8ea5-b0cf0dbd9133"^^xsd:string ;
+    schema:jobTitle "Dermatologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/ae358290-6d80-4b08-8963-d148104dff66> ;
+    schema:name "Mary Schmidt"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/Person/539150cb-3a4a-4b4f-bd48-a564bba850c2> a schema:Person ;
+    schema:birthDate "1995-05-29"^^xsd:date ;
+    schema:email "rachaellyons@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "539150cb-3a4a-4b4f-bd48-a564bba850c2"^^xsd:string ;
+    schema:jobTitle "Pharmacist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/439f4b86-cd6a-4e0c-b427-965607db34e0> ;
+    schema:name "Rachael Lyons"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/e10f5aca-4c5f-4d77-bbd5-5c5b00c5dc64> .
+
+<http://example.org/Person/55b344a3-16f1-4809-bd33-252169abd798> a schema:Person ;
+    schema:birthDate "1969-04-23"^^xsd:date ;
+    schema:email "danielnewman@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "55b344a3-16f1-4809-bd33-252169abd798"^^xsd:string ;
+    schema:jobTitle "Epidemiologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/69199a8a-aea6-4315-88ef-444a6e63ffa4> ;
+    schema:name "Daniel Newman"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/Person/57348aaf-5d25-4675-8ebc-16a63967005b> a schema:Person ;
+    schema:birthDate "1979-06-13"^^xsd:date ;
+    schema:email "stephaniewilliams@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "57348aaf-5d25-4675-8ebc-16a63967005b"^^xsd:string ;
+    schema:jobTitle "Blood Bank Technologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/606e8502-002f-4cc4-896b-fafff5b7751f> ;
+    schema:name "Stephanie Williams"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/08527049-e432-472a-8b84-a1dda528dd88> .
+
+<http://example.org/Person/5a6481ae-7e35-4d9f-b9df-f9c57ae07997> a schema:Person ;
+    schema:birthDate "1987-01-26"^^xsd:date ;
+    schema:email "hannahcole@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "5a6481ae-7e35-4d9f-b9df-f9c57ae07997"^^xsd:string ;
+    schema:jobTitle "Rehabilitation Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/f9cb2ee8-27be-4381-a544-c97de0789f97> ;
+    schema:name "Hannah Cole"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/Person/5b5e210a-cedf-4731-a576-85f83d9bb49a> a schema:Person ;
+    schema:birthDate "1974-06-20"^^xsd:date ;
+    schema:email "christinawilliams@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "5b5e210a-cedf-4731-a576-85f83d9bb49a"^^xsd:string ;
+    schema:jobTitle "Skin Care Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/ae358290-6d80-4b08-8963-d148104dff66> ;
+    schema:name "Christina Williams"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/Person/5d0fb036-ef0c-4ffa-aac3-fe5cf64a9921> a schema:Person ;
+    schema:birthDate "1972-11-20"^^xsd:date ;
+    schema:email "natthankline@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "5d0fb036-ef0c-4ffa-aac3-fe5cf64a9921"^^xsd:string ;
+    schema:jobTitle "Respiratory Therapist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/7b69e690-4130-4879-a279-d944dc2897c6> ;
+    schema:name "Nathan Kline"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/Person/5dbb518d-6487-438b-ae7e-2ea5a108fdfc> a schema:Person ;
+    schema:birthDate "1998-09-17"^^xsd:date ;
+    schema:email "yolandamartin@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "5dbb518d-6487-438b-ae7e-2ea5a108fdfc"^^xsd:string ;
+    schema:jobTitle "Pharmacist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/702cebbe-3544-4189-a920-46339bb68cd2> ;
+    schema:name "Yolanda Martin"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/5e39d4e4-b2cb-4e1c-9c6a-fc10804ceaf1> a schema:Person ;
+    schema:birthDate "1959-04-04"^^xsd:date ;
+    schema:email "ronaldterrell@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "5e39d4e4-b2cb-4e1c-9c6a-fc10804ceaf1"^^xsd:string ;
+    schema:jobTitle "Radiation Therapist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/627b585f-1f2d-4275-8cbd-c014dbedb42e> ;
+    schema:name "Terrell Ronald"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/Person/5f6db005-c412-4aeb-8710-36cc1a021de7> a schema:Person ;
+    schema:birthDate "1972-02-03"^^xsd:date ;
+    schema:email "jenniferrivera@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "5f6db005-c412-4aeb-8710-36cc1a021de7"^^xsd:string ;
+    schema:jobTitle "Clinical Pharmacologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/439f4b86-cd6a-4e0c-b427-965607db34e0> ;
+    schema:name "Jennifer Rivera"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/e10f5aca-4c5f-4d77-bbd5-5c5b00c5dc64> .
+
+<http://example.org/Person/62d60224-803b-4143-b5af-7f1c71168df3> a schema:Person ;
+    schema:birthDate "1978-08-06"^^xsd:date ;
+    schema:email "shannonmills@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "62d60224-803b-4143-b5af-7f1c71168df3"^^xsd:string ;
+    schema:jobTitle "Infectious Disease Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/69199a8a-aea6-4315-88ef-444a6e63ffa4> ;
+    schema:name "Shannon Mills"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/Person/666b17fd-68ca-4cb7-9295-df275c5cdd22> a schema:Person ;
+    schema:birthDate "1978-09-18"^^xsd:date ;
+    schema:email "ashleysheppard@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "666b17fd-68ca-4cb7-9295-df275c5cdd22"^^xsd:string ;
+    schema:jobTitle "Dermatology Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/ae358290-6d80-4b08-8963-d148104dff66> ;
+    schema:name "Ashley Sheppard"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/Person/69efc05f-089a-4ba9-bdaf-2c785530656f> a schema:Person ;
+    schema:birthDate "1960-16-11"^^xsd:date ;
+    schema:email "amykaier@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "69efc05f-089a-4ba9-bdaf-2c785530656f"^^xsd:string ;
+    schema:jobTitle "Sleep Technician"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/7b69e690-4130-4879-a279-d944dc2897c6> ;
+    schema:name "Amy Kaiser"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/Person/6c469be3-7770-4ee6-b869-c9c8fae1c5dc> a schema:Person ;
+    schema:birthDate "1976-10-09"^^xsd:date ;
+    schema:email "juanmartin@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "6c469be3-7770-4ee6-b869-c9c8fae1c5dc"^^xsd:string ;
+    schema:jobTitle "Oncologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/627b585f-1f2d-4275-8cbd-c014dbedb42e> ;
+    schema:name "Juan Martin"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/Person/6e19adbb-c269-4707-b356-1aa9c6982073> a schema:Person ;
+    schema:birthDate "1990-03-07"^^xsd:date ;
+    schema:email "thomasmartinez@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "6e19adbb-c269-4707-b356-1aa9c6982073"^^xsd:string ;
+    schema:jobTitle "Vision Therapist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/2347b24f-a0f9-4074-9177-b6d45f2e9167> ;
+    schema:name "Thomas Martinez"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/Person/71aef1b9-7e53-4464-9f84-28006c265ed3> a schema:Person ;
+    schema:birthDate "1979-09-26"^^xsd:date ;
+    schema:email "taylorfoley@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "71aef1b9-7e53-4464-9f84-28006c265ed3"^^xsd:string ;
+    schema:jobTitle "Mental Health Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/c334f558-02ce-4581-be15-aa2c07b6e28f> ;
+    schema:name "Taylor Foley"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/9a396f78-73c3-42ff-8a86-f9e50490b88f> .
+
+<http://example.org/Person/71b77917-4ebd-4d94-8e24-a5aabc37936c> a schema:Person ;
+    schema:birthDate "1980-06-18"^^xsd:date ;
+    schema:email "stephanieyoungmd@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "71b77917-4ebd-4d94-8e24-a5aabc37936c"^^xsd:string ;
+    schema:jobTitle "Nurse Practitioner"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/4d6d99a6-28d7-48b4-9d44-38218a7f03ae> ;
+    schema:name "MD Young Stephanie"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/724fb957-268a-4779-8a89-212fd36c4de9> a schema:Person ;
+    schema:birthDate "1990-12-10"^^xsd:date ;
+    schema:email "brucejacobs@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "724fb957-268a-4779-8a89-212fd36c4de9"^^xsd:string ;
+    schema:jobTitle "Public Health Officer"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/12bdf75f-b3c1-41c3-93f2-a37c64d02759> ;
+    schema:name "Bruce Jacobs"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/Person/72a65ff3-3e21-4da5-9cd7-1a3766084626> a schema:Person ;
+    schema:birthDate "1995-06-25"^^xsd:date ;
+    schema:email "jenniferaguilar@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "72a65ff3-3e21-4da5-9cd7-1a3766084626"^^xsd:string ;
+    schema:jobTitle "Neurological Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/a71b80ef-8e36-482f-b856-be31f568c9c6> ;
+    schema:name "Jennifer Aguilar"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/c79b4739-161b-400c-8109-15d390489d3c> .
+
+<http://example.org/Person/72bf2612-5191-4d93-97ba-be3284b47fdf> a schema:Person ;
+    schema:birthDate "1994-03-24"^^xsd:date ;
+    schema:email "nicolebridges@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "72bf2612-5191-4d93-97ba-be3284b47fdf"^^xsd:string ;
+    schema:jobTitle "Rheumatology Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/11fba56e-300a-4187-9cb9-f9aabf4ddeaa> ;
+    schema:name "Nicole Bridges"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/9a396f78-73c3-42ff-8a86-f9e50490b88f> .
+
+<http://example.org/Person/749a6e4d-4923-45c5-8a9d-f46b313fe1b5> a schema:Person ;
+    schema:birthDate "1991-11-27"^^xsd:date ;
+    schema:email "sarahmueller@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "749a6e4d-4923-45c5-8a9d-f46b313fe1b5"^^xsd:string ;
+    schema:jobTitle "Respiratory Therapist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/b2b4c281-a5b9-4ee8-877f-0b62b26489f7> ;
+    schema:name "Sarah Mueller"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/75f0a0ad-30ab-4784-9adf-2b475a039084> a schema:Person ;
+    schema:birthDate "1959-07-04"^^xsd:date ;
+    schema:email "laurenrusso@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "75f0a0ad-30ab-4784-9adf-2b475a039084"^^xsd:string ;
+    schema:jobTitle "Speech Therapist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/00f520f4-9ef1-4846-9dbc-24fd0a8aa1e4> ;
+    schema:name "Lauren Russo"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/Person/76ffbcac-0d99-4fea-94bf-fc445ac64833> a schema:Person ;
+    schema:birthDate "1969-05-08"^^xsd:date ;
+    schema:email "darrencampblel@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "76ffbcac-0d99-4fea-94bf-fc445ac64833"^^xsd:string ;
+    schema:jobTitle "Community Outreach Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/12bdf75f-b3c1-41c3-93f2-a37c64d02759> ;
+    schema:name "Darren Campbell"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/Person/7a6babca-566f-47cc-9359-56c3e65795d0> a schema:Person ;
+    schema:birthDate "1998-01-23"^^xsd:date ;
+    schema:email "lindahamilton@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "7a6babca-566f-47cc-9359-56c3e65795d0"^^xsd:string ;
+    schema:jobTitle "EKG Technician"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/e7e3f52c-0cbf-404d-b5c2-5d429626d8c4> ;
+    schema:name "Linda Hamilton"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/Person/7b8ccc27-e804-4b9e-a820-a8fd53bc6197> a schema:Person ;
+    schema:birthDate "1969-01-11"^^xsd:date ;
+    schema:email "emilymurphy@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "7b8ccc27-e804-4b9e-a820-a8fd53bc6197"^^xsd:string ;
+    schema:jobTitle "Nurse Manager"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/4d6d99a6-28d7-48b4-9d44-38218a7f03ae> ;
+    schema:name "Emily Murphy"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/7b8d1dee-131d-4071-add3-5f6f80d04569> a schema:Person ;
+    schema:birthDate "1969-11-24"^^xsd:date ;
+    schema:email "mscatherinelin@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "7b8d1dee-131d-4071-add3-5f6f80d04569"^^xsd:string ;
+    schema:jobTitle "Infection Control Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/bcee9d29-ce4f-4ca0-971a-a4f640a21015> ;
+    schema:name "M. Catherine Lin"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/c79b4739-161b-400c-8109-15d390489d3c> .
+
+<http://example.org/Person/7cafde2a-e58d-4080-b3c8-2bcdad54bcba> a schema:Person ;
+    schema:birthDate "1965-03-14"^^xsd:date ;
+    schema:email "cynhtiamorrow@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "7cafde2a-e58d-4080-b3c8-2bcdad54bcba"^^xsd:string ;
+    schema:jobTitle "ER Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/739ac9e2-91fd-4d4a-9a31-a6a69b87cc5e> ;
+    schema:name "Cynthia Morrow"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/e10f5aca-4c5f-4d77-bbd5-5c5b00c5dc64> .
+
+<http://example.org/Person/7f7f4662-38c5-4b02-acba-b8f7aa770482> a schema:Person ;
+    schema:birthDate "1978-05-24"^^xsd:date ;
+    schema:email "paulfox@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "7f7f4662-38c5-4b02-acba-b8f7aa770482"^^xsd:string ;
+    schema:jobTitle "Respiratory Therapist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/ebe7ef91-9092-4b69-8abc-847ec2537638> ;
+    schema:name "Paul Fox"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/c79b4739-161b-400c-8109-15d390489d3c> .
+
+<http://example.org/Person/8019ba88-258b-4440-9868-c82ad8b40c1d> a schema:Person ;
+    schema:birthDate "1959-08-20"^^xsd:date ;
+    schema:email "gregoryrowe@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "8019ba88-258b-4440-9868-c82ad8b40c1d"^^xsd:string ;
+    schema:jobTitle "Optometrist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/c4841a8d-2f75-4bde-a616-3e5beda2fc4c> ;
+    schema:name "Gregory Rowe"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/Person/84a79a63-116f-460b-b09d-f55dc104548e> a schema:Person ;
+    schema:birthDate "1998-12-23"^^xsd:date ;
+    schema:email "kevinwalls@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "84a79a63-116f-460b-b09d-f55dc104548e"^^xsd:string ;
+    schema:jobTitle "EKG Technician"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/e7e3f52c-0cbf-404d-b5c2-5d429626d8c4> ;
+    schema:name "Kevin Walls"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/Person/84c8012a-1e5e-4413-b53b-d1b97753902d> a schema:Person ;
+    schema:birthDate "1980-11-04"^^xsd:date ;
+    schema:email "lindajohnson@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "84c8012a-1e5e-4413-b53b-d1b97753902d"^^xsd:string ;
+    schema:jobTitle "EKG Technician"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/e7e3f52c-0cbf-404d-b5c2-5d429626d8c4> ;
+    schema:name "Linda Johnson"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/Person/88933e2c-53a9-4804-81df-7208b2725663> a schema:Person ;
+    schema:birthDate "1987-04-16"^^xsd:date ;
+    schema:email "jamesriely@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "88933e2c-53a9-4804-81df-7208b2725663"^^xsd:string ;
+    schema:jobTitle "Geneticist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/afdb4e0b-0171-4f1d-956a-2f20ee283bb7> ;
+    schema:name "James Riley"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/08527049-e432-472a-8b84-a1dda528dd88> .
+
+<http://example.org/Person/8c425729-84f8-4124-a674-0cf14310cb7b> a schema:Person ;
+    schema:birthDate "1996-02-28"^^xsd:date ;
+    schema:email "melaniemeyer@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "8c425729-84f8-4124-a674-0cf14310cb7b"^^xsd:string ;
+    schema:jobTitle "Communication Disorders Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/00f520f4-9ef1-4846-9dbc-24fd0a8aa1e4> ;
+    schema:name "Melanie Meyer"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/Person/90820c98-0799-4cfb-aff5-6e83fa601264> a schema:Person ;
+    schema:birthDate "1994-06-20"^^xsd:date ;
+    schema:email "connieross@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "90820c98-0799-4cfb-aff5-6e83fa601264"^^xsd:string ;
+    schema:jobTitle "Registered Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/ccf719ab-2922-4bd8-9ca5-b35354a1d505> ;
+    schema:name "Connie Ross"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/8a0f6258-8687-42d8-9a76-a6220d477718> .
+
+<http://example.org/Person/90c90402-37ea-40d5-8218-af45c3107d6e> a schema:Person ;
+    schema:birthDate "1982-12-22"^^xsd:date ;
+    schema:email "johnphillips@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "90c90402-37ea-40d5-8218-af45c3107d6e"^^xsd:string ;
+    schema:jobTitle "Therapist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/c334f558-02ce-4581-be15-aa2c07b6e28f> ;
+    schema:name "John Phillips"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/9a396f78-73c3-42ff-8a86-f9e50490b88f> .
+
+<http://example.org/Person/925aaeda-a1fc-4331-8317-26ae3ec2a0d2> a schema:Person ;
+    schema:birthDate "1975-10-28"^^xsd:date ;
+    schema:email "kennethalvarez@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "925aaeda-a1fc-4331-8317-26ae3ec2a0d2"^^xsd:string ;
+    schema:jobTitle "Hematologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/af273f40-55cd-472e-8b10-cf68b7691470> ;
+    schema:name "Kenneth Alvarez"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/Person/93eb16e2-c1ce-44a4-af1a-f87fbdb91a6f> a schema:Person ;
+    schema:birthDate "1999-10-29"^^xsd:date ;
+    schema:email "aliciakeller@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "93eb16e2-c1ce-44a4-af1a-f87fbdb91a6f"^^xsd:string ;
+    schema:jobTitle "Nurse Manager"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/4d6d99a6-28d7-48b4-9d44-38218a7f03ae> ;
+    schema:name "Alicia Keller"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/95134369-f7de-44b8-b24c-c14291eaaf1d> a schema:Person ;
+    schema:birthDate "1990-10-16"^^xsd:date ;
+    schema:email "paultwalton@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "95134369-f7de-44b8-b24c-c14291eaaf1d"^^xsd:string ;
+    schema:jobTitle "Communication Disorders Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/00f520f4-9ef1-4846-9dbc-24fd0a8aa1e4> ;
+    schema:name "Paul Walton"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/Person/96a585e6-2cba-48b8-b94b-8da235f7ae40> a schema:Person ;
+    schema:birthDate "1983-06-27"^^xsd:date ;
+    schema:email "ginajennings@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "96a585e6-2cba-48b8-b94b-8da235f7ae40"^^xsd:string ;
+    schema:jobTitle "Speech Pathologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/00f520f4-9ef1-4846-9dbc-24fd0a8aa1e4> ;
+    schema:name "Gina Jennings"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/Person/9700dd61-44be-48ea-b3d9-0905583aa51b> a schema:Person ;
+    schema:birthDate "1982-08-15"^^xsd:date ;
+    schema:email "jeffreyjohnson@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "9700dd61-44be-48ea-b3d9-0905583aa51b"^^xsd:string ;
+    schema:jobTitle "Family Physician"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/20ca35ab-3855-4ac8-bd71-85913fee2fc7> ;
+    schema:name "Jeffrey Johnson"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/Person/98e0e545-381f-4aad-b3f2-190ca12c68fb> a schema:Person ;
+    schema:birthDate "1971-01-10"^^xsd:date ;
+    schema:email "drmichaellutz@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "98e0e545-381f-4aad-b3f2-190ca12c68fb"^^xsd:string ;
+    schema:jobTitle "Clinical Pharmacologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/702cebbe-3544-4189-a920-46339bb68cd2> ;
+    schema:name "Dr. Michael Lutz"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/9b578764-89e0-4202-afcd-90981d78797f> a schema:Person ;
+    schema:birthDate "1960-08-27"^^xsd:date ;
+    schema:email "patricialindsey@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "9b578764-89e0-4202-afcd-90981d78797f"^^xsd:string ;
+    schema:jobTitle "Lung Function Technician"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/ebe7ef91-9092-4b69-8abc-847ec2537638> ;
+    schema:name "Lindsey Patricia"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/c79b4739-161b-400c-8109-15d390489d3c> .
+
+<http://example.org/Person/9b7a7dbe-9974-49fb-9a8e-638bd5a60302> a schema:Person ;
+    schema:birthDate "1988-12-16"^^xsd:date ;
+    schema:email "kevinford@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "9b7a7dbe-9974-49fb-9a8e-638bd5a60302"^^xsd:string ;
+    schema:jobTitle "Sleep Technician"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/7b69e690-4130-4879-a279-d944dc2897c6> ;
+    schema:name "K. Ford"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/Person/a0f485ac-009f-410c-8844-ad914b32c5d4> a schema:Person ;
+    schema:birthDate "1964-05-29"^^xsd:date ;
+    schema:email "donnajohnson@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "a0f485ac-009f-410c-8844-ad914b32c5d4"^^xsd:string ;
+    schema:jobTitle "Family Physician"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/20ca35ab-3855-4ac8-bd71-85913fee2fc7> ;
+    schema:name "Donna Johnson"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/Person/a1df7adf-8e04-4915-b5d4-d102ff49aff7> a schema:Person ;
+    schema:birthDate "1982-08-26"^^xsd:date ;
+    schema:email "patriciapena@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "a1df7adf-8e04-4915-b5d4-d102ff49aff7"^^xsd:string ;
+    schema:jobTitle "Pulmonary Function Technologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/b2b4c281-a5b9-4ee8-877f-0b62b26489f7> ;
+    schema:name "Patricia Pena"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/a20ea96a-f78e-4b69-9395-12d2955a9ed9> a schema:Person ;
+    schema:birthDate "1963-10-30"^^xsd:date ;
+    schema:email "gregorycarney@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "a20ea96a-f78e-4b69-9395-12d2955a9ed9"^^xsd:string ;
+    schema:jobTitle "Oncologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/627b585f-1f2d-4275-8cbd-c014dbedb42e> ;
+    schema:name "Gregory Carntey"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/Person/a27f5a9e-627f-4504-9dfb-e1f04377fe84> a schema:Person ;
+    schema:birthDate "1982-05-07"^^xsd:date ;
+    schema:email "ryanroibnson@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "a27f5a9e-627f-4504-9dfb-e1f04377fe84"^^xsd:string ;
+    schema:jobTitle "Cardiac Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/e7e3f52c-0cbf-404d-b5c2-5d429626d8c4> ;
+    schema:name "Ryan Robinson"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/Person/a284d0d2-d2cd-47ff-b35f-2f45d33bdc54> a schema:Person ;
+    schema:birthDate "1962-07-09"^^xsd:date ;
+    schema:email "marystewart@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "a284d0d2-d2cd-47ff-b35f-2f45d33bdc54"^^xsd:string ;
+    schema:jobTitle "Oncology Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/627b585f-1f2d-4275-8cbd-c014dbedb42e> ;
+    schema:name "Stewart Mary"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/Person/a457ab5f-c38d-4c69-9eaa-99be30402435> a schema:Person ;
+    schema:birthDate "1985-06-13"^^xsd:date ;
+    schema:email "dwaynetucker@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "a457ab5f-c38d-4c69-9eaa-99be30402435"^^xsd:string ;
+    schema:jobTitle "Respiratory Therapist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/b2b4c281-a5b9-4ee8-877f-0b62b26489f7> ;
+    schema:name "Tucker Dwayne"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/a5d993de-dd46-49bb-8c0d-1b8704deb624> a schema:Person ;
+    schema:birthDate "1967-08-02"^^xsd:date ;
+    schema:email "aimeefanklin@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "a5d993de-dd46-49bb-8c0d-1b8704deb624"^^xsd:string ;
+    schema:jobTitle "Blood Bank Technologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/606e8502-002f-4cc4-896b-fafff5b7751f> ;
+    schema:name "Aimee Franklin"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/08527049-e432-472a-8b84-a1dda528dd88> .
+
+<http://example.org/Person/a7a4abd8-9538-49ac-abdd-219ca79d185c> a schema:Person ;
+    schema:birthDate "1979-07-01"^^xsd:date ;
+    schema:email "lindseyfoster@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "a7a4abd8-9538-49ac-abdd-219ca79d185c"^^xsd:string ;
+    schema:jobTitle "Infection Control Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/571c9d78-8429-4eae-877e-5ea1c33993f2> ;
+    schema:name "Lindsey Foster"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/9a396f78-73c3-42ff-8a86-f9e50490b88f> .
+
+<http://example.org/Person/a84ebffd-3bc6-48f8-a585-227f8bcb9cd3> a schema:Person ;
+    schema:birthDate "1965-03-08"^^xsd:date ;
+    schema:email "christinerichardson@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "a84ebffd-3bc6-48f8-a585-227f8bcb9cd3"^^xsd:string ;
+    schema:jobTitle "Dermatology Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/ae358290-6d80-4b08-8963-d148104dff66> ;
+    schema:name "Christine Richardson"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/Person/a86bbb10-164e-41f9-bd21-38f6d83ef273> a schema:Person ;
+    schema:birthDate "1995-06-26"^^xsd:date ;
+    schema:email "jamesfox@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "a86bbb10-164e-41f9-bd21-38f6d83ef273"^^xsd:string ;
+    schema:jobTitle "Infection Control Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/571c9d78-8429-4eae-877e-5ea1c33993f2> ;
+    schema:name "James Fox"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/9a396f78-73c3-42ff-8a86-f9e50490b88f> .
+
+<http://example.org/Person/a8951fc0-618d-47cb-8e5f-2535da978e56> a schema:Person ;
+    schema:birthDate "1995-05-17"^^xsd:date ;
+    schema:email "kevinmyers@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "a8951fc0-618d-47cb-8e5f-2535da978e56"^^xsd:string ;
+    schema:jobTitle "Nurse Practitioner"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/4d6d99a6-28d7-48b4-9d44-38218a7f03ae> ;
+    schema:name "Kevin Myers"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/a9f84d76-d7ee-4dfd-9d4c-83b590689d88> a schema:Person ;
+    schema:birthDate "1993-08-16"^^xsd:date ;
+    schema:email "rachelboone@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "a9f84d76-d7ee-4dfd-9d4c-83b590689d88"^^xsd:string ;
+    schema:jobTitle "Clinical Genetics Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/26b61b06-a164-4f58-bb78-eb2d0ee5144d> ;
+    schema:name "Rachel Boone"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/c79b4739-161b-400c-8109-15d390489d3c> .
+
+<http://example.org/Person/aa733789-5f75-48a9-93f5-8992ead26279> a schema:Person ;
+    schema:birthDate "1984-03-25"^^xsd:date ;
+    schema:email "prestongilbert@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "aa733789-5f75-48a9-93f5-8992ead26279"^^xsd:string ;
+    schema:jobTitle "Optometrist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/c4841a8d-2f75-4bde-a616-3e5beda2fc4c> ;
+    schema:name "Preston Gilbert"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/Person/acad9d80-f400-41f0-b157-12800ffec2e0> a schema:Person ;
+    schema:birthDate "1961-08-12"^^xsd:date ;
+    schema:email "robertparker@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "acad9d80-f400-41f0-b157-12800ffec2e0"^^xsd:string ;
+    schema:jobTitle "Physiotherapist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/f9cb2ee8-27be-4381-a544-c97de0789f97> ;
+    schema:name "Robert Parker"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/Person/afe2c802-e633-4fee-b161-5264c4821c1f> a schema:Person ;
+    schema:birthDate "1977-11-23"^^xsd:date ;
+    schema:email "ginataylor@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "afe2c802-e633-4fee-b161-5264c4821c1f"^^xsd:string ;
+    schema:jobTitle "Hematology Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/606e8502-002f-4cc4-896b-fafff5b7751f> ;
+    schema:name "Gina Taylor"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/08527049-e432-472a-8b84-a1dda528dd88> .
+
+<http://example.org/Person/b088a7df-de15-4a1b-8cd6-8e69a37af8a2> a schema:Person ;
+    schema:birthDate "1996-10-07"^^xsd:date ;
+    schema:email "davidwalker@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "b088a7df-de15-4a1b-8cd6-8e69a37af8a2"^^xsd:string ;
+    schema:jobTitle "Infection Control Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/bcee9d29-ce4f-4ca0-971a-a4f640a21015> ;
+    schema:name "David Walker"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/c79b4739-161b-400c-8109-15d390489d3c> .
+
+<http://example.org/Person/b435b035-d415-48b2-841f-6f28693f71a2> a schema:Person ;
+    schema:birthDate "1965-01-31"^^xsd:date ;
+    schema:email "robertmonroe@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "b435b035-d415-48b2-841f-6f28693f71a2"^^xsd:string ;
+    schema:jobTitle "Hematologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/af273f40-55cd-472e-8b10-cf68b7691470> ;
+    schema:name "Robert Monroe"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/Person/b5335ed9-4ff7-4785-a533-4b7b73a1bb6b> a schema:Person ;
+    schema:birthDate "1984-02-11"^^xsd:date ;
+    schema:email "kellyrodrfiguez@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "b5335ed9-4ff7-4785-a533-4b7b73a1bb6b"^^xsd:string ;
+    schema:jobTitle "Blood Bank Technologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/af273f40-55cd-472e-8b10-cf68b7691470> ;
+    schema:name "Kelly Rodriguez"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/Person/b77c0bad-d6b9-400d-b054-50b7d54e657d> a schema:Person ;
+    schema:birthDate "1963-10-22"^^xsd:date ;
+    schema:email "jeanettebranch@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "b77c0bad-d6b9-400d-b054-50b7d54e657d"^^xsd:string ;
+    schema:jobTitle "Speech Pathologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/00f520f4-9ef1-4846-9dbc-24fd0a8aa1e4> ;
+    schema:name "Jeanette Branch"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/Person/ba85afcb-0868-4856-9707-9a3267778850> a schema:Person ;
+    schema:birthDate "1986-07-03"^^xsd:date ;
+    schema:email "michaelchen@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "ba85afcb-0868-4856-9707-9a3267778850"^^xsd:string ;
+    schema:jobTitle "Dietitian"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/b368c553-9c30-4eaa-8f66-b32de19b5837> ;
+    schema:name "Michael Chen"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/8a0f6258-8687-42d8-9a76-a6220d477718> .
+
+<http://example.org/Person/bc7ba73c-cc31-4b99-a5e4-0b41a8042bcd> a schema:Person ;
+    schema:birthDate "1963-11-10"^^xsd:date ;
+    schema:email "brianajohnson@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "bc7ba73c-cc31-4b99-a5e4-0b41a8042bcd"^^xsd:string ;
+    schema:jobTitle "Hematology Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/af273f40-55cd-472e-8b10-cf68b7691470> ;
+    schema:name "Briana Johnson"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/Person/bcd2e71c-871e-4176-a93d-98c5bf8887b6> a schema:Person ;
+    schema:birthDate "1981-10-31"^^xsd:date ;
+    schema:email "charlesgill@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "bcd2e71c-871e-4176-a93d-98c5bf8887b6"^^xsd:string ;
+    schema:jobTitle "Infection Control Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/69199a8a-aea6-4315-88ef-444a6e63ffa4> ;
+    schema:name "Charles Gill"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/Person/bdfcd60e-ec39-4b30-b475-e1479fca2747> a schema:Person ;
+    schema:birthDate "1974-08-09"^^xsd:date ;
+    schema:email "sierrraamirez@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "bdfcd60e-ec39-4b30-b475-e1479fca2747"^^xsd:string ;
+    schema:jobTitle "Nurse Manager"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/4d6d99a6-28d7-48b4-9d44-38218a7f03ae> ;
+    schema:name "Sierra Ramirez"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/c1738634-4ff4-4ba1-add3-0b5bdd9f043a> a schema:Person ;
+    schema:birthDate "1976-02-05"^^xsd:date ;
+    schema:email "justiinibarra@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "c1738634-4ff4-4ba1-add3-0b5bdd9f043a"^^xsd:string ;
+    schema:jobTitle "EEG Technician"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/a71b80ef-8e36-482f-b856-be31f568c9c6> ;
+    schema:name "Justin Ibarra"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/c79b4739-161b-400c-8109-15d390489d3c> .
+
+<http://example.org/Person/c2db142b-153d-46f3-af2b-c7200595c800> a schema:Person ;
+    schema:birthDate "1962-11-16"^^xsd:date ;
+    schema:email "brookesanchez@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "c2db142b-153d-46f3-af2b-c7200595c800"^^xsd:string ;
+    schema:jobTitle "Rheumatology Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/11fba56e-300a-4187-9cb9-f9aabf4ddeaa> ;
+    schema:name "Brooke Sanchez"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/9a396f78-73c3-42ff-8a86-f9e50490b88f> .
+
+<http://example.org/Person/c4224b9b-b356-4b03-9bec-df8845329c6d> a schema:Person ;
+    schema:birthDate "1982-12-07"^^xsd:date ;
+    schema:email "tonyaross@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "c4224b9b-b356-4b03-9bec-df8845329c6d"^^xsd:string ;
+    schema:jobTitle "Rehabilitation Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/f9cb2ee8-27be-4381-a544-c97de0789f97> ;
+    schema:name "Tonya Ross"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/Person/c8b08b22-ff14-4c3d-9a69-17eedfca19c0> a schema:Person ;
+    schema:birthDate "1988-07-30"^^xsd:date ;
+    schema:email "annastewart@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "c8b08b22-ff14-4c3d-9a69-17eedfca19c0"^^xsd:string ;
+    schema:jobTitle "Foot Care Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/209818d1-ef7e-45ec-a417-956f29ee7f3d> ;
+    schema:name "Anna Stewart"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/8a0f6258-8687-42d8-9a76-a6220d477718> .
+
+<http://example.org/Person/c94c6fa2-7e8c-4c45-a277-b6b93f554921> a schema:Person ;
+    schema:birthDate "1970-01-31"^^xsd:date ;
+    schema:email "mrthomasadams@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "c94c6fa2-7e8c-4c45-a277-b6b93f554921"^^xsd:string ;
+    schema:jobTitle "Hematology Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/606e8502-002f-4cc4-896b-fafff5b7751f> ;
+    schema:name "Mr. Thomas Adams"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/08527049-e432-472a-8b84-a1dda528dd88> .
+
+<http://example.org/Person/c9a15f4b-d5e9-407e-a8db-cbff7448a3cd> a schema:Person ;
+    schema:birthDate "1992-01-03"^^xsd:date ;
+    schema:email "kristinparker@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "c9a15f4b-d5e9-407e-a8db-cbff7448a3cd"^^xsd:string ;
+    schema:jobTitle "Respiratory Therapist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/b2b4c281-a5b9-4ee8-877f-0b62b26489f7> ;
+    schema:name "Kristin Parker"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/cacab500-f807-4650-8763-b60172967e70> a schema:Person ;
+    schema:birthDate "1966-04-02"^^xsd:date ;
+    schema:email "meganadvidson@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "cacab500-f807-4650-8763-b60172967e70"^^xsd:string ;
+    schema:jobTitle "Clinical Pharmacologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/94e4cc44-e3fb-4bda-86ae-9d5c65ff6adc> ;
+    schema:name "Megan Davidson"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/Person/cde97334-7b51-4672-bcd0-04d20b609420> a schema:Person ;
+    schema:birthDate "1975-02-13"^^xsd:date ;
+    schema:email "bettysoctt@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "cde97334-7b51-4672-bcd0-04d20b609420"^^xsd:string ;
+    schema:jobTitle "Clinical Pharmacologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/94e4cc44-e3fb-4bda-86ae-9d5c65ff6adc> ;
+    schema:name "Betty Scott"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/Person/d144f8a8-9483-41b2-b2e8-e0b629bb0901> a schema:Person ;
+    schema:birthDate "1989-08-27"^^xsd:date ;
+    schema:email "tinarichardson@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "d144f8a8-9483-41b2-b2e8-e0b629bb0901"^^xsd:string ;
+    schema:jobTitle "Skin Care Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/ae358290-6d80-4b08-8963-d148104dff66> ;
+    schema:name "Tina Richardson"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/Person/d4c0bd76-7d38-42af-8354-3431f49f5e2e> a schema:Person ;
+    schema:birthDate "1970-12-30"^^xsd:date ;
+    schema:email "briannasanchhez@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "d4c0bd76-7d38-42af-8354-3431f49f5e2e"^^xsd:string ;
+    schema:jobTitle "Dental Assistant"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/57d1d37c-c7af-4e8f-9fec-b2ae58e760bf> ;
+    schema:name "Brianna Sanchez"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/d8bbf14c-3075-4b41-b820-322133f9de1f> a schema:Person ;
+    schema:birthDate "1993-03-15"^^xsd:date ;
+    schema:email "gregorysanchez@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "d8bbf14c-3075-4b41-b820-322133f9de1f"^^xsd:string ;
+    schema:jobTitle "Audiologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/90e639e1-e44f-43a9-ad0c-62c3254bf7ae> ;
+    schema:name "Gregory Sanchez"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/8a0f6258-8687-42d8-9a76-a6220d477718> .
+
+<http://example.org/Person/dbe54d5c-0cbf-4b7a-85b8-0af889f2647f> a schema:Person ;
+    schema:birthDate "1963-04-13"^^xsd:date ;
+    schema:email "luiswalsh@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "dbe54d5c-0cbf-4b7a-85b8-0af889f2647f"^^xsd:string ;
+    schema:jobTitle "General Practitioner"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/20ca35ab-3855-4ac8-bd71-85913fee2fc7> ;
+    schema:name "Lxis Walsh"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/Person/dc09095f-adfb-4a29-9f71-bcf2ee0e6354> a schema:Person ;
+    schema:birthDate "1971-07-30"^^xsd:date ;
+    schema:email "michellewilson@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "dc09095f-adfb-4a29-9f71-bcf2ee0e6354"^^xsd:string ;
+    schema:jobTitle "Nurse Practitioner"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/4d6d99a6-28d7-48b4-9d44-38218a7f03ae> ;
+    schema:name "Michelle Wilson"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/ddf08d11-331a-4b6f-8134-bf8e692971c1> a schema:Person ;
+    schema:birthDate "1971-04-14"^^xsd:date ;
+    schema:email "rachaelreed@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "ddf08d11-331a-4b6f-8134-bf8e692971c1"^^xsd:string ;
+    schema:jobTitle "Physiotherapist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/f9cb2ee8-27be-4381-a544-c97de0789f97> ;
+    schema:name "Rachael Reed"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/Person/e00c48f4-49ab-4e36-9da0-281542bcf36a> a schema:Person ;
+    schema:birthDate "1987-10-05"^^xsd:date ;
+    schema:email "angelacordova@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "e00c48f4-49ab-4e36-9da0-281542bcf36a"^^xsd:string ;
+    schema:jobTitle "EKG Technician"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/e7e3f52c-0cbf-404d-b5c2-5d429626d8c4> ;
+    schema:name "A. Cordova"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/Person/e08318f4-5233-44a3-bbb9-bff5554da051> a schema:Person ;
+    schema:birthDate "1983-08-02"^^xsd:date ;
+    schema:email "sherlyroberts@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "e08318f4-5233-44a3-bbb9-bff5554da051"^^xsd:string ;
+    schema:jobTitle "Dietitian"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/094f7d5a-f313-40b0-b6d1-42d05c66a9bb> ;
+    schema:name "S. Roberts"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/9a396f78-73c3-42ff-8a86-f9e50490b88f> .
+
+<http://example.org/Person/e1abf02f-b57e-4b65-8673-88e550bbf901> a schema:Person ;
+    schema:birthDate "1991-09-15"^^xsd:date ;
+    schema:email "jerrymartinezmd@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "e1abf02f-b57e-4b65-8673-88e550bbf901"^^xsd:string ;
+    schema:jobTitle "Clinical Genetics Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/26b61b06-a164-4f58-bb78-eb2d0ee5144d> ;
+    schema:name "Jerty Martinez MD"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/c79b4739-161b-400c-8109-15d390489d3c> .
+
+<http://example.org/Person/e233853d-f4cf-4e3c-8147-71fa631a7dac> a schema:Person ;
+    schema:birthDate "1977-05-02"^^xsd:date ;
+    schema:email "thomasstafford@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "e233853d-f4cf-4e3c-8147-71fa631a7dac"^^xsd:string ;
+    schema:jobTitle "Dentist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/57d1d37c-c7af-4e8f-9fec-b2ae58e760bf> ;
+    schema:name "Thomas Stafford"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/e2f1c58d-3dc1-48f7-9bac-408bf2dc6b82> a schema:Person ;
+    schema:birthDate "1960-08-20"^^xsd:date ;
+    schema:email "donaldharris@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "e2f1c58d-3dc1-48f7-9bac-408bf2dc6b82"^^xsd:string ;
+    schema:jobTitle "Pharmacy Technician"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/702cebbe-3544-4189-a920-46339bb68cd2> ;
+    schema:name "D. Harris"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/e49b1768-3744-4218-a8ae-6a62fbf2ffb4> a schema:Person ;
+    schema:birthDate "1959-04-25"^^xsd:date ;
+    schema:email "derrickwebb@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "e49b1768-3744-4218-a8ae-6a62fbf2ffb4"^^xsd:string ;
+    schema:jobTitle "Hematology Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/af273f40-55cd-472e-8b10-cf68b7691470> ;
+    schema:name "Derrick Webb"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/Person/eb0555ed-f153-45ac-96c0-2e1d89db1ed9> a schema:Person ;
+    schema:birthDate "1970-01-18"^^xsd:date ;
+    schema:email "kaylahansen@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "eb0555ed-f153-45ac-96c0-2e1d89db1ed9"^^xsd:string ;
+    schema:jobTitle "Clinical Genetics Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/afdb4e0b-0171-4f1d-956a-2f20ee283bb7> ;
+    schema:name "Kayla Hansen"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/08527049-e432-472a-8b84-a1dda528dd88> .
+
+<http://example.org/Person/eb6ed95d-0b9e-4289-8586-1e121516cd99> a schema:Person ;
+    schema:birthDate "1994-11-24"^^xsd:date ;
+    schema:email "jeffreytrry@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "eb6ed95d-0b9e-4289-8586-1e121516cd99"^^xsd:string ;
+    schema:jobTitle "Lung Function Technician"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/ebe7ef91-9092-4b69-8abc-847ec2537638> ;
+    schema:name "Jeffrey Terry"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/c79b4739-161b-400c-8109-15d390489d3c> .
+
+<http://example.org/Person/f0cbc363-9686-406f-82a2-082705cfec6c> a schema:Person ;
+    schema:birthDate "1966-12-03"^^xsd:date ;
+    schema:email "msamandadavis@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "f0cbc363-9686-406f-82a2-082705cfec6c"^^xsd:string ;
+    schema:jobTitle "Nephrologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/eecb325b-064f-468d-b080-e0035e7f503c> ;
+    schema:name "Davis Amanda Ms."^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/Person/f18c6d30-6ef2-4c40-b609-b0c4435fee9a> a schema:Person ;
+    schema:birthDate "1964-06-09"^^xsd:date ;
+    schema:email "donaldgutierrez@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "f18c6d30-6ef2-4c40-b609-b0c4435fee9a"^^xsd:string ;
+    schema:jobTitle "Arthritis Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/11fba56e-300a-4187-9cb9-f9aabf4ddeaa> ;
+    schema:name "Donald Gutierrez"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/9a396f78-73c3-42ff-8a86-f9e50490b88f> .
+
+<http://example.org/Person/f2415382-ea43-46bc-9756-721a639a6c03> a schema:Person ;
+    schema:birthDate "1994-07-09"^^xsd:date ;
+    schema:email "jeffreyfrank@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "f2415382-ea43-46bc-9756-721a639a6c03"^^xsd:string ;
+    schema:jobTitle "Hematologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/af273f40-55cd-472e-8b10-cf68b7691470> ;
+    schema:name "Jeffrey Frank"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/Person/f5e92189-fd96-424e-99e7-1b198b991098> a schema:Person ;
+    schema:birthDate "1973-07-14"^^xsd:date ;
+    schema:email "lisampckinney@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "f5e92189-fd96-424e-99e7-1b198b991098"^^xsd:string ;
+    schema:jobTitle "Clinical Pharmacologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/702cebbe-3544-4189-a920-46339bb68cd2> ;
+    schema:name "Lisa Mcinney"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/Person/f78e96d2-27d8-41c0-a7e3-76a472545bd1> a schema:Person ;
+    schema:birthDate "1961-08-01"^^xsd:date ;
+    schema:email "brianjones@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "f78e96d2-27d8-41c0-a7e3-76a472545bd1"^^xsd:string ;
+    schema:jobTitle "Physiotherapist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/f9cb2ee8-27be-4381-a544-c97de0789f97> ;
+    schema:name "B. Jones"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/Person/f7e1d4fa-985c-4230-80c4-e4bbb1114be1> a schema:Person ;
+    schema:birthDate "1967-07-31"^^xsd:date ;
+    schema:email "kellymiller@healthcare.org"^^xsd:string ;
+    schema:gender "Male"^^xsd:string ;
+    schema:identifier "f7e1d4fa-985c-4230-80c4-e4bbb1114be1"^^xsd:string ;
+    schema:jobTitle "Ophthalmologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/2347b24f-a0f9-4074-9177-b6d45f2e9167> ;
+    schema:name "Kelly Miller"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/Person/f7f0ac97-134c-417c-98e5-fbf322914f11> a schema:Person ;
+    schema:birthDate "1970-09-06"^^xsd:date ;
+    schema:email "briannapugh@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "f7f0ac97-134c-417c-98e5-fbf322914f11"^^xsd:string ;
+    schema:jobTitle "Epidemiologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/dec772b7-bb22-4a31-abc9-e970c48ae374> ;
+    schema:name "Brianna Pugh"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/Person/fb99759c-0950-45d7-acc5-7036bc26c451> a schema:Person ;
+    schema:birthDate "1993-09-05"^^xsd:date ;
+    schema:email "charlesharper@healthcare.org"^^xsd:string ;
+    schema:gender "Other"^^xsd:string ;
+    schema:identifier "fb99759c-0950-45d7-acc5-7036bc26c451"^^xsd:string ;
+    schema:jobTitle "Rheumatologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/11fba56e-300a-4187-9cb9-f9aabf4ddeaa> ;
+    schema:name "Harper Charles"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/9a396f78-73c3-42ff-8a86-f9e50490b88f> .
+
+<http://example.org/Person/fd049e8a-0b5c-404f-9036-9a9dc129ecbd> a schema:Person ;
+    schema:birthDate "1972-12-06"^^xsd:date ;
+    schema:email "adrianpratt@healthcare.org"^^xsd:string ;
+    schema:gender "Female"^^xsd:string ;
+    schema:identifier "fd049e8a-0b5c-404f-9036-9a9dc129ecbd"^^xsd:string ;
+    schema:jobTitle "Oncology Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/627b585f-1f2d-4275-8cbd-c014dbedb42e> ;
+    schema:name "Adrian Pratt"^^xsd:string ;
+    schema:worksFor <http://example.org/HealthcareOrganization/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/ServiceDept/0948a4e3-320c-499d-86eb-4a67e8851c58> a schema:Department ;
+    schema:address <http://example.org/Address/17cb09cb-219d-46f2-b64e-177fd3f80955> ;
+    schema:contactPoint <http://example.org/ContactPoint/a6b903e1-c6c6-4e1c-8b51-d55025515081> ;
+    schema:identifier "0948a4e3-320c-499d-86eb-4a67e8851c58"^^xsd:string ;
+    schema:name "Infectious"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/c79b4739-161b-400c-8109-15d390489d3c> .
+
+<http://example.org/ServiceDept/0d184aad-7968-4fe6-bccf-09c6710350e8> a schema:Department ;
+    schema:address <http://example.org/Address/1f2b918e-15cf-47cb-973a-44019bddb916> ;
+    schema:contactPoint <http://example.org/ContactPoint/8d3b8255-8166-4f17-87dc-dc74be8c284f> ;
+    schema:identifier "0d184aad-7968-4fe6-bccf-09c6710350e8"^^xsd:string ;
+    schema:name "Genetic"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/08527049-e432-472a-8b84-a1dda528dd88> .
+
+<http://example.org/ServiceDept/119a9c3a-29d5-43f5-a547-a0c8658004af> a schema:Department ;
+    schema:address <http://example.org/Address/11de4479-7d77-45d9-8be7-1af9be6c1e60> ;
+    schema:contactPoint <http://example.org/ContactPoint/cc678ba1-e5af-45d2-bce4-f2e6b7cdb1f0> ;
+    schema:identifier "119a9c3a-29d5-43f5-a547-a0c8658004af"^^xsd:string ;
+    schema:name "Rheumatologic"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/9a396f78-73c3-42ff-8a86-f9e50490b88f> .
+
+<http://example.org/ServiceDept/1e3d7f55-b71e-49f6-8327-4488ea3bffcd> a schema:Department ;
+    schema:address <http://example.org/Address/23731a6d-635f-4691-98a3-8adb5ed85bc0> ;
+    schema:contactPoint <http://example.org/ContactPoint/51517f67-576e-4fe5-a8bd-fc6ef7a8e877> ;
+    schema:identifier "1e3d7f55-b71e-49f6-8327-4488ea3bffcd"^^xsd:string ;
+    schema:name "Respiratory Therapy"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/ServiceDept/21890f9d-1160-4fe3-9781-c199f16a201c> a schema:Department ;
+    schema:address <http://example.org/Address/ef67a43b-ae3e-44f3-acef-b222ff747d35> ;
+    schema:contactPoint <http://example.org/ContactPoint/8d6a9625-cfd3-48db-833c-8dbb022dd2cf> ;
+    schema:identifier "21890f9d-1160-4fe3-9781-c199f16a201c"^^xsd:string ;
+    schema:name "Nursing"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/8a0f6258-8687-42d8-9a76-a6220d477718> .
+
+<http://example.org/ServiceDept/288c4b73-2d96-444c-b206-4a36ba7360cc> a schema:Department ;
+    schema:address <http://example.org/Address/715f90cd-c7fc-4b98-805a-71ccd535c68b> ;
+    schema:contactPoint <http://example.org/ContactPoint/6c2935ea-d350-4315-a211-610a01946506> ;
+    schema:identifier "288c4b73-2d96-444c-b206-4a36ba7360cc"^^xsd:string ;
+    schema:name "Speech Pathology"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/ServiceDept/2fd4a739-85db-4f7e-9b50-5b812f05b681> a schema:Department ;
+    schema:address <http://example.org/Address/d5c4dbe2-63b7-4d6a-bfc7-da43f4d6d431> ;
+    schema:contactPoint <http://example.org/ContactPoint/b45ed061-8787-46a1-9767-b7008ec4b663> ;
+    schema:identifier "2fd4a739-85db-4f7e-9b50-5b812f05b681"^^xsd:string ;
+    schema:name "Physiotherapy"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/ServiceDept/31b2de03-75eb-469b-a89a-49ff24c2ae16> a schema:Department ;
+    schema:address <http://example.org/Address/04a75769-eb71-4b60-be07-e1f9f9dcd6de> ;
+    schema:contactPoint <http://example.org/ContactPoint/1d10aa71-c25e-41c2-b317-6cbe388306d2> ;
+    schema:identifier "31b2de03-75eb-469b-a89a-49ff24c2ae16"^^xsd:string ;
+    schema:name "Blood Disorders Clinic"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/08527049-e432-472a-8b84-a1dda528dd88> .
+
+<http://example.org/ServiceDept/36e9ca42-bd99-4893-be92-302d1e6b9da3> a schema:Department ;
+    schema:address <http://example.org/Address/f15e7c5b-5edd-4a42-be3e-d9978ee643a2> ;
+    schema:contactPoint <http://example.org/ContactPoint/0dde20d3-ed3d-44dc-8504-cc2d343ade54> ;
+    schema:identifier "36e9ca42-bd99-4893-be92-302d1e6b9da3"^^xsd:string ;
+    schema:name "Psychiatric"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/9a396f78-73c3-42ff-8a86-f9e50490b88f> .
+
+<http://example.org/ServiceDept/3a9adc8d-4d80-481f-86d7-7177cebf7776> a schema:Department ;
+    schema:address <http://example.org/Address/da7c97b5-40f6-446a-bff1-94c26ae6c6f0> ;
+    schema:contactPoint <http://example.org/ContactPoint/0d556e02-a96e-4f4d-9d44-412ebe849a71> ;
+    schema:identifier "3a9adc8d-4d80-481f-86d7-7177cebf7776"^^xsd:string ;
+    schema:name "Nursing"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/ServiceDept/3bb55d39-1d25-4505-91a1-fca1ff690342> a schema:Department ;
+    schema:address <http://example.org/Address/02eed237-f3f2-43a6-998a-40431c1ea142> ;
+    schema:contactPoint <http://example.org/ContactPoint/47008665-a02b-441e-a26c-895d32f203ef> ;
+    schema:identifier "3bb55d39-1d25-4505-91a1-fca1ff690342"^^xsd:string ;
+    schema:name "Pharmacy Specialty"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/ServiceDept/3c8a39ee-6a15-48d1-b2fe-cf9d8edeea51> a schema:Department ;
+    schema:address <http://example.org/Address/9725b914-34d8-4a7d-9b2a-b5725a0e4aba> ;
+    schema:contactPoint <http://example.org/ContactPoint/466a1e68-ed89-448f-b97b-428a20e6c2d6> ;
+    schema:identifier "3c8a39ee-6a15-48d1-b2fe-cf9d8edeea51"^^xsd:string ;
+    schema:name "Kidney"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/ServiceDept/4b1e98da-69fb-43d1-8218-532f382ae044> a schema:Department ;
+    schema:address <http://example.org/Address/86a9d4b7-adf5-4591-8e2d-c479913c5c21> ;
+    schema:contactPoint <http://example.org/ContactPoint/5a409591-227d-4088-93d7-59e565290153> ;
+    schema:identifier "4b1e98da-69fb-43d1-8218-532f382ae044"^^xsd:string ;
+    schema:name "Infectious"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/ServiceDept/4ea698fc-f299-4961-8d13-f23ca3f1f872> a schema:Department ;
+    schema:address <http://example.org/Address/97cabebd-6a7c-4e3b-86e2-f917b0e8590f> ;
+    schema:contactPoint <http://example.org/ContactPoint/7c2cf97e-a697-469c-84fa-816fb91ce087> ;
+    schema:identifier "4ea698fc-f299-4961-8d13-f23ca3f1f872"^^xsd:string ;
+    schema:name "Pub Health"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/ServiceDept/58506f15-70cd-4f91-bb3f-a1671130beb1> a schema:Department ;
+    schema:address <http://example.org/Address/ee5a6540-357a-4419-b95a-9b38a592a4a4> ;
+    schema:contactPoint <http://example.org/ContactPoint/9a4dcd47-8e3e-48b8-abb1-b892bc2e6929> ;
+    schema:identifier "58506f15-70cd-4f91-bb3f-a1671130beb1"^^xsd:string ;
+    schema:name "Respiratory Therapy"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/ServiceDept/5c7d1103-a545-4dcd-86cd-521da69f0adf> a schema:Department ;
+    schema:address <http://example.org/Address/271f2854-7b8f-4042-8e38-796e992e934f> ;
+    schema:contactPoint <http://example.org/ContactPoint/7c8feea5-ac5e-4c07-848f-05b6cf3e1708> ;
+    schema:identifier "5c7d1103-a545-4dcd-86cd-521da69f0adf"^^xsd:string ;
+    schema:name "Infectious"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/9a396f78-73c3-42ff-8a86-f9e50490b88f> .
+
+<http://example.org/ServiceDept/6ad92085-8966-4c02-b3ec-95f889ea6a01> a schema:Department ;
+    schema:address <http://example.org/Address/bab0859e-fce2-411e-bfba-8d5e55dcdf7b> ;
+    schema:contactPoint <http://example.org/ContactPoint/2b0995ea-32d4-422a-85a9-df7377fb591c> ;
+    schema:identifier "6ad92085-8966-4c02-b3ec-95f889ea6a01"^^xsd:string ;
+    schema:name "Medical Imaging"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/e10f5aca-4c5f-4d77-bbd5-5c5b00c5dc64> .
+
+<http://example.org/ServiceDept/6e1702aa-8993-413c-b5fd-a08541998811> a schema:Department ;
+    schema:address <http://example.org/Address/fd4fd4e1-9e9c-4f60-870f-570fee8a2024> ;
+    schema:contactPoint <http://example.org/ContactPoint/8033e4f8-715c-46b7-b235-45b1c0b2185f> ;
+    schema:identifier "6e1702aa-8993-413c-b5fd-a08541998811"^^xsd:string ;
+    schema:name "Pulmonary"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/c79b4739-161b-400c-8109-15d390489d3c> .
+
+<http://example.org/ServiceDept/762e420d-cc48-42d8-b9f9-5154f21b68c7> a schema:Department ;
+    schema:address <http://example.org/Address/da5c9b9e-2c51-4c7a-8ae4-e6d7b434f4d2> ;
+    schema:contactPoint <http://example.org/ContactPoint/c4b897d7-d466-4c35-98e1-6bfac56c887a> ;
+    schema:identifier "762e420d-cc48-42d8-b9f9-5154f21b68c7"^^xsd:string ;
+    schema:name "Vision Care Center"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/ServiceDept/772c8624-487a-478b-8114-fe82f6341b75> a schema:Department ;
+    schema:address <http://example.org/Address/2cd13b1e-5f95-4bbb-abc7-a34638108795> ;
+    schema:contactPoint <http://example.org/ContactPoint/91d67bfe-9b4a-40a8-bb38-838c2400991a> ;
+    schema:identifier "772c8624-487a-478b-8114-fe82f6341b75"^^xsd:string ;
+    schema:name "Dentistry"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/ServiceDept/7cf9e862-d15b-467d-b382-15442e1f47d1> a schema:Department ;
+    schema:address <http://example.org/Address/73b336e1-49e6-44f9-9f2a-66ce2392c2d1> ;
+    schema:contactPoint <http://example.org/ContactPoint/a1865588-8c12-4bbf-a80c-b2b17b0fee6b> ;
+    schema:identifier "7cf9e862-d15b-467d-b382-15442e1f47d1"^^xsd:string ;
+    schema:name "ER"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/e10f5aca-4c5f-4d77-bbd5-5c5b00c5dc64> .
+
+<http://example.org/ServiceDept/7da33904-5294-493e-9f95-8a26d0a4a1e0> a schema:Department ;
+    schema:address <http://example.org/Address/7c3b09d4-9945-4ce7-80a8-7b704a37cd27> ;
+    schema:contactPoint <http://example.org/ContactPoint/0bc777eb-eba6-44da-9e9b-01d13cbf8b55> ;
+    schema:identifier "7da33904-5294-493e-9f95-8a26d0a4a1e0"^^xsd:string ;
+    schema:name "Diet Nutrition"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/9a396f78-73c3-42ff-8a86-f9e50490b88f> .
+
+<http://example.org/ServiceDept/7ffd7f40-22a6-4566-8bf1-db39dd8a1c61> a schema:Department ;
+    schema:address <http://example.org/Address/b17c40ec-916e-46e3-8e5d-dbac74fb413b> ;
+    schema:contactPoint <http://example.org/ContactPoint/3435b401-5a4d-4284-aed9-accc3ec268b9> ;
+    schema:identifier "7ffd7f40-22a6-4566-8bf1-db39dd8a1c61"^^xsd:string ;
+    schema:name "Physiotherapy"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/e10f5aca-4c5f-4d77-bbd5-5c5b00c5dc64> .
+
+<http://example.org/ServiceDept/888522ad-51db-417e-a84e-4c8b32cbf9c8> a schema:Department ;
+    schema:address <http://example.org/Address/91225b53-fec0-42bd-86d6-c1aafc8338ff> ;
+    schema:contactPoint <http://example.org/ContactPoint/75d53b9f-0df6-42a4-b02a-6b477105209b> ;
+    schema:identifier "888522ad-51db-417e-a84e-4c8b32cbf9c8"^^xsd:string ;
+    schema:name "Pharmacy Specialty"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/e10f5aca-4c5f-4d77-bbd5-5c5b00c5dc64> .
+
+<http://example.org/ServiceDept/937ecf45-7c3a-4f92-9dd3-f66b4bfccf66> a schema:Department ;
+    schema:address <http://example.org/Address/9e316045-9aea-479d-bbdc-4002f7a0b5df> ;
+    schema:contactPoint <http://example.org/ContactPoint/f9806d5c-66ad-48ed-baf2-07473e513599> ;
+    schema:identifier "937ecf45-7c3a-4f92-9dd3-f66b4bfccf66"^^xsd:string ;
+    schema:name "Otolaryngologic"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/8a0f6258-8687-42d8-9a76-a6220d477718> .
+
+<http://example.org/ServiceDept/9726408b-39f5-44d7-b4bc-73e1bf6a1ec9> a schema:Department ;
+    schema:address <http://example.org/Address/e08e3ed3-33c9-46ee-a244-3b1d6c50de60> ;
+    schema:contactPoint <http://example.org/ContactPoint/7b0f30ff-5bb1-4cb1-97fd-56a6ef090dfc> ;
+    schema:identifier "9726408b-39f5-44d7-b4bc-73e1bf6a1ec9"^^xsd:string ;
+    schema:name "Optometric"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/ServiceDept/9e8c4e70-346e-4b1c-9245-43f30de530df> a schema:Department ;
+    schema:address <http://example.org/Address/999420b3-3fb4-45a5-be03-c5dcea4bd75d> ;
+    schema:contactPoint <http://example.org/ContactPoint/38ce346b-f333-45f6-a306-e748fa1c19fa> ;
+    schema:identifier "9e8c4e70-346e-4b1c-9245-43f30de530df"^^xsd:string ;
+    schema:name "Public Health"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> .
+
+<http://example.org/ServiceDept/c2f3591b-4fa7-483d-8d05-e2b99e4938e3> a schema:Department ;
+    schema:address <http://example.org/Address/f8090bec-29c7-42af-bdeb-32c6a9e51da0> ;
+    schema:contactPoint <http://example.org/ContactPoint/3b9bc89d-0f6e-43d3-bc1d-865bf21b673d> ;
+    schema:identifier "c2f3591b-4fa7-483d-8d05-e2b99e4938e3"^^xsd:string ;
+    schema:name "Oncologic"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/ServiceDept/cb530cf0-9a71-4a02-a68e-06cdce380cd4> a schema:Department ;
+    schema:address <http://example.org/Address/3f450e0a-99bf-4c0c-9472-8359a8f4fc3d> ;
+    schema:contactPoint <http://example.org/ContactPoint/3ebb55ed-f2e6-4ca2-88c8-a7f92c65eb44> ;
+    schema:identifier "cb530cf0-9a71-4a02-a68e-06cdce380cd4"^^xsd:string ;
+    schema:name "Pharmacy Specialty"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/47ad62a2-7adb-4637-9218-42a19303b9e4> .
+
+<http://example.org/ServiceDept/d4c52159-6de1-4137-a346-fd7697936cc2> a schema:Department ;
+    schema:address <http://example.org/Address/65666edd-7a04-48ad-976d-8a58908ae695> ;
+    schema:contactPoint <http://example.org/ContactPoint/7de6b050-5f2e-49da-a50f-9ba1a75bc621> ;
+    schema:identifier "d4c52159-6de1-4137-a346-fd7697936cc2"^^xsd:string ;
+    schema:name "Optometric"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/08527049-e432-472a-8b84-a1dda528dd88> .
+
+<http://example.org/ServiceDept/d6a8db12-29fe-4a37-ba9c-cb5f0c222199> a schema:Department ;
+    schema:address <http://example.org/Address/541bdfe4-6b1f-4688-aae2-288aee78747b> ;
+    schema:contactPoint <http://example.org/ContactPoint/e862954f-9fec-4e5d-86aa-063a1aed456b> ;
+    schema:identifier "d6a8db12-29fe-4a37-ba9c-cb5f0c222199"^^xsd:string ;
+    schema:name "Podiatric"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/8a0f6258-8687-42d8-9a76-a6220d477718> .
+
+<http://example.org/ServiceDept/dd58ef8d-5a12-41fd-8717-5a76ea33250a> a schema:Department ;
+    schema:address <http://example.org/Address/399de3d2-a5e2-4225-a5da-e29d10e80a75> ;
+    schema:contactPoint <http://example.org/ContactPoint/dffb5fef-6bba-4b59-b8ed-c324295196aa> ;
+    schema:identifier "dd58ef8d-5a12-41fd-8717-5a76ea33250a"^^xsd:string ;
+    schema:name "Genetic"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/c79b4739-161b-400c-8109-15d390489d3c> .
+
+<http://example.org/ServiceDept/e9a2d6c8-a219-409c-a1f4-c7ea1a2275ee> a schema:Department ;
+    schema:address <http://example.org/Address/f5e0df84-f7f8-4e86-bddf-b821d6d650ed> ;
+    schema:contactPoint <http://example.org/ContactPoint/de096534-f82a-4a16-8e02-7264f43f9628> ;
+    schema:identifier "e9a2d6c8-a219-409c-a1f4-c7ea1a2275ee"^^xsd:string ;
+    schema:name "Hematologic"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/aa185193-367e-482b-a0a0-d523acfb8d65> .
+
+<http://example.org/ServiceDept/ee00479d-4893-483b-aea9-943d6aaad527> a schema:Department ;
+    schema:address <http://example.org/Address/eda1cccb-c933-4d2e-aef1-823c3f72b4a2> ;
+    schema:contactPoint <http://example.org/ContactPoint/b7a1b24d-723f-4c15-8804-68f0f85c1887> ;
+    schema:identifier "ee00479d-4893-483b-aea9-943d6aaad527"^^xsd:string ;
+    schema:name "Neurologic"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/c79b4739-161b-400c-8109-15d390489d3c> .
+
+<http://example.org/ServiceDept/f546d00c-73ae-4f72-9509-43361436314e> a schema:Department ;
+    schema:address <http://example.org/Address/5641857a-06e1-46dc-960a-2a61624f43bb> ;
+    schema:contactPoint <http://example.org/ContactPoint/5210908f-4a17-4d63-8eb2-42cebcaccbcd> ;
+    schema:identifier "f546d00c-73ae-4f72-9509-43361436314e"^^xsd:string ;
+    schema:name "Diet Nutrition"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/8a0f6258-8687-42d8-9a76-a6220d477718> .
+
+<http://example.org/ServiceDept/f57b2b84-dbf7-4158-90e9-633240ec58d8> a schema:Department ;
+    schema:address <http://example.org/Address/c32fdd59-ef31-4cbb-a841-5f7d70ddd626> ;
+    schema:contactPoint <http://example.org/ContactPoint/e18da1d9-a1ad-45f0-b5d6-6a261811c763> ;
+    schema:identifier "f57b2b84-dbf7-4158-90e9-633240ec58d8"^^xsd:string ;
+    schema:name "Skin Care Center"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/ServiceDept/f71d3495-3e57-4e4b-aa02-9198ef3730cb> a schema:Department ;
+    schema:address <http://example.org/Address/254e93e5-4733-419f-8acf-71829a6bb9f1> ;
+    schema:contactPoint <http://example.org/ContactPoint/3d2d1318-5603-4e44-bb4d-ba8c4fc05ef6> ;
+    schema:identifier "f71d3495-3e57-4e4b-aa02-9198ef3730cb"^^xsd:string ;
+    schema:name "Cardiovascular"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/055ae6de-6ef0-429d-b7b5-4f0a08c87898> .
+
+<http://example.org/ServiceDept/fc08dfcd-84e1-45be-8db6-6ebe97a7110f> a schema:Department ;
+    schema:address <http://example.org/Address/b8896581-5ecb-4003-a567-bbfbbcaf05b1> ;
+    schema:contactPoint <http://example.org/ContactPoint/7faf8243-ac66-4332-b979-59b8a0535768> ;
+    schema:identifier "fc08dfcd-84e1-45be-8db6-6ebe97a7110f"^^xsd:string ;
+    schema:name "Primary Care"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrg/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> .
+
+<http://example.org/Address/02eed237-f3f2-43a6-998a-40431c1ea142> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Mureck"^^xsd:string ;
+    schema:identifier "02eed237-f3f2-43a6-998a-40431c1ea142"^^xsd:string ;
+    schema:postalCode "4351"^^xsd:string ;
+    schema:streetAddress "Anabella-Lintner-Ring 76"^^xsd:string .
+
+<http://example.org/Address/02feac9a-aebb-4692-b177-9eb66582fd29> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Zenderen"^^xsd:string ;
+    schema:identifier "02feac9a-aebb-4692-b177-9eb66582fd29"^^xsd:string ;
+    schema:postalCode "6742 DM"^^xsd:string ;
+    schema:streetAddress "Rikboulevard 105"^^xsd:string .
+
+<http://example.org/Address/04a75769-eb71-4b60-be07-e1f9f9dcd6de> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Mannersdorf am Leithagebirge"^^xsd:string ;
+    schema:identifier "04a75769-eb71-4b60-be07-e1f9f9dcd6de"^^xsd:string ;
+    schema:postalCode "7106"^^xsd:string ;
+    schema:streetAddress "Juliana-Eberhard-Gasse 83"^^xsd:string .
+
+<http://example.org/Address/0f4ea7b5-ecd5-47ee-a383-9d0313768297> a schema:PostalAddress ;
+    schema:addressCountry "Austria"^^xsd:string ;
+    schema:addressLocality "Bad Vöslau"^^xsd:string ;
+    schema:identifier "0f4ea7b5-ecd5-47ee-a383-9d0313768297"^^xsd:string ;
+    schema:postalCode "5797"^^xsd:string ;
+    schema:streetAddress "Grafstr. 83"^^xsd:string .
+
+<http://example.org/Address/11de4479-7d77-45d9-8be7-1af9be6c1e60> a schema:PostalAddress ;
+    schema:addressCountry "EE"^^xsd:string ;
+    schema:addressLocality "Teearuview"^^xsd:string ;
+    schema:identifier "11de4479-7d77-45d9-8be7-1af9be6c1e60"^^xsd:string ;
+    schema:postalCode "21070"^^xsd:string ;
+    schema:streetAddress "Anu Port 18"^^xsd:string .
+
+<http://example.org/Address/17cb09cb-219d-46f2-b64e-177fd3f80955> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Duizel"^^xsd:string ;
+    schema:identifier "17cb09cb-219d-46f2-b64e-177fd3f80955"^^xsd:string ;
+    schema:postalCode "3247 NM"^^xsd:string ;
+    schema:streetAddress "Abelsteeg 149"^^xsd:string .
+
+<http://example.org/Address/1f2b918e-15cf-47cb-973a-44019bddb916> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Fiischamend"^^xsd:string ;
+    schema:identifier "1f2b918e-15cf-47cb-973a-44019bddb916"^^xsd:string ;
+    schema:postalCode "6374"^^xsd:string ;
+    schema:streetAddress "Merlin-Gattringer-Platz 100"^^xsd:string .
+
+<http://example.org/Address/23731a6d-635f-4691-98a3-8adb5ed85bc0> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Holwiere"^^xsd:string ;
+    schema:identifier "23731a6d-635f-4691-98a3-8adb5ed85bc0"^^xsd:string ;
+    schema:postalCode "2449 TM"^^xsd:string ;
+    schema:streetAddress "Twanhof 24"^^xsd:string .
+
+<http://example.org/Address/250713a3-ce19-48f8-a21e-4e55c3244ef9> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Stevensbeek"^^xsd:string ;
+    schema:identifier "250713a3-ce19-48f8-a21e-4e55c3244ef9"^^xsd:string ;
+    schema:postalCode "5997 SF"^^xsd:string ;
+    schema:streetAddress "Yasminbaan 5"^^xsd:string .
+
+<http://example.org/Address/254e93e5-4733-419f-8acf-71829a6bb9f1> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Triebben"^^xsd:string ;
+    schema:identifier "254e93e5-4733-419f-8acf-71829a6bb9f1"^^xsd:string ;
+    schema:postalCode "7136"^^xsd:string ;
+    schema:streetAddress "Schwaigerplatz 94"^^xsd:string .
+
+<http://example.org/Address/271f2854-7b8f-4042-8e38-796e992e934f> a schema:PostalAddress ;
+    schema:addressCountry "EE"^^xsd:string ;
+    schema:addressLocality "Allikton"^^xsd:string ;
+    schema:identifier "271f2854-7b8f-4042-8e38-796e992e934f"^^xsd:string ;
+    schema:postalCode "91429"^^xsd:string ;
+    schema:streetAddress "Filippov Knolls 62"^^xsd:string .
+
+<http://example.org/Address/2cd13b1e-5f95-4bbb-abc7-a34638108795> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Erichem"^^xsd:string ;
+    schema:identifier "2cd13b1e-5f95-4bbb-abc7-a34638108795"^^xsd:string ;
+    schema:postalCode "1420 OC"^^xsd:string ;
+    schema:streetAddress "Woutring 5"^^xsd:string .
+
+<http://example.org/Address/2e9a8e08-7f8c-430f-b312-70d398757209> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Mistelbach an der Zaya"^^xsd:string ;
+    schema:identifier "2e9a8e08-7f8c-430f-b312-70d398757209"^^xsd:string ;
+    schema:postalCode "6838 "^^xsd:string ;
+    schema:streetAddress "Anna-Lena-Nemeth-Straße 16"^^xsd:string .
+
+<http://example.org/Address/399de3d2-a5e2-4225-a5da-e29d10e80a75> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Geldrop"^^xsd:string ;
+    schema:identifier "399de3d2-a5e2-4225-a5da-e29d10e80a75"^^xsd:string ;
+    schema:postalCode "2538 VP"^^xsd:string ;
+    schema:streetAddress "Catopad 70"^^xsd:string .
+
+<http://example.org/Address/3f450e0a-99bf-4c0c-9472-8359a8f4fc3d> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Hellevoetsluuis"^^xsd:string ;
+    schema:identifier "3f450e0a-99bf-4c0c-9472-8359a8f4fc3d"^^xsd:string ;
+    schema:postalCode "5706 TU"^^xsd:string ;
+    schema:streetAddress "Madsstraat 107"^^xsd:string .
+
+<http://example.org/Address/541bdfe4-6b1f-4688-aae2-288aee78747b> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Vils"^^xsd:string ;
+    schema:identifier "541bdfe4-6b1f-4688-aae2-288aee78747b"^^xsd:string ;
+    schema:postalCode "3974"^^xsd:string ;
+    schema:streetAddress "Kocherstr. 37"^^xsd:string .
+
+<http://example.org/Address/5641857a-06e1-46dc-960a-2a61624f43bb> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Imst"^^xsd:string ;
+    schema:identifier "5641857a-06e1-46dc-960a-2a61624f43bb"^^xsd:string ;
+    schema:postalCode "8058"^^xsd:string ;
+    schema:streetAddress "Brandstättergasse 141"^^xsd:string .
+
+<http://example.org/Address/62f6170a-2e0f-41c8-9cb6-fe64574fcddf> a schema:PostalAddress ;
+    schema:addressCountry "EE"^^xsd:string ;
+    schema:addressLocality "Sergeiport"^^xsd:string ;
+    schema:identifier "62f6170a-2e0f-41c8-9cb6-fe64574fcddf"^^xsd:string ;
+    schema:postalCode "61407"^^xsd:string ;
+    schema:streetAddress "Ott Roads 92B"^^xsd:string .
+
+<http://example.org/Address/65666edd-7a04-48ad-976d-8a58908ae695> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Ybbs an der Donau"^^xsd:string ;
+    schema:identifier "65666edd-7a04-48ad-976d-8a58908ae695"^^xsd:string ;
+    schema:postalCode "7926"^^xsd:string ;
+    schema:streetAddress "Marko-Bacher-Gasse 85"^^xsd:string .
+
+<http://example.org/Address/715f90cd-c7fc-4b98-805a-71ccd535c68b> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Eggenburg"^^xsd:string ;
+    schema:identifier "715f90cd-c7fc-4b98-805a-71ccd535c68b"^^xsd:string ;
+    schema:postalCode "8857 "^^xsd:string ;
+    schema:streetAddress "Lea-Kronberger-Weg 71"^^xsd:string .
+
+<http://example.org/Address/73b336e1-49e6-44f9-9f2a-66ce2392c2d1> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Rattenberg"^^xsd:string ;
+    schema:identifier "73b336e1-49e6-44f9-9f2a-66ce2392c2d1"^^xsd:string ;
+    schema:postalCode "3257"^^xsd:string ;
+    schema:streetAddress "Zettlplatz 45"^^xsd:string .
+
+<http://example.org/Address/7c3b09d4-9945-4ce7-80a8-7b704a37cd27> a schema:PostalAddress ;
+    schema:addressCountry "EE"^^xsd:string ;
+    schema:addressLocality "Klaasburgh"^^xsd:string ;
+    schema:identifier "7c3b09d4-9945-4ce7-80a8-7b704a37cd27"^^xsd:string ;
+    schema:postalCode "91601"^^xsd:string ;
+    schema:streetAddress "Andres Shoals 22"^^xsd:string .
+
+<http://example.org/Address/86a9d4b7-adf5-4591-8e2d-c479913c5c21> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Oudwoude"^^xsd:string ;
+    schema:identifier "86a9d4b7-adf5-4591-8e2d-c479913c5c21"^^xsd:string ;
+    schema:postalCode "5314 ND"^^xsd:string ;
+    schema:streetAddress "Evasingel 143"^^xsd:string .
+
+<http://example.org/Address/91225b53-fec0-42bd-86d6-c1aafc8338ff> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Litschau"^^xsd:string ;
+    schema:identifier "91225b53-fec0-42bd-86d6-c1aafc8338ff"^^xsd:string ;
+    schema:postalCode "2967"^^xsd:string ;
+    schema:streetAddress "Urbanweg 98"^^xsd:string .
+
+<http://example.org/Address/9725b914-34d8-4a7d-9b2a-b5725a0e4aba> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Bruck an der Leitha"^^xsd:string ;
+    schema:identifier "9725b914-34d8-4a7d-9b2a-b5725a0e4aba"^^xsd:string ;
+    schema:postalCode "8043"^^xsd:string ;
+    schema:streetAddress "Lucie-Bräuer-Gasse 143"^^xsd:string .
+
+<http://example.org/Address/97cabebd-6a7c-4e3b-86e2-f917b0e8590f> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Stieltjeskanaal"^^xsd:string ;
+    schema:identifier "97cabebd-6a7c-4e3b-86e2-f917b0e8590f"^^xsd:string ;
+    schema:postalCode "5400 MH"^^xsd:string ;
+    schema:streetAddress "Leonweg 7"^^xsd:string .
+
+<http://example.org/Address/999420b3-3fb4-45a5-be03-c5dcea4bd75d> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Feldbach"^^xsd:string ;
+    schema:identifier "999420b3-3fb4-45a5-be03-c5dcea4bd75d"^^xsd:string ;
+    schema:postalCode "3699"^^xsd:string ;
+    schema:streetAddress "Milica-Engl-Straße 75"^^xsd:string .
+
+<http://example.org/Address/9e316045-9aea-479d-bbdc-4002f7a0b5df> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Stockerau"^^xsd:string ;
+    schema:identifier "9e316045-9aea-479d-bbdc-4002f7a0b5df"^^xsd:string ;
+    schema:postalCode "5134"^^xsd:string ;
+    schema:streetAddress "Rossmanngasse 116"^^xsd:string .
+
+<http://example.org/Address/ad1c95fc-03f8-415c-b8d8-8433efb802a8> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Wolfsberg"^^xsd:string ;
+    schema:identifier "ad1c95fc-03f8-415c-b8d8-8433efb802a8"^^xsd:string ;
+    schema:postalCode "3840"^^xsd:string ;
+    schema:streetAddress "Neumüllerplatz 128"^^xsd:string .
+
+<http://example.org/Address/b17c40ec-916e-46e3-8e5d-dbac74fb413b> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Gföhl"^^xsd:string ;
+    schema:identifier "b17c40ec-916e-46e3-8e5d-dbac74fb413b"^^xsd:string ;
+    schema:postalCode "5224"^^xsd:string ;
+    schema:streetAddress "Krainerstraße 149"^^xsd:string .
+
+<http://example.org/Address/b8896581-5ecb-4003-a567-bbfbbcaf05b1> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Nieuwkoop"^^xsd:string ;
+    schema:identifier "b8896581-5ecb-4003-a567-bbfbbcaf05b1"^^xsd:string ;
+    schema:postalCode "2121 WH"^^xsd:string ;
+    schema:streetAddress "Mikasteeg 65"^^xsd:string .
+
+<http://example.org/Address/bab0859e-fce2-411e-bfba-8d5e55dcdf7b> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Klosterneuburg"^^xsd:string ;
+    schema:identifier "bab0859e-fce2-411e-bfba-8d5e55dcdf7b"^^xsd:string ;
+    schema:postalCode "4866"^^xsd:string ;
+    schema:streetAddress "Zeilerplatz 37"^^xsd:string .
+
+<http://example.org/Address/bd7e62a7-e70c-4ce6-b833-cf65dc65dd92> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Voorhout"^^xsd:string ;
+    schema:identifier "bd7e62a7-e70c-4ce6-b833-cf65dc65dd92"^^xsd:string ;
+    schema:postalCode "8176 JO"^^xsd:string ;
+    schema:streetAddress "Lolastraat 11"^^xsd:string .
+
+<http://example.org/Address/c32fdd59-ef31-4cbb-a841-5f7d70ddd626> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Bad Ischl"^^xsd:string ;
+    schema:identifier "c32fdd59-ef31-4cbb-a841-5f7d70ddd626"^^xsd:string ;
+    schema:postalCode "6637"^^xsd:string ;
+    schema:streetAddress "Isa-Wenzl-Platz 107"^^xsd:string .
+
+<http://example.org/Address/c69c5caa-c1a9-4dee-98ed-14df1cc92562> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Wolfsberg"^^xsd:string ;
+    schema:identifier "c69c5caa-c1a9-4dee-98ed-14df1cc92562"^^xsd:string ;
+    schema:postalCode "8473"^^xsd:string ;
+    schema:streetAddress "Paul-Pinter-Platz 108"^^xsd:string .
+
+<http://example.org/Address/d5c4dbe2-63b7-4d6a-bfc7-da43f4d6d431> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Langenboom"^^xsd:string ;
+    schema:identifier "d5c4dbe2-63b7-4d6a-bfc7-da43f4d6d431"^^xsd:string ;
+    schema:postalCode "7475 DX"^^xsd:string ;
+    schema:streetAddress "Kyanweg 31"^^xsd:string .
+
+<http://example.org/Address/da5c9b9e-2c51-4c7a-8ae4-e6d7b434f4d2> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Neumarkt am Wallersee"^^xsd:string ;
+    schema:identifier "da5c9b9e-2c51-4c7a-8ae4-e6d7b434f4d2"^^xsd:string ;
+    schema:postalCode "5800"^^xsd:string ;
+    schema:streetAddress "Angela-Kiss-Ring 71"^^xsd:string .
+
+<http://example.org/Address/da7c97b5-40f6-446a-bff1-94c26ae6c6f0> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Puiflijk"^^xsd:string ;
+    schema:identifier "da7c97b5-40f6-446a-bff1-94c26ae6c6f0"^^xsd:string ;
+    schema:postalCode "5042 IA"^^xsd:string ;
+    schema:streetAddress "Selenaring 131"^^xsd:string .
+
+<http://example.org/Address/e08e3ed3-33c9-46ee-a244-3b1d6c50de60> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Mistelbach an der Zaya"^^xsd:string ;
+    schema:identifier "e08e3ed3-33c9-46ee-a244-3b1d6c50de60"^^xsd:string ;
+    schema:postalCode "5737"^^xsd:string ;
+    schema:streetAddress "Peerstraße 63"^^xsd:string .
+
+<http://example.org/Address/e2f04435-1c74-453e-bfcd-465552faddc0> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Sankt Pölten"^^xsd:string ;
+    schema:identifier "e2f04435-1c74-453e-bfcd-465552faddc0"^^xsd:string ;
+    schema:postalCode "2218"^^xsd:string ;
+    schema:streetAddress "Knappstr. 129"^^xsd:string .
+
+<http://example.org/Address/eda1cccb-c933-4d2e-aef1-823c3f72b4a2> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Groesbeek"^^xsd:string ;
+    schema:identifier "eda1cccb-c933-4d2e-aef1-823c3f72b4a2"^^xsd:string ;
+    schema:postalCode "7370 QC"^^xsd:string ;
+    schema:streetAddress "Lisahof 123"^^xsd:string .
+
+<http://example.org/Address/ee5a6540-357a-4419-b95a-9b38a592a4a4> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Driel"^^xsd:string ;
+    schema:identifier "ee5a6540-357a-4419-b95a-9b38a592a4a4"^^xsd:string ;
+    schema:postalCode "4465 ZN"^^xsd:string ;
+    schema:streetAddress "Robindreef 64"^^xsd:string .
+
+<http://example.org/Address/ef67a43b-ae3e-44f3-acef-b222ff747d35> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Schwechat"^^xsd:string ;
+    schema:identifier "ef67a43b-ae3e-44f3-acef-b222ff747d35"^^xsd:string ;
+    schema:postalCode "7025"^^xsd:string ;
+    schema:streetAddress "Frankstr. 64"^^xsd:string .
+
+<http://example.org/Address/f15e7c5b-5edd-4a42-be3e-d9978ee643a2> a schema:PostalAddress ;
+    schema:addressCountry "EE"^^xsd:string ;
+    schema:addressLocality "Poombury"^^xsd:string ;
+    schema:identifier "f15e7c5b-5edd-4a42-be3e-d9978ee643a2"^^xsd:string ;
+    schema:postalCode "28066"^^xsd:string ;
+    schema:streetAddress "Malle Pines 50"^^xsd:string .
+
+<http://example.org/Address/f5e0df84-f7f8-4e86-bddf-b821d6d650ed> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Lage Mierde"^^xsd:string ;
+    schema:identifier "f5e0df84-f7f8-4e86-bddf-b821d6d650ed"^^xsd:string ;
+    schema:postalCode "1725 MX"^^xsd:string ;
+    schema:streetAddress "Pepijndreef 49"^^xsd:string .
+
+<http://example.org/Address/f8090bec-29c7-42af-bdeb-32c6a9e51da0> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Lekkerkerk"^^xsd:string ;
+    schema:identifier "f8090bec-29c7-42af-bdeb-32c6a9e51da0"^^xsd:string ;
+    schema:postalCode "2961 LK"^^xsd:string ;
+    schema:streetAddress "Fabiansteeg 142"^^xsd:string .
+
+<http://example.org/Address/fbe81007-2d11-411d-9ff2-6b3a9d527c3a> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Jaarsveld"^^xsd:string ;
+    schema:identifier "fbe81007-2d11-411d-9ff2-6b3a9d527c3a"^^xsd:string ;
+    schema:postalCode "9244 BJ"^^xsd:string ;
+    schema:streetAddress "Nienkesteeg 17"^^xsd:string .
+
+<http://example.org/Address/fd4fd4e1-9e9c-4f60-870f-570fee8a2024> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Noorbeek"^^xsd:string ;
+    schema:identifier "fd4fd4e1-9e9c-4f60-870f-570fee8a2024"^^xsd:string ;
+    schema:postalCode "4059 AP"^^xsd:string ;
+    schema:streetAddress "Aydenhof 120B"^^xsd:string .
+
+<http://example.org/ContactPoint/0bc777eb-eba6-44da-9e9b-01d13cbf8b55> a schema:ContactPoint ;
+    schema:availableLanguage "['et']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "HughesPerry.Diet@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "+1-488-855-3620"^^xsd:string ;
+    schema:identifier "0bc777eb-eba6-44da-9e9b-01d13cbf8b55"^^xsd:string ;
+    schema:telephone "+1-696-664-4406"^^xsd:string .
+
+<http://example.org/ContactPoint/0d556e02-a96e-4f4d-9d44-412ebe849a71> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "Richardson.Nursing@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "+3148 7867423"^^xsd:string ;
+    schema:identifier "0d556e02-a96e-4f4d-9d44-412ebe849a71"^^xsd:string ;
+    schema:telephone "+31965 387079"^^xsd:string .
+
+<http://example.org/ContactPoint/0dde20d3-ed3d-44dc-8504-cc2d343ade54> a schema:ContactPoint ;
+    schema:availableLanguage "['et', 'en']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "HughesPerry.Psychiatric@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "313.627.1664x46595"^^xsd:string ;
+    schema:identifier "0dde20d3-ed3d-44dc-8504-cc2d343ade54"^^xsd:string ;
+    schema:telephone "001-570-939-3426x197"^^xsd:string .
+
+<http://example.org/ContactPoint/1d10aa71-c25e-41c2-b317-6cbe388306d2> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "Ali.Hematologic@dept.healthcare.de"^^xsd:string ;
+    schema:faxNumber "4816155170"^^xsd:string ;
+    schema:identifier "1d10aa71-c25e-41c2-b317-6cbe388306d2"^^xsd:string ;
+    schema:telephone "8576877108"^^xsd:string .
+
+<http://example.org/ContactPoint/2736043e-bcfb-4ebb-ab47-4af30267c810> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Administrative"^^xsd:string ;
+    schema:email "Monroe@healthcare.org"^^xsd:string ;
+    schema:faxNumber "661.204.7142x8512"^^xsd:string ;
+    schema:identifier "2736043e-bcfb-4ebb-ab47-4af30267c810"^^xsd:string ;
+    schema:telephone "403-300-8913x19344"^^xsd:string .
+
+<http://example.org/ContactPoint/274dc81a-aba0-460b-87d3-e7257ae86d83> a schema:ContactPoint ;
+    schema:availableLanguage "['de']"^^xsd:string ;
+    schema:contactType "Administrative"^^xsd:string ;
+    schema:email "West@healthcare.org"^^xsd:string ;
+    schema:faxNumber "493-242-3209x47112"^^xsd:string ;
+    schema:identifier "274dc81a-aba0-460b-87d3-e7257ae86d83"^^xsd:string ;
+    schema:telephone "384-818-5839x8947"^^xsd:string .
+
+<http://example.org/ContactPoint/29f5285b-3b01-479b-85a4-fc5b384e644b> a schema:ContactPoint ;
+    schema:availableLanguage "['de']"^^xsd:string ;
+    schema:contactType "Media Relations"^^xsd:string ;
+    schema:email "Ali@healthcare.org"^^xsd:string ;
+    schema:faxNumber "001-815-490-0422x945"^^xsd:string ;
+    schema:identifier "29f5285b-3b01-479b-85a4-fc5b384e644b"^^xsd:string ;
+    schema:telephone "(782)736-9402x245"^^xsd:string .
+
+<http://example.org/ContactPoint/2b0995ea-32d4-422a-85a9-df7377fb591c> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "Monroe.Radiography@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "(659)711-8243"^^xsd:string ;
+    schema:identifier "2b0995ea-32d4-422a-85a9-df7377fb591c"^^xsd:string ;
+    schema:telephone "+1-226-848-0222x708"^^xsd:string .
+
+<http://example.org/ContactPoint/3435b401-5a4d-4284-aed9-accc3ec268b9> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Monroe.Physsiotherapy@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "982.201.9550x1318"^^xsd:string ;
+    schema:identifier "3435b401-5a4d-4284-aed9-accc3ec268b9"^^xsd:string ;
+    schema:telephone "2978592945"^^xsd:string .
+
+<http://example.org/ContactPoint/38ce346b-f333-45f6-a306-e748fa1c19fa> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "West.Puhblic@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "(422)235-8332x4560"^^xsd:string ;
+    schema:identifier "38ce346b-f333-45f6-a306-e748fa1c19fa"^^xsd:string ;
+    schema:telephone "(657)444-8529x118"^^xsd:string .
+
+<http://example.org/ContactPoint/3b9bc89d-0f6e-43d3-bc1d-865bf21b673d> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Robbins.Oncologic@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "+3126 3340886"^^xsd:string ;
+    schema:identifier "3b9bc89d-0f6e-43d3-bc1d-865bf21b673d"^^xsd:string ;
+    schema:telephone "(0897)-844301"^^xsd:string .
+
+<http://example.org/ContactPoint/3d2d1318-5603-4e44-bb4d-ba8c4fc05ef6> a schema:ContactPoint ;
+    schema:availableLanguage "['de']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "Bryan.Cardiovascular@dept.healthcare.de"^^xsd:string ;
+    schema:faxNumber "(975)566-7633"^^xsd:string ;
+    schema:identifier "3d2d1318-5603-4e44-bb4d-ba8c4fc05ef6"^^xsd:string ;
+    schema:telephone "001-456-525-6627x285"^^xsd:string .
+
+<http://example.org/ContactPoint/3ebb55ed-f2e6-4ca2-88c8-a7f92c65eb44> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "Richardson.Pharmacy@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "+31(0)88 1820286"^^xsd:string ;
+    schema:identifier "3ebb55ed-f2e6-4ca2-88c8-a7f92c65eb44"^^xsd:string ;
+    schema:telephone "+3175-1759473"^^xsd:string .
+
+<http://example.org/ContactPoint/42c4bba1-5772-4a23-ae38-493f5b6202e8> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Media Relations"^^xsd:string ;
+    schema:email "Richardsoon@healthcare.org"^^xsd:string ;
+    schema:faxNumber "0303-921376"^^xsd:string ;
+    schema:identifier "42c4bba1-5772-4a23-ae38-493f5b6202e8"^^xsd:string ;
+    schema:telephone "+3111-0873176"^^xsd:string .
+
+<http://example.org/ContactPoint/466a1e68-ed89-448f-b97b-428a20e6c2d6> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "West.Renal@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "251.692.3031"^^xsd:string ;
+    schema:identifier "466a1e68-ed89-448f-b97b-428a20e6c2d6"^^xsd:string ;
+    schema:telephone "(460)275-4151x15055"^^xsd:string .
+
+<http://example.org/ContactPoint/47008665-a02b-441e-a26c-895d32f203ef> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "West.Pharmacy@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "001-271-673-8640x140"^^xsd:string ;
+    schema:identifier "47008665-a02b-441e-a26c-895d32f203ef"^^xsd:string ;
+    schema:telephone "434.807.9703x4148"^^xsd:string .
+
+<http://example.org/ContactPoint/51517f67-576e-4fe5-a8bd-fc6ef7a8e877> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Robbins.Respiratory@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "+31385 334448"^^xsd:string ;
+    schema:identifier "51517f67-576e-4fe5-a8bd-fc6ef7a8e877"^^xsd:string ;
+    schema:telephone "+31875-408035"^^xsd:string .
+
+<http://example.org/ContactPoint/5210908f-4a17-4d63-8eb2-42cebcaccbcd> a schema:ContactPoint ;
+    schema:availableLanguage "['de']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "FaulknerHoward.Diet@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "920.309.9251x8536"^^xsd:string ;
+    schema:identifier "5210908f-4a17-4d63-8eb2-42cebcaccbcd"^^xsd:string ;
+    schema:telephone "225-360-9767"^^xsd:string .
+
+<http://example.org/ContactPoint/5a409591-227d-4088-93d7-59e565290153> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "EvansRodriguez.Infectious@dept.healthcare.nl"^^xsd:string ;
+    schema:faxNumber "(0429) 546048"^^xsd:string ;
+    schema:identifier "5a409591-227d-4088-93d7-59e565290153"^^xsd:string ;
+    schema:telephone "081-5525780"^^xsd:string .
+
+<http://example.org/ContactPoint/6c2935ea-d350-4315-a211-610a01946506> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Bryan.Speech@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "2577608116"^^xsd:string ;
+    schema:identifier "6c2935ea-d350-4315-a211-610a01946506"^^xsd:string ;
+    schema:telephone "001-263-577-8570x7427"^^xsd:string .
+
+<http://example.org/ContactPoint/755df120-e0e6-426c-aa30-1d8c621052fe> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "General Inquiries"^^xsd:string ;
+    schema:email "EvansRodriguez@healthcare.org"^^xsd:string ;
+    schema:faxNumber "+31(0)96 1113306"^^xsd:string ;
+    schema:identifier "755df120-e0e6-426c-aa30-1d8c621052fe"^^xsd:string ;
+    schema:telephone "+31171-760452"^^xsd:string .
+
+<http://example.org/ContactPoint/75d53b9f-0df6-42a4-b02a-6b477105209b> a schema:ContactPoint ;
+    schema:availableLanguage "['de']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "Monroe.Pharmacy@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "(816)407-5994x497"^^xsd:string ;
+    schema:identifier "75d53b9f-0df6-42a4-b02a-6b477105209b"^^xsd:string ;
+    schema:telephone "2594306046"^^xsd:string .
+
+<http://example.org/ContactPoint/7b0f30ff-5bb1-4cb1-97fd-56a6ef090dfc> a schema:ContactPoint ;
+    schema:availableLanguage "['de']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "West.Optometric@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "435.947.1214x189"^^xsd:string ;
+    schema:identifier "7b0f30ff-5bb1-4cb1-97fd-56a6ef090dfc"^^xsd:string ;
+    schema:telephone "837-758-0660"^^xsd:string .
+
+<http://example.org/ContactPoint/7bb499ce-8ff3-4f2f-91d5-ab9b45d0d440> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Media Relations"^^xsd:string ;
+    schema:email "Peterson@healthcare.org"^^xsd:string ;
+    schema:faxNumber "+31(0)807 150842"^^xsd:string ;
+    schema:identifier "7bb499ce-8ff3-4f2f-91d5-ab9b45d0d440"^^xsd:string ;
+    schema:telephone "+31(0)07 6984564"^^xsd:string .
+
+<http://example.org/ContactPoint/7c2cf97e-a697-469c-84fa-816fb91ce087> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "EvansRodriguez.Public@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "095 6180260"^^xsd:string ;
+    schema:identifier "7c2cf97e-a697-469c-84fa-816fb91ce087"^^xsd:string ;
+    schema:telephone "0858-099734"^^xsd:string .
+
+<http://example.org/ContactPoint/7c8feea5-ac5e-4c07-848f-05b6cf3e1708> a schema:ContactPoint ;
+    schema:availableLanguage "['et', 'en']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "HughesPerry.Infectious@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "661.565.7004x049"^^xsd:string ;
+    schema:identifier "7c8feea5-ac5e-4c07-848f-05b6cf3e1708"^^xsd:string ;
+    schema:telephone "001-665-247-6048x4870"^^xsd:string .
+
+<http://example.org/ContactPoint/7de6b050-5f2e-49da-a50f-9ba1a75bc621> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "Ali.Optometric@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "(758)338-6126"^^xsd:string ;
+    schema:identifier "7de6b050-5f2e-49da-a50f-9ba1a75bc621"^^xsd:string ;
+    schema:telephone "799-522-6066"^^xsd:string .
+
+<http://example.org/ContactPoint/7faf8243-ac66-4332-b979-59b8a0535768> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Robbins.Primary@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "+31(0)37-9168602"^^xsd:string ;
+    schema:identifier "7faf8243-ac66-4332-b979-59b8a0535768"^^xsd:string ;
+    schema:telephone "+31(0)77-7111312"^^xsd:string .
+
+<http://example.org/ContactPoint/8033e4f8-715c-46b7-b235-45b1c0b2185f> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "Peterson.Plumonary@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "+31(0)56 6064887"^^xsd:string ;
+    schema:identifier "8033e4f8-715c-46b7-b235-45b1c0b2185f"^^xsd:string ;
+    schema:telephone "056 2376254"^^xsd:string .
+
+<http://example.org/ContactPoint/8d3b8255-8166-4f17-87dc-dc74be8c284f> a schema:ContactPoint ;
+    schema:availableLanguage "['de']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Ali.Genetic@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "226.475.9269"^^xsd:string ;
+    schema:identifier "8d3b8255-8166-4f17-87dc-dc74be8c284f"^^xsd:string ;
+    schema:telephone "5767033452"^^xsd:string .
+
+<http://example.org/ContactPoint/8d6a9625-cfd3-48db-833c-8dbb022dd2cf> a schema:ContactPoint ;
+    schema:availableLanguage "['de']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "FaulknerHoward.Nursing@dept.healthcare.de"^^xsd:string ;
+    schema:faxNumber "(294)971-1801x3204"^^xsd:string ;
+    schema:identifier "8d6a9625-cfd3-48db-833c-8dbb022dd2cf"^^xsd:string ;
+    schema:telephone "677-438-9305x55082"^^xsd:string .
+
+<http://example.org/ContactPoint/91d67bfe-9b4a-40a8-bb38-838c2400991a> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Richardson.Dentistry@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "(0006) 897178"^^xsd:string ;
+    schema:identifier "91d67bfe-9b4a-40a8-bb38-838c2400991a"^^xsd:string ;
+    schema:telephone "+3142 5120298"^^xsd:string .
+
+<http://example.org/ContactPoint/9a4dcd47-8e3e-48b8-abb1-b892bc2e6929> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "Richardson.Respiratory@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "+31(0)61-2209981"^^xsd:string ;
+    schema:identifier "9a4dcd47-8e3e-48b8-abb1-b892bc2e6929"^^xsd:string ;
+    schema:telephone "+31(0)843-656784"^^xsd:string .
+
+<http://example.org/ContactPoint/a1865588-8c12-4bbf-a80c-b2b17b0fee6b> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Monroe.Emergency@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "001-352-878-0818x501"^^xsd:string ;
+    schema:identifier "a1865588-8c12-4bbf-a80c-b2b17b0fee6b"^^xsd:string ;
+    schema:telephone "(980)451-3793"^^xsd:string .
+
+<http://example.org/ContactPoint/a6b903e1-c6c6-4e1c-8b51-d55025515081> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "Peterson.Infectious@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "+31691 972990"^^xsd:string ;
+    schema:identifier "a6b903e1-c6c6-4e1c-8b51-d55025515081"^^xsd:string ;
+    schema:telephone "+31(0)153 230282"^^xsd:string .
+
+<http://example.org/ContactPoint/b45ed061-8787-46a1-9767-b7008ec4b663> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "Robbins.Physiotherapy@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "+31(0)20 8855902"^^xsd:string ;
+    schema:identifier "b45ed061-8787-46a1-9767-b7008ec4b663"^^xsd:string ;
+    schema:telephone "(018) 4535749"^^xsd:string .
+
+<http://example.org/ContactPoint/b7a1b24d-723f-4c15-8804-68f0f85c1887> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "Peterson.Neurologic@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "+3190 8957740"^^xsd:string ;
+    schema:identifier "b7a1b24d-723f-4c15-8804-68f0f85c1887"^^xsd:string ;
+    schema:telephone "(0323) 659927"^^xsd:string .
+
+<http://example.org/ContactPoint/c4b897d7-d466-4c35-98e1-6bfac56c887a> a schema:ContactPoint ;
+    schema:availableLanguage "['de']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "West.Optometric@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "648-929-8381x6864"^^xsd:string ;
+    schema:identifier "c4b897d7-d466-4c35-98e1-6bfac56c887a"^^xsd:string ;
+    schema:telephone "344-885-1832"^^xsd:string .
+
+<http://example.org/ContactPoint/cc678ba1-e5af-45d2-bce4-f2e6b7cdb1f0> a schema:ContactPoint ;
+    schema:availableLanguage "['et', 'en']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "HughesPerry.Rheumatologic@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "969.662.0290x7250"^^xsd:string ;
+    schema:identifier "cc678ba1-e5af-45d2-bce4-f2e6b7cdb1f0"^^xsd:string ;
+    schema:telephone "+1-685-722-5090x92554"^^xsd:string .
+
+<http://example.org/ContactPoint/de096534-f82a-4a16-8e02-7264f43f9628> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "EvansRodriguez.Hematologic@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "(0230) 827594"^^xsd:string ;
+    schema:identifier "de096534-f82a-4a16-8e02-7264f43f9628"^^xsd:string ;
+    schema:telephone "+31(0)711-688222"^^xsd:string .
+
+<http://example.org/ContactPoint/dffb5fef-6bba-4b59-b8ed-c324295196aa> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "Peterson.Genetic@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "(0345)-240598"^^xsd:string ;
+    schema:identifier "dffb5fef-6bba-4b59-b8ed-c324295196aa"^^xsd:string ;
+    schema:telephone "(0546) 030535"^^xsd:string .
+
+<http://example.org/ContactPoint/e18da1d9-a1ad-45f0-b5d6-6a261811c763> a schema:ContactPoint ;
+    schema:availableLanguage "['de']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Bryan.Dermatology@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "273-454-0002x504"^^xsd:string ;
+    schema:identifier "e18da1d9-a1ad-45f0-b5d6-6a261811c763"^^xsd:string ;
+    schema:telephone "991-984-5670x8869"^^xsd:string .
+
+<http://example.org/ContactPoint/e46bfd2f-6463-47b9-9a35-b0fd41b611c5> a schema:ContactPoint ;
+    schema:availableLanguage "['et', 'en']"^^xsd:string ;
+    schema:contactType "Billing"^^xsd:string ;
+    schema:email "HughesPerry@healthcare.org"^^xsd:string ;
+    schema:faxNumber "(271)242-7878"^^xsd:string ;
+    schema:identifier "e46bfd2f-6463-47b9-9a35-b0fd41b611c5"^^xsd:string ;
+    schema:telephone "001-852-233-7696x069"^^xsd:string .
+
+<http://example.org/ContactPoint/e6d95a8e-01c5-4534-8ee1-9556ab3a5875> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Administrative"^^xsd:string ;
+    schema:email "Bryan@healthcare.org"^^xsd:string ;
+    schema:faxNumber "(325)260-1230x989"^^xsd:string ;
+    schema:identifier "e6d95a8e-01c5-4534-8ee1-9556ab3a5875"^^xsd:string ;
+    schema:telephone "(315)591-7953x304"^^xsd:string .
+
+<http://example.org/ContactPoint/e862954f-9fec-4e5d-86aa-063a1aed456b> a schema:ContactPoint ;
+    schema:availableLanguage "['de']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "FaulknerHowjard.Podiatric@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "001-824-289-4517x4466"^^xsd:string ;
+    schema:identifier "e862954f-9fec-4e5d-86aa-063a1aed456b"^^xsd:string ;
+    schema:telephone "291.263.4896x76993"^^xsd:string .
+
+<http://example.org/ContactPoint/ed56848e-465a-4f45-828d-78055d3dc49f> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Patient Services"^^xsd:string ;
+    schema:email "FaulknerHoward@healthcare.org"^^xsd:string ;
+    schema:faxNumber "(259)938-7784x08016"^^xsd:string ;
+    schema:identifier "ed56848e-465a-4f45-828d-78055d3dc49f"^^xsd:string ;
+    schema:telephone "321-794-8924x1157"^^xsd:string .
+
+<http://example.org/ContactPoint/f45299d3-466d-408c-aeaf-4a06fdf5bfaa> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Administrative"^^xsd:string ;
+    schema:email "Robbins@healthcare.org"^^xsd:string ;
+    schema:faxNumber "+3162-0870916"^^xsd:string ;
+    schema:identifier "f45299d3-466d-408c-aeaf-4a06fdf5bfaa"^^xsd:string ;
+    schema:telephone "0869 141314"^^xsd:string .
+
+<http://example.org/ContactPoint/f9806d5c-66ad-48ed-baf2-07473e513599> a schema:ContactPoint ;
+    schema:availableLanguage "['de']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "FaulknerHoward.Otolaryngologic@dept.healthcare.org"^^xsd:string ;
+    schema:faxNumber "640.389.9331x8868"^^xsd:string ;
+    schema:identifier "f9806d5c-66ad-48ed-baf2-07473e513599"^^xsd:string ;
+    schema:telephone "(241)283-0675x3751"^^xsd:string .
+
+<http://example.org/HealthcareOrg/055ae6de-6ef0-429d-b7b5-4f0a08c87898> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/ad1c95fc-03f8-415c-b8d8-8433efb802a8> ;
+    schema:contactPoint <http://example.org/ContactPoint/e6d95a8e-01c5-4534-8ee1-9556ab3a5875> ;
+    schema:identifier "055ae6de-6ef0-429d-b7b5-4f0a08c87898"^^xsd:string ;
+    schema:name "Bryan, Barnes and Hill Gesundheitszentrum"^^xsd:string .
+
+<http://example.org/HealthcareOrg/08527049-e432-472a-8b84-a1dda528dd88> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/e2f04435-1c74-453e-bfcd-465552faddc0> ;
+    schema:contactPoint <http://example.org/ContactPoint/29f5285b-3b01-479b-85a4-fc5b384e644b> ;
+    schema:identifier "08527049-e432-472a-8b84-a1dda528dd88"^^xsd:string ;
+    schema:name "Ali, Lawson and Simpson Gesundheitszentrum"^^xsd:string .
+
+<http://example.org/HealthcareOrg/aa185193-367e-482b-a0a0-d523acfb8d65> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/fbe81007-2d11-411d-9ff2-6b3a9d527c3a> ;
+    schema:contactPoint <http://example.org/ContactPoint/755df120-e0e6-426c-aa30-1d8c621052fe> ;
+    schema:identifier "aa185193-367e-482b-a0a0-d523acfb8d65"^^xsd:string ;
+    schema:name "Evans-Rodriguez Zorg"^^xsd:string .
+
+<http://example.org/HealthcareOrg/47ad62a2-7adb-4637-9218-42a19303b9e4> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/bd7e62a7-e70c-4ce6-b833-cf65dc65dd92> ;
+    schema:contactPoint <http://example.org/ContactPoint/42c4bba1-5772-4a23-ae38-493f5b6202e8> ;
+    schema:identifier "47ad62a2-7adb-4637-9218-42a19303b9e4"^^xsd:string ;
+    schema:name "Richardson LLC Zorg"^^xsd:string .
+
+<http://example.org/HealthcareOrg/76ec2eb6-7844-4ac0-8d63-cfa1b4016e74> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/02feac9a-aebb-4692-b177-9eb66582fd29> ;
+    schema:contactPoint <http://example.org/ContactPoint/f45299d3-466d-408c-aeaf-4a06fdf5bfaa> ;
+    schema:identifier "76ec2eb6-7844-4ac0-8d63-cfa1b4016e74"^^xsd:string ;
+    schema:name "Robbins Group Zorg"^^xsd:string .
+
+<http://example.org/HealthcareOrg/8a0f6258-8687-42d8-9a76-a6220d477718> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/2e9a8e08-7f8c-430f-b312-70d398757209> ;
+    schema:contactPoint <http://example.org/ContactPoint/ed56848e-465a-4f45-828d-78055d3dc49f> ;
+    schema:identifier "8a0f6258-8687-42d8-9a76-a6220d477718"^^xsd:string ;
+    schema:name "Faulkner-Howard Gesundheitszentrum"^^xsd:string .
+
+<http://example.org/HealthcareOrg/9a396f78-73c3-42ff-8a86-f9e50490b88f> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/62f6170a-2e0f-41c8-9cb6-fe64574fcddf> ;
+    schema:contactPoint <http://example.org/ContactPoint/e46bfd2f-6463-47b9-9a35-b0fd41b611c5> ;
+    schema:identifier "9a396f78-73c3-42ff-8a86-f9e50490b88f"^^xsd:string ;
+    schema:name "HughesP-erry Tervisekeskus"^^xsd:string .
+
+<http://example.org/HealthcareOrg/c79b4739-161b-400c-8109-15d390489d3c> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/250713a3-ce19-48f8-a21e-4e55c3244ef9> ;
+    schema:contactPoint <http://example.org/ContactPoint/7bb499ce-8ff3-4f2f-91d5-ab9b45d0d440> ;
+    schema:identifier "c79b4739-161b-400c-8109-15d390489d3c"^^xsd:string ;
+    schema:name "Peterson LLC Zorg"^^xsd:string .
+
+<http://example.org/HealthcareOrg/e10f5aca-4c5f-4d77-bbd5-5c5b00c5dc64> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/0f4ea7b5-ecd5-47ee-a383-9d0313768297> ;
+    schema:contactPoint <http://example.org/ContactPoint/2736043e-bcfb-4ebb-ab47-4af30267c810> ;
+    schema:identifier "e10f5aca-4c5f-4d77-bbd5-5c5b00c5dc64"^^xsd:string ;
+    schema:name "MS Gesundheitszentrum"^^xsd:string .
+
+<http://example.org/HealthcareOrg/0ed2f52b-b48b-4572-87a7-ac699ea1f6d2> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/c69c5caa-c1a9-4dee-98ed-14df1cc92562> ;
+    schema:contactPoint <http://example.org/ContactPoint/274dc81a-aba0-460b-87d3-e7257ae86d83> ;
+    schema:identifier "0ed2f52b-b48b-4572-87a7-ac699ea1f6d2"^^xsd:string ;
+    schema:name "West, Miller and Flores Gesundheitszentrum"^^xsd:string .
+

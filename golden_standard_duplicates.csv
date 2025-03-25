@@ -1,0 +1,84 @@
+original_id,duplicate_id,entity_type,variation_type,field_name,original_value,varied_value
+49b564fb-92a6-41d7-8069-c54224039721,3a72a669-e03c-4361-a14e-10ee230c2ebd,Address,city_typo,city,Trieben,Triebben
+9b3a0c89-1a32-4148-9bba-c83856e9b78d,4db1762e-c9d9-4b15-befa-4e9942045f8c,Address,city_typo,city,Holwierde,Holwiere
+d4713d60-c8a7-4639-ab11-67b367a9c378,4574a37e-9dbf-493f-bc03-1029253053ae,Address,postal_format,postalCode,6838,6838 
+fa83ada4-a212-4ac5-b689-a4a5ffda0336,e5f14395-22e7-4e59-9414-7ca83455f1f6,Address,country_expansion,country,AT,Austria
+b732d46f-21e1-4094-9efe-e464da90f534,f95c46f7-682e-4002-a9f1-5f7cd7ea0686,Address,house_number_suffix,text,Ott Roads 92,Ott Roads 92B
+f20e8bda-39cc-4d88-832f-594d0b82b61c,ded1b802-32e9-4761-ae97-5c72f3c73944,Address,house_number_suffix,text,Aydenhof 120,Aydenhof 120B
+ab12fb53-8f42-4ebe-a3b8-70f377cb1a27,89aeb616-59f8-4a69-8466-ed6b96bad500,Address,postal_format,postalCode,8857,8857 
+f172840f-3e19-40ba-ae09-ccfba3dee81f,204e6817-ad98-4a08-bad0-6668a892d63b,Address,city_typo,city,Fischamend,Fiischamend
+cb18d6a4-15db-4487-a038-03f32b2bcfda,45568d6d-bdc5-4588-90ab-9ea4c15f47ca,Address,city_typo,city,Hellevoetsluis,Hellevoetsluuis
+d675ebf7-4fe3-4c9a-9371-0f577e9cf84f,b30cc272-b861-47c3-a5ff-c7d414e153ca,HealthcareOrganization,name_typo,healthcareOrganizationName,Hughes-Perry Tervisekeskus,HughesP-erry Tervisekeskus
+ae55cdff-34ab-48fd-8a68-e88e0ad40415,ddd1b251-b0f6-4b9e-9a34-4d179e31e1f9,HealthcareOrganization,name_abbreviation,healthcareOrganizationName,Monroe and Sons Gesundheitszentrum,MS Gesundheitszentrum
+2347b24f-a0f9-4074-9177-b6d45f2e9167,bc8a8038-9960-4cd1-8ab2-4a0a477e2817,ServiceDepartment,alternative_naming,serviceDepartmentName,Optometric,Vision Care Center
+ae358290-6d80-4b08-8963-d148104dff66,24b7d424-e4ed-458b-810a-c3f8387787e2,ServiceDepartment,alternative_naming,serviceDepartmentName,Dermatology,Skin Care Center
+606e8502-002f-4cc4-896b-fafff5b7751f,93d5e33b-bd86-4312-b506-9af5d2ebe96b,ServiceDepartment,alternative_naming,serviceDepartmentName,Hematologic,Blood Disorders Clinic
+eecb325b-064f-468d-b080-e0035e7f503c,208d549b-6b0e-4d01-80dd-28b3acea35a3,ServiceDepartment,department_abbreviation,serviceDepartmentName,Renal,Kidney
+739ac9e2-91fd-4d4a-9a31-a6a69b87cc5e,0a833038-89de-4a2c-bc26-c722253dc9ce,ServiceDepartment,department_abbreviation,serviceDepartmentName,Emergency,ER
+c846bf90-40fe-4898-b56b-9357b34dc8b0,385127f1-f317-430e-9199-5cf180d9a24e,ServiceDepartment,alternative_naming,serviceDepartmentName,Radiography,Medical Imaging
+dec772b7-bb22-4a31-abc9-e970c48ae374,510d115a-74e5-4c68-aca5-f0cbab78a4ee,ServiceDepartment,department_abbreviation,serviceDepartmentName,Public Health,Pub Health
+f48ef9a8-6aeb-4a32-8fad-725d9d0b6f5e,3b3fd363-714d-45bd-a197-6c14aa069b5b,Person,name_typo,personName,Gregory Carney,Gregory Carntey
+34367eaa-03ea-438f-8095-e0997e240205,bbe74e1b-a328-4b58-a62f-45c2f0cc8eec,Person,abbreviated_first_name,personName,Angela Cordova,A. Cordova
+6f9179cf-0018-4cfe-8eb0-92207984f33f,30519f6a-b51e-4a7b-acdf-3038467ccafa,Person,language_expansion,knowsLanguage,et,Estonian
+6f9179cf-0018-4cfe-8eb0-92207984f33f,b87c6dd3-bcee-4fb1-943c-41b564661891,HealthcarePersonnel,email_typo,email,crystalperry@healthcare.org,crystaltperry@healthcare.org
+89745cd7-1118-48f8-aa4a-ce0ed89a9500,45ac1564-7d7a-4bfa-998c-8a5c19b2b595,Person,name_typo,personName,Aaron Mosley,Aarn Mosley
+b4ca0142-3b23-4fd8-8d20-f686854df9b6,f812b022-96b0-4e29-89e4-b9df5a45a717,Person,name_typo,personName,Jerry Martinez MD,Jerty Martinez MD
+54f5edf7-e9bf-49f4-b373-9067cf085288,8d682a61-4926-4a13-b7c6-7f46486095c2,Person,language_expansion,knowsLanguage,et,Estonian
+bb1a48e2-50b9-4e51-a81e-5658d813a70f,60252b8d-2cd9-451a-90c3-13bd6478a399,Person,abbreviated_first_name,personName,Donald Harris,D. Harris
+8abb572c-8aae-4c3a-9312-24e0bebbe60d,e891f80c-970a-46dc-b444-adae1d21ae7c,Person,name_typo,personName,Luis Walsh,Lxis Walsh
+3db4cb81-4beb-4f4f-ac94-151d52fa3935,da3f22d1-8454-44a1-985f-6df3a6d5eb2e,Person,abbreviated_first_name,personName,Kevin Ford,K. Ford
+22ca9fe8-a8aa-4d13-85a9-18d19eede43c,eafd080b-dec8-433f-b738-88a42373624b,Person,abbreviated_first_name,personName,Denise Schwartz,D. Schwartz
+62b22fd5-51c6-42e4-af48-744f7abc9f0b,6c2c90a7-24e9-4316-b5f8-0092ea4f44cf,Person,date_format_variation,birthDate,1960-11-16,1960-16-11
+62b22fd5-51c6-42e4-af48-744f7abc9f0b,a7713b3c-9f11-4a42-9cd3-a7955edd9aae,HealthcarePersonnel,email_typo,email,amykaiser@healthcare.org,amykaier@healthcare.org
+49954cf1-faaf-400c-a74b-3d208c3fa29f,89419b16-bbca-46e0-a56a-47e742f81126,Person,name_swap,personName,Mary Stewart,Stewart Mary
+bdf2b5a1-b57a-4c03-8b85-eda6db0198ff,2d79f3f6-ca92-420a-82e8-fae231f0e150,Person,name_swap,personName,Patricia Lindsey,Lindsey Patricia
+d1de4fa8-a1c5-4342-9033-b5a406ec9ad0,70c43406-43db-4235-9184-d8fbbd335a64,Person,name_swap,personName,Richard Olson,Olson Richard
+c6b4195c-aa19-4f26-8fa4-1d2246ddb0ac,830a2393-604c-43ca-93b9-a632f9675221,Person,name_swap,personName,Ronald Terrell,Terrell Ronald
+ac788719-d937-4f2a-906e-2fc6d05d2cb9,dcd29168-d547-4c92-9825-92e10d1f90ad,Person,name_swap,personName,Dwayne Tucker,Tucker Dwayne
+84eaf943-2ee6-4e21-93fb-2ed1b9534807,624aff3d-b8d0-4f28-bc50-9aeb63d85381,Person,language_expansion,knowsLanguage,de,German
+c97be2af-0c10-4f01-a411-9d382ae201c0,b5b85fb3-c5b0-43c8-a038-c8f68cb12015,Person,abbreviated_first_name,personName,Cody Crawford,C. Crawford
+c97be2af-0c10-4f01-a411-9d382ae201c0,b6eaf241-e5b3-467b-aa0e-563eefe1633c,HealthcarePersonnel,email_typo,email,codycrawford@healthcare.org,codycrawfford@healthcare.org
+e5a15243-c728-4f15-b5cb-b690735b3a80,26e5e2da-91b9-4f8b-8a84-9529b662f7ed,Person,name_swap,personName,Andrea Griffin,Griffin Andrea
+e79d1be2-7f29-486c-8a73-0eaa16bb4fb0,9de0103a-4e2e-4c6e-88e7-a744a7f3c30f,Person,name_typo,personName,Lisa Mckinney,Lisa Mcinney
+e79d1be2-7f29-486c-8a73-0eaa16bb4fb0,9ab1874e-1766-4e8a-b8ca-810e74286356,HealthcarePersonnel,email_typo,email,lisamckinney@healthcare.org,lisampckinney@healthcare.org
+aab6941b-59e8-484c-a5d2-03e3992e7dea,93510969-c2eb-4adc-8428-d34471948be4,Person,abbreviated_first_name,personName,Sheryl Roberts,S. Roberts
+aab6941b-59e8-484c-a5d2-03e3992e7dea,a3da4c94-78a9-443b-8cea-521dac331b92,HealthcarePersonnel,email_typo,email,sherylroberts@healthcare.org,sherlyroberts@healthcare.org
+c710fab3-881f-43bd-a669-d6b6c1afb76b,77fd7fd1-35cb-40f2-aa75-e179fd14f9d4,Person,name_swap,personName,Charles Harper,Harper Charles
+bae8d99f-eee0-4fb7-92d6-840d18711121,16752b38-fd64-4ae2-a434-8207341514cc,Person,name_swap,personName,Stephanie Young MD,MD Young Stephanie
+2db6de21-53a9-4c5d-b9b5-c70e3346f7c6,1f217475-66f0-4769-8909-c1ba18fa5472,Person,name_swap,personName,Ms. Amanda Davis,Davis Amanda Ms.
+e22f6e82-ecdd-401e-aad8-c64db8c5ee78,bfd9de84-7770-4a8d-ac69-c00681b84ea7,Person,abbreviated_first_name,personName,Ms. Catherine Lin,M. Catherine Lin
+74ca0c56-4d39-4362-aef4-d6b4424c222f,33964543-0843-4ba1-aafd-65c3a7484ffb,Person,language_expansion,knowsLanguage,de,German
+74ca0c56-4d39-4362-aef4-d6b4424c222f,3c91e458-24b2-4e83-81cb-d9c2d35f581e,HealthcarePersonnel,email_typo,email,mariastark@healthcare.org,mariasitark@healthcare.org
+7c3ad037-20d5-416e-9611-39cfffbdfd47,9937f592-185a-4b98-bd9f-3e803ba68577,Person,abbreviated_first_name,personName,Brian Jones,B. Jones
+aa0cc327-1daa-42fc-90b1-5e3da5005582,e3352f8b-11d5-4acf-a80f-e5e260c36cdd,Person,language_expansion,knowsLanguage,nl,Dutch
+20f12d46-e775-427e-aec0-12f0d3100ac5,86901942-366e-4cca-8c47-9390d41cc2bc,HealthcarePersonnel,email_typo,email,davidparker@healthcare.org,davidpraker@healthcare.org
+4a9686a4-e752-4102-bacf-6bcc1af4321a,17426bd0-7de5-44a3-b7ef-373e32dec6d5,HealthcarePersonnel,email_typo,email,michellecampbell@healthcare.org,michellecmpbell@healthcare.org
+6151787e-4f02-4fe8-bd5d-9031e80bb7eb,1981f0d4-dbf9-4793-acb9-cb393103d904,HealthcarePersonnel,email_typo,email,maryschmidt@healthcare.org,mavryschmidt@healthcare.org
+40709bd4-1790-46b7-845c-21e7988d0e4a,31ffba99-9a92-4849-a156-6d5e83615006,HealthcarePersonnel,email_typo,email,megandavidson@healthcare.org,meganadvidson@healthcare.org
+2adfd824-edae-4c39-aa9e-062a9b89bf0d,a397b217-8511-43e5-93aa-e4808cdc5389,HealthcarePersonnel,email_typo,email,williamsmith@healthcare.org,williamsmih@healthcare.org
+8ce67bdc-41b7-4448-8286-2234d81580dc,6518020a-99cb-47c7-ae7f-bad29efb00b7,HealthcarePersonnel,email_typo,email,briannasanchez@healthcare.org,briannasanchhez@healthcare.org
+b58c1e9f-2a0b-4040-8ef0-5b6fed4879e7,43189f26-e9b7-4954-a41a-5d31dd5eb2d1,HealthcarePersonnel,email_typo,email,jeffreyterry@healthcare.org,jeffreytrry@healthcare.org
+f361c497-64e0-4ab3-afb8-0c63f42f338f,07647513-c9e6-4630-9a55-3472a15b74ad,HealthcarePersonnel,email_typo,email,paulwalton@healthcare.org,paultwalton@healthcare.org
+beb778d6-2b02-4118-ae63-ad3a94d7f681,c4d3fec2-faf3-490e-986a-730259cd83d9,HealthcarePersonnel,email_typo,email,justinibarra@healthcare.org,justiinibarra@healthcare.org
+996d6642-3cf8-4ff0-b49d-f1fff13a9049,a4fd9204-b3b9-484e-b4b6-5ceec9d4e1bb,HealthcarePersonnel,email_typo,email,sharondyer@healthcare.org,sharonvdyer@healthcare.org
+ee8f0e09-9975-4cb9-bc76-a592a73e3f3b,70c742d0-3295-4a69-b987-3b5e08dfc975,HealthcarePersonnel,email_typo,email,darrencampbell@healthcare.org,darrencampblel@healthcare.org
+5acecdbf-dbb5-4fc2-9cff-c96ebd03c81f,3648431f-ae9e-4d03-8498-3111371a2390,HealthcarePersonnel,email_typo,email,cynthiamorrow@healthcare.org,cynhtiamorrow@healthcare.org
+55e9718e-8164-40fa-90a2-b8e1141bd896,4a3eacf0-a622-453d-95ff-789446ac3201,HealthcarePersonnel,email_typo,email,bettyscott@healthcare.org,bettysoctt@healthcare.org
+3e37355e-fbdc-478a-bf33-551df6292535,16b3d17d-abbd-4fe0-a095-bbfd4c2652d8,HealthcarePersonnel,email_typo,email,rogermiller@healthcare.org,rogermilleer@healthcare.org
+9722bf90-2f07-4516-a8a1-4cd328a3938c,7f104dcf-d39d-47ca-9fde-56c19d41a10b,HealthcarePersonnel,email_typo,email,sierraramirez@healthcare.org,sierrraamirez@healthcare.org
+23746ddd-f410-4d94-8689-f37bf94523fe,22d72fab-dc78-4e74-bae7-ab54169e98ce,HealthcarePersonnel,email_typo,email,aimeefranklin@healthcare.org,aimeefanklin@healthcare.org
+61f6c877-0212-485b-8b2f-8580f3f05323,3d75489a-e128-4e96-abe3-387b68cbaa9e,HealthcarePersonnel,email_typo,email,michaeljohnson@healthcare.org,michaelohnson@healthcare.org
+ed6a1bfc-81be-41f4-bef8-74d76251d74d,486cf4d6-7c23-4bfc-8490-642fdb5bf01f,HealthcarePersonnel,email_typo,email,ryanrobinson@healthcare.org,ryanroibnson@healthcare.org
+3590a2e5-0c78-4f2f-b9a1-1816fc7aad95,a2237d40-d836-4a33-8467-36ce24dbac94,HealthcarePersonnel,email_typo,email,jamesriley@healthcare.org,jamesriely@healthcare.org
+8252f723-5b0e-4c4b-a2a1-fa451c52d51e,25454e29-ad5a-410c-bd3c-cd615ec2abf6,HealthcarePersonnel,email_typo,email,jessicahill@healthcare.org,jessicaihll@healthcare.org
+da2e6e6c-8c1a-412b-bff9-9f34f94d9109,51f83e44-524b-4a5b-8204-2c0b1da221b8,HealthcarePersonnel,email_typo,email,nathankline@healthcare.org,natthankline@healthcare.org
+0a2cf6a9-5bd3-4392-91e5-4b3a0a4e6eb7,5c07d046-1359-41c7-b984-dbe3aef82d2e,HealthcarePersonnel,email_typo,email,kellyrodriguez@healthcare.org,kellyrodrfiguez@healthcare.org
+ade7cef3-7ed2-4c2f-856f-3d95e0ae1a1b,310dfbf4-d741-4ae8-8fa7-1765e757155d,ContactPoint,email_domain_change,email,FaulknerHoward.Nursing@dept.healthcare.org,FaulknerHoward.Nursing@dept.healthcare.de
+adb6da35-1734-426c-92e9-4e89089b30a0,857d114b-4b91-4be8-bea4-ca6a33423b60,ContactPoint,email_typo,email,FaulknerHoward.Podiatric@dept.healthcare.org,FaulknerHowjard.Podiatric@dept.healthcare.org
+eb1d1061-9717-4a6e-a8b4-d5b9693d993c,b9c4abb6-a6a9-4aab-ac81-1d57b2835bff,ContactPoint,email_domain_change,email,EvansRodriguez.Infectious@dept.healthcare.org,EvansRodriguez.Infectious@dept.healthcare.nl
+31234efe-6e64-4043-aaa5-0f4ec6f00933,091523be-650f-4375-a0fc-01e2bcd635cc,ContactPoint,email_typo,email,Richardson@healthcare.org,Richardsoon@healthcare.org
+a747795e-b0c9-42af-9db3-1510675d0855,49ace049-13bd-41ae-b0dd-4704248988cf,ContactPoint,email_domain_change,email,Ali.Hematologic@dept.healthcare.org,Ali.Hematologic@dept.healthcare.de
+35475c5e-f76d-4e6e-8726-d44a215203c7,86d6c424-27b2-4a70-a945-2a96a1239c72,ContactPoint,email_typo,email,West.Public@dept.healthcare.org,West.Puhblic@dept.healthcare.org
+d22a3a62-1109-4978-93a0-81a6a7647989,7d416588-9a34-4cda-9481-4f7f3022b8f1,ContactPoint,email_typo,email,Peterson.Pulmonary@dept.healthcare.org,Peterson.Plumonary@dept.healthcare.org
+75fd3537-6f1b-4d07-9aff-71ae30f2c485,260aeef2-95dd-44bd-a7c4-bf8d59949066,ContactPoint,email_domain_change,email,Bryan.Cardiovascular@dept.healthcare.org,Bryan.Cardiovascular@dept.healthcare.de
+d2928f4b-e151-4a0d-b275-16ea63a6aae9,43cec809-6dec-4a46-9297-6e6ce04d350f,ContactPoint,email_typo,email,Monroe.Physiotherapy@dept.healthcare.org,Monroe.Physsiotherapy@dept.healthcare.org
