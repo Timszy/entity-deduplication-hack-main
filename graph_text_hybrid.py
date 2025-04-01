@@ -15,9 +15,9 @@ g2 = rdflib.Graph()
 master_graph = rdflib.Graph()
 
 # Replace 'graph1.rdf' and 'graph2.rdf' with the paths to your RDF files
-g1.parse("/data/healthcare_graph_original.ttl")
-g2.parse("/data/healthcare_graph_replaced.ttl")
-master_graph.parse("/data/master_data.ttl")
+g1.parse("data/healthcare_graph_original.ttl")
+g2.parse("data/healthcare_graph_replaced.ttl")
+master_graph.parse("data/master_data.ttl")
 
 phkg_graph = g1 + master_graph
 
@@ -206,17 +206,71 @@ matched_entities = match_entities(
 
 final_result = []
 
-# Display the matches
 for ent1, ent2, score in matched_entities:
-    final_result.append(
-        {
-            "entity1": ent1,
-            "entity2": ent2,
-            "score": str(score),
-        }
+    entity1_literals = traverse_graph_and_get_literals(phkg_graph, ent1)
+    entity2_literals = traverse_graph_and_get_literals(g2, ent2)
+
+    # Convert to normal Python float
+    score = float(score)
+    score_str = str(score)
+
+    # Get the predicates from the subject
+    if str(ent1) in entity1_literals:
+        entity1_predicates = entity1_literals[str(ent1)]
+    else:
+        entity1_predicates = {}
+        
+    if str(ent2) in entity2_literals:
+        entity2_predicates = entity2_literals[str(ent2)]
+    else:
+        entity2_predicates = {}
+    
+    # Get all predicates from both entities to ensure consistent order
+    all_predicates = sorted(set(list(entity1_predicates.keys()) + list(entity2_predicates.keys())))
+    
+    # Create entity details with sorted predicates
+    entity1_details = {
+        "from": "phkg_graph",
+        "subject": str(ent1),
+        "predicates": [
+            {
+                "predicate": pred,
+                "object": entity1_predicates.get(pred, "N/A")
+            }
+            for pred in all_predicates
+            if pred in entity1_predicates
+        ]
+    }
+
+    entity2_details = {
+        "from": "g2",
+        "subject": str(ent2),
+        "predicates": [
+            {
+                "predicate": pred,
+                "object": entity2_predicates.get(pred, "N/A")
+            }
+            for pred in all_predicates
+            if pred in entity2_predicates
+        ]
+    }
+
+    duplication_type = (
+        "exact" if score >= 0.9 else "similar" if score >= 0.7 else "conflict"
     )
 
-
+    final_result.append(
+        {
+            "entities": [
+                {"entity1": entity1_details},
+                {"entity2": entity2_details}
+            ],
+            "similarity_score": score_str,
+            "duplication_type": duplication_type,
+        }
+    )
+    
 with open("matches1.json", "w") as f:
     json.dump(final_result, f, indent=4)
+
 

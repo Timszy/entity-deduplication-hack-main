@@ -1,0 +1,144 @@
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/ContactPoint/contact_4611f814> a schema:ContactPoint ;
+    schema:contactType "Customer Service"^^xsd:string ;
+    schema:email "daniellebeasley@healthcare.org"^^xsd:string ;
+    schema:identifier "contact_4611f814"^^xsd:string ;
+    schema:telephone "(0323)"^^xsd:string .
+
+<http://example.org/ContactPoint/contact_6f6b5f12> a schema:ContactPoint ;
+    schema:contactType "Customer Service"^^xsd:string ;
+    schema:email "amykaiser@healthcare.org"^^xsd:string ;
+    schema:identifier "contact_6f6b5f12"^^xsd:string .
+
+<http://example.org/ContactPoint/contact_6fe7bf5e> a schema:ContactPoint ;
+    schema:contactType "Customer Service"^^xsd:string ;
+    schema:email "msamandadavis@healthcare.org"^^xsd:string ;
+    schema:identifier "contact_6fe7bf5e"^^xsd:string ;
+    schema:telephone "(460)275-4151x15055."^^xsd:string .
+
+<http://example.org/ContactPoint/contact_ba5be6ca> a schema:ContactPoint ;
+    schema:contactType "Customer Service"^^xsd:string ;
+    schema:email "codycrawford@healthcare.org"^^xsd:string ;
+    schema:identifier "contact_ba5be6ca"^^xsd:string .
+
+<http://example.org/ContactPoint/contact_dd8d2f70> a schema:ContactPoint ;
+    schema:contactType "Customer Service"^^xsd:string ;
+    schema:email "melissaallen@healthcare.org"^^xsd:string ;
+    schema:identifier "contact_dd8d2f70"^^xsd:string ;
+    schema:telephone "department"^^xsd:string .
+
+<http://example.org/HealthcareOrg/org_9afe6871> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/addr_71c8a74d> ;
+    schema:identifier "org_9afe6871"^^xsd:string ;
+    schema:name "24"^^xsd:string .
+
+<http://example.org/HealthcareOrg/org_b50ada34> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/addr_444ab8e5> ;
+    schema:identifier "org_b50ada34"^^xsd:string ;
+    schema:name "Bryan"^^xsd:string .
+
+<http://example.org/HealthcareOrg/org_e1506a74> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/addr_29b87f74> ;
+    schema:identifier "org_e1506a74"^^xsd:string ;
+    schema:name "Faulkner"^^xsd:string .
+
+<http://example.org/HealthcareOrg/org_e44d5caa> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/addr_97e4ce7d> ;
+    schema:identifier "org_e44d5caa"^^xsd:string ;
+    schema:name "123"^^xsd:string .
+
+<http://example.org/HealthcareOrg/org_facaea00> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/addr_1dfcc335> ;
+    schema:identifier "org_facaea00"^^xsd:string ;
+    schema:name "West"^^xsd:string .
+
+<http://example.org/Person/person_4d2078bf> a schema:Person ;
+    schema:email "daniellebeasley@healthcare.org"^^xsd:string ;
+    schema:identifier "person_4d2078bf"^^xsd:string ;
+    schema:jobTitle "Neurological Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/dept_d4eb289b> ;
+    schema:name "Danielle Beasley"^^xsd:string .
+
+<http://example.org/Person/person_556aef2e> a schema:Person ;
+    schema:birthDate "1982-04-16"^^xsd:date ;
+    schema:email "codycrawford@healthcare.org"^^xsd:string ;
+    schema:identifier "person_556aef2e"^^xsd:string ;
+    schema:jobTitle "Communication Disorders Specialist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/dept_60cca326> ;
+    schema:name "Cody Crawford"^^xsd:string .
+
+<http://example.org/Person/person_8b7f6312> a schema:Person ;
+    schema:email "msamandadavis@healthcare.org"^^xsd:string ;
+    schema:identifier "person_8b7f6312"^^xsd:string ;
+    schema:jobTitle "Nephrologist"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/dept_1392d9df> ;
+    schema:name "Amanda Davis"^^xsd:string .
+
+<http://example.org/Person/person_94b58103> a schema:Person ;
+    schema:birthDate "1977-11-25"^^xsd:date ;
+    schema:email "melissaallen@healthcare.org"^^xsd:string ;
+    schema:identifier "person_94b58103"^^xsd:string ;
+    schema:jobTitle "Registered Nurse"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/dept_4d88ca86> ;
+    schema:name "Melissa Allen"^^xsd:string .
+
+<http://example.org/Person/person_d749d581> a schema:Person ;
+    schema:birthDate "1960-11-16"^^xsd:date ;
+    schema:email "amykaiser@healthcare.org"^^xsd:string ;
+    schema:identifier "person_d749d581"^^xsd:string ;
+    schema:jobTitle "Sleep Technician"^^xsd:string ;
+    schema:memberOf <http://example.org/ServiceDepartment/dept_da5a719f> ;
+    schema:name "Amy Kaiser"^^xsd:string .
+
+<http://example.org/ServiceDept/dept_1392d9df> a schema:Department ;
+    schema:identifier "dept_1392d9df"^^xsd:string ;
+    schema:name "Urologic"^^xsd:string .
+
+<http://example.org/ServiceDept/dept_4d88ca86> a schema:Department ;
+    schema:identifier "dept_4d88ca86"^^xsd:string ;
+    schema:name "Nursing"^^xsd:string .
+
+<http://example.org/ServiceDept/dept_60cca326> a schema:Department ;
+    schema:identifier "dept_60cca326"^^xsd:string ;
+    schema:name "Urologic"^^xsd:string .
+
+<http://example.org/ServiceDept/dept_d4eb289b> a schema:Department ;
+    schema:identifier "dept_d4eb289b"^^xsd:string ;
+    schema:name "Neurologic"^^xsd:string .
+
+<http://example.org/ServiceDept/dept_da5a719f> a schema:Department ;
+    schema:identifier "dept_da5a719f"^^xsd:string ;
+    schema:name "Urologic"^^xsd:string .
+
+<http://example.org/Address/addr_1dfcc335> a schema:PostalAddress ;
+    schema:addressCountry "Austria"^^xsd:string ;
+    schema:addressLocality "Flores Gesundheitszentrum"^^xsd:string ;
+    schema:identifier "addr_1dfcc335"^^xsd:string ;
+    schema:streetAddress "Bräuer-Gasse 143"^^xsd:string .
+
+<http://example.org/Address/addr_29b87f74> a schema:PostalAddress ;
+    schema:addressCountry "Austria"^^xsd:string ;
+    schema:addressLocality "Schwechat"^^xsd:string ;
+    schema:identifier "addr_29b87f74"^^xsd:string ;
+    schema:streetAddress "Frankstr. 64"^^xsd:string .
+
+<http://example.org/Address/addr_444ab8e5> a schema:PostalAddress ;
+    schema:addressCountry "Austria"^^xsd:string ;
+    schema:addressLocality "Eggenburg"^^xsd:string ;
+    schema:identifier "addr_444ab8e5"^^xsd:string ;
+    schema:streetAddress "Weg 71"^^xsd:string .
+
+<http://example.org/Address/addr_71c8a74d> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Holwierde"^^xsd:string ;
+    schema:identifier "addr_71c8a74d"^^xsd:string ;
+    schema:streetAddress "Twanhof 24"^^xsd:string .
+
+<http://example.org/Address/addr_97e4ce7d> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Groesbeek"^^xsd:string ;
+    schema:identifier "addr_97e4ce7d"^^xsd:string ;
+    schema:streetAddress "Lisahof 123"^^xsd:string .
+
