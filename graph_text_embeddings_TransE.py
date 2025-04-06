@@ -2,11 +2,10 @@ import json
 import pandas as pd
 import rdflib
 import numpy as np
-import networkx as nx
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-from node2vec import Node2Vec
 from typing import Dict
+from pykeen.pipeline import pipeline
 
 
 # Load the RDF graphs
@@ -15,15 +14,16 @@ g2 = rdflib.Graph()
 master_graph = rdflib.Graph()
 
 # Replace 'graph1.rdf' and 'graph2.rdf' with the paths to your RDF files
-g1.parse("data/healthcare_graph_original.ttl")
-g2.parse("data/healthcare_graph_replaced.ttl")
-master_graph.parse("data/master_data.ttl")
+g1.parse("/data/healthcare_graph_original.ttl")
+g2.parse("/data/healthcare_graph_replaced.ttl")
+master_graph.parse("/data/master_data.ttl")
 
 phkg_graph = g1 + master_graph
 
 alpha = 0.5 # You can change this value to weight the text embedding (0.0 = is graph only)
 text_dim = 384 # Dim for the all-MiniLM-L6-v2
 threshold = 0.7
+num_epochs = 100 # You can change it as you like
 
 KNOWN_PREFIXES = [
     "ucum:",
@@ -43,22 +43,16 @@ KNOWN_PREFIXES = [
 ]
 
 # For graph embeddings
-# Convvert rdf to nx for the node2vec
-def rdf_to_nx(graph):
-    G = nx.Graph()
+# This method is needed for the TransE, we are not converting the graph into networkx anymore, since this embedding is used for knowledge graphs 
+# Use triplets for relational information, like two nodes and the edge between them
+def extract_triples(graph):
+    """Extract triples from an RDF graph, skipping blank nodes."""
+    triples = []
     for s, p, o in graph:
         if isinstance(s, rdflib.term.BNode) or isinstance(o, rdflib.term.BNode):
             continue
-        G.add_edge(str(s), str(o), predicate=str(p))
-    return G
-
-# Graph embedding
-def get_graph_embeddings(graph, dimensions=text_dim):
-    G_nx = rdf_to_nx(graph)
-    node2vec = Node2Vec(G_nx, dimensions=dimensions, walk_length=10, num_walks=80, workers=1)
-    model = node2vec.fit()
-    embeddings = {node: model.wv[node] for node in model.wv.index_to_key}
-    return embeddings
+        triples.append((str(s), str(p), str(o)))
+    return triples
 
 # For text embeddings
 def traverse_graph_and_get_literals(
@@ -154,7 +148,19 @@ text_embeddings2 = model.encode(texts2, convert_to_tensor=True)
 # For graph embeddings
 # Combine the two graphs 
 combined_graph = phkg_graph + g2
-graph_embeddings = get_graph_embeddings(combined_graph, dimensions=text_dim)
+# Get triplets
+triplets = extract_triplets(combined_graph)
+# Train the TransE model
+result = pipeline(
+    training=triples,
+    model='TransE',
+    model_kwargs=dict(embedding_dim=text_dim),
+    training_kwargs=dict(num_epochs, use_tqdm_batch=False),  
+)
+# Get the embeddings from the model
+entity_to_id = result.model.entity_representations[0].entity_to_id
+embedding_matrix = result.model.entity_representations[0].embedding.weight.detach().cpu().numpy()
+graph_embeddings = {entity: embedding_matrix[idx] for entity, idx in entity_to_id.items()}
 
 # To get the ratio between the 2 embeddings 
 def get_hybrid_vector(entity, text_vector):
@@ -168,7 +174,6 @@ hybrid_vectors2 = [get_hybrid_vector(e, t) for e, t in zip(ids2, text_embeddings
 
 # Cosine similarity 
 similarity_matrix = cosine_similarity(hybrid_vectors1, hybrid_vectors2)
-df_similarity = pd.DataFrame(similarity_matrix, index=ids1, columns=ids2)
 
 # Convert similarity matrix to DataFrame for easier handling
 df_similarity = pd.DataFrame(
@@ -206,71 +211,17 @@ matched_entities = match_entities(
 
 final_result = []
 
+# Display the matches
 for ent1, ent2, score in matched_entities:
-    entity1_literals = traverse_graph_and_get_literals(phkg_graph, ent1)
-    entity2_literals = traverse_graph_and_get_literals(g2, ent2)
-
-    # Convert to normal Python float
-    score = float(score)
-    score_str = str(score)
-
-    # Get the predicates from the subject
-    if str(ent1) in entity1_literals:
-        entity1_predicates = entity1_literals[str(ent1)]
-    else:
-        entity1_predicates = {}
-        
-    if str(ent2) in entity2_literals:
-        entity2_predicates = entity2_literals[str(ent2)]
-    else:
-        entity2_predicates = {}
-    
-    # Get all predicates from both entities to ensure consistent order
-    all_predicates = sorted(set(list(entity1_predicates.keys()) + list(entity2_predicates.keys())))
-    
-    # Create entity details with sorted predicates
-    entity1_details = {
-        "from": "phkg_graph",
-        "subject": str(ent1),
-        "predicates": [
-            {
-                "predicate": pred,
-                "object": entity1_predicates.get(pred, "N/A")
-            }
-            for pred in all_predicates
-            if pred in entity1_predicates
-        ]
-    }
-
-    entity2_details = {
-        "from": "g2",
-        "subject": str(ent2),
-        "predicates": [
-            {
-                "predicate": pred,
-                "object": entity2_predicates.get(pred, "N/A")
-            }
-            for pred in all_predicates
-            if pred in entity2_predicates
-        ]
-    }
-
-    duplication_type = (
-        "exact" if score >= 0.9 else "similar" if score >= 0.7 else "conflict"
-    )
-
     final_result.append(
         {
-            "entities": [
-                {"entity1": entity1_details},
-                {"entity2": entity2_details}
-            ],
-            "similarity_score": score_str,
-            "duplication_type": duplication_type,
+            "entity1": ent1,
+            "entity2": ent2,
+            "score": str(score),
         }
     )
-    
-with open("matches1.json", "w") as f:
-    json.dump(final_result, f, indent=4)
 
+
+with open("matches2.json", "w") as f:
+    json.dump(final_result, f, indent=4)
 
