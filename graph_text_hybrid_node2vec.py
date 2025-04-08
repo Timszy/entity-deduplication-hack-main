@@ -6,6 +6,7 @@ import networkx as nx
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from node2vec import Node2Vec
+from typing import Dict
 
 
 # Load the RDF graphs
