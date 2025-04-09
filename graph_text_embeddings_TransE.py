@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from typing import Dict
 from pykeen.pipeline import pipeline
-
+from pykeen.triples import TriplesFactory
 
 # Load the RDF graphs
 g1 = rdflib.Graph()
@@ -14,13 +14,13 @@ g2 = rdflib.Graph()
 master_graph = rdflib.Graph()
 
 # Replace 'graph1.rdf' and 'graph2.rdf' with the paths to your RDF files
-g1.parse("/data/healthcare_graph_original.ttl")
-g2.parse("/data/healthcare_graph_replaced.ttl")
-master_graph.parse("/data/master_data.ttl")
+g1.parse("/Users/nguyenhoanghai/Documents/GitHub/entity-deduplication-hack-main/data/healthcare_graph_original.ttl")
+g2.parse("/Users/nguyenhoanghai/Documents/GitHub/entity-deduplication-hack-main/data/healthcare_graph_replaced.ttl")
+master_graph.parse("/Users/nguyenhoanghai/Documents/GitHub/entity-deduplication-hack-main/data/master_data.ttl")
 
 phkg_graph = g1 + master_graph
 
-alpha = 0.5 # You can change this value to weight the text embedding (0.0 = is graph only)
+alpha = 0.0 # You can change this value to weight the text embedding (0.0 = is graph only)
 text_dim = 384 # Dim for the all-MiniLM-L6-v2
 threshold = 0.7
 num_epochs = 100 # You can change it as you like
@@ -149,18 +149,33 @@ text_embeddings2 = model.encode(texts2, convert_to_tensor=True)
 # Combine the two graphs 
 combined_graph = phkg_graph + g2
 # Get triplets
-triplets = extract_triplets(combined_graph)
+triples = extract_triples(combined_graph)
+triples_array = np.array(triples)
+triples_factory = TriplesFactory.from_labeled_triples(triples_array)
 # Train the TransE model
 result = pipeline(
-    training=triples,
+    training=triples_factory,
+    testing=triples_factory,
+    validation=triples_factory,
     model='TransE',
     model_kwargs=dict(embedding_dim=text_dim),
-    training_kwargs=dict(num_epochs, use_tqdm_batch=False),  
+    training_loop='slcwa',  
+    training_kwargs=dict(num_epochs=num_epochs, use_tqdm_batch=False),
+    evaluator_kwargs=dict(filtered=True),
 )
-# Get the embeddings from the model
-entity_to_id = result.model.entity_representations[0].entity_to_id
-embedding_matrix = result.model.entity_representations[0].embedding.weight.detach().cpu().numpy()
-graph_embeddings = {entity: embedding_matrix[idx] for entity, idx in entity_to_id.items()}
+
+# Get all entity embeddings (as numpy array)
+entity_embeddings_tensor = result.model.entity_representations[0]().detach().cpu()
+embedding_matrix = entity_embeddings_tensor.numpy()
+
+# Get entity -> ID mapping
+entity_to_id = triples_factory.entity_to_id
+
+# Build final embedding dictionary
+graph_embeddings = {
+    entity: embedding_matrix[idx]
+    for entity, idx in entity_to_id.items()
+}
 
 # To get the ratio between the 2 embeddings 
 def get_hybrid_vector(entity, text_vector):
