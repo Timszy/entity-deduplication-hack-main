@@ -427,10 +427,8 @@ for ent1, ent2, score in matched_entities:
         }
     )
 
-with open("matches2Un.json", "w") as f:
+
+os.makedirs("matches", exist_ok=True)
+output_file = os.path.join("matches", "matchestest.json")
+with open(output_file, "w") as f:
     json.dump(final_result, f, indent=4)
-    matches_folder = "matches"
-    os.makedirs(matches_folder, exist_ok=True)
-    output_file = os.path.join(matches_folder, "matches2Un.json")
-    with open(output_file, "w") as f:
-        json.dump(final_result, f, indent=4)

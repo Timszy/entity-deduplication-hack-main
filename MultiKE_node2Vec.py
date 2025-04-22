@@ -10,6 +10,7 @@ from typing import Dict
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+import os
 
 # -------------------------------
 # Global settings and constants
@@ -335,5 +336,7 @@ for ent1, ent2, score in matched_entities:
         "duplication_type": duplication_type,
     })
 
-with open("matches3Un.json", "w") as f:
+os.makedirs("matches", exist_ok=True)
+output_file = os.path.join("matches", "matchestest.json")
+with open(output_file, "w") as f:
     json.dump(final_result, f, indent=4)

@@ -15,15 +15,15 @@ g2 = rdflib.Graph()
 master_graph = rdflib.Graph()
 
 # Replace 'graph1.rdf' and 'graph2.rdf' with the paths to your RDF files
-g1.parse("data/healthcare_graph_original.ttl")
-g2.parse("data/healthcare_graph_replaced.ttl")
+g1.parse("example_data/healthcare_graph_original_v2.ttl")
+g2.parse("example_data/healthcare_graph_unstruct_v2.ttl")
 master_graph.parse("data/master_data.ttl")
 
 phkg_graph = g1 + master_graph
 
 alpha = 0.5 # You can change this value to weight the text embedding (0.0 = is graph only)
 text_dim = 384 # Dim for the all-MiniLM-L6-v2
-threshold = 0.7
+threshold = 0.50 # Similarity threshold for matching
 
 KNOWN_PREFIXES = [
     "ucum:",
@@ -269,7 +269,7 @@ for ent1, ent2, score in matched_entities:
         }
     )
     
-with open("matches1.json", "w") as f:
+with open("example_matches.json", "w") as f:
     json.dump(final_result, f, indent=4)
 
 

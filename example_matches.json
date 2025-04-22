@@ -1,0 +1,710 @@
+[
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/ServiceDept/12d06ce5-dff4-4562-8464-77d001f59b1c",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "12d06ce5-dff4-4562-8464-77d001f59b1c"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/dept2",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/email",
+                            "object": "dept.healthcare.org"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.5328935384750366",
+        "duplication_type": "conflict"
+    },
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/ServiceDept/d95629ac-11f0-4316-8b70-fda7777964a0",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "d95629ac-11f0-4316-8b70-fda7777964a0"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/dept2",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/email",
+                            "object": "dept.healthcare.org"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.5520712733268738",
+        "duplication_type": "conflict"
+    },
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/ServiceDept/711f02ac-e905-4731-bd38-7e53f882006a",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "711f02ac-e905-4731-bd38-7e53f882006a"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/dept2",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/email",
+                            "object": "dept.healthcare.org"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.5558167695999146",
+        "duplication_type": "conflict"
+    },
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/HealthcareOrg/4ec985ff-94b2-4b9d-8881-9f421a42b629",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "4ec985ff-94b2-4b9d-8881-9f421a42b629"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Smith Ltd Gesundheitszentrum"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/org2",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "AL Zorg"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.5225236415863037",
+        "duplication_type": "conflict"
+    },
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/ServiceDept/30c4b834-8dcf-481d-849d-215d8180017d",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "30c4b834-8dcf-481d-849d-215d8180017d"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/dept2",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/email",
+                            "object": "dept.healthcare.org"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.5648220181465149",
+        "duplication_type": "conflict"
+    },
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/ServiceDept/1934952f-6761-4457-9dfe-778a2c17d3e2",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "1934952f-6761-4457-9dfe-778a2c17d3e2"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/dept2",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/email",
+                            "object": "dept.healthcare.org"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.5387762188911438",
+        "duplication_type": "conflict"
+    },
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/HealthcareOrg/53f3c158-42ce-41c0-8cd9-f2af339c5a75",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "53f3c158-42ce-41c0-8cd9-f2af339c5a75"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Long-Martinez Tervisekeskus"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/org2",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "AL Zorg"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.5327863693237305",
+        "duplication_type": "conflict"
+    },
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/ServiceDept/3ca58162-4509-47a7-a2bc-5350a627e31d",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "3ca58162-4509-47a7-a2bc-5350a627e31d"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Obstetric"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/org1",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Robinson, Montoya and Walters Gesundheitszentrum"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.5002443790435791",
+        "duplication_type": "conflict"
+    },
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/Address/df66946a-0116-4168-bac8-a7602d5df04a",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/addressCountry",
+                            "object": "NL"
+                        },
+                        {
+                            "predicate": "https://schema.org/addressLocality",
+                            "object": "Elburg"
+                        },
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "df66946a-0116-4168-bac8-a7602d5df04a"
+                        },
+                        {
+                            "predicate": "https://schema.org/postalCode",
+                            "object": "6941 VQ"
+                        },
+                        {
+                            "predicate": "https://schema.org/streetAddress",
+                            "object": "Ilseboulevard 58"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/address2",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/addressLocality",
+                            "object": "Elburg"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.6425998210906982",
+        "duplication_type": "conflict"
+    },
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/ContactPoint/12f175ff-ae3b-46ec-9a27-d85888c132ad",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/availableLanguage",
+                            "object": "['de', 'en']"
+                        },
+                        {
+                            "predicate": "https://schema.org/contactType",
+                            "object": "Patient Services"
+                        },
+                        {
+                            "predicate": "https://schema.org/email",
+                            "object": "Robinson@healthcare.org"
+                        },
+                        {
+                            "predicate": "https://schema.org/faxNumber",
+                            "object": "+1-303-621-7300x869"
+                        },
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "12f175ff-ae3b-46ec-9a27-d85888c132ad"
+                        },
+                        {
+                            "predicate": "https://schema.org/telephone",
+                            "object": "3132991615"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/contact1",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/email",
+                            "object": "Robinson@healthcare.org"
+                        },
+                        {
+                            "predicate": "https://schema.org/telephone",
+                            "object": "3132991615"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.6744785904884338",
+        "duplication_type": "conflict"
+    },
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/ServiceDept/1f1472db-c7ff-4f21-8839-e2b5409d108c",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "1f1472db-c7ff-4f21-8839-e2b5409d108c"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/dept2",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/email",
+                            "object": "dept.healthcare.org"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.5378553867340088",
+        "duplication_type": "conflict"
+    },
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/ServiceDept/a695714f-5f1b-4fff-9c6a-136e46312749",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "a695714f-5f1b-4fff-9c6a-136e46312749"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/dept2",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/email",
+                            "object": "dept.healthcare.org"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.5431186556816101",
+        "duplication_type": "conflict"
+    },
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/HealthcareOrg/52ebdac5-a145-4899-a1f8-c1569e0df45b",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "52ebdac5-a145-4899-a1f8-c1569e0df45b"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Allen Ltd Zorg"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/org2",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "AL Zorg"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.506610095500946",
+        "duplication_type": "conflict"
+    },
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/HealthcareOrg/037d9752-48f3-431c-8fb7-c3bb4408c04c",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "037d9752-48f3-431c-8fb7-c3bb4408c04c"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Jordan, Jackson and Kramer Zorg"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/org2",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "AL Zorg"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.5062035918235779",
+        "duplication_type": "conflict"
+    },
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/ServiceDept/6689ef79-f8c3-4461-bc15-b016487eb3df",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "6689ef79-f8c3-4461-bc15-b016487eb3df"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/dept2",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/email",
+                            "object": "dept.healthcare.org"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.5411748290061951",
+        "duplication_type": "conflict"
+    },
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/Person/1f68497c-8199-4b6f-9590-1aedc7adbcb1",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/birthDate",
+                            "object": "1971-10-05"
+                        },
+                        {
+                            "predicate": "https://schema.org/email",
+                            "object": "danielglover@healthcare.org"
+                        },
+                        {
+                            "predicate": "https://schema.org/gender",
+                            "object": "Other"
+                        },
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "1f68497c-8199-4b6f-9590-1aedc7adbcb1"
+                        },
+                        {
+                            "predicate": "https://schema.org/jobTitle",
+                            "object": "Ophthalmologist"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Daniel Glover"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/person3",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/birthDate",
+                            "object": "1971-10-05"
+                        },
+                        {
+                            "predicate": "https://schema.org/jobTitle",
+                            "object": "Ophthalmologist"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Glover Amanda Daniel"
+                        },
+                        {
+                            "predicate": "https://schema.org/worksIn",
+                            "object": "Vision Care Center"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.5145654678344727",
+        "duplication_type": "conflict"
+    },
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/HealthcareOrg/a59cec98-126c-4c8f-b888-447911ebcd49",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "a59cec98-126c-4c8f-b888-447911ebcd49"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Robinson, Montoya and Walters Gesundheitszentrum"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/org1",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Robinson, Montoya and Walters Gesundheitszentrum"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.5873144268989563",
+        "duplication_type": "conflict"
+    },
+    {
+        "entities": [
+            {
+                "entity1": {
+                    "from": "phkg_graph",
+                    "subject": "http://example.org/ServiceDept/f0c53802-4474-4ac6-9df7-327635ba9da1",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/identifier",
+                            "object": "f0c53802-4474-4ac6-9df7-327635ba9da1"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            },
+            {
+                "entity2": {
+                    "from": "g2",
+                    "subject": "http://example.org/dept2",
+                    "predicates": [
+                        {
+                            "predicate": "https://schema.org/email",
+                            "object": "dept.healthcare.org"
+                        },
+                        {
+                            "predicate": "https://schema.org/name",
+                            "object": "Pediatric"
+                        }
+                    ]
+                }
+            }
+        ],
+        "similarity_score": "0.563740074634552",
+        "duplication_type": "conflict"
+    }
+]
