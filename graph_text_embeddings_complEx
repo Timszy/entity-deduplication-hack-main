@@ -162,17 +162,17 @@ training_factory, testing_factory = triples_factory.split([0.8, 0.2])
 result = pipeline(
     training=training_factory,
     testing=testing_factory,
-    validation=triples_factory,
-    model='TransE',
+    validation=None,
+    model='ComplEx',  # <--- just change this line
     model_kwargs=dict(embedding_dim=text_dim),
-    training_loop='slcwa',  
-    training_kwargs=dict(num_epochs=num_epochs, use_tqdm_batch=False),
+    training_loop='slcwa',
+    training_kwargs=dict(num_epochs=500, use_tqdm_batch=True),
     evaluator_kwargs=dict(filtered=True),
 )
 
 # Get all entity embeddings (as numpy array)
 entity_embeddings_tensor = result.model.entity_representations[0]().detach().cpu()
-embedding_matrix = entity_embeddings_tensor.numpy()
+embedding_matrix = entity_embeddings_tensor.numpy().real
 
 # Get entity -> ID mapping
 entity_to_id = triples_factory.entity_to_id
@@ -246,6 +246,6 @@ for ent1, ent2, score in matched_entities:
     )
 
 
-with open("matches_transE.json", "w") as f:
+with open("matches_complEx.json", "w") as f:
     json.dump(final_result, f, indent=4)
 
