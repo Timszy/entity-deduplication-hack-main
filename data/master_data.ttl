@@ -24,8 +24,6 @@
     :identifier "HCO001"^^xsd:string ;
     :name "Sample Health Center" ;
     :contactPoint :ContactPoint_001_identifier ;
-    :employee :person_001_identifier ;
-    :subOrganization :ServiceDepartment_001_identifier ;
     :address :Address_001_identifier .
 
 ### Define the Service Department
@@ -33,7 +31,6 @@
     :identifier "SD001"^^xsd:string ;
     :name "Cardiology" ;
     :parentOrganization :HealthCareOrganization_001_identifier ;
-    :member :person_001_identifier ;
     :contactPoint :ContactPoint_001_identifier ;
     :address :Address_001_identifier .
 

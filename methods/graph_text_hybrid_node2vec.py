@@ -7,6 +7,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from node2vec import Node2Vec
 from typing import Dict
+from evaluate_helper import analyze_match_results, print_detailed_statistics
 
 
 # Load the RDF graphs
@@ -273,3 +274,57 @@ with open("example_matches.json", "w") as f:
     json.dump(final_result, f, indent=4)
 
 
+# --- Evaluation starts here ---
+
+# 1. Load the Golden Standard
+try:
+    golden_standard_df = pd.read_csv('golden_standard_duplicates.csv')
+except FileNotFoundError:
+    print("Error: golden_standard_duplicates.csv not found. Exiting.")
+    exit()
+except Exception as e:
+    print(f"Error loading golden_standard_duplicates.csv: {e}. Exiting.")
+    exit()
+
+# 2. Define Field Mapping
+field_to_predicate_map = {
+    "personName": "name", "birthDate": "birthDate", "knowsLanguage": "knowsLanguage", "gender": "gender",
+    "email": "email", "jobTitle": "jobTitle",
+    "city": "addressLocality", "postalCode": "postalCode", "country": "addressCountry", "text": "streetAddress",
+    "healthcareOrganizationName": "name", "serviceDepartmentName": "name"
+}
+
+# 3. Define paths to match files
+match_files_info = {
+    'matches_set1': 'matches/matches.json',    # From original matches.json
+    'matches_set2': 'matches/matches1.json'  # From original matches1.json
+}
+
+all_results_dfs = {}
+
+# 4. Process each match file
+for source_name, file_path in match_files_info.items():
+    results_df = analyze_match_results(file_path, golden_standard_df, field_to_predicate_map, source_name)
+    all_results_dfs[source_name] = results_df
+    
+    if results_df is not None and not results_df.empty:
+        # Displaying the DataFrame (equivalent to Cell 3 & similar)
+        print(f"\n--- Confirmed Matched Results for {source_name} ---")
+        print(results_df.head()) # Print head for brevity, or print(results_df) for full
+
+        # Displaying sorted values (equivalent to Cell 4 & 5)
+        print(f"\n--- Sorted by Similarity Score for {source_name} ---")
+        print(results_df.sort_values(by='similarity_score', ascending=True)[['original_value', 'varied_value', 'similarity_score', 'variation_type']].head())
+
+        # Displaying alternative naming (equivalent to Cell 6)
+        if 'alternative_naming' in results_df['variation_type'].unique():
+            alternative_naming_df = results_df[results_df['variation_type'] == 'alternative_naming']
+            print(f"\n--- Alternative Naming Matches for {source_name} ---")
+            print(alternative_naming_df.head())
+        else:
+            print(f"\nNo 'alternative_naming' variations found for {source_name}.")
+            
+    # 5. Print detailed statistics for the current match file
+    print_detailed_statistics(results_df if results_df is not None else pd.DataFrame(), golden_standard_df, source_name)
+
+print("\n--- Evaluation Script Finished ---")
