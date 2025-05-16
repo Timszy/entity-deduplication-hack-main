@@ -7,7 +7,8 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from node2vec import Node2Vec
 from typing import Dict
-from evaluate_helper import analyze_match_results, print_detailed_statistics
+import time # Import time module
+from evaluate_helper import print_detailed_statistics, calculate_entity_level_metrics
 
 
 # Load the RDF graphs
@@ -17,10 +18,13 @@ master_graph = rdflib.Graph()
 
 # Replace 'graph1.rdf' and 'graph2.rdf' with the paths to your RDF files
 g1.parse("example_data/healthcare_graph_original_v2.ttl")
-g2.parse("example_data/healthcare_graph_unstruct_v2.ttl")
+g2.parse("example_data/healthcare_graph_replaced_v2.ttl")
 master_graph.parse("data/master_data.ttl")
 
 phkg_graph = g1 + master_graph
+
+# Start timer for the algorithm
+algorithm_start_time = time.time()
 
 alpha = 0.5 # You can change this value to weight the text embedding (0.0 = is graph only)
 text_dim = 384 # Dim for the all-MiniLM-L6-v2
@@ -204,6 +208,14 @@ matched_entities = match_entities(
     df_similarity, threshold
 )
 
+# End timer for the algorithm
+algorithm_end_time = time.time()
+algorithm_runtime = algorithm_end_time - algorithm_start_time
+
+print(f"\n--- Algorithm Runtime ---")
+print(f"Total time for deduplication: {algorithm_runtime:.4f} seconds")
+
+
 final_result = []
 
 for ent1, ent2, score in matched_entities:
@@ -269,8 +281,10 @@ for ent1, ent2, score in matched_entities:
             "duplication_type": duplication_type,
         }
     )
-    
-with open("example_matches.json", "w") as f:
+
+file_path = "matches/example_matches.json"
+
+with open(file_path, "w") as f:
     json.dump(final_result, f, indent=4)
 
 
@@ -278,13 +292,20 @@ with open("example_matches.json", "w") as f:
 
 # 1. Load the Golden Standard
 try:
-    golden_standard_df = pd.read_csv('golden_standard_duplicates.csv')
+    golden_standard_df = pd.read_csv('example_data/updated_golden_standard_duplicates.csv')
 except FileNotFoundError:
-    print("Error: golden_standard_duplicates.csv not found. Exiting.")
+    print("Error: Ground truth not found Exiting.")
     exit()
 except Exception as e:
-    print(f"Error loading golden_standard_duplicates.csv: {e}. Exiting.")
+    print(f"Error loading Ground truth: {e}. Exiting.")
     exit()
+
+# Calculate and print entity-level P/R/F1 scores
+# This requires 'original_entity_uri' and 'varied_entity_uri' in golden_standard_df
+if 'golden_standard_df' in locals(): # Check if golden_standard_df was loaded
+    calculate_entity_level_metrics(matched_entities, golden_standard_df)
+else:
+    print("Golden standard not loaded, skipping entity-level P/R/F1 calculation.")
 
 # 2. Define Field Mapping
 field_to_predicate_map = {
@@ -294,37 +315,46 @@ field_to_predicate_map = {
     "healthcareOrganizationName": "name", "serviceDepartmentName": "name"
 }
 
-# 3. Define paths to match files
-match_files_info = {
-    'matches_set1': 'matches/matches.json',    # From original matches.json
-    'matches_set2': 'matches/matches1.json'  # From original matches1.json
-}
+# 3. Define path to generated match file
+file_path = "matches/example_matches.json"
 
-all_results_dfs = {}
+# 4. Create a results DataFrame for field-level evaluation
+results_df = pd.DataFrame()
 
-# 4. Process each match file
-for source_name, file_path in match_files_info.items():
-    results_df = analyze_match_results(file_path, golden_standard_df, field_to_predicate_map, source_name)
-    all_results_dfs[source_name] = results_df
+# Create a dummy results dataframe to use with print_detailed_statistics 
+# This is a simplified approach since we don't have analyze_match_results function
+try:
+    # Try to load matches file
+    with open(file_path, 'r') as f:
+        matches_data = json.load(f)
     
-    if results_df is not None and not results_df.empty:
-        # Displaying the DataFrame (equivalent to Cell 3 & similar)
-        print(f"\n--- Confirmed Matched Results for {source_name} ---")
-        print(results_df.head()) # Print head for brevity, or print(results_df) for full
+    print(f"\nSuccessfully loaded {len(matches_data)} entity matches from {file_path}")
+    
+    # Print details about the matches for reference
+    print(f"Number of matched entity pairs: {len(matches_data)}")
+    
+    # Get field-level statistics directly using the available function
+    stats_summary, variation_comparison = print_detailed_statistics(
+        results_df,  # Empty DataFrame as we don't have field-level analysis
+        golden_standard_df, 
+        "Graph-Text Hybrid (Node2Vec)"
+    )
+    
+    # Store statistics in a JSON file
+    collected_detailed_stats = {
+        "Graph-Text Hybrid (Node2Vec)": {
+            'summary_statistics': stats_summary,
+            'variation_analysis': variation_comparison.to_dict() # Convert DataFrame to dict for JSON serialization
+        }
+    }
+    
+    # Save collected detailed statistics to a JSON file
+    output_stats_file = 'results/hybrid_node2vec_statistics.json'
+    with open(output_stats_file, 'w') as f:
+        json.dump(collected_detailed_stats, f, indent=4)
+    print(f"\n--- Statistics saved to {output_stats_file} ---")
 
-        # Displaying sorted values (equivalent to Cell 4 & 5)
-        print(f"\n--- Sorted by Similarity Score for {source_name} ---")
-        print(results_df.sort_values(by='similarity_score', ascending=True)[['original_value', 'varied_value', 'similarity_score', 'variation_type']].head())
-
-        # Displaying alternative naming (equivalent to Cell 6)
-        if 'alternative_naming' in results_df['variation_type'].unique():
-            alternative_naming_df = results_df[results_df['variation_type'] == 'alternative_naming']
-            print(f"\n--- Alternative Naming Matches for {source_name} ---")
-            print(alternative_naming_df.head())
-        else:
-            print(f"\nNo 'alternative_naming' variations found for {source_name}.")
-            
-    # 5. Print detailed statistics for the current match file
-    print_detailed_statistics(results_df if results_df is not None else pd.DataFrame(), golden_standard_df, source_name)
+except Exception as e:
+    print(f"Error processing match results: {e}")
 
 print("\n--- Evaluation Script Finished ---")
