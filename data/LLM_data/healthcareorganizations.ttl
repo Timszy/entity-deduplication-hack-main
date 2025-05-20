@@ -1,0 +1,285 @@
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/HealthcareOrg/HCO1> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/Ad1> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP1> ;
+    schema:identifier "HCO1"^^xsd:string ;
+    schema:name "Ibarra PLk Zorg"^^xsd:string .
+
+<http://example.org/HealthcareOrg/HCO10> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/Ad10> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP10> ;
+    schema:identifier "HCO10"^^xsd:string ;
+    schema:name "Figueroa-Storng Zorg"^^xsd:string .
+
+<http://example.org/HealthcareOrg/HCO11> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/Ad11> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP11> ;
+    schema:identifier "HCO11"^^xsd:string ;
+    schema:name "Allen Ltd Zrog"^^xsd:string .
+
+<http://example.org/HealthcareOrg/HCO12> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/Ad12> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP12> ;
+    schema:identifier "HCO12"^^xsd:string ;
+    schema:name "M Gonzalez and Howard Tervisekeskus"^^xsd:string .
+
+<http://example.org/HealthcareOrg/HCO13> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/Ad13> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP13> ;
+    schema:identifier "HCO13"^^xsd:string ;
+    schema:name "Burch LL CZorg"^^xsd:string .
+
+<http://example.org/HealthcareOrg/HCO14> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/Ad14> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP14> ;
+    schema:identifier "HCO14"^^xsd:string ;
+    schema:name "Peck LLC Zorg"^^xsd:string .
+
+<http://example.org/HealthcareOrg/HCO15> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/Ad15> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP15> ;
+    schema:identifier "HCO15"^^xsd:string ;
+    schema:name "R Montoya and Walters Gesundheitszentrum"^^xsd:string .
+
+<http://example.org/HealthcareOrg/HCO2> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/Ad2> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP2> ;
+    schema:identifier "HCO2"^^xsd:string ;
+    schema:name "Berg, Long and Middleton Terivsekeskus"^^xsd:string .
+
+<http://example.org/HealthcareOrg/HCO3> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/Ad3> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP3> ;
+    schema:identifier "HCO3"^^xsd:string ;
+    schema:name "Jordan, Jackson and Krame rZorg"^^xsd:string .
+
+<http://example.org/HealthcareOrg/HCO4> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/Ad4> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP4> ;
+    schema:identifier "HCO4"^^xsd:string ;
+    schema:name "PG"^^xsd:string .
+
+<http://example.org/HealthcareOrg/HCO5> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/Ad5> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP5> ;
+    schema:identifier "HCO5"^^xsd:string ;
+    schema:name "Griffin, Ross and Saunders Zorg"^^xsd:string .
+
+<http://example.org/HealthcareOrg/HCO6> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/Ad6> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP6> ;
+    schema:identifier "HCO6"^^xsd:string ;
+    schema:name "Noavk PLC Tervisekeskus"^^xsd:string .
+
+<http://example.org/HealthcareOrg/HCO7> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/Ad7> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP7> ;
+    schema:identifier "HCO7"^^xsd:string ;
+    schema:name "D Guerrero and Simpson Zorg"^^xsd:string .
+
+<http://example.org/HealthcareOrg/HCO8> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/Ad8> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP8> ;
+    schema:identifier "HCO8"^^xsd:string ;
+    schema:name "P Murphy and Brooks Gesundheitszentrum"^^xsd:string .
+
+<http://example.org/HealthcareOrg/HCO9> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/Ad9> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP9> ;
+    schema:identifier "HCO9"^^xsd:string ;
+    schema:name "Kim-Todd Gesundheitszentrum"^^xsd:string .
+
+<http://example.org/Address/Ad1> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Den Velde"^^xsd:string ;
+    schema:identifier "Ad1"^^xsd:string ;
+    schema:postalCode "5324 WR"^^xsd:string .
+
+<http://example.org/Address/Ad10> a schema:PostalAddress ;
+    schema:addressLocality "Vorchetn"^^xsd:string ;
+    schema:identifier "Ad10"^^xsd:string ;
+    schema:postalCode "5736 ES"^^xsd:string ;
+    schema:streetAddress "Benteboulevarq 95"^^xsd:string .
+
+<http://example.org/Address/Ad11> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Maasvlakte Rotterdam"^^xsd:string ;
+    schema:identifier "Ad11"^^xsd:string ;
+    schema:streetAddress "Majaring 76A"^^xsd:string .
+
+<http://example.org/Address/Ad12> a schema:PostalAddress ;
+    schema:addressCountry "EE"^^xsd:string ;
+    schema:addressLocality "aMiechester"^^xsd:string ;
+    schema:identifier "Ad12"^^xsd:string ;
+    schema:postalCode "2023 9"^^xsd:string .
+
+<http://example.org/Address/Ad13> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Muntendam"^^xsd:string ;
+    schema:identifier "Ad13"^^xsd:string ;
+    schema:streetAddress "Bilalhof 68B"^^xsd:string .
+
+<http://example.org/Address/Ad14> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Zuidlaren"^^xsd:string ;
+    schema:identifier "Ad14"^^xsd:string ;
+    schema:postalCode "1398 JL"^^xsd:string .
+
+<http://example.org/Address/Ad15> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Kufsetin"^^xsd:string ;
+    schema:identifier "Ad15"^^xsd:string ;
+    schema:streetAddress "Sulzergassr 127"^^xsd:string .
+
+<http://example.org/Address/Ad2> a schema:PostalAddress ;
+    schema:addressCountry "Estonia"^^xsd:string ;
+    schema:addressLocality "Žukovville"^^xsd:string ;
+    schema:identifier "Ad2"^^xsd:string ;
+    schema:postalCode "9523 8"^^xsd:string .
+
+<http://example.org/Address/Ad3> a schema:PostalAddress ;
+    schema:addressLocality "Gapinge"^^xsd:string ;
+    schema:identifier "Ad3"^^xsd:string ;
+    schema:postalCode "4271LL"^^xsd:string ;
+    schema:streetAddress "Femkelaan 52"^^xsd:string .
+
+<http://example.org/Address/Ad4> a schema:PostalAddress ;
+    schema:addressCountry "Austria"^^xsd:string ;
+    schema:addressLocality "Ferlcah"^^xsd:string ;
+    schema:identifier "Ad4"^^xsd:string ;
+    schema:streetAddress "Hauserweg 75B"^^xsd:string .
+
+<http://example.org/Address/Ad5> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "De Bult"^^xsd:string ;
+    schema:identifier "Ad5"^^xsd:string ;
+    schema:streetAddress "Masonboulevard 35"^^xsd:string .
+
+<http://example.org/Address/Ad6> a schema:PostalAddress ;
+    schema:addressLocality "Makrberg"^^xsd:string ;
+    schema:identifier "Ad6"^^xsd:string ;
+    schema:postalCode "37304"^^xsd:string ;
+    schema:streetAddress "Meelis Haven 129-1"^^xsd:string .
+
+<http://example.org/Address/Ad7> a schema:PostalAddress ;
+    schema:addressLocality "Arecn"^^xsd:string ;
+    schema:identifier "Ad7"^^xsd:string ;
+    schema:postalCode "9541 QT"^^xsd:string ;
+    schema:streetAddress "Zakariasingel 13B"^^xsd:string .
+
+<http://example.org/Address/Ad8> a schema:PostalAddress ;
+    schema:addressLocality "Grein"^^xsd:string ;
+    schema:identifier "Ad8"^^xsd:string ;
+    schema:postalCode "3985"^^xsd:string ;
+    schema:streetAddress "Hahnwen 92"^^xsd:string .
+
+<http://example.org/Address/Ad9> a schema:PostalAddress ;
+    schema:addressLocality "äGnserndorf"^^xsd:string ;
+    schema:identifier "Ad9"^^xsd:string ;
+    schema:postalCode "2354"^^xsd:string ;
+    schema:streetAddress "Maryam-Buchegger-Straße 80"^^xsd:string .
+
+<http://example.org/ContactPoint/CP1> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "General Inquiries"^^xsd:string ;
+    schema:faxNumber "067 5375100."^^xsd:string ;
+    schema:identifier "CP1"^^xsd:string ;
+    schema:telephone "+31194-564183"^^xsd:string .
+
+<http://example.org/ContactPoint/CP10> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch']"^^xsd:string ;
+    schema:contactType "Patient Services"^^xsd:string ;
+    schema:faxNumber "057-6377857."^^xsd:string ;
+    schema:identifier "CP10"^^xsd:string ;
+    schema:telephone "+34(0)211 669728"^^xsd:string .
+
+<http://example.org/ContactPoint/CP11> a schema:ContactPoint ;
+    schema:contactType "Patient Services"^^xsd:string ;
+    schema:faxNumber "(0670)-170009."^^xsd:string ;
+    schema:identifier "CP11"^^xsd:string ;
+    schema:telephone "(062)-7912560"^^xsd:string .
+
+<http://example.org/ContactPoint/CP12> a schema:ContactPoint ;
+    schema:availableLanguage "['et', 'en']"^^xsd:string ;
+    schema:contactType "Media Relations"^^xsd:string ;
+    schema:email "Mcnecl@healthcare.org."^^xsd:string ;
+    schema:identifier "CP12"^^xsd:string .
+
+<http://example.org/ContactPoint/CP13> a schema:ContactPoint ;
+    schema:contactType "Media Relations"^^xsd:string ;
+    schema:email "Bunch@healthcare.org"^^xsd:string ;
+    schema:faxNumber "+31(0)20 0580001."^^xsd:string ;
+    schema:identifier "CP13"^^xsd:string ;
+    schema:telephone "+3192-6903906"^^xsd:string .
+
+<http://example.org/ContactPoint/CP14> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch', 'english']"^^xsd:string ;
+    schema:contactType "Patient Services"^^xsd:string ;
+    schema:email "Peck@healthcare.org."^^xsd:string ;
+    schema:identifier "CP14"^^xsd:string ;
+    schema:telephone "065-4611877"^^xsd:string .
+
+<http://example.org/ContactPoint/CP15> a schema:ContactPoint ;
+    schema:availableLanguage "['german', 'english']"^^xsd:string ;
+    schema:contactType "Patient Services"^^xsd:string ;
+    schema:email "Robinson@healthcare.org"^^xsd:string ;
+    schema:faxNumber "+1-303-621-73006869."^^xsd:string ;
+    schema:identifier "CP15"^^xsd:string .
+
+<http://example.org/ContactPoint/CP2> a schema:ContactPoint ;
+    schema:contactType "Patient Services"^^xsd:string ;
+    schema:email "Bexg@healthcare.org"^^xsd:string ;
+    schema:faxNumber "(757)680-3129."^^xsd:string ;
+    schema:identifier "CP2"^^xsd:string ;
+    schema:telephone "(757)792-9481"^^xsd:string .
+
+<http://example.org/ContactPoint/CP3> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Administrative"^^xsd:string ;
+    schema:email "Joraan@healthcare.org."^^xsd:string ;
+    schema:identifier "CP3"^^xsd:string ;
+    schema:telephone "0749 318642"^^xsd:string .
+
+<http://example.org/ContactPoint/CP4> a schema:ContactPoint ;
+    schema:contactType "General Inquiries"^^xsd:string ;
+    schema:email "PerezBecker@healthcare.org"^^xsd:string ;
+    schema:faxNumber "456.336.0906x9435."^^xsd:string ;
+    schema:identifier "CP4"^^xsd:string ;
+    schema:telephone "011-293-368-4735"^^xsd:string .
+
+<http://example.org/ContactPoint/CP5> a schema:ContactPoint ;
+    schema:contactType "Patient Services"^^xsd:string ;
+    schema:email "Greffin@healthcare.org"^^xsd:string ;
+    schema:faxNumber "(0970)-341889."^^xsd:string ;
+    schema:identifier "CP5"^^xsd:string ;
+    schema:telephone "+318251717340"^^xsd:string .
+
+<http://example.org/ContactPoint/CP6> a schema:ContactPoint ;
+    schema:availableLanguage "['estonian', 'english']"^^xsd:string ;
+    schema:contactType "Media Relations"^^xsd:string ;
+    schema:email "Novak@healthcare.org."^^xsd:string ;
+    schema:identifier "CP6"^^xsd:string ;
+    schema:telephone "510.425.0592x76367"^^xsd:string .
+
+<http://example.org/ContactPoint/CP7> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Administrative"^^xsd:string ;
+    schema:identifier "CP7"^^xsd:string ;
+    schema:telephone "+31429 635460."^^xsd:string .
+
+<http://example.org/ContactPoint/CP8> a schema:ContactPoint ;
+    schema:availableLanguage "['german', 'english']"^^xsd:string ;
+    schema:contactType "General Inquiries"^^xsd:string ;
+    schema:faxNumber "412.937.9332x36599."^^xsd:string ;
+    schema:identifier "CP8"^^xsd:string ;
+    schema:telephone "4884559026"^^xsd:string .
+
+<http://example.org/ContactPoint/CP9> a schema:ContactPoint ;
+    schema:contactType "General Inquiries"^^xsd:string ;
+    schema:email "KemTodd@healthcare.org"^^xsd:string ;
+    schema:faxNumber "(392)794-5067x820."^^xsd:string ;
+    schema:identifier "CP9"^^xsd:string ;
+    schema:telephone "2709436666"^^xsd:string .
+

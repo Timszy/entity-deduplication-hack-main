@@ -1,0 +1,104 @@
+row,original_id,field_name,original_value,varied_value,variation_type,entity_type,duplicate_id
+0,06d2ed7c-e6ac-4d8a-8160-ff927c7550f2,healthcareOrganizationName,Ibarra PLC Zorg,Ibarra PLk Zorg,Organization Name Typo,HealthcareOrganization,HCO1
+1,4a863655-0a9d-499c-a269-8c2d614f1ddc,healthcareOrganizationName,"Berg, Long and Middleton Tervisekeskus","Berg, Long and Middleton Terivsekeskus",Organization Name Typo,HealthcareOrganization,HCO2
+2,037d9752-48f3-431c-8fb7-c3bb4408c04c,healthcareOrganizationName,"Jordan, Jackson and Kramer Zorg","Jordan, Jackson and Krame rZorg",Organization Name Typo,HealthcareOrganization,HCO3
+3,5d393bf9-b2da-41f6-8c16-014a2e4a6e78,healthcareOrganizationName,Perez-Becker Gesundheitszentrum,PG,Organization Name Abbreviation,HealthcareOrganization,HCO4
+5,3e332f35-086c-4768-b0fe-3cfc991ab513,healthcareOrganizationName,Novak PLC Tervisekeskus,Noavk PLC Tervisekeskus,Organization Name Typo,HealthcareOrganization,HCO6
+6,92d6ff73-5b3a-4595-8458-92c14e0e15d3,healthcareOrganizationName,"Delgado, Guerrero and Simpson Zorg",D Guerrero and Simpson Zorg,Organization Name Abbreviation,HealthcareOrganization,HCO7
+7,9db3466d-1ba6-4c61-aaf9-4919e69b7971,healthcareOrganizationName,"Parker, Murphy and Brooks Gesundheitszentrum",P Murphy and Brooks Gesundheitszentrum,Organization Name Abbreviation,HealthcareOrganization,HCO8
+9,71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0,healthcareOrganizationName,Figueroa-Strong Zorg,Figueroa-Storng Zorg,Organization Name Typo,HealthcareOrganization,HCO10
+10,52ebdac5-a145-4899-a1f8-c1569e0df45b,healthcareOrganizationName,Allen Ltd Zorg,Allen Ltd Zrog,Organization Name Typo,HealthcareOrganization,HCO11
+11,8b5885ca-0bb2-43f0-bd30-291a55fea08e,healthcareOrganizationName,"Mcneil, Gonzalez and Howard Tervisekeskus",M Gonzalez and Howard Tervisekeskus,Organization Name Abbreviation,HealthcareOrganization,HCO12
+12,c7405255-25cf-41c4-9c89-929692b035e0,healthcareOrganizationName,Burch LLC Zorg,Burch LL CZorg,Organization Name Typo,HealthcareOrganization,HCO13
+14,a59cec98-126c-4c8f-b888-447911ebcd49,healthcareOrganizationName,"Robinson, Montoya and Walters Gesundheitszentrum",R Montoya and Walters Gesundheitszentrum,Organization Name Abbreviation,HealthcareOrganization,HCO15
+0,daf66c5f-2577-4ffa-887a-746319c16a0d,postalCode,9573,9573 ,Postal Code Formatting Variations,Address,Ad15
+0,daf66c5f-2577-4ffa-887a-746319c16a0d,city,Kufstein,Kufsetin,City and Locality Name Variations,Address,Ad15
+0,daf66c5f-2577-4ffa-887a-746319c16a0d,text,Sulzergasse 127,Sulzergassr 127,Street Name Manipulation,Address,Ad15
+1,19d5f970-98b3-4c6e-8a14-b90a7795e986,city,Maiechester,aMiechester,City and Locality Name Variations,Address,Ad12
+1,19d5f970-98b3-4c6e-8a14-b90a7795e986,text,Andrei Parkway 88,Andrei Parkway 88B,Street Number Manipulation,Address,Ad12
+1,19d5f970-98b3-4c6e-8a14-b90a7795e986,postalCode,20239,2023 9,Postal Code Formatting Variations,Address,Ad12
+2,bb0378eb-7a62-422e-9d69-d9fc4b1cb8bd,country,NL,Netherlands,Country Representation Variations,Address,Ad14
+3,ef7e85ec-a417-456f-a9ee-7f3d0ff030b8,text,Majaring 76,Majaring 76A,Street Number Manipulation,Address,Ad11
+4,7d859725-c707-4ef9-86c3-744cc88e03b6,country,NL,Netherlands,Country Representation Variations,Address,Ad1
+4,7d859725-c707-4ef9-86c3-744cc88e03b6,text,Jordyring 13,Jordyring 13-1,Street Number Manipulation,Address,Ad1
+5,27649a62-b02d-452c-9b05-0db28ee4fd02,country,NL,Netherlands,Country Representation Variations,Address,Ad5
+6,8b279c29-a274-40d7-b4a5-cc36692a7bce,text,Benteboulevard 95,Benteboulevarq 95,Street Name Manipulation,Address,Ad10
+6,8b279c29-a274-40d7-b4a5-cc36692a7bce,city,Vorchten,Vorchetn,City and Locality Name Variations,Address,Ad10
+7,1095e497-3d79-4f0b-a6cd-3595d4f0d65d,postalCode,3985,3985 ,Postal Code Formatting Variations,Address,Ad8
+7,1095e497-3d79-4f0b-a6cd-3595d4f0d65d,text,Hahnweg 92,Hahnwen 92,Street Name Manipulation,Address,Ad8
+7,1095e497-3d79-4f0b-a6cd-3595d4f0d65d,country,AT,Austria,Country Representation Variations,Address,Ad8
+8,3856be31-f568-49c6-833c-14694f06ea18,text,Zakariasingel 13,Zakariasingel 13B,Street Number Manipulation,Address,Ad7
+8,3856be31-f568-49c6-833c-14694f06ea18,city,Arcen,Arecn,City and Locality Name Variations,Address,Ad7
+9,6756264d-c864-4f78-beaf-167952b04994,postalCode,4271 LL,4271LL,Postal Code Formatting Variations,Address,Ad3
+10,4598244b-f0bd-4405-a50d-d400a27ee80d,postalCode,2354,2354 ,Postal Code Formatting Variations,Address,Ad9
+10,4598244b-f0bd-4405-a50d-d400a27ee80d,city,Gänserndorf,äGnserndorf,City and Locality Name Variations,Address,Ad9
+10,4598244b-f0bd-4405-a50d-d400a27ee80d,country,AT,Austria,Country Representation Variations,Address,Ad9
+11,541d1a81-4815-442c-a2bb-62833d83ad7c,text,Bilalhof 68,Bilalhof 68B,Street Number Manipulation,Address,Ad13
+11,541d1a81-4815-442c-a2bb-62833d83ad7c,postalCode,1625 AP,1625AP,Postal Code Formatting Variations,Address,Ad13
+12,6bc9e970-c48a-4374-86dc-1579647640a1,country,EE,Estonia,Country Representation Variations,Address,Ad2
+12,6bc9e970-c48a-4374-86dc-1579647640a1,text,Elena Station 124,Elena Station 124-1,Street Number Manipulation,Address,Ad2
+12,6bc9e970-c48a-4374-86dc-1579647640a1,postalCode,95238,9523 8,Postal Code Formatting Variations,Address,Ad2
+13,568d6f3e-f4b4-45aa-adfd-a2912fdb5c0d,city,Ferlach,Ferlcah,City and Locality Name Variations,Address,Ad4
+13,568d6f3e-f4b4-45aa-adfd-a2912fdb5c0d,text,Hauserweg 75,Hauserweg 75B,Street Number Manipulation,Address,Ad4
+13,568d6f3e-f4b4-45aa-adfd-a2912fdb5c0d,country,AT,Austria,Country Representation Variations,Address,Ad4
+14,99755cb9-7c76-4592-a73e-3f3b5c27761d,city,Markberg,Makrberg,City and Locality Name Variations,Address,Ad6
+14,99755cb9-7c76-4592-a73e-3f3b5c27761d,text,Meelis Haven 129,Meelis Haven 129-1,Street Number Manipulation,Address,Ad6
+14,99755cb9-7c76-4592-a73e-3f3b5c27761d,country,EE,Estonia,Country Representation Variations,Address,Ad6
+0,12f175ff-ae3b-46ec-9a27-d85888c132ad,availableLanguage,"['de', 'en']","['German', 'English']",Language Representation Variation,ContactPoint,CP15
+0,12f175ff-ae3b-46ec-9a27-d85888c132ad,fax,+1-303-621-7300x869,+1-303-621-73006869,Fax Number Typo,ContactPoint,CP15
+1,eb21a3f6-e6fd-48e8-969c-91c278601602,phone,001-323-902-2584,001-324-902-2584,Phone Number Typo,ContactPoint,CP12
+1,eb21a3f6-e6fd-48e8-969c-91c278601602,fax,+1-920-376-9845x64280,+1-920-376-9245x64280,Fax Number Typo,ContactPoint,CP12
+1,eb21a3f6-e6fd-48e8-969c-91c278601602,email,Mcneil@healthcare.org,Mcnecl@healthcare.org,Email Typo,ContactPoint,CP12
+2,122411e6-ba89-42dd-85e6-9ea9db66bfda,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation,ContactPoint,CP14
+3,0932f5b6-f11d-4ff7-8e37-05265582a3bd,fax,(0670)-172009,(0670)-170009,Fax Number Typo,ContactPoint,CP11
+4,ef151673-a1df-4da7-9d44-c93e7799a8e2,phone,+31194-264183,+31194-564183,Phone Number Typo,ContactPoint,CP1
+5,74151acc-f5a3-4893-bf7a-27482cbb93c2,phone,+31825-717340,+318251717340,Phone Number Typo,ContactPoint,CP5
+5,74151acc-f5a3-4893-bf7a-27482cbb93c2,fax,(0970)-341489,(0970)-341889,Fax Number Typo,ContactPoint,CP5
+5,74151acc-f5a3-4893-bf7a-27482cbb93c2,email,Griffin@healthcare.org,Greffin@healthcare.org,Email Typo,ContactPoint,CP5
+6,9177b6d4-5f2e-4167-b13e-ceb14ad12b4c,phone,+31(0)211 669728,+34(0)211 669728,Phone Number Typo,ContactPoint,CP10
+6,9177b6d4-5f2e-4167-b13e-ceb14ad12b4c,availableLanguage,['nl'],['Dutch'],Language Representation Variation,ContactPoint,CP10
+7,23254d81-2bdf-4727-9501-e917496dc27b,availableLanguage,"['de', 'en']","['German', 'English']",Language Representation Variation,ContactPoint,CP8
+7,23254d81-2bdf-4727-9501-e917496dc27b,email,Parker@healthcare.org,Ptrker@healthcare.org,Email Typo,ContactPoint,CP8
+9,57627626-2037-4089-b11f-a10a0b2975c6,email,Jordan@healthcare.org,Joraan@healthcare.org,Email Typo,ContactPoint,CP3
+10,4e98ce25-1733-4a7c-93e8-36639c14940d,email,KimTodd@healthcare.org,KemTodd@healthcare.org,Email Typo,ContactPoint,CP9
+11,7680891b-6bb6-404e-a0db-22d329e316ad,phone,+3192-6902906,+3192-6903906,Phone Number Typo,ContactPoint,CP13
+11,7680891b-6bb6-404e-a0db-22d329e316ad,email,Burch@healthcare.org,Bunch@healthcare.org,Email Typo,ContactPoint,CP13
+12,29502326-7644-4183-9aab-d22d75ef8aab,email,Berg@healthcare.org,Bexg@healthcare.org,Email Typo,ContactPoint,CP2
+12,29502326-7644-4183-9aab-d22d75ef8aab,phone,(757)762-9481,(757)792-9481,Phone Number Typo,ContactPoint,CP2
+12,29502326-7644-4183-9aab-d22d75ef8aab,fax,(757)680-3429,(757)680-3129,Fax Number Typo,ContactPoint,CP2
+13,fae3fcee-7636-4fd9-8376-ffa876fe579f,fax,456.336.0906x1435,456.336.0906x9435,Fax Number Typo,ContactPoint,CP4
+13,fae3fcee-7636-4fd9-8376-ffa876fe579f,phone,001-293-368-4735,011-293-368-4735,Phone Number Typo,ContactPoint,CP4
+14,eec9fa67-4cc6-42fc-b006-ff85166a1a98,availableLanguage,"['et', 'en']","['Estonian', 'English']",Language Representation Variation,ContactPoint,CP6
+0,7d859725-c707-4ef9-86c3-744cc88e03b6,text,Jordyring 13,,omission,Address,Ad1
+0,ef151673-a1df-4da7-9d44-c93e7799a8e2,email,Ibarra@healthcare.org,,omission,ContactPoint,CP1
+1,6bc9e970-c48a-4374-86dc-1579647640a1,text,Elena Station 124,,omission,Address,Ad2
+1,29502326-7644-4183-9aab-d22d75ef8aab,availableLanguage,"['et', 'en']",,omission,ContactPoint,CP2
+2,6756264d-c864-4f78-beaf-167952b04994,country,NL,,omission,Address,Ad3
+2,57627626-2037-4089-b11f-a10a0b2975c6,fax,+31(0)12 9188966,,omission,ContactPoint,CP3
+3,568d6f3e-f4b4-45aa-adfd-a2912fdb5c0d,postalCode,8522,,omission,Address,Ad4
+3,fae3fcee-7636-4fd9-8376-ffa876fe579f,availableLanguage,['de'],,omission,ContactPoint,CP4
+4,27649a62-b02d-452c-9b05-0db28ee4fd02,postalCode,1117 FZ,,omission,Address,Ad5
+4,74151acc-f5a3-4893-bf7a-27482cbb93c2,availableLanguage,"['nl', 'en']",,omission,ContactPoint,CP5
+5,99755cb9-7c76-4592-a73e-3f3b5c27761d,country,EE,,omission,Address,Ad6
+5,eec9fa67-4cc6-42fc-b006-ff85166a1a98,fax,(905)583-5288x9962,,omission,ContactPoint,CP6
+6,3856be31-f568-49c6-833c-14694f06ea18,country,NL,,omission,Address,Ad7
+6,b4480761-505e-4c9b-8bc8-8bcf7b1d4049,fax,(0053) 573452,,omission,ContactPoint,CP7
+6,b4480761-505e-4c9b-8bc8-8bcf7b1d4049,email,Delgado@healthcare.org,,omission,ContactPoint,CP7
+7,1095e497-3d79-4f0b-a6cd-3595d4f0d65d,country,AT,,omission,Address,Ad8
+7,23254d81-2bdf-4727-9501-e917496dc27b,email,Parker@healthcare.org,,omission,ContactPoint,CP8
+8,4598244b-f0bd-4405-a50d-d400a27ee80d,country,AT,,omission,Address,Ad9
+8,4e98ce25-1733-4a7c-93e8-36639c14940d,availableLanguage,"['de', 'en']",,omission,ContactPoint,CP9
+9,8b279c29-a274-40d7-b4a5-cc36692a7bce,country,NL,,omission,Address,Ad10
+9,9177b6d4-5f2e-4167-b13e-ceb14ad12b4c,email,FigueroaStrong@healthcare.org,,omission,ContactPoint,CP10
+10,ef7e85ec-a417-456f-a9ee-7f3d0ff030b8,postalCode,2121 YN,,omission,Address,Ad11
+10,0932f5b6-f11d-4ff7-8e37-05265582a3bd,availableLanguage,['nl'],,omission,ContactPoint,CP11
+10,0932f5b6-f11d-4ff7-8e37-05265582a3bd,email,Allen@healthcare.org,,omission,ContactPoint,CP11
+11,19d5f970-98b3-4c6e-8a14-b90a7795e986,text,Andrei Parkway 88,,omission,Address,Ad12
+11,eb21a3f6-e6fd-48e8-969c-91c278601602,fax,+1-920-376-9845x64280,,omission,ContactPoint,CP12
+11,eb21a3f6-e6fd-48e8-969c-91c278601602,phone,001-323-902-2584,,omission,ContactPoint,CP12
+12,541d1a81-4815-442c-a2bb-62833d83ad7c,postalCode,1625 AP,,omission,Address,Ad13
+12,7680891b-6bb6-404e-a0db-22d329e316ad,availableLanguage,"['nl', 'en']",,omission,ContactPoint,CP13
+13,bb0378eb-7a62-422e-9d69-d9fc4b1cb8bd,text,Ceylindreef 78,,omission,Address,Ad14
+13,122411e6-ba89-42dd-85e6-9ea9db66bfda,fax,+31517-176045,,omission,ContactPoint,CP14
+14,daf66c5f-2577-4ffa-887a-746319c16a0d,postalCode,9573,,omission,Address,Ad15
+14,12f175ff-ae3b-46ec-9a27-d85888c132ad,phone,3132991615,,omission,ContactPoint,CP15

@@ -1,0 +1,2209 @@
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/ServiceDept/SD1> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD1> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD1> ;
+    schema:identifier "SD1"^^xsd:string ;
+    schema:isPartOf "HCO15"^^xsd:string ;
+    schema:name "Geburtshilfe"^^xsd:string .
+
+<http://example.org/ServiceDept/SD10> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD10> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD10> ;
+    schema:identifier "SD10"^^xsd:string ;
+    schema:isPartOf "HCO12"^^xsd:string ;
+    schema:name "Optomeetriline"^^xsd:string .
+
+<http://example.org/ServiceDept/SD100> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD100> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD100> ;
+    schema:identifier "SD100"^^xsd:string ;
+    schema:isPartOf "HCO2"^^xsd:string ;
+    schema:name "Hematoloogiline"^^xsd:string .
+
+<http://example.org/ServiceDept/SD101> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD101> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD101> ;
+    schema:identifier "SD101"^^xsd:string ;
+    schema:isPartOf "HCO2"^^xsd:string ;
+    schema:name "Women's Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD102> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD102> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD102> ;
+    schema:identifier "SD102"^^xsd:string ;
+    schema:isPartOf "HCO4"^^xsd:string ;
+    schema:name "Infection Control"^^xsd:string .
+
+<http://example.org/ServiceDept/SD103> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD103> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD103> ;
+    schema:identifier "SD103"^^xsd:string ;
+    schema:isPartOf "HCO4"^^xsd:string ;
+    schema:name "Sprachpathologie"^^xsd:string .
+
+<http://example.org/ServiceDept/SD104> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD104> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD104> ;
+    schema:identifier "SD104"^^xsd:string ;
+    schema:isPartOf "HCO4"^^xsd:string ;
+    schema:name "Laborwissenschaft"^^xsd:string .
+
+<http://example.org/ServiceDept/SD105> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD105> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD105> ;
+    schema:identifier "SD105"^^xsd:string ;
+    schema:isPartOf "HCO4"^^xsd:string ;
+    schema:name "Rheumatologisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD106> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD106> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD106> ;
+    schema:identifier "SD106"^^xsd:string ;
+    schema:isPartOf "HCO4"^^xsd:string ;
+    schema:name "Women's Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD107> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD107> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD107> ;
+    schema:identifier "SD107"^^xsd:string ;
+    schema:isPartOf "HCO4"^^xsd:string ;
+    schema:name "Nieren"^^xsd:string .
+
+<http://example.org/ServiceDept/SD108> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD108> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD108> ;
+    schema:identifier "SD108"^^xsd:string ;
+    schema:isPartOf "HCO6"^^xsd:string ;
+    schema:name "Hingamisravi"^^xsd:string .
+
+<http://example.org/ServiceDept/SD109> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD109> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD109> ;
+    schema:identifier "SD109"^^xsd:string ;
+    schema:isPartOf "HCO6"^^xsd:string ;
+    schema:name "Otolarüngoloogiline"^^xsd:string .
+
+<http://example.org/ServiceDept/SD11> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD11> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD11> ;
+    schema:identifier "SD11"^^xsd:string ;
+    schema:isPartOf "HCO12"^^xsd:string ;
+    schema:name "Plastiline kirurgia"^^xsd:string .
+
+<http://example.org/ServiceDept/SD110> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD110> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD110> ;
+    schema:identifier "SD110"^^xsd:string ;
+    schema:isPartOf "HCO6"^^xsd:string ;
+    schema:name "Hematoloogiline"^^xsd:string .
+
+<http://example.org/ServiceDept/SD111> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD111> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD111> ;
+    schema:identifier "SD111"^^xsd:string ;
+    schema:isPartOf "HCO6"^^xsd:string ;
+    schema:name "Podiaatriline"^^xsd:string .
+
+<http://example.org/ServiceDept/SD112> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD112> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD112> ;
+    schema:identifier "SD112"^^xsd:string ;
+    schema:isPartOf "HCO6"^^xsd:string ;
+    schema:name "Gastroenteroloogiline"^^xsd:string .
+
+<http://example.org/ServiceDept/SD113> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD113> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD113> ;
+    schema:identifier "SD113"^^xsd:string ;
+    schema:isPartOf "HCO6"^^xsd:string ;
+    schema:name "Women's Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD12> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD12> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD12> ;
+    schema:identifier "SD12"^^xsd:string ;
+    schema:isPartOf "HCO12"^^xsd:string ;
+    schema:name "Child Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD13> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD13> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD13> ;
+    schema:identifier "SD13"^^xsd:string ;
+    schema:isPartOf "HCO12"^^xsd:string ;
+    schema:name "Optomeetriline"^^xsd:string .
+
+<http://example.org/ServiceDept/SD14> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD14> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD14> ;
+    schema:identifier "SD14"^^xsd:string ;
+    schema:isPartOf "HCO14"^^xsd:string ;
+    schema:name "Podiatrisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD15> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD15> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD15> ;
+    schema:identifier "SD15"^^xsd:string ;
+    schema:isPartOf "HCO14"^^xsd:string ;
+    schema:name "Spraakpathologie"^^xsd:string .
+
+<http://example.org/ServiceDept/SD16> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD16> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD16> ;
+    schema:identifier "SD16"^^xsd:string ;
+    schema:isPartOf "HCO14"^^xsd:string ;
+    schema:name "Anesthesie"^^xsd:string .
+
+<http://example.org/ServiceDept/SD17> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD17> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD17> ;
+    schema:identifier "SD17"^^xsd:string ;
+    schema:isPartOf "HCO14"^^xsd:string ;
+    schema:name "Bone & Joint Clinic"^^xsd:string .
+
+<http://example.org/ServiceDept/SD18> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD18> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD18> ;
+    schema:identifier "SD18"^^xsd:string ;
+    schema:isPartOf "HCO14"^^xsd:string ;
+    schema:name "Besmettelijk"^^xsd:string .
+
+<http://example.org/ServiceDept/SD19> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD19> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD19> ;
+    schema:identifier "SD19"^^xsd:string ;
+    schema:isPartOf "HCO14"^^xsd:string ;
+    schema:name "Neurologisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD2> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD2> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD2> ;
+    schema:identifier "SD2"^^xsd:string ;
+    schema:isPartOf "HCO15"^^xsd:string ;
+    schema:name "Breathing Support"^^xsd:string .
+
+<http://example.org/ServiceDept/SD20> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD20> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD20> ;
+    schema:identifier "SD20"^^xsd:string ;
+    schema:isPartOf "HCO14"^^xsd:string ;
+    schema:name "Radiografie"^^xsd:string .
+
+<http://example.org/ServiceDept/SD21> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD21> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD21> ;
+    schema:identifier "SD21"^^xsd:string ;
+    schema:isPartOf "HCO14"^^xsd:string ;
+    schema:name "Joint & Immune Clinic"^^xsd:string .
+
+<http://example.org/ServiceDept/SD22> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD22> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD22> ;
+    schema:identifier "SD22"^^xsd:string ;
+    schema:isPartOf "HCO11"^^xsd:string ;
+    schema:name "Pathologie"^^xsd:string .
+
+<http://example.org/ServiceDept/SD23> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD23> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD23> ;
+    schema:identifier "SD23"^^xsd:string ;
+    schema:isPartOf "HCO11"^^xsd:string ;
+    schema:name "Kidney Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD24> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD24> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD24> ;
+    schema:identifier "SD24"^^xsd:string ;
+    schema:isPartOf "HCO11"^^xsd:string ;
+    schema:name "Digestive Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD25> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD25> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD25> ;
+    schema:identifier "SD25"^^xsd:string ;
+    schema:isPartOf "HCO11"^^xsd:string ;
+    schema:name "Spraakpathologie"^^xsd:string .
+
+<http://example.org/ServiceDept/SD26> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD26> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD26> ;
+    schema:identifier "SD26"^^xsd:string ;
+    schema:isPartOf "HCO11"^^xsd:string ;
+    schema:name "Child Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD27> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD27> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD27> ;
+    schema:identifier "SD27"^^xsd:string ;
+    schema:isPartOf "HCO1"^^xsd:string ;
+    schema:name "General Practice"^^xsd:string .
+
+<http://example.org/ServiceDept/SD28> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD28> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD28> ;
+    schema:identifier "SD28"^^xsd:string ;
+    schema:isPartOf "HCO1"^^xsd:string ;
+    schema:name "Gynaecologisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD29> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD29> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD29> ;
+    schema:identifier "SD29"^^xsd:string ;
+    schema:isPartOf "HCO1"^^xsd:string ;
+    schema:name "Optometrisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD3> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD3> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD3> ;
+    schema:identifier "SD3"^^xsd:string ;
+    schema:isPartOf "HCO15"^^xsd:string ;
+    schema:name "Pregnancy Care"^^xsd:string .
+
+<http://example.org/ServiceDept/SD30> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD30> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD30> ;
+    schema:identifier "SD30"^^xsd:string ;
+    schema:isPartOf "HCO1"^^xsd:string ;
+    schema:name "Endocrijns"^^xsd:string .
+
+<http://example.org/ServiceDept/SD31> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD31> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD31> ;
+    schema:identifier "SD31"^^xsd:string ;
+    schema:isPartOf "HCO1"^^xsd:string ;
+    schema:name "Spraakpathologie"^^xsd:string .
+
+<http://example.org/ServiceDept/SD32> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD32> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD32> ;
+    schema:identifier "SD32"^^xsd:string ;
+    schema:isPartOf "HCO1"^^xsd:string ;
+    schema:name "Neurologisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD33> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD33> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD33> ;
+    schema:identifier "SD33"^^xsd:string ;
+    schema:isPartOf "HCO1"^^xsd:string ;
+    schema:name "Optometrisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD34> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD34> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD34> ;
+    schema:identifier "SD34"^^xsd:string ;
+    schema:isPartOf "HCO1"^^xsd:string ;
+    schema:name "Long-"^^xsd:string .
+
+<http://example.org/ServiceDept/SD35> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD35> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD35> ;
+    schema:identifier "SD35"^^xsd:string ;
+    schema:isPartOf "HCO5"^^xsd:string ;
+    schema:name "Bone & Joint Clinic"^^xsd:string .
+
+<http://example.org/ServiceDept/SD36> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD36> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD36> ;
+    schema:identifier "SD36"^^xsd:string ;
+    schema:isPartOf "HCO5"^^xsd:string ;
+    schema:name "Ademhalingstherapie"^^xsd:string .
+
+<http://example.org/ServiceDept/SD37> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD37> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD37> ;
+    schema:identifier "SD37"^^xsd:string ;
+    schema:isPartOf "HCO5"^^xsd:string ;
+    schema:name "Mental Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD38> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD38> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD38> ;
+    schema:identifier "SD38"^^xsd:string ;
+    schema:isPartOf "HCO5"^^xsd:string ;
+    schema:name "Ademhalingstherapie"^^xsd:string .
+
+<http://example.org/ServiceDept/SD39> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD39> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD39> ;
+    schema:identifier "SD39"^^xsd:string ;
+    schema:isPartOf "HCO5"^^xsd:string ;
+    schema:name "Plastische chirurgie"^^xsd:string .
+
+<http://example.org/ServiceDept/SD4> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD4> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD4> ;
+    schema:identifier "SD4"^^xsd:string ;
+    schema:isPartOf "HCO15"^^xsd:string ;
+    schema:name "Neurologisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD40> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD40> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD40> ;
+    schema:identifier "SD40"^^xsd:string ;
+    schema:isPartOf "HCO5"^^xsd:string ;
+    schema:name "Toxicologisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD41> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD41> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD41> ;
+    schema:identifier "SD41"^^xsd:string ;
+    schema:isPartOf "HCO5"^^xsd:string ;
+    schema:name "Ademhalingstherapie"^^xsd:string .
+
+<http://example.org/ServiceDept/SD42> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD42> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD42> ;
+    schema:identifier "SD42"^^xsd:string ;
+    schema:isPartOf "HCO5"^^xsd:string ;
+    schema:name "Anesthesie"^^xsd:string .
+
+<http://example.org/ServiceDept/SD43> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD43> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD43> ;
+    schema:identifier "SD43"^^xsd:string ;
+    schema:isPartOf "HCO5"^^xsd:string ;
+    schema:name "Joint & Immune Clinic"^^xsd:string .
+
+<http://example.org/ServiceDept/SD44> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD44> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD44> ;
+    schema:identifier "SD44"^^xsd:string ;
+    schema:isPartOf "HCO5"^^xsd:string ;
+    schema:name "Dieetvoeding"^^xsd:string .
+
+<http://example.org/ServiceDept/SD45> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD45> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD45> ;
+    schema:identifier "SD45"^^xsd:string ;
+    schema:isPartOf "HCO10"^^xsd:string ;
+    schema:name "Plastische chirurgie"^^xsd:string .
+
+<http://example.org/ServiceDept/SD46> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD46> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD46> ;
+    schema:identifier "SD46"^^xsd:string ;
+    schema:isPartOf "HCO10"^^xsd:string ;
+    schema:name "Urologisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD47> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD47> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD47> ;
+    schema:identifier "SD47"^^xsd:string ;
+    schema:isPartOf "HCO10"^^xsd:string ;
+    schema:name "Genetisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD48> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD48> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD48> ;
+    schema:identifier "SD48"^^xsd:string ;
+    schema:isPartOf "HCO10"^^xsd:string ;
+    schema:name "Long-"^^xsd:string .
+
+<http://example.org/ServiceDept/SD49> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD49> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD49> ;
+    schema:identifier "SD49"^^xsd:string ;
+    schema:isPartOf "HCO10"^^xsd:string ;
+    schema:name "Kidney Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD5> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD5> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD5> ;
+    schema:identifier "SD5"^^xsd:string ;
+    schema:isPartOf "HCO15"^^xsd:string ;
+    schema:name "Chirurgisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD50> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD50> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD50> ;
+    schema:identifier "SD50"^^xsd:string ;
+    schema:isPartOf "HCO10"^^xsd:string ;
+    schema:name "Heart & Vascular Center"^^xsd:string .
+
+<http://example.org/ServiceDept/SD51> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD51> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD51> ;
+    schema:identifier "SD51"^^xsd:string ;
+    schema:isPartOf "HCO10"^^xsd:string ;
+    schema:name "Noodgeval"^^xsd:string .
+
+<http://example.org/ServiceDept/SD52> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD52> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD52> ;
+    schema:identifier "SD52"^^xsd:string ;
+    schema:isPartOf "HCO10"^^xsd:string ;
+    schema:name "Medication Services"^^xsd:string .
+
+<http://example.org/ServiceDept/SD53> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD53> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD53> ;
+    schema:identifier "SD53"^^xsd:string ;
+    schema:isPartOf "HCO8"^^xsd:string ;
+    schema:name "Community Wellness"^^xsd:string .
+
+<http://example.org/ServiceDept/SD54> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD54> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD54> ;
+    schema:identifier "SD54"^^xsd:string ;
+    schema:isPartOf "HCO8"^^xsd:string ;
+    schema:name "Geburtshilfe"^^xsd:string .
+
+<http://example.org/ServiceDept/SD55> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD55> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD55> ;
+    schema:identifier "SD55"^^xsd:string ;
+    schema:isPartOf "HCO8"^^xsd:string ;
+    schema:name "Infection Control"^^xsd:string .
+
+<http://example.org/ServiceDept/SD56> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD56> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD56> ;
+    schema:identifier "SD56"^^xsd:string ;
+    schema:isPartOf "HCO8"^^xsd:string ;
+    schema:name "Herz -Kreislauf"^^xsd:string .
+
+<http://example.org/ServiceDept/SD57> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD57> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD57> ;
+    schema:identifier "SD57"^^xsd:string ;
+    schema:isPartOf "HCO8"^^xsd:string ;
+    schema:name "Pädiatrisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD58> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD58> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD58> ;
+    schema:identifier "SD58"^^xsd:string ;
+    schema:isPartOf "HCO8"^^xsd:string ;
+    schema:name "Pregnancy Care"^^xsd:string .
+
+<http://example.org/ServiceDept/SD59> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD59> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD59> ;
+    schema:identifier "SD59"^^xsd:string ;
+    schema:isPartOf "HCO8"^^xsd:string ;
+    schema:name "Optometrisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD6> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD6> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD6> ;
+    schema:identifier "SD6"^^xsd:string ;
+    schema:isPartOf "HCO15"^^xsd:string ;
+    schema:name "Pregnancy Care"^^xsd:string .
+
+<http://example.org/ServiceDept/SD60> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD60> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD60> ;
+    schema:identifier "SD60"^^xsd:string ;
+    schema:isPartOf "HCO8"^^xsd:string ;
+    schema:name "Patient Care"^^xsd:string .
+
+<http://example.org/ServiceDept/SD61> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD61> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD61> ;
+    schema:identifier "SD61"^^xsd:string ;
+    schema:isPartOf "HCO8"^^xsd:string ;
+    schema:name "Pathologie"^^xsd:string .
+
+<http://example.org/ServiceDept/SD62> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD62> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD62> ;
+    schema:identifier "SD62"^^xsd:string ;
+    schema:isPartOf "HCO7"^^xsd:string ;
+    schema:name "Heart & Vascular Center"^^xsd:string .
+
+<http://example.org/ServiceDept/SD63> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD63> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD63> ;
+    schema:identifier "SD63"^^xsd:string ;
+    schema:isPartOf "HCO7"^^xsd:string ;
+    schema:name "Child Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD64> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD64> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD64> ;
+    schema:identifier "SD64"^^xsd:string ;
+    schema:isPartOf "HCO7"^^xsd:string ;
+    schema:name "Tandheelkunde"^^xsd:string .
+
+<http://example.org/ServiceDept/SD65> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD65> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD65> ;
+    schema:identifier "SD65"^^xsd:string ;
+    schema:isPartOf "HCO7"^^xsd:string ;
+    schema:name "Verzorging"^^xsd:string .
+
+<http://example.org/ServiceDept/SD66> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD66> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD66> ;
+    schema:identifier "SD66"^^xsd:string ;
+    schema:isPartOf "HCO7"^^xsd:string ;
+    schema:name "Volksgezondheid"^^xsd:string .
+
+<http://example.org/ServiceDept/SD67> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD67> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD67> ;
+    schema:identifier "SD67"^^xsd:string ;
+    schema:isPartOf "HCO7"^^xsd:string ;
+    schema:name "Fysiotherapie"^^xsd:string .
+
+<http://example.org/ServiceDept/SD68> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD68> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD68> ;
+    schema:identifier "SD68"^^xsd:string ;
+    schema:isPartOf "HCO7"^^xsd:string ;
+    schema:name "Kidney Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD69> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD69> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD69> ;
+    schema:identifier "SD69"^^xsd:string ;
+    schema:isPartOf "HCO7"^^xsd:string ;
+    schema:name "Mental Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD7> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD7> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD7> ;
+    schema:identifier "SD7"^^xsd:string ;
+    schema:isPartOf "HCO15"^^xsd:string ;
+    schema:name "Nieren"^^xsd:string .
+
+<http://example.org/ServiceDept/SD70> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD70> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD70> ;
+    schema:identifier "SD70"^^xsd:string ;
+    schema:isPartOf "HCO7"^^xsd:string ;
+    schema:name "Child Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD71> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD71> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD71> ;
+    schema:identifier "SD71"^^xsd:string ;
+    schema:isPartOf "HCO3"^^xsd:string ;
+    schema:name "Urologisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD72> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD72> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD72> ;
+    schema:identifier "SD72"^^xsd:string ;
+    schema:isPartOf "HCO3"^^xsd:string ;
+    schema:name "Geriatrisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD73> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD73> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD73> ;
+    schema:identifier "SD73"^^xsd:string ;
+    schema:isPartOf "HCO3"^^xsd:string ;
+    schema:name "Diagnostic Lab"^^xsd:string .
+
+<http://example.org/ServiceDept/SD74> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD74> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD74> ;
+    schema:identifier "SD74"^^xsd:string ;
+    schema:isPartOf "HCO3"^^xsd:string ;
+    schema:name "Diagnostic Lab"^^xsd:string .
+
+<http://example.org/ServiceDept/SD75> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD75> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD75> ;
+    schema:identifier "SD75"^^xsd:string ;
+    schema:isPartOf "HCO3"^^xsd:string ;
+    schema:name "Digestive Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD76> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD76> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD76> ;
+    schema:identifier "SD76"^^xsd:string ;
+    schema:isPartOf "HCO3"^^xsd:string ;
+    schema:name "Neurologisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD77> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD77> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD77> ;
+    schema:identifier "SD77"^^xsd:string ;
+    schema:isPartOf "HCO9"^^xsd:string ;
+    schema:name "Women's Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD78> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD78> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD78> ;
+    schema:identifier "SD78"^^xsd:string ;
+    schema:isPartOf "HCO9"^^xsd:string ;
+    schema:name "Elder Care"^^xsd:string .
+
+<http://example.org/ServiceDept/SD79> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD79> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD79> ;
+    schema:identifier "SD79"^^xsd:string ;
+    schema:isPartOf "HCO9"^^xsd:string ;
+    schema:name "Nieren"^^xsd:string .
+
+<http://example.org/ServiceDept/SD8> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD8> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD8> ;
+    schema:identifier "SD8"^^xsd:string ;
+    schema:isPartOf "HCO12"^^xsd:string ;
+    schema:name "Radiograafia"^^xsd:string .
+
+<http://example.org/ServiceDept/SD80> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD80> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD80> ;
+    schema:identifier "SD80"^^xsd:string ;
+    schema:isPartOf "HCO9"^^xsd:string ;
+    schema:name "Geburtshilfe"^^xsd:string .
+
+<http://example.org/ServiceDept/SD81> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD81> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD81> ;
+    schema:identifier "SD81"^^xsd:string ;
+    schema:isPartOf "HCO9"^^xsd:string ;
+    schema:name "Neurologisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD82> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD82> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD82> ;
+    schema:identifier "SD82"^^xsd:string ;
+    schema:isPartOf "HCO13"^^xsd:string ;
+    schema:name "Volksgezondheid"^^xsd:string .
+
+<http://example.org/ServiceDept/SD83> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD83> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD83> ;
+    schema:identifier "SD83"^^xsd:string ;
+    schema:isPartOf "HCO13"^^xsd:string ;
+    schema:name "Bone & Joint Clinic"^^xsd:string .
+
+<http://example.org/ServiceDept/SD84> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD84> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD84> ;
+    schema:identifier "SD84"^^xsd:string ;
+    schema:isPartOf "HCO13"^^xsd:string ;
+    schema:name "Endocrijns"^^xsd:string .
+
+<http://example.org/ServiceDept/SD85> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD85> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD85> ;
+    schema:identifier "SD85"^^xsd:string ;
+    schema:isPartOf "HCO13"^^xsd:string ;
+    schema:name "Mental Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD86> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD86> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD86> ;
+    schema:identifier "SD86"^^xsd:string ;
+    schema:isPartOf "HCO13"^^xsd:string ;
+    schema:name "Toxicologisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD87> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD87> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD87> ;
+    schema:identifier "SD87"^^xsd:string ;
+    schema:isPartOf "HCO13"^^xsd:string ;
+    schema:name "Maternity Services"^^xsd:string .
+
+<http://example.org/ServiceDept/SD88> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD88> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD88> ;
+    schema:identifier "SD88"^^xsd:string ;
+    schema:isPartOf "HCO13"^^xsd:string ;
+    schema:name "Dieetvoeding"^^xsd:string .
+
+<http://example.org/ServiceDept/SD89> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD89> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD89> ;
+    schema:identifier "SD89"^^xsd:string ;
+    schema:isPartOf "HCO13"^^xsd:string ;
+    schema:name "Mental Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD9> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD9> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD9> ;
+    schema:identifier "SD9"^^xsd:string ;
+    schema:isPartOf "HCO12"^^xsd:string ;
+    schema:name "Dieedi toitumine"^^xsd:string .
+
+<http://example.org/ServiceDept/SD90> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD90> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD90> ;
+    schema:identifier "SD90"^^xsd:string ;
+    schema:isPartOf "HCO13"^^xsd:string ;
+    schema:name "Dermatologie"^^xsd:string .
+
+<http://example.org/ServiceDept/SD91> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD91> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD91> ;
+    schema:identifier "SD91"^^xsd:string ;
+    schema:isPartOf "HCO13"^^xsd:string ;
+    schema:name "Toxicologisch"^^xsd:string .
+
+<http://example.org/ServiceDept/SD92> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD92> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD92> ;
+    schema:identifier "SD92"^^xsd:string ;
+    schema:isPartOf "HCO2"^^xsd:string ;
+    schema:name "Gastroenteroloogiline"^^xsd:string .
+
+<http://example.org/ServiceDept/SD93> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD93> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD93> ;
+    schema:identifier "SD93"^^xsd:string ;
+    schema:isPartOf "HCO2"^^xsd:string ;
+    schema:name "Podiaatriline"^^xsd:string .
+
+<http://example.org/ServiceDept/SD94> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD94> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD94> ;
+    schema:identifier "SD94"^^xsd:string ;
+    schema:isPartOf "HCO2"^^xsd:string ;
+    schema:name "Hormonal Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD95> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD95> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD95> ;
+    schema:identifier "SD95"^^xsd:string ;
+    schema:isPartOf "HCO2"^^xsd:string ;
+    schema:name "Lihas -skeleti-"^^xsd:string .
+
+<http://example.org/ServiceDept/SD96> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD96> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD96> ;
+    schema:identifier "SD96"^^xsd:string ;
+    schema:isPartOf "HCO2"^^xsd:string ;
+    schema:name "Hormonal Health"^^xsd:string .
+
+<http://example.org/ServiceDept/SD97> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD97> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD97> ;
+    schema:identifier "SD97"^^xsd:string ;
+    schema:isPartOf "HCO2"^^xsd:string ;
+    schema:name "Elder Care"^^xsd:string .
+
+<http://example.org/ServiceDept/SD98> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD98> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD98> ;
+    schema:identifier "SD98"^^xsd:string ;
+    schema:isPartOf "HCO2"^^xsd:string ;
+    schema:name "Genetics Unit"^^xsd:string .
+
+<http://example.org/ServiceDept/SD99> a schema:Department ;
+    schema:address <http://example.org/Address/Ad_SD99> ;
+    schema:contactPoint <http://example.org/ContactPoint/CP_SD99> ;
+    schema:identifier "SD99"^^xsd:string ;
+    schema:isPartOf "HCO2"^^xsd:string ;
+    schema:name "Gastroenteroloogiline"^^xsd:string .
+
+<http://example.org/Address/Ad_SD1> a schema:PostalAddress ;
+    schema:addressLocality "Litscahu"^^xsd:string ;
+    schema:identifier "Ad_SD1"^^xsd:string ;
+    schema:postalCode "7229"^^xsd:string ;
+    schema:streetAddress "Johann-Neulinger-Platz 32"^^xsd:string .
+
+<http://example.org/Address/Ad_SD10> a schema:PostalAddress ;
+    schema:addressCountry "Estonia"^^xsd:string ;
+    schema:addressLocality "Anneville"^^xsd:string ;
+    schema:identifier "Ad_SD10"^^xsd:string ;
+    schema:postalCode "83054"^^xsd:string .
+
+<http://example.org/Address/Ad_SD100> a schema:PostalAddress ;
+    schema:addressCountry "EE"^^xsd:string ;
+    schema:addressLocality "New Vello"^^xsd:string ;
+    schema:identifier "Ad_SD100"^^xsd:string ;
+    schema:postalCode "49095"^^xsd:string .
+
+<http://example.org/Address/Ad_SD101> a schema:PostalAddress ;
+    schema:addressLocality "Abramovfurt"^^xsd:string ;
+    schema:identifier "Ad_SD101"^^xsd:string ;
+    schema:postalCode "49182"^^xsd:string ;
+    schema:streetAddress "Priit Freeway 68"^^xsd:string .
+
+<http://example.org/Address/Ad_SD102> a schema:PostalAddress ;
+    schema:addressLocality "Ternitz"^^xsd:string ;
+    schema:identifier "Ad_SD102"^^xsd:string ;
+    schema:postalCode "6479"^^xsd:string ;
+    schema:streetAddress "Ina-Hager-Ring 132"^^xsd:string .
+
+<http://example.org/Address/Ad_SD103> a schema:PostalAddress ;
+    schema:addressLocality "Drosendorf-Zissersdorf 1"^^xsd:string ;
+    schema:identifier "Ad_SD103"^^xsd:string ;
+    schema:postalCode "3665"^^xsd:string ;
+    schema:streetAddress "Constanze-Hirschmann-Gasse 142"^^xsd:string .
+
+<http://example.org/Address/Ad_SD104> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Bad Leonfelden"^^xsd:string ;
+    schema:identifier "Ad_SD104"^^xsd:string ;
+    schema:postalCode "3548"^^xsd:string .
+
+<http://example.org/Address/Ad_SD105> a schema:PostalAddress ;
+    schema:addressLocality "Sankt Pölten"^^xsd:string ;
+    schema:identifier "Ad_SD105"^^xsd:string ;
+    schema:postalCode "2375"^^xsd:string ;
+    schema:streetAddress "Obermayrring 94"^^xsd:string .
+
+<http://example.org/Address/Ad_SD106> a schema:PostalAddress ;
+    schema:addressLocality "Sankt Veit an der Glan"^^xsd:string ;
+    schema:identifier "Ad_SD106"^^xsd:string ;
+    schema:postalCode "4320"^^xsd:string ;
+    schema:streetAddress "Buchbergergasse 123"^^xsd:string .
+
+<http://example.org/Address/Ad_SD107> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Zwettl"^^xsd:string ;
+    schema:identifier "Ad_SD107"^^xsd:string ;
+    schema:streetAddress "Florentina-Haider-Straße 18"^^xsd:string .
+
+<http://example.org/Address/Ad_SD108> a schema:PostalAddress ;
+    schema:addressCountry "EE"^^xsd:string ;
+    schema:addressLocality "Tomingasview"^^xsd:string ;
+    schema:identifier "Ad_SD108"^^xsd:string ;
+    schema:postalCode "46417"^^xsd:string .
+
+<http://example.org/Address/Ad_SD109> a schema:PostalAddress ;
+    schema:addressCountry "EE"^^xsd:string ;
+    schema:addressLocality "Port Martin"^^xsd:string ;
+    schema:identifier "Ad_SD109"^^xsd:string ;
+    schema:streetAddress "Bondarenko Dam 122"^^xsd:string .
+
+<http://example.org/Address/Ad_SD11> a schema:PostalAddress ;
+    schema:addressCountry "EE"^^xsd:string ;
+    schema:addressLocality "Võsubury"^^xsd:string ;
+    schema:identifier "Ad_SD11"^^xsd:string ;
+    schema:streetAddress "Kuus Passage 1B"^^xsd:string .
+
+<http://example.org/Address/Ad_SD110> a schema:PostalAddress ;
+    schema:addressLocality "South Kadriport"^^xsd:string ;
+    schema:identifier "Ad_SD110"^^xsd:string ;
+    schema:postalCode "72226"^^xsd:string ;
+    schema:streetAddress "Katrin Parks 68"^^xsd:string .
+
+<http://example.org/Address/Ad_SD111> a schema:PostalAddress ;
+    schema:addressLocality "Mõttustown"^^xsd:string ;
+    schema:identifier "Ad_SD111"^^xsd:string ;
+    schema:postalCode "82276"^^xsd:string ;
+    schema:streetAddress "Linda Expressway 107"^^xsd:string .
+
+<http://example.org/Address/Ad_SD112> a schema:PostalAddress ;
+    schema:addressLocality "Gerassimovville"^^xsd:string ;
+    schema:identifier "Ad_SD112"^^xsd:string ;
+    schema:postalCode "28799"^^xsd:string ;
+    schema:streetAddress "Vaht Prairie 14"^^xsd:string .
+
+<http://example.org/Address/Ad_SD113> a schema:PostalAddress ;
+    schema:addressCountry "EE"^^xsd:string ;
+    schema:addressLocality "Mihkeltown"^^xsd:string ;
+    schema:identifier "Ad_SD113"^^xsd:string ;
+    schema:postalCode "71568"^^xsd:string .
+
+<http://example.org/Address/Ad_SD12> a schema:PostalAddress ;
+    schema:addressCountry "Estonia"^^xsd:string ;
+    schema:addressLocality "Kütttown"^^xsd:string ;
+    schema:identifier "Ad_SD12"^^xsd:string ;
+    schema:postalCode "36650"^^xsd:string .
+
+<http://example.org/Address/Ad_SD13> a schema:PostalAddress ;
+    schema:addressCountry "EE"^^xsd:string ;
+    schema:addressLocality "Lake aMtiport"^^xsd:string ;
+    schema:identifier "Ad_SD13"^^xsd:string ;
+    schema:streetAddress "Jefimop Locks 88"^^xsd:string .
+
+<http://example.org/Address/Ad_SD14> a schema:PostalAddress ;
+    schema:addressLocality "Rien"^^xsd:string ;
+    schema:identifier "Ad_SD14"^^xsd:string ;
+    schema:postalCode "2167 YB"^^xsd:string ;
+    schema:streetAddress "Elizelaan 2"^^xsd:string .
+
+<http://example.org/Address/Ad_SD15> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Beisndorp"^^xsd:string ;
+    schema:identifier "Ad_SD15"^^xsd:string ;
+    schema:streetAddress "Lucashof 89-1"^^xsd:string .
+
+<http://example.org/Address/Ad_SD16> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Den Dunegn"^^xsd:string ;
+    schema:identifier "Ad_SD16"^^xsd:string ;
+    schema:postalCode "3352 ZE"^^xsd:string .
+
+<http://example.org/Address/Ad_SD17> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "oLsser"^^xsd:string ;
+    schema:identifier "Ad_SD17"^^xsd:string ;
+    schema:postalCode "9549 RA"^^xsd:string .
+
+<http://example.org/Address/Ad_SD18> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Kattendijke"^^xsd:string ;
+    schema:identifier "Ad_SD18"^^xsd:string ;
+    schema:streetAddress "Kyaraweg 147B"^^xsd:string .
+
+<http://example.org/Address/Ad_SD19> a schema:PostalAddress ;
+    schema:addressLocality "iMll"^^xsd:string ;
+    schema:identifier "Ad_SD19"^^xsd:string ;
+    schema:postalCode "8908 UH"^^xsd:string ;
+    schema:streetAddress "Kikipad 130"^^xsd:string .
+
+<http://example.org/Address/Ad_SD2> a schema:PostalAddress ;
+    schema:addressCountry "Austria"^^xsd:string ;
+    schema:addressLocality "Vils"^^xsd:string ;
+    schema:identifier "Ad_SD2"^^xsd:string ;
+    schema:postalCode "3867"^^xsd:string .
+
+<http://example.org/Address/Ad_SD20> a schema:PostalAddress ;
+    schema:addressLocality "Hoofddorp"^^xsd:string ;
+    schema:identifier "Ad_SD20"^^xsd:string ;
+    schema:postalCode "5994 VN"^^xsd:string ;
+    schema:streetAddress "Félinewep 114"^^xsd:string .
+
+<http://example.org/Address/Ad_SD21> a schema:PostalAddress ;
+    schema:addressLocality "Uithuizermeeden"^^xsd:string ;
+    schema:identifier "Ad_SD21"^^xsd:string ;
+    schema:postalCode "1278TQ"^^xsd:string ;
+    schema:streetAddress "Lexdreef 34"^^xsd:string .
+
+<http://example.org/Address/Ad_SD22> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Achterevld"^^xsd:string ;
+    schema:identifier "Ad_SD22"^^xsd:string ;
+    schema:streetAddress "Rensring 147-1"^^xsd:string .
+
+<http://example.org/Address/Ad_SD23> a schema:PostalAddress ;
+    schema:addressLocality "Beilne"^^xsd:string ;
+    schema:identifier "Ad_SD23"^^xsd:string ;
+    schema:postalCode "3698 CH"^^xsd:string ;
+    schema:streetAddress "Sennaring 75"^^xsd:string .
+
+<http://example.org/Address/Ad_SD24> a schema:PostalAddress ;
+    schema:addressLocality "Dearsum"^^xsd:string ;
+    schema:identifier "Ad_SD24"^^xsd:string ;
+    schema:postalCode "8883 YA"^^xsd:string ;
+    schema:streetAddress "Nikkiweg 141A"^^xsd:string .
+
+<http://example.org/Address/Ad_SD25> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Garsthuizen"^^xsd:string ;
+    schema:identifier "Ad_SD25"^^xsd:string ;
+    schema:postalCode "4179 IJ"^^xsd:string .
+
+<http://example.org/Address/Ad_SD26> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "lEburg"^^xsd:string ;
+    schema:identifier "Ad_SD26"^^xsd:string ;
+    schema:postalCode "6941 VQ"^^xsd:string .
+
+<http://example.org/Address/Ad_SD27> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Ameide"^^xsd:string ;
+    schema:identifier "Ad_SD27"^^xsd:string ;
+    schema:postalCode "1088FP"^^xsd:string .
+
+<http://example.org/Address/Ad_SD28> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Wilp"^^xsd:string ;
+    schema:identifier "Ad_SD28"^^xsd:string ;
+    schema:postalCode "3670 EC"^^xsd:string .
+
+<http://example.org/Address/Ad_SD29> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Hantumeruitburen"^^xsd:string ;
+    schema:identifier "Ad_SD29"^^xsd:string ;
+    schema:streetAddress "Dewilaan 36"^^xsd:string .
+
+<http://example.org/Address/Ad_SD3> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Wilhelmsburg"^^xsd:string ;
+    schema:identifier "Ad_SD3"^^xsd:string ;
+    schema:streetAddress "Raphael-Lengauer-Platr 79"^^xsd:string .
+
+<http://example.org/Address/Ad_SD30> a schema:PostalAddress ;
+    schema:addressLocality "Dirksland"^^xsd:string ;
+    schema:identifier "Ad_SD30"^^xsd:string ;
+    schema:postalCode "6850ER"^^xsd:string ;
+    schema:streetAddress "Rikpan 149"^^xsd:string .
+
+<http://example.org/Address/Ad_SD31> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Opende"^^xsd:string ;
+    schema:identifier "Ad_SD31"^^xsd:string ;
+    schema:postalCode "5830 BU"^^xsd:string .
+
+<http://example.org/Address/Ad_SD32> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Hairnghuizen"^^xsd:string ;
+    schema:identifier "Ad_SD32"^^xsd:string ;
+    schema:postalCode "6081 ZG"^^xsd:string .
+
+<http://example.org/Address/Ad_SD33> a schema:PostalAddress ;
+    schema:addressLocality "Emmeloodr"^^xsd:string ;
+    schema:identifier "Ad_SD33"^^xsd:string ;
+    schema:postalCode "6368NR"^^xsd:string ;
+    schema:streetAddress "Morrisboulevard 110"^^xsd:string .
+
+<http://example.org/Address/Ad_SD34> a schema:PostalAddress ;
+    schema:addressLocality "Lutjebroek"^^xsd:string ;
+    schema:identifier "Ad_SD34"^^xsd:string ;
+    schema:postalCode "6617 WI"^^xsd:string ;
+    schema:streetAddress "Olafstraat 113B"^^xsd:string .
+
+<http://example.org/Address/Ad_SD35> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Den Hoorn"^^xsd:string ;
+    schema:identifier "Ad_SD35"^^xsd:string ;
+    schema:streetAddress "Ravisteeg 77"^^xsd:string .
+
+<http://example.org/Address/Ad_SD36> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Goënag"^^xsd:string ;
+    schema:identifier "Ad_SD36"^^xsd:string ;
+    schema:postalCode "1048 FS"^^xsd:string .
+
+<http://example.org/Address/Ad_SD37> a schema:PostalAddress ;
+    schema:addressLocality "Oudeomlen"^^xsd:string ;
+    schema:identifier "Ad_SD37"^^xsd:string ;
+    schema:postalCode "9767 IG"^^xsd:string ;
+    schema:streetAddress "Hannalaan 34"^^xsd:string .
+
+<http://example.org/Address/Ad_SD38> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "nAerveen"^^xsd:string ;
+    schema:identifier "Ad_SD38"^^xsd:string ;
+    schema:streetAddress "Emirrinp 54"^^xsd:string .
+
+<http://example.org/Address/Ad_SD39> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Zandopl"^^xsd:string ;
+    schema:identifier "Ad_SD39"^^xsd:string ;
+    schema:postalCode "3393KY"^^xsd:string .
+
+<http://example.org/Address/Ad_SD4> a schema:PostalAddress ;
+    schema:addressCountry "Austria"^^xsd:string ;
+    schema:addressLocality "iLenz"^^xsd:string ;
+    schema:identifier "Ad_SD4"^^xsd:string ;
+    schema:postalCode "6840"^^xsd:string .
+
+<http://example.org/Address/Ad_SD40> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Hoogmade"^^xsd:string ;
+    schema:identifier "Ad_SD40"^^xsd:string ;
+    schema:streetAddress "Lottering 12"^^xsd:string .
+
+<http://example.org/Address/Ad_SD41> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "oWltersum"^^xsd:string ;
+    schema:identifier "Ad_SD41"^^xsd:string ;
+    schema:streetAddress "Michaelweg 27"^^xsd:string .
+
+<http://example.org/Address/Ad_SD42> a schema:PostalAddress ;
+    schema:addressLocality "IJsslestein"^^xsd:string ;
+    schema:identifier "Ad_SD42"^^xsd:string ;
+    schema:postalCode "1567 IW"^^xsd:string ;
+    schema:streetAddress "Stanpad 81"^^xsd:string .
+
+<http://example.org/Address/Ad_SD43> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Loon"^^xsd:string ;
+    schema:identifier "Ad_SD43"^^xsd:string ;
+    schema:streetAddress "Pienweg 7"^^xsd:string .
+
+<http://example.org/Address/Ad_SD44> a schema:PostalAddress ;
+    schema:addressLocality "Snakkerburen"^^xsd:string ;
+    schema:identifier "Ad_SD44"^^xsd:string ;
+    schema:postalCode "2967UN"^^xsd:string ;
+    schema:streetAddress "Corneliahov 35"^^xsd:string .
+
+<http://example.org/Address/Ad_SD45> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Oosterland"^^xsd:string ;
+    schema:identifier "Ad_SD45"^^xsd:string ;
+    schema:streetAddress "Jesselaan 86B"^^xsd:string .
+
+<http://example.org/Address/Ad_SD46> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "uLnteren"^^xsd:string ;
+    schema:identifier "Ad_SD46"^^xsd:string ;
+    schema:streetAddress "Timboulevard 130A"^^xsd:string .
+
+<http://example.org/Address/Ad_SD47> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Deursen-Dennenburg"^^xsd:string ;
+    schema:identifier "Ad_SD47"^^xsd:string ;
+    schema:streetAddress "Tijnboulevard 98"^^xsd:string .
+
+<http://example.org/Address/Ad_SD48> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Meerssen"^^xsd:string ;
+    schema:identifier "Ad_SD48"^^xsd:string ;
+    schema:streetAddress "Elizawez 94"^^xsd:string .
+
+<http://example.org/Address/Ad_SD49> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Eppenhuizen"^^xsd:string ;
+    schema:identifier "Ad_SD49"^^xsd:string ;
+    schema:streetAddress "Maritboulevard 50"^^xsd:string .
+
+<http://example.org/Address/Ad_SD5> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Pegr"^^xsd:string ;
+    schema:identifier "Ad_SD5"^^xsd:string ;
+    schema:postalCode "9956"^^xsd:string .
+
+<http://example.org/Address/Ad_SD50> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Leons"^^xsd:string ;
+    schema:identifier "Ad_SD50"^^xsd:string ;
+    schema:postalCode "6614 ID"^^xsd:string .
+
+<http://example.org/Address/Ad_SD51> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Rottum"^^xsd:string ;
+    schema:identifier "Ad_SD51"^^xsd:string ;
+    schema:streetAddress "Robinsteeg 109B"^^xsd:string .
+
+<http://example.org/Address/Ad_SD52> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Riethoven"^^xsd:string ;
+    schema:identifier "Ad_SD52"^^xsd:string ;
+    schema:streetAddress "Silstraav 6"^^xsd:string .
+
+<http://example.org/Address/Ad_SD53> a schema:PostalAddress ;
+    schema:addressLocality "Dürnstein"^^xsd:string ;
+    schema:identifier "Ad_SD53"^^xsd:string ;
+    schema:postalCode "8549"^^xsd:string ;
+    schema:streetAddress "Gärtnerstr. 91B"^^xsd:string .
+
+<http://example.org/Address/Ad_SD54> a schema:PostalAddress ;
+    schema:addressLocality "Amstetten"^^xsd:string ;
+    schema:identifier "Ad_SD54"^^xsd:string ;
+    schema:postalCode "8231"^^xsd:string ;
+    schema:streetAddress "Engelring 10B"^^xsd:string .
+
+<http://example.org/Address/Ad_SD55> a schema:PostalAddress ;
+    schema:addressLocality "Schärding"^^xsd:string ;
+    schema:identifier "Ad_SD55"^^xsd:string ;
+    schema:postalCode "6073"^^xsd:string ;
+    schema:streetAddress "Alexa-Grassl-Straße 18"^^xsd:string .
+
+<http://example.org/Address/Ad_SD56> a schema:PostalAddress ;
+    schema:addressLocality "Mattighofen"^^xsd:string ;
+    schema:identifier "Ad_SD56"^^xsd:string ;
+    schema:postalCode "1357"^^xsd:string ;
+    schema:streetAddress "Anabella-Hartl-Gasse 91A"^^xsd:string .
+
+<http://example.org/Address/Ad_SD57> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Viotsberg"^^xsd:string ;
+    schema:identifier "Ad_SD57"^^xsd:string ;
+    schema:streetAddress "Luisa-Stöckl-Ring 60A"^^xsd:string .
+
+<http://example.org/Address/Ad_SD58> a schema:PostalAddress ;
+    schema:addressLocality "Lagnenlois"^^xsd:string ;
+    schema:identifier "Ad_SD58"^^xsd:string ;
+    schema:postalCode "3169"^^xsd:string ;
+    schema:streetAddress "Anabella-Klug-Ring 92A"^^xsd:string .
+
+<http://example.org/Address/Ad_SD59> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Lnagenlois"^^xsd:string ;
+    schema:identifier "Ad_SD59"^^xsd:string ;
+    schema:streetAddress "Anna-Maria-Nussbaumer-Straße 19"^^xsd:string .
+
+<http://example.org/Address/Ad_SD6> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Schrattetnhal"^^xsd:string ;
+    schema:identifier "Ad_SD6"^^xsd:string ;
+    schema:postalCode "5842"^^xsd:string .
+
+<http://example.org/Address/Ad_SD60> a schema:PostalAddress ;
+    schema:addressCountry "Austria"^^xsd:string ;
+    schema:addressLocality "Frauenkirchen"^^xsd:string ;
+    schema:identifier "Ad_SD60"^^xsd:string ;
+    schema:streetAddress "Beatrice-Aschauer-Gassm 40"^^xsd:string .
+
+<http://example.org/Address/Ad_SD61> a schema:PostalAddress ;
+    schema:addressCountry "Austria"^^xsd:string ;
+    schema:addressLocality "Oberpullendrof"^^xsd:string ;
+    schema:identifier "Ad_SD61"^^xsd:string ;
+    schema:streetAddress "Zimmermannstr. 33"^^xsd:string .
+
+<http://example.org/Address/Ad_SD62> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Geldrp"^^xsd:string ;
+    schema:identifier "Ad_SD62"^^xsd:string ;
+    schema:postalCode "7340 LP"^^xsd:string .
+
+<http://example.org/Address/Ad_SD63> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Ulrum"^^xsd:string ;
+    schema:identifier "Ad_SD63"^^xsd:string ;
+    schema:postalCode "9055 LG"^^xsd:string .
+
+<http://example.org/Address/Ad_SD64> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Akersloot"^^xsd:string ;
+    schema:identifier "Ad_SD64"^^xsd:string ;
+    schema:streetAddress "Aydendreef 123A"^^xsd:string .
+
+<http://example.org/Address/Ad_SD65> a schema:PostalAddress ;
+    schema:addressLocality "Abbenbroek"^^xsd:string ;
+    schema:identifier "Ad_SD65"^^xsd:string ;
+    schema:postalCode "9819 EB"^^xsd:string ;
+    schema:streetAddress "Chloélaan 150A"^^xsd:string .
+
+<http://example.org/Address/Ad_SD66> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Eext"^^xsd:string ;
+    schema:identifier "Ad_SD66"^^xsd:string ;
+    schema:streetAddress "Jortring 2B"^^xsd:string .
+
+<http://example.org/Address/Ad_SD67> a schema:PostalAddress ;
+    schema:addressLocality "Warstiens"^^xsd:string ;
+    schema:identifier "Ad_SD67"^^xsd:string ;
+    schema:postalCode "6328KH"^^xsd:string ;
+    schema:streetAddress "Timosingel 89"^^xsd:string .
+
+<http://example.org/Address/Ad_SD68> a schema:PostalAddress ;
+    schema:addressLocality "Ubbea"^^xsd:string ;
+    schema:identifier "Ad_SD68"^^xsd:string ;
+    schema:postalCode "8664 SC"^^xsd:string ;
+    schema:streetAddress "Mathijsstraat 61"^^xsd:string .
+
+<http://example.org/Address/Ad_SD69> a schema:PostalAddress ;
+    schema:addressLocality "Boekel"^^xsd:string ;
+    schema:identifier "Ad_SD69"^^xsd:string ;
+    schema:postalCode "6770LM"^^xsd:string ;
+    schema:streetAddress "Barthof 44"^^xsd:string .
+
+<http://example.org/Address/Ad_SD7> a schema:PostalAddress ;
+    schema:addressLocality "Kindbegr"^^xsd:string ;
+    schema:identifier "Ad_SD7"^^xsd:string ;
+    schema:postalCode "8973"^^xsd:string ;
+    schema:streetAddress "Katharina-Foidl-Straße 113"^^xsd:string .
+
+<http://example.org/Address/Ad_SD70> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Tiel"^^xsd:string ;
+    schema:identifier "Ad_SD70"^^xsd:string ;
+    schema:postalCode "7443CE"^^xsd:string .
+
+<http://example.org/Address/Ad_SD71> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Norden"^^xsd:string ;
+    schema:identifier "Ad_SD71"^^xsd:string ;
+    schema:streetAddress "Wesselhof 101"^^xsd:string .
+
+<http://example.org/Address/Ad_SD72> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Weiteveen"^^xsd:string ;
+    schema:identifier "Ad_SD72"^^xsd:string ;
+    schema:postalCode "4009 AY"^^xsd:string .
+
+<http://example.org/Address/Ad_SD73> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Ouderkerk aan den IJssel"^^xsd:string ;
+    schema:identifier "Ad_SD73"^^xsd:string ;
+    schema:streetAddress "Merelring 6"^^xsd:string .
+
+<http://example.org/Address/Ad_SD74> a schema:PostalAddress ;
+    schema:addressLocality "Njeholtpade"^^xsd:string ;
+    schema:identifier "Ad_SD74"^^xsd:string ;
+    schema:postalCode "1419 XK"^^xsd:string ;
+    schema:streetAddress "Aiméesingel 113"^^xsd:string .
+
+<http://example.org/Address/Ad_SD75> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Zuidland"^^xsd:string ;
+    schema:identifier "Ad_SD75"^^xsd:string ;
+    schema:streetAddress "Evipad 110"^^xsd:string .
+
+<http://example.org/Address/Ad_SD76> a schema:PostalAddress ;
+    schema:addressLocality "Heenliet"^^xsd:string ;
+    schema:identifier "Ad_SD76"^^xsd:string ;
+    schema:postalCode "3713 EU"^^xsd:string ;
+    schema:streetAddress "Ceylinsingel 98B"^^xsd:string .
+
+<http://example.org/Address/Ad_SD77> a schema:PostalAddress ;
+    schema:addressCountry "Austria"^^xsd:string ;
+    schema:addressLocality "Wilhelmsburg"^^xsd:string ;
+    schema:identifier "Ad_SD77"^^xsd:string ;
+    schema:streetAddress "Pascal-Krammer-Platz 68A"^^xsd:string .
+
+<http://example.org/Address/Ad_SD78> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Radstadt"^^xsd:string ;
+    schema:identifier "Ad_SD78"^^xsd:string ;
+    schema:streetAddress "Widhalmstr. 51"^^xsd:string .
+
+<http://example.org/Address/Ad_SD79> a schema:PostalAddress ;
+    schema:addressLocality "Gerasdorf bei Wien"^^xsd:string ;
+    schema:identifier "Ad_SD79"^^xsd:string ;
+    schema:postalCode "6380"^^xsd:string ;
+    schema:streetAddress "Stockerstr. 105"^^xsd:string .
+
+<http://example.org/Address/Ad_SD8> a schema:PostalAddress ;
+    schema:addressCountry "Estonia"^^xsd:string ;
+    schema:addressLocality "Toomasville"^^xsd:string ;
+    schema:identifier "Ad_SD8"^^xsd:string ;
+    schema:postalCode "82891"^^xsd:string .
+
+<http://example.org/Address/Ad_SD80> a schema:PostalAddress ;
+    schema:addressCountry "AT"^^xsd:string ;
+    schema:addressLocality "Friedbrg"^^xsd:string ;
+    schema:identifier "Ad_SD80"^^xsd:string ;
+    schema:postalCode "2489"^^xsd:string .
+
+<http://example.org/Address/Ad_SD81> a schema:PostalAddress ;
+    schema:addressLocality "Linz"^^xsd:string ;
+    schema:identifier "Ad_SD81"^^xsd:string ;
+    schema:postalCode "8046"^^xsd:string ;
+    schema:streetAddress "Annika-Schuler-Gasse 17"^^xsd:string .
+
+<http://example.org/Address/Ad_SD82> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Oudwoude"^^xsd:string ;
+    schema:identifier "Ad_SD82"^^xsd:string ;
+    schema:postalCode "8582AO"^^xsd:string .
+
+<http://example.org/Address/Ad_SD83> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Bunschoten-Spakenburg"^^xsd:string ;
+    schema:identifier "Ad_SD83"^^xsd:string ;
+    schema:streetAddress "Marinusstraat 115"^^xsd:string .
+
+<http://example.org/Address/Ad_SD84> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Pernis Rotterdam"^^xsd:string ;
+    schema:identifier "Ad_SD84"^^xsd:string ;
+    schema:postalCode "4372KD"^^xsd:string .
+
+<http://example.org/Address/Ad_SD85> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Munnekeburen"^^xsd:string ;
+    schema:identifier "Ad_SD85"^^xsd:string ;
+    schema:postalCode "4505YN"^^xsd:string .
+
+<http://example.org/Address/Ad_SD86> a schema:PostalAddress ;
+    schema:addressCountry "Netherlands"^^xsd:string ;
+    schema:addressLocality "Lgemeer"^^xsd:string ;
+    schema:identifier "Ad_SD86"^^xsd:string ;
+    schema:postalCode "6939 BJ"^^xsd:string .
+
+<http://example.org/Address/Ad_SD87> a schema:PostalAddress ;
+    schema:addressLocality "Nispen"^^xsd:string ;
+    schema:identifier "Ad_SD87"^^xsd:string ;
+    schema:postalCode "3419RX"^^xsd:string ;
+    schema:streetAddress "Jefsweg 69"^^xsd:string .
+
+<http://example.org/Address/Ad_SD88> a schema:PostalAddress ;
+    schema:addressLocality "Warmond"^^xsd:string ;
+    schema:identifier "Ad_SD88"^^xsd:string ;
+    schema:postalCode "4744 MC"^^xsd:string ;
+    schema:streetAddress "Youssefhof 97B"^^xsd:string .
+
+<http://example.org/Address/Ad_SD89> a schema:PostalAddress ;
+    schema:addressLocality "Barendrecht"^^xsd:string ;
+    schema:identifier "Ad_SD89"^^xsd:string ;
+    schema:postalCode "2296TV"^^xsd:string ;
+    schema:streetAddress "Juliebaan 30B"^^xsd:string .
+
+<http://example.org/Address/Ad_SD9> a schema:PostalAddress ;
+    schema:addressLocality "Lake Kristiinaburgh"^^xsd:string ;
+    schema:identifier "Ad_SD9"^^xsd:string ;
+    schema:postalCode "77679"^^xsd:string ;
+    schema:streetAddress "Klaai Pine 145"^^xsd:string .
+
+<http://example.org/Address/Ad_SD90> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "IJlst"^^xsd:string ;
+    schema:identifier "Ad_SD90"^^xsd:string ;
+    schema:streetAddress "Annemijnring 16"^^xsd:string .
+
+<http://example.org/Address/Ad_SD91> a schema:PostalAddress ;
+    schema:addressCountry "NL"^^xsd:string ;
+    schema:addressLocality "Wernhout"^^xsd:string ;
+    schema:identifier "Ad_SD91"^^xsd:string ;
+    schema:postalCode "4372 TZ"^^xsd:string .
+
+<http://example.org/Address/Ad_SD92> a schema:PostalAddress ;
+    schema:addressLocality "Liivtown"^^xsd:string ;
+    schema:identifier "Ad_SD92"^^xsd:string ;
+    schema:postalCode "11181"^^xsd:string ;
+    schema:streetAddress "Triin Road 77"^^xsd:string .
+
+<http://example.org/Address/Ad_SD93> a schema:PostalAddress ;
+    schema:addressCountry "EE"^^xsd:string ;
+    schema:addressLocality "Lake Aleksander"^^xsd:string ;
+    schema:identifier "Ad_SD93"^^xsd:string ;
+    schema:streetAddress "Jõgi Causeway 101"^^xsd:string .
+
+<http://example.org/Address/Ad_SD94> a schema:PostalAddress ;
+    schema:addressCountry "EE"^^xsd:string ;
+    schema:addressLocality "Antsside"^^xsd:string ;
+    schema:identifier "Ad_SD94"^^xsd:string ;
+    schema:streetAddress "Siim Corners 52"^^xsd:string .
+
+<http://example.org/Address/Ad_SD95> a schema:PostalAddress ;
+    schema:addressCountry "EE"^^xsd:string ;
+    schema:addressLocality "Markomouth"^^xsd:string ;
+    schema:identifier "Ad_SD95"^^xsd:string ;
+    schema:postalCode "53409"^^xsd:string .
+
+<http://example.org/Address/Ad_SD96> a schema:PostalAddress ;
+    schema:addressLocality "Roosilehtside"^^xsd:string ;
+    schema:identifier "Ad_SD96"^^xsd:string ;
+    schema:postalCode "42298"^^xsd:string ;
+    schema:streetAddress "Andreev Mountains 144"^^xsd:string .
+
+<http://example.org/Address/Ad_SD97> a schema:PostalAddress ;
+    schema:addressCountry "EE"^^xsd:string ;
+    schema:addressLocality "Sandermouth"^^xsd:string ;
+    schema:identifier "Ad_SD97"^^xsd:string ;
+    schema:postalCode "60040"^^xsd:string .
+
+<http://example.org/Address/Ad_SD98> a schema:PostalAddress ;
+    schema:addressLocality "North Dmitrihaven"^^xsd:string ;
+    schema:identifier "Ad_SD98"^^xsd:string ;
+    schema:postalCode "69451"^^xsd:string ;
+    schema:streetAddress "Ojala Mall 143"^^xsd:string .
+
+<http://example.org/Address/Ad_SD99> a schema:PostalAddress ;
+    schema:addressCountry "EE"^^xsd:string ;
+    schema:addressLocality "Viiraburgh"^^xsd:string ;
+    schema:identifier "Ad_SD99"^^xsd:string ;
+    schema:postalCode "86485"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD1> a schema:ContactPoint ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Robinson.Midwiiery@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "001-8898320-4978x96373"^^xsd:string ;
+    schema:identifier "CP_SD1"^^xsd:string ;
+    schema:telephone "001-883-421-4756x8056"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD10> a schema:ContactPoint ;
+    schema:availableLanguage "['et', 'en']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:faxNumber "741-463-4677."^^xsd:string ;
+    schema:identifier "CP_SD10"^^xsd:string ;
+    schema:telephone "(274)327-9086"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD100> a schema:ContactPoint ;
+    schema:availableLanguage "['et']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "Berg.Hematologic@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD100"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD101> a schema:ContactPoint ;
+    schema:availableLanguage "['et']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:identifier "CP_SD101"^^xsd:string ;
+    schema:telephone "725.722.5268."^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD102> a schema:ContactPoint ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "PerezBecker.Infectious@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "321-651-4018x70599"^^xsd:string ;
+    schema:identifier "CP_SD102"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD103> a schema:ContactPoint ;
+    schema:availableLanguage "['de']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "PerezBecker.Speech@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "767-730-9628"^^xsd:string ;
+    schema:identifier "CP_SD103"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD104> a schema:ContactPoint ;
+    schema:availableLanguage "['de']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "PerezBecker.Laboratory@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD104"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD105> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "PerezBecker.Rheumatologic@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD105"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD106> a schema:ContactPoint ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "PerezBecker.Gynecologic@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "001-641-244-5672x53298"^^xsd:string ;
+    schema:identifier "CP_SD106"^^xsd:string ;
+    schema:telephone "+1-650-470-0550"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD107> a schema:ContactPoint ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "PerezBecker.Renal@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "+1-333-812-1909x9708"^^xsd:string ;
+    schema:identifier "CP_SD107"^^xsd:string ;
+    schema:telephone "001-332-215-0490"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD108> a schema:ContactPoint ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "Novak.Respiratory@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "001-688-826-8379x6355"^^xsd:string ;
+    schema:identifier "CP_SD108"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD109> a schema:ContactPoint ;
+    schema:availableLanguage "['et', 'en']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Novak.Otolaryngologic@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "(365)251-0888x770"^^xsd:string ;
+    schema:identifier "CP_SD109"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD11> a schema:ContactPoint ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Mcneil.Plastic@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "4172823695"^^xsd:string ;
+    schema:identifier "CP_SD11"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD110> a schema:ContactPoint ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "Novak.Hematologic@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "813-315-4293"^^xsd:string ;
+    schema:identifier "CP_SD110"^^xsd:string ;
+    schema:telephone "001-755-982-6187"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD111> a schema:ContactPoint ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "Novak.Podiatric@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "(203)841-5253"^^xsd:string ;
+    schema:identifier "CP_SD111"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD112> a schema:ContactPoint ;
+    schema:availableLanguage "['et']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:identifier "CP_SD112"^^xsd:string ;
+    schema:telephone "815.536.9489x002."^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD113> a schema:ContactPoint ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Novak.Gynecologic@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "537.763.2598x79412"^^xsd:string ;
+    schema:identifier "CP_SD113"^^xsd:string ;
+    schema:telephone "(445)726-5176"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD12> a schema:ContactPoint ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Mcneil.qediatric@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "+1-846-578-4101x566"^^xsd:string ;
+    schema:identifier "CP_SD12"^^xsd:string ;
+    schema:telephone "001-286-594-3160x875"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD13> a schema:ContactPoint ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "Mcneil.Optometric@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "313-453-609552271"^^xsd:string ;
+    schema:identifier "CP_SD13"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD14> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "Peqk.Podiatric@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD14"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD15> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "Pech.Speech@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD15"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD16> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Peck.Anesthesia@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "(0991)-163416"^^xsd:string ;
+    schema:identifier "CP_SD16"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD17> a schema:ContactPoint ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "Peck.Musculoskeletal@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "+31(0)29-9252052"^^xsd:string ;
+    schema:identifier "CP_SD17"^^xsd:string ;
+    schema:telephone "+3118 9245773"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD18> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:identifier "CP_SD18"^^xsd:string ;
+    schema:telephone "+31913-064853."^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD19> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch', 'english']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:identifier "CP_SD19"^^xsd:string ;
+    schema:telephone "+31(0)984-690815."^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD2> a schema:ContactPoint ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "Robijson.Respiratory@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "+1-298-796-9647"^^xsd:string ;
+    schema:identifier "CP_SD2"^^xsd:string ;
+    schema:telephone "+1-438-533-7131"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD20> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch', 'english']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Pejk.Radiography@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD20"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD21> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch', 'english']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:identifier "CP_SD21"^^xsd:string ;
+    schema:telephone "+319964776098."^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD22> a schema:ContactPoint ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:faxNumber "(099) 9073842."^^xsd:string ;
+    schema:identifier "CP_SD22"^^xsd:string ;
+    schema:telephone "+31(0)153 066453"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD23> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch', 'english']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "Allek.Renal@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD23"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD24> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch', 'english']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:identifier "CP_SD24"^^xsd:string ;
+    schema:telephone "+31(0)872-201716."^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD25> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:faxNumber "(0675) 727514."^^xsd:string ;
+    schema:identifier "CP_SD25"^^xsd:string ;
+    schema:telephone "+31747 877914"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD26> a schema:ContactPoint ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:faxNumber "000 3615679."^^xsd:string ;
+    schema:identifier "CP_SD26"^^xsd:string ;
+    schema:telephone "(0874)-206546"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD27> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:faxNumber "+31090 036407."^^xsd:string ;
+    schema:identifier "CP_SD27"^^xsd:string ;
+    schema:telephone "(0338) 006752"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD28> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "Ibarrk.Gynecologic@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD28"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD29> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch', 'english']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:faxNumber "0701-634499."^^xsd:string ;
+    schema:identifier "CP_SD29"^^xsd:string ;
+    schema:telephone "(000) 0035114"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD3> a schema:ContactPoint ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Robinson.Obstttric@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "(463)307-4285"^^xsd:string ;
+    schema:identifier "CP_SD3"^^xsd:string ;
+    schema:telephone "309.544.6541x9175"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD30> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:faxNumber "+31(0)58-1259381."^^xsd:string ;
+    schema:identifier "CP_SD30"^^xsd:string ;
+    schema:telephone "054-0275361"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD31> a schema:ContactPoint ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Ibarra.Splech@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "+3156 6532566"^^xsd:string ;
+    schema:identifier "CP_SD31"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD32> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "Ibagra.Neurologic@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD32"^^xsd:string ;
+    schema:telephone "+31(0)119-890522"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD33> a schema:ContactPoint ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Ibarra.Optometric@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "(001) 7131339"^^xsd:string ;
+    schema:identifier "CP_SD33"^^xsd:string ;
+    schema:telephone "(01451 901789"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD34> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:identifier "CP_SD34"^^xsd:string ;
+    schema:telephone "+31(0)778 505017."^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD35> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "Griffin.Muscvloskeletal@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD35"^^xsd:string ;
+    schema:telephone "(6806) 446410"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD36> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Griffin.Reypiratory@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD36"^^xsd:string ;
+    schema:telephone "(051) 3322487"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD37> a schema:ContactPoint ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:faxNumber "+31(0799-2009421."^^xsd:string ;
+    schema:identifier "CP_SD37"^^xsd:string ;
+    schema:telephone "(0904) 980790"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD38> a schema:ContactPoint ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "Griffin.Respirftory@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "+3147 9128838"^^xsd:string ;
+    schema:identifier "CP_SD38"^^xsd:string ;
+    schema:telephone "(029) 7657829"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD39> a schema:ContactPoint ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "Griffin.Plastic@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "(7875) 267737"^^xsd:string ;
+    schema:identifier "CP_SD39"^^xsd:string ;
+    schema:telephone "+31(0)325 583390"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD4> a schema:ContactPoint ;
+    schema:availableLanguage "['de']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:faxNumber "001-929-864-3122."^^xsd:string ;
+    schema:identifier "CP_SD4"^^xsd:string ;
+    schema:telephone "(771)442-8397"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD40> a schema:ContactPoint ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:faxNumber "+31(0)032 390557."^^xsd:string ;
+    schema:identifier "CP_SD40"^^xsd:string ;
+    schema:telephone "+31(0)378 208287"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD41> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Griffii.Respiratory@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD41"^^xsd:string ;
+    schema:telephone "+31956-180289"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD42> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:identifier "CP_SD42"^^xsd:string ;
+    schema:telephone "+31(7)049 493858."^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD43> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Griffin.Rheumatologic@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD43"^^xsd:string ;
+    schema:telephone "+31(0)20-1238274"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD44> a schema:ContactPoint ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Grlffin.Diet@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "(019) 1391103"^^xsd:string ;
+    schema:identifier "CP_SD44"^^xsd:string ;
+    schema:telephone "+31(0)339 698220"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD45> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "FigueroaStrong.Plastic@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD45"^^xsd:string ;
+    schema:telephone "+3118 3273954"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD46> a schema:ContactPoint ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "FigueroaStrong.Urologic@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "+31568 477759"^^xsd:string ;
+    schema:identifier "CP_SD46"^^xsd:string ;
+    schema:telephone "+31076 342977"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD47> a schema:ContactPoint ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "FigueroaStrong.Genetic@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "+31(0)215-071250"^^xsd:string ;
+    schema:identifier "CP_SD47"^^xsd:string ;
+    schema:telephone "+31(0)26 8525237"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD48> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:identifier "CP_SD48"^^xsd:string ;
+    schema:telephone "04692145886."^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD49> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "FigueroaStrong.Renal@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "+31(0)32-7421922"^^xsd:string ;
+    schema:identifier "CP_SD49"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD5> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Robinson.Surgical@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD5"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD50> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "FigueroaStrong.Caraiovascular@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD50"^^xsd:string ;
+    schema:telephone "049 7612933"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD51> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch', 'english']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:faxNumber "+31292 092965."^^xsd:string ;
+    schema:identifier "CP_SD51"^^xsd:string ;
+    schema:telephone "(0089) 969726"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD52> a schema:ContactPoint ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "FigueroaStrong.Pharmacy@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "098-1012243"^^xsd:string ;
+    schema:identifier "CP_SD52"^^xsd:string ;
+    schema:telephone "0978 055579"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD53> a schema:ContactPoint ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:faxNumber "001-529-904-6603x8172."^^xsd:string ;
+    schema:identifier "CP_SD53"^^xsd:string ;
+    schema:telephone "+1-461-788-8173"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD54> a schema:ContactPoint ;
+    schema:availableLanguage "['german', 'english']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "Parker.Midwifery@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "(862)712-1753x9241"^^xsd:string ;
+    schema:identifier "CP_SD54"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD55> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:faxNumber "(410)919-0400x6898."^^xsd:string ;
+    schema:identifier "CP_SD55"^^xsd:string ;
+    schema:telephone "646.246.0066"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD56> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "Parker.Cardiovascular@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "001-876-452-0336"^^xsd:string ;
+    schema:identifier "CP_SD56"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD57> a schema:ContactPoint ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:faxNumber "(798)893-4029x4558."^^xsd:string ;
+    schema:identifier "CP_SD57"^^xsd:string ;
+    schema:telephone "856.355.2593"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD58> a schema:ContactPoint ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "Parker.Oustetric@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "001-711-383-9028"^^xsd:string ;
+    schema:identifier "CP_SD58"^^xsd:string ;
+    schema:telephone "+1-315-449-0142x7441"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD59> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Parker.Optometric@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD59"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD6> a schema:ContactPoint ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "Robinson.Obstetric@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "304-969-8825x98634"^^xsd:string ;
+    schema:identifier "CP_SD6"^^xsd:string ;
+    schema:telephone "566-904-3519x238"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD60> a schema:ContactPoint ;
+    schema:availableLanguage "['german', 'english']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:faxNumber "(314)574-2692x96322."^^xsd:string ;
+    schema:identifier "CP_SD60"^^xsd:string ;
+    schema:telephone "(859)381-9675x49717"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD61> a schema:ContactPoint ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Parker.Pathology@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "001-383-914-1966"^^xsd:string ;
+    schema:identifier "CP_SD61"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD62> a schema:ContactPoint ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:faxNumber "(063) 7805164."^^xsd:string ;
+    schema:identifier "CP_SD62"^^xsd:string ;
+    schema:telephone "(522)-5402417"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD63> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Delgado.Pediatric@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD63"^^xsd:string ;
+    schema:telephone "+31(0)54 8182562"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD64> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Delgado.Dentistmy@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD64"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD65> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch', 'english']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Delgado.Nursnng@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD65"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD66> a schema:ContactPoint ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "Delrado.Public@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "(0110) 438805"^^xsd:string ;
+    schema:identifier "CP_SD66"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD67> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "Delgcdo.Physiotherapy@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD67"^^xsd:string ;
+    schema:telephone "(0997)-391880"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD68> a schema:ContactPoint ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Delgado.Renal@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "+3164 0432692"^^xsd:string ;
+    schema:identifier "CP_SD68"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD69> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:identifier "CP_SD69"^^xsd:string ;
+    schema:telephone "+1817 5703828."^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD7> a schema:ContactPoint ;
+    schema:availableLanguage "['german']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Rnbinson.Renal@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD7"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD70> a schema:ContactPoint ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "Delgado.Pediatric@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "0351-238604"^^xsd:string ;
+    schema:identifier "CP_SD70"^^xsd:string ;
+    schema:telephone "+3117 6632510"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD71> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Jordan.Urologic@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD71"^^xsd:string ;
+    schema:telephone "(0263) 334006"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD72> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "Jordan.Geriatric@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD72"^^xsd:string ;
+    schema:telephone "(0028)-499243"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD73> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Jordan.Laboratory@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD73"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD74> a schema:ContactPoint ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Jordan.Laboratory@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "+10(8)038-448744"^^xsd:string ;
+    schema:identifier "CP_SD74"^^xsd:string ;
+    schema:telephone "+31(0)27-0623981"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD75> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:faxNumber "+3178-3605561."^^xsd:string ;
+    schema:identifier "CP_SD75"^^xsd:string ;
+    schema:telephone "(9185)-554554"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD76> a schema:ContactPoint ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "Jordan.Neurologic@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "+31821 463881"^^xsd:string ;
+    schema:identifier "CP_SD76"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD77> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "KimTodd.Gynecologic@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "535.296.8119x81658"^^xsd:string ;
+    schema:identifier "CP_SD77"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD78> a schema:ContactPoint ;
+    schema:availableLanguage "['de', 'en']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:faxNumber "+1-479-558-2207."^^xsd:string ;
+    schema:identifier "CP_SD78"^^xsd:string ;
+    schema:telephone "001-227-059-6203x2026"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD79> a schema:ContactPoint ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "KimTodd.Renal@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "+1-895-289-3084x414"^^xsd:string ;
+    schema:identifier "CP_SD79"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD8> a schema:ContactPoint ;
+    schema:availableLanguage "['estonian']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Mcneil.Radiography@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "(591)818-7210x867"^^xsd:string ;
+    schema:identifier "CP_SD8"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD80> a schema:ContactPoint ;
+    schema:availableLanguage "['de']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "KcmTodd.Midwifery@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "(952)259-3633"^^xsd:string ;
+    schema:identifier "CP_SD80"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD81> a schema:ContactPoint ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "KimTodd.Neurologic@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "(486)630-9419"^^xsd:string ;
+    schema:identifier "CP_SD81"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD82> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:identifier "CP_SD82"^^xsd:string ;
+    schema:telephone "(0097)-410786."^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD83> a schema:ContactPoint ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:faxNumber "+10(8)40-2753275."^^xsd:string ;
+    schema:identifier "CP_SD83"^^xsd:string ;
+    schema:telephone "(035) 7800046"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD84> a schema:ContactPoint ;
+    schema:availableLanguage "['dutch', 'english']"^^xsd:string ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Burch.Endocrine@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD84"^^xsd:string ;
+    schema:telephone "+3152 2748501"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD85> a schema:ContactPoint ;
+    schema:availableLanguage "['nl']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:identifier "CP_SD85"^^xsd:string ;
+    schema:telephone "(1746) 310310."^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD86> a schema:ContactPoint ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:faxNumber "+31(0)86 8362629."^^xsd:string ;
+    schema:identifier "CP_SD86"^^xsd:string ;
+    schema:telephone "+3194-1929490"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD87> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "Burch.Midwifery@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD87"^^xsd:string ;
+    schema:telephone "+10(5)59-5631563"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD88> a schema:ContactPoint ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Burlh.Diet@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "+31(0)65 7902785"^^xsd:string ;
+    schema:identifier "CP_SD88"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD89> a schema:ContactPoint ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:faxNumber "(0508) 687889."^^xsd:string ;
+    schema:identifier "CP_SD89"^^xsd:string ;
+    schema:telephone "+31188-086167"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD9> a schema:ContactPoint ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:faxNumber "+1-527-060-1015."^^xsd:string ;
+    schema:identifier "CP_SD9"^^xsd:string ;
+    schema:telephone "9156573359"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD90> a schema:ContactPoint ;
+    schema:availableLanguage "['nl', 'en']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:email "Burch.Dermatology@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "+31567 806730"^^xsd:string ;
+    schema:identifier "CP_SD90"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD91> a schema:ContactPoint ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Burch.Toxicologic@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "+3142-1484461"^^xsd:string ;
+    schema:identifier "CP_SD91"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD92> a schema:ContactPoint ;
+    schema:availableLanguage "['et']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Berg.Gastroenterologic@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD92"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD93> a schema:ContactPoint ;
+    schema:contactType "Information"^^xsd:string ;
+    schema:email "Berg.Podiatric@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "839-717-0341"^^xsd:string ;
+    schema:identifier "CP_SD93"^^xsd:string ;
+    schema:telephone "7549738569"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD94> a schema:ContactPoint ;
+    schema:availableLanguage "['et', 'en']"^^xsd:string ;
+    schema:contactType "Referrals"^^xsd:string ;
+    schema:email "Berg.Endocrine@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD94"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD95> a schema:ContactPoint ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "Berg.Musculoskeletal@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "+1-224-712-5148x0071"^^xsd:string ;
+    schema:identifier "CP_SD95"^^xsd:string ;
+    schema:telephone "(596)958-8188x425"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD96> a schema:ContactPoint ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:faxNumber "001-579-550-2428."^^xsd:string ;
+    schema:identifier "CP_SD96"^^xsd:string ;
+    schema:telephone "9353528260"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD97> a schema:ContactPoint ;
+    schema:availableLanguage "['et']"^^xsd:string ;
+    schema:contactType "Emergency"^^xsd:string ;
+    schema:email "Berg.Geriatric@dept.healthcare.org."^^xsd:string ;
+    schema:faxNumber "(218)919-2132x39644"^^xsd:string ;
+    schema:identifier "CP_SD97"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD98> a schema:ContactPoint ;
+    schema:availableLanguage "['et', 'en']"^^xsd:string ;
+    schema:contactType "Staff"^^xsd:string ;
+    schema:email "Berg.Genetic@dept.healthcare.org."^^xsd:string ;
+    schema:identifier "CP_SD98"^^xsd:string ;
+    schema:telephone "842-242-8523x70724"^^xsd:string .
+
+<http://example.org/ContactPoint/CP_SD99> a schema:ContactPoint ;
+    schema:availableLanguage "['et', 'en']"^^xsd:string ;
+    schema:contactType "Appointments"^^xsd:string ;
+    schema:faxNumber "+1-538-735-7371."^^xsd:string ;
+    schema:identifier "CP_SD99"^^xsd:string ;
+    schema:telephone "301.775.3660"^^xsd:string .
+

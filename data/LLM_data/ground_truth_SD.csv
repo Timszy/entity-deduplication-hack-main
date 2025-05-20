@@ -1,0 +1,706 @@
+row,original_id,field_name,original_value,varied_value,variation_type,entity_type,duplicate_id
+0,06d2ed7c-e6ac-4d8a-8160-ff927c7550f2,healthcareOrganizationName,Ibarra PLC Zorg,Ibarra PLk Zorg,Organization Name Typo,HealthcareOrganization,HCO1
+1,4a863655-0a9d-499c-a269-8c2d614f1ddc,healthcareOrganizationName,"Berg, Long and Middleton Tervisekeskus","Berg, Long and Middleton Terivsekeskus",Organization Name Typo,HealthcareOrganization,HCO2
+2,037d9752-48f3-431c-8fb7-c3bb4408c04c,healthcareOrganizationName,"Jordan, Jackson and Kramer Zorg","Jordan, Jackson and Krame rZorg",Organization Name Typo,HealthcareOrganization,HCO3
+3,5d393bf9-b2da-41f6-8c16-014a2e4a6e78,healthcareOrganizationName,Perez-Becker Gesundheitszentrum,PG,Organization Name Abbreviation,HealthcareOrganization,HCO4
+5,3e332f35-086c-4768-b0fe-3cfc991ab513,healthcareOrganizationName,Novak PLC Tervisekeskus,Noavk PLC Tervisekeskus,Organization Name Typo,HealthcareOrganization,HCO6
+6,92d6ff73-5b3a-4595-8458-92c14e0e15d3,healthcareOrganizationName,"Delgado, Guerrero and Simpson Zorg",D Guerrero and Simpson Zorg,Organization Name Abbreviation,HealthcareOrganization,HCO7
+7,9db3466d-1ba6-4c61-aaf9-4919e69b7971,healthcareOrganizationName,"Parker, Murphy and Brooks Gesundheitszentrum",P Murphy and Brooks Gesundheitszentrum,Organization Name Abbreviation,HealthcareOrganization,HCO8
+9,71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0,healthcareOrganizationName,Figueroa-Strong Zorg,Figueroa-Storng Zorg,Organization Name Typo,HealthcareOrganization,HCO10
+10,52ebdac5-a145-4899-a1f8-c1569e0df45b,healthcareOrganizationName,Allen Ltd Zorg,Allen Ltd Zrog,Organization Name Typo,HealthcareOrganization,HCO11
+11,8b5885ca-0bb2-43f0-bd30-291a55fea08e,healthcareOrganizationName,"Mcneil, Gonzalez and Howard Tervisekeskus",M Gonzalez and Howard Tervisekeskus,Organization Name Abbreviation,HealthcareOrganization,HCO12
+12,c7405255-25cf-41c4-9c89-929692b035e0,healthcareOrganizationName,Burch LLC Zorg,Burch LL CZorg,Organization Name Typo,HealthcareOrganization,HCO13
+14,a59cec98-126c-4c8f-b888-447911ebcd49,healthcareOrganizationName,"Robinson, Montoya and Walters Gesundheitszentrum",R Montoya and Walters Gesundheitszentrum,Organization Name Abbreviation,HealthcareOrganization,HCO15
+0,1f217475-66f0-4769-8909-c1ba18fa5472,serviceDepartmentName,Midwifery,Geburtshilfe,Translation,ServiceDepartment,SD1
+1,c9d4e1bb-c4d3-4ec2-baf3-d90e586a7302,serviceDepartmentName,Respiratory Therapy,Breathing Support,Alternate Naming,ServiceDepartment,SD2
+2,aef82d2e-51f8-4e44-924b-ba5b82042c0b,serviceDepartmentName,Obstetric,Pregnancy Care,Alternate Naming,ServiceDepartment,SD3
+3,09cef0ea-d6ca-4f41-adf1-fe3fefd9373e,serviceDepartmentName,Neurologic,Neurologisch,Translation,ServiceDepartment,SD4
+4,93c3150d-77c3-404f-9f7a-46b8450000a1,serviceDepartmentName,Surgical,Chirurgisch,Translation,ServiceDepartment,SD5
+5,3ca58162-4509-47a7-a2bc-5350a627e31d,serviceDepartmentName,Obstetric,Pregnancy Care,Alternate Naming,ServiceDepartment,SD6
+6,56c16359-352f-4341-83fa-a677b1a8e5c6,serviceDepartmentName,Renal,Nieren,Translation,ServiceDepartment,SD7
+7,6bfed001-18bc-4a21-b887-d3e9a3171056,serviceDepartmentName,Radiography,Radiograafia,Translation,ServiceDepartment,SD8
+8,c736e166-8042-402f-9d73-22518b763f63,serviceDepartmentName,Diet Nutrition,Dieedi toitumine,Translation,ServiceDepartment,SD9
+9,02246f10-ce65-4211-a3c9-c8d76ceb1865,serviceDepartmentName,Optometric,Optomeetriline,Translation,ServiceDepartment,SD10
+10,778d028c-e45e-45b9-a9f8-2b8b7dd5d97e,serviceDepartmentName,Plastic Surgery,Plastiline kirurgia,Translation,ServiceDepartment,SD11
+11,6689ef79-f8c3-4461-bc15-b016487eb3df,serviceDepartmentName,Pediatric,Child Health,Alternate Naming,ServiceDepartment,SD12
+12,3a94f14b-0830-4ee6-9a9c-1d73f173d2fe,serviceDepartmentName,Optometric,Optomeetriline,Translation,ServiceDepartment,SD13
+13,ab46afee-8898-4682-a096-8f2106e090ea,serviceDepartmentName,Podiatric,Podiatrisch,Translation,ServiceDepartment,SD14
+14,edabf3d2-53e4-4dd3-ae51-bca044c0a5ed,serviceDepartmentName,Speech Pathology,Spraakpathologie,Translation,ServiceDepartment,SD15
+15,955e988d-f24b-4d76-a07f-949ef11e71ae,serviceDepartmentName,Anesthesia,Anesthesie,Translation,ServiceDepartment,SD16
+16,9b3e6605-5083-4669-836c-d6021a54acb2,serviceDepartmentName,Musculoskeletal,Bone & Joint Clinic,Alternate Naming,ServiceDepartment,SD17
+17,57e061c6-0494-405d-b194-a9f14114fa10,serviceDepartmentName,Infectious,Besmettelijk,Translation,ServiceDepartment,SD18
+18,15362c1f-90b3-49d9-bf0a-837a3e0f7488,serviceDepartmentName,Neurologic,Neurologisch,Translation,ServiceDepartment,SD19
+19,5041b3d0-8950-4262-a797-765abc854e3f,serviceDepartmentName,Radiography,Radiografie,Translation,ServiceDepartment,SD20
+20,754151b0-0cdf-420e-81e7-5ade858e8dfb,serviceDepartmentName,Rheumatologic,Joint & Immune Clinic,Alternate Naming,ServiceDepartment,SD21
+21,3b4590c6-7380-427c-af25-a8cdde699e1e,serviceDepartmentName,Pathology,Pathologie,Translation,ServiceDepartment,SD22
+22,4a082de7-4f6d-4f01-b0dc-2737db807618,serviceDepartmentName,Renal,Kidney Health,Alternate Naming,ServiceDepartment,SD23
+23,0d0fbbe9-6b7d-4713-8ba1-527dad7114db,serviceDepartmentName,Gastroenterologic,Digestive Health,Alternate Naming,ServiceDepartment,SD24
+24,9641af55-358d-4639-90bf-babda5d649dc,serviceDepartmentName,Speech Pathology,Spraakpathologie,Translation,ServiceDepartment,SD25
+25,f0c53802-4474-4ac6-9df7-327635ba9da1,serviceDepartmentName,Pediatric,Child Health,Alternate Naming,ServiceDepartment,SD26
+26,19b5024c-eee2-4362-8ccb-cb6e42e14ce9,serviceDepartmentName,Primary Care,General Practice,Alternate Naming,ServiceDepartment,SD27
+27,d1da4bba-1ed9-4ae6-a5f4-4940f5114a9a,serviceDepartmentName,Gynecologic,Gynaecologisch,Translation,ServiceDepartment,SD28
+28,bdfdb88e-ae4f-40d7-bad0-e4d2f9dbd648,serviceDepartmentName,Optometric,Optometrisch,Translation,ServiceDepartment,SD29
+29,8034f222-b4a4-45c3-b4dc-5b1949523e70,serviceDepartmentName,Endocrine,Endocrijns,Translation,ServiceDepartment,SD30
+30,483b7b7f-e2b1-46c9-8f2f-bda2b50ad6d5,serviceDepartmentName,Speech Pathology,Spraakpathologie,Translation,ServiceDepartment,SD31
+31,76c6bf55-a9b9-42bc-a350-0fcaad785312,serviceDepartmentName,Neurologic,Neurologisch,Translation,ServiceDepartment,SD32
+32,01df3805-5f18-4cea-9b28-9a8432a88b74,serviceDepartmentName,Optometric,Optometrisch,Translation,ServiceDepartment,SD33
+33,91340a41-9333-4293-ba04-a0d5d997e4bf,serviceDepartmentName,Pulmonary,Long-,Translation,ServiceDepartment,SD34
+34,a97e76ef-ebef-4ae1-89c3-a12df0bed3ed,serviceDepartmentName,Musculoskeletal,Bone & Joint Clinic,Alternate Naming,ServiceDepartment,SD35
+35,6e323ff4-c345-495e-b8fa-29e6831520ca,serviceDepartmentName,Respiratory Therapy,Ademhalingstherapie,Translation,ServiceDepartment,SD36
+36,5516c1a6-45d3-4a2c-8826-8550d171a798,serviceDepartmentName,Psychiatric,Mental Health,Alternate Naming,ServiceDepartment,SD37
+37,690aae3f-ade5-4235-84d4-09975748c032,serviceDepartmentName,Respiratory Therapy,Ademhalingstherapie,Translation,ServiceDepartment,SD38
+38,4d543a0e-b3e5-47e4-a261-a3d28bdbf1f8,serviceDepartmentName,Plastic Surgery,Plastische chirurgie,Translation,ServiceDepartment,SD39
+39,5447353b-c9dc-4fb4-b567-7aaf4f462933,serviceDepartmentName,Toxicologic,Toxicologisch,Translation,ServiceDepartment,SD40
+40,0f32e315-7a2b-45d6-926d-076cd58cf189,serviceDepartmentName,Respiratory Therapy,Ademhalingstherapie,Translation,ServiceDepartment,SD41
+41,54496139-add6-4d20-93f3-f048d814a978,serviceDepartmentName,Anesthesia,Anesthesie,Translation,ServiceDepartment,SD42
+42,e675e7e7-f848-419a-91fa-1e143cde8704,serviceDepartmentName,Rheumatologic,Joint & Immune Clinic,Alternate Naming,ServiceDepartment,SD43
+43,56123a73-379e-44d2-a764-10c23f6b772a,serviceDepartmentName,Diet Nutrition,Dieetvoeding,Translation,ServiceDepartment,SD44
+44,94307158-03cd-4178-b578-b202a834a79f,serviceDepartmentName,Plastic Surgery,Plastische chirurgie,Translation,ServiceDepartment,SD45
+45,1d60ee66-1540-42f1-8f22-070ded39abe0,serviceDepartmentName,Urologic,Urologisch,Translation,ServiceDepartment,SD46
+46,4c8909e3-1d54-4d05-b0de-ca69debcb6d2,serviceDepartmentName,Genetic,Genetisch,Translation,ServiceDepartment,SD47
+47,6c77700a-55d6-4f9b-85b0-3a351c16dc39,serviceDepartmentName,Pulmonary,Long-,Translation,ServiceDepartment,SD48
+48,ec319b23-c7ff-4268-b14b-bea9404f72f3,serviceDepartmentName,Renal,Kidney Health,Alternate Naming,ServiceDepartment,SD49
+49,5b30f894-8122-408e-b24f-550f4e7aef59,serviceDepartmentName,Cardiovascular,Heart & Vascular Center,Alternate Naming,ServiceDepartment,SD50
+50,a9c0fdec-6c25-4ad6-9dcc-668fa4007b48,serviceDepartmentName,Emergency,Noodgeval,Translation,ServiceDepartment,SD51
+51,f117f274-1840-4ff8-966d-a609aa80ddfc,serviceDepartmentName,Pharmacy Specialty,Medication Services,Alternate Naming,ServiceDepartment,SD52
+52,b9be64e1-b08d-4f95-8d8f-1e8bcac8d101,serviceDepartmentName,Public Health,Community Wellness,Alternate Naming,ServiceDepartment,SD53
+53,fc1f14ac-a6bb-429a-8a6e-e1d2b7815143,serviceDepartmentName,Midwifery,Geburtshilfe,Translation,ServiceDepartment,SD54
+54,1745c170-d7bc-4fdf-8948-aff1182e1a8e,serviceDepartmentName,Infectious,Infection Control,Alternate Naming,ServiceDepartment,SD55
+55,7d79ab44-c633-4f19-9958-07d2be77e40e,serviceDepartmentName,Cardiovascular,Herz -Kreislauf,Translation,ServiceDepartment,SD56
+56,711f02ac-e905-4731-bd38-7e53f882006a,serviceDepartmentName,Pediatric,Pädiatrisch,Translation,ServiceDepartment,SD57
+57,c17c1820-23f6-40e8-8978-25ad137e21d5,serviceDepartmentName,Obstetric,Pregnancy Care,Alternate Naming,ServiceDepartment,SD58
+58,ad21e2ab-aac3-4d22-bbb4-7ebfce0efed3,serviceDepartmentName,Optometric,Optometrisch,Translation,ServiceDepartment,SD59
+59,4c407098-5dd6-4593-b1f2-c908e38dbb7e,serviceDepartmentName,Nursing,Patient Care,Alternate Naming,ServiceDepartment,SD60
+60,ca9553d2-44e8-4777-83b2-67e216396b7a,serviceDepartmentName,Pathology,Pathologie,Translation,ServiceDepartment,SD61
+61,eda0f2f3-10fd-41ca-941a-7e9c915ad4d1,serviceDepartmentName,Cardiovascular,Heart & Vascular Center,Alternate Naming,ServiceDepartment,SD62
+62,1f1472db-c7ff-4f21-8839-e2b5409d108c,serviceDepartmentName,Pediatric,Child Health,Alternate Naming,ServiceDepartment,SD63
+63,92eb4614-4b4f-4248-8e49-720d2225137e,serviceDepartmentName,Dentistry,Tandheelkunde,Translation,ServiceDepartment,SD64
+64,9505de76-3ae0-4936-8170-b9484f130b23,serviceDepartmentName,Nursing,Verzorging,Translation,ServiceDepartment,SD65
+65,101efc05-873e-40dd-bdcb-54acb369907d,serviceDepartmentName,Public Health,Volksgezondheid,Translation,ServiceDepartment,SD66
+66,350b62e7-9712-41a9-aecb-26826fe47e69,serviceDepartmentName,Physiotherapy,Fysiotherapie,Translation,ServiceDepartment,SD67
+67,827254df-3830-4e4b-83d4-540a526aea43,serviceDepartmentName,Renal,Kidney Health,Alternate Naming,ServiceDepartment,SD68
+68,fc961495-3051-4587-bec9-787d2a0f12d3,serviceDepartmentName,Psychiatric,Mental Health,Alternate Naming,ServiceDepartment,SD69
+69,12d06ce5-dff4-4562-8464-77d001f59b1c,serviceDepartmentName,Pediatric,Child Health,Alternate Naming,ServiceDepartment,SD70
+70,a2ab116f-f0d6-4eb0-8629-9940a6a48f65,serviceDepartmentName,Urologic,Urologisch,Translation,ServiceDepartment,SD71
+71,7ffd5e75-5fee-4d78-8052-1e37dddfc648,serviceDepartmentName,Geriatric,Geriatrisch,Translation,ServiceDepartment,SD72
+72,29ae1d3a-2512-4961-880b-6a4cfcec2c1d,serviceDepartmentName,Laboratory Science,Diagnostic Lab,Alternate Naming,ServiceDepartment,SD73
+73,1e1eedd9-7b19-4256-8c44-605e8ccde8ad,serviceDepartmentName,Laboratory Science,Diagnostic Lab,Alternate Naming,ServiceDepartment,SD74
+74,e5a2a4ef-a5fd-4acb-98a4-85f5a72125ce,serviceDepartmentName,Gastroenterologic,Digestive Health,Alternate Naming,ServiceDepartment,SD75
+75,abe520ec-1fe1-49cd-8a54-e75953bdfba8,serviceDepartmentName,Neurologic,Neurologisch,Translation,ServiceDepartment,SD76
+76,c21f2252-6321-4a69-b151-f48f111566e4,serviceDepartmentName,Gynecologic,Women's Health,Alternate Naming,ServiceDepartment,SD77
+77,bf7b6b3c-b1ca-41c3-8061-d029cb1d6d78,serviceDepartmentName,Geriatric,Elder Care,Alternate Naming,ServiceDepartment,SD78
+78,de9ac8b8-640b-4b28-8322-b4ff856df911,serviceDepartmentName,Renal,Nieren,Translation,ServiceDepartment,SD79
+79,57630d70-0eb7-4062-a807-74606da638b2,serviceDepartmentName,Midwifery,Geburtshilfe,Translation,ServiceDepartment,SD80
+80,ee3c763d-2997-4088-ba31-24df44f10516,serviceDepartmentName,Neurologic,Neurologisch,Translation,ServiceDepartment,SD81
+81,d49d81b9-54d5-4ee1-b160-77f5d07aae7f,serviceDepartmentName,Public Health,Volksgezondheid,Translation,ServiceDepartment,SD82
+82,34eba27e-aac4-4839-a9d6-cff87b67e167,serviceDepartmentName,Musculoskeletal,Bone & Joint Clinic,Alternate Naming,ServiceDepartment,SD83
+83,daacae0c-c983-43fa-9102-9ff49930036a,serviceDepartmentName,Endocrine,Endocrijns,Translation,ServiceDepartment,SD84
+84,3408850e-0fdc-46f4-aee6-0ff3492cd84e,serviceDepartmentName,Psychiatric,Mental Health,Alternate Naming,ServiceDepartment,SD85
+85,7166c54b-9305-4571-9e69-b4b0b54d83e5,serviceDepartmentName,Toxicologic,Toxicologisch,Translation,ServiceDepartment,SD86
+86,b4fecb14-b2b4-40cc-a636-c72f584ca7a8,serviceDepartmentName,Midwifery,Maternity Services,Alternate Naming,ServiceDepartment,SD87
+87,38b7db84-c39a-41ec-92b4-6ef212905a3a,serviceDepartmentName,Diet Nutrition,Dieetvoeding,Translation,ServiceDepartment,SD88
+88,09463e6f-3215-400e-a272-e2af92126ff1,serviceDepartmentName,Psychiatric,Mental Health,Alternate Naming,ServiceDepartment,SD89
+89,87dbfdda-8944-4eca-aab6-5b1daa5611a2,serviceDepartmentName,Dermatology,Dermatologie,Translation,ServiceDepartment,SD90
+90,7766f556-ce51-4ffc-943d-da2a7bacbd85,serviceDepartmentName,Toxicologic,Toxicologisch,Translation,ServiceDepartment,SD91
+91,da6b236d-18a8-4f2e-843a-69ea1a6ed48d,serviceDepartmentName,Gastroenterologic,Gastroenteroloogiline,Translation,ServiceDepartment,SD92
+92,4a9007ca-67a1-4225-84e8-8209f7edf89b,serviceDepartmentName,Podiatric,Podiaatriline,Translation,ServiceDepartment,SD93
+93,c1402fa6-756a-49be-a8c7-d9f108e0eb59,serviceDepartmentName,Endocrine,Hormonal Health,Alternate Naming,ServiceDepartment,SD94
+94,cb89ba42-095b-4ec0-8b7f-62c4a371e89d,serviceDepartmentName,Musculoskeletal,Lihas -skeleti-,Translation,ServiceDepartment,SD95
+95,32c973a4-2580-4532-a7c0-16ad9e4b4102,serviceDepartmentName,Endocrine,Hormonal Health,Alternate Naming,ServiceDepartment,SD96
+96,767d3080-74d5-4980-b2ac-96120fc54496,serviceDepartmentName,Geriatric,Elder Care,Alternate Naming,ServiceDepartment,SD97
+97,f5492fe4-471d-4312-aeee-86d52536c20e,serviceDepartmentName,Genetic,Genetics Unit,Alternate Naming,ServiceDepartment,SD98
+98,704b2b61-62c7-431e-9da9-cdbca1c61284,serviceDepartmentName,Gastroenterologic,Gastroenteroloogiline,Translation,ServiceDepartment,SD99
+99,816c03df-3e33-4680-85c0-826ac67c6d5a,serviceDepartmentName,Hematologic,Hematoloogiline,Translation,ServiceDepartment,SD100
+100,d3e8b9f1-798b-47b9-9954-748a029729f9,serviceDepartmentName,Gynecologic,Women's Health,Alternate Naming,ServiceDepartment,SD101
+101,97e379e9-f919-4ea4-9d0b-bc0c6635897f,serviceDepartmentName,Infectious,Infection Control,Alternate Naming,ServiceDepartment,SD102
+102,df1f2a73-fc78-4d8e-b085-3e44a546947b,serviceDepartmentName,Speech Pathology,Sprachpathologie,Translation,ServiceDepartment,SD103
+103,0604b061-30d2-4eb7-9449-5504b90c55bf,serviceDepartmentName,Laboratory Science,Laborwissenschaft,Translation,ServiceDepartment,SD104
+104,f6ef5d0a-25a1-4101-bf57-4e77fac49cf7,serviceDepartmentName,Rheumatologic,Rheumatologisch,Translation,ServiceDepartment,SD105
+105,6850f3a3-4507-4b46-b271-3810c5030168,serviceDepartmentName,Gynecologic,Women's Health,Alternate Naming,ServiceDepartment,SD106
+106,7159cd07-cb44-402b-b69e-14bce47d7cfe,serviceDepartmentName,Renal,Nieren,Translation,ServiceDepartment,SD107
+107,df561807-8c25-43ff-b4cc-0b62e7bb695c,serviceDepartmentName,Respiratory Therapy,Hingamisravi,Translation,ServiceDepartment,SD108
+108,c8e7e4e5-d3eb-4a23-b64b-f06e22a23be8,serviceDepartmentName,Otolaryngologic,Otolarüngoloogiline,Translation,ServiceDepartment,SD109
+109,9b4a4276-da41-4bbc-b40b-5ddba649ec91,serviceDepartmentName,Hematologic,Hematoloogiline,Translation,ServiceDepartment,SD110
+110,b07ce4cb-bc28-4c8c-9e6a-0f46a893e447,serviceDepartmentName,Podiatric,Podiaatriline,Translation,ServiceDepartment,SD111
+111,473d6d85-56d2-4bf9-9b82-7bb955fc6343,serviceDepartmentName,Gastroenterologic,Gastroenteroloogiline,Translation,ServiceDepartment,SD112
+112,85bd8d14-3cd3-45dc-8368-557f39795e8c,serviceDepartmentName,Gynecologic,Women's Health,Alternate Naming,ServiceDepartment,SD113
+15,ea4f44cf-eafd-480b-9ec8-633fb73888a4,postalCode,7229,7229 ,Postal Code Formatting Variations,Address,Ad_SD1
+15,ea4f44cf-eafd-480b-9ec8-633fb73888a4,city,Litschau,Litscahu,City and Locality Name Variations,Address,Ad_SD1
+16,60c36cdd-9937-4592-985a-eb983d9f3e80,text,Chris-Grünberger-Platz 54,Chris-Grünberger-Platz 54-1,Street Number Manipulation,Address,Ad_SD2
+16,60c36cdd-9937-4592-985a-eb983d9f3e80,country,AT,Austria,Country Representation Variations,Address,Ad_SD2
+16,60c36cdd-9937-4592-985a-eb983d9f3e80,postalCode,3867,3867 ,Postal Code Formatting Variations,Address,Ad_SD2
+17,d35f581e-3648-431f-ae9e-8d0384983111,text,Raphael-Lengauer-Platz 79,Raphael-Lengauer-Platr 79,Street Name Manipulation,Address,Ad_SD77
+17,d35f581e-3648-431f-ae9e-8d0384983111,postalCode,9664,9664 ,Postal Code Formatting Variations,Address,Ad_SD77
+18,b9c4abb6-a6a9-4aab-ac81-1d57b2835bff,country,AT,Austria,Country Representation Variations,Address,Ad_SD4
+18,b9c4abb6-a6a9-4aab-ac81-1d57b2835bff,city,Lienz,iLenz,City and Locality Name Variations,Address,Ad_SD4
+19,853a9135-3ee2-451b-be88-c93319db1d7b,text,Katarina-Rohrer-Gasse 42,Katarina-Rohrer-Gasse 42A,Street Number Manipulation,Address,Ad_SD5
+19,853a9135-3ee2-451b-be88-c93319db1d7b,city,Perg,Pegr,City and Locality Name Variations,Address,Ad_SD5
+20,faa83536-d3d7-49d5-a430-1b871322439a,city,Schrattenthal,Schrattetnhal,City and Locality Name Variations,Address,Ad_SD6
+20,faa83536-d3d7-49d5-a430-1b871322439a,postalCode,5842,5842 ,Postal Code Formatting Variations,Address,Ad_SD6
+21,a4b0c73b-f74e-41a1-a2e5-b72606b9370b,city,Kindberg,Kindbegr,City and Locality Name Variations,Address,Ad_SD7
+22,eb9fc88e-b877-4b59-9f3d-a6ae5295dcaf,text,Mati Inlet 51,Mate Inlet 51,Street Name Manipulation,Address,Ad_SD8
+22,eb9fc88e-b877-4b59-9f3d-a6ae5295dcaf,country,EE,Estonia,Country Representation Variations,Address,Ad_SD8
+23,ad82e067-ab35-4414-8ed2-b26b1fda2e53,text,Klaas Pine 145,Klaai Pine 145,Street Name Manipulation,Address,Ad_SD9
+23,ad82e067-ab35-4414-8ed2-b26b1fda2e53,country,EE,Estonia,Country Representation Variations,Address,Ad_SD9
+24,1c7bc6c8-d62f-4e8c-abca-09663eef04eb,country,EE,Estonia,Country Representation Variations,Address,Ad_SD10
+25,da595d3e-a0fe-4e1b-b910-18255057df41,text,Kuus Passage 1,Kuus Passage 1B,Street Number Manipulation,Address,Ad_SD11
+26,21ab9e3d-fdf4-4f09-bd87-d79311705ee3,country,EE,Estonia,Country Representation Variations,Address,Ad_SD12
+27,eafe0d1f-6e79-4d5f-9314-70c8acb14314,text,Jefimov Locks 88,Jefimop Locks 88,Street Name Manipulation,Address,Ad_SD13
+27,eafe0d1f-6e79-4d5f-9314-70c8acb14314,city,Lake Matiport,Lake aMtiport,City and Locality Name Variations,Address,Ad_SD13
+27,eafe0d1f-6e79-4d5f-9314-70c8acb14314,postalCode,30371,3037 1,Postal Code Formatting Variations,Address,Ad_SD13
+28,1ae3237f-aa88-4965-9654-7b4d317588ff,country,NL,Netherlands,Country Representation Variations,Address,Ad_SD14
+29,15f82b2f-bc89-4faf-8cf4-627782dcf736,city,Beinsdorp,Beisndorp,City and Locality Name Variations,Address,Ad_SD15
+29,15f82b2f-bc89-4faf-8cf4-627782dcf736,postalCode,1040 RN,1040RN,Postal Code Formatting Variations,Address,Ad_SD15
+29,15f82b2f-bc89-4faf-8cf4-627782dcf736,text,Lucashof 89,Lucashof 89-1,Street Number Manipulation,Address,Ad_SD15
+30,100cfe80-2132-4c24-81b3-77bd59eae69a,text,Maritweg 143,Maritwek 143,Street Name Manipulation,Address,Ad_SD16
+30,100cfe80-2132-4c24-81b3-77bd59eae69a,city,Den Dungen,Den Dunegn,City and Locality Name Variations,Address,Ad_SD16
+31,e31b328e-3a32-4205-9e26-b29d8615ad73,city,Losser,oLsser,City and Locality Name Variations,Address,Ad_SD17
+31,e31b328e-3a32-4205-9e26-b29d8615ad73,text,Sethring 78,Sethrine 78,Street Name Manipulation,Address,Ad_SD17
+31,e31b328e-3a32-4205-9e26-b29d8615ad73,country,NL,Netherlands,Country Representation Variations,Address,Ad_SD17
+32,b2b5591a-9d7f-442b-85e2-b0787a3e9905,text,Kyaraweg 147,Kyaraweg 147B,Street Number Manipulation,Address,Ad_SD18
+33,f2aaaaf0-e8eb-4ae2-9bc1-c77afa29fad9,country,NL,Netherlands,Country Representation Variations,Address,Ad_SD19
+33,f2aaaaf0-e8eb-4ae2-9bc1-c77afa29fad9,city,Mill,iMll,City and Locality Name Variations,Address,Ad_SD19
+34,054efa50-4962-473b-a0f9-986ab2363b7e,text,Félineweg 114,Félinewep 114,Street Name Manipulation,Address,Ad_SD20
+35,3b6b8130-f687-4f7a-b683-4a01bdb5ff1d,postalCode,1278 TQ,1278TQ,Postal Code Formatting Variations,Address,Ad_SD21
+36,44cfc3ca-c3fa-4764-9fd8-a0ca3b036dfd,text,Rensring 147,Rensring 147-1,Street Number Manipulation,Address,Ad_SD22
+36,44cfc3ca-c3fa-4764-9fd8-a0ca3b036dfd,postalCode,1965 WF,1965WF,Postal Code Formatting Variations,Address,Ad_SD22
+36,44cfc3ca-c3fa-4764-9fd8-a0ca3b036dfd,city,Achterveld,Achterevld,City and Locality Name Variations,Address,Ad_SD22
+37,2542cff6-0710-41c5-802e-3a7aa1515f1e,city,Beilen,Beilne,City and Locality Name Variations,Address,Ad_SD23
+38,335be677-df1b-425e-af66-be879a4c2227,country,NL,Netherlands,Country Representation Variations,Address,Ad_SD24
+38,335be677-df1b-425e-af66-be879a4c2227,text,Nikkiweg 141,Nikkiweg 141A,Street Number Manipulation,Address,Ad_SD24
+39,970ea1aa-c76f-48ae-adf3-d0246f88c633,text,Mirteweg 112,Mirtewex 112,Street Name Manipulation,Address,Ad_SD25
+40,df66946a-0116-4168-bac8-a7602d5df04a,city,Elburg,lEburg,City and Locality Name Variations,Address,Ad_SD26
+40,df66946a-0116-4168-bac8-a7602d5df04a,text,Ilseboulevard 58,Ilseboulevard 58B,Street Number Manipulation,Address,Ad_SD26
+41,700e6a4f-2543-43f8-b349-f09340601a0d,postalCode,1088 FP,1088FP,Postal Code Formatting Variations,Address,Ad_SD27
+41,700e6a4f-2543-43f8-b349-f09340601a0d,text,Colinbaan 105,Colinbaan 105A,Street Number Manipulation,Address,Ad_SD27
+42,a7fd116e-d8f5-417f-85bd-ca63a100ba8f,text,Katepad 61,Katepad 61B,Street Number Manipulation,Address,Ad_SD28
+43,929c8ac4-bf28-40fb-a8cb-2f6eee5e256e,postalCode,1392 BN,1392BN,Postal Code Formatting Variations,Address,Ad_SD29
+44,eae9c546-446c-4893-89d3-cdb9ebb9aa72,text,Rikpad 149,Rikpan 149,Street Name Manipulation,Address,Ad_SD30
+44,eae9c546-446c-4893-89d3-cdb9ebb9aa72,country,NL,Netherlands,Country Representation Variations,Address,Ad_SD30
+44,eae9c546-446c-4893-89d3-cdb9ebb9aa72,postalCode,6850 ER,6850ER,Postal Code Formatting Variations,Address,Ad_SD30
+45,f67d2311-33a8-49fd-9091-6a5f97ad1730,text,Kaisingel 138,Kaisingec 138,Street Name Manipulation,Address,Ad_SD31
+45,f67d2311-33a8-49fd-9091-6a5f97ad1730,country,NL,Netherlands,Country Representation Variations,Address,Ad_SD31
+46,317f1e9b-2ee6-416d-b51e-7fc8d6ab5c68,country,NL,Netherlands,Country Representation Variations,Address,Ad_SD32
+46,317f1e9b-2ee6-416d-b51e-7fc8d6ab5c68,text,Lunaring 21,Lunarins 21,Street Name Manipulation,Address,Ad_SD32
+46,317f1e9b-2ee6-416d-b51e-7fc8d6ab5c68,city,Haringhuizen,Hairnghuizen,City and Locality Name Variations,Address,Ad_SD32
+47,b41fdcad-e36a-4265-ae51-686507afe1c5,city,Emmeloord,Emmeloodr,City and Locality Name Variations,Address,Ad_SD33
+47,b41fdcad-e36a-4265-ae51-686507afe1c5,postalCode,6368 NR,6368NR,Postal Code Formatting Variations,Address,Ad_SD33
+48,69259d81-2a2e-4ea7-9834-aeaf0f332bab,text,Olafstraat 113,Olafstraat 113B,Street Number Manipulation,Address,Ad_SD34
+49,5f7e3898-2ddb-4eff-9da7-2833e1bfbdfa,country,NL,Netherlands,Country Representation Variations,Address,Ad_SD35
+50,9883502e-7f32-4e78-a7fe-651efd8c2a6f,text,Suusbaan 58,Suusbaan 58B,Street Number Manipulation,Address,Ad_SD36
+50,9883502e-7f32-4e78-a7fe-651efd8c2a6f,city,Goënga,Goënag,City and Locality Name Variations,Address,Ad_SD36
+51,b31190b6-21e4-4b25-adb2-bb78765d13de,city,Oudemolen,Oudeomlen,City and Locality Name Variations,Address,Ad_SD37
+52,c04bd397-54a9-4898-bcb7-b35d68298389,postalCode,8763 WJ,8763WJ,Postal Code Formatting Variations,Address,Ad_SD38
+52,c04bd397-54a9-4898-bcb7-b35d68298389,text,Emirring 54,Emirrinp 54,Street Name Manipulation,Address,Ad_SD38
+52,c04bd397-54a9-4898-bcb7-b35d68298389,city,Anerveen,nAerveen,City and Locality Name Variations,Address,Ad_SD38
+53,25b09e48-1ca1-4fa7-83b8-bbaa7e24238e,city,Zandpol,Zandopl,City and Locality Name Variations,Address,Ad_SD39
+53,25b09e48-1ca1-4fa7-83b8-bbaa7e24238e,postalCode,3393 KY,3393KY,Postal Code Formatting Variations,Address,Ad_SD39
+54,45baf444-bb7e-41bf-9b2f-fda39f013834,postalCode,2406 DQ,2406DQ,Postal Code Formatting Variations,Address,Ad_SD40
+55,b098a39f-12e9-43c1-a33a-812367ac9755,city,Woltersum,oWltersum,City and Locality Name Variations,Address,Ad_SD41
+55,b098a39f-12e9-43c1-a33a-812367ac9755,postalCode,7527 KK,7527KK,Postal Code Formatting Variations,Address,Ad_SD41
+56,fbfa7549-13ee-4ee8-950e-18400e60f583,country,NL,Netherlands,Country Representation Variations,Address,Ad_SD42
+56,fbfa7549-13ee-4ee8-950e-18400e60f583,city,IJsselstein,IJsslestein,City and Locality Name Variations,Address,Ad_SD42
+57,db03dadf-a10f-4588-b1e1-9146f654f453,country,NL,Netherlands,Country Representation Variations,Address,Ad_SD43
+57,db03dadf-a10f-4588-b1e1-9146f654f453,postalCode,2678 UN,2678UN,Postal Code Formatting Variations,Address,Ad_SD43
+58,055c64dd-e478-40a6-9368-e0d60b46b634,text,Corneliahof 35,Corneliahov 35,Street Name Manipulation,Address,Ad_SD44
+58,055c64dd-e478-40a6-9368-e0d60b46b634,postalCode,2967 UN,2967UN,Postal Code Formatting Variations,Address,Ad_SD44
+59,c78ad66d-4a9b-4c00-992e-dd37379c05da,text,Jesselaan 86,Jesselaan 86B,Street Number Manipulation,Address,Ad_SD45
+59,c78ad66d-4a9b-4c00-992e-dd37379c05da,country,NL,Netherlands,Country Representation Variations,Address,Ad_SD45
+60,b366dcbc-abbf-4882-affa-0875e4a7c828,text,Timboulevard 130,Timboulevard 130A,Street Number Manipulation,Address,Ad_SD46
+60,b366dcbc-abbf-4882-affa-0875e4a7c828,postalCode,6148 FA,6148FA,Postal Code Formatting Variations,Address,Ad_SD46
+60,b366dcbc-abbf-4882-affa-0875e4a7c828,city,Lunteren,uLnteren,City and Locality Name Variations,Address,Ad_SD46
+61,d693bf11-7721-4931-9734-2123e3ed9637,postalCode,9369 CH,9369CH,Postal Code Formatting Variations,Address,Ad_SD47
+62,35152cba-ec4f-46ab-aa07-cfddee9cee1f,text,Elizaweg 94,Elizawez 94,Street Name Manipulation,Address,Ad_SD48
+62,35152cba-ec4f-46ab-aa07-cfddee9cee1f,country,NL,Netherlands,Country Representation Variations,Address,Ad_SD48
+63,d2865c01-77f7-4d19-8ee5-ddf0d996f125,country,NL,Netherlands,Country Representation Variations,Address,Ad_SD49
+64,93a7468c-10c1-4f57-bed6-8dc13265b5b3,text,Finnbaan 52,Finnbaai 52,Street Name Manipulation,Address,Ad_SD50
+65,94e5efab-8e36-47af-b1c2-d7b2ed384c44,postalCode,2535 FY,2535FY,Postal Code Formatting Variations,Address,Ad_SD51
+65,94e5efab-8e36-47af-b1c2-d7b2ed384c44,country,NL,Netherlands,Country Representation Variations,Address,Ad_SD51
+65,94e5efab-8e36-47af-b1c2-d7b2ed384c44,text,Robinsteeg 109,Robinsteeg 109B,Street Number Manipulation,Address,Ad_SD51
+66,f01688e4-b43b-4ab8-802b-7d666abb6f15,text,Silstraat 6,Silstraav 6,Street Name Manipulation,Address,Ad_SD52
+66,f01688e4-b43b-4ab8-802b-7d666abb6f15,country,NL,Netherlands,Country Representation Variations,Address,Ad_SD52
+67,358d3e42-ed1e-454f-9fb7-86f4f61ed233,country,AT,Austria,Country Representation Variations,Address,Ad_SD53
+67,358d3e42-ed1e-454f-9fb7-86f4f61ed233,postalCode,8549,8549 ,Postal Code Formatting Variations,Address,Ad_SD53
+67,358d3e42-ed1e-454f-9fb7-86f4f61ed233,text,Gärtnerstr. 91,Gärtnerstr. 91B,Street Number Manipulation,Address,Ad_SD53
+68,62fe8d68-95f4-4a1f-a1d2-92ab36f4851f,postalCode,8231,8231 ,Postal Code Formatting Variations,Address,Ad_SD54
+68,62fe8d68-95f4-4a1f-a1d2-92ab36f4851f,text,Engelring 10,Engelring 10B,Street Number Manipulation,Address,Ad_SD54
+69,98e63241-243f-4229-ace4-8fdc68d60b08,postalCode,6073,6073 ,Postal Code Formatting Variations,Address,Ad_SD55
+70,bc67b332-a89d-4114-9841-c24912882f60,postalCode,1357,1357 ,Postal Code Formatting Variations,Address,Ad_SD56
+70,bc67b332-a89d-4114-9841-c24912882f60,text,Anabella-Hartl-Gasse 91,Anabella-Hartl-Gasse 91A,Street Number Manipulation,Address,Ad_SD56
+70,bc67b332-a89d-4114-9841-c24912882f60,country,AT,Austria,Country Representation Variations,Address,Ad_SD56
+71,6a2ca004-0465-46d5-a086-f2af3059c498,text,Luisa-Stöckl-Ring 60,Luisa-Stöckl-Ring 60A,Street Number Manipulation,Address,Ad_SD57
+71,6a2ca004-0465-46d5-a086-f2af3059c498,postalCode,7486,7486 ,Postal Code Formatting Variations,Address,Ad_SD57
+71,6a2ca004-0465-46d5-a086-f2af3059c498,city,Voitsberg,Viotsberg,City and Locality Name Variations,Address,Ad_SD57
+72,09fa0833-e2fe-46d1-8b64-acd73331cc05,postalCode,3169,3169 ,Postal Code Formatting Variations,Address,Ad_SD58
+72,09fa0833-e2fe-46d1-8b64-acd73331cc05,city,Langenlois,Lagnenlois,City and Locality Name Variations,Address,Ad_SD58
+72,09fa0833-e2fe-46d1-8b64-acd73331cc05,text,Anabella-Klug-Ring 92,Anabella-Klug-Ring 92A,Street Number Manipulation,Address,Ad_SD58
+73,3e903735-4716-4271-b69c-39b9a73d23a6,postalCode,7071,7071 ,Postal Code Formatting Variations,Address,Ad_SD59
+73,3e903735-4716-4271-b69c-39b9a73d23a6,city,Langenlois,Lnagenlois,City and Locality Name Variations,Address,Ad_SD59
+74,425aaf83-4eaa-4a65-942f-4290d7bda791,text,Beatrice-Aschauer-Gasse 40,Beatrice-Aschauer-Gassm 40,Street Name Manipulation,Address,Ad_SD60
+74,425aaf83-4eaa-4a65-942f-4290d7bda791,country,AT,Austria,Country Representation Variations,Address,Ad_SD60
+75,47006868-578e-451a-8a99-908598f1d552,postalCode,5885,5885 ,Postal Code Formatting Variations,Address,Ad_SD61
+75,47006868-578e-451a-8a99-908598f1d552,city,Oberpullendorf,Oberpullendrof,City and Locality Name Variations,Address,Ad_SD61
+75,47006868-578e-451a-8a99-908598f1d552,country,AT,Austria,Country Representation Variations,Address,Ad_SD61
+76,269dc3b6-c740-43ac-b14f-7e995a24e786,text,Jurrelaan 50,Jurrelnan 50,Street Name Manipulation,Address,Ad_SD62
+77,5768ba9a-1fa9-4bd6-af25-cbe207fe7ec8,text,Joeyboulevard 98,Joeybyulevard 98,Street Name Manipulation,Address,Ad_SD63
+77,5768ba9a-1fa9-4bd6-af25-cbe207fe7ec8,city,Ulrum,lrum,City and Locality Name Variations,Address,Ad_SD63
+78,71494031-67ef-4e9e-803f-00347399a177,postalCode,9277 GF,9277GF,Postal Code Formatting Variations,Address,Ad_SD64
+78,71494031-67ef-4e9e-803f-00347399a177,country,Netherlands,Austria,Country Representation Variations,Address,Ad_SD64
+79,406ec398-9a4a-4a9c-a735-a17352ec0382,text,Chloélaan 150A,Cbloélaan 150A,Street Name Manipulation,Address,Ad_SD65
+79,406ec398-9a4a-4a9c-a735-a17352ec0382,postalCode,9819 EB,9819EB,Postal Code Formatting Variations,Address,Ad_SD65
+80,9f78299c-b9a9-4a03-bf8d-c9f2e3a10464,country,Netherlands,Austria,Country Representation Variations,Address,Ad_SD66
+80,9f78299c-b9a9-4a03-bf8d-c9f2e3a10464,city,Eext,Eet,City and Locality Name Variations,Address,Ad_SD66
+81,eee13dc0-e1e4-49cf-8dba-6d8f7ab8572c,text,Timosingel 89,Timosingel 89A,Street Number Manipulation,Address,Ad_SD67
+83,2985c817-a937-4c86-9f40-ec4712d527a0,text,Barthof 44,Borthof 44,Street Name Manipulation,Address,Ad_SD69
+84,c3629df7-6898-4668-9f18-1e4f394e61fe,text,Elikboulevard 29,Elikboulevard 29B,Street Number Manipulation,Address,Ad_SD70
+84,c3629df7-6898-4668-9f18-1e4f394e61fe,city,Tiel,Til,City and Locality Name Variations,Address,Ad_SD70
+85,a775cc44-ee07-4366-8d2f-e15174c88f42,city,Norden,orden,City and Locality Name Variations,Address,Ad_SD71
+86,f1521976-65d6-4b7f-8f9a-fd63236e747e,postalCode,4009 AY,4009AY,Postal Code Formatting Variations,Address,Ad_SD72
+86,f1521976-65d6-4b7f-8f9a-fd63236e747e,text,Saarbaan 80,Saarbaan 80B,Street Number Manipulation,Address,Ad_SD72
+87,02299f58-9071-414d-b4f2-ba8e32fa6380,postalCode,6019 MI,6019MI,Postal Code Formatting Variations,Address,Ad_SD73
+87,02299f58-9071-414d-b4f2-ba8e32fa6380,country,Netherlands,Austria,Country Representation Variations,Address,Ad_SD73
+88,a2c1e1d4-131b-4956-872a-5ac130c97d34,country,Netherlands,Austria,Country Representation Variations,Address,Ad_SD74
+88,a2c1e1d4-131b-4956-872a-5ac130c97d34,city,Njeholtpade,Njeholpade,City and Locality Name Variations,Address,Ad_SD74
+89,f3e50e26-2e07-4578-8e4b-b53cf3dacf72,text,Evipad 110,Evipad 110A,Street Number Manipulation,Address,Ad_SD75
+90,5a8fe4b2-8ffd-4977-85b8-93b04d36c61a,postalCode,3713 EU,3713EU,Postal Code Formatting Variations,Address,Ad_SD76
+92,c77239f2-2d47-40cc-a5c5-063d4c444d95,country,AT,Austria,Country Representation Variations,Address,Ad_SD78
+92,c77239f2-2d47-40cc-a5c5-063d4c444d95,city,Radstadt,Radtadt,City and Locality Name Variations,Address,Ad_SD78
+93,8057b537-92ec-41d0-b2bb-8a67ec5b03af,city,Gerasdorf bei Wien,Gerasdorf bei Wen,City and Locality Name Variations,Address,Ad_SD79
+94,f95cad47-3b5a-4257-a195-ace68506d5ba,city,Friedbrg,Fiedbrg,City and Locality Name Variations,Address,Ad_SD80
+95,022c88c0-b563-446c-9cbf-0c64c039c71e,city,Linz,Lnz,City and Locality Name Variations,Address,Ad_SD81
+96,4a8b2fae-6209-41c3-afb6-88bbe3a56430,city,Oudwoude,Ouwoude,City and Locality Name Variations,Address,Ad_SD82
+97,7c5246f1-8fe5-475b-b771-877e141e39e7,text,Marinusstraat 115,Marinusstraat 115A,Street Number Manipulation,Address,Ad_SD83
+98,0e8cff18-9e9d-4b77-ba34-b580eda0a0af,city,Pernis Rotterdam,PernisRotterdam,City and Locality Name Variations,Address,Ad_SD84
+99,6f30a7a2-5853-40c4-b053-7fbb2bcdacf3,country,NL,Netherlands,Country Representation Variations,Address,Ad_SD85
+100,603fa8f0-1549-4dee-830b-4d6d9575d095,text,Puckboulevard 64,Pukkboulevard 64,Street Name Manipulation,Address,Ad_SD86
+101,b9d2aef5-0fd2-4271-b440-d4eb03ed8da8,text,Jefsweg 69,Jefsweg 69A,Street Number Manipulation,Address,Ad_SD87
+101,b9d2aef5-0fd2-4271-b440-d4eb03ed8da8,city,Nispen,Nspen,City and Locality Name Variations,Address,Ad_SD87
+102,daac3c58-e266-44c0-9848-d32e65f628ac,country,NL,Netherlands,Country Representation Variations,Address,Ad_SD88
+102,daac3c58-e266-44c0-9848-d32e65f628ac,city,Warmond,armond,City and Locality Name Variations,Address,Ad_SD88
+103,43419ace-febd-4b72-ae24-df89e9c5c130,city,Barendrecht,Barendrcht,City and Locality Name Variations,Address,Ad_SD89
+15,42f81126-6c2c-40a7-a4e9-031675f80092,availableLanguage,"['de', 'en']","['German', 'English']",Language Representation Variation,ContactPoint,CP_SD1
+15,42f81126-6c2c-40a7-a4e9-031675f80092,email,Robinson.Midwifery@dept.healthcare.org,Robinson.Midwiiery@dept.healthcare.org,Email Typo,ContactPoint,CP_SD1
+15,42f81126-6c2c-40a7-a4e9-031675f80092,fax,001-889-320-4978x96373,001-8898320-4978x96373,Fax Number Typo,ContactPoint,CP_SD1
+16,d41cc2bc-e335-4f8b-91d5-6acf680fe5e2,email,Robinson.Respiratory@dept.healthcare.org,Robijson.Respiratory@dept.healthcare.org,Email Typo,ContactPoint,CP_SD2
+17,74286356-3c91-4458-a4b2-7e8301cbd9c2,email,Robinson.Obstetric@dept.healthcare.org,Robinson.Obstttric@dept.healthcare.org,Email Typo,ContactPoint,CP_SD3
+17,74286356-3c91-4458-a4b2-7e8301cbd9c2,phone,319.544.6541x9175,309.544.6541x9175,Phone Number Typo,ContactPoint,CP_SD3
+17,74286356-3c91-4458-a4b2-7e8301cbd9c2,availableLanguage,"['de', 'en']","['German', 'English']",Language Representation Variation,ContactPoint,CP_SD3
+18,091523be-650f-4375-a0fc-01e2bcd635cc,email,Robinson.Neurologic@dept.healthcare.org,Robinyon.Neurologic@dept.healthcare.org,Email Typo,ContactPoint,CP_SD4
+19,b5eca796-dc5f-4db7-87b5-2a8b0af01e69,phone,+1-491-974-9486x23198,+7-491-974-9486x23198,Phone Number Typo,ContactPoint,CP_SD5
+20,5536212a-58d7-46da-8f01-3f4e73961f8e,phone,566-904-3319x238,566-904-3519x238,Phone Number Typo,ContactPoint,CP_SD6
+20,5536212a-58d7-46da-8f01-3f4e73961f8e,availableLanguage,"['de', 'en']","['German', 'English']",Language Representation Variation,ContactPoint,CP_SD6
+21,c6d82ceb-a1ac-4d49-8d4d-daab72824622,availableLanguage,['de'],['German'],Language Representation Variation,ContactPoint,CP_SD7
+21,c6d82ceb-a1ac-4d49-8d4d-daab72824622,email,Robinson.Renal@dept.healthcare.org,Rnbinson.Renal@dept.healthcare.org,Email Typo,ContactPoint,CP_SD7
+22,c784499d-6909-4290-9496-a305314a332e,availableLanguage,['et'],['Estonian'],Language Representation Variation,ContactPoint,CP_SD8
+22,c784499d-6909-4290-9496-a305314a332e,phone,(813)857-7256,(813)897-7256,Phone Number Typo,ContactPoint,CP_SD8
+23,24fa9196-f801-4987-8008-cccf565e5ae7,availableLanguage,['et'],['Estonian'],Language Representation Variation,ContactPoint,CP_SD9
+23,24fa9196-f801-4987-8008-cccf565e5ae7,email,Mcneil.Diet@dept.healthcare.org,Mcneid.Diet@dept.healthcare.org,Email Typo,ContactPoint,CP_SD9
+23,24fa9196-f801-4987-8008-cccf565e5ae7,fax,+1-527-660-1015,+1-527-060-1015,Fax Number Typo,ContactPoint,CP_SD9
+24,2a630fd1-71cf-439d-aa1f-ff41af1b7013,fax,741-463-4637,741-463-4677,Fax Number Typo,ContactPoint,CP_SD10
+25,e16e3336-77b1-4e21-bccc-c53ac36a4162,phone,001-645-542-2375x0579,001-645-542-2315x0579,Phone Number Typo,ContactPoint,CP_SD11
+26,84ddf869-b816-4f1a-9677-013ba8e19b83,availableLanguage,"['et', 'en']","['Estonian', 'English']",Language Representation Variation,ContactPoint,CP_SD12
+26,84ddf869-b816-4f1a-9677-013ba8e19b83,email,Mcneil.Pediatric@dept.healthcare.org,Mcneil.qediatric@dept.healthcare.org,Email Typo,ContactPoint,CP_SD12
+27,eb5d11e8-b6d2-4ba9-a517-3d1cf7fc0bd9,availableLanguage,['et'],['Estonian'],Language Representation Variation,ContactPoint,CP_SD13
+27,eb5d11e8-b6d2-4ba9-a517-3d1cf7fc0bd9,fax,313-453-6095x2271,313-453-609552271,Fax Number Typo,ContactPoint,CP_SD13
+28,7df8b7f0-44a1-44d0-96df-fc21b1c2ed56,email,Peck.Podiatric@dept.healthcare.org,Peqk.Podiatric@dept.healthcare.org,Email Typo,ContactPoint,CP_SD14
+28,7df8b7f0-44a1-44d0-96df-fc21b1c2ed56,phone,+3140-4154353,+3140-4154313,Phone Number Typo,ContactPoint,CP_SD14
+29,80082244-1ac5-443b-b7dd-3c21e618d25d,email,Peck.Speech@dept.healthcare.org,Pech.Speech@dept.healthcare.org,Email Typo,ContactPoint,CP_SD15
+29,80082244-1ac5-443b-b7dd-3c21e618d25d,fax,038-9317356,032-9317356,Fax Number Typo,ContactPoint,CP_SD15
+30,66ab247a-75fe-400c-8407-32b4ef1772f4,fax,(0921)-163416,(0991)-163416,Fax Number Typo,ContactPoint,CP_SD16
+31,a7486875-29bd-4604-bed2-7848c6950d85,phone,+3118 9245783,+3118 9245773,Phone Number Typo,ContactPoint,CP_SD17
+31,a7486875-29bd-4604-bed2-7848c6950d85,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation,ContactPoint,CP_SD17
+32,49556582-7e54-4d03-aef4-2592ec1c6fe4,availableLanguage,['nl'],['Dutch'],Language Representation Variation,ContactPoint,CP_SD18
+32,49556582-7e54-4d03-aef4-2592ec1c6fe4,email,Peck.Infectious@dept.healthcare.org,Peck.Infectkous@dept.healthcare.org,Email Typo,ContactPoint,CP_SD18
+32,49556582-7e54-4d03-aef4-2592ec1c6fe4,fax,+31417-201745,+31717-201745,Fax Number Typo,ContactPoint,CP_SD18
+33,047595fb-338b-4372-a00c-ea03b7d52dce,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation,ContactPoint,CP_SD19
+33,047595fb-338b-4372-a00c-ea03b7d52dce,fax,0621 208435,0621 408435,Fax Number Typo,ContactPoint,CP_SD19
+34,a1fa46f3-4668-4cdd-b5f9-8f4110a15299,email,Peck.Radiography@dept.healthcare.org,Pejk.Radiography@dept.healthcare.org,Email Typo,ContactPoint,CP_SD20
+34,a1fa46f3-4668-4cdd-b5f9-8f4110a15299,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation,ContactPoint,CP_SD20
+35,0aa1ee6f-1b04-4aa4-a3f3-3d5519248947,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation,ContactPoint,CP_SD21
+35,0aa1ee6f-1b04-4aa4-a3f3-3d5519248947,phone,+31996 776098,+319964776098,Phone Number Typo,ContactPoint,CP_SD21
+35,0aa1ee6f-1b04-4aa4-a3f3-3d5519248947,email,Peck.Rheumatologic@dept.healthcare.org,Pecu.Rheumatologic@dept.healthcare.org,Email Typo,ContactPoint,CP_SD21
+36,5aa970d9-801a-4ff7-a6cd-d662c4e813db,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation,ContactPoint,CP_SD22
+36,5aa970d9-801a-4ff7-a6cd-d662c4e813db,fax,(099) 9073342,(099) 9073842,Fax Number Typo,ContactPoint,CP_SD22
+37,cec1871a-b5c8-4060-89c7-35079d592a7b,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation,ContactPoint,CP_SD23
+37,cec1871a-b5c8-4060-89c7-35079d592a7b,email,Allen.Renal@dept.healthcare.org,Allek.Renal@dept.healthcare.org,Email Typo,ContactPoint,CP_SD23
+38,d24f6919-7d1d-439e-b453-6a9b7ecbcd45,fax,+31219-957937,+35219-957937,Fax Number Typo,ContactPoint,CP_SD24
+38,d24f6919-7d1d-439e-b453-6a9b7ecbcd45,phone,+31(0)872-208716,+31(0)872-201716,Phone Number Typo,ContactPoint,CP_SD24
+38,d24f6919-7d1d-439e-b453-6a9b7ecbcd45,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation,ContactPoint,CP_SD24
+39,7e39fd94-f850-4bec-a7f5-794c007ea2cb,phone,+31747 857914,+31747 877914,Phone Number Typo,ContactPoint,CP_SD25
+39,7e39fd94-f850-4bec-a7f5-794c007ea2cb,availableLanguage,['nl'],['Dutch'],Language Representation Variation,ContactPoint,CP_SD25
+40,c47090c6-bad8-4464-959b-0d078f022246,email,Allen.Pediatric@dept.healthcare.org,AllenmPediatric@dept.healthcare.org,Email Typo,ContactPoint,CP_SD26
+40,c47090c6-bad8-4464-959b-0d078f022246,fax,000 3610679,000 3615679,Fax Number Typo,ContactPoint,CP_SD26
+41,28986430-fabd-4787-bd5a-95ecc315c8b0,email,Ibarra.Primary@dept.healthcare.org,IbarradPrimary@dept.healthcare.org,Email Typo,ContactPoint,CP_SD27
+41,28986430-fabd-4787-bd5a-95ecc315c8b0,phone,(0338) 007752,(0338) 006752,Phone Number Typo,ContactPoint,CP_SD27
+42,88bf1035-d8cf-4d5c-b35c-f88bfae203e1,email,Ibarra.Gynecologic@dept.healthcare.org,Ibarrk.Gynecologic@dept.healthcare.org,Email Typo,ContactPoint,CP_SD28
+43,50bbd1c7-f01c-4cc7-bb87-c961fa17e092,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation,ContactPoint,CP_SD33
+44,689f2d23-100a-4f24-8dd1-5beb5d98abc9,phone,054-0275331,054-0275361,Phone Number Typo,ContactPoint,CP_SD30
+44,689f2d23-100a-4f24-8dd1-5beb5d98abc9,fax,+31(0)58-1229381,+31(0)58-1259381,Fax Number Typo,ContactPoint,CP_SD30
+45,e9e1a3d1-1a12-4068-815c-77ed779571dd,phone,(0359)-559906,(0359)-559966,Phone Number Typo,ContactPoint,CP_SD31
+45,e9e1a3d1-1a12-4068-815c-77ed779571dd,email,Ibarra.Speech@dept.healthcare.org,Ibarra.Splech@dept.healthcare.org,Email Typo,ContactPoint,CP_SD31
+46,da47b8f9-cee4-4404-9648-1f4b0c747a90,email,Ibarra.Neurologic@dept.healthcare.org,Ibagra.Neurologic@dept.healthcare.org,Email Typo,ContactPoint,CP_SD32
+46,da47b8f9-cee4-4404-9648-1f4b0c747a90,fax,+3176-5445627,+3176-7445627,Fax Number Typo,ContactPoint,CP_SD32
+47,5351c342-5b7c-48ed-b239-6f882516de06,fax,(007) 7131339,(001) 7131339,Fax Number Typo,ContactPoint,CP_SD33
+47,5351c342-5b7c-48ed-b239-6f882516de06,phone,(0145) 901789,(01451 901789,Phone Number Typo,ContactPoint,CP_SD33
+48,6efeb18f-aaa6-4ef9-bbb6-ba4c140ab78e,email,Ibarra.Pulmonary@dept.healthcare.org,Ibatra.Pulmonary@dept.healthcare.org,Email Typo,ContactPoint,CP_SD34
+48,6efeb18f-aaa6-4ef9-bbb6-ba4c140ab78e,availableLanguage,['nl'],['Dutch'],Language Representation Variation,ContactPoint,CP_SD34
+49,4f5ab827-3b33-445b-952b-c38cce0790d7,fax,0923 808299,0927 808299,Fax Number Typo,ContactPoint,CP_SD35
+49,4f5ab827-3b33-445b-952b-c38cce0790d7,phone,(0806) 446410,(6806) 446410,Phone Number Typo,ContactPoint,CP_SD35
+49,4f5ab827-3b33-445b-952b-c38cce0790d7,email,Griffin.Musculoskeletal@dept.healthcare.org,Griffin.Muscvloskeletal@dept.healthcare.org,Email Typo,ContactPoint,CP_SD35
+50,8dfc0cb0-dc97-4aec-8fac-816ce2d371cc,availableLanguage,['nl'],['Dutch'],Language Representation Variation,ContactPoint,CP_SD36
+50,8dfc0cb0-dc97-4aec-8fac-816ce2d371cc,email,Griffin.Respiratory@dept.healthcare.org,Griffin.Reypiratory@dept.healthcare.org,Email Typo,ContactPoint,CP_SD36
+51,68aeb048-72ec-4932-a075-44b56eb7b98b,fax,+31(0)99-2009421,+31(0799-2009421,Fax Number Typo,ContactPoint,CP_SD37
+51,68aeb048-72ec-4932-a075-44b56eb7b98b,email,Griffin.Psychiatric@dept.healthcare.org,GriffinlPsychiatric@dept.healthcare.org,Email Typo,ContactPoint,CP_SD37
+52,d7c5a147-ebd2-452e-b18f-3aee34a25626,availableLanguage,['nl'],['Dutch'],Language Representation Variation,ContactPoint,CP_SD38
+52,d7c5a147-ebd2-452e-b18f-3aee34a25626,fax,+3147 9124838,+3147 9128838,Fax Number Typo,ContactPoint,CP_SD38
+52,d7c5a147-ebd2-452e-b18f-3aee34a25626,email,Griffin.Respiratory@dept.healthcare.org,Griffin.Respirftory@dept.healthcare.org,Email Typo,ContactPoint,CP_SD38
+53,46c91999-4187-4dc0-aa20-ccea22e87c8d,fax,(0875) 267737,(7875) 267737,Fax Number Typo,ContactPoint,CP_SD39
+53,46c91999-4187-4dc0-aa20-ccea22e87c8d,availableLanguage,['nl'],['Dutch'],Language Representation Variation,ContactPoint,CP_SD39
+54,c40421fb-18fb-4f2c-9602-a43750ea62aa,phone,+31(0)378 207287,+31(0)378 208287,Phone Number Typo,ContactPoint,CP_SD40
+55,9e3589b2-eb14-4394-bd70-57fbc7caa96b,email,Griffin.Respiratory@dept.healthcare.org,Griffii.Respiratory@dept.healthcare.org,Email Typo,ContactPoint,CP_SD41
+55,9e3589b2-eb14-4394-bd70-57fbc7caa96b,phone,+31956-110289,+31956-180289,Phone Number Typo,ContactPoint,CP_SD41
+56,91db735e-dc21-43e8-902e-4f400a013a86,availableLanguage,['nl'],['Dutch'],Language Representation Variation,ContactPoint,CP_SD42
+56,91db735e-dc21-43e8-902e-4f400a013a86,phone,+31(0)049 493858,+31(7)049 493858,Phone Number Typo,ContactPoint,CP_SD42
+57,e1f51fdc-c203-453a-8b78-44b004747134,phone,+31(0)25-1238274,+31(0)20-1238274,Phone Number Typo,ContactPoint,CP_SD43
+58,b11826f6-66c3-400c-9cae-80b846695f55,email,Griffin.Diet@dept.healthcare.org,Grlffin.Diet@dept.healthcare.org,Email Typo,ContactPoint,CP_SD44
+58,b11826f6-66c3-400c-9cae-80b846695f55,fax,(019) 0391103,(019) 1391103,Fax Number Typo,ContactPoint,CP_SD44
+59,77059fa8-56be-4bee-a67c-4de762f8d20a,fax,020 5749452,02005749452,Fax Number Typo,ContactPoint,CP_SD45
+60,c46e1738-790b-4990-a428-da2ed8900991,availableLanguage,['nl'],['Dutch'],Language Representation Variation,ContactPoint,CP_SD46
+61,8a8ed273-ece1-4e8b-85cc-70a1a49266c9,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation,ContactPoint,CP_SD47
+61,8a8ed273-ece1-4e8b-85cc-70a1a49266c9,fax,+31(0)215-271250,+31(0)215-071250,Fax Number Typo,ContactPoint,CP_SD47
+62,8e95ef6a-b675-4f65-b8e1-c5e6648b1a36,phone,0469 145886,04692145886,Phone Number Typo,ContactPoint,CP_SD48
+62,8e95ef6a-b675-4f65-b8e1-c5e6648b1a36,fax,041-7347030,041-7347090,Fax Number Typo,ContactPoint,CP_SD48
+63,6db16e7a-23e0-484e-bc30-9d334ea8c3b1,phone,0546-698497,0546-198497,Phone Number Typo,ContactPoint,CP_SD49
+63,6db16e7a-23e0-484e-bc30-9d334ea8c3b1,availableLanguage,['nl'],['Dutch'],Language Representation Variation,ContactPoint,CP_SD49
+64,fef5a551-87a9-4185-9166-465bb0464634,availableLanguage,['nl'],['Dutch'],Language Representation Variation,ContactPoint,CP_SD50
+64,fef5a551-87a9-4185-9166-465bb0464634,phone,049 7612433,049 7612933,Phone Number Typo,ContactPoint,CP_SD50
+64,fef5a551-87a9-4185-9166-465bb0464634,email,FigueroaStrong.Cardiovascular@dept.healthcare.org,FigueroaStrong.Caraiovascular@dept.healthcare.org,Email Typo,ContactPoint,CP_SD50
+65,6278f95a-7438-4b47-aa83-c504ebbc854b,fax,+31292 592965,+31292 092965,Fax Number Typo,ContactPoint,CP_SD51
+65,6278f95a-7438-4b47-aa83-c504ebbc854b,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation,ContactPoint,CP_SD51
+66,15f66e23-75e6-43b6-b952-7fba397ce787,fax,098-1014243,098-1012243,Fax Number Typo,ContactPoint,CP_SD52
+67,11d0fd54-750e-41b1-997e-b2fc26fc574c,email,Parker.Public@dept.healthcare.org,Parker.Purlic@dept.healthcare.org,Email Typo,ContactPoint,CP_SD53
+67,11d0fd54-750e-41b1-997e-b2fc26fc574c,phone,+1-461-782-8173,+1-461-788-8173,Phone Number Typo,ContactPoint,CP_SD53
+68,16b9315a-eea6-4d23-aaf3-913e301c8730,availableLanguage,"['de', 'en']","['German', 'English']",Language Representation Variation,ContactPoint,CP_SD54
+68,16b9315a-eea6-4d23-aaf3-913e301c8730,fax,(802)712-1753x9241,(862)712-1753x9241,Fax Number Typo,ContactPoint,CP_SD54
+69,3d550d82-be18-4b30-93b7-9970dd8159b8,email,Parker.Infectious@dept.healthcare.org,Parker.Infecaious@dept.healthcare.org,Email Typo,ContactPoint,CP_SD55
+70,cb628a19-a79e-431f-86ad-ad4a37c6c427,phone,875.885.5906,875.883.5906,Phone Number Typo,ContactPoint,CP_SD56
+71,a76f80a9-1db9-4322-ad85-ceb25291b049,email,Parker.Pediatric@dept.healthcare.org,Plrker.Pediatric@dept.healthcare.org,Email Typo,ContactPoint,CP_SD57
+71,a76f80a9-1db9-4322-ad85-ceb25291b049,phone,856.355.2393,856.355.2593,Phone Number Typo,ContactPoint,CP_SD57
+72,b00fecf4-d53a-4c3a-83ff-0b3a5380531c,availableLanguage,['de'],['German'],Language Representation Variation,ContactPoint,CP_SD58
+72,b00fecf4-d53a-4c3a-83ff-0b3a5380531c,email,Parker.Obstetric@dept.healthcare.org,Parker.Oustetric@dept.healthcare.org,Email Typo,ContactPoint,CP_SD58
+73,c23ce929-89bc-44b6-9da4-01e9b331cf4d,fax,734-342-3528x117,734-342-35287117,Fax Number Typo,ContactPoint,CP_SD59
+74,e354f6ae-6d19-4acc-9167-c254a9800a11,phone,(829)381-9675x49717,(859)381-9675x49717,Phone Number Typo,ContactPoint,CP_SD60
+74,e354f6ae-6d19-4acc-9167-c254a9800a11,availableLanguage,"['de', 'en']","['German', 'English']",Language Representation Variation,ContactPoint,CP_SD60
+75,8e13c327-b461-4c8f-ae16-25f34b4444b5,availableLanguage,['de'],['German'],Language Representation Variation,ContactPoint,CP_SD61
+76,367cf088-7f4a-41b5-a72f-abab25edfea9,email,Delgado.Cardiovascular@dept.healthcare.org,Delgado.Caldiovascular@dept.healthcare.org,Email Typo,ContactPoint,CP_SD62
+76,367cf088-7f4a-41b5-a72f-abab25edfea9,phone,(022)-5402417,(522)-5402417,Phone Number Typo,ContactPoint,CP_SD62
+76,367cf088-7f4a-41b5-a72f-abab25edfea9,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation,ContactPoint,CP_SD62
+78,51b0a3c5-c9e7-4aba-b5da-3e50822bbc3d,availableLanguage,['nl'],['Dutch'],Language Representation Variation,ContactPoint,CP_SD64
+78,51b0a3c5-c9e7-4aba-b5da-3e50822bbc3d,email,Delgado.Dentistry@dept.healthcare.org,Delgado.Dentistmy@dept.healthcare.org,Email Typo,ContactPoint,CP_SD64
+78,51b0a3c5-c9e7-4aba-b5da-3e50822bbc3d,fax,+31666 357058,+316662357058,Fax Number Typo,ContactPoint,CP_SD64
+79,322515a5-3a89-491e-b7b9-387b677bd216,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation,ContactPoint,CP_SD65
+79,322515a5-3a89-491e-b7b9-387b677bd216,email,Delgado.Nursing@dept.healthcare.org,Delgado.Nursnng@dept.healthcare.org,Email Typo,ContactPoint,CP_SD65
+80,0a4d3590-f9b4-4573-878a-2aafd8dc0cb1,availableLanguage,['nl'],['Dutch'],Language Representation Variation,ContactPoint,CP_SD66
+80,0a4d3590-f9b4-4573-878a-2aafd8dc0cb1,email,Delgado.Public@dept.healthcare.org,Delrado.Public@dept.healthcare.org,Email Typo,ContactPoint,CP_SD66
+81,a0e33935-f515-49fd-b68b-604992edb418,email,Delgado.Physiotherapy@dept.healthcare.org,Delgcdo.Physiotherapy@dept.healthcare.org,Email Typo,ContactPoint,CP_SD67
+82,8aa97d3f-bd63-47b3-9595-7c157d3e3711,phone,+3181 7857028,+1817 5703828,Phone/Fax Number Typo,ContactPoint,CP_SD69
+83,4d668807-a68f-4bb3-8cb6-cfc37e49eb8d,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation,ContactPoint,CP_SD70
+84,659185b7-664e-4107-99a6-f4165e66ddc3,fax,(0150)-493331,(1504)-331331,Phone/Fax Number Typo,ContactPoint,CP_SD71
+85,3b6f2ad2-6ec1-47b0-99bb-f03db6d06615,fax,0857 010951,0858 109511,Phone/Fax Number Typo,ContactPoint,CP_SD72
+86,64a335b5-a973-439e-a2c9-b2627ed24723,availableLanguage,['nl'],['Dutch'],Language Representation Variation,ContactPoint,CP_SD74
+87,ea6d5565-3810-4725-952a-4ff52da4d7f2,fax,+31(0)089-028744,+10(8)038-448744,Phone/Fax Number Typo,ContactPoint,CP_SD74
+88,92738995-ca89-4d11-8646-356bc28611fd,phone,(0918)-558554,(9185)-554554,Phone/Fax Number Typo,ContactPoint,CP_SD75
+89,095e2e87-c893-485b-acbb-85648b3941d5,phone,(045) 1726813,(461) 6813813,Phone/Fax Number Typo,ContactPoint,CP_SD76
+90,d44b5548-066d-4e1e-a16b-347d9babbdab,phone,972-699-7024,972-997-2424,Phone/Fax Number Typo,ContactPoint,CP_SD77
+91,089f8b86-b99e-43e5-a908-a3aa20adb06e,phone,001-322-740-5966x2026,001-227-059-6203x2026,Phone/Fax Number Typo,ContactPoint,CP_SD78
+92,31692d4e-9b24-4fa1-b264-5654489d80b6,availableLanguage,"['de', 'en']","['German', 'English']",Language Representation Variation,ContactPoint,CP_SD79
+93,51c756d4-6dda-4925-86d2-5fcc6714224c,email,KimTodd.Midwifery@dept.healthcare.org,KcmTodd.Midwifery@dept.healthcare.org,Email Typo,ContactPoint,CP_SD80
+94,749ef679-c161-4767-b28a-85434a974df5,phone,305.568.6116,305.686.1616,Phone/Fax Number Typo,ContactPoint,CP_SD81
+95,52c71bbd-94b2-4c54-be2b-0f3a655ff99f,email,Burch.Public@dept.healthcare.org,Burcs.Public@dept.healthcare.org,Email Typo,ContactPoint,CP_SD82
+96,8a624be8-c7e2-4825-8fd2-64ff06fb6410,fax,+31(0)68-3403275,+10(8)40-2753275,Phone/Fax Number Typo,ContactPoint,CP_SD83
+97,3ab88289-7324-4b18-96b1-a336ba2831ca,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation,ContactPoint,CP_SD84
+98,b81b7f03-fb0a-4705-8e9a-a076faac8f76,phone,(0164) 630310,(1746) 310310,Phone/Fax Number Typo,ContactPoint,CP_SD85
+99,e558abe1-7fc8-42e7-8a2d-e86e6910124a,availableLanguage,['nl'],['Dutch'],Language Representation Variation,ContactPoint,CP_SD86
+100,6706e199-9aaa-4aa8-9bec-11a0d5bccf5e,phone,+31(0)54-7591563,+10(5)59-5631563,Phone/Fax Number Typo,ContactPoint,CP_SD87
+101,68f111c6-ddef-4680-9eb8-39597f119389,email,Burch.Diet@dept.healthcare.org,Burlh.Diet@dept.healthcare.org,Email Typo,ContactPoint,CP_SD88
+102,10d44b3d-8aca-4410-9c10-126197762b3a,availableLanguage,"['nl', 'en']","['Dutch', 'English']",Language Representation Variation,ContactPoint,CP_SD89
+0,ea4f44cf-eafd-480b-9ec8-633fb73888a4,country,AT,,omission,Address,Ad_SD1
+0,42f81126-6c2c-40a7-a4e9-031675f80092,availableLanguage,"['de', 'en']",,omission,ContactPoint,CP_SD1
+1,60c36cdd-9937-4592-985a-eb983d9f3e80,text,Chris-Grünberger-Platz 54,,omission,Address,Ad_SD2
+1,d41cc2bc-e335-4f8b-91d5-6acf680fe5e2,availableLanguage,"['de', 'en']",,omission,ContactPoint,CP_SD2
+2,d35f581e-3648-431f-ae9e-8d0384983111,postalCode,9664,,omission,Address,Ad_SD77
+2,74286356-3c91-4458-a4b2-7e8301cbd9c2,availableLanguage,"['de', 'en']",,omission,ContactPoint,CP_SD3
+3,b9c4abb6-a6a9-4aab-ac81-1d57b2835bff,text,Richard-Hummer-Weg 9,,omission,Address,Ad_SD4
+3,091523be-650f-4375-a0fc-01e2bcd635cc,email,Robinson.Neurologic@dept.healthcare.org,,omission,ContactPoint,CP_SD4
+4,853a9135-3ee2-451b-be88-c93319db1d7b,text,Katarina-Rohrer-Gasse 42,,omission,Address,Ad_SD5
+4,b5eca796-dc5f-4db7-87b5-2a8b0af01e69,fax,+1-630-332-9229x9211,,omission,ContactPoint,CP_SD5
+4,b5eca796-dc5f-4db7-87b5-2a8b0af01e69,phone,+1-491-974-9486x23198,,omission,ContactPoint,CP_SD5
+5,faa83536-d3d7-49d5-a430-1b871322439a,text,Biedermannweg 31,,omission,Address,Ad_SD6
+5,5536212a-58d7-46da-8f01-3f4e73961f8e,availableLanguage,"['de', 'en']",,omission,ContactPoint,CP_SD6
+6,a4b0c73b-f74e-41a1-a2e5-b72606b9370b,country,AT,,omission,Address,Ad_SD7
+6,c6d82ceb-a1ac-4d49-8d4d-daab72824622,fax,677.448.6297,,omission,ContactPoint,CP_SD7
+6,c6d82ceb-a1ac-4d49-8d4d-daab72824622,phone,001-848-696-7998x32041,,omission,ContactPoint,CP_SD7
+7,eb9fc88e-b877-4b59-9f3d-a6ae5295dcaf,text,Mati Inlet 51,,omission,Address,Ad_SD8
+7,c784499d-6909-4290-9496-a305314a332e,phone,(813)857-7256,,omission,ContactPoint,CP_SD8
+8,ad82e067-ab35-4414-8ed2-b26b1fda2e53,country,EE,,omission,Address,Ad_SD9
+8,24fa9196-f801-4987-8008-cccf565e5ae7,availableLanguage,['et'],,omission,ContactPoint,CP_SD9
+8,24fa9196-f801-4987-8008-cccf565e5ae7,email,Mcneil.Diet@dept.healthcare.org,,omission,ContactPoint,CP_SD9
+9,1c7bc6c8-d62f-4e8c-abca-09663eef04eb,text,Sarv Circle 23,,omission,Address,Ad_SD10
+9,2a630fd1-71cf-439d-aa1f-ff41af1b7013,email,Mcneil.Optometric@dept.healthcare.org,,omission,ContactPoint,CP_SD10
+10,da595d3e-a0fe-4e1b-b910-18255057df41,postalCode,30330,,omission,Address,Ad_SD11
+10,e16e3336-77b1-4e21-bccc-c53ac36a4162,availableLanguage,['et'],,omission,ContactPoint,CP_SD11
+10,e16e3336-77b1-4e21-bccc-c53ac36a4162,phone,001-645-542-2375x0579,,omission,ContactPoint,CP_SD11
+11,21ab9e3d-fdf4-4f09-bd87-d79311705ee3,text,Raivo Ford 78,,omission,Address,Ad_SD12
+11,84ddf869-b816-4f1a-9677-013ba8e19b83,availableLanguage,"['et', 'en']",,omission,ContactPoint,CP_SD12
+12,eafe0d1f-6e79-4d5f-9314-70c8acb14314,postalCode,30371,,omission,Address,Ad_SD13
+12,eb5d11e8-b6d2-4ba9-a517-3d1cf7fc0bd9,availableLanguage,['et'],,omission,ContactPoint,CP_SD13
+12,eb5d11e8-b6d2-4ba9-a517-3d1cf7fc0bd9,phone,001-999-947-8546x92506,,omission,ContactPoint,CP_SD13
+13,1ae3237f-aa88-4965-9654-7b4d317588ff,country,NL,,omission,Address,Ad_SD14
+13,7df8b7f0-44a1-44d0-96df-fc21b1c2ed56,fax,(033) 6184256,,omission,ContactPoint,CP_SD14
+13,7df8b7f0-44a1-44d0-96df-fc21b1c2ed56,phone,+3140-4154353,,omission,ContactPoint,CP_SD14
+14,15f82b2f-bc89-4faf-8cf4-627782dcf736,postalCode,1040 RN,,omission,Address,Ad_SD15
+14,80082244-1ac5-443b-b7dd-3c21e618d25d,fax,038-9317356,,omission,ContactPoint,CP_SD15
+14,80082244-1ac5-443b-b7dd-3c21e618d25d,phone,+31(0)85-2214427,,omission,ContactPoint,CP_SD15
+15,100cfe80-2132-4c24-81b3-77bd59eae69a,text,Maritweg 143,,omission,Address,Ad_SD16
+15,66ab247a-75fe-400c-8407-32b4ef1772f4,phone,(059)-4724061,,omission,ContactPoint,CP_SD16
+16,e31b328e-3a32-4205-9e26-b29d8615ad73,text,Sethring 78,,omission,Address,Ad_SD17
+16,a7486875-29bd-4604-bed2-7848c6950d85,availableLanguage,"['nl', 'en']",,omission,ContactPoint,CP_SD17
+17,b2b5591a-9d7f-442b-85e2-b0787a3e9905,postalCode,2578 DX,,omission,Address,Ad_SD18
+17,49556582-7e54-4d03-aef4-2592ec1c6fe4,fax,+31417-201745,,omission,ContactPoint,CP_SD18
+17,49556582-7e54-4d03-aef4-2592ec1c6fe4,email,Peck.Infectious@dept.healthcare.org,,omission,ContactPoint,CP_SD18
+18,f2aaaaf0-e8eb-4ae2-9bc1-c77afa29fad9,country,NL,,omission,Address,Ad_SD19
+18,047595fb-338b-4372-a00c-ea03b7d52dce,fax,0621 208435,,omission,ContactPoint,CP_SD19
+18,047595fb-338b-4372-a00c-ea03b7d52dce,email,Peck.Neurologic@dept.healthcare.org,,omission,ContactPoint,CP_SD19
+19,054efa50-4962-473b-a0f9-986ab2363b7e,country,NL,,omission,Address,Ad_SD20
+19,a1fa46f3-4668-4cdd-b5f9-8f4110a15299,fax,+31503 374495,,omission,ContactPoint,CP_SD20
+19,a1fa46f3-4668-4cdd-b5f9-8f4110a15299,phone,+31(0)327-020290,,omission,ContactPoint,CP_SD20
+20,3b6b8130-f687-4f7a-b683-4a01bdb5ff1d,country,NL,,omission,Address,Ad_SD21
+20,0aa1ee6f-1b04-4aa4-a3f3-3d5519248947,fax,+31832-948469,,omission,ContactPoint,CP_SD21
+20,0aa1ee6f-1b04-4aa4-a3f3-3d5519248947,email,Peck.Rheumatologic@dept.healthcare.org,,omission,ContactPoint,CP_SD21
+21,44cfc3ca-c3fa-4764-9fd8-a0ca3b036dfd,postalCode,1965 WF,,omission,Address,Ad_SD22
+21,5aa970d9-801a-4ff7-a6cd-d662c4e813db,availableLanguage,"['nl', 'en']",,omission,ContactPoint,CP_SD22
+21,5aa970d9-801a-4ff7-a6cd-d662c4e813db,email,Allen.Pathology@dept.healthcare.org,,omission,ContactPoint,CP_SD22
+22,2542cff6-0710-41c5-802e-3a7aa1515f1e,country,NL,,omission,Address,Ad_SD23
+22,cec1871a-b5c8-4060-89c7-35079d592a7b,fax,+31753 990157,,omission,ContactPoint,CP_SD23
+22,cec1871a-b5c8-4060-89c7-35079d592a7b,phone,009-3476195,,omission,ContactPoint,CP_SD23
+23,335be677-df1b-425e-af66-be879a4c2227,country,NL,,omission,Address,Ad_SD24
+23,d24f6919-7d1d-439e-b453-6a9b7ecbcd45,fax,+31219-957937,,omission,ContactPoint,CP_SD24
+23,d24f6919-7d1d-439e-b453-6a9b7ecbcd45,email,Allen.Gastroenterologic@dept.healthcare.org,,omission,ContactPoint,CP_SD24
+24,970ea1aa-c76f-48ae-adf3-d0246f88c633,text,Mirteweg 112,,omission,Address,Ad_SD25
+24,7e39fd94-f850-4bec-a7f5-794c007ea2cb,email,Allen.Speech@dept.healthcare.org,,omission,ContactPoint,CP_SD25
+25,df66946a-0116-4168-bac8-a7602d5df04a,text,Ilseboulevard 58,,omission,Address,Ad_SD26
+25,c47090c6-bad8-4464-959b-0d078f022246,availableLanguage,['nl'],,omission,ContactPoint,CP_SD26
+25,c47090c6-bad8-4464-959b-0d078f022246,email,Allen.Pediatric@dept.healthcare.org,,omission,ContactPoint,CP_SD26
+26,700e6a4f-2543-43f8-b349-f09340601a0d,text,Colinbaan 105,,omission,Address,Ad_SD27
+26,28986430-fabd-4787-bd5a-95ecc315c8b0,email,Ibarra.Primary@dept.healthcare.org,,omission,ContactPoint,CP_SD27
+27,a7fd116e-d8f5-417f-85bd-ca63a100ba8f,text,Katepad 61,,omission,Address,Ad_SD28
+27,88bf1035-d8cf-4d5c-b35c-f88bfae203e1,fax,+3146 6848215,,omission,ContactPoint,CP_SD28
+27,88bf1035-d8cf-4d5c-b35c-f88bfae203e1,phone,(0884) 832251,,omission,ContactPoint,CP_SD28
+28,929c8ac4-bf28-40fb-a8cb-2f6eee5e256e,postalCode,1392 BN,,omission,Address,Ad_SD29
+28,50bbd1c7-f01c-4cc7-bb87-c961fa17e092,email,Ibarra.Optometric@dept.healthcare.org,,omission,ContactPoint,CP_SD33
+29,eae9c546-446c-4893-89d3-cdb9ebb9aa72,country,NL,,omission,Address,Ad_SD30
+29,689f2d23-100a-4f24-8dd1-5beb5d98abc9,email,Ibarra.Endocrine@dept.healthcare.org,,omission,ContactPoint,CP_SD30
+30,f67d2311-33a8-49fd-9091-6a5f97ad1730,text,Kaisingel 138,,omission,Address,Ad_SD31
+30,e9e1a3d1-1a12-4068-815c-77ed779571dd,availableLanguage,"['nl', 'en']",,omission,ContactPoint,CP_SD31
+30,e9e1a3d1-1a12-4068-815c-77ed779571dd,phone,(0359)-559906,,omission,ContactPoint,CP_SD31
+31,317f1e9b-2ee6-416d-b51e-7fc8d6ab5c68,text,Lunaring 21,,omission,Address,Ad_SD32
+31,da47b8f9-cee4-4404-9648-1f4b0c747a90,fax,+3176-5445627,,omission,ContactPoint,CP_SD32
+32,b41fdcad-e36a-4265-ae51-686507afe1c5,country,NL,,omission,Address,Ad_SD33
+32,5351c342-5b7c-48ed-b239-6f882516de06,availableLanguage,['nl'],,omission,ContactPoint,CP_SD33
+33,69259d81-2a2e-4ea7-9834-aeaf0f332bab,country,NL,,omission,Address,Ad_SD34
+33,6efeb18f-aaa6-4ef9-bbb6-ba4c140ab78e,fax,(003)-8016162,,omission,ContactPoint,CP_SD34
+33,6efeb18f-aaa6-4ef9-bbb6-ba4c140ab78e,email,Ibarra.Pulmonary@dept.healthcare.org,,omission,ContactPoint,CP_SD34
+34,5f7e3898-2ddb-4eff-9da7-2833e1bfbdfa,postalCode,6753 AG,,omission,Address,Ad_SD35
+34,4f5ab827-3b33-445b-952b-c38cce0790d7,fax,0923 808299,,omission,ContactPoint,CP_SD35
+35,9883502e-7f32-4e78-a7fe-651efd8c2a6f,text,Suusbaan 58,,omission,Address,Ad_SD36
+35,8dfc0cb0-dc97-4aec-8fac-816ce2d371cc,fax,074-3532772,,omission,ContactPoint,CP_SD36
+36,b31190b6-21e4-4b25-adb2-bb78765d13de,country,NL,,omission,Address,Ad_SD37
+36,68aeb048-72ec-4932-a075-44b56eb7b98b,availableLanguage,['nl'],,omission,ContactPoint,CP_SD37
+36,68aeb048-72ec-4932-a075-44b56eb7b98b,email,Griffin.Psychiatric@dept.healthcare.org,,omission,ContactPoint,CP_SD37
+37,c04bd397-54a9-4898-bcb7-b35d68298389,postalCode,8763 WJ,,omission,Address,Ad_SD38
+37,d7c5a147-ebd2-452e-b18f-3aee34a25626,availableLanguage,['nl'],,omission,ContactPoint,CP_SD38
+38,25b09e48-1ca1-4fa7-83b8-bbaa7e24238e,text,Novapad 64,,omission,Address,Ad_SD39
+38,46c91999-4187-4dc0-aa20-ccea22e87c8d,availableLanguage,['nl'],,omission,ContactPoint,CP_SD39
+39,45baf444-bb7e-41bf-9b2f-fda39f013834,postalCode,2406 DQ,,omission,Address,Ad_SD40
+39,c40421fb-18fb-4f2c-9602-a43750ea62aa,availableLanguage,"['nl', 'en']",,omission,ContactPoint,CP_SD40
+39,c40421fb-18fb-4f2c-9602-a43750ea62aa,email,Griffin.Toxicologic@dept.healthcare.org,,omission,ContactPoint,CP_SD40
+40,b098a39f-12e9-43c1-a33a-812367ac9755,postalCode,7527 KK,,omission,Address,Ad_SD41
+40,9e3589b2-eb14-4394-bd70-57fbc7caa96b,fax,+3130-1814664,,omission,ContactPoint,CP_SD41
+41,fbfa7549-13ee-4ee8-950e-18400e60f583,country,NL,,omission,Address,Ad_SD42
+41,91db735e-dc21-43e8-902e-4f400a013a86,fax,(0329) 762146,,omission,ContactPoint,CP_SD42
+41,91db735e-dc21-43e8-902e-4f400a013a86,email,Griffin.Anesthesia@dept.healthcare.org,,omission,ContactPoint,CP_SD42
+42,db03dadf-a10f-4588-b1e1-9146f654f453,postalCode,2678 UN,,omission,Address,Ad_SD43
+42,e1f51fdc-c203-453a-8b78-44b004747134,fax,077 8286199,,omission,ContactPoint,CP_SD43
+43,055c64dd-e478-40a6-9368-e0d60b46b634,country,NL,,omission,Address,Ad_SD44
+43,b11826f6-66c3-400c-9cae-80b846695f55,availableLanguage,['nl'],,omission,ContactPoint,CP_SD44
+44,c78ad66d-4a9b-4c00-992e-dd37379c05da,postalCode,3429 II,,omission,Address,Ad_SD45
+44,77059fa8-56be-4bee-a67c-4de762f8d20a,fax,020 5749452,,omission,ContactPoint,CP_SD45
+45,b366dcbc-abbf-4882-affa-0875e4a7c828,postalCode,6148 FA,,omission,Address,Ad_SD46
+45,c46e1738-790b-4990-a428-da2ed8900991,availableLanguage,['nl'],,omission,ContactPoint,CP_SD46
+46,d693bf11-7721-4931-9734-2123e3ed9637,postalCode,9369 CH,,omission,Address,Ad_SD47
+46,8a8ed273-ece1-4e8b-85cc-70a1a49266c9,availableLanguage,"['nl', 'en']",,omission,ContactPoint,CP_SD47
+47,35152cba-ec4f-46ab-aa07-cfddee9cee1f,postalCode,6745 ZI,,omission,Address,Ad_SD48
+47,8e95ef6a-b675-4f65-b8e1-c5e6648b1a36,fax,041-7347030,,omission,ContactPoint,CP_SD48
+47,8e95ef6a-b675-4f65-b8e1-c5e6648b1a36,email,FigueroaStrong.Pulmonary@dept.healthcare.org,,omission,ContactPoint,CP_SD48
+48,d2865c01-77f7-4d19-8ee5-ddf0d996f125,postalCode,2638 JB,,omission,Address,Ad_SD49
+48,6db16e7a-23e0-484e-bc30-9d334ea8c3b1,phone,0546-698497,,omission,ContactPoint,CP_SD49
+49,93a7468c-10c1-4f57-bed6-8dc13265b5b3,text,Finnbaan 52,,omission,Address,Ad_SD50
+49,fef5a551-87a9-4185-9166-465bb0464634,fax,+31200-031071,,omission,ContactPoint,CP_SD50
+50,94e5efab-8e36-47af-b1c2-d7b2ed384c44,postalCode,2535 FY,,omission,Address,Ad_SD51
+50,6278f95a-7438-4b47-aa83-c504ebbc854b,email,FigueroaStrong.Emergency@dept.healthcare.org,,omission,ContactPoint,CP_SD51
+51,f01688e4-b43b-4ab8-802b-7d666abb6f15,postalCode,5767 JG,,omission,Address,Ad_SD52
+51,15f66e23-75e6-43b6-b952-7fba397ce787,availableLanguage,"['nl', 'en']",,omission,ContactPoint,CP_SD52
+52,358d3e42-ed1e-454f-9fb7-86f4f61ed233,country,AT,,omission,Address,Ad_SD53
+52,11d0fd54-750e-41b1-997e-b2fc26fc574c,availableLanguage,['de'],,omission,ContactPoint,CP_SD53
+52,11d0fd54-750e-41b1-997e-b2fc26fc574c,email,Parker.Public@dept.healthcare.org,,omission,ContactPoint,CP_SD53
+53,62fe8d68-95f4-4a1f-a1d2-92ab36f4851f,country,AT,,omission,Address,Ad_SD54
+53,16b9315a-eea6-4d23-aaf3-913e301c8730,phone,516-234-0158,,omission,ContactPoint,CP_SD54
+54,98e63241-243f-4229-ace4-8fdc68d60b08,country,AT,,omission,Address,Ad_SD55
+54,3d550d82-be18-4b30-93b7-9970dd8159b8,email,Parker.Infectious@dept.healthcare.org,,omission,ContactPoint,CP_SD55
+55,bc67b332-a89d-4114-9841-c24912882f60,country,AT,,omission,Address,Ad_SD56
+55,cb628a19-a79e-431f-86ad-ad4a37c6c427,phone,875.885.5906,,omission,ContactPoint,CP_SD56
+56,6a2ca004-0465-46d5-a086-f2af3059c498,postalCode,7486,,omission,Address,Ad_SD57
+56,a76f80a9-1db9-4322-ad85-ceb25291b049,availableLanguage,"['de', 'en']",,omission,ContactPoint,CP_SD57
+56,a76f80a9-1db9-4322-ad85-ceb25291b049,email,Parker.Pediatric@dept.healthcare.org,,omission,ContactPoint,CP_SD57
+57,09fa0833-e2fe-46d1-8b64-acd73331cc05,country,AT,,omission,Address,Ad_SD58
+57,b00fecf4-d53a-4c3a-83ff-0b3a5380531c,availableLanguage,['de'],,omission,ContactPoint,CP_SD58
+58,3e903735-4716-4271-b69c-39b9a73d23a6,postalCode,7071,,omission,Address,Ad_SD59
+58,c23ce929-89bc-44b6-9da4-01e9b331cf4d,fax,734-342-3528x117,,omission,ContactPoint,CP_SD59
+58,c23ce929-89bc-44b6-9da4-01e9b331cf4d,phone,2434536754,,omission,ContactPoint,CP_SD59
+59,425aaf83-4eaa-4a65-942f-4290d7bda791,postalCode,4961,,omission,Address,Ad_SD60
+59,e354f6ae-6d19-4acc-9167-c254a9800a11,email,Parker.Nursing@dept.healthcare.org,,omission,ContactPoint,CP_SD60
+60,47006868-578e-451a-8a99-908598f1d552,postalCode,5885,,omission,Address,Ad_SD61
+60,8e13c327-b461-4c8f-ae16-25f34b4444b5,availableLanguage,['de'],,omission,ContactPoint,CP_SD61
+60,8e13c327-b461-4c8f-ae16-25f34b4444b5,phone,890.346.0313x4830,,omission,ContactPoint,CP_SD61
+61,269dc3b6-c740-43ac-b14f-7e995a24e786,text,Jurrelaan 50,,omission,Address,Ad_SD62
+61,367cf088-7f4a-41b5-a72f-abab25edfea9,availableLanguage,"['nl', 'en']",,omission,ContactPoint,CP_SD62
+61,367cf088-7f4a-41b5-a72f-abab25edfea9,email,Delgado.Cardiovascular@dept.healthcare.org,,omission,ContactPoint,CP_SD62
+62,5768ba9a-1fa9-4bd6-af25-cbe207fe7ec8,text,Joeyboulevard 98,,omission,Address,Ad_SD63
+62,af2dd8f0-1d19-4eec-929f-efba97bf86b3,fax,+31(0)054 334708,,omission,ContactPoint,CP_SD70
+63,71494031-67ef-4e9e-803f-00347399a177,postalCode,9277 GF,,omission,Address,Ad_SD64
+63,51b0a3c5-c9e7-4aba-b5da-3e50822bbc3d,fax,+31666 357058,,omission,ContactPoint,CP_SD64
+63,51b0a3c5-c9e7-4aba-b5da-3e50822bbc3d,phone,(0714)-163115,,omission,ContactPoint,CP_SD64
+64,406ec398-9a4a-4a9c-a735-a17352ec0382,country,NL,,omission,Address,Ad_SD65
+64,322515a5-3a89-491e-b7b9-387b677bd216,fax,+31(0)167-766103,,omission,ContactPoint,CP_SD65
+64,322515a5-3a89-491e-b7b9-387b677bd216,phone,+31752-042438,,omission,ContactPoint,CP_SD65
+65,9f78299c-b9a9-4a03-bf8d-c9f2e3a10464,postalCode,2459 FM,,omission,Address,Ad_SD66
+65,0a4d3590-f9b4-4573-878a-2aafd8dc0cb1,availableLanguage,['nl'],,omission,ContactPoint,CP_SD66
+65,0a4d3590-f9b4-4573-878a-2aafd8dc0cb1,phone,+31(0)00 9244496,,omission,ContactPoint,CP_SD66
+66,eee13dc0-e1e4-49cf-8dba-6d8f7ab8572c,country,NL,,omission,Address,Ad_SD67
+66,a0e33935-f515-49fd-b68b-604992edb418,fax,006 9673050,,omission,ContactPoint,CP_SD67
+67,48d46113-b50a-4a15-a0ff-f2cb6857548c,country,NL,,omission,Address,Ad_SD68
+67,07d9fab3-fccd-4ab0-b13b-40ac30cceeb3,availableLanguage,"['nl', 'en']",,omission,ContactPoint,CP_SD68
+67,07d9fab3-fccd-4ab0-b13b-40ac30cceeb3,phone,+31(0)68 3502676,,omission,ContactPoint,CP_SD68
+68,2985c817-a937-4c86-9f40-ec4712d527a0,country,NL,,omission,Address,Ad_SD69
+68,8aa97d3f-bd63-47b3-9595-7c157d3e3711,fax,+31(0)73 7264807,,omission,ContactPoint,CP_SD69
+68,8aa97d3f-bd63-47b3-9595-7c157d3e3711,email,Delgado.Psychiatric@dept.healthcare.org,,omission,ContactPoint,CP_SD69
+69,c3629df7-6898-4668-9f18-1e4f394e61fe,text,Elifboulevard 29,,omission,Address,Ad_SD70
+69,4d668807-a68f-4bb3-8cb6-cfc37e49eb8d,availableLanguage,"['nl', 'en']",,omission,ContactPoint,CP_SD70
+70,a775cc44-ee07-4366-8d2f-e15174c88f42,postalCode,6222 LR,,omission,Address,Ad_SD71
+70,659185b7-664e-4107-99a6-f4165e66ddc3,fax,(0150)-493331,,omission,ContactPoint,CP_SD71
+71,f1521976-65d6-4b7f-8f9a-fd63236e747e,text,Saarbaan 80,,omission,Address,Ad_SD72
+71,3b6f2ad2-6ec1-47b0-99bb-f03db6d06615,fax,0857 010951,,omission,ContactPoint,CP_SD72
+72,02299f58-9071-414d-b4f2-ba8e32fa6380,postalCode,6019 MI,,omission,Address,Ad_SD73
+72,64a335b5-a973-439e-a2c9-b2627ed24723,fax,057 4317829,,omission,ContactPoint,CP_SD74
+72,64a335b5-a973-439e-a2c9-b2627ed24723,phone,0484-926819,,omission,ContactPoint,CP_SD74
+73,a2c1e1d4-131b-4956-872a-5ac130c97d34,country,NL,,omission,Address,Ad_SD74
+73,ea6d5565-3810-4725-952a-4ff52da4d7f2,availableLanguage,['nl'],,omission,ContactPoint,CP_SD74
+74,f3e50e26-2e07-4578-8e4b-b53cf3dacf72,postalCode,6480 AA,,omission,Address,Ad_SD75
+74,92738995-ca89-4d11-8646-356bc28611fd,email,Jordan.Gastroenterologic@dept.healthcare.org,,omission,ContactPoint,CP_SD75
+75,5a8fe4b2-8ffd-4977-85b8-93b04d36c61a,country,NL,,omission,Address,Ad_SD76
+75,095e2e87-c893-485b-acbb-85648b3941d5,availableLanguage,"['nl', 'en']",,omission,ContactPoint,CP_SD76
+75,095e2e87-c893-485b-acbb-85648b3941d5,phone,(045) 1726813,,omission,ContactPoint,CP_SD76
+76,0e1cae7a-8122-4b3a-a0b8-024401e32354,postalCode,1802,,omission,Address,Ad_SD3
+76,d44b5548-066d-4e1e-a16b-347d9babbdab,phone,972-699-7024,,omission,ContactPoint,CP_SD77
+77,c77239f2-2d47-40cc-a5c5-063d4c444d95,postalCode,7118,,omission,Address,Ad_SD78
+77,089f8b86-b99e-43e5-a908-a3aa20adb06e,email,KimTodd.Geriatric@dept.healthcare.org,,omission,ContactPoint,CP_SD78
+78,8057b537-92ec-41d0-b2bb-8a67ec5b03af,country,AT,,omission,Address,Ad_SD79
+78,31692d4e-9b24-4fa1-b264-5654489d80b6,availableLanguage,"['de', 'en']",,omission,ContactPoint,CP_SD79
+78,31692d4e-9b24-4fa1-b264-5654489d80b6,phone,934-832-8041,,omission,ContactPoint,CP_SD79
+79,f95cad47-3b5a-4257-a195-ace68506d5ba,text,Vincent-Friedrich-Ring 121,,omission,Address,Ad_SD80
+79,51c756d4-6dda-4925-86d2-5fcc6714224c,phone,(734)345-2016x733,,omission,ContactPoint,CP_SD80
+80,022c88c0-b563-446c-9cbf-0c64c039c71e,country,AT,,omission,Address,Ad_SD81
+80,749ef679-c161-4767-b28a-85434a974df5,availableLanguage,['de'],,omission,ContactPoint,CP_SD81
+80,749ef679-c161-4767-b28a-85434a974df5,phone,305.568.6116,,omission,ContactPoint,CP_SD81
+81,4a8b2fae-6209-41c3-afb6-88bbe3a56430,text,Jolijnsteeg 97,,omission,Address,Ad_SD82
+81,52c71bbd-94b2-4c54-be2b-0f3a655ff99f,fax,+31406-186509,,omission,ContactPoint,CP_SD82
+81,52c71bbd-94b2-4c54-be2b-0f3a655ff99f,email,Burch.Public@dept.healthcare.org,,omission,ContactPoint,CP_SD82
+82,7c5246f1-8fe5-475b-b771-877e141e39e7,postalCode,8945 QR,,omission,Address,Ad_SD83
+82,8a624be8-c7e2-4825-8fd2-64ff06fb6410,availableLanguage,"['nl', 'en']",,omission,ContactPoint,CP_SD83
+82,8a624be8-c7e2-4825-8fd2-64ff06fb6410,email,Burch.Musculoskeletal@dept.healthcare.org,,omission,ContactPoint,CP_SD83
+83,0e8cff18-9e9d-4b77-ba34-b580eda0a0af,text,Leahbaan 26,,omission,Address,Ad_SD84
+83,3ab88289-7324-4b18-96b1-a336ba2831ca,fax,(076) 7970617,,omission,ContactPoint,CP_SD84
+84,6f30a7a2-5853-40c4-b053-7fbb2bcdacf3,text,Lindseydreef 49,,omission,Address,Ad_SD85
+84,b81b7f03-fb0a-4705-8e9a-a076faac8f76,fax,+3179-3504229,,omission,ContactPoint,CP_SD85
+84,b81b7f03-fb0a-4705-8e9a-a076faac8f76,email,Burch.Psychiatric@dept.healthcare.org,,omission,ContactPoint,CP_SD85
+85,603fa8f0-1549-4dee-830b-4d6d9575d095,text,Puckboulevard 64,,omission,Address,Ad_SD86
+85,e558abe1-7fc8-42e7-8a2d-e86e6910124a,availableLanguage,['nl'],,omission,ContactPoint,CP_SD86
+85,e558abe1-7fc8-42e7-8a2d-e86e6910124a,email,Burch.Toxicologic@dept.healthcare.org,,omission,ContactPoint,CP_SD86
+86,b9d2aef5-0fd2-4271-b440-d4eb03ed8da8,country,NL,,omission,Address,Ad_SD87
+86,6706e199-9aaa-4aa8-9bec-11a0d5bccf5e,fax,(0509) 558393,,omission,ContactPoint,CP_SD87
+87,daac3c58-e266-44c0-9848-d32e65f628ac,country,NL,,omission,Address,Ad_SD88
+87,68f111c6-ddef-4680-9eb8-39597f119389,availableLanguage,"['nl', 'en']",,omission,ContactPoint,CP_SD88
+87,68f111c6-ddef-4680-9eb8-39597f119389,phone,0029-619693,,omission,ContactPoint,CP_SD88
+88,43419ace-febd-4b72-ae24-df89e9c5c130,country,NL,,omission,Address,Ad_SD89
+88,10d44b3d-8aca-4410-9c10-126197762b3a,availableLanguage,"['nl', 'en']",,omission,ContactPoint,CP_SD89
+88,10d44b3d-8aca-4410-9c10-126197762b3a,email,Burch.Psychiatric@dept.healthcare.org,,omission,ContactPoint,CP_SD89
+89,61ef4435-69ea-4db8-9541-b40f7635abe4,postalCode,2946 BJ,,omission,Address,Ad_SD90
+89,745c759a-691f-4f9a-9895-89611d03e632,phone,073-0946836,,omission,ContactPoint,CP_SD90
+90,a7176911-8230-488e-8b29-03f37d2c1e7e,text,Ashleyhof 106,,omission,Address,Ad_SD91
+90,f929fb27-3e4a-4540-b8b5-c1dece9c85a7,availableLanguage,['nl'],,omission,ContactPoint,CP_SD91
+90,f929fb27-3e4a-4540-b8b5-c1dece9c85a7,phone,+3138 8353878,,omission,ContactPoint,CP_SD91
+91,2802e605-3fe6-4c84-9615-4be95b698ec7,country,EE,,omission,Address,Ad_SD92
+91,1010e768-13f1-4080-bc0d-d51a9e00559b,fax,286.284.6394x9164,,omission,ContactPoint,CP_SD92
+91,1010e768-13f1-4080-bc0d-d51a9e00559b,phone,+1-975-205-2623x3784,,omission,ContactPoint,CP_SD92
+92,b95a9bfb-827f-4f52-b905-b6dc9e888d32,postalCode,55297,,omission,Address,Ad_SD93
+92,b0a7ff0b-74e0-420a-8cca-24df24e60c17,availableLanguage,['et'],,omission,ContactPoint,CP_SD93
+93,3899c22a-d4ed-41bd-9692-74a2acbe4ff6,postalCode,88239,,omission,Address,Ad_SD94
+93,6b5bc344-01bb-47e2-bf69-cd8fa4b4da1c,fax,603-583-9718x7485,,omission,ContactPoint,CP_SD94
+93,6b5bc344-01bb-47e2-bf69-cd8fa4b4da1c,phone,+1-533-745-0510x528,,omission,ContactPoint,CP_SD94
+94,55e4ddc4-3d71-4abb-9ace-f37c8d61adb6,text,Natalja Turnpike 77,,omission,Address,Ad_SD95
+94,5555ee5d-84b5-4c83-9eb8-3dd2a1dec0c1,availableLanguage,['et'],,omission,ContactPoint,CP_SD95
+95,de4452be-1567-43c9-af7a-98c53abe5a8d,country,EE,,omission,Address,Ad_SD96
+95,a9e80538-880b-4ff9-b4b7-d61da17256a8,availableLanguage,"['et', 'en']",,omission,ContactPoint,CP_SD96
+95,a9e80538-880b-4ff9-b4b7-d61da17256a8,email,Berg.Endocrine@dept.healthcare.org,,omission,ContactPoint,CP_SD96
+96,aace1c9a-1c59-4fa1-b543-be48696b7284,text,Galina Landing 107,,omission,Address,Ad_SD97
+96,5e573ddd-6b60-4f72-948e-40eb1fe43d64,phone,689.351.5075x482,,omission,ContactPoint,CP_SD97
+97,9b935e61-28d1-4f89-87f9-e252d474ae8e,country,EE,,omission,Address,Ad_SD98
+97,5073fc2b-c647-4e3c-8e19-967b8102ce40,fax,001-886-612-6113,,omission,ContactPoint,CP_SD98
+98,a2d4870a-e360-4ea5-a600-bef84b4e2db2,text,Kaljuvee Valley 79,,omission,Address,Ad_SD99
+98,f714f11a-c923-4c39-80e9-889de42d1ba0,email,Berg.Gastroenterologic@dept.healthcare.org,,omission,ContactPoint,CP_SD99
+99,62d55697-ec36-42c8-ad3f-a0b6de8a6d76,text,Nina Courts 41,,omission,Address,Ad_SD100
+99,5aeb3613-9cc4-4f93-8fd9-ba8f6dc6e925,fax,410.668.5962,,omission,ContactPoint,CP_SD100
+99,5aeb3613-9cc4-4f93-8fd9-ba8f6dc6e925,phone,388.634.5531x592,,omission,ContactPoint,CP_SD100
+100,636164d8-bb88-41b8-9be5-f8a138462e03,country,EE,,omission,Address,Ad_SD101
+100,76800d7a-bb11-4dbc-bd0f-8012f3cf3c33,fax,562-376-2752x90074,,omission,ContactPoint,CP_SD101
+100,76800d7a-bb11-4dbc-bd0f-8012f3cf3c33,email,Berg.Gynecologic@dept.healthcare.org,,omission,ContactPoint,CP_SD101
+101,8c4990e1-820d-4c8e-a991-334cba4dede6,country,AT,,omission,Address,Ad_SD102
+101,93c1d25b-124b-44fc-8571-605af163875c,availableLanguage,"['de', 'en']",,omission,ContactPoint,CP_SD102
+101,93c1d25b-124b-44fc-8571-605af163875c,phone,625-782-5920,,omission,ContactPoint,CP_SD102
+102,5cf10f05-e927-4cd1-8763-9a9fa4134092,country,AT,,omission,Address,Ad_SD103
+102,8eb9556d-7da2-4999-9436-93c6b76cfca2,phone,+1-558-923-7359x01116,,omission,ContactPoint,CP_SD103
+103,cc552e29-1187-4fe4-81b4-f9bd2a80c809,text,Emilija-Mayerhofer-Gasse 80,,omission,Address,Ad_SD104
+103,2622126b-79e6-465b-85ac-ec616238495b,fax,779.410.9392,,omission,ContactPoint,CP_SD104
+103,2622126b-79e6-465b-85ac-ec616238495b,phone,001-846-228-0242,,omission,ContactPoint,CP_SD104
+104,ea5fe267-5877-4d3a-a8b5-a07a9659a673,country,AT,,omission,Address,Ad_SD105
+104,ab8c6b16-cc35-4ea7-a17d-8ad2c9d9d2a6,fax,7435094459,,omission,ContactPoint,CP_SD105
+104,ab8c6b16-cc35-4ea7-a17d-8ad2c9d9d2a6,phone,816.677.9769x2660,,omission,ContactPoint,CP_SD105
+105,71f00da3-b54d-4beb-af4d-0b016700c29f,country,AT,,omission,Address,Ad_SD106
+105,09237dcc-b77c-4af1-b5fa-5ae843ff4aa7,availableLanguage,"['de', 'en']",,omission,ContactPoint,CP_SD106
+106,73c46a50-a041-4cfb-9736-99ffc852ed2e,postalCode,1226,,omission,Address,Ad_SD107
+106,e92df0d8-5553-477b-8dfb-3ddd1fd512eb,availableLanguage,"['de', 'en']",,omission,ContactPoint,CP_SD107
+107,2c12129c-487b-4acf-8535-c13d4d697998,text,Tilk Gardens 128,,omission,Address,Ad_SD108
+107,918b59ec-2b6a-48a8-a8e1-19f70df23548,availableLanguage,['et'],,omission,ContactPoint,CP_SD108
+107,918b59ec-2b6a-48a8-a8e1-19f70df23548,phone,(759)234-0792,,omission,ContactPoint,CP_SD108
+108,c44117e6-2c98-49d9-bd88-deb7fc584d66,postalCode,56228,,omission,Address,Ad_SD109
+108,799c82ee-f742-453b-a7a1-28de18310104,phone,309.961.9742,,omission,ContactPoint,CP_SD109
+109,f84b85e7-da12-4d3a-bcaa-db1a7dcd07ad,country,EE,,omission,Address,Ad_SD110
+109,5b93822b-cec8-44aa-a000-4c9f716f9ea7,availableLanguage,['et'],,omission,ContactPoint,CP_SD110
+110,eedbba8b-0f83-41ee-b2ac-89bdb2998fa3,country,EE,,omission,Address,Ad_SD111
+110,b0ca76f7-17f9-4524-8332-ed33bba6e752,availableLanguage,"['et', 'en']",,omission,ContactPoint,CP_SD111
+110,b0ca76f7-17f9-4524-8332-ed33bba6e752,phone,(280)351-9921x4987,,omission,ContactPoint,CP_SD111
+111,1ba43eaf-84f4-4346-9301-6d9e87d3b238,country,EE,,omission,Address,Ad_SD112
+111,87e87d1f-9af4-402a-8703-a4230fa8aee9,fax,+1-872-295-4400x13981,,omission,ContactPoint,CP_SD112
+111,87e87d1f-9af4-402a-8703-a4230fa8aee9,email,Novak.Gastroenterologic@dept.healthcare.org,,omission,ContactPoint,CP_SD112
+112,572b4813-53e1-4084-8089-a684556ec366,text,Salumets Ramp 103,,omission,Address,Ad_SD113
+112,21f04ef1-e253-4910-9e10-c49316197d45,availableLanguage,"['et', 'en']",,omission,ContactPoint,CP_SD113
