@@ -17,8 +17,8 @@ g2 = rdflib.Graph()
 master_graph = rdflib.Graph()
 
 # Replace 'graph1.rdf' and 'graph2.rdf' with the paths to your RDF files
-g1.parse("example_data/healthcare_graph_original_v2.ttl")
-g2.parse("example_data/healthcare_graph_replaced_v2.ttl")
+g1.parse("data/healthcare_graph_original_v2.ttl")
+g2.parse("data/prog_data/healthcare_graph_var_only.ttl")
 master_graph.parse("data/master_data.ttl")
 
 phkg_graph = g1 + master_graph
@@ -292,7 +292,7 @@ with open(file_path, "w") as f:
 
 # 1. Load the Golden Standard
 try:
-    golden_standard_df = pd.read_csv('example_data/updated_golden_standard_duplicates.csv')
+    golden_standard_df = pd.read_csv('../data/prog_data/updated_golden_standard_duplicates.csv')
 except FileNotFoundError:
     print("Error: Ground truth not found Exiting.")
     exit()
