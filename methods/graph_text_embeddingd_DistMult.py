@@ -14,8 +14,8 @@ g2 = rdflib.Graph()
 master_graph = rdflib.Graph()
 
 # Replace 'graph1.rdf' and 'graph2.rdf' with the paths to your RDF files
-g1.parse("/Users/nguyenhoanghai/Documents/GitHub/entity-deduplication-hack-main/data/healthcare_graph_original.ttl")
-g2.parse("/Users/nguyenhoanghai/Documents/GitHub/entity-deduplication-hack-main/data/healthcare_graph_replaced.ttl")
+g1.parse("/Users/nguyenhoanghai/Documents/GitHub/entity-deduplication-hack-main/data/healthcare_graph_original_v2.ttl")
+g2.parse("/Users/nguyenhoanghai/Documents/GitHub/entity-deduplication-hack-main/data/programmatic data/healthcare_graph_replaced_v2.ttl")
 master_graph.parse("/Users/nguyenhoanghai/Documents/GitHub/entity-deduplication-hack-main/data/master_data.ttl")
 
 phkg_graph = g1 + master_graph
