@@ -14,7 +14,7 @@ from pykeen.triples import TriplesNumericLiteralsFactory
 TEXT_MODEL = "all-MiniLM-L6-v2"
 TEXT_DIM = 384
 THRESHOLD = 0.5
-NUM_EPOCHS = 500
+NUM_EPOCHS = 80
 GRAPH_MODEL = "DistMultLiteral"
 KNOWN_PREFIXES = [
     "ucum:",
@@ -42,9 +42,9 @@ def load_graph():
     g1 = rdflib.Graph()
     g2 = rdflib.Graph()
     master_graph = rdflib.Graph()
-    g1.parse("/Users/nguyenhoanghai/Documents/GitHub/entity-deduplication-hack-main/data/healthcare_graph_original_v2.ttl")
-    g2.parse("/Users/nguyenhoanghai/Documents/GitHub/entity-deduplication-hack-main/data/programmatic data/healthcare_graph_replaced_v2.ttl")
-    master_graph.parse("/Users/nguyenhoanghai/Documents/GitHub/entity-deduplication-hack-main/data/master_data.ttl")
+    g1.parse("data/healthcare_graph_original_v2.ttl")
+    g2.parse("data/prog_data/healthcare_graph_var_only.ttl")
+    master_graph.parse("data/master_data.ttl")
     phkg_graph = g1 + master_graph
     combined_graph = phkg_graph + g2
     return combined_graph, phkg_graph, g1, g2, master_graph
@@ -214,7 +214,7 @@ def main():
     matches = match_entities(ids1, ids2, entity_to_id, embedding_matrix)
     match_json = [{"entity1": str(e1), "entity2": str(e2), "score": float(score)} for e1, e2, score in matches]
 
-    with open("matches_DistMultLiteral.json", "w") as f:
+    with open("DistLitmatches.json", "w") as f:
         json.dump(match_json, f, indent=4)
 
 if __name__ == "__main__":

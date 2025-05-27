@@ -1,0 +1,62 @@
+[
+    {
+        "entity1": "http://example.org/Person/86e280c0-6036-4f9c-a229-7cb2cf00f0a8",
+        "entity2": "http://example.org/Person/f0af5825-66e5-4e50-8c24-8b75c635a410",
+        "score": 0.5034458637237549
+    },
+    {
+        "entity1": "http://example.org/ContactPoint/10d44b3d-8aca-4410-9c10-126197762b3a",
+        "entity2": "http://example.org/ContactPoint/5536945d-f70d-4f38-9d1d-3ec446e93aac",
+        "score": 0.507127046585083
+    },
+    {
+        "entity1": "http://example.org/Person/4417d108-e256-4d3a-a90c-85a21ac2a40f",
+        "entity2": "http://example.org/Person/7ca2f1ab-3308-4746-a480-5be48664f6a7",
+        "score": 0.5050807595252991
+    },
+    {
+        "entity1": "http://example.org/Person/5d637363-f92e-4675-a1ae-a2e22ebdb2dc",
+        "entity2": "http://example.org/Person/e511c128-d619-4c01-accb-998ea28d2b0c",
+        "score": 0.5135082006454468
+    },
+    {
+        "entity1": "http://example.org/Person/6eb8f2f2-6968-4ce4-8645-11ec8f14e2f9",
+        "entity2": "http://example.org/Person/66b827d7-e4bc-419f-ae22-eab0a1142376",
+        "score": 0.5033048391342163
+    },
+    {
+        "entity1": "http://example.org/Person/c558cc74-6240-432f-b231-5900e9aabd16",
+        "entity2": "http://example.org/Person/59f05416-3fb1-43d2-abb7-6dc6a44dee4a",
+        "score": 0.5075212717056274
+    },
+    {
+        "entity1": "http://example.org/Person/3600ca8e-66d9-45d0-8adb-021e46ba1c9b",
+        "entity2": "http://example.org/Person/013fad27-1d08-478c-b8e4-868e28de200c",
+        "score": 0.5067824125289917
+    },
+    {
+        "entity1": "http://example.org/Person/88985a53-4969-4b80-81a8-dbff1d48809d",
+        "entity2": "http://example.org/Person/f4a38ea5-68e1-4d10-856b-9e3333b727a2",
+        "score": 0.5138933062553406
+    },
+    {
+        "entity1": "http://example.org/Person/33f683e0-d7a9-4cc3-b49d-6413fd8c2efb",
+        "entity2": "http://example.org/Person/e511c128-d619-4c01-accb-998ea28d2b0c",
+        "score": 0.5261611342430115
+    },
+    {
+        "entity1": "http://example.org/Person/f3137a72-eafe-48ae-9ac6-a4d6833b4b8d",
+        "entity2": "http://example.org/Person/01bd66d4-7a8d-4487-a6e7-0e866a70133e",
+        "score": 0.5046600103378296
+    },
+    {
+        "entity1": "http://example.org/Person/791931e9-5d61-4584-929d-4e8c68cad7a1",
+        "entity2": "http://example.org/Person/da0ec04c-13aa-44f8-924c-9547671cf479",
+        "score": 0.5123594403266907
+    },
+    {
+        "entity1": "http://example.org/Person/36b372c1-d4aa-422d-b041-ee2b15e6f209",
+        "entity2": "http://example.org/Person/66b827d7-e4bc-419f-ae22-eab0a1142376",
+        "score": 0.5552196502685547
+    }
+]
