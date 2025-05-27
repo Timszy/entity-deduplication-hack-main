@@ -8,17 +8,17 @@ from sklearn.metrics.pairwise import cosine_similarity
 from node2vec import Node2Vec
 from typing import Dict
 import time # Import time module
-from evaluate_helper import print_detailed_statistics, calculate_entity_level_metrics
+from evaluate_helper import print_detailed_statistics
 
 
 # Load the RDF graphs
 g1 = rdflib.Graph()
-g2 = rdflib.Graph()
+
 master_graph = rdflib.Graph()
 
 # Replace 'graph1.rdf' and 'graph2.rdf' with the paths to your RDF files
 g1.parse("data/healthcare_graph_original_v2.ttl")
-g2.parse("data/prog_data/healthcare_graph_var_only.ttl")
+
 master_graph.parse("data/master_data.ttl")
 
 phkg_graph = g1 + master_graph
@@ -137,7 +137,42 @@ def get_entity_texts(graph):
 
     return entity_texts
 
+# Function to match entities based on similarity threshold
+def match_entities(similarity_df, threshold):
+    """
+    Match entities from two graphs based on similarity scores.
 
+    Args:
+        similarity_df (pd.DataFrame): DataFrame of similarity scores.
+        threshold (float): Similarity threshold for matching.
+
+    Returns:
+        list: A list of matched entity pairs and their similarity scores.
+    """
+    matches = []
+    for idx in similarity_df.index:
+        # Get the most similar entity and its score
+        max_sim = similarity_df.loc[idx].max()
+        if max_sim >= threshold:
+            best_match = similarity_df.loc[idx].idxmax()
+            matches.append((idx, best_match, max_sim))
+    return matches
+
+
+g2_paths = [
+    "data/prog_data/healthcare_graph_var_only.ttl",
+    "data/LLM_data/healthcareorganizations.ttl",
+    "data/LLM_data/servicedepartments.ttl",
+    "data/LLM_data/persons.ttl",
+]
+
+for g2_file in g2_paths:
+    print(f"\n--- Running on G2 = {g2_file} ---")
+    # 1) Load this iteration's g2
+    g2 = rdflib.Graph()
+    g2.parse(g2_file)
+
+    start = time.time()
 # Extract entities and texts from both graphs
 entity_texts1 = get_entity_texts(phkg_graph)
 entity_texts2 = get_entity_texts(g2)
@@ -181,26 +216,6 @@ df_similarity = pd.DataFrame(
     columns=entity_texts2.keys(),
 )
 
-# Function to match entities based on similarity threshold
-def match_entities(similarity_df, threshold):
-    """
-    Match entities from two graphs based on similarity scores.
-
-    Args:
-        similarity_df (pd.DataFrame): DataFrame of similarity scores.
-        threshold (float): Similarity threshold for matching.
-
-    Returns:
-        list: A list of matched entity pairs and their similarity scores.
-    """
-    matches = []
-    for idx in similarity_df.index:
-        # Get the most similar entity and its score
-        max_sim = similarity_df.loc[idx].max()
-        if max_sim >= threshold:
-            best_match = similarity_df.loc[idx].idxmax()
-            matches.append((idx, best_match, max_sim))
-    return matches
 
 
 # Perform the matching
@@ -209,11 +224,8 @@ matched_entities = match_entities(
 )
 
 # End timer for the algorithm
-algorithm_end_time = time.time()
-algorithm_runtime = algorithm_end_time - algorithm_start_time
+runtime = time.time() - start
 
-print(f"\n--- Algorithm Runtime ---")
-print(f"Total time for deduplication: {algorithm_runtime:.4f} seconds")
 
 
 final_result = []
@@ -287,74 +299,65 @@ file_path = "matches/example_matches.json"
 with open(file_path, "w") as f:
     json.dump(final_result, f, indent=4)
 
+total_amount_match = len(final_result)
+print(f"Total matches found: {len(final_result)}")
+
 
 # --- Evaluation starts here ---
 
-# 1. Load the Golden Standard
-try:
-    golden_standard_df = pd.read_csv('../data/prog_data/updated_golden_standard_duplicates.csv')
-except FileNotFoundError:
-    print("Error: Ground truth not found Exiting.")
-    exit()
-except Exception as e:
-    print(f"Error loading Ground truth: {e}. Exiting.")
-    exit()
+# # 1. Load the Golden Standard
+# try:
+#     golden_standard_df = pd.read_csv('data/prog_data/updated_golden_standard_duplicates.csv')
+# except FileNotFoundError:
+#     print("Error: Ground truth not found Exiting.")
+#     exit()
 
-# Calculate and print entity-level P/R/F1 scores
-# This requires 'original_entity_uri' and 'varied_entity_uri' in golden_standard_df
-if 'golden_standard_df' in locals(): # Check if golden_standard_df was loaded
-    calculate_entity_level_metrics(matched_entities, golden_standard_df)
-else:
-    print("Golden standard not loaded, skipping entity-level P/R/F1 calculation.")
 
-# 2. Define Field Mapping
-field_to_predicate_map = {
-    "personName": "name", "birthDate": "birthDate", "knowsLanguage": "knowsLanguage", "gender": "gender",
-    "email": "email", "jobTitle": "jobTitle",
-    "city": "addressLocality", "postalCode": "postalCode", "country": "addressCountry", "text": "streetAddress",
-    "healthcareOrganizationName": "name", "serviceDepartmentName": "name"
-}
+# # 2. Define Field Mapping
+# field_to_predicate_map = {
+#     "personName": "name", "birthDate": "birthDate", "knowsLanguage": "knowsLanguage", "gender": "gender",
+#     "email": "email", "jobTitle": "jobTitle",
+#     "city": "addressLocality", "postalCode": "postalCode", "country": "addressCountry", "text": "streetAddress",
+#     "healthcareOrganizationName": "name", "serviceDepartmentName": "name"
+# }
 
-# 3. Define path to generated match file
-file_path = "matches/example_matches.json"
+# # 4. Create a results DataFrame for field-level evaluation
+# results_df = pd.DataFrame()
 
-# 4. Create a results DataFrame for field-level evaluation
-results_df = pd.DataFrame()
-
-# Create a dummy results dataframe to use with print_detailed_statistics 
-# This is a simplified approach since we don't have analyze_match_results function
-try:
-    # Try to load matches file
-    with open(file_path, 'r') as f:
-        matches_data = json.load(f)
+# # Create a dummy results dataframe to use with print_detailed_statistics 
+# # This is a simplified approach since we don't have analyze_match_results function
+# try:
+#     # Try to load matches file
+#     with open(file_path, 'r') as f:
+#         matches_data = json.load(f)
     
-    print(f"\nSuccessfully loaded {len(matches_data)} entity matches from {file_path}")
+#     print(f"\nSuccessfully loaded {len(matches_data)} entity matches from {file_path}")
     
-    # Print details about the matches for reference
-    print(f"Number of matched entity pairs: {len(matches_data)}")
+#     # Print details about the matches for reference
+#     print(f"Number of matched entity pairs: {len(matches_data)}")
     
-    # Get field-level statistics directly using the available function
-    stats_summary, variation_comparison = print_detailed_statistics(
-        results_df,  # Empty DataFrame as we don't have field-level analysis
-        golden_standard_df, 
-        "Graph-Text Hybrid (Node2Vec)"
-    )
+#     # Get field-level statistics directly using the available function
+#     stats_summary, variation_comparison = print_detailed_statistics(
+#         results_df, 
+#         golden_standard_df, 
+#         "Graph-Text Hybrid (Node2Vec)"
+#     )
     
-    # Store statistics in a JSON file
-    collected_detailed_stats = {
-        "Graph-Text Hybrid (Node2Vec)": {
-            'summary_statistics': stats_summary,
-            'variation_analysis': variation_comparison.to_dict() # Convert DataFrame to dict for JSON serialization
-        }
-    }
+#     # Store statistics in a JSON file
+#     collected_detailed_stats = {
+#         "Graph-Text Hybrid (Node2Vec)": {
+#             'summary_statistics': stats_summary,
+#             'variation_analysis': variation_comparison.to_dict() # Convert DataFrame to dict for JSON serialization
+#         }
+#     }
     
-    # Save collected detailed statistics to a JSON file
-    output_stats_file = 'results/hybrid_node2vec_statistics.json'
-    with open(output_stats_file, 'w') as f:
-        json.dump(collected_detailed_stats, f, indent=4)
-    print(f"\n--- Statistics saved to {output_stats_file} ---")
+#     # Save collected detailed statistics to a JSON file
+#     output_stats_file = 'results/hybrid_node2vec_statistics.json'
+#     with open(output_stats_file, 'w') as f:
+#         json.dump(collected_detailed_stats, f, indent=4)
+#     print(f"\n--- Statistics saved to {output_stats_file} ---")
 
-except Exception as e:
-    print(f"Error processing match results: {e}")
+# except Exception as e:
+#     print(f"Error processing match results: {e}")
 
-print("\n--- Evaluation Script Finished ---")
+# print("\n--- Evaluation Script Finished ---")

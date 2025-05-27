@@ -10,9 +10,10 @@ g2 = rdflib.Graph()
 master_graph = rdflib.Graph()
 
 # Replace 'graph1.rdf' and 'graph2.rdf' with the paths to your RDF files
-g1.parse("data/healthcare_graph_original.ttl")
-g2.parse("data/healthcare_graph_replaced.ttl")
+g1.parse("data/healthcare_graph_original_v2.ttl")
+g2.parse("data/prog_data/healthcare_graph_var_only.ttl")
 master_graph.parse("data/master_data.ttl")
+
 
 phkg_graph = g1 + master_graph
 
@@ -240,6 +241,6 @@ for ent1, ent2, score in matched_entities:
         }
     )
     
-with open("matches.json", "w") as f:
+with open("matchesHacky.json", "w") as f:
     json.dump(final_result, f, indent=4)
 
