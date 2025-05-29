@@ -16,7 +16,7 @@ TEXT_DIM = 384
 THRESHOLD = 0.5
 NUM_EPOCHS = 80
 GRAPH_MODEL = "DistMult"
-ALPHA = 0.0 # You can change this value to weight the text embedding (0.0 = is graph only)
+ALPHA = 0.5 # You can change this value to weight the text embedding (0.0 = is graph only)
 KNOWN_PREFIXES = [
     "ucum:",
     "sphn-loinc:",
