@@ -7,32 +7,20 @@ from sklearn.metrics.pairwise import cosine_similarity
 from typing import Dict
 from pykeen.pipeline import pipeline
 from pykeen.triples import TriplesFactory
+from rdflib.namespace import RDF
+from urllib.parse import urlparse
+import torch.nn.functional as F
 
 # =============================
 # ========= Configs ===========
 # =============================
-TEXT_MODEL = "all-MiniLM-L6-v2"
+TEXT_MODEL = "paraphrase-multilingual-MiniLM-L12-v2"
 TEXT_DIM = 384
-THRESHOLD = 0.5
-NUM_EPOCHS = 80
+THRESHOLD = 0.7
+NUM_EPOCHS = 350
 GRAPH_MODEL = "DistMult"
-ALPHA = 0.5 # You can change this value to weight the text embedding (0.0 = is graph only)
-KNOWN_PREFIXES = [
-    "ucum:",
-    "sphn-loinc:",
-    "snomed:",
-    "atc:",
-    "sphn-chop:",
-    "hgnc:",
-    "sphn-icd-10:",
-    "https://biomedit.ch/rdf/sphn-resource/ucum/",
-    "https://biomedit.ch/rdf/sphn-resource/loinc/",
-    "http://snomed.info/id/",
-    "https://www.whocc.no/atc_ddd_index/?code=",
-    "https://biomedit.ch/rdf/sphn-resource/chop/",
-    "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/",
-    "https://biomedit.ch/rdf/sphn-resource/icd-10-gm/",
-]
+ALPHA = 0.25 # You can change this value to weight the text embedding (0.0 = is graph only)
+WEAK_PREDICATES = {"schema:identifier"}
 
 # =============================
 # ==== Handling the graphs ====
@@ -59,41 +47,50 @@ def extract_triples(graph):
 # =============================
 # ======= Handling text =======
 # =============================
-def traverse_graph_and_get_literals(graph, subject) -> Dict[str, Dict[str, str]]:
+def get_prefixed_predicate(uri):
+    if uri.startswith("http://schema.org/") or uri.startswith("https://schema.org/"):
+        return "schema:" + uri.split("/")[-1]
+    else:
+        return urlparse(uri).fragment or uri.split("/")[-1]
+
+def traverse_graph_and_get_literals(graph, subject) -> dict[str, dict[str, str]]:
     def traverse(subject, visited):
         if str(subject) in visited:
             return visited
         visited[str(subject)] = {}
         for predicate, obj in graph.predicate_objects(subject):
-            if isinstance(obj, rdflib.Literal):
-                visited[str(subject)][str(predicate)] = str(obj)
-            elif isinstance(obj, rdflib.URIRef):
-                if any(str(obj).startswith(prefix) for prefix in KNOWN_PREFIXES):
-                    visited[str(subject)][str(predicate)] = str(obj)
-                else:
-                    traverse(obj, visited)
-            elif isinstance(obj, rdflib.BNode):
+            pred_str = get_prefixed_predicate(str(predicate))
+            if isinstance(obj, rdflib.Literal) and pred_str not in WEAK_PREDICATES:
+                visited[str(subject)][pred_str] = str(obj)
+            elif isinstance(obj, (rdflib.URIRef, rdflib.BNode)):
                 traverse(obj, visited)
         return visited
     return traverse(subject, {})
 
-def create_text_from_literals(literals: Dict[str, Dict[str, str]]) -> str:
-    return " ".join(
-        f"{subject} - {predicates} -> {literal}"
-        for subject, predicates in literals.items()
-        for literal in predicates.values()
-    )
+def create_text_from_literals(subject_uri: str, literals: dict[str, dict[str, str]], graph: rdflib.Graph) -> str:
+    parts = []
+    for o in graph.objects(rdflib.URIRef(subject_uri), RDF.type):
+        parts.append(f"[{get_prefixed_predicate(str(o))}]")
+        break
+    for _, preds in literals.items():
+        for pred, val in preds.items():
+            parts.append(f"{pred}: {val}")
+    return " ".join(parts)
 
 def get_entity_texts(graph):
-    entity_texts = {}
+    texts = {}
     for s in set(graph.subjects()):
-        if isinstance(s, rdflib.term.BNode):
+        if isinstance(s, rdflib.BNode):
             continue
-        dict_literals = traverse_graph_and_get_literals(graph, s)
-        text = create_text_from_literals(dict_literals)
-        if text:
-            entity_texts[s] = text
-    return entity_texts
+        literals = traverse_graph_and_get_literals(graph, s)
+        text = create_text_from_literals(str(s), literals, graph)
+        type_label = None
+        for o in graph.objects(rdflib.URIRef(s), RDF.type):
+            type_label = get_prefixed_predicate(str(o))
+            break
+        if text and type_label:
+            texts[s] = text
+    return texts
 
 # =============================
 # ==== Code for the model =====
@@ -164,10 +161,61 @@ def main():
     hybrid_vecs2 = [get_hybrid_vector(e, t, graph_embeddings) for e, t in zip(ids2, text_vectors2)]
 
     matches = match_entities(ids1, ids2, hybrid_vecs1, hybrid_vecs2)
-    match_json = [{"entity1": str(e1), "entity2": str(e2), "score": float(score)} for e1, e2, score in matches]
+    
+    final_result = []
 
-    with open("Distmatches.json", "w") as f:
-        json.dump(match_json, f, indent=4)
+    for ent1, ent2, score in matches:
+        # Get literals again to extract predicates (optional: enrich with actual content)
+        entity1_literals = traverse_graph_and_get_literals(phkg_graph, ent1)
+        entity2_literals = traverse_graph_and_get_literals(g2, ent2)
+
+        score_str = str(float(score))
+
+        # Collect predicates (empty for now or basic if desired)
+        entity1_predicates = entity1_literals.get(str(ent1), {})
+        entity2_predicates = entity2_literals.get(str(ent2), {})
+
+        all_predicates = sorted(set(entity1_predicates.keys()) | set(entity2_predicates.keys()))
+
+        entity1_details = {
+            "from": "phkg_graph",
+            "subject": str(ent1),
+            "predicates": [
+                {
+                    "predicate": pred,
+                    "object": entity1_predicates.get(pred, "N/A")
+                }
+                for pred in all_predicates if pred in entity1_predicates
+            ]
+        }
+
+        entity2_details = {
+            "from": "g2",
+            "subject": str(ent2),
+            "predicates": [
+                {
+                    "predicate": pred,
+                    "object": entity2_predicates.get(pred, "N/A")
+                }
+                for pred in all_predicates if pred in entity2_predicates
+            ]
+        }
+
+        duplication_type = (
+            "exact" if score >= 0.9 else "similar" if score >= 0.7 else "conflict"
+        )
+
+        final_result.append({
+            "entities": [
+                {"entity1": entity1_details},
+                {"entity2": entity2_details}
+            ],
+            "similarity_score": score_str,
+            "duplication_type": duplication_type
+        })
+
+    with open("sen.json", "w") as f:
+        json.dump(final_result, f, indent=4)
 
 if __name__ == "__main__":
     main()
