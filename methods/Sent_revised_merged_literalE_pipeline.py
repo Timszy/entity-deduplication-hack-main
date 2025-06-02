@@ -2,36 +2,37 @@ import json
 import pandas as pd
 import rdflib
 import numpy as np
-import networkx as nx
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-from node2vec import Node2Vec
+from pykeen.pipeline import pipeline
+from pykeen.triples import TriplesFactory
 from typing import Dict
-from rdflib.namespace import RDF
+from rdflib.namespace import RDF, XSD
 from urllib.parse import urlparse
-import time # Import time module
 import torch.nn.functional as F
 
-
-# Load the RDF graphs
+# ---------------------------
+# Load RDF Graphs
+# ---------------------------
 g1 = rdflib.Graph()
 g2 = rdflib.Graph()
 master_graph = rdflib.Graph()
 
-# Replace 'graph1.rdf' and 'graph2.rdf' with the paths to your RDF files
 g1.parse("data/healthcare_graph_original_v2.ttl")
 g2.parse("data/prog_data/healthcare_graph_var_only_fixed.ttl")
 master_graph.parse("data/master_data.ttl")
 
 phkg_graph = g1 + master_graph
+
 # ---------------------------
 # Configuration
 # ---------------------------
 model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
 WEAK_PREDICATES = {"schema:identifier"}
+ALPHA = 0.5
 
 # ---------------------------
-# Helpers
+# Helper Functions
 # ---------------------------
 def get_prefixed_predicate(uri):
     if uri.startswith("http://schema.org/") or uri.startswith("https://schema.org/"):
@@ -84,15 +85,73 @@ def group_by_type(entity_dict):
         grouped.setdefault(typ, []).append((entity, text))
     return grouped
 
+def extract_triples(graph):
+    return [
+        (str(s), str(p), str(o))
+        for s, p, o in graph
+        if not isinstance(s, rdflib.BNode) and not isinstance(o, rdflib.BNode)
+    ]
+
+def extract_literals_for_literalE(graph):
+    literals = {}
+    for s in graph.subjects():
+        if isinstance(s, rdflib.BNode):
+            continue
+        literal_feats = {}
+        for p, o in graph.predicate_objects(s):
+            if isinstance(o, rdflib.Literal) and o.datatype in [None, XSD.string]:
+                pred = get_prefixed_predicate(str(p))
+                literal_feats[pred] = str(o)
+        if literal_feats:
+            literals[str(s)] = literal_feats
+    return literals
+
+def get_hybrid_vector(entity_uri, text_vec, graph_vec_dict):
+    graph_vec = graph_vec_dict.get(str(entity_uri), np.zeros_like(text_vec.cpu().numpy()))
+    text_np = text_vec.cpu().numpy()
+    return ALPHA * text_np + (1 - ALPHA) * graph_vec
+
+def match_entities(similarity_df, threshold=0.7, top_k=2):
+    matches = []
+    for g2_entity in similarity_df.columns:
+        top_matches = similarity_df[g2_entity].nlargest(top_k)
+        for phkg_entity, sim in top_matches.items():
+            if sim >= threshold:
+                matches.append((phkg_entity, g2_entity, sim))
+    return matches
+
 # ---------------------------
-# Apply to Your Graphs
+# Main Execution Pipeline
 # ---------------------------
+print("Preparing text representations...")
 entity_texts1 = get_entity_texts(phkg_graph)
 entity_texts2 = get_entity_texts(g2)
 
 grouped1 = group_by_type(entity_texts1)
 grouped2 = group_by_type(entity_texts2)
 
+print("Training LiteralE model...")
+triples = extract_triples(phkg_graph + g2)
+triples_array = np.array(triples, dtype=str)
+literal_features = extract_literals_for_literalE(phkg_graph + g2)
+triples_factory = TriplesFactory.from_labeled_triples(triples_array)
+
+result = pipeline(
+    model='LiteralE',
+    model_kwargs={'base_model': 'DistMult', 
+                  'literals': literal_features},
+    training=triples_factory,
+    training_kwargs={'num_epochs': 50},
+    stopper='early',
+    stopper_kwargs={'frequency': 5, 'patience': 3},
+)
+
+model_graph = result.model
+entity_to_id = triples_factory.entity_to_id
+embedding_matrix = model_graph.entity_representations[0]().detach().cpu().numpy()
+graph_embeddings = {e: embedding_matrix[i] for e, i in entity_to_id.items()}
+
+print("Generating hybrid embeddings and similarity matrix...")
 all_matches = []
 for typ in set(grouped1) & set(grouped2):
     ids1, texts1 = zip(*grouped1[typ])
@@ -104,107 +163,52 @@ for typ in set(grouped1) & set(grouped2):
     emb1 = F.normalize(emb1, p=2, dim=1)
     emb2 = F.normalize(emb2, p=2, dim=1)
 
-    sim_matrix = cosine_similarity(emb1.cpu(), emb2.cpu())
-    df_sim = pd.DataFrame(sim_matrix, index=ids1, columns=ids2)
+    hybrid_vecs1 = [get_hybrid_vector(e, v, graph_embeddings) for e, v in zip(ids1, emb1)]
+    hybrid_vecs2 = [get_hybrid_vector(e, v, graph_embeddings) for e, v in zip(ids2, emb2)]
 
+    sim_matrix = cosine_similarity(hybrid_vecs1, hybrid_vecs2)
+    df_sim = pd.DataFrame(sim_matrix, index=ids1, columns=ids2)
     all_matches.append(df_sim)
 
 df_similarity_all = pd.concat(all_matches)
-print("Similarity DataFrame created with shape:", df_similarity_all.shape)
-# Function to match entities based on similarity threshold
-def match_entities(similarity_df, threshold=0.9, top_k=2):
-    """
-    Match entities from two graphs based on similarity scores.
+print("Similarity matrix shape:", df_similarity_all.shape)
 
-    Args:
-        similarity_df (pd.DataFrame): DataFrame of similarity scores.
-        threshold (float): Similarity threshold for matching.
-
-    Returns:
-        list: A list of matched entity pairs and their similarity scores.
-    """
-    matches = []
-    # Loop over g2 entities (columns), compare to phkg (rows)
-    for g2_entity in similarity_df.columns:
-        top_matches = similarity_df[g2_entity].nlargest(top_k)
-        for phkg_entity, sim in top_matches.items():
-            if sim >= threshold:
-                matches.append((phkg_entity, g2_entity, sim))
-    return matches
-
-
-# Perform the matching
-matched_entities = match_entities(
-    df_similarity_all,
-)
+matched_entities = match_entities(df_similarity_all)
+print("Matched entities:", len(matched_entities))
 
 final_result = []
-
-print("Matched entities:", len(matched_entities))
 for ent1, ent2, score in matched_entities:
     entity1_literals = traverse_graph_and_get_literals(phkg_graph, ent1)
     entity2_literals = traverse_graph_and_get_literals(g2, ent2)
-
-    # Convert to normal Python float
     score = float(score)
     score_str = str(score)
 
-    # Get the predicates from the subject
-    if str(ent1) in entity1_literals:
-        entity1_predicates = entity1_literals[str(ent1)]
-    else:
-        entity1_predicates = {}
-        
-    if str(ent2) in entity2_literals:
-        entity2_predicates = entity2_literals[str(ent2)]
-    else:
-        entity2_predicates = {}
-    
-    # Get all predicates from both entities to ensure consistent order
-    all_predicates = sorted(set(list(entity1_predicates.keys()) + list(entity2_predicates.keys())))
-    
-    # Create entity details with sorted predicates
+    entity1_predicates = entity1_literals.get(str(ent1), {})
+    entity2_predicates = entity2_literals.get(str(ent2), {})
+    all_predicates = sorted(set(entity1_predicates.keys()) | set(entity2_predicates.keys()))
+
     entity1_details = {
         "from": "phkg_graph",
         "subject": str(ent1),
-        "predicates": [
-            {
-                "predicate": pred,
-                "object": entity1_predicates.get(pred, "N/A")
-            }
-            for pred in all_predicates
-            if pred in entity1_predicates
-        ]
+        "predicates": [{"predicate": pred, "object": entity1_predicates.get(pred, "N/A")} for pred in all_predicates]
     }
-
     entity2_details = {
         "from": "g2",
         "subject": str(ent2),
-        "predicates": [
-            {
-                "predicate": pred,
-                "object": entity2_predicates.get(pred, "N/A")
-            }
-            for pred in all_predicates
-            if pred in entity2_predicates
-        ]
+        "predicates": [{"predicate": pred, "object": entity2_predicates.get(pred, "N/A")} for pred in all_predicates]
     }
 
-    duplication_type = (
-        "exact" if score >= 0.9 else "similar" if score >= 0.7 else "conflict"
-    )
+    duplication_type = "exact" if score >= 0.9 else "similar" if score >= 0.7 else "conflict"
+    final_result.append({
+        "entities": [
+            {"entity1": entity1_details},
+            {"entity2": entity2_details}
+        ],
+        "similarity_score": score_str,
+        "duplication_type": duplication_type
+    })
 
-    final_result.append(
-        {
-            "entities": [
-                {"entity1": entity1_details},
-                {"entity2": entity2_details}
-            ],
-            "similarity_score": score_str,
-            "duplication_type": duplication_type,
-        }
-    )
-    
 with open("revisedHackyg2.json", "w") as f:
     json.dump(final_result, f, indent=4)
 print("Final result saved to revisedHackyg2.json")
+
