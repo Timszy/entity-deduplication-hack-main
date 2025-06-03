@@ -17,9 +17,9 @@ import torch.nn.functional as F
 TEXT_MODEL = "paraphrase-multilingual-MiniLM-L12-v2"
 TEXT_DIM = 384
 THRESHOLD = 0.7
-NUM_EPOCHS = 350
+NUM_EPOCHS = 100
 GRAPH_MODEL = "DistMult"
-ALPHA = 0.25 # You can change this value to weight the text embedding (0.0 = is graph only)
+ALPHA = 0.5 # You can change this value to weight the text embedding (0.0 = is graph only)
 WEAK_PREDICATES = {"schema:identifier"}
 
 # =============================
@@ -106,6 +106,8 @@ def run_graph_embedding(triples_array):
         training_loop='slcwa',
         training_kwargs=dict(num_epochs=NUM_EPOCHS),
         evaluator_kwargs=dict(filtered=True),
+        batch_size=32,
+        random_seed=69
     )
     return result.model, triples_factory.entity_to_id
 
@@ -120,15 +122,37 @@ def get_hybrid_vector(entity, text_vec, graph_vec_dict):
 # =============================
 # ========= Matching ==========
 # =============================
-def match_entities(ids1, ids2, hybrid_vecs1, hybrid_vecs2):
+def match_entities(ids1, ids2, hybrid_vecs1, hybrid_vecs2, top_k=2):
+    """
+    Match entities from two sets of embedding‐vectors by taking the top_k 
+    candidates in each column of the similarity‐matrix, then filtering by threshold.
+
+    Args:
+        ids1 (List[str]):   List of entity IDs corresponding to hybrid_vecs1 (rows).
+        ids2 (List[str]):   List of entity IDs corresponding to hybrid_vecs2 (columns).
+        hybrid_vecs1 (ndarray):  Shape = (len(ids1), D)
+        hybrid_vecs2 (ndarray):  Shape = (len(ids2), D)
+        threshold (float):  Minimum cosine‐similarity to count as a “match.”
+        top_k (int):        How many top candidates per column to consider.
+
+    Returns:
+        List[Tuple[str, str, float]]:
+            Each tuple is (id_from_ids1, id_from_ids2, similarity_score),
+            where similarity_score ≥ threshold.  At most top_k matches are 
+            returned for each id in ids2.
+    """
     sim_matrix = cosine_similarity(hybrid_vecs1, hybrid_vecs2)
     df = pd.DataFrame(sim_matrix, index=ids1, columns=ids2)
     matches = []
-    for idx in df.index:
-        max_sim = df.loc[idx].max()
-        if max_sim >= THRESHOLD:
-            best_match = df.loc[idx].idxmax()
-            matches.append((idx, best_match, max_sim))
+    for g2_entity in df.columns:
+        #    a) Find the top_k rows (ids1) by similarity in this column
+        top_matches = df[g2_entity].nlargest(top_k)
+
+        #    b) Filter out any whose similarity < threshold
+        for phkg_entity, sim in top_matches.items():
+            if sim >= THRESHOLD:
+                matches.append((phkg_entity, g2_entity, sim))
+
     return matches
 
 # =============================
@@ -160,62 +184,76 @@ def main():
     hybrid_vecs1 = [get_hybrid_vector(e, t, graph_embeddings) for e, t in zip(ids1, text_vectors1)]
     hybrid_vecs2 = [get_hybrid_vector(e, t, graph_embeddings) for e, t in zip(ids2, text_vectors2)]
 
-    matches = match_entities(ids1, ids2, hybrid_vecs1, hybrid_vecs2)
+    matched_entities = match_entities(ids1, ids2, hybrid_vecs1, hybrid_vecs2)
     
     final_result = []
 
-    for ent1, ent2, score in matches:
-        # Get literals again to extract predicates (optional: enrich with actual content)
+    for ent1, ent2, score in matched_entities:
         entity1_literals = traverse_graph_and_get_literals(phkg_graph, ent1)
         entity2_literals = traverse_graph_and_get_literals(g2, ent2)
 
-        score_str = str(float(score))
+        # Convert to normal Python float
+        score = float(score)
+        score_str = str(score)
 
-        # Collect predicates (empty for now or basic if desired)
-        entity1_predicates = entity1_literals.get(str(ent1), {})
-        entity2_predicates = entity2_literals.get(str(ent2), {})
-
-        all_predicates = sorted(set(entity1_predicates.keys()) | set(entity2_predicates.keys()))
-
+        # Get the predicates from the subject
+        if str(ent1) in entity1_literals:
+            entity1_predicates = entity1_literals[str(ent1)]
+        else:
+            entity1_predicates = {}
+        
+        if str(ent2) in entity2_literals:
+            entity2_predicates = entity2_literals[str(ent2)]
+        else:
+            entity2_predicates = {}
+    
+        # Get all predicates from both entities to ensure consistent order
+        all_predicates = sorted(set(list(entity1_predicates.keys()) + list(entity2_predicates.keys())))
+    
+        # Create entity details with sorted predicates
         entity1_details = {
-            "from": "phkg_graph",
-            "subject": str(ent1),
-            "predicates": [
-                {
-                    "predicate": pred,
-                    "object": entity1_predicates.get(pred, "N/A")
-                }
-                for pred in all_predicates if pred in entity1_predicates
-            ]
+        "from": "phkg_graph",
+        "subject": str(ent1),
+        "predicates": [
+            {
+                "predicate": pred,
+                "object": entity1_predicates.get(pred, "N/A")
+            }
+            for pred in all_predicates
+            if pred in entity1_predicates
+        ]
         }
 
         entity2_details = {
-            "from": "g2",
-            "subject": str(ent2),
-            "predicates": [
-                {
-                    "predicate": pred,
-                    "object": entity2_predicates.get(pred, "N/A")
-                }
-                for pred in all_predicates if pred in entity2_predicates
-            ]
+        "from": "g2",
+        "subject": str(ent2),
+        "predicates": [
+            {
+                "predicate": pred,
+                "object": entity2_predicates.get(pred, "N/A")
+            }
+            for pred in all_predicates
+            if pred in entity2_predicates
+        ]
         }
 
         duplication_type = (
             "exact" if score >= 0.9 else "similar" if score >= 0.7 else "conflict"
         )
 
-        final_result.append({
+        final_result.append(
+        {
             "entities": [
                 {"entity1": entity1_details},
                 {"entity2": entity2_details}
             ],
             "similarity_score": score_str,
-            "duplication_type": duplication_type
-        })
+            "duplication_type": duplication_type,
+        }
+        )
 
-    with open("sen.json", "w") as f:
-        json.dump(final_result, f, indent=4)
+        with open("matches/sen.json", "w") as f:
+            json.dump(final_result, f, indent=4)
 
 if __name__ == "__main__":
     main()

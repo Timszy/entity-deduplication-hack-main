@@ -23,7 +23,7 @@ phkg_graph = g1 + master_graph
 alpha = 0.0 # You can change this value to weight the text embedding (0.0 = is graph only)
 text_dim = 384 # Dim for the all-MiniLM-L6-v2
 threshold = 0.5
-num_epochs = 500 # You can change it as you like
+num_epochs = 50 # You can change it as you like
 
 KNOWN_PREFIXES = [
     "ucum:",
