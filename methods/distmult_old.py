@@ -10,7 +10,6 @@ from pykeen.triples import TriplesFactory
 from rdflib.namespace import RDF
 from urllib.parse import urlparse
 import torch.nn.functional as F
-import re
 
 # =============================
 # ========= Configs ===========
@@ -18,9 +17,9 @@ import re
 TEXT_MODEL = "paraphrase-multilingual-MiniLM-L12-v2"
 TEXT_DIM = 384
 THRESHOLD = 0.7
-NUM_EPOCHS = 100
+NUM_EPOCHS = 350
 GRAPH_MODEL = "DistMult"
-ALPHA = 0.5 # You can change this value to weight the text embedding (0.0 = is graph only)
+ALPHA = 0.25 # You can change this value to weight the text embedding (0.0 = is graph only)
 WEAK_PREDICATES = {"schema:identifier"}
 
 # =============================
@@ -48,42 +47,11 @@ def extract_triples(graph):
 # =============================
 # ======= Handling text =======
 # =============================
-def camel_to_title(s: str) -> str:
-    """
-    Turn a camelCase (or mixedCase) string into Title Case.
-    Ex:
-      "jobTitle"  → "Job Title"
-      "birthDate" → "Birth Date"
-    """
-    # Insert a space between a lowercase letter and uppercase letter
-    spaced = re.sub(r"([a-z])([A-Z])", r"\1 \2", s)
-    return spaced.title()
-
-def get_human_label(curie: str) -> str:
-    """
-    Given something like "schema:jobTitle" or "ex:somePredicate",
-    split off the prefix (before ':') and turn the local-part into Title Case.
-    If there's no ":", just run the entire string through camel_to_title.
-    """
-    if ":" in curie:
-        _, local = curie.split(":", 1)
-    else:
-        local = curie
-    if local.startswith("[") and local.endswith("]"):
-        # If it's a list-like string, remove the brackets
-        local = local[1:-1]
-    return camel_to_title(local)
-
-def get_prefixed_predicate(uri: str) -> str:
-    """
-    If it's schema.org, return "schema:<local>",
-    else return the fragment or last path segment.
-    """
-    if uri.startswith(("http://schema.org/", "https://schema.org/")):
+def get_prefixed_predicate(uri):
+    if uri.startswith("http://schema.org/") or uri.startswith("https://schema.org/"):
         return "schema:" + uri.split("/")[-1]
     else:
-        frag = urlparse(uri).fragment
-        return frag if frag else uri.split("/")[-1]
+        return urlparse(uri).fragment or uri.split("/")[-1]
 
 def traverse_graph_and_get_literals(graph, subject) -> dict[str, dict[str, str]]:
     def traverse(subject, visited):
@@ -97,28 +65,16 @@ def traverse_graph_and_get_literals(graph, subject) -> dict[str, dict[str, str]]
             elif isinstance(obj, (rdflib.URIRef, rdflib.BNode)):
                 traverse(obj, visited)
         return visited
-
     return traverse(subject, {})
 
-def create_text_from_literals(subject_uri: str,
-                              literals: dict[str, dict[str, str]],
-                              graph: rdflib.Graph) -> str:
+def create_text_from_literals(subject_uri: str, literals: dict[str, dict[str, str]], graph: rdflib.Graph) -> str:
     parts = []
-    # 1) Show the rdf:type as "Type: <Human Label>."
     for o in graph.objects(rdflib.URIRef(subject_uri), RDF.type):
-        curie = get_prefixed_predicate(str(o))
-        human_type = get_human_label(curie)
-        parts.append(f"Type: {human_type}.")
+        parts.append(f"[{get_prefixed_predicate(str(o))}]")
         break
-
-    # 2) For each collected literal, replace "pred" with get_human_label(pred).
-    #    Previously you did: parts.append(f"{pred}: {val}")
-    #    Now do:          parts.append(f"{get_human_label(pred)}: {val}.")
     for _, preds in literals.items():
         for pred, val in preds.items():
-            human_pred = get_human_label(pred)
-            parts.append(f"{human_pred}: {val}.")
-
+            parts.append(f"{pred}: {val}")
     return " ".join(parts)
 
 def get_entity_texts(graph):
@@ -128,23 +84,13 @@ def get_entity_texts(graph):
             continue
         literals = traverse_graph_and_get_literals(graph, s)
         text = create_text_from_literals(str(s), literals, graph)
-
         type_label = None
         for o in graph.objects(rdflib.URIRef(s), RDF.type):
             type_label = get_prefixed_predicate(str(o))
             break
-
         if text and type_label:
-            texts[s] = (text, type_label)
-
+            texts[s] = text
     return texts
-
-
-def group_by_type(entity_dict):
-    grouped = {}
-    for entity, (text, typ) in entity_dict.items():
-        grouped.setdefault(typ, []).append((entity, text))
-    return grouped
 
 # =============================
 # ==== Code for the model =====
@@ -160,7 +106,6 @@ def run_graph_embedding(triples_array):
         training_loop='slcwa',
         training_kwargs=dict(num_epochs=NUM_EPOCHS),
         evaluator_kwargs=dict(filtered=True),
-        random_seed=69
     )
     return result.model, triples_factory.entity_to_id
 
@@ -175,37 +120,15 @@ def get_hybrid_vector(entity, text_vec, graph_vec_dict):
 # =============================
 # ========= Matching ==========
 # =============================
-def match_entities(ids1, ids2, hybrid_vecs1, hybrid_vecs2, top_k=2):
-    """
-    Match entities from two sets of embedding‐vectors by taking the top_k 
-    candidates in each column of the similarity‐matrix, then filtering by threshold.
-
-    Args:
-        ids1 (List[str]):   List of entity IDs corresponding to hybrid_vecs1 (rows).
-        ids2 (List[str]):   List of entity IDs corresponding to hybrid_vecs2 (columns).
-        hybrid_vecs1 (ndarray):  Shape = (len(ids1), D)
-        hybrid_vecs2 (ndarray):  Shape = (len(ids2), D)
-        threshold (float):  Minimum cosine‐similarity to count as a “match.”
-        top_k (int):        How many top candidates per column to consider.
-
-    Returns:
-        List[Tuple[str, str, float]]:
-            Each tuple is (id_from_ids1, id_from_ids2, similarity_score),
-            where similarity_score ≥ threshold.  At most top_k matches are 
-            returned for each id in ids2.
-    """
+def match_entities(ids1, ids2, hybrid_vecs1, hybrid_vecs2):
     sim_matrix = cosine_similarity(hybrid_vecs1, hybrid_vecs2)
     df = pd.DataFrame(sim_matrix, index=ids1, columns=ids2)
     matches = []
-    for g2_entity in df.columns:
-        #    a) Find the top_k rows (ids1) by similarity in this column
-        top_matches = df[g2_entity].nlargest(top_k)
-
-        #    b) Filter out any whose similarity < threshold
-        for phkg_entity, sim in top_matches.items():
-            if sim >= THRESHOLD:
-                matches.append((phkg_entity, g2_entity, sim))
-
+    for idx in df.index:
+        max_sim = df.loc[idx].max()
+        if max_sim >= THRESHOLD:
+            best_match = df.loc[idx].idxmax()
+            matches.append((idx, best_match, max_sim))
     return matches
 
 # =============================
@@ -237,76 +160,62 @@ def main():
     hybrid_vecs1 = [get_hybrid_vector(e, t, graph_embeddings) for e, t in zip(ids1, text_vectors1)]
     hybrid_vecs2 = [get_hybrid_vector(e, t, graph_embeddings) for e, t in zip(ids2, text_vectors2)]
 
-    matched_entities = match_entities(ids1, ids2, hybrid_vecs1, hybrid_vecs2)
+    matches = match_entities(ids1, ids2, hybrid_vecs1, hybrid_vecs2)
     
     final_result = []
 
-    for ent1, ent2, score in matched_entities:
+    for ent1, ent2, score in matches:
+        # Get literals again to extract predicates (optional: enrich with actual content)
         entity1_literals = traverse_graph_and_get_literals(phkg_graph, ent1)
         entity2_literals = traverse_graph_and_get_literals(g2, ent2)
 
-        # Convert to normal Python float
-        score = float(score)
-        score_str = str(score)
+        score_str = str(float(score))
 
-        # Get the predicates from the subject
-        if str(ent1) in entity1_literals:
-            entity1_predicates = entity1_literals[str(ent1)]
-        else:
-            entity1_predicates = {}
-        
-        if str(ent2) in entity2_literals:
-            entity2_predicates = entity2_literals[str(ent2)]
-        else:
-            entity2_predicates = {}
-    
-        # Get all predicates from both entities to ensure consistent order
-        all_predicates = sorted(set(list(entity1_predicates.keys()) + list(entity2_predicates.keys())))
-    
-        # Create entity details with sorted predicates
+        # Collect predicates (empty for now or basic if desired)
+        entity1_predicates = entity1_literals.get(str(ent1), {})
+        entity2_predicates = entity2_literals.get(str(ent2), {})
+
+        all_predicates = sorted(set(entity1_predicates.keys()) | set(entity2_predicates.keys()))
+
         entity1_details = {
-        "from": "phkg_graph",
-        "subject": str(ent1),
-        "predicates": [
-            {
-                "predicate": pred,
-                "object": entity1_predicates.get(pred, "N/A")
-            }
-            for pred in all_predicates
-            if pred in entity1_predicates
-        ]
+            "from": "phkg_graph",
+            "subject": str(ent1),
+            "predicates": [
+                {
+                    "predicate": pred,
+                    "object": entity1_predicates.get(pred, "N/A")
+                }
+                for pred in all_predicates if pred in entity1_predicates
+            ]
         }
 
         entity2_details = {
-        "from": "g2",
-        "subject": str(ent2),
-        "predicates": [
-            {
-                "predicate": pred,
-                "object": entity2_predicates.get(pred, "N/A")
-            }
-            for pred in all_predicates
-            if pred in entity2_predicates
-        ]
+            "from": "g2",
+            "subject": str(ent2),
+            "predicates": [
+                {
+                    "predicate": pred,
+                    "object": entity2_predicates.get(pred, "N/A")
+                }
+                for pred in all_predicates if pred in entity2_predicates
+            ]
         }
 
         duplication_type = (
             "exact" if score >= 0.9 else "similar" if score >= 0.7 else "conflict"
         )
 
-        final_result.append(
-        {
+        final_result.append({
             "entities": [
                 {"entity1": entity1_details},
                 {"entity2": entity2_details}
             ],
             "similarity_score": score_str,
-            "duplication_type": duplication_type,
-        }
-        )
+            "duplication_type": duplication_type
+        })
 
-        with open("matches/sen.json", "w") as f:
-            json.dump(final_result, f, indent=4)
+    with open("sen.json", "w") as f:
+        json.dump(final_result, f, indent=4)
 
 if __name__ == "__main__":
     main()

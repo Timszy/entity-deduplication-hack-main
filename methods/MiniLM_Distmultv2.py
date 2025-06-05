@@ -9,8 +9,10 @@ from pykeen.pipeline import pipeline
 from pykeen.triples import TriplesFactory
 from rdflib.namespace import RDF
 from urllib.parse import urlparse
+import torch
 import torch.nn.functional as F
 import re
+import difflib
 
 # =============================
 # ========= Configs ===========
@@ -18,7 +20,7 @@ import re
 TEXT_MODEL = "paraphrase-multilingual-MiniLM-L12-v2"
 TEXT_DIM = 384
 THRESHOLD = 0.7
-NUM_EPOCHS = 100
+NUM_EPOCHS = 40
 GRAPH_MODEL = "DistMult"
 ALPHA = 0.5 # You can change this value to weight the text embedding (0.0 = is graph only)
 WEAK_PREDICATES = {"schema:identifier"}
@@ -135,7 +137,7 @@ def get_entity_texts(graph):
             break
 
         if text and type_label:
-            texts[s] = (text, type_label)
+            texts[s] = (text)
 
     return texts
 
@@ -159,8 +161,8 @@ def run_graph_embedding(triples_array):
         model_kwargs=dict(embedding_dim=TEXT_DIM),
         training_loop='slcwa',
         training_kwargs=dict(num_epochs=NUM_EPOCHS),
-        evaluator_kwargs=dict(filtered=True),
-        random_seed=69
+        evaluator_kwargs=dict(filtered=True),    
+        
     )
     return result.model, triples_factory.entity_to_id
 
@@ -169,7 +171,9 @@ def run_graph_embedding(triples_array):
 # =============================
 def get_hybrid_vector(entity, text_vec, graph_vec_dict):
     graph_vec = graph_vec_dict.get(str(entity), np.zeros(TEXT_DIM))
-    text_vec = text_vec.cpu().numpy()
+    # Always flatten to 1D
+    text_vec = np.array(text_vec.cpu().numpy()).flatten()
+    graph_vec = np.array(graph_vec).flatten()
     return ALPHA * text_vec + (1 - ALPHA) * graph_vec
 
 # =============================
@@ -208,6 +212,10 @@ def match_entities(ids1, ids2, hybrid_vecs1, hybrid_vecs2, top_k=2):
 
     return matches
 
+# Post processing: filter out duplicates based on literal similarity
+def normalized_levenshtein(a, b):
+    return difflib.SequenceMatcher(None, a, b).ratio()
+
 # =============================
 # ========== Main =============
 # =============================
@@ -240,6 +248,7 @@ def main():
     matched_entities = match_entities(ids1, ids2, hybrid_vecs1, hybrid_vecs2)
     
     final_result = []
+    print("Matched entities:", len(matched_entities))
 
     for ent1, ent2, score in matched_entities:
         entity1_literals = traverse_graph_and_get_literals(phkg_graph, ent1)
@@ -304,9 +313,41 @@ def main():
             "duplication_type": duplication_type,
         }
         )
+        
+    LEVENSHTEIN_THRESHOLD = 0.63  # Adjust as needed
 
-        with open("matches/sen.json", "w") as f:
-            json.dump(final_result, f, indent=4)
+    filtered_result = []
+    for match in final_result:
+        entity1 = match["entities"][0]["entity1"]
+        entity2 = match["entities"][1]["entity2"]
+
+        # Only compare predicates that both entities have
+        preds1 = {p["predicate"]: p["object"] for p in entity1["predicates"] if p["object"] != "N/A"}
+        preds2 = {p["predicate"]: p["object"] for p in entity2["predicates"] if p["object"] != "N/A"}
+        common_preds = set(preds1.keys()) & set(preds2.keys())
+
+        if not common_preds:
+            continue
+
+        sim_scores = []
+        for pred in common_preds:
+            sim = normalized_levenshtein(str(preds1[pred]).lower(), str(preds2[pred]).lower())
+            sim_scores.append(sim)
+
+        avg_sim = sum(sim_scores) / len(sim_scores) if sim_scores else 0
+
+        if avg_sim >= LEVENSHTEIN_THRESHOLD:
+            filtered_result.append(match)
+
+    print(f"Filtered matches: {len(filtered_result)} (from {len(final_result)})")
+
+    with open("matches/DistMult_filtered.json", "w") as f:
+        json.dump(filtered_result, f, indent=4)
+    print("Filtered result saved to SentRevisedv3_filtered.json")    
 
 if __name__ == "__main__":
-    main()
+    main()        
+
+
+
+

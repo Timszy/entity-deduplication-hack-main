@@ -7,18 +7,23 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from node2vec import Node2Vec
 from typing import Dict
+from rdflib.namespace import RDF
+from urllib.parse import urlparse
 import time # Import time module
-from evaluate_helper import print_detailed_statistics
+import torch
+import torch.nn.functional as F
+import difflib
+import re
 
 
 # Load the RDF graphs
 g1 = rdflib.Graph()
-
+g2 = rdflib.Graph()
 master_graph = rdflib.Graph()
 
 # Replace 'graph1.rdf' and 'graph2.rdf' with the paths to your RDF files
 g1.parse("data/healthcare_graph_original_v2.ttl")
-
+g2.parse("data/prog_data/healthcare_graph_var_only.ttl")
 master_graph.parse("data/master_data.ttl")
 
 phkg_graph = g1 + master_graph
@@ -27,25 +32,14 @@ phkg_graph = g1 + master_graph
 algorithm_start_time = time.time()
 
 alpha = 0.5 # You can change this value to weight the text embedding (0.0 = is graph only)
-text_dim = 384 # Dim for the all-MiniLM-L6-v2
-threshold = 0.50 # Similarity threshold for matching
+text_dim = 384 
+threshold = 0.6 # Similarity threshold for matching
+model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
+WEAK_PREDICATES = {"schema:identifier"}
 
-KNOWN_PREFIXES = [
-    "ucum:",
-    "sphn-loinc:",
-    "snomed:",
-    "atc:",
-    "sphn-chop:",
-    "hgnc:",
-    "sphn-icd-10:",
-    "https://biomedit.ch/rdf/sphn-resource/ucum/",
-    "https://biomedit.ch/rdf/sphn-resource/loinc/",
-    "http://snomed.info/id/",
-    "https://www.whocc.no/atc_ddd_index/?code=",
-    "https://biomedit.ch/rdf/sphn-resource/chop/",
-    "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/",
-    "https://biomedit.ch/rdf/sphn-resource/icd-10-gm/",
-]
+# ---------------------------
+# Graph functions
+# ---------------------------
 
 # For graph embeddings
 # Convvert rdf to nx for the node2vec
@@ -64,81 +58,153 @@ def get_graph_embeddings(graph, dimensions=text_dim):
     model = node2vec.fit()
     embeddings = {node: model.wv[node] for node in model.wv.index_to_key}
     return embeddings
+# ---------------------------
+# Text Processing Functions
+# ---------------------------
 
-# For text embeddings
-def traverse_graph_and_get_literals(
-    graph, subject
-) -> Dict[str, Dict[str, str]]:
-    def traverse(
-        subject: rdflib.URIRef or rdflib.BNode, # type: ignore
-        visited: Dict[str, Dict[str, str]],
-    ):
+def camel_to_title(s: str) -> str:
+    """
+    Turn a camelCase (or mixedCase) string into Title Case.
+    Ex:
+      "jobTitle"  → "Job Title"
+      "birthDate" → "Birth Date"
+    """
+    # Insert a space between a lowercase letter and uppercase letter
+    spaced = re.sub(r"([a-z])([A-Z])", r"\1 \2", s)
+    return spaced.title()
+
+def get_human_label(curie: str) -> str:
+    """
+    Given something like "schema:jobTitle" or "ex:somePredicate",
+    split off the prefix (before ':') and turn the local-part into Title Case.
+    If there's no ":", just run the entire string through camel_to_title.
+    """
+    if ":" in curie:
+        _, local = curie.split(":", 1)
+    else:
+        local = curie
+    if local.startswith("[") and local.endswith("]"):
+        # If it's a list-like string, remove the brackets
+        local = local[1:-1]
+    return camel_to_title(local)
+
+def get_prefixed_predicate(uri: str) -> str:
+    """
+    If it's schema.org, return "schema:<local>",
+    else return the fragment or last path segment.
+    """
+    if uri.startswith(("http://schema.org/", "https://schema.org/")):
+        return "schema:" + uri.split("/")[-1]
+    else:
+        frag = urlparse(uri).fragment
+        return frag if frag else uri.split("/")[-1]
+
+def traverse_graph_and_get_literals(graph, subject) -> dict[str, dict[str, str]]:
+    def traverse(subject, visited):
         if str(subject) in visited:
             return visited
-
         visited[str(subject)] = {}
-
         for predicate, obj in graph.predicate_objects(subject):
-            if isinstance(obj, rdflib.Literal):
-                visited[str(subject)][str(predicate)] = str(obj)
-            elif isinstance(obj, rdflib.URIRef):
-                if any(str(obj).startswith(prefix) for prefix in KNOWN_PREFIXES):
-                    visited[str(subject)][str(predicate)] = str(obj)
-                else:
-                    traverse(obj, visited)
-            elif isinstance(obj, rdflib.BNode):
+            pred_str = get_prefixed_predicate(str(predicate))
+            if isinstance(obj, rdflib.Literal) and pred_str not in WEAK_PREDICATES:
+                visited[str(subject)][pred_str] = str(obj)
+            elif isinstance(obj, (rdflib.URIRef, rdflib.BNode)):
                 traverse(obj, visited)
-            else:
-                print(f"Unknown type: {type(obj)}")
-
         return visited
 
     return traverse(subject, {})
 
+def create_text_from_literals(subject_uri: str,
+                              literals: dict[str, dict[str, str]],
+                              graph: rdflib.Graph) -> str:
+    parts = []
+    # 1) Show the rdf:type as "Type: <Human Label>."
+    for o in graph.objects(rdflib.URIRef(subject_uri), RDF.type):
+        curie = get_prefixed_predicate(str(o))
+        human_type = get_human_label(curie)
+        parts.append(f"Type: {human_type}.")
+        break
 
-def create_text_from_literals(
-    literals: Dict[str, Dict[str, str]],
-) -> str:
-    return " ".join(
-        [
-            f"{subject} - {predicates} -> {literal}"
-            for subject, predicates in literals.items()
-            for literal in predicates.values()
-        ]
-    )
+    # 2) For each collected literal, replace "pred" with get_human_label(pred).
+    #    Previously you did: parts.append(f"{pred}: {val}")
+    #    Now do:          parts.append(f"{get_human_label(pred)}: {val}.")
+    for _, preds in literals.items():
+        for pred, val in preds.items():
+            human_pred = get_human_label(pred)
+            parts.append(f"{human_pred}: {val}.")
 
+    return " ".join(parts)
 
 def get_entity_texts(graph):
-    """
-    Extract entities and their textual descriptions from an RDF graph.
-
-    Args:
-        graph (rdflib.Graph): The RDF graph.
-
-    Returns:
-        dict: A dictionary mapping entities to their text descriptions.
-    """
-    entity_texts = {}
+    texts = {}
     for s in set(graph.subjects()):
-        # Skip blank nodes
-        if isinstance(s, rdflib.term.BNode):
+        if isinstance(s, rdflib.BNode):
             continue
+        literals = traverse_graph_and_get_literals(graph, s)
+        text = create_text_from_literals(str(s), literals, graph)
 
-        # Get labels and comments (you can include other properties if needed)
-        dict_literals = traverse_graph_and_get_literals(
-            graph, s
-        )
-        text = create_text_from_literals(dict_literals)
+        type_label = None
+        for o in graph.objects(rdflib.URIRef(s), RDF.type):
+            type_label = get_prefixed_predicate(str(o))
+            break
 
-        if text:
-            entity_texts[s] = text
+        if text and type_label:
+            texts[s] = (text, type_label)
 
-        print(f"Entity {s} with text: {text}")
+    return texts
 
-    return entity_texts
+
+def group_by_type(entity_dict):
+    grouped = {}
+    for entity, (text, typ) in entity_dict.items():
+        grouped.setdefault(typ, []).append((entity, text))
+    return grouped
+
+model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
+
+# Extract entities and group by type
+entity_texts1 = get_entity_texts(phkg_graph)
+entity_texts2 = get_entity_texts(g2)
+grouped1 = group_by_type(entity_texts1)
+grouped2 = group_by_type(entity_texts2)
+
+# Combine both graphs for graph embeddings
+print("Computing graph embeddings...")
+combined_graph = phkg_graph + g2
+graph_embeddings = get_graph_embeddings(combined_graph, dimensions=text_dim)
+
+def get_hybrid_vector(entity, text_vector):
+    graph_vector = graph_embeddings.get(str(entity), np.zeros(text_dim))
+    text_vector_np = text_vector.cpu().numpy()
+    return alpha * text_vector_np + (1 - alpha) * graph_vector
+
+all_matches = []
+for typ in set(grouped1) & set(grouped2):
+    ids1, texts1 = zip(*grouped1[typ])
+    ids2, texts2 = zip(*grouped2[typ])
+    
+    # Compute sentence embeddings
+    emb1 = model.encode(texts1, convert_to_tensor=True)
+    emb2 = model.encode(texts2, convert_to_tensor=True)
+    
+    # Get hybrid vectors for this type
+    hybrid_vecs1 = [get_hybrid_vector(e, t) for e, t in zip(ids1, emb1)]
+    hybrid_vecs2 = [get_hybrid_vector(e, t) for e, t in zip(ids2, emb2)]
+    
+    # Normalize
+    hybrid_vecs1 = F.normalize(torch.tensor(hybrid_vecs1), p=2, dim=1)
+    hybrid_vecs2 = F.normalize(torch.tensor(hybrid_vecs2), p=2, dim=1)
+    
+    # Compute cosine similarity
+    sim_matrix = cosine_similarity(hybrid_vecs1.cpu(), hybrid_vecs2.cpu())
+    df_sim = pd.DataFrame(sim_matrix, index=ids1, columns=ids2)
+    
+    all_matches.append(df_sim)
+
+df_similarity_all = pd.concat(all_matches)
 
 # Function to match entities based on similarity threshold
-def match_entities(similarity_df, threshold):
+def match_entities(similarity_df, threshold=0.7, top_k=2):
     """
     Match entities from two graphs based on similarity scores.
 
@@ -150,83 +216,19 @@ def match_entities(similarity_df, threshold):
         list: A list of matched entity pairs and their similarity scores.
     """
     matches = []
-    for idx in similarity_df.index:
-        # Get the most similar entity and its score
-        max_sim = similarity_df.loc[idx].max()
-        if max_sim >= threshold:
-            best_match = similarity_df.loc[idx].idxmax()
-            matches.append((idx, best_match, max_sim))
+    # Loop over g2 entities (columns), compare to phkg (rows)
+    for g2_entity in similarity_df.columns:
+        top_matches = similarity_df[g2_entity].nlargest(top_k)
+        for phkg_entity, sim in top_matches.items():
+            if sim >= threshold:
+                matches.append((phkg_entity, g2_entity, sim))
     return matches
 
-
-g2_paths = [
-    "data/prog_data/healthcare_graph_var_only.ttl",
-    "data/LLM_data/healthcareorganizations.ttl",
-    "data/LLM_data/servicedepartments.ttl",
-    "data/LLM_data/persons.ttl",
-]
-
-for g2_file in g2_paths:
-    print(f"\n--- Running on G2 = {g2_file} ---")
-    # 1) Load this iteration's g2
-    g2 = rdflib.Graph()
-    g2.parse(g2_file)
-
-    start = time.time()
-# Extract entities and texts from both graphs
-entity_texts1 = get_entity_texts(phkg_graph)
-entity_texts2 = get_entity_texts(g2)
-
-# Prepare the lists of texts for embedding
-texts1 = list(entity_texts1.values())
-texts2 = list(entity_texts2.values())
-ids1 = list(entity_texts1.keys())
-ids2 = list(entity_texts2.keys())
-
-# Load a pre-trained SentenceTransformer model
-model = SentenceTransformer("all-MiniLM-L6-v2")
-
-# Compute embeddings
-text_embeddings1 = model.encode(texts1, convert_to_tensor=True)
-text_embeddings2 = model.encode(texts2, convert_to_tensor=True)
-
-
-# For graph embeddings
-# Combine the two graphs 
-combined_graph = phkg_graph + g2
-graph_embeddings = get_graph_embeddings(combined_graph, dimensions=text_dim)
-
-# To get the ratio between the 2 embeddings 
-def get_hybrid_vector(entity, text_vector):
-    graph_vector = graph_embeddings.get(str(entity), np.zeros(text_dim))
-    text_vector_np = text_vector.cpu().numpy()  # Convert tensor to NumPy array on CPU
-    return alpha * text_vector_np + (1 - alpha) * graph_vector
-
-# Combine the two embeddings
-hybrid_vectors1 = [get_hybrid_vector(e, t) for e, t in zip(ids1, text_embeddings1)]
-hybrid_vectors2 = [get_hybrid_vector(e, t) for e, t in zip(ids2, text_embeddings2)]
-
-# Cosine similarity 
-similarity_matrix = cosine_similarity(hybrid_vectors1, hybrid_vectors2)
-
-# Convert similarity matrix to DataFrame for easier handling
-df_similarity = pd.DataFrame(
-    similarity_matrix,
-    index=entity_texts1.keys(),
-    columns=entity_texts2.keys(),
-)
-
-
-
+print("Matching entities based on similarity scores...")
 # Perform the matching
 matched_entities = match_entities(
-    df_similarity, threshold
+    df_similarity_all, threshold
 )
-
-# End timer for the algorithm
-runtime = time.time() - start
-
-
 
 final_result = []
 
@@ -294,70 +296,38 @@ for ent1, ent2, score in matched_entities:
         }
     )
 
-file_path = "matches/example_matches.json"
+# Post processing: filter out duplicates based on literal similarity
+def normalized_levenshtein(a, b):
+    return difflib.SequenceMatcher(None, a, b).ratio()
+print("Filtering matches based on predicate similarity...")
+LEVENSHTEIN_THRESHOLD = 0.63  # Adjust as needed
 
-with open(file_path, "w") as f:
-    json.dump(final_result, f, indent=4)
+filtered_result = []
+for match in final_result:
+    entity1 = match["entities"][0]["entity1"]
+    entity2 = match["entities"][1]["entity2"]
 
-total_amount_match = len(final_result)
-print(f"Total matches found: {len(final_result)}")
+    # Only compare predicates that both entities have
+    preds1 = {p["predicate"]: p["object"] for p in entity1["predicates"] if p["object"] != "N/A"}
+    preds2 = {p["predicate"]: p["object"] for p in entity2["predicates"] if p["object"] != "N/A"}
+    common_preds = set(preds1.keys()) & set(preds2.keys())
 
+    if not common_preds:
+        continue
 
-# --- Evaluation starts here ---
+    sim_scores = []
+    for pred in common_preds:
+        sim = normalized_levenshtein(str(preds1[pred]).lower(), str(preds2[pred]).lower())
+        sim_scores.append(sim)
 
-# # 1. Load the Golden Standard
-# try:
-#     golden_standard_df = pd.read_csv('data/prog_data/updated_golden_standard_duplicates.csv')
-# except FileNotFoundError:
-#     print("Error: Ground truth not found Exiting.")
-#     exit()
+    avg_sim = sum(sim_scores) / len(sim_scores) if sim_scores else 0
 
+    if avg_sim >= LEVENSHTEIN_THRESHOLD:
+        filtered_result.append(match)
 
-# # 2. Define Field Mapping
-# field_to_predicate_map = {
-#     "personName": "name", "birthDate": "birthDate", "knowsLanguage": "knowsLanguage", "gender": "gender",
-#     "email": "email", "jobTitle": "jobTitle",
-#     "city": "addressLocality", "postalCode": "postalCode", "country": "addressCountry", "text": "streetAddress",
-#     "healthcareOrganizationName": "name", "serviceDepartmentName": "name"
-# }
+print(f"Filtered matches: {len(filtered_result)} (from {len(final_result)})")
 
-# # 4. Create a results DataFrame for field-level evaluation
-# results_df = pd.DataFrame()
+with open("matches/Node2vec_filtered.json", "w") as f:
+    json.dump(filtered_result, f, indent=4)
+print("Filtered result saved to SentRevisedv3_filtered.json")
 
-# # Create a dummy results dataframe to use with print_detailed_statistics 
-# # This is a simplified approach since we don't have analyze_match_results function
-# try:
-#     # Try to load matches file
-#     with open(file_path, 'r') as f:
-#         matches_data = json.load(f)
-    
-#     print(f"\nSuccessfully loaded {len(matches_data)} entity matches from {file_path}")
-    
-#     # Print details about the matches for reference
-#     print(f"Number of matched entity pairs: {len(matches_data)}")
-    
-#     # Get field-level statistics directly using the available function
-#     stats_summary, variation_comparison = print_detailed_statistics(
-#         results_df, 
-#         golden_standard_df, 
-#         "Graph-Text Hybrid (Node2Vec)"
-#     )
-    
-#     # Store statistics in a JSON file
-#     collected_detailed_stats = {
-#         "Graph-Text Hybrid (Node2Vec)": {
-#             'summary_statistics': stats_summary,
-#             'variation_analysis': variation_comparison.to_dict() # Convert DataFrame to dict for JSON serialization
-#         }
-#     }
-    
-#     # Save collected detailed statistics to a JSON file
-#     output_stats_file = 'results/hybrid_node2vec_statistics.json'
-#     with open(output_stats_file, 'w') as f:
-#         json.dump(collected_detailed_stats, f, indent=4)
-#     print(f"\n--- Statistics saved to {output_stats_file} ---")
-
-# except Exception as e:
-#     print(f"Error processing match results: {e}")
-
-# print("\n--- Evaluation Script Finished ---")

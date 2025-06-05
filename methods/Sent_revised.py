@@ -10,6 +10,8 @@ from rdflib.namespace import RDF
 from urllib.parse import urlparse
 import time # Import time module
 import torch.nn.functional as F
+import difflib
+import re
 
 
 # Load the RDF graphs
@@ -30,27 +32,8 @@ model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
 WEAK_PREDICATES = {"schema:identifier"}
 
 # ---------------------------
-# Helpers
+# Text Processing Functions
 # ---------------------------
-import re
-import rdflib
-from urllib.parse import urlparse
-from rdflib.namespace import RDF
-
-# (Keep your existing definitions of WEAK_PREDICATES, etc.)
-
-WEAK_PREDICATES = {"schema:identifier"}  # example; adjust as needed
-
-
-import re
-import rdflib
-from urllib.parse import urlparse
-from rdflib.namespace import RDF
-
-# (Keep your existing definitions of WEAK_PREDICATES, etc.)
-
-WEAK_PREDICATES = {"schema:identifier"}  # example; adjust as needed
-
 def camel_to_title(s: str) -> str:
     """
     Turn a camelCase (or mixedCase) string into Title Case.
@@ -79,7 +62,7 @@ def get_human_label(curie: str) -> str:
 
 def get_prefixed_predicate(uri: str) -> str:
     """
-    As before: if it's schema.org, return "schema:<local>",
+    If it's schema.org, return "schema:<local>",
     else return the fragment or last path segment.
     """
     if uri.startswith(("http://schema.org/", "https://schema.org/")):
@@ -271,9 +254,6 @@ for ent1, ent2, score in matched_entities:
     )
 
 # Post processing: filter out duplicates based on literal similarity
-
-import difflib
-
 def normalized_levenshtein(a, b):
     return difflib.SequenceMatcher(None, a, b).ratio()
 
