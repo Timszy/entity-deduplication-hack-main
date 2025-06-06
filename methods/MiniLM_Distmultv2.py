@@ -33,7 +33,7 @@ def load_graph():
     g2 = rdflib.Graph()
     master_graph = rdflib.Graph()
     g1.parse("data/healthcare_graph_original_v2.ttl")
-    g2.parse("data/prog_data/healthcare_graph_var_only.ttl")
+    g2.parse("data/prog_data/healthcare_graph_progdups.ttl")
     master_graph.parse("data/master_data.ttl")
 
     phkg_graph = g1 + master_graph

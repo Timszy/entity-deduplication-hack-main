@@ -227,7 +227,7 @@ def match_entities(similarity_df, threshold=0.7, top_k=2):
 print("Matching entities based on similarity scores...")
 # Perform the matching
 matched_entities = match_entities(
-    df_similarity_all, threshold
+    df_similarity_all
 )
 
 final_result = []
