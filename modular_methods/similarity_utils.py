@@ -1,5 +1,5 @@
 # modular_methods/similarity_utils.py
-
+import re
 import torch
 import torch.nn.functional as F
 import pandas as pd
@@ -38,12 +38,25 @@ def normalized_levenshtein(a, b):
     """
     return difflib.SequenceMatcher(None, a, b).ratio()
 
-def Levenshtein_filter(matches, literals1, literals2, threshold=0.63):
+
+def get_acronym(s):
     """
-    Post-process entity matches by comparing their predicates using Levenshtein.
-    matches: list of (entity1, entity2, score)
-    literals1/literals2: dict from entity URI to predicate:value dict
-    Returns filtered matches.
+    Extracts an acronym from a string, e.g., 'Delgado, Guerrero and Simpson Zorg' -> 'DGSZ'
+    """
+    words = re.findall(r'\b\w', s)
+    return ''.join(words).upper()
+
+def literal_based_threshold(n_literals):
+    """
+    Return a threshold based on the number of common literals.
+    """
+    thresholds = {1: 0.4, 2: 0.55, 3: 0.7, 4: 0.8, 5: 0.85}
+    return thresholds.get(n_literals, 0.5)  # default to 0.65 if out of range
+
+def Levenshtein_filter_dynamic(matches, literals1, literals2, acronym_boost=0.95):
+    """
+    Post-process entity matches by comparing their predicates using Levenshtein and acronym matching.
+    Threshold is adjusted based on the number of literals in each entity (from 1 to 5).
     """
     filtered = []
     for ent1, ent2, score in matches:
@@ -52,11 +65,20 @@ def Levenshtein_filter(matches, literals1, literals2, threshold=0.63):
         common_preds = set(preds1.keys()) & set(preds2.keys())
         if not common_preds:
             continue
-        sim_scores = [
-            normalized_levenshtein(str(preds1[p]).lower(), str(preds2[p]).lower())
-            for p in common_preds
-        ]
+        sim_scores = []
+        for p in common_preds:
+            val1 = str(preds1[p]).lower()
+            val2 = str(preds2[p]).lower()
+            sim = normalized_levenshtein(val1, val2)
+            # Acronym check
+            acronym1 = get_acronym(val1)
+            acronym2 = get_acronym(val2)
+            if acronym1 == val2.replace(" ", "").upper() or acronym2 == val1.replace(" ", "").upper():
+                sim = max(sim, acronym_boost)
+            sim_scores.append(sim)
         avg_sim = sum(sim_scores) / len(sim_scores) if sim_scores else 0
+        n_literals = len(common_preds)
+        threshold = literal_based_threshold(n_literals)
         if avg_sim >= threshold:
-            filtered.append((ent1, ent2, score, avg_sim))
+            filtered.append((ent1, ent2, score, avg_sim, threshold))
     return filtered

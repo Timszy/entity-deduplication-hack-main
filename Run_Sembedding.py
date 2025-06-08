@@ -36,5 +36,5 @@ final_result = build_final_result(
     graph2_name="g2"
 )
 
-save_matches(final_result, "matches/SentenceEmbedding_filtered.json")
+save_matches(final_result, "matches/SentenceEmbedding_filterednew.json")
 
