@@ -51,9 +51,9 @@ def literal_based_threshold(n_literals):
     Return a threshold based on the number of common literals.
     """
     thresholds = {1: 0.4, 2: 0.55, 3: 0.7, 4: 0.8, 5: 0.85}
-    return thresholds.get(n_literals, 0.5)  # default to 0.65 if out of range
+    return thresholds.get(n_literals, 0.85)  # default to 0.65 if out of range
 
-def Levenshtein_filter_dynamic(matches, literals1, literals2, acronym_boost=0.95):
+def Levenshtein_filter(matches, literals1, literals2, acronym_boost=0.95):
     """
     Post-process entity matches by comparing their predicates using Levenshtein and acronym matching.
     Threshold is adjusted based on the number of literals in each entity (from 1 to 5).
