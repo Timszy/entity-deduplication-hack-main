@@ -21,7 +21,7 @@ matches = deduplicate_graphs(
     skg_graph=g2,
     embedding_model=model,
     use_hybrid=False,
-    threshold=0.7,
+    threshold=0.6,
     top_k=2,
     filter_literals=True,
 )

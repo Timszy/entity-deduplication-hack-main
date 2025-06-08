@@ -1,8 +1,8 @@
 import rdflib
 from sentence_transformers import SentenceTransformer
-from modular_methods.embedding_utils import get_graph_embeddings_Node2vec
+from modular_methods.embedding_utils import get_graph_embeddings_PyKEEN
 from modular_methods.dedup_pipeline import deduplicate_graphs, save_matches
-from modular_methods.output_utils import build_final_result  
+from modular_methods.output_utils import build_final_result
 
 # --- Load RDF graphs
 g1 = rdflib.Graph()
@@ -16,10 +16,10 @@ phkg_graph = g1 + master_graph
 # --- Sentence embedding model
 model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
 
-# --- Graph embeddings (Node2Vec)
-print("Computing graph embeddings...")
+# --- Graph embeddings (DistMult)
+print("Computing graph embeddings using DistMult...")
 combined_graph = phkg_graph + g2
-graph_embeddings = get_graph_embeddings_Node2vec(combined_graph, dimensions=384)
+graph_embeddings = get_graph_embeddings_PyKEEN(combined_graph, model ="DistMult", dimensions=384, num_epochs=60)
 
 # --- Deduplicate
 matches = deduplicate_graphs(
@@ -46,4 +46,4 @@ final_result = build_final_result(
 )
 
 # --- Save as JSON
-save_matches(final_result, "matches/HybridNode2Vec_filtered.json")
+save_matches(final_result, "matches/HybridDistMult_filtered.json")

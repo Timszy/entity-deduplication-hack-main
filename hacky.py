@@ -11,7 +11,7 @@ master_graph = rdflib.Graph()
 
 # Replace 'graph1.rdf' and 'graph2.rdf' with the paths to your RDF files
 g1.parse("data/healthcare_graph_original_v2.ttl")
-g2.parse("data/prog_data/healthcare_graph_var_only.ttl")
+g2.parse("data/prog_data/healthcare_graph_progdups.ttl")
 master_graph.parse("data/master_data.ttl")
 
 
