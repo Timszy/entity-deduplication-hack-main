@@ -1,0 +1,5 @@
+Run with model = TransE and alpha=[0.2, 0.35, 0.65, 0.8, 0.0] took 541.96 seconds
+Run with model = ComplEx and alpha=[0.2, 0.35, 0.65, 0.8, 0.0] took 788.71 seconds
+Run with model = DistMult and alpha=[0.2, 0.35, 0.65, 0.8, 0.0] took 513.78 seconds
+Run with model = Node2Vec and alpha=[0.2, 0.35, 0.65, 0.8, 0.0] took 645.88 seconds
+Run with model = LINE and alpha=[0.2, 0.35, 0.65, 0.8, 0.0] took 507.81 seconds

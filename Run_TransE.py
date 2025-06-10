@@ -3,6 +3,9 @@ from sentence_transformers import SentenceTransformer
 from modular_methods.embedding_utils import get_graph_embeddings_PyKEEN
 from modular_methods.dedup_pipeline import deduplicate_graphs, save_matches
 from modular_methods.output_utils import build_final_result
+import time
+
+start_time = time.time()
 
 # --- Load RDF graphs
 g1 = rdflib.Graph()
@@ -22,8 +25,7 @@ combined_graph = phkg_graph + g2
 graph_embeddings = get_graph_embeddings_PyKEEN(combined_graph, model="TransE", dimensions=384, num_epochs=60)
 
 # --- Run deduplication for multiple alpha values
-#alpha_values = [0.2, 0.35, 0.5, 0.65, 0.8]  # Change as needed
-alpha_values = [0.5]  # Example values for alpha
+alpha_values = [0.2, 0.35, 0.65, 0.8, 0.0] # Change as needed
 for alpha in alpha_values:
     print(f"Running deduplication with alpha={alpha}...")
     matches = deduplicate_graphs(
@@ -53,3 +55,11 @@ for alpha in alpha_values:
     output_path = f"matches/HybridTransE_alpha_{alpha}.json"
     save_matches(final_result, output_path)
     print(f"Saved matches to {output_path}")
+
+end_time = time.time()
+runtime = end_time - start_time
+print(f"Total runtime: {runtime:.2f} seconds")
+
+# Save runtime to file
+with open("runtimes.txt", "a") as f:
+    f.write(f"Run with model = TransE and alpha={alpha_values} took {runtime:.2f} seconds\n")

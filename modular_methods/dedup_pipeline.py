@@ -1,17 +1,19 @@
 # modular_methods/deduplication_pipeline.py
 
 import json
-
+import numpy as np
+import torch
+import torch.nn.functional as F
 from modular_methods.graphToText_utils import get_entity_texts, get_literals_for_entities, group_by_type, traverse_graph_and_get_literals
 from modular_methods.similarity_utils import compute_cosine_similarity, match_entities, Levenshtein_filter
-from modular_methods.embedding_utils import get_hybrid_vectorsNode2vec
+from modular_methods.embedding_utils import get_hybrid_vectors
 
 def deduplicate_graphs(
     phkg_graph,
     skg_graph,
     embedding_model,
     graph_embeddings=None,
-    use_hybrid=False,
+    use_hybrid = False,
     alpha=0.5,
     text_dim=384,
     threshold=0.7,
@@ -34,13 +36,12 @@ def deduplicate_graphs(
 
         # Hybrid vector logic
         if use_hybrid and graph_embeddings is not None:
-            import numpy as np
-            import torch
-            hybrid_vecs1 = get_hybrid_vectorsNode2vec(ids1, emb1, graph_embeddings, alpha=alpha, text_dim=text_dim)
-            hybrid_vecs2 = get_hybrid_vectorsNode2vec(ids2, emb2, graph_embeddings, alpha=alpha, text_dim=text_dim)
+            
+            hybrid_vecs1 = get_hybrid_vectors(ids1, emb1, graph_embeddings, alpha=alpha, text_dim=text_dim)
+            hybrid_vecs2 = get_hybrid_vectors(ids2, emb2, graph_embeddings, alpha=alpha, text_dim=text_dim)
             emb1 = torch.tensor(hybrid_vecs1)
             emb2 = torch.tensor(hybrid_vecs2)
-        import torch.nn.functional as F
+        
         emb1 = F.normalize(emb1, p=2, dim=1)
         emb2 = F.normalize(emb2, p=2, dim=1)
 

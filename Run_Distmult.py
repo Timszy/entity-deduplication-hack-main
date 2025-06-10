@@ -3,6 +3,9 @@ from sentence_transformers import SentenceTransformer
 from modular_methods.embedding_utils import get_graph_embeddings_PyKEEN
 from modular_methods.dedup_pipeline import deduplicate_graphs, save_matches
 from modular_methods.output_utils import build_final_result
+import time
+
+start_time = time.time()
 
 # --- Load RDF graphs
 g1 = rdflib.Graph()
@@ -21,29 +24,41 @@ print("Computing graph embeddings using DistMult...")
 combined_graph = phkg_graph + g2
 graph_embeddings = get_graph_embeddings_PyKEEN(combined_graph, model ="DistMult", dimensions=384, num_epochs=60)
 
-# --- Deduplicate
-matches = deduplicate_graphs(
-    phkg_graph=phkg_graph,
-    skg_graph=g2,
-    embedding_model=model,
-    graph_embeddings=graph_embeddings,
-    use_hybrid=True,
-    alpha=0.5,
-    text_dim=384,
-    threshold=0.6,
-    top_k=2,
-    filter_literals=True,
-)
-print(f"Found {len(matches)} filtered matches.")
+# --- Run deduplication for multiple alpha values
+alpha_values = [0.2, 0.35, 0.65, 0.8, 0.0]  # Change as needed
+for alpha in alpha_values:
+    matches = deduplicate_graphs(
+        phkg_graph=phkg_graph,
+        skg_graph=g2,
+        embedding_model=model,
+        graph_embeddings=graph_embeddings,
+        use_hybrid=True,
+        alpha=0.5,
+        text_dim=384,
+        threshold=0.6,
+        top_k=2,
+        filter_literals=True,
+    )
+    print(f"Found {len(matches)} filtered matches.")
 
-# --- Format result for output
-final_result = build_final_result(
-    matches,
-    phkg_graph,
-    g2,
-    graph1_name="phkg_graph",
-    graph2_name="g2"
-)
+    # --- Format result for output
+    final_result = build_final_result(
+        matches,
+        phkg_graph,
+        g2,
+        graph1_name="phkg_graph",
+        graph2_name="g2"
+    )
 
-# --- Save as JSON
-save_matches(final_result, "matches/HybridDistMult_filtered.json")
+    # --- Save as JSON
+    output_path = f"matches/HybridDistMult_alpha_{alpha}.json"
+    save_matches(final_result, output_path)
+    print(f"Saved matches to {output_path}")
+
+end_time = time.time()
+runtime = end_time - start_time
+print(f"Total runtime: {runtime:.2f} seconds")
+
+# Save runtime to file
+with open("runtimes.txt", "a") as f:
+    f.write(f"Run with model = DistMult and alpha={alpha_values} took {runtime:.2f} seconds\n")

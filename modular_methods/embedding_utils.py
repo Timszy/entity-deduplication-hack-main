@@ -1,4 +1,5 @@
 from node2vec import Node2Vec
+from karateclub import FirstOrderLINE
 import networkx as nx
 import numpy as np
 from pykeen.pipeline import pipeline
@@ -20,21 +21,40 @@ def get_graph_embeddings_Node2vec(graph, dimensions=384):
     embeddings = {node: model.wv[node] for node in model.wv.index_to_key}
     return embeddings
 
-def get_hybrid_vectorNode2vec(entity, text_vector, graph_embeddings, alpha=0.5, text_dim=384):
+def get_hybrid_vector(entity, text_vector, graph_embeddings, alpha=0.5, text_dim=384):
     """Return a single hybrid vector for one entity."""
     graph_vec = graph_embeddings.get(str(entity), np.zeros(text_dim))
     text_vec = np.array(text_vector.cpu().numpy()).flatten()
     graph_vec = np.array(graph_vec).flatten()
     return alpha * text_vec + (1 - alpha) * graph_vec
 
-def get_hybrid_vectorsNode2vec(entities, text_vectors, graph_embeddings, alpha=0.5, text_dim=384):
+def get_hybrid_vectors(entities, text_vectors, graph_embeddings, alpha=0.5, text_dim=384):
     """Return an array of hybrid vectors for a list of entities and their text vectors."""
     return np.array([
-        get_hybrid_vectorNode2vec(e, t, graph_embeddings, alpha=alpha, text_dim=text_dim)
+        get_hybrid_vector(e, t, graph_embeddings, alpha=alpha, text_dim=text_dim)
         for e, t in zip(entities, text_vectors)
     ])
 
 
+def get_graph_embeddings_LINE(graph, dimensions=384, epochs=60):
+    # Convert RDFLib graph to NetworkX graph as usual
+    G = nx.Graph()
+    for s, p, o in graph:
+        G.add_edge(str(s), str(o))  # Ensures nodes are strings
+
+    # Map node labels to integers
+    node2id = {node: idx for idx, node in enumerate(G.nodes())}
+    id2node = {idx: node for node, idx in node2id.items()}
+    G_int = nx.relabel_nodes(G, node2id)
+
+    # Karate Club expects integer node labels
+    
+    model = FirstOrderLINE(dimensions=dimensions, seed=69, epochs=epochs)
+    model.fit(G_int)
+
+    # Get embeddings and remap to original node labels
+    embeddings = model.get_embedding()  # shape: (num_nodes, dimensions)
+    return {id2node[idx]: emb for idx, emb in enumerate(embeddings)}
 
 def get_graph_embeddings_PyKEEN(graph, model, dimensions=384, num_epochs=60):
     triples = [
