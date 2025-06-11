@@ -1,5 +1,5 @@
 from node2vec import Node2Vec
-from karateclub import FirstOrderLINE
+from karateclub import FirstOrderLINE, DeepWalk, NetMF
 import networkx as nx
 import numpy as np
 from pykeen.pipeline import pipeline
@@ -55,6 +55,55 @@ def get_graph_embeddings_LINE(graph, dimensions=384, epochs=60):
     # Get embeddings and remap to original node labels
     embeddings = model.get_embedding()  # shape: (num_nodes, dimensions)
     return {id2node[idx]: emb for idx, emb in enumerate(embeddings)}
+
+
+from karateclub import DeepWalk
+import networkx as nx
+
+def get_graph_embeddings_DeepWalk(graph, dimensions=384, walk_length=2, num_walks=20):
+    # Convert RDFLib graph to NetworkX
+    G_nx = nx.Graph()
+    for s, p, o in graph:
+        G_nx.add_edge(str(s), str(o))
+    
+    # Relabel nodes as 0...N-1 integers and keep mapping
+    mapping = {node: idx for idx, node in enumerate(G_nx.nodes())}
+    inv_mapping = {idx: node for node, idx in mapping.items()}
+    G_int = nx.relabel_nodes(G_nx, mapping)
+    
+    model = DeepWalk(dimensions=dimensions, walk_length=walk_length, walk_number=num_walks)
+    model.fit(G_int)
+    embeddings = model.get_embedding()
+    
+    # Map embeddings back to original node labels
+    return {inv_mapping[idx]: emb for idx, emb in enumerate(embeddings)}
+
+
+
+from karateclub import NetMF
+import networkx as nx
+
+def get_graph_embeddings_NetMF(graph, dimensions=384):
+    # Convert RDFLib graph to NetworkX
+    G_nx = nx.Graph()
+    for s, p, o in graph:
+        G_nx.add_edge(str(s), str(o))
+    
+    # Relabel nodes as 0...N-1 integers and keep mapping
+    node_list = list(G_nx.nodes())
+    mapping = {node: idx for idx, node in enumerate(node_list)}
+    inv_mapping = {idx: node for node, idx in mapping.items()}
+    G_int = nx.relabel_nodes(G_nx, mapping)
+    
+    model = NetMF(dimensions=dimensions)
+    model.fit(G_int)
+    embeddings = model.get_embedding()
+    
+    # Critical: Use G_int.nodes() order to align embeddings with indices
+    ordered_nodes = list(G_int.nodes())
+    return {inv_mapping[idx]: embeddings[i] for i, idx in enumerate(ordered_nodes)}
+
+
 
 def get_graph_embeddings_PyKEEN(graph, model, dimensions=384, num_epochs=60):
     triples = [

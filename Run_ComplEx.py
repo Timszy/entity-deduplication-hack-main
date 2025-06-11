@@ -25,7 +25,7 @@ combined_graph = phkg_graph + g2
 graph_embeddings = get_graph_embeddings_PyKEEN(combined_graph, model ="ComplEx", dimensions=384, num_epochs=60)
 
 # --- Run deduplication for multiple alpha values
-alpha_values = [0.20, 0.35, 0.65, 0.80, 0.00]  # Change as needed
+alpha_values = [0.0, 0.2, 0.35, 0.5, 0.65, 0.8]  # Change as needed
 for alpha in alpha_values:
     matches = deduplicate_graphs(
         phkg_graph=phkg_graph,
@@ -33,7 +33,7 @@ for alpha in alpha_values:
         embedding_model=model,
         graph_embeddings=graph_embeddings,
         use_hybrid=True,
-        alpha=0.5,
+        alpha=alpha,
         text_dim=384,
         threshold=0.6,
         top_k=2,
