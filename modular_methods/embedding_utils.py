@@ -7,6 +7,11 @@ from pykeen.triples import TriplesFactory
 import numpy as np
 import rdflib
 
+# from pyrdf2vec import RDF2VecTransformer
+# from pyrdf2vec.embedders import Word2Vec
+# from pyrdf2vec.graphs import KG
+# from pyrdf2vec.walkers import RandomWalker
+
 def rdf_to_nx(graph):
     G = nx.Graph()
     for s, p, o in graph:
@@ -35,6 +40,22 @@ def get_hybrid_vectors(entities, text_vectors, graph_embeddings, alpha=0.5, text
         for e, t in zip(entities, text_vectors)
     ])
 
+# def get_graph_embeddings_rdf2vec(graph, entities=None, dimensions=200, max_depth=4, max_walks=100):
+   
+
+#     kg = KG()
+#     kg.from_rdflib(graph)
+
+#     if entities is None:
+#         # Get all unique URIRefs in the graph
+#         entities = list(set(str(s) for s in graph.subjects() if isinstance(s, rdflib.URIRef)))
+
+#     walker = RandomWalker(max_depth=max_depth, max_walks=max_walks)
+#     embedder = Word2Vec(vector_size=dimensions)
+#     runner = Runner(walkers=[walker], embedder=embedder)
+#     embeddings, _ = runner.fit_transform(kg, entities)
+#     # Map from entity URI to embedding vector
+#     return {uri: emb for uri, emb in zip(entities, embeddings)}
 
 def get_graph_embeddings_LINE(graph, dimensions=384, epochs=60):
     # Convert RDFLib graph to NetworkX graph as usual
