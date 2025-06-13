@@ -60,6 +60,8 @@ def deduplicate_graphs(
         literals2 = get_literals_for_entities(skg_graph, entities2)
         filtered = Levenshtein_filter(all_matches, literals1, literals2)
         print(f"Filtered matches after literal check: {len(filtered)}/ {len(all_matches)}")
+        
+
         return filtered
     # 4. Prepare final results
     else:
