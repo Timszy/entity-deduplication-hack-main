@@ -2168,7 +2168,7 @@
     schema:gender "Female"^^xsd:string ;
     schema:identifier "Person269"^^xsd:string ;
     schema:jobTitle "Renak Dietitian"^^xsd:string ;
-    schema:knowsLanguage "et"^^xsd:string ;
+    schema:knowsLanguage "Estonian"^^xsd:string ;
     schema:memberOf "Dep79"^^xsd:string ;
     schema:name "Melissa West"^^xsd:string ;
     schema:worksFor "HCO11"^^xsd:string .
@@ -2918,7 +2918,7 @@
     schema:gender "Male"^^xsd:string ;
     schema:identifier "Person336"^^xsd:string ;
     schema:jobTitle "GI Technician"^^xsd:string ;
-    schema:knowsLanguage "et"^^xsd:string ;
+    schema:knowsLanguage "Estonian"^^xsd:string ;
     schema:memberOf "Dep99"^^xsd:string ;
     schema:name "Theodore Gonzalez"^^xsd:string ;
     schema:worksFor "HCO13"^^xsd:string .

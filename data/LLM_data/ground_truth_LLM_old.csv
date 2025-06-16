@@ -864,22 +864,22 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 246,b4aeeccf-8757-4725-951f-7564f55126c9,birthDate,1986-06-16,16-06-1986,Birth Date Format Change,Person,Person247
 246,b4aeeccf-8757-4725-951f-7564f55126c9,birthDate,1986-06-16,,omission,Person,Person247
 247,976690be-d403-40bb-a870-633ead977ed1,jobTitle,GI Nurse,,omission,HealthcarePersonnel,Person248
-247,976690be-d403-40bb-a870-633ead977ed1,birthDate,1968-10-05,10-05-1968,Birth Date Format Change,Person,Person248
+247,976690be-d403-40bb-a870-633ead977ed1,birthDate,1968-10-05,10-05-1968,Date Format Changes,Person,Person248
 247,976690be-d403-40bb-a870-633ead977ed1,jobTitle,GI Nurse,GI uurse,Job Title Typo,HealthcarePersonnel,Person248
-248,abc42a9b-ed6b-4634-a2e8-ff22fcc37500,personName,Andrea Lewis,Lewis Andrea,Name Order Change,Person,Person249
+248,abc42a9b-ed6b-4634-a2e8-ff22fcc37500,personName,Andrea Lewis,Lewis Andrea,Name Order Changes,Person,Person249
 248,abc42a9b-ed6b-4634-a2e8-ff22fcc37500,jobTitle,Neurosurgeon,Neurosugreon,Job Title Typo,HealthcarePersonnel,Person249
 248,abc42a9b-ed6b-4634-a2e8-ff22fcc37500,email,andrealewis@healthcare.org,andrealecis@healthcare.org,Email Typo,HealthcarePersonnel,Person249
 248,abc42a9b-ed6b-4634-a2e8-ff22fcc37500,birthDate,1978-08-06,,omission,Person,Person249
 249,9dd6b565-ab32-4a34-bc39-653c67cde34e,knowsLanguage,et,,omission,Person,Person250
-249,9dd6b565-ab32-4a34-bc39-653c67cde34e,personName,Kayla Hernandez,Hernandez Kayla,Name Order Change,Person,Person250
+249,9dd6b565-ab32-4a34-bc39-653c67cde34e,personName,Kayla Hernandez,Hernandez Kayla,Name Order Changes,Person,Person250
 249,9dd6b565-ab32-4a34-bc39-653c67cde34e,jobTitle,Lab Technician,Lab Tehcnician,Job Title Typo,HealthcarePersonnel,Person250
 249,9dd6b565-ab32-4a34-bc39-653c67cde34e,email,kaylahernandez@healthcare.org,kaylahernaxdez@healthcare.org,Email Typo,HealthcarePersonnel,Person250
 250,9dd10b5c-444a-4860-9426-35bc708cd1b7,knowsLanguage,nl,,omission,Person,Person251
 250,9dd10b5c-444a-4860-9426-35bc708cd1b7,jobTitle,Medical Laboratory Scientist,Medical Laboratory Scientits,Job Title Typo,HealthcarePersonnel,Person251
-250,9dd10b5c-444a-4860-9426-35bc708cd1b7,personName,Daniel Parker,Parker Daniel,Name Order Change,Person,Person251
+250,9dd10b5c-444a-4860-9426-35bc708cd1b7,personName,Daniel Parker,Parker Daniel,Name Order Changes,Person,Person251
 251,f8adf3a3-c353-4bf5-8367-4b967fa5a7af,jobTitle,Gerontology Nurse,Gerontolgoy Nurse,Job Title Typo,HealthcarePersonnel,Person252
 251,f8adf3a3-c353-4bf5-8367-4b967fa5a7af,jobTitle,Gerontology Nurse,,omission,HealthcarePersonnel,Person252
-251,f8adf3a3-c353-4bf5-8367-4b967fa5a7af,birthDate,1984-04-29,1984-29-04,Birth Date Format Change,Person,Person252
+251,f8adf3a3-c353-4bf5-8367-4b967fa5a7af,birthDate,1984-04-29,1984-29-04,Date Format Changes,Person,Person252
 252,7c53fa9f-047a-4a05-8794-b23adee42457,jobTitle,Lab Technician,La bTechnician,Job Title Typo,HealthcarePersonnel,Person253
 252,7c53fa9f-047a-4a05-8794-b23adee42457,personName,Christine Morgan,Morgan Christine,Name Order Change,Person,Person253
 252,7c53fa9f-047a-4a05-8794-b23adee42457,email,christinemorgan@healthcare.org,chwistinemorgan@healthcare.org,Email Typo,HealthcarePersonnel,Person253
@@ -894,17 +894,17 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 254,19df697e-68f7-49c9-87a9-35f1cd8ed7a4,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person255
 254,19df697e-68f7-49c9-87a9-35f1cd8ed7a4,personName,Amy Coleman,Coleman Amy,Name Order Change,Person,Person255
 254,19df697e-68f7-49c9-87a9-35f1cd8ed7a4,jobTitle,Urology Nurse,Urolog yNurse,Job Title Typo,HealthcarePersonnel,Person255
-255,8689c3e1-a530-4719-9f67-df3d15febd74,personName,Robert Moreno,R. Moreno,Name Abbreviation,Person,Person256
+255,8689c3e1-a530-4719-9f67-df3d15febd74,personName,Robert Moreno,R. Moreno,Name Abbreviations,Person,Person256
 255,8689c3e1-a530-4719-9f67-df3d15febd74,birthDate,1971-07-12,,omission,Person,Person256
 255,8689c3e1-a530-4719-9f67-df3d15febd74,email,robertmoreno@healthcare.org,roberomoreno@healthcare.org,Email Typo,HealthcarePersonnel,Person256
 256,73c94950-0b81-4fac-b68f-ea3bc571265e,email,corysilva@healthcare.org,corasilva@healthcare.org,Email Typo,HealthcarePersonnel,Person257
 256,73c94950-0b81-4fac-b68f-ea3bc571265e,email,corysilva@healthcare.org,,omission,HealthcarePersonnel,Person257
-256,73c94950-0b81-4fac-b68f-ea3bc571265e,personName,Cory Silva,C. Silva,Name Abbreviation,Person,Person257
+256,73c94950-0b81-4fac-b68f-ea3bc571265e,personName,Cory Silva,C. Silva,Name Abbreviations,Person,Person257
 257,272c8d9a-dde0-40fd-860f-9ce41e648872,jobTitle,GI Technician,IG Technician,Job Title Typo,HealthcarePersonnel,Person258
-257,272c8d9a-dde0-40fd-860f-9ce41e648872,personName,Ashley Clay,A. Clay,Name Abbreviation,Person,Person258
+257,272c8d9a-dde0-40fd-860f-9ce41e648872,personName,Ashley Clay,A. Clay,Name Abbreviations,Person,Person258
 257,272c8d9a-dde0-40fd-860f-9ce41e648872,email,ashleyclay@healthcare.org,asqleyclay@healthcare.org,Email Typo,HealthcarePersonnel,Person258
 257,272c8d9a-dde0-40fd-860f-9ce41e648872,jobTitle,GI Technician,,omission,HealthcarePersonnel,Person258
-258,c6dffbec-f5c6-42b3-9d1b-e5d1a754af15,personName,Norma Meyer,N. Meyer,Name Abbreviation,Person,Person259
+258,c6dffbec-f5c6-42b3-9d1b-e5d1a754af15,personName,Norma Meyer,N. Meyer,Name Abbreviations,Person,Person259
 258,c6dffbec-f5c6-42b3-9d1b-e5d1a754af15,jobTitle,Lab Technician,Lab Tehcnician,Job Title Typo,HealthcarePersonnel,Person259
 258,c6dffbec-f5c6-42b3-9d1b-e5d1a754af15,birthDate,1991-06-23,,omission,Person,Person259
 259,d0a9ffdd-adc0-4566-bcfc-4ead213e85ea,email,katherineford@healthcare.org,,omission,HealthcarePersonnel,Person260
@@ -912,7 +912,7 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 259,d0a9ffdd-adc0-4566-bcfc-4ead213e85ea,email,katherineford@healthcare.org,katherinefold@healthcare.org,Email Typo,HealthcarePersonnel,Person260
 259,d0a9ffdd-adc0-4566-bcfc-4ead213e85ea,personName,Katherine Ford,Ford Katherine,Name Order Change,Person,Person260
 260,2d892ff4-5fc9-4fa2-afff-00ba282edf05,knowsLanguage,et,,omission,Person,Person261
-260,2d892ff4-5fc9-4fa2-afff-00ba282edf05,personName,Martha Williams,M. Williams,Name Abbreviation,Person,Person261
+260,2d892ff4-5fc9-4fa2-afff-00ba282edf05,personName,Martha Williams,M. Williams,Name Abbreviations,Person,Person261
 260,2d892ff4-5fc9-4fa2-afff-00ba282edf05,email,marthawilliams@healthcare.org,marbhawilliams@healthcare.org,Email Typo,HealthcarePersonnel,Person261
 261,e406f209-a9f0-4788-af07-722aeb5b2c3f,email,barrypeters@healthcare.org,barrgpeters@healthcare.org,Email Typo,HealthcarePersonnel,Person262
 261,e406f209-a9f0-4788-af07-722aeb5b2c3f,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person262
@@ -924,12 +924,12 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 262,aef4aba0-e3da-4b62-a2e7-7b33798dd9c8,email,gloriapetersen@healthcare.org,gloriapetedsen@healthcare.org,Email Typo,HealthcarePersonnel,Person263
 263,b3893bc7-ba14-4beb-881b-7b308377d3b8,jobTitle,Geriatrician,Gerkatrician,Job Title Typo,HealthcarePersonnel,Person264
 263,b3893bc7-ba14-4beb-881b-7b308377d3b8,birthDate,1996-06-07,,omission,Person,Person264
-263,b3893bc7-ba14-4beb-881b-7b308377d3b8,birthDate,1996-06-07,06-07-1996,Birth Date Format Change,Person,Person264
+263,b3893bc7-ba14-4beb-881b-7b308377d3b8,birthDate,1996-06-07,06-07-1996,Date Format Changes,Person,Person264
 264,e0c14dc9-fcc1-40cb-9e3d-55da9fd1f598,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person265
 264,e0c14dc9-fcc1-40cb-9e3d-55da9fd1f598,personName,Dawn Conner,Conner Dawn,Name Order Change,Person,Person265
 264,e0c14dc9-fcc1-40cb-9e3d-55da9fd1f598,email,dawnconner@healthcare.org,dawnconnqr@healthcare.org,Email Typo,HealthcarePersonnel,Person265
 264,e0c14dc9-fcc1-40cb-9e3d-55da9fd1f598,knowsLanguage,nl,,omission,Person,Person265
-265,e31e6208-dec9-417a-a7e7-150a8b2dfdbf,personName,Tammy Brooks,Brooks Tammy,Name Order Change,Person,Person266
+265,e31e6208-dec9-417a-a7e7-150a8b2dfdbf,personName,Tammy Brooks,Brooks Tammy,Name Order Changes,Person,Person266
 265,e31e6208-dec9-417a-a7e7-150a8b2dfdbf,jobTitle,Obstetrics Technician,Obstetrics Teyhnician,Job Title Typo,HealthcarePersonnel,Person266
 265,e31e6208-dec9-417a-a7e7-150a8b2dfdbf,jobTitle,Obstetrics Technician,,omission,HealthcarePersonnel,Person266
 266,db6f5979-8712-4a1a-863a-5240b3a560cb,email,nataliebishop@healthcare.org,,omission,HealthcarePersonnel,Person267
@@ -940,19 +940,19 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 267,39452a51-fae8-4ab6-9057-799e786b7728,jobTitle,Elderly Care Specialist,Elderly CareoSpecialist,Job Title Typo,HealthcarePersonnel,Person268
 267,39452a51-fae8-4ab6-9057-799e786b7728,personName,Carol Williams,C. Williams,Name Abbreviation,Person,Person268
 268,5ff5fcc7-1bb9-403e-9cd0-fc8f91b7bcd5,email,melissawest@healthcare.org,,omission,HealthcarePersonnel,Person269
-268,5ff5fcc7-1bb9-403e-9cd0-fc8f91b7bcd5,knowsLanguage,et,Estonian,Language Representation Change,Person,Person269
+268,5ff5fcc7-1bb9-403e-9cd0-fc8f91b7bcd5,knowsLanguage,et,et,Language Abbreviation Expansion,Person,Person269
 268,5ff5fcc7-1bb9-403e-9cd0-fc8f91b7bcd5,jobTitle,Renal Dietitian,Renak Dietitian,Job Title Typo,HealthcarePersonnel,Person269
 269,8713ac25-92b7-453a-a6f0-2c466402123c,jobTitle,Dialysis Nurse,,omission,HealthcarePersonnel,Person270
-269,8713ac25-92b7-453a-a6f0-2c466402123c,birthDate,1971-02-05,02-05-1971,Birth Date Format Change,Person,Person270
+269,8713ac25-92b7-453a-a6f0-2c466402123c,birthDate,1971-02-05,02-05-1971,Date Format Changes,Person,Person270
 269,8713ac25-92b7-453a-a6f0-2c466402123c,email,josephbrown@healthcare.org,jofephbrown@healthcare.org,Email Typo,HealthcarePersonnel,Person270
 270,301bba93-ec69-4d2a-9428-dde8caf5e924,jobTitle,Midwife,Mdiwife,Job Title Typo,HealthcarePersonnel,Person271
-270,301bba93-ec69-4d2a-9428-dde8caf5e924,personName,Victoria Ward,V. Ward,Name Abbreviation,Person,Person271
+270,301bba93-ec69-4d2a-9428-dde8caf5e924,personName,Victoria Ward,V. Ward,Name Abbreviations,Person,Person271
 270,301bba93-ec69-4d2a-9428-dde8caf5e924,email,victoriaward@healthcare.org,,omission,HealthcarePersonnel,Person271
 270,301bba93-ec69-4d2a-9428-dde8caf5e924,email,victoriaward@healthcare.org,vyctoriaward@healthcare.org,Email Typo,HealthcarePersonnel,Person271
-271,247b7b4d-a46d-4d05-bed3-bac6711dafe3,birthDate,1988-09-17,1988-17-09,Birth Date Format Change,Person,Person272
+271,247b7b4d-a46d-4d05-bed3-bac6711dafe3,birthDate,1988-09-17,1988-17-09,Date Format Changes,Person,Person272
 271,247b7b4d-a46d-4d05-bed3-bac6711dafe3,knowsLanguage,nl,,omission,Person,Person272
 271,247b7b4d-a46d-4d05-bed3-bac6711dafe3,jobTitle,Midwife,Midwwfe,Job Title Typo,HealthcarePersonnel,Person272
-272,f83d71b2-c4ab-4769-b7c6-ea792e53c210,personName,Henry Banks,H. Banks,Name Abbreviation,Person,Person273
+272,f83d71b2-c4ab-4769-b7c6-ea792e53c210,personName,Henry Banks,H. Banks,Name Abbreviations,Person,Person273
 272,f83d71b2-c4ab-4769-b7c6-ea792e53c210,email,henrybanks@healthcare.org,hlnrybanks@healthcare.org,Email Typo,HealthcarePersonnel,Person273
 272,f83d71b2-c4ab-4769-b7c6-ea792e53c210,jobTitle,Neurologist,Nuerologist,Job Title Typo,HealthcarePersonnel,Person273
 272,f83d71b2-c4ab-4769-b7c6-ea792e53c210,jobTitle,Neurologist,,omission,HealthcarePersonnel,Person273
@@ -961,24 +961,24 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 273,4f1728e0-a481-4fc5-95d8-3d89694241b7,jobTitle,EEG Technician,,omission,HealthcarePersonnel,Person274
 273,4f1728e0-a481-4fc5-95d8-3d89694241b7,jobTitle,EEG Technician,EEG Technicina,Job Title Typo,HealthcarePersonnel,Person274
 274,7600c884-fea7-4d63-8522-66ba0f493112,jobTitle,Renal Dietitian,Renal Dietitiun,Job Title Typo,HealthcarePersonnel,Person275
-274,7600c884-fea7-4d63-8522-66ba0f493112,personName,Megan Fisher,Fisher Megan,Name Order Change,Person,Person275
+274,7600c884-fea7-4d63-8522-66ba0f493112,personName,Megan Fisher,Fisher Megan,Name Order Changes,Person,Person275
 274,7600c884-fea7-4d63-8522-66ba0f493112,email,meganfisher@healthcare.org,,omission,HealthcarePersonnel,Person275
 275,84963570-b411-4eaf-ad72-65db081f7d48,jobTitle,Doula,Dousa,Job Title Typo,HealthcarePersonnel,Person276
 275,84963570-b411-4eaf-ad72-65db081f7d48,personName,Kenneth Glover,Glover Kenneth,Name Order Change,Person,Person276
 275,84963570-b411-4eaf-ad72-65db081f7d48,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person276
 275,84963570-b411-4eaf-ad72-65db081f7d48,email,kennethglover@healthcare.org,,omission,HealthcarePersonnel,Person276
-276,f3e2e524-c957-4f90-8db9-b3a77f4d6993,knowsLanguage,et,Estonian,Language Representation Change,Person,Person277
+276,f3e2e524-c957-4f90-8db9-b3a77f4d6993,knowsLanguage,et,et,Language Abbreviation Expansion,Person,Person277
 276,f3e2e524-c957-4f90-8db9-b3a77f4d6993,jobTitle,Neurological Nurse,Neurological Nusre,Job Title Typo,HealthcarePersonnel,Person277
 276,f3e2e524-c957-4f90-8db9-b3a77f4d6993,email,dianawhite@healthcare.org,diaoawhite@healthcare.org,Email Typo,HealthcarePersonnel,Person277
 276,f3e2e524-c957-4f90-8db9-b3a77f4d6993,knowsLanguage,et,,omission,Person,Person277
 277,7bdc806d-ee19-4849-b6df-59df3569db32,jobTitle,Renal Dietitian,RenalD ietitian,Job Title Typo,HealthcarePersonnel,Person278
 277,7bdc806d-ee19-4849-b6df-59df3569db32,knowsLanguage,et,,omission,Person,Person278
-277,7bdc806d-ee19-4849-b6df-59df3569db32,knowsLanguage,et,Estonian,Language Representation Change,Person,Person278
+277,7bdc806d-ee19-4849-b6df-59df3569db32,knowsLanguage,et,et,Language Abbreviation Expansion,Person,Person278
 278,0d9a6fd6-a9f2-4214-ba34-ab5f24ae704b,jobTitle,Obstetrics Technician,,omission,HealthcarePersonnel,Person279
 278,0d9a6fd6-a9f2-4214-ba34-ab5f24ae704b,jobTitle,Obstetrics Technician,Obstetrico Technician,Job Title Typo,HealthcarePersonnel,Person279
-278,0d9a6fd6-a9f2-4214-ba34-ab5f24ae704b,personName,Rachel Williams,Williams Rachel,Name Order Change,Person,Person279
+278,0d9a6fd6-a9f2-4214-ba34-ab5f24ae704b,personName,Rachel Williams,Williams Rachel,Name Order Changes,Person,Person279
 279,7e386c41-5005-418f-a370-2a781e3dd927,email,terryhughes@healthcare.org,terryhugmes@healthcare.org,Email Typo,HealthcarePersonnel,Person280
-279,7e386c41-5005-418f-a370-2a781e3dd927,personName,Terry Hughes,T. Hughes,Name Abbreviation,Person,Person280
+279,7e386c41-5005-418f-a370-2a781e3dd927,personName,Terry Hughes,T. Hughes,Name Abbreviations,Person,Person280
 279,7e386c41-5005-418f-a370-2a781e3dd927,jobTitle,Gynecologist,,omission,HealthcarePersonnel,Person280
 279,7e386c41-5005-418f-a370-2a781e3dd927,jobTitle,Gynecologist,Gyneoclogist,Job Title Typo,HealthcarePersonnel,Person280
 280,fe362397-6bc2-4163-9369-32fcec1c4d5c,knowsLanguage,de,German,Language Representation Change,Person,Person281
@@ -993,7 +993,7 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 281,183e587b-36c1-46af-8991-161229a5b4de,jobTitle,Community Outreach Specialist,,omission,HealthcarePersonnel,Person282
 282,2789e561-747a-439a-aadf-28328271b43b,jobTitle,Orthopedic Surgeon,Orthopedic Surgeon,Job Title Typo,HealthcarePersonnel,Person283
 282,2789e561-747a-439a-aadf-28328271b43b,knowsLanguage,nl,,omission,Person,Person283
-282,2789e561-747a-439a-aadf-28328271b43b,personName,Gabriella Padilla,G. Padilla,Name Abbreviation,Person,Person283
+282,2789e561-747a-439a-aadf-28328271b43b,personName,Gabriella Padilla,G. Padilla,Name Abbreviations,Person,Person283
 283,d4c870f7-7ee4-47d1-b089-8ec85d1bbcaa,personName,Carrie Oneill,Oneill Carrie,Name Order Change,Person,Person284
 283,d4c870f7-7ee4-47d1-b089-8ec85d1bbcaa,knowsLanguage,de,,omission,Person,Person284
 283,d4c870f7-7ee4-47d1-b089-8ec85d1bbcaa,email,carrieoneill@healthcare.org,carriehneill@healthcare.org,Email Typo,HealthcarePersonnel,Person284
@@ -1008,10 +1008,10 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 285,38c1608a-e634-4141-b569-90df6e2a2b5e,personName,Amanda Wilson,Wilson Amanda,Name Order Change,Person,Person286
 285,38c1608a-e634-4141-b569-90df6e2a2b5e,email,amandawilson@healthcare.org,abandawilson@healthcare.org,Email Typo,HealthcarePersonnel,Person286
 286,72686416-0a5b-412f-9796-88e7be6ea5f5,knowsLanguage,et,,omission,Person,Person287
-286,72686416-0a5b-412f-9796-88e7be6ea5f5,knowsLanguage,et,Estonian,Language Representation Change,Person,Person287
+286,72686416-0a5b-412f-9796-88e7be6ea5f5,knowsLanguage,et,et,Language Abbreviation Expansion,Person,Person287
 286,72686416-0a5b-412f-9796-88e7be6ea5f5,email,christophervasquez@healthcare.org,christophervysquez@healthcare.org,Email Typo,HealthcarePersonnel,Person287
 287,b691cc9f-466e-46fe-ab2c-eda8babe1086,email,taylorthornton@healthcare.org,tamlorthornton@healthcare.org,Email Typo,HealthcarePersonnel,Person288
-287,b691cc9f-466e-46fe-ab2c-eda8babe1086,personName,Taylor Thornton,Thornton Taylor,Name Order Change,Person,Person288
+287,b691cc9f-466e-46fe-ab2c-eda8babe1086,personName,Taylor Thornton,Thornton Taylor,Name Order Changes,Person,Person288
 287,b691cc9f-466e-46fe-ab2c-eda8babe1086,birthDate,1979-04-20,,omission,Person,Person288
 288,a3b0d6a0-95fc-4937-b72f-53188dd74323,personName,Brittany Bennett,B. Bennett,Name Abbreviation,Person,Person289
 288,a3b0d6a0-95fc-4937-b72f-53188dd74323,email,brittanybennett@healthcare.org,brittanybeneett@healthcare.org,Email Typo,HealthcarePersonnel,Person289
@@ -1019,10 +1019,10 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 288,a3b0d6a0-95fc-4937-b72f-53188dd74323,knowsLanguage,et,,omission,Person,Person289
 289,4ee7061c-ef69-45bb-93b6-f4f57f2acc18,birthDate,1961-05-22,,omission,Person,Person290
 289,4ee7061c-ef69-45bb-93b6-f4f57f2acc18,jobTitle,Environmental Health Officer,Eevironmental Health Officer,Job Title Typo,HealthcarePersonnel,Person290
-289,4ee7061c-ef69-45bb-93b6-f4f57f2acc18,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person290
+289,4ee7061c-ef69-45bb-93b6-f4f57f2acc18,knowsLanguage,nl,Dutch,Language Abbreviation Expansion,Person,Person290
 290,19831cdd-1adb-4087-a0d9-ba7a7caf256d,email,karamartin@healthcare.org,karadartin@healthcare.org,Email Typo,HealthcarePersonnel,Person291
 290,19831cdd-1adb-4087-a0d9-ba7a7caf256d,birthDate,1995-01-17,,omission,Person,Person291
-290,19831cdd-1adb-4087-a0d9-ba7a7caf256d,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person291
+290,19831cdd-1adb-4087-a0d9-ba7a7caf256d,knowsLanguage,nl,Dutch,Language Abbreviation Expansion,Person,Person291
 290,19831cdd-1adb-4087-a0d9-ba7a7caf256d,jobTitle,Midwife,iMdwife,Job Title Typo,HealthcarePersonnel,Person291
 291,30ddf93e-4ea0-40ff-a802-49a1dfa9bcf0,personName,Jeffery Russo,J. Russo,Name Abbreviation,Person,Person292
 291,30ddf93e-4ea0-40ff-a802-49a1dfa9bcf0,email,jefferyrusso@healthcare.org,jeffiryrusso@healthcare.org,Email Typo,HealthcarePersonnel,Person292
@@ -1033,7 +1033,7 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 292,ccda4a75-2a46-474d-a8eb-4f1a046f48fb,personName,Latoya Wright,Wright Latoya,Name Order Change,Person,Person293
 292,ccda4a75-2a46-474d-a8eb-4f1a046f48fb,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person293
 292,ccda4a75-2a46-474d-a8eb-4f1a046f48fb,email,latoyawright@healthcare.org,latkyawright@healthcare.org,Email Typo,HealthcarePersonnel,Person293
-293,b4eb1e34-302a-4879-a68b-ef2d33e10a93,birthDate,1998-11-13,1998-13-11,Birth Date Format Change,Person,Person294
+293,b4eb1e34-302a-4879-a68b-ef2d33e10a93,birthDate,1998-11-13,1998-13-11,Date Format Changes,Person,Person294
 293,b4eb1e34-302a-4879-a68b-ef2d33e10a93,knowsLanguage,nl,,omission,Person,Person294
 293,b4eb1e34-302a-4879-a68b-ef2d33e10a93,email,lorihill@healthcare.org,lorahill@healthcare.org,Email Typo,HealthcarePersonnel,Person294
 294,b8aa61fc-20ce-4104-a519-04dbd816a55f,birthDate,1971-04-13,,omission,Person,Person295
@@ -1046,11 +1046,11 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 295,a2e31f81-ae79-41c7-ad0f-3b815861c593,birthDate,1972-10-26,,omission,Person,Person296
 295,a2e31f81-ae79-41c7-ad0f-3b815861c593,personName,Jonathan Burton,J. Burton,Name Abbreviation,Person,Person296
 296,ad2c53ec-1bd5-4871-9053-78ae62b7e142,email,matthewsanders@healthcare.org,matthewsanders@healthcare.org,Email Typo,HealthcarePersonnel,Person297
-296,ad2c53ec-1bd5-4871-9053-78ae62b7e142,personName,Matthew Sanders,M. Sanders,Name Abbreviation,Person,Person297
+296,ad2c53ec-1bd5-4871-9053-78ae62b7e142,personName,Matthew Sanders,M. Sanders,Name Abbreviations,Person,Person297
 296,ad2c53ec-1bd5-4871-9053-78ae62b7e142,jobTitle,Dermatology Nurse,,omission,HealthcarePersonnel,Person297
 297,124823f6-b4b9-479b-9530-d3d5a5bbf30b,email,michaelmccall@healthcare.org,,omission,HealthcarePersonnel,Person298
 297,124823f6-b4b9-479b-9530-d3d5a5bbf30b,jobTitle,Skin Care Specialist,Skin Care Spceialist,Job Title Typo,HealthcarePersonnel,Person298
-297,124823f6-b4b9-479b-9530-d3d5a5bbf30b,personName,Michael Mccall,M. Mccall,Name Abbreviation,Person,Person298
+297,124823f6-b4b9-479b-9530-d3d5a5bbf30b,personName,Michael Mccall,M. Mccall,Name Abbreviations,Person,Person298
 298,0b874ce2-40b6-4017-b415-d3bf513f302c,email,garrettbarron@healthcare.org,garrettbarjon@healthcare.org,Email Typo,HealthcarePersonnel,Person299
 298,0b874ce2-40b6-4017-b415-d3bf513f302c,birthDate,1984-08-20,20-08-1984,Birth Date Format Change,Person,Person299
 298,0b874ce2-40b6-4017-b415-d3bf513f302c,email,garrettbarron@healthcare.org,,omission,HealthcarePersonnel,Person299
@@ -1078,10 +1078,10 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 303,68c299b1-7c38-4fb9-8c3a-19ffa930360c,personName,Christine Kim,C. Kim,Name Abbreviation,Person,Person304
 303,68c299b1-7c38-4fb9-8c3a-19ffa930360c,birthDate,1977-01-14,14-01-1977,Birth Date Format Change,Person,Person304
 304,8a93b888-38dc-46d0-919d-0c06429d52b5,jobTitle,Skin Care Specialist,Sikn Care Specialist,Job Title Typo,HealthcarePersonnel,Person305
-304,8a93b888-38dc-46d0-919d-0c06429d52b5,personName,Geoffrey Fritz,Fritz Geoffrey,Name Order Change,Person,Person305
+304,8a93b888-38dc-46d0-919d-0c06429d52b5,personName,Geoffrey Fritz,Fritz Geoffrey,Name Order Changes,Person,Person305
 304,8a93b888-38dc-46d0-919d-0c06429d52b5,jobTitle,Skin Care Specialist,,omission,HealthcarePersonnel,Person305
 305,3ff06e55-c418-4042-83ac-a4774254efad,jobTitle,GI Technician,GI Tehcnician,Job Title Typo,HealthcarePersonnel,Person306
-305,3ff06e55-c418-4042-83ac-a4774254efad,personName,Mr. Darius Graves,Graves Mr.,Name Order Change,Person,Person306
+305,3ff06e55-c418-4042-83ac-a4774254efad,personName,Mr. Darius Graves,Graves Mr.,Name Order Changes,Person,Person306
 305,3ff06e55-c418-4042-83ac-a4774254efad,email,mrdariusgraves@healthcare.org,mrdariungraves@healthcare.org,Email Typo,HealthcarePersonnel,Person306
 305,3ff06e55-c418-4042-83ac-a4774254efad,birthDate,1969-06-02,,omission,Person,Person306
 306,939b18f4-3010-471e-8da7-07b79030dc69,personName,Brittany Miller,Miller Brittany,Name Order Change,Person,Person307
@@ -1090,16 +1090,16 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 306,939b18f4-3010-471e-8da7-07b79030dc69,jobTitle,Gastroenterologist,Gastroenturologist,Job Title Typo,HealthcarePersonnel,Person307
 307,639240b8-a731-47c5-a983-dd62e2a87e3b,email,theresabrooks@healthcare.org,thvresabrooks@healthcare.org,Email Typo,HealthcarePersonnel,Person308
 307,639240b8-a731-47c5-a983-dd62e2a87e3b,jobTitle,Podiatrist,,omission,HealthcarePersonnel,Person308
-307,639240b8-a731-47c5-a983-dd62e2a87e3b,birthDate,1980-08-21,1980-21-08,Birth Date Format Change,Person,Person308
+307,639240b8-a731-47c5-a983-dd62e2a87e3b,birthDate,1980-08-21,1980-21-08,Date Format Changes,Person,Person308
 308,ecf3c7d9-62aa-4e2a-9234-46d16e5bc40a,jobTitle,Orthotic Specialist,Orthotic Sepcialist,Job Title Typo,HealthcarePersonnel,Person309
 308,ecf3c7d9-62aa-4e2a-9234-46d16e5bc40a,birthDate,1962-05-31,,omission,Person,Person309
 308,ecf3c7d9-62aa-4e2a-9234-46d16e5bc40a,personName,Debra Mccall,Mccall Debra,Name Order Change,Person,Person309
 308,ecf3c7d9-62aa-4e2a-9234-46d16e5bc40a,email,debramccall@healthcare.org,debramccawl@healthcare.org,Email Typo,HealthcarePersonnel,Person309
-309,42059378-c46d-484e-bc7a-c3c22f0ceb41,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person310
+309,42059378-c46d-484e-bc7a-c3c22f0ceb41,knowsLanguage,nl,Dutch,Language Abbreviation Expansion,Person,Person310
 309,42059378-c46d-484e-bc7a-c3c22f0ceb41,email,andrewnewton@healthcare.org,anvrewnewton@healthcare.org,Email Typo,HealthcarePersonnel,Person310
 309,42059378-c46d-484e-bc7a-c3c22f0ceb41,birthDate,1963-10-17,,omission,Person,Person310
 310,27429e56-f0fc-464a-b0b9-08df9b6f8426,jobTitle,Endocrine Nurse,Endocrine Nruse,Job Title Typo,HealthcarePersonnel,Person311
-310,27429e56-f0fc-464a-b0b9-08df9b6f8426,personName,Timothy Miles,T. Miles,Name Abbreviation,Person,Person311
+310,27429e56-f0fc-464a-b0b9-08df9b6f8426,personName,Timothy Miles,T. Miles,Name Abbreviations,Person,Person311
 310,27429e56-f0fc-464a-b0b9-08df9b6f8426,email,timothymiles@healthcare.org,timothemiles@healthcare.org,Email Typo,HealthcarePersonnel,Person311
 310,27429e56-f0fc-464a-b0b9-08df9b6f8426,email,timothymiles@healthcare.org,,omission,HealthcarePersonnel,Person311
 311,3e8a6ce6-4c52-4949-8324-8f55535de8cb,personName,Kevin Nguyen,Nguyen Kevin,Name Order Change,Person,Person312
@@ -1108,7 +1108,7 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 311,3e8a6ce6-4c52-4949-8324-8f55535de8cb,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person312
 311,3e8a6ce6-4c52-4949-8324-8f55535de8cb,email,kevinnguyen@healthcare.org,kevinnguyan@healthcare.org,Email Typo,HealthcarePersonnel,Person312
 312,cbba94e1-949e-4c09-9db8-f65d45eecba1,jobTitle,Physical Therapist,Paysical Therapist,Job Title Typo,HealthcarePersonnel,Person313
-312,cbba94e1-949e-4c09-9db8-f65d45eecba1,birthDate,1965-11-18,1965-18-11,Birth Date Format Change,Person,Person313
+312,cbba94e1-949e-4c09-9db8-f65d45eecba1,birthDate,1965-11-18,1965-18-11,Date Format Changes,Person,Person313
 312,cbba94e1-949e-4c09-9db8-f65d45eecba1,jobTitle,Physical Therapist,,omission,HealthcarePersonnel,Person313
 313,2fa0e8b1-1539-4133-99a7-7bc7fa024298,personName,Timothy Nash,Nash Timothy,Name Order Change,Person,Person314
 313,2fa0e8b1-1539-4133-99a7-7bc7fa024298,birthDate,1981-10-07,,omission,Person,Person314
@@ -1116,16 +1116,16 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 313,2fa0e8b1-1539-4133-99a7-7bc7fa024298,jobTitle,Endocrinologist,Endochinologist,Job Title Typo,HealthcarePersonnel,Person314
 313,2fa0e8b1-1539-4133-99a7-7bc7fa024298,birthDate,1981-10-07,07-10-1981,Birth Date Format Change,Person,Person314
 314,8151d388-6b6e-4b09-9859-5c2ff8a5392c,email,derrickflemingphd@healthcare.org,derripkflemingphd@healthcare.org,Email Typo,HealthcarePersonnel,Person315
-314,8151d388-6b6e-4b09-9859-5c2ff8a5392c,birthDate,1990-09-11,09-11-1990,Birth Date Format Change,Person,Person315
+314,8151d388-6b6e-4b09-9859-5c2ff8a5392c,birthDate,1990-09-11,09-11-1990,Date Format Changes,Person,Person315
 314,8151d388-6b6e-4b09-9859-5c2ff8a5392c,email,derrickflemingphd@healthcare.org,,omission,HealthcarePersonnel,Person315
 315,eb59d4df-ce21-454b-84c8-ead75bf38980,email,kennethfletcher@healthcare.org,kennethflptcher@healthcare.org,Email Typo,HealthcarePersonnel,Person316
 315,eb59d4df-ce21-454b-84c8-ead75bf38980,jobTitle,Gerontology Nurse,Gerotnology Nurse,Job Title Typo,HealthcarePersonnel,Person316
-315,eb59d4df-ce21-454b-84c8-ead75bf38980,personName,Kenneth Fletcher,Fletcher Kenneth,Name Order Change,Person,Person316
+315,eb59d4df-ce21-454b-84c8-ead75bf38980,personName,Kenneth Fletcher,Fletcher Kenneth,Name Order Changes,Person,Person316
 315,eb59d4df-ce21-454b-84c8-ead75bf38980,email,kennethfletcher@healthcare.org,,omission,HealthcarePersonnel,Person316
-316,f16af1e0-0876-41ea-be50-db2547deaf53,personName,Jeremiah Franco,J. Franco,Name Abbreviation,Person,Person317
+316,f16af1e0-0876-41ea-be50-db2547deaf53,personName,Jeremiah Franco,J. Franco,Name Abbreviations,Person,Person317
 316,f16af1e0-0876-41ea-be50-db2547deaf53,birthDate,1990-03-03,,omission,Person,Person317
 316,f16af1e0-0876-41ea-be50-db2547deaf53,email,jeremiahfranco@healthcare.org,jeremiahfrfnco@healthcare.org,Email Typo,HealthcarePersonnel,Person317
-317,82b96379-51bd-444e-803a-0b41ed1b9044,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person318
+317,82b96379-51bd-444e-803a-0b41ed1b9044,knowsLanguage,nl,Dutch,Language Abbreviation Expansion,Person,Person318
 317,82b96379-51bd-444e-803a-0b41ed1b9044,birthDate,1989-02-12,,omission,Person,Person318
 317,82b96379-51bd-444e-803a-0b41ed1b9044,email,collinfisher@healthcare.org,cwllinfisher@healthcare.org,Email Typo,HealthcarePersonnel,Person318
 318,6c68a5d4-9278-4e74-87a7-e214d3681e91,email,samuelmejia@healthcare.org,,omission,HealthcarePersonnel,Person319
@@ -1133,12 +1133,12 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 318,6c68a5d4-9278-4e74-87a7-e214d3681e91,birthDate,1971-09-13,13-09-1971,Birth Date Format Change,Person,Person319
 318,6c68a5d4-9278-4e74-87a7-e214d3681e91,personName,Samuel Mejia,S. Mejia,Name Abbreviation,Person,Person319
 318,6c68a5d4-9278-4e74-87a7-e214d3681e91,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person319
-319,50409aef-62c5-4b47-9885-40d3bfb483a5,personName,Richard Curtis,Curtis Richard,Name Order Change,Person,Person320
+319,50409aef-62c5-4b47-9885-40d3bfb483a5,personName,Richard Curtis,Curtis Richard,Name Order Changes,Person,Person320
 319,50409aef-62c5-4b47-9885-40d3bfb483a5,email,richardcurtis@healthcare.org,richardcbrtis@healthcare.org,Email Typo,HealthcarePersonnel,Person320
 319,50409aef-62c5-4b47-9885-40d3bfb483a5,knowsLanguage,de,,omission,Person,Person320
 320,cac92acb-72f1-4b08-a385-b123e82f47ca,jobTitle,GI Technician,GI Tecnhician,Job Title Typo,HealthcarePersonnel,Person321
 320,cac92acb-72f1-4b08-a385-b123e82f47ca,jobTitle,GI Technician,,omission,HealthcarePersonnel,Person321
-320,cac92acb-72f1-4b08-a385-b123e82f47ca,birthDate,1966-12-28,1966-28-12,Birth Date Format Change,Person,Person321
+320,cac92acb-72f1-4b08-a385-b123e82f47ca,birthDate,1966-12-28,1966-28-12,Date Format Changes,Person,Person321
 320,cac92acb-72f1-4b08-a385-b123e82f47ca,email,thomasadams@healthcare.org,thomaladams@healthcare.org,Email Typo,HealthcarePersonnel,Person321
 321,a86cfb38-0425-444f-9e27-15e8e46a5e4f,personName,Mario Bond,M. Bond,Name Abbreviation,Person,Person322
 321,a86cfb38-0425-444f-9e27-15e8e46a5e4f,email,mariobond@healthcare.org,mahiobond@healthcare.org,Email Typo,HealthcarePersonnel,Person322
@@ -1146,7 +1146,7 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 321,a86cfb38-0425-444f-9e27-15e8e46a5e4f,jobTitle,Hematologist,Hematologsit,Job Title Typo,HealthcarePersonnel,Person322
 322,fd1ec008-2575-4290-bfa6-65bfdff5199e,jobTitle,Hematologist,Hematoloigst,Job Title Typo,HealthcarePersonnel,Person323
 322,fd1ec008-2575-4290-bfa6-65bfdff5199e,jobTitle,Hematologist,,omission,HealthcarePersonnel,Person323
-322,fd1ec008-2575-4290-bfa6-65bfdff5199e,birthDate,1971-10-15,1971-15-10,Birth Date Format Change,Person,Person323
+322,fd1ec008-2575-4290-bfa6-65bfdff5199e,birthDate,1971-10-15,1971-15-10,Date Format Changes,Person,Person323
 323,4468f3b1-5ecb-479e-841c-76e28de031c4,birthDate,1971-11-06,06-11-1971,Birth Date Format Change,Person,Person324
 323,4468f3b1-5ecb-479e-841c-76e28de031c4,personName,Teresa Davis,T. Davis,Name Abbreviation,Person,Person324
 323,4468f3b1-5ecb-479e-841c-76e28de031c4,email,teresadavis@healthcare.org,teresaravis@healthcare.org,Email Typo,HealthcarePersonnel,Person324
@@ -1155,18 +1155,18 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 324,de858934-d4d9-48e9-99ec-d69b28d85e83,birthDate,1990-01-15,15-01-1990,Birth Date Format Change,Person,Person325
 324,de858934-d4d9-48e9-99ec-d69b28d85e83,email,matthewlyons@healthcare.org,,omission,HealthcarePersonnel,Person325
 324,de858934-d4d9-48e9-99ec-d69b28d85e83,personName,Matthew Lyons,M. Lyons,Name Abbreviation,Person,Person325
-325,7ff53d7d-b2f9-4c4f-89b6-c468195a84cb,personName,Amanda Williams,Williams Amanda,Name Order Change,Person,Person326
+325,7ff53d7d-b2f9-4c4f-89b6-c468195a84cb,personName,Amanda Williams,Williams Amanda,Name Order Changes,Person,Person326
 325,7ff53d7d-b2f9-4c4f-89b6-c468195a84cb,email,amandawilliams@healthcare.org,amandawilsiams@healthcare.org,Email Typo,HealthcarePersonnel,Person326
 325,7ff53d7d-b2f9-4c4f-89b6-c468195a84cb,birthDate,1977-09-08,,omission,Person,Person326
 326,a74d1f05-7685-47bf-b302-fba80feba96b,jobTitle,Gastroenterologist,Gsatroenterologist,Job Title Typo,HealthcarePersonnel,Person327
 326,a74d1f05-7685-47bf-b302-fba80feba96b,birthDate,1970-04-02,,omission,Person,Person327
-326,a74d1f05-7685-47bf-b302-fba80feba96b,birthDate,1970-04-02,04-02-1970,Birth Date Format Change,Person,Person327
+326,a74d1f05-7685-47bf-b302-fba80feba96b,birthDate,1970-04-02,04-02-1970,Date Format Changes,Person,Person327
 327,109ced8e-b455-4b19-9364-f2342f06ff0a,birthDate,1989-08-26,,omission,Person,Person328
-327,109ced8e-b455-4b19-9364-f2342f06ff0a,birthDate,1989-08-26,1989-26-08,Birth Date Format Change,Person,Person328
+327,109ced8e-b455-4b19-9364-f2342f06ff0a,birthDate,1989-08-26,1989-26-08,Date Format Changes,Person,Person328
 327,109ced8e-b455-4b19-9364-f2342f06ff0a,email,crystalalexander@healthcare.org,crystalalexayder@healthcare.org,Email Typo,HealthcarePersonnel,Person328
 327,109ced8e-b455-4b19-9364-f2342f06ff0a,jobTitle,Gastroenterologist,Gastroentreologist,Job Title Typo,HealthcarePersonnel,Person328
 328,bc9dfed6-f9dd-4e54-b345-284c7570d674,jobTitle,Blood Bank Technologist,,omission,HealthcarePersonnel,Person329
-328,bc9dfed6-f9dd-4e54-b345-284c7570d674,personName,Christopher Flores,Flores Christopher,Name Order Change,Person,Person329
+328,bc9dfed6-f9dd-4e54-b345-284c7570d674,personName,Christopher Flores,Flores Christopher,Name Order Changes,Person,Person329
 328,bc9dfed6-f9dd-4e54-b345-284c7570d674,jobTitle,Blood Bank Technologist,Blomd Bank Technologist,Job Title Typo,HealthcarePersonnel,Person329
 329,3a98d017-c7de-4502-b74f-31a7726c928e,email,patriciawilson@healthcare.org,,omission,HealthcarePersonnel,Person330
 329,3a98d017-c7de-4502-b74f-31a7726c928e,jobTitle,Endocrine Nurse,Endocrine uNrse,Job Title Typo,HealthcarePersonnel,Person330
@@ -1185,7 +1185,7 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 331,5a34a8b2-0890-4c8c-8ea0-8ad8a7ae6797,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person332
 331,5a34a8b2-0890-4c8c-8ea0-8ad8a7ae6797,email,tinapreston@healthcare.org,,omission,HealthcarePersonnel,Person332
 332,ae7d843f-4a77-408b-8f2d-dd8d978bf1eb,email,brandytaylor@healthcare.org,brandytaylfr@healthcare.org,Email Typo,HealthcarePersonnel,Person333
-332,ae7d843f-4a77-408b-8f2d-dd8d978bf1eb,knowsLanguage,de,German,Language Representation Change,Person,Person333
+332,ae7d843f-4a77-408b-8f2d-dd8d978bf1eb,knowsLanguage,de,German,Language Abbreviation Expansion,Person,Person333
 332,ae7d843f-4a77-408b-8f2d-dd8d978bf1eb,knowsLanguage,de,,omission,Person,Person333
 333,d00fcb0d-ea12-4e96-a5cd-78ffa970cd01,jobTitle,Physical Therapist,,omission,HealthcarePersonnel,Person334
 333,d00fcb0d-ea12-4e96-a5cd-78ffa970cd01,email,joseward@healthcare.org,joyeward@healthcare.org,Email Typo,HealthcarePersonnel,Person334
@@ -1196,7 +1196,7 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 334,7efa37e7-5e14-4c4f-8d9b-598aec574e06,knowsLanguage,et,,omission,Person,Person335
 334,7efa37e7-5e14-4c4f-8d9b-598aec574e06,personName,Jacob Thomas,Thomas Jacob,Name Order Change,Person,Person335
 334,7efa37e7-5e14-4c4f-8d9b-598aec574e06,email,jacobthomas@healthcare.org,jacobthomws@healthcare.org,Email Typo,HealthcarePersonnel,Person335
-335,8be11555-18ca-43c2-beb4-66838641d7d2,knowsLanguage,et,Estonian,Language Representation Change,Person,Person336
+335,8be11555-18ca-43c2-beb4-66838641d7d2,knowsLanguage,et,et,Language Abbreviation Expansion,Person,Person336
 335,8be11555-18ca-43c2-beb4-66838641d7d2,birthDate,1970-03-26,,omission,Person,Person336
 335,8be11555-18ca-43c2-beb4-66838641d7d2,email,theodoregonzalez@healthcare.org,theodoregonzalez@healthcare.org,Email Typo,HealthcarePersonnel,Person336
 336,20ac63b0-1e4d-4282-8839-4b4e3a3a8822,jobTitle,Infectious Disease Specialist,Infectious Disease Specialiht,Job Title Typo,HealthcarePersonnel,Person337
@@ -1204,29 +1204,29 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 336,20ac63b0-1e4d-4282-8839-4b4e3a3a8822,birthDate,1987-08-09,09-08-1987,Birth Date Format Change,Person,Person337
 336,20ac63b0-1e4d-4282-8839-4b4e3a3a8822,email,tinamoore@healthcare.org,,omission,HealthcarePersonnel,Person337
 337,f84ba842-fea0-4909-bcbd-cccf2556cd2b,birthDate,1980-08-21,,omission,Person,Person338
-337,f84ba842-fea0-4909-bcbd-cccf2556cd2b,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person338
+337,f84ba842-fea0-4909-bcbd-cccf2556cd2b,knowsLanguage,nl,Dutch,Language Abbreviation Expansion,Person,Person338
 337,f84ba842-fea0-4909-bcbd-cccf2556cd2b,email,bettygonzalez@healthcare.org,betttgonzalez@healthcare.org,Email Typo,HealthcarePersonnel,Person338
 338,6487448e-5071-4329-b7ff-321c1a042905,knowsLanguage,de,German,Language Representation Change,Person,Person339
 338,6487448e-5071-4329-b7ff-321c1a042905,birthDate,1981-08-16,16-08-1981,Birth Date Format Change,Person,Person339
 338,6487448e-5071-4329-b7ff-321c1a042905,email,meghanhamilton@healthcare.org,megoanhamilton@healthcare.org,Email Typo,HealthcarePersonnel,Person339
 338,6487448e-5071-4329-b7ff-321c1a042905,personName,Meghan Hamilton,Hamilton Meghan,Name Order Change,Person,Person339
 338,6487448e-5071-4329-b7ff-321c1a042905,jobTitle,Communication Disorders Specialist,,omission,HealthcarePersonnel,Person339
-339,c3ce5418-c1c0-4b6d-beb5-c1ed28e1aacc,birthDate,1993-04-08,04-08-1993,Birth Date Format Change,Person,Person340
+339,c3ce5418-c1c0-4b6d-beb5-c1ed28e1aacc,birthDate,1993-04-08,04-08-1993,Date Format Changes,Person,Person340
 339,c3ce5418-c1c0-4b6d-beb5-c1ed28e1aacc,email,michaelsanchez@healthcare.org,michnelsanchez@healthcare.org,Email Typo,HealthcarePersonnel,Person340
 339,c3ce5418-c1c0-4b6d-beb5-c1ed28e1aacc,jobTitle,Speech Pathologist,,omission,HealthcarePersonnel,Person340
 340,a4d7c5eb-9fa3-44e5-b181-3e9814b0ed91,jobTitle,Pathologist,,omission,HealthcarePersonnel,Person341
 340,a4d7c5eb-9fa3-44e5-b181-3e9814b0ed91,jobTitle,Pathologist,Pathologift,Job Title Typo,HealthcarePersonnel,Person341
-340,a4d7c5eb-9fa3-44e5-b181-3e9814b0ed91,birthDate,1961-04-07,04-07-1961,Birth Date Format Change,Person,Person341
-341,b1866726-73da-452f-9d79-673c19838fed,personName,Todd Murphy,T. Murphy,Name Abbreviation,Person,Person342
+340,a4d7c5eb-9fa3-44e5-b181-3e9814b0ed91,birthDate,1961-04-07,04-07-1961,Date Format Changes,Person,Person341
+341,b1866726-73da-452f-9d79-673c19838fed,personName,Todd Murphy,T. Murphy,Name Abbreviations,Person,Person342
 341,b1866726-73da-452f-9d79-673c19838fed,birthDate,2000-03-24,,omission,Person,Person342
 341,b1866726-73da-452f-9d79-673c19838fed,jobTitle,Lab Technician,Lab Tcehnician,Job Title Typo,HealthcarePersonnel,Person342
 341,b1866726-73da-452f-9d79-673c19838fed,email,toddmurphy@healthcare.org,toddmurpty@healthcare.org,Email Typo,HealthcarePersonnel,Person342
-342,3c0fcc7f-f008-49e7-bbc7-e6345afbc29c,personName,Eric Garcia,Garcia Eric,Name Order Change,Person,Person343
+342,3c0fcc7f-f008-49e7-bbc7-e6345afbc29c,personName,Eric Garcia,Garcia Eric,Name Order Changes,Person,Person343
 342,3c0fcc7f-f008-49e7-bbc7-e6345afbc29c,birthDate,1975-04-14,,omission,Person,Person343
 342,3c0fcc7f-f008-49e7-bbc7-e6345afbc29c,jobTitle,Rheumatologist,Rneumatologist,Job Title Typo,HealthcarePersonnel,Person343
 343,89ff50b3-ea93-4d96-9f95-460e20f29349,email,debbieruiz@healthcare.org,debbierubz@healthcare.org,Email Typo,HealthcarePersonnel,Person344
 343,89ff50b3-ea93-4d96-9f95-460e20f29349,birthDate,1959-08-10,,omission,Person,Person344
-343,89ff50b3-ea93-4d96-9f95-460e20f29349,personName,Debbie Ruiz,D. Ruiz,Name Abbreviation,Person,Person344
+343,89ff50b3-ea93-4d96-9f95-460e20f29349,personName,Debbie Ruiz,D. Ruiz,Name Abbreviations,Person,Person344
 344,d9941dd1-93d4-41de-80de-417946e35928,birthDate,1981-02-20,,omission,Person,Person345
 344,d9941dd1-93d4-41de-80de-417946e35928,personName,Bethany Herring,B. Herring,Name Abbreviation,Person,Person345
 344,d9941dd1-93d4-41de-80de-417946e35928,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person345
@@ -1236,7 +1236,7 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 345,fc914bbb-995e-4fcd-ab15-f0b575dd770d,birthDate,1976-03-06,06-03-1976,Birth Date Format Change,Person,Person346
 345,fc914bbb-995e-4fcd-ab15-f0b575dd770d,personName,Jessica Fisher,J. Fisher,Name Abbreviation,Person,Person346
 345,fc914bbb-995e-4fcd-ab15-f0b575dd770d,jobTitle,Obstetrics Technician,Obstetrics Technicina,Job Title Typo,HealthcarePersonnel,Person346
-346,0af6be50-0f37-4695-9a38-f5dccac11817,personName,Nathan Serrano,Serrano Nathan,Name Order Change,Person,Person347
+346,0af6be50-0f37-4695-9a38-f5dccac11817,personName,Nathan Serrano,Serrano Nathan,Name Order Changes,Person,Person347
 346,0af6be50-0f37-4695-9a38-f5dccac11817,jobTitle,Nephrologist,Neprhologist,Job Title Typo,HealthcarePersonnel,Person347
 346,0af6be50-0f37-4695-9a38-f5dccac11817,knowsLanguage,de,,omission,Person,Person347
 347,79d5cbf0-9216-450c-aae5-1e724938291d,email,brianchurchmd@healthcare.org,,omission,HealthcarePersonnel,Person348
@@ -1249,9 +1249,9 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 348,c47a0866-c83a-440d-adba-6e1ed23a1ef9,birthDate,1990-07-26,26-07-1990,Birth Date Format Change,Person,Person349
 348,c47a0866-c83a-440d-adba-6e1ed23a1ef9,knowsLanguage,nl,,omission,Person,Person349
 349,7f255bc8-4715-49b6-837c-9a13bd8b93f0,jobTitle,Medical Laboratory Scientist,Mediacl Laboratory Scientist,Job Title Typo,HealthcarePersonnel,Person350
-349,7f255bc8-4715-49b6-837c-9a13bd8b93f0,knowsLanguage,de,German,Language Representation Change,Person,Person350
+349,7f255bc8-4715-49b6-837c-9a13bd8b93f0,knowsLanguage,de,German,Language Abbreviation Expansion,Person,Person350
 349,7f255bc8-4715-49b6-837c-9a13bd8b93f0,knowsLanguage,de,,omission,Person,Person350
-350,24a9aca6-f104-441d-a192-88de2570c5bb,knowsLanguage,de,German,Language Representation Change,Person,Person351
+350,24a9aca6-f104-441d-a192-88de2570c5bb,knowsLanguage,de,German,Language Abbreviation Expansion,Person,Person351
 350,24a9aca6-f104-441d-a192-88de2570c5bb,jobTitle,Lab Technician,Lab Technictan,Job Title Typo,HealthcarePersonnel,Person351
 350,24a9aca6-f104-441d-a192-88de2570c5bb,jobTitle,Lab Technician,,omission,HealthcarePersonnel,Person351
 351,096393bc-6053-4907-abb8-2733a2e0a226,birthDate,1987-10-02,02-10-1987,Birth Date Format Change,Person,Person352
@@ -1273,7 +1273,7 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 354,1785cf26-2dcb-4908-80b3-aee3af3666e6,birthDate,1997-12-27,,omission,Person,Person355
 355,128b96ec-6eb8-4e1e-b3fd-dc03960ff0b3,email,kristenboyle@healthcare.org,,omission,HealthcarePersonnel,Person356
 355,128b96ec-6eb8-4e1e-b3fd-dc03960ff0b3,jobTitle,Medical Laboratory Scientist,Medical Laborator yScientist,Job Title Typo,HealthcarePersonnel,Person356
-355,128b96ec-6eb8-4e1e-b3fd-dc03960ff0b3,birthDate,2000-03-15,2000-15-03,Birth Date Format Change,Person,Person356
+355,128b96ec-6eb8-4e1e-b3fd-dc03960ff0b3,birthDate,2000-03-15,2000-15-03,Date Format Changes,Person,Person356
 356,9ebb8f60-1f0c-4548-bd1a-0dc47c8ffa1c,jobTitle,Rheumatology Nurse,Rhxumatology Nurse,Job Title Typo,HealthcarePersonnel,Person357
 356,9ebb8f60-1f0c-4548-bd1a-0dc47c8ffa1c,birthDate,1971-03-05,05-03-1971,Birth Date Format Change,Person,Person357
 356,9ebb8f60-1f0c-4548-bd1a-0dc47c8ffa1c,knowsLanguage,et,,omission,Person,Person357
@@ -1288,7 +1288,7 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 358,849f4239-4536-4730-9cb1-dd9e47e2a00d,email,janicemitchell@healthcare.org,janicemitcsell@healthcare.org,Email Typo,HealthcarePersonnel,Person359
 359,86e280c0-6036-4f9c-a229-7cb2cf00f0a8,email,aliciaroach@healthcare.org,aliciarotch@healthcare.org,Email Typo,HealthcarePersonnel,Person360
 359,86e280c0-6036-4f9c-a229-7cb2cf00f0a8,knowsLanguage,nl,,omission,Person,Person360
-359,86e280c0-6036-4f9c-a229-7cb2cf00f0a8,personName,Alicia Roach,Roach Alicia,Name Order Change,Person,Person360
+359,86e280c0-6036-4f9c-a229-7cb2cf00f0a8,personName,Alicia Roach,Roach Alicia,Name Order Changes,Person,Person360
 359,86e280c0-6036-4f9c-a229-7cb2cf00f0a8,jobTitle,Speech Therapist,Speech Thearpist,Job Title Typo,HealthcarePersonnel,Person360
 360,d8c844f6-8efb-4347-8ffe-f779a05b3e94,jobTitle,Pulmonary Function Technologist,Pulmonayr Function Technologist,Job Title Typo,HealthcarePersonnel,Person361
 360,d8c844f6-8efb-4347-8ffe-f779a05b3e94,birthDate,1975-06-09,09-06-1975,Birth Date Format Change,Person,Person361
@@ -1299,7 +1299,7 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 361,3ddba5de-facf-4d6f-81ba-33fc8676af8f,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person362
 361,3ddba5de-facf-4d6f-81ba-33fc8676af8f,birthDate,1987-06-17,17-06-1987,Birth Date Format Change,Person,Person362
 361,3ddba5de-facf-4d6f-81ba-33fc8676af8f,email,susandominguez@healthcare.org,,omission,HealthcarePersonnel,Person362
-362,0b51a9ad-d805-4d63-9ec3-2772b875691a,personName,Jennifer Bradford,J. Bradford,Name Abbreviation,Person,Person363
+362,0b51a9ad-d805-4d63-9ec3-2772b875691a,personName,Jennifer Bradford,J. Bradford,Name Abbreviations,Person,Person363
 362,0b51a9ad-d805-4d63-9ec3-2772b875691a,email,jenniferbradford@healthcare.org,jenniferbradfozd@healthcare.org,Email Typo,HealthcarePersonnel,Person363
 362,0b51a9ad-d805-4d63-9ec3-2772b875691a,jobTitle,Audiologist,,omission,HealthcarePersonnel,Person363
 362,0b51a9ad-d805-4d63-9ec3-2772b875691a,jobTitle,Audiologist,Aduiologist,Job Title Typo,HealthcarePersonnel,Person363
@@ -1316,7 +1316,7 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 365,b6478818-3a56-4fc1-933a-50013b05fdfc,birthDate,1986-04-09,09-04-1986,Birth Date Format Change,Person,Person366
 365,b6478818-3a56-4fc1-933a-50013b05fdfc,email,pamelaadams@healthcare.org,pamelaadbms@healthcare.org,Email Typo,HealthcarePersonnel,Person366
 365,b6478818-3a56-4fc1-933a-50013b05fdfc,jobTitle,Hematology Nurse,,omission,HealthcarePersonnel,Person366
-366,4e01b0fa-2094-4f50-b75c-24b6c609e300,personName,Tina Dean,Dean Tina,Name Order Change,Person,Person367
+366,4e01b0fa-2094-4f50-b75c-24b6c609e300,personName,Tina Dean,Dean Tina,Name Order Changes,Person,Person367
 366,4e01b0fa-2094-4f50-b75c-24b6c609e300,knowsLanguage,de,,omission,Person,Person367
 366,4e01b0fa-2094-4f50-b75c-24b6c609e300,email,tinadean@healthcare.org,tixadean@healthcare.org,Email Typo,HealthcarePersonnel,Person367
 367,c895b25f-e847-4d41-a8ec-0a199ea96bf5,email,gregorylittle@healthcare.org,,omission,HealthcarePersonnel,Person368
@@ -1324,19 +1324,19 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 367,c895b25f-e847-4d41-a8ec-0a199ea96bf5,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person368
 367,c895b25f-e847-4d41-a8ec-0a199ea96bf5,birthDate,1961-10-11,11-10-1961,Birth Date Format Change,Person,Person368
 367,c895b25f-e847-4d41-a8ec-0a199ea96bf5,email,gregorylittle@healthcare.org,gregorllittle@healthcare.org,Email Typo,HealthcarePersonnel,Person368
-368,31a6c415-ce0b-4962-865b-23d226972a37,knowsLanguage,de,German,Language Representation Change,Person,Person369
+368,31a6c415-ce0b-4962-865b-23d226972a37,knowsLanguage,de,German,Language Abbreviation Expansion,Person,Person369
 368,31a6c415-ce0b-4962-865b-23d226972a37,email,danielgreen@healthcare.org,danielgrehn@healthcare.org,Email Typo,HealthcarePersonnel,Person369
 368,31a6c415-ce0b-4962-865b-23d226972a37,jobTitle,Gastroenterologist,,omission,HealthcarePersonnel,Person369
 369,30fda442-d2ea-47a5-9fb0-e79dc40de12c,knowsLanguage,nl,,omission,Person,Person370
-369,30fda442-d2ea-47a5-9fb0-e79dc40de12c,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person370
+369,30fda442-d2ea-47a5-9fb0-e79dc40de12c,knowsLanguage,nl,Dutch,Language Abbreviation Expansion,Person,Person370
 369,30fda442-d2ea-47a5-9fb0-e79dc40de12c,jobTitle,GI Nurse,Ge Nurse,Job Title Typo,HealthcarePersonnel,Person370
-370,41926d1d-b413-47b0-93b4-0da1ec053c0c,personName,Raymond Williams,Williams Raymond,Name Order Change,Person,Person371
+370,41926d1d-b413-47b0-93b4-0da1ec053c0c,personName,Raymond Williams,Williams Raymond,Name Order Changes,Person,Person371
 370,41926d1d-b413-47b0-93b4-0da1ec053c0c,knowsLanguage,de,,omission,Person,Person371
 370,41926d1d-b413-47b0-93b4-0da1ec053c0c,email,raymondwilliams@healthcare.org,raymondwilliabs@healthcare.org,Email Typo,HealthcarePersonnel,Person371
 371,d9544b06-b06b-4d46-aae5-a0f268b5ced8,email,dianapaul@healthcare.org,dianagaul@healthcare.org,Email Typo,HealthcarePersonnel,Person372
 371,d9544b06-b06b-4d46-aae5-a0f268b5ced8,knowsLanguage,nl,,omission,Person,Person372
-371,d9544b06-b06b-4d46-aae5-a0f268b5ced8,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person372
-372,dfdf842f-4527-4a9d-8576-df50e1297cd6,personName,Benjamin Barnes,Barnes Benjamin,Name Order Change,Person,Person373
+371,d9544b06-b06b-4d46-aae5-a0f268b5ced8,knowsLanguage,nl,Dutch,Language Abbreviation Expansion,Person,Person372
+372,dfdf842f-4527-4a9d-8576-df50e1297cd6,personName,Benjamin Barnes,Barnes Benjamin,Name Order Changes,Person,Person373
 372,dfdf842f-4527-4a9d-8576-df50e1297cd6,email,benjaminbarnes@healthcare.org,beajaminbarnes@healthcare.org,Email Typo,HealthcarePersonnel,Person373
 372,dfdf842f-4527-4a9d-8576-df50e1297cd6,jobTitle,GI Nurse,,omission,HealthcarePersonnel,Person373
 373,18ad5597-8099-4a05-a0cb-fcb1b4d365eb,jobTitle,Respiratory Therapist,Respiratory lherapist,Job Title Typo,HealthcarePersonnel,Person374
@@ -1344,12 +1344,12 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 373,18ad5597-8099-4a05-a0cb-fcb1b4d365eb,personName,Jorge Leon,Leon Jorge,Name Order Change,Person,Person374
 373,18ad5597-8099-4a05-a0cb-fcb1b4d365eb,birthDate,1962-11-05,,omission,Person,Person374
 374,20f163d3-18d5-45a7-a487-01f94c729ad7,email,katrinanguyen@healthcare.org,kdtrinanguyen@healthcare.org,Email Typo,HealthcarePersonnel,Person375
-374,20f163d3-18d5-45a7-a487-01f94c729ad7,birthDate,1959-09-12,09-12-1959,Birth Date Format Change,Person,Person375
+374,20f163d3-18d5-45a7-a487-01f94c729ad7,birthDate,1959-09-12,09-12-1959,Date Format Changes,Person,Person375
 374,20f163d3-18d5-45a7-a487-01f94c729ad7,birthDate,1959-09-12,,omission,Person,Person375
 375,cba90554-71b2-4740-a870-af6fa406f30d,knowsLanguage,de,,omission,Person,Person376
 375,cba90554-71b2-4740-a870-af6fa406f30d,jobTitle,Podiatrist,Pdoiatrist,Job Title Typo,HealthcarePersonnel,Person376
 375,cba90554-71b2-4740-a870-af6fa406f30d,email,heatherbarron@healthcare.org,heatherdarron@healthcare.org,Email Typo,HealthcarePersonnel,Person376
-375,cba90554-71b2-4740-a870-af6fa406f30d,birthDate,1975-09-23,1975-23-09,Birth Date Format Change,Person,Person376
+375,cba90554-71b2-4740-a870-af6fa406f30d,birthDate,1975-09-23,1975-23-09,Date Format Changes,Person,Person376
 376,9126e919-4884-4506-ac0a-8f51e1a90001,birthDate,1983-04-24,,omission,Person,Person377
 376,9126e919-4884-4506-ac0a-8f51e1a90001,personName,Carrie Austin,C. Austin,Name Abbreviation,Person,Person377
 376,9126e919-4884-4506-ac0a-8f51e1a90001,jobTitle,Hematologist,Hematologits,Job Title Typo,HealthcarePersonnel,Person377
@@ -1360,11 +1360,11 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 377,5ac18a82-60f8-4c4a-9281-d1c6b721d17d,birthDate,1984-07-09,,omission,Person,Person378
 377,5ac18a82-60f8-4c4a-9281-d1c6b721d17d,personName,Vincent Copeland,Copeland Vincent,Name Order Change,Person,Person378
 377,5ac18a82-60f8-4c4a-9281-d1c6b721d17d,knowsLanguage,de,German,Language Representation Change,Person,Person378
-378,7f3f3a7a-d2b0-4249-a813-3fac30edc402,personName,Daniel Martinez,Martinez Daniel,Name Order Change,Person,Person379
+378,7f3f3a7a-d2b0-4249-a813-3fac30edc402,personName,Daniel Martinez,Martinez Daniel,Name Order Changes,Person,Person379
 378,7f3f3a7a-d2b0-4249-a813-3fac30edc402,jobTitle,Pulmonary Function Technologist,Pulmonary Functio nTechnologist,Job Title Typo,HealthcarePersonnel,Person379
 378,7f3f3a7a-d2b0-4249-a813-3fac30edc402,jobTitle,Pulmonary Function Technologist,,omission,HealthcarePersonnel,Person379
 378,7f3f3a7a-d2b0-4249-a813-3fac30edc402,email,danielmartinez@healthcare.org,danielmcrtinez@healthcare.org,Email Typo,HealthcarePersonnel,Person379
-379,70fa9c5b-24a4-416a-a95d-1eafd756f058,birthDate,1965-11-19,1965-19-11,Birth Date Format Change,Person,Person380
+379,70fa9c5b-24a4-416a-a95d-1eafd756f058,birthDate,1965-11-19,1965-19-11,Date Format Changes,Person,Person380
 379,70fa9c5b-24a4-416a-a95d-1eafd756f058,jobTitle,Gynecologist,,omission,HealthcarePersonnel,Person380
 379,70fa9c5b-24a4-416a-a95d-1eafd756f058,jobTitle,Gynecologist,Gynvcologist,Job Title Typo,HealthcarePersonnel,Person380
 380,a2a0425d-4b0c-4a97-b51c-7410b135946a,personName,Jessica Cooper,J. Cooper,Name Abbreviation,Person,Person381
@@ -1379,12 +1379,12 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 382,40733471-b726-44d4-96e6-d77abf63ff67,birthDate,1970-02-06,06-02-1970,Birth Date Format Change,Person,Person383
 382,40733471-b726-44d4-96e6-d77abf63ff67,personName,Melody Thompson,M. Thompson,Name Abbreviation,Person,Person383
 382,40733471-b726-44d4-96e6-d77abf63ff67,birthDate,1970-02-06,,omission,Person,Person383
-383,d0bae318-7d35-407d-801a-e817903099c4,knowsLanguage,et,Estonian,Language Representation Change,Person,Person384
+383,d0bae318-7d35-407d-801a-e817903099c4,knowsLanguage,et,et,Language Abbreviation Expansion,Person,Person384
 383,d0bae318-7d35-407d-801a-e817903099c4,knowsLanguage,et,,omission,Person,Person384
 383,d0bae318-7d35-407d-801a-e817903099c4,email,brandoncaldwell@healthcare.org,brbndoncaldwell@healthcare.org,Email Typo,HealthcarePersonnel,Person384
 384,de46cc8a-4c43-455b-a76d-1691e2b98fd5,birthDate,1981-12-31,,omission,Person,Person385
 384,de46cc8a-4c43-455b-a76d-1691e2b98fd5,email,bradleydiaz@healthcare.org,bradleyditz@healthcare.org,Email Typo,HealthcarePersonnel,Person385
-384,de46cc8a-4c43-455b-a76d-1691e2b98fd5,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person385
+384,de46cc8a-4c43-455b-a76d-1691e2b98fd5,knowsLanguage,nl,Dutch,Language Abbreviation Expansion,Person,Person385
 385,adee1674-f3ba-487f-ad92-ee67815caa30,email,amandathomas@healthcare.org,amandythomas@healthcare.org,Email Typo,HealthcarePersonnel,Person386
 385,adee1674-f3ba-487f-ad92-ee67815caa30,birthDate,1962-05-29,29-05-1962,Birth Date Format Change,Person,Person386
 385,adee1674-f3ba-487f-ad92-ee67815caa30,birthDate,1962-05-29,,omission,Person,Person386
@@ -1394,7 +1394,7 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 386,7236c9fd-cfd3-4fcf-9720-e54564ddeda8,birthDate,1980-01-11,,omission,Person,Person387
 386,7236c9fd-cfd3-4fcf-9720-e54564ddeda8,jobTitle,Sleep Technician,Slee pTechnician,Job Title Typo,HealthcarePersonnel,Person387
 386,7236c9fd-cfd3-4fcf-9720-e54564ddeda8,personName,Jillian Jackson,Jackson Jillian,Name Order Change,Person,Person387
-387,1386a0eb-1f6c-45c8-9703-5b6f42308db6,personName,George Morse,G. Morse,Name Abbreviation,Person,Person388
+387,1386a0eb-1f6c-45c8-9703-5b6f42308db6,personName,George Morse,G. Morse,Name Abbreviations,Person,Person388
 387,1386a0eb-1f6c-45c8-9703-5b6f42308db6,jobTitle,Otolaryngologist,,omission,HealthcarePersonnel,Person388
 387,1386a0eb-1f6c-45c8-9703-5b6f42308db6,email,georgemorse@healthcare.org,georgemvrse@healthcare.org,Email Typo,HealthcarePersonnel,Person388
 387,1386a0eb-1f6c-45c8-9703-5b6f42308db6,jobTitle,Otolaryngologist,Ootlaryngologist,Job Title Typo,HealthcarePersonnel,Person388
@@ -1404,14 +1404,14 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 388,a27d4962-37aa-43d0-b217-4c8f412485a8,birthDate,1974-01-11,11-01-1974,Birth Date Format Change,Person,Person389
 388,a27d4962-37aa-43d0-b217-4c8f412485a8,email,adrianaconway@healthcare.org,,omission,HealthcarePersonnel,Person389
 389,4def7440-71b7-4a85-8d1d-86b64206e969,jobTitle,Respiratory Therapist,Respiratory Theraipst,Job Title Typo,HealthcarePersonnel,Person390
-389,4def7440-71b7-4a85-8d1d-86b64206e969,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person390
+389,4def7440-71b7-4a85-8d1d-86b64206e969,knowsLanguage,nl,Dutch,Language Abbreviation Expansion,Person,Person390
 389,4def7440-71b7-4a85-8d1d-86b64206e969,email,cheyennejenkins@healthcare.org,,omission,HealthcarePersonnel,Person390
-390,bafa50b0-608c-4044-bff4-d9e846e56529,personName,Marvin Martin,M. Martin,Name Abbreviation,Person,Person391
+390,bafa50b0-608c-4044-bff4-d9e846e56529,personName,Marvin Martin,M. Martin,Name Abbreviations,Person,Person391
 390,bafa50b0-608c-4044-bff4-d9e846e56529,email,marvinmartin@healthcare.org,marvitmartin@healthcare.org,Email Typo,HealthcarePersonnel,Person391
 390,bafa50b0-608c-4044-bff4-d9e846e56529,jobTitle,GI Nurse,,omission,HealthcarePersonnel,Person391
 391,0968c472-d01d-485f-b550-034047988cbb,jobTitle,Otolaryngologist,Otolaryngologsit,Job Title Typo,HealthcarePersonnel,Person392
 391,0968c472-d01d-485f-b550-034047988cbb,email,donnamorgan@healthcare.org,donnamkrgan@healthcare.org,Email Typo,HealthcarePersonnel,Person392
-391,0968c472-d01d-485f-b550-034047988cbb,birthDate,1969-09-16,1969-16-09,Birth Date Format Change,Person,Person392
+391,0968c472-d01d-485f-b550-034047988cbb,birthDate,1969-09-16,1969-16-09,Date Format Changes,Person,Person392
 391,0968c472-d01d-485f-b550-034047988cbb,jobTitle,Otolaryngologist,,omission,HealthcarePersonnel,Person392
 392,caabf1a2-e31e-4d64-9f64-d38fbeeab4a5,knowsLanguage,nl,,omission,Person,Person393
 392,caabf1a2-e31e-4d64-9f64-d38fbeeab4a5,birthDate,1960-07-21,21-07-1960,Birth Date Format Change,Person,Person393
@@ -1419,11 +1419,11 @@ row,original_id,field_name,original_value,varied_value,variation_type,entity_typ
 392,caabf1a2-e31e-4d64-9f64-d38fbeeab4a5,knowsLanguage,nl,Dutch,Language Representation Change,Person,Person393
 392,caabf1a2-e31e-4d64-9f64-d38fbeeab4a5,jobTitle,Otolaryngologist,Otolaryngoligist,Job Title Typo,HealthcarePersonnel,Person393
 393,c0dff1c7-e523-4839-a25a-60ebaaf8d073,jobTitle,Gastroenterologist,Gastroneterologist,Job Title Typo,HealthcarePersonnel,Person394
-393,c0dff1c7-e523-4839-a25a-60ebaaf8d073,personName,Carolyn Smith,C. Smith,Name Abbreviation,Person,Person394
+393,c0dff1c7-e523-4839-a25a-60ebaaf8d073,personName,Carolyn Smith,C. Smith,Name Abbreviations,Person,Person394
 393,c0dff1c7-e523-4839-a25a-60ebaaf8d073,birthDate,1998-10-28,,omission,Person,Person394
 394,829aaeb0-9c85-412e-9d92-ce4d9fad50a7,jobTitle,Sleep Technician,Sleep Tehcnician,Job Title Typo,HealthcarePersonnel,Person395
 394,829aaeb0-9c85-412e-9d92-ce4d9fad50a7,email,gregoryjackson@healthcare.org,gregoryjaakson@healthcare.org,Email Typo,HealthcarePersonnel,Person395
-394,829aaeb0-9c85-412e-9d92-ce4d9fad50a7,personName,Gregory Jackson,G. Jackson,Name Abbreviation,Person,Person395
+394,829aaeb0-9c85-412e-9d92-ce4d9fad50a7,personName,Gregory Jackson,G. Jackson,Name Abbreviations,Person,Person395
 394,829aaeb0-9c85-412e-9d92-ce4d9fad50a7,email,gregoryjackson@healthcare.org,,omission,HealthcarePersonnel,Person395
 0,1f217475-66f0-4769-8909-c1ba18fa5472,serviceDepartmentName,Midwifery,Geburtshilfe,Translation,ServiceDepartment,SD1
 1,c9d4e1bb-c4d3-4ec2-baf3-d90e586a7302,serviceDepartmentName,Respiratory Therapy,Breathing Support,Alternate Naming,ServiceDepartment,SD2
