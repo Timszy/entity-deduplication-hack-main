@@ -81,12 +81,12 @@ def Levenshtein_filter_flag(matches, literals1, literals2, acronym_boost=0.95):
         threshold = literal_based_threshold(n_literals)
         
         if avg_sim >= threshold:
-            filtered.append((ent1, ent2, score, avg_sim, "kept"))
+            filtered.append((ent1, ent2, score, avg_sim, "pass"))
         elif avg_sim < threshold and n_literals < 3:
-            filtered.append((ent1, ent2, score, avg_sim, "flagged"))
+            filtered.append((ent1, ent2, score, avg_sim, "fail"))
     return filtered
 
-def Levenshtein_filter(matches, literals1, literals2, acronym_boost=0.95):
+def Levenshtein_filter(matches, literals1, literals2, filter=True, acronym_boost=0.95 ):
     """
     Post-process entity matches by comparing their predicates using Levenshtein and acronym matching.
     Threshold is adjusted based on the number of literals in each entity (from 1 to 5).
@@ -113,6 +113,12 @@ def Levenshtein_filter(matches, literals1, literals2, acronym_boost=0.95):
         n_literals = len(common_preds)
         threshold = literal_based_threshold(n_literals)
         
-        if avg_sim >= threshold:
-            filtered.append((ent1, ent2, score, avg_sim))
+        if filter:
+            if avg_sim >= threshold:
+                filtered.append((ent1, ent2, score, avg_sim, "pass"))
+        else:
+            if avg_sim >= threshold:
+                filtered.append((ent1, ent2, score, avg_sim, "pass"))
+            elif avg_sim < threshold:
+                filtered.append((ent1, ent2, score, avg_sim, "fail"))
     return filtered

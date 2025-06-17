@@ -6,7 +6,7 @@ def build_final_result(matches, graph1, graph2, graph1_name="phkg_graph", graph2
     final_result = []
     for match in matches:
         # match is (ent1, ent2, score) or (ent1, ent2, score, avg_literal_similarity)
-        ent1, ent2, score, avg_sim = match # status is not included in the match tuple
+        ent1, ent2, score, avg_sim, status = match # status is not included in the match tuple
         entity1_literals = traverse_graph_and_get_literals(graph1, ent1)
         entity2_literals = traverse_graph_and_get_literals(graph2, ent2)
         score_str = str(float(score))
@@ -54,6 +54,7 @@ def build_final_result(matches, graph1, graph2, graph1_name="phkg_graph", graph2
         # If avg_literal_similarity present, include it and optionally use it for duplication type
         if avg_sim is not None:
             avg_literal_similarity = avg_sim
+            result_entry["status"] = status
             result_entry["avg_literal_similarity"] = str(float(avg_literal_similarity))
             # You can use literal similarity instead of embedding similarity for duplication type
             duplication_type = (

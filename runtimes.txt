@@ -9,3 +9,8 @@ Run with model = DeepWalk and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 228.05
 Run with model = NetMF and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 278.38 seconds
 Run with model = Node2Vec and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 541.01 seconds
 Run with model = TransE and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 543.63 seconds
+Run with model = DeepWalk and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 237.65 seconds
+Run with model = DeepWalk and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 221.57 seconds
+Run with model = DeepWalk and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 223.29 seconds
+Run with model = Node2Vec and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 566.86 seconds
+Run with model = Node2Vec and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 577.96 seconds

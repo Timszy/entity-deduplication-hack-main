@@ -58,16 +58,24 @@ def deduplicate_graphs(
 
         literals1 = get_literals_for_entities(phkg_graph, entities1)
         literals2 = get_literals_for_entities(skg_graph, entities2)
-        filtered = Levenshtein_filter(all_matches, literals1, literals2)
+        filtered = Levenshtein_filter(all_matches, literals1, literals2, filter=True)
         print(f"Filtered matches after literal check: {len(filtered)}/ {len(all_matches)}")
         
 
         return filtered
     # 4. Prepare final results
     else:
-        return all_matches
+        entities1 = set(ent1 for ent1, _, _ in all_matches)
+        entities2 = set(ent2 for _, ent2, _ in all_matches)
 
+        literals1 = get_literals_for_entities(phkg_graph, entities1)
+        literals2 = get_literals_for_entities(skg_graph, entities2)
+        filtered = Levenshtein_filter(all_matches, literals1, literals2, filter=False)
+        num_pass = sum(1 for match in filtered if match[4] == "pass")
+        num_fail = sum(1 for match in filtered if match[4] == "fail")
+        print(f"Filtered matches after literal check: pass={num_pass}, fail={num_fail}, total={len(filtered)}/{len(all_matches)}")
 
+        return filtered
 
 
 def save_matches(matches, filename):

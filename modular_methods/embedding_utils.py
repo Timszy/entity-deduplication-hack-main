@@ -81,7 +81,7 @@ def get_graph_embeddings_LINE(graph, dimensions=384, epochs=60):
 from karateclub import DeepWalk
 import networkx as nx
 
-def get_graph_embeddings_DeepWalk(graph, dimensions=384, walk_length=2, num_walks=20):
+def get_graph_embeddings_DeepWalk(graph, dimensions=384, walk_length=3, num_walks=20):
     # Convert RDFLib graph to NetworkX
     G_nx = nx.Graph()
     for s, p, o in graph:
