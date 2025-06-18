@@ -12,8 +12,8 @@ g1 = rdflib.Graph()
 g2 = rdflib.Graph()
 master_graph = rdflib.Graph()
 g1.parse("data/healthcare_graph_original_v2.ttl")
-#g2.parse("data/prog_data/healthcare_graph_progdups.ttl")
-g2.parse("data/LLM_data/combined.ttl")
+g2.parse("data/prog_data/healthcare_graph_progdups.ttl")
+#g2.parse("data/LLM_data/combined.ttl")
 master_graph.parse("data/master_data.ttl")
 phkg_graph = g1 + master_graph
 
