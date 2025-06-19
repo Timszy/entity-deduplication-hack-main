@@ -92,3 +92,37 @@ def group_by_type(entity_dict):
     for entity, (text, typ) in entity_dict.items():
         grouped.setdefault(typ, []).append((entity, text))
     return grouped
+
+def kg_to_dedupe_dict(graph, entity_type=None, fields_to_keep=None, strip_schema=True):
+    from modular_methods.graphToText_utils import get_literals_for_entities
+    import rdflib
+    entities = [s for s in set(graph.subjects()) if not isinstance(s, rdflib.BNode)]
+    if entity_type:
+        entities = [
+            s for s in entities
+            if any(str(o).endswith(entity_type) for o in graph.objects(s, rdflib.RDF.type))
+        ]
+    literals = get_literals_for_entities(graph, entities)
+    
+    # If requested, strip "schema:" from all literal keys (optional, depending on your pipeline)
+    def strip_prefix(k): return k.replace("schema:", "") if strip_schema else k
+
+    dedupe_dict = {}
+    for e, fields in literals.items():
+        entity_dict = {}
+        if fields_to_keep is not None:
+            for f in fields_to_keep:
+                # The key could be with or without schema: depending on strip_schema
+                # Try to find it with or without schema:
+                search_keys = [f, "schema:" + f] if strip_schema else [f]
+                value = None
+                for key in search_keys:
+                    if key in fields:
+                        value = fields[key]
+                        break
+                entity_dict[f] = value if value is not None else ""  # Fill missing fields with ""
+        else:
+            # If fields_to_keep not set, just keep all
+            entity_dict = {strip_prefix(k): v for k, v in fields.items()}
+        dedupe_dict[str(e)] = entity_dict
+    return dedupe_dict
