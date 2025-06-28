@@ -6,7 +6,7 @@ from modular_methods.output_utils import build_final_result
 import time
 
 start_time = time.time()
-
+noise_levels = ['low', 'medium', 'high']
 # --- Load RDF graphs
 g1 = rdflib.Graph()
 g2 = rdflib.Graph()

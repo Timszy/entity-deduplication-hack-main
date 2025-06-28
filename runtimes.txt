@@ -1,16 +1,4 @@
-Run with model = LINE and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 721.38 seconds
-Run with model = DeepWalk and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 232.21 seconds
-Run with model = NetMF and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 255.34 seconds
-Run with model = DistMult and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 509.72 seconds
-Run with model = Node2Vec and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 530.18 seconds
-Run with model = TransE and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 497.44 seconds
-Run with model = DistMult and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 446.25 seconds
-Run with model = DeepWalk and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 228.05 seconds
-Run with model = NetMF and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 278.38 seconds
-Run with model = Node2Vec and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 541.01 seconds
-Run with model = TransE and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 543.63 seconds
-Run with model = DeepWalk and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 237.65 seconds
-Run with model = DeepWalk and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 221.57 seconds
-Run with model = DeepWalk and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 223.29 seconds
-Run with model = Node2Vec and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 566.86 seconds
-Run with model = Node2Vec and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 577.96 seconds
+
+Run with model = TransE and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 500.48 seconds with noise being low
+Run with model = TransE and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 502.70 seconds with noise being medium
+Run with model = TransE and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 497.65 seconds with noise being high
