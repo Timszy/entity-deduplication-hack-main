@@ -1,0 +1,1 @@
+Total runtime: 36.10 seconds with noise being medium

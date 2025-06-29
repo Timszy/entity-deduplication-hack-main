@@ -27,7 +27,7 @@ for noise_level in noise_levels:
         use_hybrid=False,
         threshold=0.6,
         top_k=2,
-        filter_literals=False,
+        filter_literals=True,
     )
 
     print(f"Found {len(matches)} filtered matches.")
@@ -46,7 +46,7 @@ for noise_level in noise_levels:
     runtime = end_time - start_time
     print(f"Total runtime: {runtime:.2f} seconds")
 
-    with open(f"matches_{noise_level}/runtime.txt", "w") as f:
+    with open("runtimes.txt", "w") as f:
         f.write(f"Total runtime: {runtime:.2f} seconds with noise being {noise_level}\n")
         
 

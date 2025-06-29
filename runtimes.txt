@@ -1,4 +1,1 @@
-
-Run with model = TransE and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 500.48 seconds with noise being low
-Run with model = TransE and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 502.70 seconds with noise being medium
-Run with model = TransE and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 497.65 seconds with noise being high
+Total runtime: 39.12 seconds with noise being high

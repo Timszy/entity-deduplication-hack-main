@@ -116,6 +116,8 @@ def Levenshtein_filter(matches, literals1, literals2, filter=True, acronym_boost
         if filter:
             if avg_sim >= threshold:
                 filtered.append((ent1, ent2, score, avg_sim, "pass"))
+            elif avg_sim < threshold and n_literals < 3:
+                filtered.append((ent1, ent2, score, avg_sim, "fail"))
         else:
             if avg_sim >= threshold:
                 filtered.append((ent1, ent2, score, avg_sim, "pass"))

@@ -40,7 +40,7 @@ for noise_level in noise_levels:
             text_dim=384,
             threshold=0.5,
             top_k=2,
-            filter_literals=False,
+            filter_literals=True,
         )
         print(f"Found {len(matches)} filtered matches.")
 
