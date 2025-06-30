@@ -4,7 +4,7 @@ import json
 import numpy as np
 import torch
 import torch.nn.functional as F
-from modular_methods.graphToText_utils import get_entity_texts, get_literals_for_entities, group_by_type, traverse_graph_and_get_literals
+from modular_methods.graphToText_utils import get_entity_texts, get_literals_for_entities, group_by_type
 from modular_methods.similarity_utils import compute_cosine_similarity, match_entities, Levenshtein_filter
 from modular_methods.embedding_utils import get_hybrid_vectors
 
@@ -17,7 +17,7 @@ def deduplicate_graphs(
     alpha=0.5,
     text_dim=384,
     threshold=0.7,
-    top_k=2,
+    top_k=5,
     filter_literals=True
 ):
     # 1. Extract entity texts and group

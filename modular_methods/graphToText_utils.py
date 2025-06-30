@@ -72,20 +72,7 @@ def get_entity_texts(graph):
             texts[s] = (text, type_label)
     return texts
 
-def get_entity_texts_dist(graph): #Distmult can't handle dimensions so we return only text
-    texts = {}
-    for s in set(graph.subjects()):
-        if isinstance(s, rdflib.BNode):
-            continue
-        literals = traverse_graph_and_get_literals(graph, s)
-        text = create_text_from_literals(str(s), literals, graph)
-        type_label = None
-        for o in graph.objects(rdflib.URIRef(s), RDF.type):
-            type_label = get_prefixed_predicate(str(o))
-            break
-        if text and type_label:
-            texts[s] = (text)
-    return texts
+
 
 def group_by_type(entity_dict):
     grouped = {}
@@ -126,3 +113,18 @@ def kg_to_dedupe_dict(graph, entity_type=None, fields_to_keep=None, strip_schema
             entity_dict = {strip_prefix(k): v for k, v in fields.items()}
         dedupe_dict[str(e)] = entity_dict
     return dedupe_dict
+
+# def get_entity_texts_dist(graph): #Distmult can't handle dimensions so we return only text
+#     texts = {}
+#     for s in set(graph.subjects()):
+#         if isinstance(s, rdflib.BNode):
+#             continue
+#         literals = traverse_graph_and_get_literals(graph, s)
+#         text = create_text_from_literals(str(s), literals, graph)
+#         type_label = None
+#         for o in graph.objects(rdflib.URIRef(s), RDF.type):
+#             type_label = get_prefixed_predicate(str(o))
+#             break
+#         if text and type_label:
+#             texts[s] = (text)
+#     return texts

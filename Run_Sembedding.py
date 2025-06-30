@@ -9,7 +9,7 @@ noise_levels = ['low', 'medium', 'high']
 g1 = rdflib.Graph()
 
 master_graph = rdflib.Graph()
-g1.parse("data/healthcare_graph_original_v2.ttl")
+g1.parse("data/healthcare_graph_Main.ttl")
 
 #g2.parse("data/prog_data/healthcare_graph_progdups.ttl")
 master_graph.parse("data/master_data.ttl")
@@ -26,7 +26,7 @@ for noise_level in noise_levels:
         embedding_model=model,
         use_hybrid=False,
         threshold=0.6,
-        top_k=2,
+        top_k=5,
         filter_literals=True,
     )
 
@@ -40,7 +40,7 @@ for noise_level in noise_levels:
         graph2_name="g2"
     )
 
-    save_matches(final_result, f"matches_{noise_level}/SentenceEmbedding_v2.json")
+    save_matches(final_result, f"matches_{noise_level}/SentenceEmbedding_top_k5.json")
 
     end_time = time.time()
     runtime = end_time - start_time

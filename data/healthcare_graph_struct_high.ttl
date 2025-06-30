@@ -3951,797 +3951,6 @@
     schema:name "nan"^^xsd:string ;
     schema:worksFor <http://example.org/HealthcareOrganization/8b5885ca-0bb2-43f0-bd30-291a55fea08e> .
 
-<http://example.org/ServiceDept/01df3805-5f18-4cea-9b28-9a8432a88b74> a schema:Department ;
-    schema:address <http://example.org/Address/b41fdcad-e36a-4265-ae51-686507afe1c5> ;
-    schema:contactPoint <http://example.org/ContactPoint/5351c342-5b7c-48ed-b239-6f882516de06> ;
-    schema:identifier "01df3805-5f18-4cea-9b28-9a8432a88b74"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> .
-
-<http://example.org/ServiceDept/02246f10-ce65-4211-a3c9-c8d76ceb1865> a schema:Department ;
-    schema:address <http://example.org/Address/1c7bc6c8-d62f-4e8c-abca-09663eef04eb> ;
-    schema:contactPoint <http://example.org/ContactPoint/2a630fd1-71cf-439d-aa1f-ff41af1b7013> ;
-    schema:identifier "02246f10-ce65-4211-a3c9-c8d76ceb1865"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/8b5885ca-0bb2-43f0-bd30-291a55fea08e> .
-
-<http://example.org/ServiceDept/0604b061-30d2-4eb7-9449-5504b90c55bf> a schema:Department ;
-    schema:address <http://example.org/Address/cc552e29-1187-4fe4-81b4-f9bd2a80c809> ;
-    schema:contactPoint <http://example.org/ContactPoint/2622126b-79e6-465b-85ac-ec616238495b> ;
-    schema:identifier "0604b061-30d2-4eb7-9449-5504b90c55bf"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/5d393bf9-b2da-41f6-8c16-014a2e4a6e78> .
-
-<http://example.org/ServiceDept/09463e6f-3215-400e-a272-e2af92126ff1> a schema:Department ;
-    schema:address <http://example.org/Address/43419ace-febd-4b72-ae24-df89e9c5c130> ;
-    schema:contactPoint <http://example.org/ContactPoint/10d44b3d-8aca-4410-9c10-126197762b3a> ;
-    schema:identifier "09463e6f-3215-400e-a272-e2af92126ff1"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c7405255-25cf-41c4-9c89-929692b035e0> .
-
-<http://example.org/ServiceDept/09cef0ea-d6ca-4f41-adf1-fe3fefd9373e> a schema:Department ;
-    schema:address <http://example.org/Address/b9c4abb6-a6a9-4aab-ac81-1d57b2835bff> ;
-    schema:contactPoint <http://example.org/ContactPoint/091523be-650f-4375-a0fc-01e2bcd635cc> ;
-    schema:identifier "09cef0ea-d6ca-4f41-adf1-fe3fefd9373e"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a59cec98-126c-4c8f-b888-447911ebcd49> .
-
-<http://example.org/ServiceDept/0d0fbbe9-6b7d-4713-8ba1-527dad7114db> a schema:Department ;
-    schema:address <http://example.org/Address/335be677-df1b-425e-af66-be879a4c2227> ;
-    schema:contactPoint <http://example.org/ContactPoint/d24f6919-7d1d-439e-b453-6a9b7ecbcd45> ;
-    schema:identifier "0d0fbbe9-6b7d-4713-8ba1-527dad7114db"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/52ebdac5-a145-4899-a1f8-c1569e0df45b> .
-
-<http://example.org/ServiceDept/0f32e315-7a2b-45d6-926d-076cd58cf189> a schema:Department ;
-    schema:address <http://example.org/Address/b098a39f-12e9-43c1-a33a-812367ac9755> ;
-    schema:contactPoint <http://example.org/ContactPoint/9e3589b2-eb14-4394-bd70-57fbc7caa96b> ;
-    schema:identifier "0f32e315-7a2b-45d6-926d-076cd58cf189"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
-
-<http://example.org/ServiceDept/101efc05-873e-40dd-bdcb-54acb369907d> a schema:Department ;
-    schema:address <http://example.org/Address/9f78299c-b9a9-4a03-bf8d-c9f2e3a10464> ;
-    schema:contactPoint <http://example.org/ContactPoint/0a4d3590-f9b4-4573-878a-2aafd8dc0cb1> ;
-    schema:identifier "101efc05-873e-40dd-bdcb-54acb369907d"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
-
-<http://example.org/ServiceDept/12d06ce5-dff4-4562-8464-77d001f59b1c> a schema:Department ;
-    schema:address <http://example.org/Address/c3629df7-6898-4668-9f18-1e4f394e61fe> ;
-    schema:contactPoint <http://example.org/ContactPoint/4d668807-a68f-4bb3-8cb6-cfc37e49eb8d> ;
-    schema:identifier "12d06ce5-dff4-4562-8464-77d001f59b1c"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
-
-<http://example.org/ServiceDept/15362c1f-90b3-49d9-bf0a-837a3e0f7488> a schema:Department ;
-    schema:address <http://example.org/Address/f2aaaaf0-e8eb-4ae2-9bc1-c77afa29fad9> ;
-    schema:contactPoint <http://example.org/ContactPoint/047595fb-338b-4372-a00c-ea03b7d52dce> ;
-    schema:identifier "15362c1f-90b3-49d9-bf0a-837a3e0f7488"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/27d99a23-e4f7-425e-afe6-790abc18a40b> .
-
-<http://example.org/ServiceDept/1745c170-d7bc-4fdf-8948-aff1182e1a8e> a schema:Department ;
-    schema:address <http://example.org/Address/98e63241-243f-4229-ace4-8fdc68d60b08> ;
-    schema:contactPoint <http://example.org/ContactPoint/3d550d82-be18-4b30-93b7-9970dd8159b8> ;
-    schema:identifier "1745c170-d7bc-4fdf-8948-aff1182e1a8e"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
-
-<http://example.org/ServiceDept/19b5024c-eee2-4362-8ccb-cb6e42e14ce9> a schema:Department ;
-    schema:address <http://example.org/Address/700e6a4f-2543-43f8-b349-f09340601a0d> ;
-    schema:contactPoint <http://example.org/ContactPoint/28986430-fabd-4787-bd5a-95ecc315c8b0> ;
-    schema:identifier "19b5024c-eee2-4362-8ccb-cb6e42e14ce9"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> .
-
-<http://example.org/ServiceDept/1d60ee66-1540-42f1-8f22-070ded39abe0> a schema:Department ;
-    schema:address <http://example.org/Address/b366dcbc-abbf-4882-affa-0875e4a7c828> ;
-    schema:contactPoint <http://example.org/ContactPoint/c46e1738-790b-4990-a428-da2ed8900991> ;
-    schema:identifier "1d60ee66-1540-42f1-8f22-070ded39abe0"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> .
-
-<http://example.org/ServiceDept/1e1eedd9-7b19-4256-8c44-605e8ccde8ad> a schema:Department ;
-    schema:address <http://example.org/Address/a2c1e1d4-131b-4956-872a-5ac130c97d34> ;
-    schema:contactPoint <http://example.org/ContactPoint/ea6d5565-3810-4725-952a-4ff52da4d7f2> ;
-    schema:identifier "1e1eedd9-7b19-4256-8c44-605e8ccde8ad"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/037d9752-48f3-431c-8fb7-c3bb4408c04c> .
-
-<http://example.org/ServiceDept/1f1472db-c7ff-4f21-8839-e2b5409d108c> a schema:Department ;
-    schema:address <http://example.org/Address/5768ba9a-1fa9-4bd6-af25-cbe207fe7ec8> ;
-    schema:contactPoint <http://example.org/ContactPoint/af2dd8f0-1d19-4eec-929f-efba97bf86b3> ;
-    schema:identifier "1f1472db-c7ff-4f21-8839-e2b5409d108c"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
-
-<http://example.org/ServiceDept/1f217475-66f0-4769-8909-c1ba18fa5472> a schema:Department ;
-    schema:address <http://example.org/Address/ea4f44cf-eafd-480b-9ec8-633fb73888a4> ;
-    schema:contactPoint <http://example.org/ContactPoint/42f81126-6c2c-40a7-a4e9-031675f80092> ;
-    schema:identifier "1f217475-66f0-4769-8909-c1ba18fa5472"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a59cec98-126c-4c8f-b888-447911ebcd49> .
-
-<http://example.org/ServiceDept/29ae1d3a-2512-4961-880b-6a4cfcec2c1d> a schema:Department ;
-    schema:address <http://example.org/Address/02299f58-9071-414d-b4f2-ba8e32fa6380> ;
-    schema:contactPoint <http://example.org/ContactPoint/64a335b5-a973-439e-a2c9-b2627ed24723> ;
-    schema:identifier "29ae1d3a-2512-4961-880b-6a4cfcec2c1d"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/037d9752-48f3-431c-8fb7-c3bb4408c04c> .
-
-<http://example.org/ServiceDept/32c973a4-2580-4532-a7c0-16ad9e4b4102> a schema:Department ;
-    schema:address <http://example.org/Address/de4452be-1567-43c9-af7a-98c53abe5a8d> ;
-    schema:contactPoint <http://example.org/ContactPoint/a9e80538-880b-4ff9-b4b7-d61da17256a8> ;
-    schema:identifier "32c973a4-2580-4532-a7c0-16ad9e4b4102"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
-
-<http://example.org/ServiceDept/3408850e-0fdc-46f4-aee6-0ff3492cd84e> a schema:Department ;
-    schema:address <http://example.org/Address/6f30a7a2-5853-40c4-b053-7fbb2bcdacf3> ;
-    schema:contactPoint <http://example.org/ContactPoint/b81b7f03-fb0a-4705-8e9a-a076faac8f76> ;
-    schema:identifier "3408850e-0fdc-46f4-aee6-0ff3492cd84e"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c7405255-25cf-41c4-9c89-929692b035e0> .
-
-<http://example.org/ServiceDept/34eba27e-aac4-4839-a9d6-cff87b67e167> a schema:Department ;
-    schema:address <http://example.org/Address/7c5246f1-8fe5-475b-b771-877e141e39e7> ;
-    schema:contactPoint <http://example.org/ContactPoint/8a624be8-c7e2-4825-8fd2-64ff06fb6410> ;
-    schema:identifier "34eba27e-aac4-4839-a9d6-cff87b67e167"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c7405255-25cf-41c4-9c89-929692b035e0> .
-
-<http://example.org/ServiceDept/350b62e7-9712-41a9-aecb-26826fe47e69> a schema:Department ;
-    schema:address <http://example.org/Address/eee13dc0-e1e4-49cf-8dba-6d8f7ab8572c> ;
-    schema:contactPoint <http://example.org/ContactPoint/a0e33935-f515-49fd-b68b-604992edb418> ;
-    schema:identifier "350b62e7-9712-41a9-aecb-26826fe47e69"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
-
-<http://example.org/ServiceDept/38b7db84-c39a-41ec-92b4-6ef212905a3a> a schema:Department ;
-    schema:address <http://example.org/Address/daac3c58-e266-44c0-9848-d32e65f628ac> ;
-    schema:contactPoint <http://example.org/ContactPoint/68f111c6-ddef-4680-9eb8-39597f119389> ;
-    schema:identifier "38b7db84-c39a-41ec-92b4-6ef212905a3a"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c7405255-25cf-41c4-9c89-929692b035e0> .
-
-<http://example.org/ServiceDept/3a94f14b-0830-4ee6-9a9c-1d73f173d2fe> a schema:Department ;
-    schema:address <http://example.org/Address/eafe0d1f-6e79-4d5f-9314-70c8acb14314> ;
-    schema:contactPoint <http://example.org/ContactPoint/eb5d11e8-b6d2-4ba9-a517-3d1cf7fc0bd9> ;
-    schema:identifier "3a94f14b-0830-4ee6-9a9c-1d73f173d2fe"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/8b5885ca-0bb2-43f0-bd30-291a55fea08e> .
-
-<http://example.org/ServiceDept/3b4590c6-7380-427c-af25-a8cdde699e1e> a schema:Department ;
-    schema:address <http://example.org/Address/44cfc3ca-c3fa-4764-9fd8-a0ca3b036dfd> ;
-    schema:contactPoint <http://example.org/ContactPoint/5aa970d9-801a-4ff7-a6cd-d662c4e813db> ;
-    schema:identifier "3b4590c6-7380-427c-af25-a8cdde699e1e"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/52ebdac5-a145-4899-a1f8-c1569e0df45b> .
-
-<http://example.org/ServiceDept/3ca58162-4509-47a7-a2bc-5350a627e31d> a schema:Department ;
-    schema:address <http://example.org/Address/faa83536-d3d7-49d5-a430-1b871322439a> ;
-    schema:contactPoint <http://example.org/ContactPoint/5536212a-58d7-46da-8f01-3f4e73961f8e> ;
-    schema:identifier "3ca58162-4509-47a7-a2bc-5350a627e31d"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a59cec98-126c-4c8f-b888-447911ebcd49> .
-
-<http://example.org/ServiceDept/473d6d85-56d2-4bf9-9b82-7bb955fc6343> a schema:Department ;
-    schema:address <http://example.org/Address/1ba43eaf-84f4-4346-9301-6d9e87d3b238> ;
-    schema:contactPoint <http://example.org/ContactPoint/87e87d1f-9af4-402a-8703-a4230fa8aee9> ;
-    schema:identifier "473d6d85-56d2-4bf9-9b82-7bb955fc6343"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/3e332f35-086c-4768-b0fe-3cfc991ab513> .
-
-<http://example.org/ServiceDept/483b7b7f-e2b1-46c9-8f2f-bda2b50ad6d5> a schema:Department ;
-    schema:address <http://example.org/Address/f67d2311-33a8-49fd-9091-6a5f97ad1730> ;
-    schema:contactPoint <http://example.org/ContactPoint/e9e1a3d1-1a12-4068-815c-77ed779571dd> ;
-    schema:identifier "483b7b7f-e2b1-46c9-8f2f-bda2b50ad6d5"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> .
-
-<http://example.org/ServiceDept/4a082de7-4f6d-4f01-b0dc-2737db807618> a schema:Department ;
-    schema:address <http://example.org/Address/2542cff6-0710-41c5-802e-3a7aa1515f1e> ;
-    schema:contactPoint <http://example.org/ContactPoint/cec1871a-b5c8-4060-89c7-35079d592a7b> ;
-    schema:identifier "4a082de7-4f6d-4f01-b0dc-2737db807618"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/52ebdac5-a145-4899-a1f8-c1569e0df45b> .
-
-<http://example.org/ServiceDept/4a9007ca-67a1-4225-84e8-8209f7edf89b> a schema:Department ;
-    schema:address <http://example.org/Address/b95a9bfb-827f-4f52-b905-b6dc9e888d32> ;
-    schema:contactPoint <http://example.org/ContactPoint/b0a7ff0b-74e0-420a-8cca-24df24e60c17> ;
-    schema:identifier "4a9007ca-67a1-4225-84e8-8209f7edf89b"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
-
-<http://example.org/ServiceDept/4c407098-5dd6-4593-b1f2-c908e38dbb7e> a schema:Department ;
-    schema:address <http://example.org/Address/425aaf83-4eaa-4a65-942f-4290d7bda791> ;
-    schema:contactPoint <http://example.org/ContactPoint/e354f6ae-6d19-4acc-9167-c254a9800a11> ;
-    schema:identifier "4c407098-5dd6-4593-b1f2-c908e38dbb7e"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
-
-<http://example.org/ServiceDept/4c8909e3-1d54-4d05-b0de-ca69debcb6d2> a schema:Department ;
-    schema:address <http://example.org/Address/d693bf11-7721-4931-9734-2123e3ed9637> ;
-    schema:contactPoint <http://example.org/ContactPoint/8a8ed273-ece1-4e8b-85cc-70a1a49266c9> ;
-    schema:identifier "4c8909e3-1d54-4d05-b0de-ca69debcb6d2"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> .
-
-<http://example.org/ServiceDept/4d543a0e-b3e5-47e4-a261-a3d28bdbf1f8> a schema:Department ;
-    schema:address <http://example.org/Address/25b09e48-1ca1-4fa7-83b8-bbaa7e24238e> ;
-    schema:contactPoint <http://example.org/ContactPoint/46c91999-4187-4dc0-aa20-ccea22e87c8d> ;
-    schema:identifier "4d543a0e-b3e5-47e4-a261-a3d28bdbf1f8"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
-
-<http://example.org/ServiceDept/5041b3d0-8950-4262-a797-765abc854e3f> a schema:Department ;
-    schema:address <http://example.org/Address/054efa50-4962-473b-a0f9-986ab2363b7e> ;
-    schema:contactPoint <http://example.org/ContactPoint/a1fa46f3-4668-4cdd-b5f9-8f4110a15299> ;
-    schema:identifier "5041b3d0-8950-4262-a797-765abc854e3f"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/27d99a23-e4f7-425e-afe6-790abc18a40b> .
-
-<http://example.org/ServiceDept/5447353b-c9dc-4fb4-b567-7aaf4f462933> a schema:Department ;
-    schema:address <http://example.org/Address/45baf444-bb7e-41bf-9b2f-fda39f013834> ;
-    schema:contactPoint <http://example.org/ContactPoint/c40421fb-18fb-4f2c-9602-a43750ea62aa> ;
-    schema:identifier "5447353b-c9dc-4fb4-b567-7aaf4f462933"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
-
-<http://example.org/ServiceDept/54496139-add6-4d20-93f3-f048d814a978> a schema:Department ;
-    schema:address <http://example.org/Address/fbfa7549-13ee-4ee8-950e-18400e60f583> ;
-    schema:contactPoint <http://example.org/ContactPoint/91db735e-dc21-43e8-902e-4f400a013a86> ;
-    schema:identifier "54496139-add6-4d20-93f3-f048d814a978"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
-
-<http://example.org/ServiceDept/5516c1a6-45d3-4a2c-8826-8550d171a798> a schema:Department ;
-    schema:address <http://example.org/Address/b31190b6-21e4-4b25-adb2-bb78765d13de> ;
-    schema:contactPoint <http://example.org/ContactPoint/68aeb048-72ec-4932-a075-44b56eb7b98b> ;
-    schema:identifier "5516c1a6-45d3-4a2c-8826-8550d171a798"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
-
-<http://example.org/ServiceDept/56123a73-379e-44d2-a764-10c23f6b772a> a schema:Department ;
-    schema:address <http://example.org/Address/055c64dd-e478-40a6-9368-e0d60b46b634> ;
-    schema:contactPoint <http://example.org/ContactPoint/b11826f6-66c3-400c-9cae-80b846695f55> ;
-    schema:identifier "56123a73-379e-44d2-a764-10c23f6b772a"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
-
-<http://example.org/ServiceDept/56c16359-352f-4341-83fa-a677b1a8e5c6> a schema:Department ;
-    schema:address <http://example.org/Address/a4b0c73b-f74e-41a1-a2e5-b72606b9370b> ;
-    schema:contactPoint <http://example.org/ContactPoint/c6d82ceb-a1ac-4d49-8d4d-daab72824622> ;
-    schema:identifier "56c16359-352f-4341-83fa-a677b1a8e5c6"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a59cec98-126c-4c8f-b888-447911ebcd49> .
-
-<http://example.org/ServiceDept/57630d70-0eb7-4062-a807-74606da638b2> a schema:Department ;
-    schema:address <http://example.org/Address/f95cad47-3b5a-4257-a195-ace68506d5ba> ;
-    schema:contactPoint <http://example.org/ContactPoint/51c756d4-6dda-4925-86d2-5fcc6714224c> ;
-    schema:identifier "57630d70-0eb7-4062-a807-74606da638b2"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/30d6863f-11c2-42d8-8126-77895c6be596> .
-
-<http://example.org/ServiceDept/57e061c6-0494-405d-b194-a9f14114fa10> a schema:Department ;
-    schema:address <http://example.org/Address/b2b5591a-9d7f-442b-85e2-b0787a3e9905> ;
-    schema:contactPoint <http://example.org/ContactPoint/49556582-7e54-4d03-aef4-2592ec1c6fe4> ;
-    schema:identifier "57e061c6-0494-405d-b194-a9f14114fa10"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/27d99a23-e4f7-425e-afe6-790abc18a40b> .
-
-<http://example.org/ServiceDept/5b30f894-8122-408e-b24f-550f4e7aef59> a schema:Department ;
-    schema:address <http://example.org/Address/93a7468c-10c1-4f57-bed6-8dc13265b5b3> ;
-    schema:contactPoint <http://example.org/ContactPoint/fef5a551-87a9-4185-9166-465bb0464634> ;
-    schema:identifier "5b30f894-8122-408e-b24f-550f4e7aef59"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> .
-
-<http://example.org/ServiceDept/6689ef79-f8c3-4461-bc15-b016487eb3df> a schema:Department ;
-    schema:address <http://example.org/Address/21ab9e3d-fdf4-4f09-bd87-d79311705ee3> ;
-    schema:contactPoint <http://example.org/ContactPoint/84ddf869-b816-4f1a-9677-013ba8e19b83> ;
-    schema:identifier "6689ef79-f8c3-4461-bc15-b016487eb3df"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/8b5885ca-0bb2-43f0-bd30-291a55fea08e> .
-
-<http://example.org/ServiceDept/6850f3a3-4507-4b46-b271-3810c5030168> a schema:Department ;
-    schema:address <http://example.org/Address/71f00da3-b54d-4beb-af4d-0b016700c29f> ;
-    schema:contactPoint <http://example.org/ContactPoint/09237dcc-b77c-4af1-b5fa-5ae843ff4aa7> ;
-    schema:identifier "6850f3a3-4507-4b46-b271-3810c5030168"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/5d393bf9-b2da-41f6-8c16-014a2e4a6e78> .
-
-<http://example.org/ServiceDept/690aae3f-ade5-4235-84d4-09975748c032> a schema:Department ;
-    schema:address <http://example.org/Address/c04bd397-54a9-4898-bcb7-b35d68298389> ;
-    schema:contactPoint <http://example.org/ContactPoint/d7c5a147-ebd2-452e-b18f-3aee34a25626> ;
-    schema:identifier "690aae3f-ade5-4235-84d4-09975748c032"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
-
-<http://example.org/ServiceDept/6bfed001-18bc-4a21-b887-d3e9a3171056> a schema:Department ;
-    schema:address <http://example.org/Address/eb9fc88e-b877-4b59-9f3d-a6ae5295dcaf> ;
-    schema:contactPoint <http://example.org/ContactPoint/c784499d-6909-4290-9496-a305314a332e> ;
-    schema:identifier "6bfed001-18bc-4a21-b887-d3e9a3171056"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/8b5885ca-0bb2-43f0-bd30-291a55fea08e> .
-
-<http://example.org/ServiceDept/6c77700a-55d6-4f9b-85b0-3a351c16dc39> a schema:Department ;
-    schema:address <http://example.org/Address/35152cba-ec4f-46ab-aa07-cfddee9cee1f> ;
-    schema:contactPoint <http://example.org/ContactPoint/8e95ef6a-b675-4f65-b8e1-c5e6648b1a36> ;
-    schema:identifier "6c77700a-55d6-4f9b-85b0-3a351c16dc39"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> .
-
-<http://example.org/ServiceDept/6e323ff4-c345-495e-b8fa-29e6831520ca> a schema:Department ;
-    schema:address <http://example.org/Address/9883502e-7f32-4e78-a7fe-651efd8c2a6f> ;
-    schema:contactPoint <http://example.org/ContactPoint/8dfc0cb0-dc97-4aec-8fac-816ce2d371cc> ;
-    schema:identifier "6e323ff4-c345-495e-b8fa-29e6831520ca"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
-
-<http://example.org/ServiceDept/704b2b61-62c7-431e-9da9-cdbca1c61284> a schema:Department ;
-    schema:address <http://example.org/Address/a2d4870a-e360-4ea5-a600-bef84b4e2db2> ;
-    schema:contactPoint <http://example.org/ContactPoint/f714f11a-c923-4c39-80e9-889de42d1ba0> ;
-    schema:identifier "704b2b61-62c7-431e-9da9-cdbca1c61284"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
-
-<http://example.org/ServiceDept/711f02ac-e905-4731-bd38-7e53f882006a> a schema:Department ;
-    schema:address <http://example.org/Address/6a2ca004-0465-46d5-a086-f2af3059c498> ;
-    schema:contactPoint <http://example.org/ContactPoint/a76f80a9-1db9-4322-ad85-ceb25291b049> ;
-    schema:identifier "711f02ac-e905-4731-bd38-7e53f882006a"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
-
-<http://example.org/ServiceDept/7159cd07-cb44-402b-b69e-14bce47d7cfe> a schema:Department ;
-    schema:address <http://example.org/Address/73c46a50-a041-4cfb-9736-99ffc852ed2e> ;
-    schema:contactPoint <http://example.org/ContactPoint/e92df0d8-5553-477b-8dfb-3ddd1fd512eb> ;
-    schema:identifier "7159cd07-cb44-402b-b69e-14bce47d7cfe"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/5d393bf9-b2da-41f6-8c16-014a2e4a6e78> .
-
-<http://example.org/ServiceDept/7166c54b-9305-4571-9e69-b4b0b54d83e5> a schema:Department ;
-    schema:address <http://example.org/Address/603fa8f0-1549-4dee-830b-4d6d9575d095> ;
-    schema:contactPoint <http://example.org/ContactPoint/e558abe1-7fc8-42e7-8a2d-e86e6910124a> ;
-    schema:identifier "7166c54b-9305-4571-9e69-b4b0b54d83e5"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c7405255-25cf-41c4-9c89-929692b035e0> .
-
-<http://example.org/ServiceDept/754151b0-0cdf-420e-81e7-5ade858e8dfb> a schema:Department ;
-    schema:address <http://example.org/Address/3b6b8130-f687-4f7a-b683-4a01bdb5ff1d> ;
-    schema:contactPoint <http://example.org/ContactPoint/0aa1ee6f-1b04-4aa4-a3f3-3d5519248947> ;
-    schema:identifier "754151b0-0cdf-420e-81e7-5ade858e8dfb"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/27d99a23-e4f7-425e-afe6-790abc18a40b> .
-
-<http://example.org/ServiceDept/767d3080-74d5-4980-b2ac-96120fc54496> a schema:Department ;
-    schema:address <http://example.org/Address/aace1c9a-1c59-4fa1-b543-be48696b7284> ;
-    schema:contactPoint <http://example.org/ContactPoint/5e573ddd-6b60-4f72-948e-40eb1fe43d64> ;
-    schema:identifier "767d3080-74d5-4980-b2ac-96120fc54496"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
-
-<http://example.org/ServiceDept/76c6bf55-a9b9-42bc-a350-0fcaad785312> a schema:Department ;
-    schema:address <http://example.org/Address/317f1e9b-2ee6-416d-b51e-7fc8d6ab5c68> ;
-    schema:contactPoint <http://example.org/ContactPoint/da47b8f9-cee4-4404-9648-1f4b0c747a90> ;
-    schema:identifier "76c6bf55-a9b9-42bc-a350-0fcaad785312"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> .
-
-<http://example.org/ServiceDept/7766f556-ce51-4ffc-943d-da2a7bacbd85> a schema:Department ;
-    schema:address <http://example.org/Address/a7176911-8230-488e-8b29-03f37d2c1e7e> ;
-    schema:contactPoint <http://example.org/ContactPoint/f929fb27-3e4a-4540-b8b5-c1dece9c85a7> ;
-    schema:identifier "7766f556-ce51-4ffc-943d-da2a7bacbd85"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c7405255-25cf-41c4-9c89-929692b035e0> .
-
-<http://example.org/ServiceDept/778d028c-e45e-45b9-a9f8-2b8b7dd5d97e> a schema:Department ;
-    schema:address <http://example.org/Address/da595d3e-a0fe-4e1b-b910-18255057df41> ;
-    schema:contactPoint <http://example.org/ContactPoint/e16e3336-77b1-4e21-bccc-c53ac36a4162> ;
-    schema:identifier "778d028c-e45e-45b9-a9f8-2b8b7dd5d97e"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/8b5885ca-0bb2-43f0-bd30-291a55fea08e> .
-
-<http://example.org/ServiceDept/7d79ab44-c633-4f19-9958-07d2be77e40e> a schema:Department ;
-    schema:address <http://example.org/Address/bc67b332-a89d-4114-9841-c24912882f60> ;
-    schema:contactPoint <http://example.org/ContactPoint/cb628a19-a79e-431f-86ad-ad4a37c6c427> ;
-    schema:identifier "7d79ab44-c633-4f19-9958-07d2be77e40e"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
-
-<http://example.org/ServiceDept/7ffd5e75-5fee-4d78-8052-1e37dddfc648> a schema:Department ;
-    schema:address <http://example.org/Address/f1521976-65d6-4b7f-8f9a-fd63236e747e> ;
-    schema:contactPoint <http://example.org/ContactPoint/3b6f2ad2-6ec1-47b0-99bb-f03db6d06615> ;
-    schema:identifier "7ffd5e75-5fee-4d78-8052-1e37dddfc648"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/037d9752-48f3-431c-8fb7-c3bb4408c04c> .
-
-<http://example.org/ServiceDept/8034f222-b4a4-45c3-b4dc-5b1949523e70> a schema:Department ;
-    schema:address <http://example.org/Address/eae9c546-446c-4893-89d3-cdb9ebb9aa72> ;
-    schema:contactPoint <http://example.org/ContactPoint/689f2d23-100a-4f24-8dd1-5beb5d98abc9> ;
-    schema:identifier "8034f222-b4a4-45c3-b4dc-5b1949523e70"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> .
-
-<http://example.org/ServiceDept/816c03df-3e33-4680-85c0-826ac67c6d5a> a schema:Department ;
-    schema:address <http://example.org/Address/62d55697-ec36-42c8-ad3f-a0b6de8a6d76> ;
-    schema:contactPoint <http://example.org/ContactPoint/5aeb3613-9cc4-4f93-8fd9-ba8f6dc6e925> ;
-    schema:identifier "816c03df-3e33-4680-85c0-826ac67c6d5a"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
-
-<http://example.org/ServiceDept/827254df-3830-4e4b-83d4-540a526aea43> a schema:Department ;
-    schema:address <http://example.org/Address/48d46113-b50a-4a15-a0ff-f2cb6857548c> ;
-    schema:contactPoint <http://example.org/ContactPoint/07d9fab3-fccd-4ab0-b13b-40ac30cceeb3> ;
-    schema:identifier "827254df-3830-4e4b-83d4-540a526aea43"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
-
-<http://example.org/ServiceDept/85bd8d14-3cd3-45dc-8368-557f39795e8c> a schema:Department ;
-    schema:address <http://example.org/Address/572b4813-53e1-4084-8089-a684556ec366> ;
-    schema:contactPoint <http://example.org/ContactPoint/21f04ef1-e253-4910-9e10-c49316197d45> ;
-    schema:identifier "85bd8d14-3cd3-45dc-8368-557f39795e8c"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/3e332f35-086c-4768-b0fe-3cfc991ab513> .
-
-<http://example.org/ServiceDept/87dbfdda-8944-4eca-aab6-5b1daa5611a2> a schema:Department ;
-    schema:address <http://example.org/Address/61ef4435-69ea-4db8-9541-b40f7635abe4> ;
-    schema:contactPoint <http://example.org/ContactPoint/745c759a-691f-4f9a-9895-89611d03e632> ;
-    schema:identifier "87dbfdda-8944-4eca-aab6-5b1daa5611a2"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c7405255-25cf-41c4-9c89-929692b035e0> .
-
-<http://example.org/ServiceDept/91340a41-9333-4293-ba04-a0d5d997e4bf> a schema:Department ;
-    schema:address <http://example.org/Address/69259d81-2a2e-4ea7-9834-aeaf0f332bab> ;
-    schema:contactPoint <http://example.org/ContactPoint/6efeb18f-aaa6-4ef9-bbb6-ba4c140ab78e> ;
-    schema:identifier "91340a41-9333-4293-ba04-a0d5d997e4bf"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> .
-
-<http://example.org/ServiceDept/92eb4614-4b4f-4248-8e49-720d2225137e> a schema:Department ;
-    schema:address <http://example.org/Address/71494031-67ef-4e9e-803f-00347399a177> ;
-    schema:contactPoint <http://example.org/ContactPoint/51b0a3c5-c9e7-4aba-b5da-3e50822bbc3d> ;
-    schema:identifier "92eb4614-4b4f-4248-8e49-720d2225137e"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
-
-<http://example.org/ServiceDept/93c3150d-77c3-404f-9f7a-46b8450000a1> a schema:Department ;
-    schema:address <http://example.org/Address/853a9135-3ee2-451b-be88-c93319db1d7b> ;
-    schema:contactPoint <http://example.org/ContactPoint/b5eca796-dc5f-4db7-87b5-2a8b0af01e69> ;
-    schema:identifier "93c3150d-77c3-404f-9f7a-46b8450000a1"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a59cec98-126c-4c8f-b888-447911ebcd49> .
-
-<http://example.org/ServiceDept/94307158-03cd-4178-b578-b202a834a79f> a schema:Department ;
-    schema:address <http://example.org/Address/c78ad66d-4a9b-4c00-992e-dd37379c05da> ;
-    schema:contactPoint <http://example.org/ContactPoint/77059fa8-56be-4bee-a67c-4de762f8d20a> ;
-    schema:identifier "94307158-03cd-4178-b578-b202a834a79f"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> .
-
-<http://example.org/ServiceDept/9505de76-3ae0-4936-8170-b9484f130b23> a schema:Department ;
-    schema:address <http://example.org/Address/406ec398-9a4a-4a9c-a735-a17352ec0382> ;
-    schema:contactPoint <http://example.org/ContactPoint/322515a5-3a89-491e-b7b9-387b677bd216> ;
-    schema:identifier "9505de76-3ae0-4936-8170-b9484f130b23"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
-
-<http://example.org/ServiceDept/955e988d-f24b-4d76-a07f-949ef11e71ae> a schema:Department ;
-    schema:address <http://example.org/Address/100cfe80-2132-4c24-81b3-77bd59eae69a> ;
-    schema:contactPoint <http://example.org/ContactPoint/66ab247a-75fe-400c-8407-32b4ef1772f4> ;
-    schema:identifier "955e988d-f24b-4d76-a07f-949ef11e71ae"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/27d99a23-e4f7-425e-afe6-790abc18a40b> .
-
-<http://example.org/ServiceDept/9641af55-358d-4639-90bf-babda5d649dc> a schema:Department ;
-    schema:address <http://example.org/Address/970ea1aa-c76f-48ae-adf3-d0246f88c633> ;
-    schema:contactPoint <http://example.org/ContactPoint/7e39fd94-f850-4bec-a7f5-794c007ea2cb> ;
-    schema:identifier "9641af55-358d-4639-90bf-babda5d649dc"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/52ebdac5-a145-4899-a1f8-c1569e0df45b> .
-
-<http://example.org/ServiceDept/97e379e9-f919-4ea4-9d0b-bc0c6635897f> a schema:Department ;
-    schema:address <http://example.org/Address/8c4990e1-820d-4c8e-a991-334cba4dede6> ;
-    schema:contactPoint <http://example.org/ContactPoint/93c1d25b-124b-44fc-8571-605af163875c> ;
-    schema:identifier "97e379e9-f919-4ea4-9d0b-bc0c6635897f"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/5d393bf9-b2da-41f6-8c16-014a2e4a6e78> .
-
-<http://example.org/ServiceDept/9b3e6605-5083-4669-836c-d6021a54acb2> a schema:Department ;
-    schema:address <http://example.org/Address/e31b328e-3a32-4205-9e26-b29d8615ad73> ;
-    schema:contactPoint <http://example.org/ContactPoint/a7486875-29bd-4604-bed2-7848c6950d85> ;
-    schema:identifier "9b3e6605-5083-4669-836c-d6021a54acb2"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/27d99a23-e4f7-425e-afe6-790abc18a40b> .
-
-<http://example.org/ServiceDept/9b4a4276-da41-4bbc-b40b-5ddba649ec91> a schema:Department ;
-    schema:address <http://example.org/Address/f84b85e7-da12-4d3a-bcaa-db1a7dcd07ad> ;
-    schema:contactPoint <http://example.org/ContactPoint/5b93822b-cec8-44aa-a000-4c9f716f9ea7> ;
-    schema:identifier "9b4a4276-da41-4bbc-b40b-5ddba649ec91"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/3e332f35-086c-4768-b0fe-3cfc991ab513> .
-
-<http://example.org/ServiceDept/a2ab116f-f0d6-4eb0-8629-9940a6a48f65> a schema:Department ;
-    schema:address <http://example.org/Address/a775cc44-ee07-4366-8d2f-e15174c88f42> ;
-    schema:contactPoint <http://example.org/ContactPoint/659185b7-664e-4107-99a6-f4165e66ddc3> ;
-    schema:identifier "a2ab116f-f0d6-4eb0-8629-9940a6a48f65"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/037d9752-48f3-431c-8fb7-c3bb4408c04c> .
-
-<http://example.org/ServiceDept/a97e76ef-ebef-4ae1-89c3-a12df0bed3ed> a schema:Department ;
-    schema:address <http://example.org/Address/5f7e3898-2ddb-4eff-9da7-2833e1bfbdfa> ;
-    schema:contactPoint <http://example.org/ContactPoint/4f5ab827-3b33-445b-952b-c38cce0790d7> ;
-    schema:identifier "a97e76ef-ebef-4ae1-89c3-a12df0bed3ed"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
-
-<http://example.org/ServiceDept/a9c0fdec-6c25-4ad6-9dcc-668fa4007b48> a schema:Department ;
-    schema:address <http://example.org/Address/94e5efab-8e36-47af-b1c2-d7b2ed384c44> ;
-    schema:contactPoint <http://example.org/ContactPoint/6278f95a-7438-4b47-aa83-c504ebbc854b> ;
-    schema:identifier "a9c0fdec-6c25-4ad6-9dcc-668fa4007b48"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> .
-
-<http://example.org/ServiceDept/ab46afee-8898-4682-a096-8f2106e090ea> a schema:Department ;
-    schema:address <http://example.org/Address/1ae3237f-aa88-4965-9654-7b4d317588ff> ;
-    schema:contactPoint <http://example.org/ContactPoint/7df8b7f0-44a1-44d0-96df-fc21b1c2ed56> ;
-    schema:identifier "ab46afee-8898-4682-a096-8f2106e090ea"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/27d99a23-e4f7-425e-afe6-790abc18a40b> .
-
-<http://example.org/ServiceDept/abe520ec-1fe1-49cd-8a54-e75953bdfba8> a schema:Department ;
-    schema:address <http://example.org/Address/5a8fe4b2-8ffd-4977-85b8-93b04d36c61a> ;
-    schema:contactPoint <http://example.org/ContactPoint/095e2e87-c893-485b-acbb-85648b3941d5> ;
-    schema:identifier "abe520ec-1fe1-49cd-8a54-e75953bdfba8"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/037d9752-48f3-431c-8fb7-c3bb4408c04c> .
-
-<http://example.org/ServiceDept/ad21e2ab-aac3-4d22-bbb4-7ebfce0efed3> a schema:Department ;
-    schema:address <http://example.org/Address/3e903735-4716-4271-b69c-39b9a73d23a6> ;
-    schema:contactPoint <http://example.org/ContactPoint/c23ce929-89bc-44b6-9da4-01e9b331cf4d> ;
-    schema:identifier "ad21e2ab-aac3-4d22-bbb4-7ebfce0efed3"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
-
-<http://example.org/ServiceDept/aef82d2e-51f8-4e44-924b-ba5b82042c0b> a schema:Department ;
-    schema:address <http://example.org/Address/d35f581e-3648-431f-ae9e-8d0384983111> ;
-    schema:contactPoint <http://example.org/ContactPoint/74286356-3c91-4458-a4b2-7e8301cbd9c2> ;
-    schema:identifier "aef82d2e-51f8-4e44-924b-ba5b82042c0b"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a59cec98-126c-4c8f-b888-447911ebcd49> .
-
-<http://example.org/ServiceDept/b07ce4cb-bc28-4c8c-9e6a-0f46a893e447> a schema:Department ;
-    schema:address <http://example.org/Address/eedbba8b-0f83-41ee-b2ac-89bdb2998fa3> ;
-    schema:contactPoint <http://example.org/ContactPoint/b0ca76f7-17f9-4524-8332-ed33bba6e752> ;
-    schema:identifier "b07ce4cb-bc28-4c8c-9e6a-0f46a893e447"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/3e332f35-086c-4768-b0fe-3cfc991ab513> .
-
-<http://example.org/ServiceDept/b4fecb14-b2b4-40cc-a636-c72f584ca7a8> a schema:Department ;
-    schema:address <http://example.org/Address/b9d2aef5-0fd2-4271-b440-d4eb03ed8da8> ;
-    schema:contactPoint <http://example.org/ContactPoint/6706e199-9aaa-4aa8-9bec-11a0d5bccf5e> ;
-    schema:identifier "b4fecb14-b2b4-40cc-a636-c72f584ca7a8"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c7405255-25cf-41c4-9c89-929692b035e0> .
-
-<http://example.org/ServiceDept/b9be64e1-b08d-4f95-8d8f-1e8bcac8d101> a schema:Department ;
-    schema:address <http://example.org/Address/358d3e42-ed1e-454f-9fb7-86f4f61ed233> ;
-    schema:contactPoint <http://example.org/ContactPoint/11d0fd54-750e-41b1-997e-b2fc26fc574c> ;
-    schema:identifier "b9be64e1-b08d-4f95-8d8f-1e8bcac8d101"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
-
-<http://example.org/ServiceDept/bdfdb88e-ae4f-40d7-bad0-e4d2f9dbd648> a schema:Department ;
-    schema:address <http://example.org/Address/929c8ac4-bf28-40fb-a8cb-2f6eee5e256e> ;
-    schema:contactPoint <http://example.org/ContactPoint/50bbd1c7-f01c-4cc7-bb87-c961fa17e092> ;
-    schema:identifier "bdfdb88e-ae4f-40d7-bad0-e4d2f9dbd648"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> .
-
-<http://example.org/ServiceDept/bf7b6b3c-b1ca-41c3-8061-d029cb1d6d78> a schema:Department ;
-    schema:address <http://example.org/Address/c77239f2-2d47-40cc-a5c5-063d4c444d95> ;
-    schema:contactPoint <http://example.org/ContactPoint/089f8b86-b99e-43e5-a908-a3aa20adb06e> ;
-    schema:identifier "bf7b6b3c-b1ca-41c3-8061-d029cb1d6d78"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/30d6863f-11c2-42d8-8126-77895c6be596> .
-
-<http://example.org/ServiceDept/c1402fa6-756a-49be-a8c7-d9f108e0eb59> a schema:Department ;
-    schema:address <http://example.org/Address/3899c22a-d4ed-41bd-9692-74a2acbe4ff6> ;
-    schema:contactPoint <http://example.org/ContactPoint/6b5bc344-01bb-47e2-bf69-cd8fa4b4da1c> ;
-    schema:identifier "c1402fa6-756a-49be-a8c7-d9f108e0eb59"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
-
-<http://example.org/ServiceDept/c17c1820-23f6-40e8-8978-25ad137e21d5> a schema:Department ;
-    schema:address <http://example.org/Address/09fa0833-e2fe-46d1-8b64-acd73331cc05> ;
-    schema:contactPoint <http://example.org/ContactPoint/b00fecf4-d53a-4c3a-83ff-0b3a5380531c> ;
-    schema:identifier "c17c1820-23f6-40e8-8978-25ad137e21d5"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
-
-<http://example.org/ServiceDept/c21f2252-6321-4a69-b151-f48f111566e4> a schema:Department ;
-    schema:address <http://example.org/Address/0e1cae7a-8122-4b3a-a0b8-024401e32354> ;
-    schema:contactPoint <http://example.org/ContactPoint/d44b5548-066d-4e1e-a16b-347d9babbdab> ;
-    schema:identifier "c21f2252-6321-4a69-b151-f48f111566e4"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/30d6863f-11c2-42d8-8126-77895c6be596> .
-
-<http://example.org/ServiceDept/c736e166-8042-402f-9d73-22518b763f63> a schema:Department ;
-    schema:address <http://example.org/Address/ad82e067-ab35-4414-8ed2-b26b1fda2e53> ;
-    schema:contactPoint <http://example.org/ContactPoint/24fa9196-f801-4987-8008-cccf565e5ae7> ;
-    schema:identifier "c736e166-8042-402f-9d73-22518b763f63"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/8b5885ca-0bb2-43f0-bd30-291a55fea08e> .
-
-<http://example.org/ServiceDept/c8e7e4e5-d3eb-4a23-b64b-f06e22a23be8> a schema:Department ;
-    schema:address <http://example.org/Address/c44117e6-2c98-49d9-bd88-deb7fc584d66> ;
-    schema:contactPoint <http://example.org/ContactPoint/799c82ee-f742-453b-a7a1-28de18310104> ;
-    schema:identifier "c8e7e4e5-d3eb-4a23-b64b-f06e22a23be8"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/3e332f35-086c-4768-b0fe-3cfc991ab513> .
-
-<http://example.org/ServiceDept/c9d4e1bb-c4d3-4ec2-baf3-d90e586a7302> a schema:Department ;
-    schema:address <http://example.org/Address/60c36cdd-9937-4592-985a-eb983d9f3e80> ;
-    schema:contactPoint <http://example.org/ContactPoint/d41cc2bc-e335-4f8b-91d5-6acf680fe5e2> ;
-    schema:identifier "c9d4e1bb-c4d3-4ec2-baf3-d90e586a7302"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a59cec98-126c-4c8f-b888-447911ebcd49> .
-
-<http://example.org/ServiceDept/ca9553d2-44e8-4777-83b2-67e216396b7a> a schema:Department ;
-    schema:address <http://example.org/Address/47006868-578e-451a-8a99-908598f1d552> ;
-    schema:contactPoint <http://example.org/ContactPoint/8e13c327-b461-4c8f-ae16-25f34b4444b5> ;
-    schema:identifier "ca9553d2-44e8-4777-83b2-67e216396b7a"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
-
-<http://example.org/ServiceDept/cb89ba42-095b-4ec0-8b7f-62c4a371e89d> a schema:Department ;
-    schema:address <http://example.org/Address/55e4ddc4-3d71-4abb-9ace-f37c8d61adb6> ;
-    schema:contactPoint <http://example.org/ContactPoint/5555ee5d-84b5-4c83-9eb8-3dd2a1dec0c1> ;
-    schema:identifier "cb89ba42-095b-4ec0-8b7f-62c4a371e89d"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
-
-<http://example.org/ServiceDept/d1da4bba-1ed9-4ae6-a5f4-4940f5114a9a> a schema:Department ;
-    schema:address <http://example.org/Address/a7fd116e-d8f5-417f-85bd-ca63a100ba8f> ;
-    schema:contactPoint <http://example.org/ContactPoint/88bf1035-d8cf-4d5c-b35c-f88bfae203e1> ;
-    schema:identifier "d1da4bba-1ed9-4ae6-a5f4-4940f5114a9a"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> .
-
-<http://example.org/ServiceDept/d3e8b9f1-798b-47b9-9954-748a029729f9> a schema:Department ;
-    schema:address <http://example.org/Address/636164d8-bb88-41b8-9be5-f8a138462e03> ;
-    schema:contactPoint <http://example.org/ContactPoint/76800d7a-bb11-4dbc-bd0f-8012f3cf3c33> ;
-    schema:identifier "d3e8b9f1-798b-47b9-9954-748a029729f9"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
-
-<http://example.org/ServiceDept/d49d81b9-54d5-4ee1-b160-77f5d07aae7f> a schema:Department ;
-    schema:address <http://example.org/Address/4a8b2fae-6209-41c3-afb6-88bbe3a56430> ;
-    schema:contactPoint <http://example.org/ContactPoint/52c71bbd-94b2-4c54-be2b-0f3a655ff99f> ;
-    schema:identifier "d49d81b9-54d5-4ee1-b160-77f5d07aae7f"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c7405255-25cf-41c4-9c89-929692b035e0> .
-
-<http://example.org/ServiceDept/da6b236d-18a8-4f2e-843a-69ea1a6ed48d> a schema:Department ;
-    schema:address <http://example.org/Address/2802e605-3fe6-4c84-9615-4be95b698ec7> ;
-    schema:contactPoint <http://example.org/ContactPoint/1010e768-13f1-4080-bc0d-d51a9e00559b> ;
-    schema:identifier "da6b236d-18a8-4f2e-843a-69ea1a6ed48d"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
-
-<http://example.org/ServiceDept/daacae0c-c983-43fa-9102-9ff49930036a> a schema:Department ;
-    schema:address <http://example.org/Address/0e8cff18-9e9d-4b77-ba34-b580eda0a0af> ;
-    schema:contactPoint <http://example.org/ContactPoint/3ab88289-7324-4b18-96b1-a336ba2831ca> ;
-    schema:identifier "daacae0c-c983-43fa-9102-9ff49930036a"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c7405255-25cf-41c4-9c89-929692b035e0> .
-
-<http://example.org/ServiceDept/de9ac8b8-640b-4b28-8322-b4ff856df911> a schema:Department ;
-    schema:address <http://example.org/Address/8057b537-92ec-41d0-b2bb-8a67ec5b03af> ;
-    schema:contactPoint <http://example.org/ContactPoint/31692d4e-9b24-4fa1-b264-5654489d80b6> ;
-    schema:identifier "de9ac8b8-640b-4b28-8322-b4ff856df911"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/30d6863f-11c2-42d8-8126-77895c6be596> .
-
-<http://example.org/ServiceDept/df1f2a73-fc78-4d8e-b085-3e44a546947b> a schema:Department ;
-    schema:address <http://example.org/Address/5cf10f05-e927-4cd1-8763-9a9fa4134092> ;
-    schema:contactPoint <http://example.org/ContactPoint/8eb9556d-7da2-4999-9436-93c6b76cfca2> ;
-    schema:identifier "df1f2a73-fc78-4d8e-b085-3e44a546947b"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/5d393bf9-b2da-41f6-8c16-014a2e4a6e78> .
-
-<http://example.org/ServiceDept/df561807-8c25-43ff-b4cc-0b62e7bb695c> a schema:Department ;
-    schema:address <http://example.org/Address/2c12129c-487b-4acf-8535-c13d4d697998> ;
-    schema:contactPoint <http://example.org/ContactPoint/918b59ec-2b6a-48a8-a8e1-19f70df23548> ;
-    schema:identifier "df561807-8c25-43ff-b4cc-0b62e7bb695c"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/3e332f35-086c-4768-b0fe-3cfc991ab513> .
-
-<http://example.org/ServiceDept/e5a2a4ef-a5fd-4acb-98a4-85f5a72125ce> a schema:Department ;
-    schema:address <http://example.org/Address/f3e50e26-2e07-4578-8e4b-b53cf3dacf72> ;
-    schema:contactPoint <http://example.org/ContactPoint/92738995-ca89-4d11-8646-356bc28611fd> ;
-    schema:identifier "e5a2a4ef-a5fd-4acb-98a4-85f5a72125ce"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/037d9752-48f3-431c-8fb7-c3bb4408c04c> .
-
-<http://example.org/ServiceDept/e675e7e7-f848-419a-91fa-1e143cde8704> a schema:Department ;
-    schema:address <http://example.org/Address/db03dadf-a10f-4588-b1e1-9146f654f453> ;
-    schema:contactPoint <http://example.org/ContactPoint/e1f51fdc-c203-453a-8b78-44b004747134> ;
-    schema:identifier "e675e7e7-f848-419a-91fa-1e143cde8704"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
-
-<http://example.org/ServiceDept/ec319b23-c7ff-4268-b14b-bea9404f72f3> a schema:Department ;
-    schema:address <http://example.org/Address/d2865c01-77f7-4d19-8ee5-ddf0d996f125> ;
-    schema:contactPoint <http://example.org/ContactPoint/6db16e7a-23e0-484e-bc30-9d334ea8c3b1> ;
-    schema:identifier "ec319b23-c7ff-4268-b14b-bea9404f72f3"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> .
-
-<http://example.org/ServiceDept/eda0f2f3-10fd-41ca-941a-7e9c915ad4d1> a schema:Department ;
-    schema:address <http://example.org/Address/269dc3b6-c740-43ac-b14f-7e995a24e786> ;
-    schema:contactPoint <http://example.org/ContactPoint/367cf088-7f4a-41b5-a72f-abab25edfea9> ;
-    schema:identifier "eda0f2f3-10fd-41ca-941a-7e9c915ad4d1"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
-
-<http://example.org/ServiceDept/edabf3d2-53e4-4dd3-ae51-bca044c0a5ed> a schema:Department ;
-    schema:address <http://example.org/Address/15f82b2f-bc89-4faf-8cf4-627782dcf736> ;
-    schema:contactPoint <http://example.org/ContactPoint/80082244-1ac5-443b-b7dd-3c21e618d25d> ;
-    schema:identifier "edabf3d2-53e4-4dd3-ae51-bca044c0a5ed"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/27d99a23-e4f7-425e-afe6-790abc18a40b> .
-
-<http://example.org/ServiceDept/ee3c763d-2997-4088-ba31-24df44f10516> a schema:Department ;
-    schema:address <http://example.org/Address/022c88c0-b563-446c-9cbf-0c64c039c71e> ;
-    schema:contactPoint <http://example.org/ContactPoint/749ef679-c161-4767-b28a-85434a974df5> ;
-    schema:identifier "ee3c763d-2997-4088-ba31-24df44f10516"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/30d6863f-11c2-42d8-8126-77895c6be596> .
-
-<http://example.org/ServiceDept/f0c53802-4474-4ac6-9df7-327635ba9da1> a schema:Department ;
-    schema:address <http://example.org/Address/df66946a-0116-4168-bac8-a7602d5df04a> ;
-    schema:contactPoint <http://example.org/ContactPoint/c47090c6-bad8-4464-959b-0d078f022246> ;
-    schema:identifier "f0c53802-4474-4ac6-9df7-327635ba9da1"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/52ebdac5-a145-4899-a1f8-c1569e0df45b> .
-
-<http://example.org/ServiceDept/f117f274-1840-4ff8-966d-a609aa80ddfc> a schema:Department ;
-    schema:address <http://example.org/Address/f01688e4-b43b-4ab8-802b-7d666abb6f15> ;
-    schema:contactPoint <http://example.org/ContactPoint/15f66e23-75e6-43b6-b952-7fba397ce787> ;
-    schema:identifier "f117f274-1840-4ff8-966d-a609aa80ddfc"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> .
-
-<http://example.org/ServiceDept/f5492fe4-471d-4312-aeee-86d52536c20e> a schema:Department ;
-    schema:address <http://example.org/Address/9b935e61-28d1-4f89-87f9-e252d474ae8e> ;
-    schema:contactPoint <http://example.org/ContactPoint/5073fc2b-c647-4e3c-8e19-967b8102ce40> ;
-    schema:identifier "f5492fe4-471d-4312-aeee-86d52536c20e"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
-
-<http://example.org/ServiceDept/f6ef5d0a-25a1-4101-bf57-4e77fac49cf7> a schema:Department ;
-    schema:address <http://example.org/Address/ea5fe267-5877-4d3a-a8b5-a07a9659a673> ;
-    schema:contactPoint <http://example.org/ContactPoint/ab8c6b16-cc35-4ea7-a17d-8ad2c9d9d2a6> ;
-    schema:identifier "f6ef5d0a-25a1-4101-bf57-4e77fac49cf7"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/5d393bf9-b2da-41f6-8c16-014a2e4a6e78> .
-
-<http://example.org/ServiceDept/fc1f14ac-a6bb-429a-8a6e-e1d2b7815143> a schema:Department ;
-    schema:address <http://example.org/Address/62fe8d68-95f4-4a1f-a1d2-92ab36f4851f> ;
-    schema:contactPoint <http://example.org/ContactPoint/16b9315a-eea6-4d23-aaf3-913e301c8730> ;
-    schema:identifier "fc1f14ac-a6bb-429a-8a6e-e1d2b7815143"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
-
-<http://example.org/ServiceDept/fc961495-3051-4587-bec9-787d2a0f12d3> a schema:Department ;
-    schema:address <http://example.org/Address/2985c817-a937-4c86-9f40-ec4712d527a0> ;
-    schema:contactPoint <http://example.org/ContactPoint/8aa97d3f-bd63-47b3-9595-7c157d3e3711> ;
-    schema:identifier "fc961495-3051-4587-bec9-787d2a0f12d3"^^xsd:string ;
-    schema:name "nan"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
-
 <http://example.org/Address/02299f58-9071-414d-b4f2-ba8e32fa6380> a schema:PostalAddress ;
     schema:addressCountry "NL"^^xsd:string ;
     schema:addressLocality "Ouderkerk aan den IJssel"^^xsd:string ;
@@ -6534,93 +5743,884 @@
     schema:identifier "fef5a551-87a9-4185-9166-465bb0464634"^^xsd:string ;
     schema:telephone "049 7612433"^^xsd:string .
 
-<http://example.org/HealthcareOrg/30d6863f-11c2-42d8-8126-77895c6be596> a schema:MedicalOrganization ;
+<http://example.org/ServiceDepartment/0f32e315-7a2b-45d6-926d-076cd58cf189> a schema:Department ;
+    schema:address <http://example.org/Address/b098a39f-12e9-43c1-a33a-812367ac9755> ;
+    schema:contactPoint <http://example.org/ContactPoint/9e3589b2-eb14-4394-bd70-57fbc7caa96b> ;
+    schema:identifier "0f32e315-7a2b-45d6-926d-076cd58cf189"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
+
+<http://example.org/ServiceDepartment/12d06ce5-dff4-4562-8464-77d001f59b1c> a schema:Department ;
+    schema:address <http://example.org/Address/c3629df7-6898-4668-9f18-1e4f394e61fe> ;
+    schema:contactPoint <http://example.org/ContactPoint/4d668807-a68f-4bb3-8cb6-cfc37e49eb8d> ;
+    schema:identifier "12d06ce5-dff4-4562-8464-77d001f59b1c"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
+
+<http://example.org/ServiceDepartment/1745c170-d7bc-4fdf-8948-aff1182e1a8e> a schema:Department ;
+    schema:address <http://example.org/Address/98e63241-243f-4229-ace4-8fdc68d60b08> ;
+    schema:contactPoint <http://example.org/ContactPoint/3d550d82-be18-4b30-93b7-9970dd8159b8> ;
+    schema:identifier "1745c170-d7bc-4fdf-8948-aff1182e1a8e"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
+
+<http://example.org/ServiceDepartment/32c973a4-2580-4532-a7c0-16ad9e4b4102> a schema:Department ;
+    schema:address <http://example.org/Address/de4452be-1567-43c9-af7a-98c53abe5a8d> ;
+    schema:contactPoint <http://example.org/ContactPoint/a9e80538-880b-4ff9-b4b7-d61da17256a8> ;
+    schema:identifier "32c973a4-2580-4532-a7c0-16ad9e4b4102"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
+
+<http://example.org/ServiceDepartment/350b62e7-9712-41a9-aecb-26826fe47e69> a schema:Department ;
+    schema:address <http://example.org/Address/eee13dc0-e1e4-49cf-8dba-6d8f7ab8572c> ;
+    schema:contactPoint <http://example.org/ContactPoint/a0e33935-f515-49fd-b68b-604992edb418> ;
+    schema:identifier "350b62e7-9712-41a9-aecb-26826fe47e69"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
+
+<http://example.org/ServiceDepartment/3ca58162-4509-47a7-a2bc-5350a627e31d> a schema:Department ;
+    schema:address <http://example.org/Address/faa83536-d3d7-49d5-a430-1b871322439a> ;
+    schema:contactPoint <http://example.org/ContactPoint/5536212a-58d7-46da-8f01-3f4e73961f8e> ;
+    schema:identifier "3ca58162-4509-47a7-a2bc-5350a627e31d"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a59cec98-126c-4c8f-b888-447911ebcd49> .
+
+<http://example.org/ServiceDepartment/4a9007ca-67a1-4225-84e8-8209f7edf89b> a schema:Department ;
+    schema:address <http://example.org/Address/b95a9bfb-827f-4f52-b905-b6dc9e888d32> ;
+    schema:contactPoint <http://example.org/ContactPoint/b0a7ff0b-74e0-420a-8cca-24df24e60c17> ;
+    schema:identifier "4a9007ca-67a1-4225-84e8-8209f7edf89b"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
+
+<http://example.org/ServiceDepartment/4c407098-5dd6-4593-b1f2-c908e38dbb7e> a schema:Department ;
+    schema:address <http://example.org/Address/425aaf83-4eaa-4a65-942f-4290d7bda791> ;
+    schema:contactPoint <http://example.org/ContactPoint/e354f6ae-6d19-4acc-9167-c254a9800a11> ;
+    schema:identifier "4c407098-5dd6-4593-b1f2-c908e38dbb7e"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
+
+<http://example.org/ServiceDepartment/5447353b-c9dc-4fb4-b567-7aaf4f462933> a schema:Department ;
+    schema:address <http://example.org/Address/45baf444-bb7e-41bf-9b2f-fda39f013834> ;
+    schema:contactPoint <http://example.org/ContactPoint/c40421fb-18fb-4f2c-9602-a43750ea62aa> ;
+    schema:identifier "5447353b-c9dc-4fb4-b567-7aaf4f462933"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
+
+<http://example.org/ServiceDepartment/56c16359-352f-4341-83fa-a677b1a8e5c6> a schema:Department ;
+    schema:address <http://example.org/Address/a4b0c73b-f74e-41a1-a2e5-b72606b9370b> ;
+    schema:contactPoint <http://example.org/ContactPoint/c6d82ceb-a1ac-4d49-8d4d-daab72824622> ;
+    schema:identifier "56c16359-352f-4341-83fa-a677b1a8e5c6"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a59cec98-126c-4c8f-b888-447911ebcd49> .
+
+<http://example.org/ServiceDepartment/57e061c6-0494-405d-b194-a9f14114fa10> a schema:Department ;
+    schema:address <http://example.org/Address/b2b5591a-9d7f-442b-85e2-b0787a3e9905> ;
+    schema:contactPoint <http://example.org/ContactPoint/49556582-7e54-4d03-aef4-2592ec1c6fe4> ;
+    schema:identifier "57e061c6-0494-405d-b194-a9f14114fa10"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/27d99a23-e4f7-425e-afe6-790abc18a40b> .
+
+<http://example.org/ServiceDepartment/711f02ac-e905-4731-bd38-7e53f882006a> a schema:Department ;
+    schema:address <http://example.org/Address/6a2ca004-0465-46d5-a086-f2af3059c498> ;
+    schema:contactPoint <http://example.org/ContactPoint/a76f80a9-1db9-4322-ad85-ceb25291b049> ;
+    schema:identifier "711f02ac-e905-4731-bd38-7e53f882006a"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
+
+<http://example.org/ServiceDepartment/7166c54b-9305-4571-9e69-b4b0b54d83e5> a schema:Department ;
+    schema:address <http://example.org/Address/603fa8f0-1549-4dee-830b-4d6d9575d095> ;
+    schema:contactPoint <http://example.org/ContactPoint/e558abe1-7fc8-42e7-8a2d-e86e6910124a> ;
+    schema:identifier "7166c54b-9305-4571-9e69-b4b0b54d83e5"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c7405255-25cf-41c4-9c89-929692b035e0> .
+
+<http://example.org/ServiceDepartment/767d3080-74d5-4980-b2ac-96120fc54496> a schema:Department ;
+    schema:address <http://example.org/Address/aace1c9a-1c59-4fa1-b543-be48696b7284> ;
+    schema:contactPoint <http://example.org/ContactPoint/5e573ddd-6b60-4f72-948e-40eb1fe43d64> ;
+    schema:identifier "767d3080-74d5-4980-b2ac-96120fc54496"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
+
+<http://example.org/ServiceDepartment/7766f556-ce51-4ffc-943d-da2a7bacbd85> a schema:Department ;
+    schema:address <http://example.org/Address/a7176911-8230-488e-8b29-03f37d2c1e7e> ;
+    schema:contactPoint <http://example.org/ContactPoint/f929fb27-3e4a-4540-b8b5-c1dece9c85a7> ;
+    schema:identifier "7766f556-ce51-4ffc-943d-da2a7bacbd85"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c7405255-25cf-41c4-9c89-929692b035e0> .
+
+<http://example.org/ServiceDepartment/7d79ab44-c633-4f19-9958-07d2be77e40e> a schema:Department ;
+    schema:address <http://example.org/Address/bc67b332-a89d-4114-9841-c24912882f60> ;
+    schema:contactPoint <http://example.org/ContactPoint/cb628a19-a79e-431f-86ad-ad4a37c6c427> ;
+    schema:identifier "7d79ab44-c633-4f19-9958-07d2be77e40e"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
+
+<http://example.org/ServiceDepartment/91340a41-9333-4293-ba04-a0d5d997e4bf> a schema:Department ;
+    schema:address <http://example.org/Address/69259d81-2a2e-4ea7-9834-aeaf0f332bab> ;
+    schema:contactPoint <http://example.org/ContactPoint/6efeb18f-aaa6-4ef9-bbb6-ba4c140ab78e> ;
+    schema:identifier "91340a41-9333-4293-ba04-a0d5d997e4bf"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> .
+
+<http://example.org/ServiceDepartment/92eb4614-4b4f-4248-8e49-720d2225137e> a schema:Department ;
+    schema:address <http://example.org/Address/71494031-67ef-4e9e-803f-00347399a177> ;
+    schema:contactPoint <http://example.org/ContactPoint/51b0a3c5-c9e7-4aba-b5da-3e50822bbc3d> ;
+    schema:identifier "92eb4614-4b4f-4248-8e49-720d2225137e"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
+
+<http://example.org/ServiceDepartment/93c3150d-77c3-404f-9f7a-46b8450000a1> a schema:Department ;
+    schema:address <http://example.org/Address/853a9135-3ee2-451b-be88-c93319db1d7b> ;
+    schema:contactPoint <http://example.org/ContactPoint/b5eca796-dc5f-4db7-87b5-2a8b0af01e69> ;
+    schema:identifier "93c3150d-77c3-404f-9f7a-46b8450000a1"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a59cec98-126c-4c8f-b888-447911ebcd49> .
+
+<http://example.org/ServiceDepartment/94307158-03cd-4178-b578-b202a834a79f> a schema:Department ;
+    schema:address <http://example.org/Address/c78ad66d-4a9b-4c00-992e-dd37379c05da> ;
+    schema:contactPoint <http://example.org/ContactPoint/77059fa8-56be-4bee-a67c-4de762f8d20a> ;
+    schema:identifier "94307158-03cd-4178-b578-b202a834a79f"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> .
+
+<http://example.org/ServiceDepartment/9505de76-3ae0-4936-8170-b9484f130b23> a schema:Department ;
+    schema:address <http://example.org/Address/406ec398-9a4a-4a9c-a735-a17352ec0382> ;
+    schema:contactPoint <http://example.org/ContactPoint/322515a5-3a89-491e-b7b9-387b677bd216> ;
+    schema:identifier "9505de76-3ae0-4936-8170-b9484f130b23"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
+
+<http://example.org/ServiceDepartment/9641af55-358d-4639-90bf-babda5d649dc> a schema:Department ;
+    schema:address <http://example.org/Address/970ea1aa-c76f-48ae-adf3-d0246f88c633> ;
+    schema:contactPoint <http://example.org/ContactPoint/7e39fd94-f850-4bec-a7f5-794c007ea2cb> ;
+    schema:identifier "9641af55-358d-4639-90bf-babda5d649dc"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/52ebdac5-a145-4899-a1f8-c1569e0df45b> .
+
+<http://example.org/ServiceDepartment/ad21e2ab-aac3-4d22-bbb4-7ebfce0efed3> a schema:Department ;
+    schema:address <http://example.org/Address/3e903735-4716-4271-b69c-39b9a73d23a6> ;
+    schema:contactPoint <http://example.org/ContactPoint/c23ce929-89bc-44b6-9da4-01e9b331cf4d> ;
+    schema:identifier "ad21e2ab-aac3-4d22-bbb4-7ebfce0efed3"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
+
+<http://example.org/ServiceDepartment/aef82d2e-51f8-4e44-924b-ba5b82042c0b> a schema:Department ;
+    schema:address <http://example.org/Address/d35f581e-3648-431f-ae9e-8d0384983111> ;
+    schema:contactPoint <http://example.org/ContactPoint/74286356-3c91-4458-a4b2-7e8301cbd9c2> ;
+    schema:identifier "aef82d2e-51f8-4e44-924b-ba5b82042c0b"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a59cec98-126c-4c8f-b888-447911ebcd49> .
+
+<http://example.org/ServiceDepartment/b4fecb14-b2b4-40cc-a636-c72f584ca7a8> a schema:Department ;
+    schema:address <http://example.org/Address/b9d2aef5-0fd2-4271-b440-d4eb03ed8da8> ;
+    schema:contactPoint <http://example.org/ContactPoint/6706e199-9aaa-4aa8-9bec-11a0d5bccf5e> ;
+    schema:identifier "b4fecb14-b2b4-40cc-a636-c72f584ca7a8"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c7405255-25cf-41c4-9c89-929692b035e0> .
+
+<http://example.org/ServiceDepartment/b9be64e1-b08d-4f95-8d8f-1e8bcac8d101> a schema:Department ;
+    schema:address <http://example.org/Address/358d3e42-ed1e-454f-9fb7-86f4f61ed233> ;
+    schema:contactPoint <http://example.org/ContactPoint/11d0fd54-750e-41b1-997e-b2fc26fc574c> ;
+    schema:identifier "b9be64e1-b08d-4f95-8d8f-1e8bcac8d101"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
+
+<http://example.org/ServiceDepartment/bf7b6b3c-b1ca-41c3-8061-d029cb1d6d78> a schema:Department ;
+    schema:address <http://example.org/Address/c77239f2-2d47-40cc-a5c5-063d4c444d95> ;
+    schema:contactPoint <http://example.org/ContactPoint/089f8b86-b99e-43e5-a908-a3aa20adb06e> ;
+    schema:identifier "bf7b6b3c-b1ca-41c3-8061-d029cb1d6d78"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/30d6863f-11c2-42d8-8126-77895c6be596> .
+
+<http://example.org/ServiceDepartment/c17c1820-23f6-40e8-8978-25ad137e21d5> a schema:Department ;
+    schema:address <http://example.org/Address/09fa0833-e2fe-46d1-8b64-acd73331cc05> ;
+    schema:contactPoint <http://example.org/ContactPoint/b00fecf4-d53a-4c3a-83ff-0b3a5380531c> ;
+    schema:identifier "c17c1820-23f6-40e8-8978-25ad137e21d5"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
+
+<http://example.org/ServiceDepartment/c9d4e1bb-c4d3-4ec2-baf3-d90e586a7302> a schema:Department ;
+    schema:address <http://example.org/Address/60c36cdd-9937-4592-985a-eb983d9f3e80> ;
+    schema:contactPoint <http://example.org/ContactPoint/d41cc2bc-e335-4f8b-91d5-6acf680fe5e2> ;
+    schema:identifier "c9d4e1bb-c4d3-4ec2-baf3-d90e586a7302"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a59cec98-126c-4c8f-b888-447911ebcd49> .
+
+<http://example.org/ServiceDepartment/ca9553d2-44e8-4777-83b2-67e216396b7a> a schema:Department ;
+    schema:address <http://example.org/Address/47006868-578e-451a-8a99-908598f1d552> ;
+    schema:contactPoint <http://example.org/ContactPoint/8e13c327-b461-4c8f-ae16-25f34b4444b5> ;
+    schema:identifier "ca9553d2-44e8-4777-83b2-67e216396b7a"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
+
+<http://example.org/ServiceDepartment/d3e8b9f1-798b-47b9-9954-748a029729f9> a schema:Department ;
+    schema:address <http://example.org/Address/636164d8-bb88-41b8-9be5-f8a138462e03> ;
+    schema:contactPoint <http://example.org/ContactPoint/76800d7a-bb11-4dbc-bd0f-8012f3cf3c33> ;
+    schema:identifier "d3e8b9f1-798b-47b9-9954-748a029729f9"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
+
+<http://example.org/ServiceDepartment/d49d81b9-54d5-4ee1-b160-77f5d07aae7f> a schema:Department ;
+    schema:address <http://example.org/Address/4a8b2fae-6209-41c3-afb6-88bbe3a56430> ;
+    schema:contactPoint <http://example.org/ContactPoint/52c71bbd-94b2-4c54-be2b-0f3a655ff99f> ;
+    schema:identifier "d49d81b9-54d5-4ee1-b160-77f5d07aae7f"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c7405255-25cf-41c4-9c89-929692b035e0> .
+
+<http://example.org/ServiceDepartment/daacae0c-c983-43fa-9102-9ff49930036a> a schema:Department ;
+    schema:address <http://example.org/Address/0e8cff18-9e9d-4b77-ba34-b580eda0a0af> ;
+    schema:contactPoint <http://example.org/ContactPoint/3ab88289-7324-4b18-96b1-a336ba2831ca> ;
+    schema:identifier "daacae0c-c983-43fa-9102-9ff49930036a"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c7405255-25cf-41c4-9c89-929692b035e0> .
+
+<http://example.org/ServiceDepartment/e675e7e7-f848-419a-91fa-1e143cde8704> a schema:Department ;
+    schema:address <http://example.org/Address/db03dadf-a10f-4588-b1e1-9146f654f453> ;
+    schema:contactPoint <http://example.org/ContactPoint/e1f51fdc-c203-453a-8b78-44b004747134> ;
+    schema:identifier "e675e7e7-f848-419a-91fa-1e143cde8704"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
+
+<http://example.org/ServiceDepartment/fc1f14ac-a6bb-429a-8a6e-e1d2b7815143> a schema:Department ;
+    schema:address <http://example.org/Address/62fe8d68-95f4-4a1f-a1d2-92ab36f4851f> ;
+    schema:contactPoint <http://example.org/ContactPoint/16b9315a-eea6-4d23-aaf3-913e301c8730> ;
+    schema:identifier "fc1f14ac-a6bb-429a-8a6e-e1d2b7815143"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9db3466d-1ba6-4c61-aaf9-4919e69b7971> .
+
+<http://example.org/ServiceDepartment/fc961495-3051-4587-bec9-787d2a0f12d3> a schema:Department ;
+    schema:address <http://example.org/Address/2985c817-a937-4c86-9f40-ec4712d527a0> ;
+    schema:contactPoint <http://example.org/ContactPoint/8aa97d3f-bd63-47b3-9595-7c157d3e3711> ;
+    schema:identifier "fc961495-3051-4587-bec9-787d2a0f12d3"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
+
+<http://example.org/ServiceDepartment/01df3805-5f18-4cea-9b28-9a8432a88b74> a schema:Department ;
+    schema:address <http://example.org/Address/b41fdcad-e36a-4265-ae51-686507afe1c5> ;
+    schema:contactPoint <http://example.org/ContactPoint/5351c342-5b7c-48ed-b239-6f882516de06> ;
+    schema:identifier "01df3805-5f18-4cea-9b28-9a8432a88b74"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> .
+
+<http://example.org/ServiceDepartment/09463e6f-3215-400e-a272-e2af92126ff1> a schema:Department ;
+    schema:address <http://example.org/Address/43419ace-febd-4b72-ae24-df89e9c5c130> ;
+    schema:contactPoint <http://example.org/ContactPoint/10d44b3d-8aca-4410-9c10-126197762b3a> ;
+    schema:identifier "09463e6f-3215-400e-a272-e2af92126ff1"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c7405255-25cf-41c4-9c89-929692b035e0> .
+
+<http://example.org/ServiceDepartment/0d0fbbe9-6b7d-4713-8ba1-527dad7114db> a schema:Department ;
+    schema:address <http://example.org/Address/335be677-df1b-425e-af66-be879a4c2227> ;
+    schema:contactPoint <http://example.org/ContactPoint/d24f6919-7d1d-439e-b453-6a9b7ecbcd45> ;
+    schema:identifier "0d0fbbe9-6b7d-4713-8ba1-527dad7114db"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/52ebdac5-a145-4899-a1f8-c1569e0df45b> .
+
+<http://example.org/ServiceDepartment/101efc05-873e-40dd-bdcb-54acb369907d> a schema:Department ;
+    schema:address <http://example.org/Address/9f78299c-b9a9-4a03-bf8d-c9f2e3a10464> ;
+    schema:contactPoint <http://example.org/ContactPoint/0a4d3590-f9b4-4573-878a-2aafd8dc0cb1> ;
+    schema:identifier "101efc05-873e-40dd-bdcb-54acb369907d"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
+
+<http://example.org/ServiceDepartment/15362c1f-90b3-49d9-bf0a-837a3e0f7488> a schema:Department ;
+    schema:address <http://example.org/Address/f2aaaaf0-e8eb-4ae2-9bc1-c77afa29fad9> ;
+    schema:contactPoint <http://example.org/ContactPoint/047595fb-338b-4372-a00c-ea03b7d52dce> ;
+    schema:identifier "15362c1f-90b3-49d9-bf0a-837a3e0f7488"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/27d99a23-e4f7-425e-afe6-790abc18a40b> .
+
+<http://example.org/ServiceDepartment/19b5024c-eee2-4362-8ccb-cb6e42e14ce9> a schema:Department ;
+    schema:address <http://example.org/Address/700e6a4f-2543-43f8-b349-f09340601a0d> ;
+    schema:contactPoint <http://example.org/ContactPoint/28986430-fabd-4787-bd5a-95ecc315c8b0> ;
+    schema:identifier "19b5024c-eee2-4362-8ccb-cb6e42e14ce9"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> .
+
+<http://example.org/ServiceDepartment/1f1472db-c7ff-4f21-8839-e2b5409d108c> a schema:Department ;
+    schema:address <http://example.org/Address/5768ba9a-1fa9-4bd6-af25-cbe207fe7ec8> ;
+    schema:contactPoint <http://example.org/ContactPoint/af2dd8f0-1d19-4eec-929f-efba97bf86b3> ;
+    schema:identifier "1f1472db-c7ff-4f21-8839-e2b5409d108c"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
+
+<http://example.org/ServiceDepartment/3408850e-0fdc-46f4-aee6-0ff3492cd84e> a schema:Department ;
+    schema:address <http://example.org/Address/6f30a7a2-5853-40c4-b053-7fbb2bcdacf3> ;
+    schema:contactPoint <http://example.org/ContactPoint/b81b7f03-fb0a-4705-8e9a-a076faac8f76> ;
+    schema:identifier "3408850e-0fdc-46f4-aee6-0ff3492cd84e"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c7405255-25cf-41c4-9c89-929692b035e0> .
+
+<http://example.org/ServiceDepartment/34eba27e-aac4-4839-a9d6-cff87b67e167> a schema:Department ;
+    schema:address <http://example.org/Address/7c5246f1-8fe5-475b-b771-877e141e39e7> ;
+    schema:contactPoint <http://example.org/ContactPoint/8a624be8-c7e2-4825-8fd2-64ff06fb6410> ;
+    schema:identifier "34eba27e-aac4-4839-a9d6-cff87b67e167"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c7405255-25cf-41c4-9c89-929692b035e0> .
+
+<http://example.org/ServiceDepartment/38b7db84-c39a-41ec-92b4-6ef212905a3a> a schema:Department ;
+    schema:address <http://example.org/Address/daac3c58-e266-44c0-9848-d32e65f628ac> ;
+    schema:contactPoint <http://example.org/ContactPoint/68f111c6-ddef-4680-9eb8-39597f119389> ;
+    schema:identifier "38b7db84-c39a-41ec-92b4-6ef212905a3a"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c7405255-25cf-41c4-9c89-929692b035e0> .
+
+<http://example.org/ServiceDepartment/4a082de7-4f6d-4f01-b0dc-2737db807618> a schema:Department ;
+    schema:address <http://example.org/Address/2542cff6-0710-41c5-802e-3a7aa1515f1e> ;
+    schema:contactPoint <http://example.org/ContactPoint/cec1871a-b5c8-4060-89c7-35079d592a7b> ;
+    schema:identifier "4a082de7-4f6d-4f01-b0dc-2737db807618"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/52ebdac5-a145-4899-a1f8-c1569e0df45b> .
+
+<http://example.org/ServiceDepartment/4c8909e3-1d54-4d05-b0de-ca69debcb6d2> a schema:Department ;
+    schema:address <http://example.org/Address/d693bf11-7721-4931-9734-2123e3ed9637> ;
+    schema:contactPoint <http://example.org/ContactPoint/8a8ed273-ece1-4e8b-85cc-70a1a49266c9> ;
+    schema:identifier "4c8909e3-1d54-4d05-b0de-ca69debcb6d2"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> .
+
+<http://example.org/ServiceDepartment/5041b3d0-8950-4262-a797-765abc854e3f> a schema:Department ;
+    schema:address <http://example.org/Address/054efa50-4962-473b-a0f9-986ab2363b7e> ;
+    schema:contactPoint <http://example.org/ContactPoint/a1fa46f3-4668-4cdd-b5f9-8f4110a15299> ;
+    schema:identifier "5041b3d0-8950-4262-a797-765abc854e3f"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/27d99a23-e4f7-425e-afe6-790abc18a40b> .
+
+<http://example.org/ServiceDepartment/5516c1a6-45d3-4a2c-8826-8550d171a798> a schema:Department ;
+    schema:address <http://example.org/Address/b31190b6-21e4-4b25-adb2-bb78765d13de> ;
+    schema:contactPoint <http://example.org/ContactPoint/68aeb048-72ec-4932-a075-44b56eb7b98b> ;
+    schema:identifier "5516c1a6-45d3-4a2c-8826-8550d171a798"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
+
+<http://example.org/ServiceDepartment/56123a73-379e-44d2-a764-10c23f6b772a> a schema:Department ;
+    schema:address <http://example.org/Address/055c64dd-e478-40a6-9368-e0d60b46b634> ;
+    schema:contactPoint <http://example.org/ContactPoint/b11826f6-66c3-400c-9cae-80b846695f55> ;
+    schema:identifier "56123a73-379e-44d2-a764-10c23f6b772a"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
+
+<http://example.org/ServiceDepartment/57630d70-0eb7-4062-a807-74606da638b2> a schema:Department ;
+    schema:address <http://example.org/Address/f95cad47-3b5a-4257-a195-ace68506d5ba> ;
+    schema:contactPoint <http://example.org/ContactPoint/51c756d4-6dda-4925-86d2-5fcc6714224c> ;
+    schema:identifier "57630d70-0eb7-4062-a807-74606da638b2"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/30d6863f-11c2-42d8-8126-77895c6be596> .
+
+<http://example.org/ServiceDepartment/5b30f894-8122-408e-b24f-550f4e7aef59> a schema:Department ;
+    schema:address <http://example.org/Address/93a7468c-10c1-4f57-bed6-8dc13265b5b3> ;
+    schema:contactPoint <http://example.org/ContactPoint/fef5a551-87a9-4185-9166-465bb0464634> ;
+    schema:identifier "5b30f894-8122-408e-b24f-550f4e7aef59"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> .
+
+<http://example.org/ServiceDepartment/6850f3a3-4507-4b46-b271-3810c5030168> a schema:Department ;
+    schema:address <http://example.org/Address/71f00da3-b54d-4beb-af4d-0b016700c29f> ;
+    schema:contactPoint <http://example.org/ContactPoint/09237dcc-b77c-4af1-b5fa-5ae843ff4aa7> ;
+    schema:identifier "6850f3a3-4507-4b46-b271-3810c5030168"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/5d393bf9-b2da-41f6-8c16-014a2e4a6e78> .
+
+<http://example.org/ServiceDepartment/690aae3f-ade5-4235-84d4-09975748c032> a schema:Department ;
+    schema:address <http://example.org/Address/c04bd397-54a9-4898-bcb7-b35d68298389> ;
+    schema:contactPoint <http://example.org/ContactPoint/d7c5a147-ebd2-452e-b18f-3aee34a25626> ;
+    schema:identifier "690aae3f-ade5-4235-84d4-09975748c032"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
+
+<http://example.org/ServiceDepartment/6e323ff4-c345-495e-b8fa-29e6831520ca> a schema:Department ;
+    schema:address <http://example.org/Address/9883502e-7f32-4e78-a7fe-651efd8c2a6f> ;
+    schema:contactPoint <http://example.org/ContactPoint/8dfc0cb0-dc97-4aec-8fac-816ce2d371cc> ;
+    schema:identifier "6e323ff4-c345-495e-b8fa-29e6831520ca"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
+
+<http://example.org/ServiceDepartment/704b2b61-62c7-431e-9da9-cdbca1c61284> a schema:Department ;
+    schema:address <http://example.org/Address/a2d4870a-e360-4ea5-a600-bef84b4e2db2> ;
+    schema:contactPoint <http://example.org/ContactPoint/f714f11a-c923-4c39-80e9-889de42d1ba0> ;
+    schema:identifier "704b2b61-62c7-431e-9da9-cdbca1c61284"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
+
+<http://example.org/ServiceDepartment/7159cd07-cb44-402b-b69e-14bce47d7cfe> a schema:Department ;
+    schema:address <http://example.org/Address/73c46a50-a041-4cfb-9736-99ffc852ed2e> ;
+    schema:contactPoint <http://example.org/ContactPoint/e92df0d8-5553-477b-8dfb-3ddd1fd512eb> ;
+    schema:identifier "7159cd07-cb44-402b-b69e-14bce47d7cfe"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/5d393bf9-b2da-41f6-8c16-014a2e4a6e78> .
+
+<http://example.org/ServiceDepartment/754151b0-0cdf-420e-81e7-5ade858e8dfb> a schema:Department ;
+    schema:address <http://example.org/Address/3b6b8130-f687-4f7a-b683-4a01bdb5ff1d> ;
+    schema:contactPoint <http://example.org/ContactPoint/0aa1ee6f-1b04-4aa4-a3f3-3d5519248947> ;
+    schema:identifier "754151b0-0cdf-420e-81e7-5ade858e8dfb"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/27d99a23-e4f7-425e-afe6-790abc18a40b> .
+
+<http://example.org/ServiceDepartment/76c6bf55-a9b9-42bc-a350-0fcaad785312> a schema:Department ;
+    schema:address <http://example.org/Address/317f1e9b-2ee6-416d-b51e-7fc8d6ab5c68> ;
+    schema:contactPoint <http://example.org/ContactPoint/da47b8f9-cee4-4404-9648-1f4b0c747a90> ;
+    schema:identifier "76c6bf55-a9b9-42bc-a350-0fcaad785312"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> .
+
+<http://example.org/ServiceDepartment/87dbfdda-8944-4eca-aab6-5b1daa5611a2> a schema:Department ;
+    schema:address <http://example.org/Address/61ef4435-69ea-4db8-9541-b40f7635abe4> ;
+    schema:contactPoint <http://example.org/ContactPoint/745c759a-691f-4f9a-9895-89611d03e632> ;
+    schema:identifier "87dbfdda-8944-4eca-aab6-5b1daa5611a2"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c7405255-25cf-41c4-9c89-929692b035e0> .
+
+<http://example.org/ServiceDepartment/9b3e6605-5083-4669-836c-d6021a54acb2> a schema:Department ;
+    schema:address <http://example.org/Address/e31b328e-3a32-4205-9e26-b29d8615ad73> ;
+    schema:contactPoint <http://example.org/ContactPoint/a7486875-29bd-4604-bed2-7848c6950d85> ;
+    schema:identifier "9b3e6605-5083-4669-836c-d6021a54acb2"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/27d99a23-e4f7-425e-afe6-790abc18a40b> .
+
+<http://example.org/ServiceDepartment/a97e76ef-ebef-4ae1-89c3-a12df0bed3ed> a schema:Department ;
+    schema:address <http://example.org/Address/5f7e3898-2ddb-4eff-9da7-2833e1bfbdfa> ;
+    schema:contactPoint <http://example.org/ContactPoint/4f5ab827-3b33-445b-952b-c38cce0790d7> ;
+    schema:identifier "a97e76ef-ebef-4ae1-89c3-a12df0bed3ed"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
+
+<http://example.org/ServiceDepartment/ab46afee-8898-4682-a096-8f2106e090ea> a schema:Department ;
+    schema:address <http://example.org/Address/1ae3237f-aa88-4965-9654-7b4d317588ff> ;
+    schema:contactPoint <http://example.org/ContactPoint/7df8b7f0-44a1-44d0-96df-fc21b1c2ed56> ;
+    schema:identifier "ab46afee-8898-4682-a096-8f2106e090ea"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/27d99a23-e4f7-425e-afe6-790abc18a40b> .
+
+<http://example.org/ServiceDepartment/b07ce4cb-bc28-4c8c-9e6a-0f46a893e447> a schema:Department ;
+    schema:address <http://example.org/Address/eedbba8b-0f83-41ee-b2ac-89bdb2998fa3> ;
+    schema:contactPoint <http://example.org/ContactPoint/b0ca76f7-17f9-4524-8332-ed33bba6e752> ;
+    schema:identifier "b07ce4cb-bc28-4c8c-9e6a-0f46a893e447"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/3e332f35-086c-4768-b0fe-3cfc991ab513> .
+
+<http://example.org/ServiceDepartment/edabf3d2-53e4-4dd3-ae51-bca044c0a5ed> a schema:Department ;
+    schema:address <http://example.org/Address/15f82b2f-bc89-4faf-8cf4-627782dcf736> ;
+    schema:contactPoint <http://example.org/ContactPoint/80082244-1ac5-443b-b7dd-3c21e618d25d> ;
+    schema:identifier "edabf3d2-53e4-4dd3-ae51-bca044c0a5ed"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/27d99a23-e4f7-425e-afe6-790abc18a40b> .
+
+<http://example.org/ServiceDepartment/ee3c763d-2997-4088-ba31-24df44f10516> a schema:Department ;
+    schema:address <http://example.org/Address/022c88c0-b563-446c-9cbf-0c64c039c71e> ;
+    schema:contactPoint <http://example.org/ContactPoint/749ef679-c161-4767-b28a-85434a974df5> ;
+    schema:identifier "ee3c763d-2997-4088-ba31-24df44f10516"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/30d6863f-11c2-42d8-8126-77895c6be596> .
+
+<http://example.org/ServiceDepartment/f0c53802-4474-4ac6-9df7-327635ba9da1> a schema:Department ;
+    schema:address <http://example.org/Address/df66946a-0116-4168-bac8-a7602d5df04a> ;
+    schema:contactPoint <http://example.org/ContactPoint/c47090c6-bad8-4464-959b-0d078f022246> ;
+    schema:identifier "f0c53802-4474-4ac6-9df7-327635ba9da1"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/52ebdac5-a145-4899-a1f8-c1569e0df45b> .
+
+<http://example.org/ServiceDepartment/f5492fe4-471d-4312-aeee-86d52536c20e> a schema:Department ;
+    schema:address <http://example.org/Address/9b935e61-28d1-4f89-87f9-e252d474ae8e> ;
+    schema:contactPoint <http://example.org/ContactPoint/5073fc2b-c647-4e3c-8e19-967b8102ce40> ;
+    schema:identifier "f5492fe4-471d-4312-aeee-86d52536c20e"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
+
+<http://example.org/ServiceDepartment/09cef0ea-d6ca-4f41-adf1-fe3fefd9373e> a schema:Department ;
+    schema:address <http://example.org/Address/b9c4abb6-a6a9-4aab-ac81-1d57b2835bff> ;
+    schema:contactPoint <http://example.org/ContactPoint/091523be-650f-4375-a0fc-01e2bcd635cc> ;
+    schema:identifier "09cef0ea-d6ca-4f41-adf1-fe3fefd9373e"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a59cec98-126c-4c8f-b888-447911ebcd49> .
+
+<http://example.org/ServiceDepartment/1d60ee66-1540-42f1-8f22-070ded39abe0> a schema:Department ;
+    schema:address <http://example.org/Address/b366dcbc-abbf-4882-affa-0875e4a7c828> ;
+    schema:contactPoint <http://example.org/ContactPoint/c46e1738-790b-4990-a428-da2ed8900991> ;
+    schema:identifier "1d60ee66-1540-42f1-8f22-070ded39abe0"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> .
+
+<http://example.org/ServiceDepartment/1e1eedd9-7b19-4256-8c44-605e8ccde8ad> a schema:Department ;
+    schema:address <http://example.org/Address/a2c1e1d4-131b-4956-872a-5ac130c97d34> ;
+    schema:contactPoint <http://example.org/ContactPoint/ea6d5565-3810-4725-952a-4ff52da4d7f2> ;
+    schema:identifier "1e1eedd9-7b19-4256-8c44-605e8ccde8ad"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/037d9752-48f3-431c-8fb7-c3bb4408c04c> .
+
+<http://example.org/ServiceDepartment/3a94f14b-0830-4ee6-9a9c-1d73f173d2fe> a schema:Department ;
+    schema:address <http://example.org/Address/eafe0d1f-6e79-4d5f-9314-70c8acb14314> ;
+    schema:contactPoint <http://example.org/ContactPoint/eb5d11e8-b6d2-4ba9-a517-3d1cf7fc0bd9> ;
+    schema:identifier "3a94f14b-0830-4ee6-9a9c-1d73f173d2fe"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/8b5885ca-0bb2-43f0-bd30-291a55fea08e> .
+
+<http://example.org/ServiceDepartment/483b7b7f-e2b1-46c9-8f2f-bda2b50ad6d5> a schema:Department ;
+    schema:address <http://example.org/Address/f67d2311-33a8-49fd-9091-6a5f97ad1730> ;
+    schema:contactPoint <http://example.org/ContactPoint/e9e1a3d1-1a12-4068-815c-77ed779571dd> ;
+    schema:identifier "483b7b7f-e2b1-46c9-8f2f-bda2b50ad6d5"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> .
+
+<http://example.org/ServiceDepartment/4d543a0e-b3e5-47e4-a261-a3d28bdbf1f8> a schema:Department ;
+    schema:address <http://example.org/Address/25b09e48-1ca1-4fa7-83b8-bbaa7e24238e> ;
+    schema:contactPoint <http://example.org/ContactPoint/46c91999-4187-4dc0-aa20-ccea22e87c8d> ;
+    schema:identifier "4d543a0e-b3e5-47e4-a261-a3d28bdbf1f8"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
+
+<http://example.org/ServiceDepartment/54496139-add6-4d20-93f3-f048d814a978> a schema:Department ;
+    schema:address <http://example.org/Address/fbfa7549-13ee-4ee8-950e-18400e60f583> ;
+    schema:contactPoint <http://example.org/ContactPoint/91db735e-dc21-43e8-902e-4f400a013a86> ;
+    schema:identifier "54496139-add6-4d20-93f3-f048d814a978"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> .
+
+<http://example.org/ServiceDepartment/6689ef79-f8c3-4461-bc15-b016487eb3df> a schema:Department ;
+    schema:address <http://example.org/Address/21ab9e3d-fdf4-4f09-bd87-d79311705ee3> ;
+    schema:contactPoint <http://example.org/ContactPoint/84ddf869-b816-4f1a-9677-013ba8e19b83> ;
+    schema:identifier "6689ef79-f8c3-4461-bc15-b016487eb3df"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/8b5885ca-0bb2-43f0-bd30-291a55fea08e> .
+
+<http://example.org/ServiceDepartment/6bfed001-18bc-4a21-b887-d3e9a3171056> a schema:Department ;
+    schema:address <http://example.org/Address/eb9fc88e-b877-4b59-9f3d-a6ae5295dcaf> ;
+    schema:contactPoint <http://example.org/ContactPoint/c784499d-6909-4290-9496-a305314a332e> ;
+    schema:identifier "6bfed001-18bc-4a21-b887-d3e9a3171056"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/8b5885ca-0bb2-43f0-bd30-291a55fea08e> .
+
+<http://example.org/ServiceDepartment/6c77700a-55d6-4f9b-85b0-3a351c16dc39> a schema:Department ;
+    schema:address <http://example.org/Address/35152cba-ec4f-46ab-aa07-cfddee9cee1f> ;
+    schema:contactPoint <http://example.org/ContactPoint/8e95ef6a-b675-4f65-b8e1-c5e6648b1a36> ;
+    schema:identifier "6c77700a-55d6-4f9b-85b0-3a351c16dc39"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> .
+
+<http://example.org/ServiceDepartment/816c03df-3e33-4680-85c0-826ac67c6d5a> a schema:Department ;
+    schema:address <http://example.org/Address/62d55697-ec36-42c8-ad3f-a0b6de8a6d76> ;
+    schema:contactPoint <http://example.org/ContactPoint/5aeb3613-9cc4-4f93-8fd9-ba8f6dc6e925> ;
+    schema:identifier "816c03df-3e33-4680-85c0-826ac67c6d5a"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
+
+<http://example.org/ServiceDepartment/827254df-3830-4e4b-83d4-540a526aea43> a schema:Department ;
+    schema:address <http://example.org/Address/48d46113-b50a-4a15-a0ff-f2cb6857548c> ;
+    schema:contactPoint <http://example.org/ContactPoint/07d9fab3-fccd-4ab0-b13b-40ac30cceeb3> ;
+    schema:identifier "827254df-3830-4e4b-83d4-540a526aea43"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
+
+<http://example.org/ServiceDepartment/955e988d-f24b-4d76-a07f-949ef11e71ae> a schema:Department ;
+    schema:address <http://example.org/Address/100cfe80-2132-4c24-81b3-77bd59eae69a> ;
+    schema:contactPoint <http://example.org/ContactPoint/66ab247a-75fe-400c-8407-32b4ef1772f4> ;
+    schema:identifier "955e988d-f24b-4d76-a07f-949ef11e71ae"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/27d99a23-e4f7-425e-afe6-790abc18a40b> .
+
+<http://example.org/ServiceDepartment/97e379e9-f919-4ea4-9d0b-bc0c6635897f> a schema:Department ;
+    schema:address <http://example.org/Address/8c4990e1-820d-4c8e-a991-334cba4dede6> ;
+    schema:contactPoint <http://example.org/ContactPoint/93c1d25b-124b-44fc-8571-605af163875c> ;
+    schema:identifier "97e379e9-f919-4ea4-9d0b-bc0c6635897f"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/5d393bf9-b2da-41f6-8c16-014a2e4a6e78> .
+
+<http://example.org/ServiceDepartment/9b4a4276-da41-4bbc-b40b-5ddba649ec91> a schema:Department ;
+    schema:address <http://example.org/Address/f84b85e7-da12-4d3a-bcaa-db1a7dcd07ad> ;
+    schema:contactPoint <http://example.org/ContactPoint/5b93822b-cec8-44aa-a000-4c9f716f9ea7> ;
+    schema:identifier "9b4a4276-da41-4bbc-b40b-5ddba649ec91"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/3e332f35-086c-4768-b0fe-3cfc991ab513> .
+
+<http://example.org/ServiceDepartment/c1402fa6-756a-49be-a8c7-d9f108e0eb59> a schema:Department ;
+    schema:address <http://example.org/Address/3899c22a-d4ed-41bd-9692-74a2acbe4ff6> ;
+    schema:contactPoint <http://example.org/ContactPoint/6b5bc344-01bb-47e2-bf69-cd8fa4b4da1c> ;
+    schema:identifier "c1402fa6-756a-49be-a8c7-d9f108e0eb59"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
+
+<http://example.org/ServiceDepartment/c21f2252-6321-4a69-b151-f48f111566e4> a schema:Department ;
+    schema:address <http://example.org/Address/0e1cae7a-8122-4b3a-a0b8-024401e32354> ;
+    schema:contactPoint <http://example.org/ContactPoint/d44b5548-066d-4e1e-a16b-347d9babbdab> ;
+    schema:identifier "c21f2252-6321-4a69-b151-f48f111566e4"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/30d6863f-11c2-42d8-8126-77895c6be596> .
+
+<http://example.org/ServiceDepartment/c736e166-8042-402f-9d73-22518b763f63> a schema:Department ;
+    schema:address <http://example.org/Address/ad82e067-ab35-4414-8ed2-b26b1fda2e53> ;
+    schema:contactPoint <http://example.org/ContactPoint/24fa9196-f801-4987-8008-cccf565e5ae7> ;
+    schema:identifier "c736e166-8042-402f-9d73-22518b763f63"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/8b5885ca-0bb2-43f0-bd30-291a55fea08e> .
+
+<http://example.org/ServiceDepartment/cb89ba42-095b-4ec0-8b7f-62c4a371e89d> a schema:Department ;
+    schema:address <http://example.org/Address/55e4ddc4-3d71-4abb-9ace-f37c8d61adb6> ;
+    schema:contactPoint <http://example.org/ContactPoint/5555ee5d-84b5-4c83-9eb8-3dd2a1dec0c1> ;
+    schema:identifier "cb89ba42-095b-4ec0-8b7f-62c4a371e89d"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
+
+<http://example.org/ServiceDepartment/d1da4bba-1ed9-4ae6-a5f4-4940f5114a9a> a schema:Department ;
+    schema:address <http://example.org/Address/a7fd116e-d8f5-417f-85bd-ca63a100ba8f> ;
+    schema:contactPoint <http://example.org/ContactPoint/88bf1035-d8cf-4d5c-b35c-f88bfae203e1> ;
+    schema:identifier "d1da4bba-1ed9-4ae6-a5f4-4940f5114a9a"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> .
+
+<http://example.org/ServiceDepartment/de9ac8b8-640b-4b28-8322-b4ff856df911> a schema:Department ;
+    schema:address <http://example.org/Address/8057b537-92ec-41d0-b2bb-8a67ec5b03af> ;
+    schema:contactPoint <http://example.org/ContactPoint/31692d4e-9b24-4fa1-b264-5654489d80b6> ;
+    schema:identifier "de9ac8b8-640b-4b28-8322-b4ff856df911"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/30d6863f-11c2-42d8-8126-77895c6be596> .
+
+<http://example.org/ServiceDepartment/df1f2a73-fc78-4d8e-b085-3e44a546947b> a schema:Department ;
+    schema:address <http://example.org/Address/5cf10f05-e927-4cd1-8763-9a9fa4134092> ;
+    schema:contactPoint <http://example.org/ContactPoint/8eb9556d-7da2-4999-9436-93c6b76cfca2> ;
+    schema:identifier "df1f2a73-fc78-4d8e-b085-3e44a546947b"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/5d393bf9-b2da-41f6-8c16-014a2e4a6e78> .
+
+<http://example.org/ServiceDepartment/eda0f2f3-10fd-41ca-941a-7e9c915ad4d1> a schema:Department ;
+    schema:address <http://example.org/Address/269dc3b6-c740-43ac-b14f-7e995a24e786> ;
+    schema:contactPoint <http://example.org/ContactPoint/367cf088-7f4a-41b5-a72f-abab25edfea9> ;
+    schema:identifier "eda0f2f3-10fd-41ca-941a-7e9c915ad4d1"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/92d6ff73-5b3a-4595-8458-92c14e0e15d3> .
+
+<http://example.org/ServiceDepartment/f117f274-1840-4ff8-966d-a609aa80ddfc> a schema:Department ;
+    schema:address <http://example.org/Address/f01688e4-b43b-4ab8-802b-7d666abb6f15> ;
+    schema:contactPoint <http://example.org/ContactPoint/15f66e23-75e6-43b6-b952-7fba397ce787> ;
+    schema:identifier "f117f274-1840-4ff8-966d-a609aa80ddfc"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> .
+
+<http://example.org/ServiceDepartment/f6ef5d0a-25a1-4101-bf57-4e77fac49cf7> a schema:Department ;
+    schema:address <http://example.org/Address/ea5fe267-5877-4d3a-a8b5-a07a9659a673> ;
+    schema:contactPoint <http://example.org/ContactPoint/ab8c6b16-cc35-4ea7-a17d-8ad2c9d9d2a6> ;
+    schema:identifier "f6ef5d0a-25a1-4101-bf57-4e77fac49cf7"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/5d393bf9-b2da-41f6-8c16-014a2e4a6e78> .
+
+<http://example.org/ServiceDepartment/1f217475-66f0-4769-8909-c1ba18fa5472> a schema:Department ;
+    schema:address <http://example.org/Address/ea4f44cf-eafd-480b-9ec8-633fb73888a4> ;
+    schema:contactPoint <http://example.org/ContactPoint/42f81126-6c2c-40a7-a4e9-031675f80092> ;
+    schema:identifier "1f217475-66f0-4769-8909-c1ba18fa5472"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a59cec98-126c-4c8f-b888-447911ebcd49> .
+
+<http://example.org/ServiceDepartment/8034f222-b4a4-45c3-b4dc-5b1949523e70> a schema:Department ;
+    schema:address <http://example.org/Address/eae9c546-446c-4893-89d3-cdb9ebb9aa72> ;
+    schema:contactPoint <http://example.org/ContactPoint/689f2d23-100a-4f24-8dd1-5beb5d98abc9> ;
+    schema:identifier "8034f222-b4a4-45c3-b4dc-5b1949523e70"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> .
+
+<http://example.org/ServiceDepartment/abe520ec-1fe1-49cd-8a54-e75953bdfba8> a schema:Department ;
+    schema:address <http://example.org/Address/5a8fe4b2-8ffd-4977-85b8-93b04d36c61a> ;
+    schema:contactPoint <http://example.org/ContactPoint/095e2e87-c893-485b-acbb-85648b3941d5> ;
+    schema:identifier "abe520ec-1fe1-49cd-8a54-e75953bdfba8"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/037d9752-48f3-431c-8fb7-c3bb4408c04c> .
+
+<http://example.org/ServiceDepartment/c8e7e4e5-d3eb-4a23-b64b-f06e22a23be8> a schema:Department ;
+    schema:address <http://example.org/Address/c44117e6-2c98-49d9-bd88-deb7fc584d66> ;
+    schema:contactPoint <http://example.org/ContactPoint/799c82ee-f742-453b-a7a1-28de18310104> ;
+    schema:identifier "c8e7e4e5-d3eb-4a23-b64b-f06e22a23be8"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/3e332f35-086c-4768-b0fe-3cfc991ab513> .
+
+<http://example.org/ServiceDepartment/da6b236d-18a8-4f2e-843a-69ea1a6ed48d> a schema:Department ;
+    schema:address <http://example.org/Address/2802e605-3fe6-4c84-9615-4be95b698ec7> ;
+    schema:contactPoint <http://example.org/ContactPoint/1010e768-13f1-4080-bc0d-d51a9e00559b> ;
+    schema:identifier "da6b236d-18a8-4f2e-843a-69ea1a6ed48d"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/4a863655-0a9d-499c-a269-8c2d614f1ddc> .
+
+<http://example.org/ServiceDepartment/0604b061-30d2-4eb7-9449-5504b90c55bf> a schema:Department ;
+    schema:address <http://example.org/Address/cc552e29-1187-4fe4-81b4-f9bd2a80c809> ;
+    schema:contactPoint <http://example.org/ContactPoint/2622126b-79e6-465b-85ac-ec616238495b> ;
+    schema:identifier "0604b061-30d2-4eb7-9449-5504b90c55bf"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/5d393bf9-b2da-41f6-8c16-014a2e4a6e78> .
+
+<http://example.org/ServiceDepartment/3b4590c6-7380-427c-af25-a8cdde699e1e> a schema:Department ;
+    schema:address <http://example.org/Address/44cfc3ca-c3fa-4764-9fd8-a0ca3b036dfd> ;
+    schema:contactPoint <http://example.org/ContactPoint/5aa970d9-801a-4ff7-a6cd-d662c4e813db> ;
+    schema:identifier "3b4590c6-7380-427c-af25-a8cdde699e1e"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/52ebdac5-a145-4899-a1f8-c1569e0df45b> .
+
+<http://example.org/ServiceDepartment/473d6d85-56d2-4bf9-9b82-7bb955fc6343> a schema:Department ;
+    schema:address <http://example.org/Address/1ba43eaf-84f4-4346-9301-6d9e87d3b238> ;
+    schema:contactPoint <http://example.org/ContactPoint/87e87d1f-9af4-402a-8703-a4230fa8aee9> ;
+    schema:identifier "473d6d85-56d2-4bf9-9b82-7bb955fc6343"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/3e332f35-086c-4768-b0fe-3cfc991ab513> .
+
+<http://example.org/ServiceDepartment/85bd8d14-3cd3-45dc-8368-557f39795e8c> a schema:Department ;
+    schema:address <http://example.org/Address/572b4813-53e1-4084-8089-a684556ec366> ;
+    schema:contactPoint <http://example.org/ContactPoint/21f04ef1-e253-4910-9e10-c49316197d45> ;
+    schema:identifier "85bd8d14-3cd3-45dc-8368-557f39795e8c"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/3e332f35-086c-4768-b0fe-3cfc991ab513> .
+
+<http://example.org/ServiceDepartment/bdfdb88e-ae4f-40d7-bad0-e4d2f9dbd648> a schema:Department ;
+    schema:address <http://example.org/Address/929c8ac4-bf28-40fb-a8cb-2f6eee5e256e> ;
+    schema:contactPoint <http://example.org/ContactPoint/50bbd1c7-f01c-4cc7-bb87-c961fa17e092> ;
+    schema:identifier "bdfdb88e-ae4f-40d7-bad0-e4d2f9dbd648"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> .
+
+<http://example.org/ServiceDepartment/e5a2a4ef-a5fd-4acb-98a4-85f5a72125ce> a schema:Department ;
+    schema:address <http://example.org/Address/f3e50e26-2e07-4578-8e4b-b53cf3dacf72> ;
+    schema:contactPoint <http://example.org/ContactPoint/92738995-ca89-4d11-8646-356bc28611fd> ;
+    schema:identifier "e5a2a4ef-a5fd-4acb-98a4-85f5a72125ce"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/037d9752-48f3-431c-8fb7-c3bb4408c04c> .
+
+<http://example.org/ServiceDepartment/ec319b23-c7ff-4268-b14b-bea9404f72f3> a schema:Department ;
+    schema:address <http://example.org/Address/d2865c01-77f7-4d19-8ee5-ddf0d996f125> ;
+    schema:contactPoint <http://example.org/ContactPoint/6db16e7a-23e0-484e-bc30-9d334ea8c3b1> ;
+    schema:identifier "ec319b23-c7ff-4268-b14b-bea9404f72f3"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> .
+
+<http://example.org/ServiceDepartment/29ae1d3a-2512-4961-880b-6a4cfcec2c1d> a schema:Department ;
+    schema:address <http://example.org/Address/02299f58-9071-414d-b4f2-ba8e32fa6380> ;
+    schema:contactPoint <http://example.org/ContactPoint/64a335b5-a973-439e-a2c9-b2627ed24723> ;
+    schema:identifier "29ae1d3a-2512-4961-880b-6a4cfcec2c1d"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/037d9752-48f3-431c-8fb7-c3bb4408c04c> .
+
+<http://example.org/ServiceDepartment/778d028c-e45e-45b9-a9f8-2b8b7dd5d97e> a schema:Department ;
+    schema:address <http://example.org/Address/da595d3e-a0fe-4e1b-b910-18255057df41> ;
+    schema:contactPoint <http://example.org/ContactPoint/e16e3336-77b1-4e21-bccc-c53ac36a4162> ;
+    schema:identifier "778d028c-e45e-45b9-a9f8-2b8b7dd5d97e"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/8b5885ca-0bb2-43f0-bd30-291a55fea08e> .
+
+<http://example.org/ServiceDepartment/7ffd5e75-5fee-4d78-8052-1e37dddfc648> a schema:Department ;
+    schema:address <http://example.org/Address/f1521976-65d6-4b7f-8f9a-fd63236e747e> ;
+    schema:contactPoint <http://example.org/ContactPoint/3b6f2ad2-6ec1-47b0-99bb-f03db6d06615> ;
+    schema:identifier "7ffd5e75-5fee-4d78-8052-1e37dddfc648"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/037d9752-48f3-431c-8fb7-c3bb4408c04c> .
+
+<http://example.org/ServiceDepartment/a9c0fdec-6c25-4ad6-9dcc-668fa4007b48> a schema:Department ;
+    schema:address <http://example.org/Address/94e5efab-8e36-47af-b1c2-d7b2ed384c44> ;
+    schema:contactPoint <http://example.org/ContactPoint/6278f95a-7438-4b47-aa83-c504ebbc854b> ;
+    schema:identifier "a9c0fdec-6c25-4ad6-9dcc-668fa4007b48"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> .
+
+<http://example.org/ServiceDepartment/a2ab116f-f0d6-4eb0-8629-9940a6a48f65> a schema:Department ;
+    schema:address <http://example.org/Address/a775cc44-ee07-4366-8d2f-e15174c88f42> ;
+    schema:contactPoint <http://example.org/ContactPoint/659185b7-664e-4107-99a6-f4165e66ddc3> ;
+    schema:identifier "a2ab116f-f0d6-4eb0-8629-9940a6a48f65"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/037d9752-48f3-431c-8fb7-c3bb4408c04c> .
+
+<http://example.org/ServiceDepartment/02246f10-ce65-4211-a3c9-c8d76ceb1865> a schema:Department ;
+    schema:address <http://example.org/Address/1c7bc6c8-d62f-4e8c-abca-09663eef04eb> ;
+    schema:contactPoint <http://example.org/ContactPoint/2a630fd1-71cf-439d-aa1f-ff41af1b7013> ;
+    schema:identifier "02246f10-ce65-4211-a3c9-c8d76ceb1865"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/8b5885ca-0bb2-43f0-bd30-291a55fea08e> .
+
+<http://example.org/ServiceDepartment/df561807-8c25-43ff-b4cc-0b62e7bb695c> a schema:Department ;
+    schema:address <http://example.org/Address/2c12129c-487b-4acf-8535-c13d4d697998> ;
+    schema:contactPoint <http://example.org/ContactPoint/918b59ec-2b6a-48a8-a8e1-19f70df23548> ;
+    schema:identifier "df561807-8c25-43ff-b4cc-0b62e7bb695c"^^xsd:string ;
+    schema:name "nan"^^xsd:string ;
+    schema:parentOrganization <http://example.org/HealthcareOrganization/3e332f35-086c-4768-b0fe-3cfc991ab513> .
+
+<http://example.org/HealthcareOrganization/30d6863f-11c2-42d8-8126-77895c6be596> a schema:MedicalOrganization ;
     schema:address <http://example.org/Address/4598244b-f0bd-4405-a50d-d400a27ee80d> ;
     schema:contactPoint <http://example.org/ContactPoint/4e98ce25-1733-4a7c-93e8-36639c14940d> ;
     schema:identifier "30d6863f-11c2-42d8-8126-77895c6be596"^^xsd:string ;
     schema:name "nan"^^xsd:string .
 
-<http://example.org/HealthcareOrg/52ebdac5-a145-4899-a1f8-c1569e0df45b> a schema:MedicalOrganization ;
+<http://example.org/HealthcareOrganization/52ebdac5-a145-4899-a1f8-c1569e0df45b> a schema:MedicalOrganization ;
     schema:address <http://example.org/Address/ef7e85ec-a417-456f-a9ee-7f3d0ff030b8> ;
     schema:contactPoint <http://example.org/ContactPoint/0932f5b6-f11d-4ff7-8e37-05265582a3bd> ;
     schema:identifier "52ebdac5-a145-4899-a1f8-c1569e0df45b"^^xsd:string ;
     schema:name "nan"^^xsd:string .
 
-<http://example.org/HealthcareOrg/037d9752-48f3-431c-8fb7-c3bb4408c04c> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/6756264d-c864-4f78-beaf-167952b04994> ;
-    schema:contactPoint <http://example.org/ContactPoint/57627626-2037-4089-b11f-a10a0b2975c6> ;
-    schema:identifier "037d9752-48f3-431c-8fb7-c3bb4408c04c"^^xsd:string ;
-    schema:name "nan"^^xsd:string .
-
-<http://example.org/HealthcareOrg/3e332f35-086c-4768-b0fe-3cfc991ab513> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/99755cb9-7c76-4592-a73e-3f3b5c27761d> ;
-    schema:contactPoint <http://example.org/ContactPoint/eec9fa67-4cc6-42fc-b006-ff85166a1a98> ;
-    schema:identifier "3e332f35-086c-4768-b0fe-3cfc991ab513"^^xsd:string ;
-    schema:name "nan"^^xsd:string .
-
-<http://example.org/HealthcareOrg/5d393bf9-b2da-41f6-8c16-014a2e4a6e78> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/568d6f3e-f4b4-45aa-adfd-a2912fdb5c0d> ;
-    schema:contactPoint <http://example.org/ContactPoint/fae3fcee-7636-4fd9-8376-ffa876fe579f> ;
-    schema:identifier "5d393bf9-b2da-41f6-8c16-014a2e4a6e78"^^xsd:string ;
-    schema:name "nan"^^xsd:string .
-
-<http://example.org/HealthcareOrg/8b5885ca-0bb2-43f0-bd30-291a55fea08e> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/19d5f970-98b3-4c6e-8a14-b90a7795e986> ;
-    schema:contactPoint <http://example.org/ContactPoint/eb21a3f6-e6fd-48e8-969c-91c278601602> ;
-    schema:identifier "8b5885ca-0bb2-43f0-bd30-291a55fea08e"^^xsd:string ;
-    schema:name "nan"^^xsd:string .
-
-<http://example.org/HealthcareOrg/a59cec98-126c-4c8f-b888-447911ebcd49> a schema:MedicalOrganization ;
+<http://example.org/HealthcareOrganization/a59cec98-126c-4c8f-b888-447911ebcd49> a schema:MedicalOrganization ;
     schema:address <http://example.org/Address/daf66c5f-2577-4ffa-887a-746319c16a0d> ;
     schema:contactPoint <http://example.org/ContactPoint/12f175ff-ae3b-46ec-9a27-d85888c132ad> ;
     schema:identifier "a59cec98-126c-4c8f-b888-447911ebcd49"^^xsd:string ;
     schema:name "nan"^^xsd:string .
 
-<http://example.org/HealthcareOrg/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/7d859725-c707-4ef9-86c3-744cc88e03b6> ;
-    schema:contactPoint <http://example.org/ContactPoint/ef151673-a1df-4da7-9d44-c93e7799a8e2> ;
-    schema:identifier "06d2ed7c-e6ac-4d8a-8160-ff927c7550f2"^^xsd:string ;
-    schema:name "nan"^^xsd:string .
-
-<http://example.org/HealthcareOrg/27d99a23-e4f7-425e-afe6-790abc18a40b> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/bb0378eb-7a62-422e-9d69-d9fc4b1cb8bd> ;
-    schema:contactPoint <http://example.org/ContactPoint/122411e6-ba89-42dd-85e6-9ea9db66bfda> ;
-    schema:identifier "27d99a23-e4f7-425e-afe6-790abc18a40b"^^xsd:string ;
-    schema:name "nan"^^xsd:string .
-
-<http://example.org/HealthcareOrg/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/8b279c29-a274-40d7-b4a5-cc36692a7bce> ;
-    schema:contactPoint <http://example.org/ContactPoint/9177b6d4-5f2e-4167-b13e-ceb14ad12b4c> ;
-    schema:identifier "71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0"^^xsd:string ;
-    schema:name "nan"^^xsd:string .
-
-<http://example.org/HealthcareOrg/92d6ff73-5b3a-4595-8458-92c14e0e15d3> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/3856be31-f568-49c6-833c-14694f06ea18> ;
-    schema:contactPoint <http://example.org/ContactPoint/b4480761-505e-4c9b-8bc8-8bcf7b1d4049> ;
-    schema:identifier "92d6ff73-5b3a-4595-8458-92c14e0e15d3"^^xsd:string ;
-    schema:name "nan"^^xsd:string .
-
-<http://example.org/HealthcareOrg/9db3466d-1ba6-4c61-aaf9-4919e69b7971> a schema:MedicalOrganization ;
+<http://example.org/HealthcareOrganization/9db3466d-1ba6-4c61-aaf9-4919e69b7971> a schema:MedicalOrganization ;
     schema:address <http://example.org/Address/1095e497-3d79-4f0b-a6cd-3595d4f0d65d> ;
     schema:contactPoint <http://example.org/ContactPoint/23254d81-2bdf-4727-9501-e917496dc27b> ;
     schema:identifier "9db3466d-1ba6-4c61-aaf9-4919e69b7971"^^xsd:string ;
     schema:name "nan"^^xsd:string .
 
-<http://example.org/HealthcareOrg/4a863655-0a9d-499c-a269-8c2d614f1ddc> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/6bc9e970-c48a-4374-86dc-1579647640a1> ;
-    schema:contactPoint <http://example.org/ContactPoint/29502326-7644-4183-9aab-d22d75ef8aab> ;
-    schema:identifier "4a863655-0a9d-499c-a269-8c2d614f1ddc"^^xsd:string ;
+<http://example.org/HealthcareOrganization/5d393bf9-b2da-41f6-8c16-014a2e4a6e78> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/568d6f3e-f4b4-45aa-adfd-a2912fdb5c0d> ;
+    schema:contactPoint <http://example.org/ContactPoint/fae3fcee-7636-4fd9-8376-ffa876fe579f> ;
+    schema:identifier "5d393bf9-b2da-41f6-8c16-014a2e4a6e78"^^xsd:string ;
     schema:name "nan"^^xsd:string .
 
-<http://example.org/HealthcareOrg/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> a schema:MedicalOrganization ;
+<http://example.org/HealthcareOrganization/27d99a23-e4f7-425e-afe6-790abc18a40b> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/bb0378eb-7a62-422e-9d69-d9fc4b1cb8bd> ;
+    schema:contactPoint <http://example.org/ContactPoint/122411e6-ba89-42dd-85e6-9ea9db66bfda> ;
+    schema:identifier "27d99a23-e4f7-425e-afe6-790abc18a40b"^^xsd:string ;
+    schema:name "nan"^^xsd:string .
+
+<http://example.org/HealthcareOrganization/92d6ff73-5b3a-4595-8458-92c14e0e15d3> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/3856be31-f568-49c6-833c-14694f06ea18> ;
+    schema:contactPoint <http://example.org/ContactPoint/b4480761-505e-4c9b-8bc8-8bcf7b1d4049> ;
+    schema:identifier "92d6ff73-5b3a-4595-8458-92c14e0e15d3"^^xsd:string ;
+    schema:name "nan"^^xsd:string .
+
+<http://example.org/HealthcareOrganization/c7405255-25cf-41c4-9c89-929692b035e0> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/541d1a81-4815-442c-a2bb-62833d83ad7c> ;
+    schema:contactPoint <http://example.org/ContactPoint/7680891b-6bb6-404e-a0db-22d329e316ad> ;
+    schema:identifier "c7405255-25cf-41c4-9c89-929692b035e0"^^xsd:string ;
+    schema:name "nan"^^xsd:string .
+
+<http://example.org/HealthcareOrganization/06d2ed7c-e6ac-4d8a-8160-ff927c7550f2> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/7d859725-c707-4ef9-86c3-744cc88e03b6> ;
+    schema:contactPoint <http://example.org/ContactPoint/ef151673-a1df-4da7-9d44-c93e7799a8e2> ;
+    schema:identifier "06d2ed7c-e6ac-4d8a-8160-ff927c7550f2"^^xsd:string ;
+    schema:name "nan"^^xsd:string .
+
+<http://example.org/HealthcareOrganization/8b5885ca-0bb2-43f0-bd30-291a55fea08e> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/19d5f970-98b3-4c6e-8a14-b90a7795e986> ;
+    schema:contactPoint <http://example.org/ContactPoint/eb21a3f6-e6fd-48e8-969c-91c278601602> ;
+    schema:identifier "8b5885ca-0bb2-43f0-bd30-291a55fea08e"^^xsd:string ;
+    schema:name "nan"^^xsd:string .
+
+<http://example.org/HealthcareOrganization/c058a332-b4cf-4fa8-ac98-f73d27fe1b4b> a schema:MedicalOrganization ;
     schema:address <http://example.org/Address/27649a62-b02d-452c-9b05-0db28ee4fd02> ;
     schema:contactPoint <http://example.org/ContactPoint/74151acc-f5a3-4893-bf7a-27482cbb93c2> ;
     schema:identifier "c058a332-b4cf-4fa8-ac98-f73d27fe1b4b"^^xsd:string ;
     schema:name "nan"^^xsd:string .
 
-<http://example.org/HealthcareOrg/c7405255-25cf-41c4-9c89-929692b035e0> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/541d1a81-4815-442c-a2bb-62833d83ad7c> ;
-    schema:contactPoint <http://example.org/ContactPoint/7680891b-6bb6-404e-a0db-22d329e316ad> ;
-    schema:identifier "c7405255-25cf-41c4-9c89-929692b035e0"^^xsd:string ;
+<http://example.org/HealthcareOrganization/3e332f35-086c-4768-b0fe-3cfc991ab513> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/99755cb9-7c76-4592-a73e-3f3b5c27761d> ;
+    schema:contactPoint <http://example.org/ContactPoint/eec9fa67-4cc6-42fc-b006-ff85166a1a98> ;
+    schema:identifier "3e332f35-086c-4768-b0fe-3cfc991ab513"^^xsd:string ;
+    schema:name "nan"^^xsd:string .
+
+<http://example.org/HealthcareOrganization/4a863655-0a9d-499c-a269-8c2d614f1ddc> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/6bc9e970-c48a-4374-86dc-1579647640a1> ;
+    schema:contactPoint <http://example.org/ContactPoint/29502326-7644-4183-9aab-d22d75ef8aab> ;
+    schema:identifier "4a863655-0a9d-499c-a269-8c2d614f1ddc"^^xsd:string ;
+    schema:name "nan"^^xsd:string .
+
+<http://example.org/HealthcareOrganization/71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/8b279c29-a274-40d7-b4a5-cc36692a7bce> ;
+    schema:contactPoint <http://example.org/ContactPoint/9177b6d4-5f2e-4167-b13e-ceb14ad12b4c> ;
+    schema:identifier "71a8c9c6-0f6a-475b-b55b-2e5ca6ed0ac0"^^xsd:string ;
+    schema:name "nan"^^xsd:string .
+
+<http://example.org/HealthcareOrganization/037d9752-48f3-431c-8fb7-c3bb4408c04c> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/6756264d-c864-4f78-beaf-167952b04994> ;
+    schema:contactPoint <http://example.org/ContactPoint/57627626-2037-4089-b11f-a10a0b2975c6> ;
+    schema:identifier "037d9752-48f3-431c-8fb7-c3bb4408c04c"^^xsd:string ;
     schema:name "nan"^^xsd:string .
 

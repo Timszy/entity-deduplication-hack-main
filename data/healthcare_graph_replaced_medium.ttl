@@ -4346,796 +4346,796 @@
     schema:name "Kelley Lauren"^^xsd:string ;
     schema:worksFor <http://example.org/HealthcareOrganization/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> .
 
-<http://example.org/ServiceDept/019e1a6b-9cc9-4074-b3c6-e4b298a1a1cd> a schema:Department ;
+<http://example.org/ServiceDepartment/019e1a6b-9cc9-4074-b3c6-e4b298a1a1cd> a schema:Department ;
     schema:address <http://example.org/Address/b69b4c2f-f8cc-47fe-9b8a-27951d3409cd> ;
     schema:contactPoint <http://example.org/ContactPoint/ad3ebc76-133d-4dbe-900a-51170e808a3c> ;
     schema:identifier "019e1a6b-9cc9-4074-b3c6-e4b298a1a1cd"^^xsd:string ;
     schema:name "Gastroenteroloogiline"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/2a076937-facb-4ed6-bacd-c0df5716d803> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/2a076937-facb-4ed6-bacd-c0df5716d803> .
 
-<http://example.org/ServiceDept/036a019f-f1c3-46a1-86b8-bfc5bb282eba> a schema:Department ;
+<http://example.org/ServiceDepartment/036a019f-f1c3-46a1-86b8-bfc5bb282eba> a schema:Department ;
     schema:address <http://example.org/Address/a21fb001-734e-464a-9611-8d770a010c8d> ;
     schema:contactPoint <http://example.org/ContactPoint/123371cb-011e-448c-ad83-e72adf69ef74> ;
     schema:identifier "036a019f-f1c3-46a1-86b8-bfc5bb282eba"^^xsd:string ;
     schema:name "Respiartory Therapy"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/383b04c2-1f5f-4d1e-91d2-996da454068e> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/383b04c2-1f5f-4d1e-91d2-996da454068e> .
 
-<http://example.org/ServiceDept/04d16b15-d4cf-4cd6-8c1e-d761adb72d19> a schema:Department ;
+<http://example.org/ServiceDepartment/04d16b15-d4cf-4cd6-8c1e-d761adb72d19> a schema:Department ;
     schema:address <http://example.org/Address/473c5e3f-6bda-48df-a745-1f486290f6e5> ;
     schema:contactPoint <http://example.org/ContactPoint/6a8c79c3-75a8-43ea-be5b-56bfee5bafc4> ;
     schema:identifier "04d16b15-d4cf-4cd6-8c1e-d761adb72d19"^^xsd:string ;
     schema:name "Verzorging"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
 
-<http://example.org/ServiceDept/06fef7dd-7f94-44c3-977d-2987251ad0c0> a schema:Department ;
+<http://example.org/ServiceDepartment/06fef7dd-7f94-44c3-977d-2987251ad0c0> a schema:Department ;
     schema:address <http://example.org/Address/7ac1f2e0-fac9-4e59-83f2-8668ca39c12b> ;
     schema:contactPoint <http://example.org/ContactPoint/040caaa9-e6ce-47fc-ada2-001c996a8871> ;
     schema:identifier "06fef7dd-7f94-44c3-977d-2987251ad0c0"^^xsd:string ;
     schema:name "Gastroenterologic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/2a076937-facb-4ed6-bacd-c0df5716d803> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/2a076937-facb-4ed6-bacd-c0df5716d803> .
 
-<http://example.org/ServiceDept/089476ec-73b7-4639-8cfa-7f4429f19de4> a schema:Department ;
+<http://example.org/ServiceDepartment/089476ec-73b7-4639-8cfa-7f4429f19de4> a schema:Department ;
     schema:address <http://example.org/Address/931b421a-68ff-488c-a1c9-9852e72faf9b> ;
     schema:contactPoint <http://example.org/ContactPoint/5e263476-9c5a-4811-8297-bd4dee2c2f5e> ;
     schema:identifier "089476ec-73b7-4639-8cfa-7f4429f19de4"^^xsd:string ;
     schema:name "Gynecologic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a6bea3ff-cf9a-4ebd-9860-3d383d0c06f7> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a6bea3ff-cf9a-4ebd-9860-3d383d0c06f7> .
 
-<http://example.org/ServiceDept/0c3dc1ba-e369-4c25-85bd-3121b2fa6317> a schema:Department ;
+<http://example.org/ServiceDepartment/0c3dc1ba-e369-4c25-85bd-3121b2fa6317> a schema:Department ;
     schema:address <http://example.org/Address/5a782ac1-8157-4dcf-9829-0b3e10b8210a> ;
     schema:contactPoint <http://example.org/ContactPoint/505623f5-74b0-4b5a-af71-2ec422468a65> ;
     schema:identifier "0c3dc1ba-e369-4c25-85bd-3121b2fa6317"^^xsd:string ;
     schema:name "Respiratory Therapy"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/383b04c2-1f5f-4d1e-91d2-996da454068e> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/383b04c2-1f5f-4d1e-91d2-996da454068e> .
 
-<http://example.org/ServiceDept/0d3145dc-8447-4334-a572-415ce9546924> a schema:Department ;
+<http://example.org/ServiceDepartment/0d3145dc-8447-4334-a572-415ce9546924> a schema:Department ;
     schema:address <http://example.org/Address/388a4103-874d-45d7-aa71-d169fbd1224b> ;
     schema:contactPoint <http://example.org/ContactPoint/491b1299-06ff-4d27-a8cf-240dba544be8> ;
     schema:identifier "0d3145dc-8447-4334-a572-415ce9546924"^^xsd:string ;
     schema:name "Pothology"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
 
-<http://example.org/ServiceDept/1063ef4d-51dd-4f9f-a2d1-60740d919c26> a schema:Department ;
+<http://example.org/ServiceDepartment/1063ef4d-51dd-4f9f-a2d1-60740d919c26> a schema:Department ;
     schema:address <http://example.org/Address/2b9013d9-fcca-4e25-873f-d5d28ab194a7> ;
     schema:contactPoint <http://example.org/ContactPoint/5a43873c-c93d-45e4-a211-4189a77643f6> ;
     schema:identifier "1063ef4d-51dd-4f9f-a2d1-60740d919c26"^^xsd:string ;
     schema:name "Reumatisch"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> .
 
-<http://example.org/ServiceDept/106fda0d-abb8-47f5-bd64-6d9cfd5e3d65> a schema:Department ;
+<http://example.org/ServiceDepartment/106fda0d-abb8-47f5-bd64-6d9cfd5e3d65> a schema:Department ;
     schema:address <http://example.org/Address/0dfe76a6-322f-4883-9a1d-431a8a14e64a> ;
     schema:contactPoint <http://example.org/ContactPoint/79701e07-31f2-4787-8e99-eaca5e1bacf1> ;
     schema:identifier "106fda0d-abb8-47f5-bd64-6d9cfd5e3d65"^^xsd:string ;
     schema:name "Speech Pathology"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/894218bd-4f85-4d0f-92c6-5c427d263d9c> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/894218bd-4f85-4d0f-92c6-5c427d263d9c> .
 
-<http://example.org/ServiceDept/12a27f66-dce3-479f-b3a5-377c895c0bf8> a schema:Department ;
+<http://example.org/ServiceDepartment/12a27f66-dce3-479f-b3a5-377c895c0bf8> a schema:Department ;
     schema:address <http://example.org/Address/b35f5707-c62c-4d31-814b-5643cc55de1e> ;
     schema:contactPoint <http://example.org/ContactPoint/87e13612-cf39-4e26-b711-956026f523b6> ;
     schema:identifier "12a27f66-dce3-479f-b3a5-377c895c0bf8"^^xsd:string ;
     schema:name "Obutetric"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
 
-<http://example.org/ServiceDept/12f63da6-d583-4e26-ae3c-e17a2116e9dc> a schema:Department ;
+<http://example.org/ServiceDepartment/12f63da6-d583-4e26-ae3c-e17a2116e9dc> a schema:Department ;
     schema:address <http://example.org/Address/5acc58e1-9ec5-4f89-941b-b1064b2e0909> ;
     schema:contactPoint <http://example.org/ContactPoint/646caadb-d01f-4425-9ea2-7db5d9ee0ba8> ;
     schema:identifier "12f63da6-d583-4e26-ae3c-e17a2116e9dc"^^xsd:string ;
     schema:name "Primary Care"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/26715557-497c-45c7-94b5-4dc8420881ad> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/26715557-497c-45c7-94b5-4dc8420881ad> .
 
-<http://example.org/ServiceDept/13758b16-44b0-491c-b278-98afb4460bb9> a schema:Department ;
+<http://example.org/ServiceDepartment/13758b16-44b0-491c-b278-98afb4460bb9> a schema:Department ;
     schema:address <http://example.org/Address/ae77e4d1-8718-49c7-824f-ead30b743fec> ;
     schema:contactPoint <http://example.org/ContactPoint/a3c552cb-7b23-4275-be07-73bbbe9a773d> ;
     schema:identifier "13758b16-44b0-491c-b278-98afb4460bb9"^^xsd:string ;
     schema:name "Public Health"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
 
-<http://example.org/ServiceDept/13faa695-39b6-4e58-9303-0dd48b6fb936> a schema:Department ;
+<http://example.org/ServiceDepartment/13faa695-39b6-4e58-9303-0dd48b6fb936> a schema:Department ;
     schema:address <http://example.org/Address/59306fe4-20e8-4e7d-83c8-e18ba50c59c8> ;
     schema:contactPoint <http://example.org/ContactPoint/d08dad01-584a-4ca3-b5e5-c75b3319c215> ;
     schema:identifier "13faa695-39b6-4e58-9303-0dd48b6fb936"^^xsd:string ;
     schema:name "Gerwiatric"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/b6d0f5e9-d27f-4cf6-bec1-4dc18ba99063> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/b6d0f5e9-d27f-4cf6-bec1-4dc18ba99063> .
 
-<http://example.org/ServiceDept/14d1494e-eeee-4481-99c1-2606007091a1> a schema:Department ;
+<http://example.org/ServiceDepartment/14d1494e-eeee-4481-99c1-2606007091a1> a schema:Department ;
     schema:address <http://example.org/Address/a1bdec3f-109f-4c41-9bec-8be01e47272a> ;
     schema:contactPoint <http://example.org/ContactPoint/9baa288e-d5a5-421f-9932-bb2e819d5d45> ;
     schema:identifier "14d1494e-eeee-4481-99c1-2606007091a1"^^xsd:string ;
     schema:name "Musculoskeletaal"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/383b04c2-1f5f-4d1e-91d2-996da454068e> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/383b04c2-1f5f-4d1e-91d2-996da454068e> .
 
-<http://example.org/ServiceDept/14eb0637-c09a-495f-bf17-fe4c57dd2d14> a schema:Department ;
+<http://example.org/ServiceDepartment/14eb0637-c09a-495f-bf17-fe4c57dd2d14> a schema:Department ;
     schema:address <http://example.org/Address/23ae5663-fe9e-4c56-b78d-a35a66fe027f> ;
     schema:contactPoint <http://example.org/ContactPoint/eeb996e2-98c6-4faa-87e0-523b1ab93171> ;
     schema:identifier "14eb0637-c09a-495f-bf17-fe4c57dd2d14"^^xsd:string ;
     schema:name "Infectious"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/4f926cff-81a9-494f-92e5-713031262cce> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/4f926cff-81a9-494f-92e5-713031262cce> .
 
-<http://example.org/ServiceDept/1588c8d9-9d30-4be6-a525-131efc3295dc> a schema:Department ;
+<http://example.org/ServiceDepartment/1588c8d9-9d30-4be6-a525-131efc3295dc> a schema:Department ;
     schema:address <http://example.org/Address/ad05b21a-dcaf-44c3-993f-acd7cbc68405> ;
     schema:contactPoint <http://example.org/ContactPoint/3ff86d72-8147-421f-a94c-125f1954611e> ;
     schema:identifier "1588c8d9-9d30-4be6-a525-131efc3295dc"^^xsd:string ;
     schema:name "Urjlogic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> .
 
-<http://example.org/ServiceDept/1732401f-7f65-48a4-83b5-50e8b56252a3> a schema:Department ;
+<http://example.org/ServiceDepartment/1732401f-7f65-48a4-83b5-50e8b56252a3> a schema:Department ;
     schema:address <http://example.org/Address/764dfe20-ab56-4ba2-82d9-370167c2028f> ;
     schema:contactPoint <http://example.org/ContactPoint/3f9a99ab-7b25-4006-8963-033559f0a54e> ;
     schema:identifier "1732401f-7f65-48a4-83b5-50e8b56252a3"^^xsd:string ;
     schema:name "Speech Pathology"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/4f926cff-81a9-494f-92e5-713031262cce> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/4f926cff-81a9-494f-92e5-713031262cce> .
 
-<http://example.org/ServiceDept/1ac608a9-03b8-4c10-a0ff-5dfcd3f44912> a schema:Department ;
+<http://example.org/ServiceDepartment/1ac608a9-03b8-4c10-a0ff-5dfcd3f44912> a schema:Department ;
     schema:address <http://example.org/Address/7ab28183-adae-48eb-a843-101a6d0587ae> ;
     schema:contactPoint <http://example.org/ContactPoint/12aed71f-d3a9-436e-b326-a398860e878a> ;
     schema:identifier "1ac608a9-03b8-4c10-a0ff-5dfcd3f44912"^^xsd:string ;
     schema:name "Geriatdic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a6bea3ff-cf9a-4ebd-9860-3d383d0c06f7> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a6bea3ff-cf9a-4ebd-9860-3d383d0c06f7> .
 
-<http://example.org/ServiceDept/1e3f6564-e23d-40b2-a9c1-092270296757> a schema:Department ;
+<http://example.org/ServiceDepartment/1e3f6564-e23d-40b2-a9c1-092270296757> a schema:Department ;
     schema:address <http://example.org/Address/6dce0fd9-191d-45a7-bfd9-4903f2dd5781> ;
     schema:contactPoint <http://example.org/ContactPoint/abc57835-aa54-4c2f-9b4a-3ae80e557875> ;
     schema:identifier "1e3f6564-e23d-40b2-a9c1-092270296757"^^xsd:string ;
     schema:name "Pediatiric"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
 
-<http://example.org/ServiceDept/23ebf343-8e73-4b03-81aa-dfeb6bd817aa> a schema:Department ;
+<http://example.org/ServiceDepartment/23ebf343-8e73-4b03-81aa-dfeb6bd817aa> a schema:Department ;
     schema:address <http://example.org/Address/b2ac81cb-89ad-42e8-a734-ecb8be782bc6> ;
     schema:contactPoint <http://example.org/ContactPoint/310f1861-ef5a-49f3-bbed-3252fbda5424> ;
     schema:identifier "23ebf343-8e73-4b03-81aa-dfeb6bd817aa"^^xsd:string ;
     schema:name "Rrespiratory Therapy"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a0a0418b-465c-49cf-897c-d7e33fc22137> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a0a0418b-465c-49cf-897c-d7e33fc22137> .
 
-<http://example.org/ServiceDept/25595cc1-cf68-48e9-a67b-00ee7d17dc76> a schema:Department ;
+<http://example.org/ServiceDepartment/25595cc1-cf68-48e9-a67b-00ee7d17dc76> a schema:Department ;
     schema:address <http://example.org/Address/329fe909-d692-428f-9133-924d9a2d4fa1> ;
     schema:contactPoint <http://example.org/ContactPoint/70807918-6a26-4ded-a20b-e1ce99c1e26f> ;
     schema:identifier "25595cc1-cf68-48e9-a67b-00ee7d17dc76"^^xsd:string ;
     schema:name "Deramtology"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
 
-<http://example.org/ServiceDept/25dcbbc9-8d8b-4b91-bc3d-ed2319181982> a schema:Department ;
+<http://example.org/ServiceDepartment/25dcbbc9-8d8b-4b91-bc3d-ed2319181982> a schema:Department ;
     schema:address <http://example.org/Address/43fd6c05-8eea-47de-af33-9689b329432c> ;
     schema:contactPoint <http://example.org/ContactPoint/06760b36-e49a-4d90-b1a1-5100a8072559> ;
     schema:identifier "25dcbbc9-8d8b-4b91-bc3d-ed2319181982"^^xsd:string ;
     schema:name "Psychiatrisch"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
 
-<http://example.org/ServiceDept/28c9be2a-0a42-49d9-bec0-e3ddb6c23a98> a schema:Department ;
+<http://example.org/ServiceDepartment/28c9be2a-0a42-49d9-bec0-e3ddb6c23a98> a schema:Department ;
     schema:address <http://example.org/Address/d8af4aef-fc5f-425f-842c-5eb06bf0a3c7> ;
     schema:contactPoint <http://example.org/ContactPoint/21be4205-5784-4b35-9166-24f3b7ec8264> ;
     schema:identifier "28c9be2a-0a42-49d9-bec0-e3ddb6c23a98"^^xsd:string ;
     schema:name "Gnecologic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/26715557-497c-45c7-94b5-4dc8420881ad> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/26715557-497c-45c7-94b5-4dc8420881ad> .
 
-<http://example.org/ServiceDept/2cfb290d-1580-47c9-9add-02f3cacb7fdc> a schema:Department ;
+<http://example.org/ServiceDepartment/2cfb290d-1580-47c9-9add-02f3cacb7fdc> a schema:Department ;
     schema:address <http://example.org/Address/35cdf2a2-0bb4-4693-b8a0-c7771188567e> ;
     schema:contactPoint <http://example.org/ContactPoint/45ebf163-718f-4def-88e0-b7b930e05bad> ;
     schema:identifier "2cfb290d-1580-47c9-9add-02f3cacb7fdc"^^xsd:string ;
     schema:name "Musculoskeletaal"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> .
 
-<http://example.org/ServiceDept/2e594b5c-b6fb-4b7c-a0fd-7cd62132b675> a schema:Department ;
+<http://example.org/ServiceDepartment/2e594b5c-b6fb-4b7c-a0fd-7cd62132b675> a schema:Department ;
     schema:address <http://example.org/Address/a11350db-a9af-4703-ab46-28265491771e> ;
     schema:contactPoint <http://example.org/ContactPoint/8c4d12d0-e8ae-47e7-8b8c-feed49aaeefc> ;
     schema:identifier "2e594b5c-b6fb-4b7c-a0fd-7cd62132b675"^^xsd:string ;
     schema:name "Obstetric"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a0a0418b-465c-49cf-897c-d7e33fc22137> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a0a0418b-465c-49cf-897c-d7e33fc22137> .
 
-<http://example.org/ServiceDept/32300bee-fce1-40cd-8bbe-6c0a6008ce01> a schema:Department ;
+<http://example.org/ServiceDepartment/32300bee-fce1-40cd-8bbe-6c0a6008ce01> a schema:Department ;
     schema:address <http://example.org/Address/671a6c71-176c-4029-af4a-bf188a30f369> ;
     schema:contactPoint <http://example.org/ContactPoint/9341cbf6-872d-47b2-9c3f-a8bed66e46a1> ;
     schema:identifier "32300bee-fce1-40cd-8bbe-6c0a6008ce01"^^xsd:string ;
     schema:name "Psychiatrisch"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
 
-<http://example.org/ServiceDept/34e3dd44-d135-4d8d-b67d-ba6c2c137290> a schema:Department ;
+<http://example.org/ServiceDepartment/34e3dd44-d135-4d8d-b67d-ba6c2c137290> a schema:Department ;
     schema:address <http://example.org/Address/9ecec52c-d0cf-47bd-9f2d-f6e2977dd564> ;
     schema:contactPoint <http://example.org/ContactPoint/39ed414e-44aa-48fd-9480-57fa76fb9598> ;
     schema:identifier "34e3dd44-d135-4d8d-b67d-ba6c2c137290"^^xsd:string ;
     schema:name "Pathlogy"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/894218bd-4f85-4d0f-92c6-5c427d263d9c> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/894218bd-4f85-4d0f-92c6-5c427d263d9c> .
 
-<http://example.org/ServiceDept/3613d48d-958c-462f-b465-b2007e4bbae5> a schema:Department ;
+<http://example.org/ServiceDepartment/3613d48d-958c-462f-b465-b2007e4bbae5> a schema:Department ;
     schema:address <http://example.org/Address/3faa4256-f5c0-4374-a6da-34d9edb070f4> ;
     schema:contactPoint <http://example.org/ContactPoint/92f671a4-6f87-4421-9d26-e2b69d632e37> ;
     schema:identifier "3613d48d-958c-462f-b465-b2007e4bbae5"^^xsd:string ;
     schema:name "Physiotherapy"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
 
-<http://example.org/ServiceDept/38f70c7c-4e1c-445a-a296-963020a9026a> a schema:Department ;
+<http://example.org/ServiceDepartment/38f70c7c-4e1c-445a-a296-963020a9026a> a schema:Department ;
     schema:address <http://example.org/Address/933adc5b-ca4d-44b2-b1bc-9440f377325c> ;
     schema:contactPoint <http://example.org/ContactPoint/b75e3a74-e465-4981-9548-e80bc426eb2a> ;
     schema:identifier "38f70c7c-4e1c-445a-a296-963020a9026a"^^xsd:string ;
     schema:name "Nier"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
 
-<http://example.org/ServiceDept/3e566e75-2fab-4730-8590-f980f1b9ab6f> a schema:Department ;
+<http://example.org/ServiceDepartment/3e566e75-2fab-4730-8590-f980f1b9ab6f> a schema:Department ;
     schema:address <http://example.org/Address/6e93abe2-0b32-47aa-a5e5-19a841627c0c> ;
     schema:contactPoint <http://example.org/ContactPoint/154dd11d-bdc6-44aa-befc-5e09a0347988> ;
     schema:identifier "3e566e75-2fab-4730-8590-f980f1b9ab6f"^^xsd:string ;
     schema:name "Plastische chirurgie"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/383b04c2-1f5f-4d1e-91d2-996da454068e> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/383b04c2-1f5f-4d1e-91d2-996da454068e> .
 
-<http://example.org/ServiceDept/41183645-811d-4a16-bfb0-8308dea9b426> a schema:Department ;
+<http://example.org/ServiceDepartment/41183645-811d-4a16-bfb0-8308dea9b426> a schema:Department ;
     schema:address <http://example.org/Address/c4128e6e-04d7-4250-bca2-01e4af179e91> ;
     schema:contactPoint <http://example.org/ContactPoint/a2eb3db6-67dd-4f10-986e-ab9373a4bcfd> ;
     schema:identifier "41183645-811d-4a16-bfb0-8308dea9b426"^^xsd:string ;
     schema:name "Surgickal"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a0a0418b-465c-49cf-897c-d7e33fc22137> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a0a0418b-465c-49cf-897c-d7e33fc22137> .
 
-<http://example.org/ServiceDept/41ca1ed9-d5e4-475e-a84c-69cb7bab56a7> a schema:Department ;
+<http://example.org/ServiceDepartment/41ca1ed9-d5e4-475e-a84c-69cb7bab56a7> a schema:Department ;
     schema:address <http://example.org/Address/4e16de2f-8c90-4031-87f8-a8e36f6063b2> ;
     schema:contactPoint <http://example.org/ContactPoint/fa01efef-8b2c-43ee-abee-bc9c1a9a6148> ;
     schema:identifier "41ca1ed9-d5e4-475e-a84c-69cb7bab56a7"^^xsd:string ;
     schema:name "Podiaatriline"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/438326ba-199a-4a8c-9ff8-3999a0c8086c> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/438326ba-199a-4a8c-9ff8-3999a0c8086c> .
 
-<http://example.org/ServiceDept/4369adc2-d27c-4737-a642-ba1108b40666> a schema:Department ;
+<http://example.org/ServiceDepartment/4369adc2-d27c-4737-a642-ba1108b40666> a schema:Department ;
     schema:address <http://example.org/Address/675524d4-a1e8-47ca-afa2-5af89535d6b8> ;
     schema:contactPoint <http://example.org/ContactPoint/8c7dc812-e1b8-466d-b42e-1c25fa7b7973> ;
     schema:identifier "4369adc2-d27c-4737-a642-ba1108b40666"^^xsd:string ;
     schema:name "Endocrijns"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
 
-<http://example.org/ServiceDept/449b068e-5552-4fbb-a770-29f56044c8aa> a schema:Department ;
+<http://example.org/ServiceDepartment/449b068e-5552-4fbb-a770-29f56044c8aa> a schema:Department ;
     schema:address <http://example.org/Address/8fb34b61-ab57-44f1-93b1-de0970c0de70> ;
     schema:contactPoint <http://example.org/ContactPoint/f041fde9-e290-4277-816d-cac10777e093> ;
     schema:identifier "449b068e-5552-4fbb-a770-29f56044c8aa"^^xsd:string ;
     schema:name "Optomemric"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/26715557-497c-45c7-94b5-4dc8420881ad> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/26715557-497c-45c7-94b5-4dc8420881ad> .
 
-<http://example.org/ServiceDept/48421334-fd1d-4ba6-9927-522c6fd418b2> a schema:Department ;
+<http://example.org/ServiceDepartment/48421334-fd1d-4ba6-9927-522c6fd418b2> a schema:Department ;
     schema:address <http://example.org/Address/02ac92e1-d397-4d79-b35d-e0c17ed24150> ;
     schema:contactPoint <http://example.org/ContactPoint/ea6423ce-b86e-41d5-9641-eea702b835d8> ;
     schema:identifier "48421334-fd1d-4ba6-9927-522c6fd418b2"^^xsd:string ;
     schema:name "OtolarÃ¼ngoloogiline"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/438326ba-199a-4a8c-9ff8-3999a0c8086c> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/438326ba-199a-4a8c-9ff8-3999a0c8086c> .
 
-<http://example.org/ServiceDept/4c71b20f-2c7e-476b-a3a3-bc01e7c5ea88> a schema:Department ;
+<http://example.org/ServiceDepartment/4c71b20f-2c7e-476b-a3a3-bc01e7c5ea88> a schema:Department ;
     schema:address <http://example.org/Address/ffcd7e6b-657d-4476-b524-9bacd1de3498> ;
     schema:contactPoint <http://example.org/ContactPoint/97c7e8a2-ccd0-4acc-9282-1468a3d088f9> ;
     schema:identifier "4c71b20f-2c7e-476b-a3a3-bc01e7c5ea88"^^xsd:string ;
     schema:name "Volksgezondheid"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
 
-<http://example.org/ServiceDept/4e8343d7-d86d-4bcb-8653-45ad266a27b6> a schema:Department ;
+<http://example.org/ServiceDepartment/4e8343d7-d86d-4bcb-8653-45ad266a27b6> a schema:Department ;
     schema:address <http://example.org/Address/81d79ce5-17ae-40f4-b347-7fc7dbfaa880> ;
     schema:contactPoint <http://example.org/ContactPoint/a31da993-f7a9-4327-b21d-6a90fdb0b0cc> ;
     schema:identifier "4e8343d7-d86d-4bcb-8653-45ad266a27b6"^^xsd:string ;
     schema:name "Pharmacy pecialty"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> .
 
-<http://example.org/ServiceDept/5406cfb6-39f1-45e1-a984-0ecef67c5b66> a schema:Department ;
+<http://example.org/ServiceDepartment/5406cfb6-39f1-45e1-a984-0ecef67c5b66> a schema:Department ;
     schema:address <http://example.org/Address/de2ca5b7-0591-4ac5-a256-13ba5b811c76> ;
     schema:contactPoint <http://example.org/ContactPoint/b50e5e28-5dd3-48e9-bc65-9371ff4b4791> ;
     schema:identifier "5406cfb6-39f1-45e1-a984-0ecef67c5b66"^^xsd:string ;
     schema:name "Neurologisch"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> .
 
-<http://example.org/ServiceDept/5480b3b2-d7f7-485a-a778-bc8221433d83> a schema:Department ;
+<http://example.org/ServiceDepartment/5480b3b2-d7f7-485a-a778-bc8221433d83> a schema:Department ;
     schema:address <http://example.org/Address/3c69aac8-f975-471f-8f1a-4ef41623b897> ;
     schema:contactPoint <http://example.org/ContactPoint/5fddfa6a-8646-4407-b364-7eabb7382919> ;
     schema:identifier "5480b3b2-d7f7-485a-a778-bc8221433d83"^^xsd:string ;
     schema:name "Besmettelijk"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> .
 
-<http://example.org/ServiceDept/55144000-22d6-40ac-839a-85c7ceba1782> a schema:Department ;
+<http://example.org/ServiceDepartment/55144000-22d6-40ac-839a-85c7ceba1782> a schema:Department ;
     schema:address <http://example.org/Address/450edd94-ece3-40dd-8a35-99cd9935b05b> ;
     schema:contactPoint <http://example.org/ContactPoint/a935034f-f40c-44d1-afda-b88d839e1f09> ;
     schema:identifier "55144000-22d6-40ac-839a-85c7ceba1782"^^xsd:string ;
     schema:name "Gynecologic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/2a076937-facb-4ed6-bacd-c0df5716d803> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/2a076937-facb-4ed6-bacd-c0df5716d803> .
 
-<http://example.org/ServiceDept/57f2b5e6-1970-478a-a053-fc2b2ab9681c> a schema:Department ;
+<http://example.org/ServiceDepartment/57f2b5e6-1970-478a-a053-fc2b2ab9681c> a schema:Department ;
     schema:address <http://example.org/Address/260c879f-b71b-40c6-adc7-ae48a9fe9d84> ;
     schema:contactPoint <http://example.org/ContactPoint/6e1b2abd-536d-47be-a3fd-8cd7b994e806> ;
     schema:identifier "57f2b5e6-1970-478a-a053-fc2b2ab9681c"^^xsd:string ;
     schema:name "Endcrine"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/2a076937-facb-4ed6-bacd-c0df5716d803> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/2a076937-facb-4ed6-bacd-c0df5716d803> .
 
-<http://example.org/ServiceDept/5845d501-47a4-4de4-b800-70d1c0bbf92f> a schema:Department ;
+<http://example.org/ServiceDepartment/5845d501-47a4-4de4-b800-70d1c0bbf92f> a schema:Department ;
     schema:address <http://example.org/Address/622734dd-8ca1-40b7-858d-0cd2625ba798> ;
     schema:contactPoint <http://example.org/ContactPoint/f29fe6f0-500f-4db4-a44d-9e3211a3a12b> ;
     schema:identifier "5845d501-47a4-4de4-b800-70d1c0bbf92f"^^xsd:string ;
     schema:name "Laboratoriumwetenschap"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/b6d0f5e9-d27f-4cf6-bec1-4dc18ba99063> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/b6d0f5e9-d27f-4cf6-bec1-4dc18ba99063> .
 
-<http://example.org/ServiceDept/59dfe799-c645-4ffe-8fd1-4ce259363fa5> a schema:Department ;
+<http://example.org/ServiceDepartment/59dfe799-c645-4ffe-8fd1-4ce259363fa5> a schema:Department ;
     schema:address <http://example.org/Address/07e3c405-62f2-4b40-ac31-6d15e0d0b140> ;
     schema:contactPoint <http://example.org/ContactPoint/c03b10fd-4dc1-4568-853e-27a5d1f20be3> ;
     schema:identifier "59dfe799-c645-4ffe-8fd1-4ce259363fa5"^^xsd:string ;
     schema:name "Toxiologic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
 
-<http://example.org/ServiceDept/5a7b7671-ef64-4597-83f6-32b0f1326687> a schema:Department ;
+<http://example.org/ServiceDepartment/5a7b7671-ef64-4597-83f6-32b0f1326687> a schema:Department ;
     schema:address <http://example.org/Address/f3859ed4-ea3a-4eb0-843e-e406e938d4cc> ;
     schema:contactPoint <http://example.org/ContactPoint/0e82e76c-8c48-45c7-96f4-1e077f43d618> ;
     schema:identifier "5a7b7671-ef64-4597-83f6-32b0f1326687"^^xsd:string ;
     schema:name "Optometrisch"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/26715557-497c-45c7-94b5-4dc8420881ad> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/26715557-497c-45c7-94b5-4dc8420881ad> .
 
-<http://example.org/ServiceDept/5ecd86be-436b-4b43-88fd-f76f2bd74c69> a schema:Department ;
+<http://example.org/ServiceDepartment/5ecd86be-436b-4b43-88fd-f76f2bd74c69> a schema:Department ;
     schema:address <http://example.org/Address/c7688a98-9bd1-476c-936c-8c8e6e6a88e5> ;
     schema:contactPoint <http://example.org/ContactPoint/3584d14b-c100-4c45-9fba-8fb003b76059> ;
     schema:identifier "5ecd86be-436b-4b43-88fd-f76f2bd74c69"^^xsd:string ;
     schema:name "Gastroenteroltgic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/b6d0f5e9-d27f-4cf6-bec1-4dc18ba99063> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/b6d0f5e9-d27f-4cf6-bec1-4dc18ba99063> .
 
-<http://example.org/ServiceDept/60f1229b-d06a-49f2-aa98-a58f1074079a> a schema:Department ;
+<http://example.org/ServiceDepartment/60f1229b-d06a-49f2-aa98-a58f1074079a> a schema:Department ;
     schema:address <http://example.org/Address/d89824a1-b77e-4a21-bb50-8ac98f4f53c8> ;
     schema:contactPoint <http://example.org/ContactPoint/0339c434-85c4-4ebd-bf54-f0ab000a8e7b> ;
     schema:identifier "60f1229b-d06a-49f2-aa98-a58f1074079a"^^xsd:string ;
     schema:name "Obstetric"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a0a0418b-465c-49cf-897c-d7e33fc22137> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a0a0418b-465c-49cf-897c-d7e33fc22137> .
 
-<http://example.org/ServiceDept/6155559d-ac71-41db-9bb8-8c128e0e151b> a schema:Department ;
+<http://example.org/ServiceDepartment/6155559d-ac71-41db-9bb8-8c128e0e151b> a schema:Department ;
     schema:address <http://example.org/Address/b48914db-0af4-49ca-9d21-174ae430768d> ;
     schema:contactPoint <http://example.org/ContactPoint/8de09795-2956-453d-8686-4709674196a5> ;
     schema:identifier "6155559d-ac71-41db-9bb8-8c128e0e151b"^^xsd:string ;
     schema:name "Hematoloogiline"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/2a076937-facb-4ed6-bacd-c0df5716d803> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/2a076937-facb-4ed6-bacd-c0df5716d803> .
 
-<http://example.org/ServiceDept/627a3da8-bb3f-4eeb-b678-a0285ce99de0> a schema:Department ;
+<http://example.org/ServiceDepartment/627a3da8-bb3f-4eeb-b678-a0285ce99de0> a schema:Department ;
     schema:address <http://example.org/Address/8c2e1b27-53e0-41c8-b58b-91a4706fe91b> ;
     schema:contactPoint <http://example.org/ContactPoint/62696127-705b-4794-8ce4-fd4d51a1ce26> ;
     schema:identifier "627a3da8-bb3f-4eeb-b678-a0285ce99de0"^^xsd:string ;
     schema:name "Midwifery"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a0a0418b-465c-49cf-897c-d7e33fc22137> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a0a0418b-465c-49cf-897c-d7e33fc22137> .
 
-<http://example.org/ServiceDept/62b89e3e-3dc8-4253-92ab-97aacd6f7288> a schema:Department ;
+<http://example.org/ServiceDepartment/62b89e3e-3dc8-4253-92ab-97aacd6f7288> a schema:Department ;
     schema:address <http://example.org/Address/5568fc4b-19aa-4599-a455-1f5d0b5e0df8> ;
     schema:contactPoint <http://example.org/ContactPoint/23bda305-caeb-46df-8698-f310cbadb7bd> ;
     schema:identifier "62b89e3e-3dc8-4253-92ab-97aacd6f7288"^^xsd:string ;
     schema:name "Psychiatric"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/383b04c2-1f5f-4d1e-91d2-996da454068e> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/383b04c2-1f5f-4d1e-91d2-996da454068e> .
 
-<http://example.org/ServiceDept/67f7fd34-8b81-4555-b700-7bf33450c5d3> a schema:Department ;
+<http://example.org/ServiceDepartment/67f7fd34-8b81-4555-b700-7bf33450c5d3> a schema:Department ;
     schema:address <http://example.org/Address/4d739129-82eb-4709-9833-d12533158f4e> ;
     schema:contactPoint <http://example.org/ContactPoint/b3b1018a-19d8-4341-af3f-21f6e49311bf> ;
     schema:identifier "67f7fd34-8b81-4555-b700-7bf33450c5d3"^^xsd:string ;
     schema:name "Geburtshilfe"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
 
-<http://example.org/ServiceDept/699d51a1-b03a-4779-9246-2ba1a2a809a4> a schema:Department ;
+<http://example.org/ServiceDepartment/699d51a1-b03a-4779-9246-2ba1a2a809a4> a schema:Department ;
     schema:address <http://example.org/Address/677786ed-5bcd-4876-96a1-64d09dba5fe0> ;
     schema:contactPoint <http://example.org/ContactPoint/845c3d05-7c11-4e97-9148-7a81a70c7dca> ;
     schema:identifier "699d51a1-b03a-4779-9246-2ba1a2a809a4"^^xsd:string ;
     schema:name "Rynal"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a6bea3ff-cf9a-4ebd-9860-3d383d0c06f7> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a6bea3ff-cf9a-4ebd-9860-3d383d0c06f7> .
 
-<http://example.org/ServiceDept/69acbcbd-c7d1-4898-a52e-7325e931812a> a schema:Department ;
+<http://example.org/ServiceDepartment/69acbcbd-c7d1-4898-a52e-7325e931812a> a schema:Department ;
     schema:address <http://example.org/Address/47fc9a0b-14b6-4ef5-af5f-80b54a01fb46> ;
     schema:contactPoint <http://example.org/ContactPoint/5152d0c0-1d1b-46fb-8015-111d3da0f145> ;
     schema:identifier "69acbcbd-c7d1-4898-a52e-7325e931812a"^^xsd:string ;
     schema:name "Toxicolgoic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/383b04c2-1f5f-4d1e-91d2-996da454068e> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/383b04c2-1f5f-4d1e-91d2-996da454068e> .
 
-<http://example.org/ServiceDept/69fe3a5d-9298-429a-831d-879c8844a0cc> a schema:Department ;
+<http://example.org/ServiceDepartment/69fe3a5d-9298-429a-831d-879c8844a0cc> a schema:Department ;
     schema:address <http://example.org/Address/c2630b6a-8d5b-4196-89a3-92404f26ad53> ;
     schema:contactPoint <http://example.org/ContactPoint/305dd11b-7a3a-4043-9cb1-bfc8c2b91996> ;
     schema:identifier "69fe3a5d-9298-429a-831d-879c8844a0cc"^^xsd:string ;
     schema:name "Midwifery"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
 
-<http://example.org/ServiceDept/6a1449cf-cac6-4de0-9b71-c7e642165fb9> a schema:Department ;
+<http://example.org/ServiceDepartment/6a1449cf-cac6-4de0-9b71-c7e642165fb9> a schema:Department ;
     schema:address <http://example.org/Address/792f93b6-1067-4dd4-8607-219be27c546d> ;
     schema:contactPoint <http://example.org/ContactPoint/5a9d378f-2a08-4e13-a6f6-704b45528d62> ;
     schema:identifier "6a1449cf-cac6-4de0-9b71-c7e642165fb9"^^xsd:string ;
     schema:name "Optomeetriline"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/5ff2c470-00fd-489b-b0ec-4222934a629f> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/5ff2c470-00fd-489b-b0ec-4222934a629f> .
 
-<http://example.org/ServiceDept/6dda5847-5346-4327-961a-10a130d35a3b> a schema:Department ;
+<http://example.org/ServiceDepartment/6dda5847-5346-4327-961a-10a130d35a3b> a schema:Department ;
     schema:address <http://example.org/Address/96d4e657-c7dc-427f-a9ff-6ad8f5dc81b2> ;
     schema:contactPoint <http://example.org/ContactPoint/5d8ab8f9-9ebf-464b-88f8-b881032ee6cf> ;
     schema:identifier "6dda5847-5346-4327-961a-10a130d35a3b"^^xsd:string ;
     schema:name "Hkmatologic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/438326ba-199a-4a8c-9ff8-3999a0c8086c> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/438326ba-199a-4a8c-9ff8-3999a0c8086c> .
 
-<http://example.org/ServiceDept/6e740e07-f5e1-49af-b5c6-39e23cdc3614> a schema:Department ;
+<http://example.org/ServiceDepartment/6e740e07-f5e1-49af-b5c6-39e23cdc3614> a schema:Department ;
     schema:address <http://example.org/Address/52b30690-593c-4139-b729-e67772ee95e6> ;
     schema:contactPoint <http://example.org/ContactPoint/4b283282-b8bb-4af1-9d39-91cc3eb2c0a2> ;
     schema:identifier "6e740e07-f5e1-49af-b5c6-39e23cdc3614"^^xsd:string ;
     schema:name "Rveumatologic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/383b04c2-1f5f-4d1e-91d2-996da454068e> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/383b04c2-1f5f-4d1e-91d2-996da454068e> .
 
-<http://example.org/ServiceDept/6f7eed19-002d-48c7-8eac-95671a1d838e> a schema:Department ;
+<http://example.org/ServiceDepartment/6f7eed19-002d-48c7-8eac-95671a1d838e> a schema:Department ;
     schema:address <http://example.org/Address/2615c096-a7c5-4f19-9091-bf94aba2319f> ;
     schema:contactPoint <http://example.org/ContactPoint/4bfc67b1-5428-42d3-9f4b-a1ee697bad99> ;
     schema:identifier "6f7eed19-002d-48c7-8eac-95671a1d838e"^^xsd:string ;
     schema:name "Dciet Nutrition"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
 
-<http://example.org/ServiceDept/73971398-544d-455a-bb60-fbd6fd4c3100> a schema:Department ;
+<http://example.org/ServiceDepartment/73971398-544d-455a-bb60-fbd6fd4c3100> a schema:Department ;
     schema:address <http://example.org/Address/89c6b4f5-7371-483a-a1df-fe2fa561caad> ;
     schema:contactPoint <http://example.org/ContactPoint/b897b4d4-281f-4018-b090-f609f11723db> ;
     schema:identifier "73971398-544d-455a-bb60-fbd6fd4c3100"^^xsd:string ;
     schema:name "Neurologisch"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a0a0418b-465c-49cf-897c-d7e33fc22137> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a0a0418b-465c-49cf-897c-d7e33fc22137> .
 
-<http://example.org/ServiceDept/74cffe38-a58b-442e-b68c-02bbe47e234e> a schema:Department ;
+<http://example.org/ServiceDepartment/74cffe38-a58b-442e-b68c-02bbe47e234e> a schema:Department ;
     schema:address <http://example.org/Address/6fa91cbe-1259-4e2e-ba28-3d619c010a5b> ;
     schema:contactPoint <http://example.org/ContactPoint/708bb027-c9d8-4364-aea0-dd96e4090d94> ;
     schema:identifier "74cffe38-a58b-442e-b68c-02bbe47e234e"^^xsd:string ;
     schema:name "Cardiotascular"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
 
-<http://example.org/ServiceDept/7568ab21-64ee-4e34-8bc3-328201d1cdab> a schema:Department ;
+<http://example.org/ServiceDepartment/7568ab21-64ee-4e34-8bc3-328201d1cdab> a schema:Department ;
     schema:address <http://example.org/Address/2b0bf157-af66-4abb-84a3-72af02abbefa> ;
     schema:contactPoint <http://example.org/ContactPoint/26f1a32b-9286-4057-bb42-910c0ebfa4a3> ;
     schema:identifier "7568ab21-64ee-4e34-8bc3-328201d1cdab"^^xsd:string ;
     schema:name "Renal"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/894218bd-4f85-4d0f-92c6-5c427d263d9c> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/894218bd-4f85-4d0f-92c6-5c427d263d9c> .
 
-<http://example.org/ServiceDept/767aff0a-2417-4bb9-9ece-11bbf639f35a> a schema:Department ;
+<http://example.org/ServiceDepartment/767aff0a-2417-4bb9-9ece-11bbf639f35a> a schema:Department ;
     schema:address <http://example.org/Address/d8e7ad09-73d1-4f64-a1e4-cf748f9a8b9d> ;
     schema:contactPoint <http://example.org/ContactPoint/9f662b02-5ff1-4e29-b90e-f0576d8a0856> ;
     schema:identifier "767aff0a-2417-4bb9-9ece-11bbf639f35a"^^xsd:string ;
     schema:name "Neurologisch"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/26715557-497c-45c7-94b5-4dc8420881ad> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/26715557-497c-45c7-94b5-4dc8420881ad> .
 
-<http://example.org/ServiceDept/7c159590-e5fe-46fd-8080-46f0f7f15006> a schema:Department ;
+<http://example.org/ServiceDepartment/7c159590-e5fe-46fd-8080-46f0f7f15006> a schema:Department ;
     schema:address <http://example.org/Address/0bd980a4-fd43-463c-9b9c-893c5beafabc> ;
     schema:contactPoint <http://example.org/ContactPoint/e41628b7-56a8-454d-8d2c-dfbb21257c11> ;
     schema:identifier "7c159590-e5fe-46fd-8080-46f0f7f15006"^^xsd:string ;
     schema:name "Urologisch"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/b6d0f5e9-d27f-4cf6-bec1-4dc18ba99063> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/b6d0f5e9-d27f-4cf6-bec1-4dc18ba99063> .
 
-<http://example.org/ServiceDept/8164a66e-4d2d-4e20-ba55-2fc3d0fcb36c> a schema:Department ;
+<http://example.org/ServiceDepartment/8164a66e-4d2d-4e20-ba55-2fc3d0fcb36c> a schema:Department ;
     schema:address <http://example.org/Address/4dcbdfff-2fc3-4ddd-b82b-4df3812d5f89> ;
     schema:contactPoint <http://example.org/ContactPoint/8343c211-d130-47eb-b550-4657bd2937a4> ;
     schema:identifier "8164a66e-4d2d-4e20-ba55-2fc3d0fcb36c"^^xsd:string ;
     schema:name "Nieren"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/4f926cff-81a9-494f-92e5-713031262cce> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/4f926cff-81a9-494f-92e5-713031262cce> .
 
-<http://example.org/ServiceDept/830b2482-e7ea-4c3b-bfce-bdab9beab8e3> a schema:Department ;
+<http://example.org/ServiceDepartment/830b2482-e7ea-4c3b-bfce-bdab9beab8e3> a schema:Department ;
     schema:address <http://example.org/Address/1841b524-8716-49da-b24d-bf7b2dba9b64> ;
     schema:contactPoint <http://example.org/ContactPoint/365b7041-e6b4-4936-9bd3-60e15b097546> ;
     schema:identifier "830b2482-e7ea-4c3b-bfce-bdab9beab8e3"^^xsd:string ;
     schema:name "Ademhalingstherapie"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/383b04c2-1f5f-4d1e-91d2-996da454068e> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/383b04c2-1f5f-4d1e-91d2-996da454068e> .
 
-<http://example.org/ServiceDept/8c1f020c-2ccd-4332-899b-9891931e4029> a schema:Department ;
+<http://example.org/ServiceDepartment/8c1f020c-2ccd-4332-899b-9891931e4029> a schema:Department ;
     schema:address <http://example.org/Address/f09c7b92-3afa-4fcb-865d-65c7a9cc0c91> ;
     schema:contactPoint <http://example.org/ContactPoint/1607f485-f48c-4c45-8155-5ebe7090fe75> ;
     schema:identifier "8c1f020c-2ccd-4332-899b-9891931e4029"^^xsd:string ;
     schema:name "Volksgezondheid"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
 
-<http://example.org/ServiceDept/8cc779ca-c797-4178-a5bf-c64e81223d40> a schema:Department ;
+<http://example.org/ServiceDepartment/8cc779ca-c797-4178-a5bf-c64e81223d40> a schema:Department ;
     schema:address <http://example.org/Address/15f9527e-1b5a-4550-a9b9-25d03ce8028e> ;
     schema:contactPoint <http://example.org/ContactPoint/610fee57-c4b1-43fa-b709-ff5fbb3a4999> ;
     schema:identifier "8cc779ca-c797-4178-a5bf-c64e81223d40"^^xsd:string ;
     schema:name "Musculoskeldetal"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/2a076937-facb-4ed6-bacd-c0df5716d803> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/2a076937-facb-4ed6-bacd-c0df5716d803> .
 
-<http://example.org/ServiceDept/9025c732-119a-45a4-9b86-e8343fa65e0f> a schema:Department ;
+<http://example.org/ServiceDepartment/9025c732-119a-45a4-9b86-e8343fa65e0f> a schema:Department ;
     schema:address <http://example.org/Address/2f437d5b-3352-446e-b923-d6c037741678> ;
     schema:contactPoint <http://example.org/ContactPoint/ff7635ce-2880-42f4-8935-ccd97c394a38> ;
     schema:identifier "9025c732-119a-45a4-9b86-e8343fa65e0f"^^xsd:string ;
     schema:name "Anesthesia"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/383b04c2-1f5f-4d1e-91d2-996da454068e> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/383b04c2-1f5f-4d1e-91d2-996da454068e> .
 
-<http://example.org/ServiceDept/902731d7-8287-4847-a71c-11071e24de18> a schema:Department ;
+<http://example.org/ServiceDepartment/902731d7-8287-4847-a71c-11071e24de18> a schema:Department ;
     schema:address <http://example.org/Address/f9a0877a-3e27-4e79-b4cf-b5fb181fc9f5> ;
     schema:contactPoint <http://example.org/ContactPoint/85309019-160c-420c-8c87-05d6a4a23624> ;
     schema:identifier "902731d7-8287-4847-a71c-11071e24de18"^^xsd:string ;
     schema:name "Guynecologic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/4f926cff-81a9-494f-92e5-713031262cce> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/4f926cff-81a9-494f-92e5-713031262cce> .
 
-<http://example.org/ServiceDept/908097ed-8bdd-4479-ab6a-eb4977931d7a> a schema:Department ;
+<http://example.org/ServiceDepartment/908097ed-8bdd-4479-ab6a-eb4977931d7a> a schema:Department ;
     schema:address <http://example.org/Address/bf20522d-fe30-4bbd-bf2f-ea79a6ebd22f> ;
     schema:contactPoint <http://example.org/ContactPoint/448727a3-3fca-4a68-99de-38bd0c66dfc9> ;
     schema:identifier "908097ed-8bdd-4479-ab6a-eb4977931d7a"^^xsd:string ;
     schema:name "Gastroneterologic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/438326ba-199a-4a8c-9ff8-3999a0c8086c> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/438326ba-199a-4a8c-9ff8-3999a0c8086c> .
 
-<http://example.org/ServiceDept/919fe1bd-1b3d-475b-9cea-b664e9680dd4> a schema:Department ;
+<http://example.org/ServiceDepartment/919fe1bd-1b3d-475b-9cea-b664e9680dd4> a schema:Department ;
     schema:address <http://example.org/Address/831076a5-b4d4-44a1-b627-6772475ef3d0> ;
     schema:contactPoint <http://example.org/ContactPoint/fedefa16-9bfc-49e9-b48f-34ecafffd24e> ;
     schema:identifier "919fe1bd-1b3d-475b-9cea-b664e9680dd4"^^xsd:string ;
     schema:name "Midwifery"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a6bea3ff-cf9a-4ebd-9860-3d383d0c06f7> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a6bea3ff-cf9a-4ebd-9860-3d383d0c06f7> .
 
-<http://example.org/ServiceDept/937c9f94-f3e0-4c55-8b59-3299dead9fd2> a schema:Department ;
+<http://example.org/ServiceDepartment/937c9f94-f3e0-4c55-8b59-3299dead9fd2> a schema:Department ;
     schema:address <http://example.org/Address/6bbbe27b-6dba-4e28-b247-70ed0fbe7773> ;
     schema:contactPoint <http://example.org/ContactPoint/d2f9906f-60bd-4244-a919-b83583bbc58f> ;
     schema:identifier "937c9f94-f3e0-4c55-8b59-3299dead9fd2"^^xsd:string ;
     schema:name "Pflege"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
 
-<http://example.org/ServiceDept/9989f059-50cc-45af-ab92-a7868a666ed8> a schema:Department ;
+<http://example.org/ServiceDepartment/9989f059-50cc-45af-ab92-a7868a666ed8> a schema:Department ;
     schema:address <http://example.org/Address/5ae85ff7-e4cb-454a-ac30-bdd069a614a0> ;
     schema:contactPoint <http://example.org/ContactPoint/0730dc99-a456-49c7-9383-dc0e5de85117> ;
     schema:identifier "9989f059-50cc-45af-ab92-a7868a666ed8"^^xsd:string ;
     schema:name "Toxicoolgic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
 
-<http://example.org/ServiceDept/9c0df040-69cb-4d08-8ed9-b88b412667d8> a schema:Department ;
+<http://example.org/ServiceDepartment/9c0df040-69cb-4d08-8ed9-b88b412667d8> a schema:Department ;
     schema:address <http://example.org/Address/4bfdfde1-f950-4580-9327-c555cf0ef1b3> ;
     schema:contactPoint <http://example.org/ContactPoint/16e33bd1-3a0f-45bf-b083-8fa9e17c3a5e> ;
     schema:identifier "9c0df040-69cb-4d08-8ed9-b88b412667d8"^^xsd:string ;
     schema:name "Anesthesie"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> .
 
-<http://example.org/ServiceDept/9e3299ff-2bcb-4224-9fbb-3178ea72af12> a schema:Department ;
+<http://example.org/ServiceDepartment/9e3299ff-2bcb-4224-9fbb-3178ea72af12> a schema:Department ;
     schema:address <http://example.org/Address/2eca9df0-6194-432b-82e6-a88ba6ccc1d7> ;
     schema:contactPoint <http://example.org/ContactPoint/4fbea075-4d92-44c1-8401-05ff2deb865e> ;
     schema:identifier "9e3299ff-2bcb-4224-9fbb-3178ea72af12"^^xsd:string ;
     schema:name "Gastronterologic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/894218bd-4f85-4d0f-92c6-5c427d263d9c> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/894218bd-4f85-4d0f-92c6-5c427d263d9c> .
 
-<http://example.org/ServiceDept/9f299b46-7d8a-466a-9707-d150d3c8905c> a schema:Department ;
+<http://example.org/ServiceDepartment/9f299b46-7d8a-466a-9707-d150d3c8905c> a schema:Department ;
     schema:address <http://example.org/Address/d2d4d0f0-d790-4fe7-8885-e7220e3cb490> ;
     schema:contactPoint <http://example.org/ContactPoint/ee690ae9-9a62-4d13-b60b-5767a0554e0b> ;
     schema:identifier "9f299b46-7d8a-466a-9707-d150d3c8905c"^^xsd:string ;
     schema:name "Herz -Kreislauf"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
 
-<http://example.org/ServiceDept/9f56b14a-3414-45a4-9419-99ee7e144bf3> a schema:Department ;
+<http://example.org/ServiceDepartment/9f56b14a-3414-45a4-9419-99ee7e144bf3> a schema:Department ;
     schema:address <http://example.org/Address/df2c0d75-114c-4890-b55d-9063c15c30de> ;
     schema:contactPoint <http://example.org/ContactPoint/c39a112b-bb94-4bc9-9379-6c6112cb2bd8> ;
     schema:identifier "9f56b14a-3414-45a4-9419-99ee7e144bf3"^^xsd:string ;
     schema:name "Podiatric"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/2a076937-facb-4ed6-bacd-c0df5716d803> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/2a076937-facb-4ed6-bacd-c0df5716d803> .
 
-<http://example.org/ServiceDept/a0ab34ae-b6b1-47cf-ae92-cbb8f82b214f> a schema:Department ;
+<http://example.org/ServiceDepartment/a0ab34ae-b6b1-47cf-ae92-cbb8f82b214f> a schema:Department ;
     schema:address <http://example.org/Address/c894800c-42a0-47de-b036-7a740f4d55d6> ;
     schema:contactPoint <http://example.org/ContactPoint/fe5cf012-44a1-4b7c-96d2-dfb8ad2e48d2> ;
     schema:identifier "a0ab34ae-b6b1-47cf-ae92-cbb8f82b214f"^^xsd:string ;
     schema:name "Podiatrisch"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> .
 
-<http://example.org/ServiceDept/a1c58574-222c-4ca4-aae6-e74e57f523f2> a schema:Department ;
+<http://example.org/ServiceDepartment/a1c58574-222c-4ca4-aae6-e74e57f523f2> a schema:Department ;
     schema:address <http://example.org/Address/33832e2d-90b6-462d-9aa1-ede6a78e9fe9> ;
     schema:contactPoint <http://example.org/ContactPoint/610d4458-713c-4022-8a25-07649c24e367> ;
     schema:identifier "a1c58574-222c-4ca4-aae6-e74e57f523f2"^^xsd:string ;
     schema:name "Rheumatolgoic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/4f926cff-81a9-494f-92e5-713031262cce> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/4f926cff-81a9-494f-92e5-713031262cce> .
 
-<http://example.org/ServiceDept/a66cfcf3-36b8-4e18-a2ed-8692dc955194> a schema:Department ;
+<http://example.org/ServiceDepartment/a66cfcf3-36b8-4e18-a2ed-8692dc955194> a schema:Department ;
     schema:address <http://example.org/Address/43516756-d43a-4294-a057-8bc0194462bf> ;
     schema:contactPoint <http://example.org/ContactPoint/219a5d15-0382-4946-afbf-9349bc37d8ec> ;
     schema:identifier "a66cfcf3-36b8-4e18-a2ed-8692dc955194"^^xsd:string ;
     schema:name "Djiet Nutrition"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/383b04c2-1f5f-4d1e-91d2-996da454068e> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/383b04c2-1f5f-4d1e-91d2-996da454068e> .
 
-<http://example.org/ServiceDept/ac40560d-b731-4ae6-a125-ecb2e1e5f248> a schema:Department ;
+<http://example.org/ServiceDepartment/ac40560d-b731-4ae6-a125-ecb2e1e5f248> a schema:Department ;
     schema:address <http://example.org/Address/280b4ac2-c72c-405e-a255-e43c73621f40> ;
     schema:contactPoint <http://example.org/ContactPoint/6826be58-3a5b-4810-a8b7-4b5b2b044bd5> ;
     schema:identifier "ac40560d-b731-4ae6-a125-ecb2e1e5f248"^^xsd:string ;
     schema:name "Respiratory Therapy"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/438326ba-199a-4a8c-9ff8-3999a0c8086c> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/438326ba-199a-4a8c-9ff8-3999a0c8086c> .
 
-<http://example.org/ServiceDept/b0eca9ca-2166-4856-93a5-b8c29fabf591> a schema:Department ;
+<http://example.org/ServiceDepartment/b0eca9ca-2166-4856-93a5-b8c29fabf591> a schema:Department ;
     schema:address <http://example.org/Address/897abe3b-0a63-45fb-80eb-600dcee56d30> ;
     schema:contactPoint <http://example.org/ContactPoint/946a5a32-6fcd-491b-a740-de4bf161a8ce> ;
     schema:identifier "b0eca9ca-2166-4856-93a5-b8c29fabf591"^^xsd:string ;
     schema:name "Endokriinne"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/2a076937-facb-4ed6-bacd-c0df5716d803> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/2a076937-facb-4ed6-bacd-c0df5716d803> .
 
-<http://example.org/ServiceDept/b5a09656-9950-43ca-bec9-0ac147520b73> a schema:Department ;
+<http://example.org/ServiceDepartment/b5a09656-9950-43ca-bec9-0ac147520b73> a schema:Department ;
     schema:address <http://example.org/Address/0f3c7c86-99ac-4198-8369-ac6928ceb102> ;
     schema:contactPoint <http://example.org/ContactPoint/ff673efc-16e7-45ef-8f01-bceeb02f6146> ;
     schema:identifier "b5a09656-9950-43ca-bec9-0ac147520b73"^^xsd:string ;
     schema:name "Gynecologci"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/438326ba-199a-4a8c-9ff8-3999a0c8086c> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/438326ba-199a-4a8c-9ff8-3999a0c8086c> .
 
-<http://example.org/ServiceDept/b995ff00-6ead-44ce-8b37-36a2bc3fa702> a schema:Department ;
+<http://example.org/ServiceDepartment/b995ff00-6ead-44ce-8b37-36a2bc3fa702> a schema:Department ;
     schema:address <http://example.org/Address/35c00535-58de-4fa1-882c-fd99b998c445> ;
     schema:contactPoint <http://example.org/ContactPoint/62139dde-cfae-49a5-b9ec-5204363ca98f> ;
     schema:identifier "b995ff00-6ead-44ce-8b37-36a2bc3fa702"^^xsd:string ;
     schema:name "Relnal"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> .
 
-<http://example.org/ServiceDept/bb5fbd4e-d1ee-4977-967e-a309fc768b8d> a schema:Department ;
+<http://example.org/ServiceDepartment/bb5fbd4e-d1ee-4977-967e-a309fc768b8d> a schema:Department ;
     schema:address <http://example.org/Address/09ca7a31-9977-4441-afba-ec3b641ea311> ;
     schema:contactPoint <http://example.org/ContactPoint/46268e4f-6977-4f04-a101-2f859a417921> ;
     schema:identifier "bb5fbd4e-d1ee-4977-967e-a309fc768b8d"^^xsd:string ;
     schema:name "Spraakpathologie"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/26715557-497c-45c7-94b5-4dc8420881ad> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/26715557-497c-45c7-94b5-4dc8420881ad> .
 
-<http://example.org/ServiceDept/bcc24727-3034-4632-8737-e4144e7c810a> a schema:Department ;
+<http://example.org/ServiceDepartment/bcc24727-3034-4632-8737-e4144e7c810a> a schema:Department ;
     schema:address <http://example.org/Address/008dfc89-c616-43e7-8a63-c9722c5e9e7b> ;
     schema:contactPoint <http://example.org/ContactPoint/2eb190d1-1ccf-406e-8b1d-376a1fad2155> ;
     schema:identifier "bcc24727-3034-4632-8737-e4144e7c810a"^^xsd:string ;
     schema:name "Plastick Surgery"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/5ff2c470-00fd-489b-b0ec-4222934a629f> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/5ff2c470-00fd-489b-b0ec-4222934a629f> .
 
-<http://example.org/ServiceDept/bdd57544-2e77-4f9b-81b5-708aba4054b2> a schema:Department ;
+<http://example.org/ServiceDepartment/bdd57544-2e77-4f9b-81b5-708aba4054b2> a schema:Department ;
     schema:address <http://example.org/Address/74d944ba-36a1-44b3-889c-4a0c96957712> ;
     schema:contactPoint <http://example.org/ContactPoint/73eb2184-84ca-4910-a815-3954e3219d69> ;
     schema:identifier "bdd57544-2e77-4f9b-81b5-708aba4054b2"^^xsd:string ;
     schema:name "Noodgeval"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> .
 
-<http://example.org/ServiceDept/bdf7e6cc-968a-4fbc-bb43-8775a0668bb7> a schema:Department ;
+<http://example.org/ServiceDepartment/bdf7e6cc-968a-4fbc-bb43-8775a0668bb7> a schema:Department ;
     schema:address <http://example.org/Address/aa5945d6-714e-48f2-abd3-15e2c4fe1a44> ;
     schema:contactPoint <http://example.org/ContactPoint/866bf0ae-80f3-4318-9cdb-0eb942318d9f> ;
     schema:identifier "bdf7e6cc-968a-4fbc-bb43-8775a0668bb7"^^xsd:string ;
     schema:name "Neurologisch"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/b6d0f5e9-d27f-4cf6-bec1-4dc18ba99063> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/b6d0f5e9-d27f-4cf6-bec1-4dc18ba99063> .
 
-<http://example.org/ServiceDept/be523b4a-0930-43ba-a262-205a6cce1f34> a schema:Department ;
+<http://example.org/ServiceDepartment/be523b4a-0930-43ba-a262-205a6cce1f34> a schema:Department ;
     schema:address <http://example.org/Address/7393537e-564e-4143-badd-7ed753efc423> ;
     schema:contactPoint <http://example.org/ContactPoint/01142d2a-1370-407a-be64-f4d9c375dc33> ;
     schema:identifier "be523b4a-0930-43ba-a262-205a6cce1f34"^^xsd:string ;
     schema:name "Psychiaric"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
 
-<http://example.org/ServiceDept/be6c9799-8cb9-4df7-b3de-63d37cb6d30f> a schema:Department ;
+<http://example.org/ServiceDepartment/be6c9799-8cb9-4df7-b3de-63d37cb6d30f> a schema:Department ;
     schema:address <http://example.org/Address/4ac2478d-583d-4735-b1fd-a8f8bd96d930> ;
     schema:contactPoint <http://example.org/ContactPoint/61fabdf2-6df7-419d-a580-79bb1dfbd1dc> ;
     schema:identifier "be6c9799-8cb9-4df7-b3de-63d37cb6d30f"^^xsd:string ;
     schema:name "Endocrijns"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/26715557-497c-45c7-94b5-4dc8420881ad> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/26715557-497c-45c7-94b5-4dc8420881ad> .
 
-<http://example.org/ServiceDept/c04a4723-50e0-48cd-9e14-c54d5b7151b2> a schema:Department ;
+<http://example.org/ServiceDepartment/c04a4723-50e0-48cd-9e14-c54d5b7151b2> a schema:Department ;
     schema:address <http://example.org/Address/2111a31a-1a08-4a1b-b36b-b198f20c6d71> ;
     schema:contactPoint <http://example.org/ContactPoint/28d4e6c3-2f56-433b-843d-8ae28b3b654b> ;
     schema:identifier "c04a4723-50e0-48cd-9e14-c54d5b7151b2"^^xsd:string ;
     schema:name "Geriaatriline"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/2a076937-facb-4ed6-bacd-c0df5716d803> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/2a076937-facb-4ed6-bacd-c0df5716d803> .
 
-<http://example.org/ServiceDept/c11f295a-946c-4b80-b423-2b03a30beeed> a schema:Department ;
+<http://example.org/ServiceDepartment/c11f295a-946c-4b80-b423-2b03a30beeed> a schema:Department ;
     schema:address <http://example.org/Address/5bee1027-f785-43db-96d9-fa6f9905677a> ;
     schema:contactPoint <http://example.org/ContactPoint/e9d28772-a57b-4619-913a-5425ce24a1ce> ;
     schema:identifier "c11f295a-946c-4b80-b423-2b03a30beeed"^^xsd:string ;
     schema:name "Optoemtric"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/5ff2c470-00fd-489b-b0ec-4222934a629f> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/5ff2c470-00fd-489b-b0ec-4222934a629f> .
 
-<http://example.org/ServiceDept/c54a6902-22f3-49b6-8662-5c560c544905> a schema:Department ;
+<http://example.org/ServiceDepartment/c54a6902-22f3-49b6-8662-5c560c544905> a schema:Department ;
     schema:address <http://example.org/Address/0039a34b-9878-4fbf-af59-3b19d1ea73df> ;
     schema:contactPoint <http://example.org/ContactPoint/aeed017c-3ba8-4712-9c50-9a4fd6165c9c> ;
     schema:identifier "c54a6902-22f3-49b6-8662-5c560c544905"^^xsd:string ;
     schema:name "Pumonary"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> .
 
-<http://example.org/ServiceDept/c608a095-a4b4-49d4-b6b9-8a361ce51943> a schema:Department ;
+<http://example.org/ServiceDepartment/c608a095-a4b4-49d4-b6b9-8a361ce51943> a schema:Department ;
     schema:address <http://example.org/Address/d13a42c6-00d3-4e23-aa76-758f7d83e3bf> ;
     schema:contactPoint <http://example.org/ContactPoint/b40171a5-9991-4df7-9c30-0d5e52e869bb> ;
     schema:identifier "c608a095-a4b4-49d4-b6b9-8a361ce51943"^^xsd:string ;
     schema:name "Dieedi toitumine"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/5ff2c470-00fd-489b-b0ec-4222934a629f> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/5ff2c470-00fd-489b-b0ec-4222934a629f> .
 
-<http://example.org/ServiceDept/c624e443-1891-4fb7-9bf7-b3ad3e1d2724> a schema:Department ;
+<http://example.org/ServiceDepartment/c624e443-1891-4fb7-9bf7-b3ad3e1d2724> a schema:Department ;
     schema:address <http://example.org/Address/8089227c-a3d5-4a8c-847d-952e059e62cf> ;
     schema:contactPoint <http://example.org/ContactPoint/588da965-e0d5-415b-a57a-f891d7229497> ;
     schema:identifier "c624e443-1891-4fb7-9bf7-b3ad3e1d2724"^^xsd:string ;
     schema:name "Radiograafia"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/5ff2c470-00fd-489b-b0ec-4222934a629f> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/5ff2c470-00fd-489b-b0ec-4222934a629f> .
 
-<http://example.org/ServiceDept/c69f798c-27c8-4fad-8965-6abcbd20d5fd> a schema:Department ;
+<http://example.org/ServiceDepartment/c69f798c-27c8-4fad-8965-6abcbd20d5fd> a schema:Department ;
     schema:address <http://example.org/Address/cd602c58-ba40-4998-9110-14aa50e5471b> ;
     schema:contactPoint <http://example.org/ContactPoint/60bafaaf-af0c-4370-961b-83b3d308d41f> ;
     schema:identifier "c69f798c-27c8-4fad-8965-6abcbd20d5fd"^^xsd:string ;
     schema:name "Infectious"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
 
-<http://example.org/ServiceDept/c6aac267-c57a-4488-b71f-2b3da1dbe128> a schema:Department ;
+<http://example.org/ServiceDepartment/c6aac267-c57a-4488-b71f-2b3da1dbe128> a schema:Department ;
     schema:address <http://example.org/Address/7e30a5ee-22e9-428a-8432-8f3b77fb4687> ;
     schema:contactPoint <http://example.org/ContactPoint/fa5fbe1c-98a5-4bb9-ad04-608453d49578> ;
     schema:identifier "c6aac267-c57a-4488-b71f-2b3da1dbe128"^^xsd:string ;
     schema:name "Tandheelkunde"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
 
-<http://example.org/ServiceDept/cc3b1c27-7fd9-4e51-9121-2c9ffd7b3d79> a schema:Department ;
+<http://example.org/ServiceDepartment/cc3b1c27-7fd9-4e51-9121-2c9ffd7b3d79> a schema:Department ;
     schema:address <http://example.org/Address/c7d49a71-618a-4dcb-9cf4-4842e0487b0b> ;
     schema:contactPoint <http://example.org/ContactPoint/3a4885e6-ffa9-4c89-910f-f3f978b06c12> ;
     schema:identifier "cc3b1c27-7fd9-4e51-9121-2c9ffd7b3d79"^^xsd:string ;
     schema:name "Laboratory Science"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/4f926cff-81a9-494f-92e5-713031262cce> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/4f926cff-81a9-494f-92e5-713031262cce> .
 
-<http://example.org/ServiceDept/cd5308f9-fea7-486a-9f00-bd5a2fcc5df0> a schema:Department ;
+<http://example.org/ServiceDepartment/cd5308f9-fea7-486a-9f00-bd5a2fcc5df0> a schema:Department ;
     schema:address <http://example.org/Address/22b3d215-2531-4e92-946e-55f6032d6a75> ;
     schema:contactPoint <http://example.org/ContactPoint/9222972a-190d-4bfe-b939-37105fc85181> ;
     schema:identifier "cd5308f9-fea7-486a-9f00-bd5a2fcc5df0"^^xsd:string ;
     schema:name "Spraakpathologie"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> .
 
-<http://example.org/ServiceDept/d58b6dc6-fc3e-4b8b-94da-c6cb54679fb5> a schema:Department ;
+<http://example.org/ServiceDepartment/d58b6dc6-fc3e-4b8b-94da-c6cb54679fb5> a schema:Department ;
     schema:address <http://example.org/Address/6ac1b035-ff98-43ae-96c2-287390a934c8> ;
     schema:contactPoint <http://example.org/ContactPoint/b367c79a-f628-47e3-b327-682797846dd1> ;
     schema:identifier "d58b6dc6-fc3e-4b8b-94da-c6cb54679fb5"^^xsd:string ;
     schema:name "Pediartic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/894218bd-4f85-4d0f-92c6-5c427d263d9c> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/894218bd-4f85-4d0f-92c6-5c427d263d9c> .
 
-<http://example.org/ServiceDept/d803df0a-b84f-4620-a9a0-229281c9535b> a schema:Department ;
+<http://example.org/ServiceDepartment/d803df0a-b84f-4620-a9a0-229281c9535b> a schema:Department ;
     schema:address <http://example.org/Address/f3e8f369-bb51-485e-a72e-1b9b3ef3517e> ;
     schema:contactPoint <http://example.org/ContactPoint/ef720792-afb4-4563-b871-b5961f7a7b96> ;
     schema:identifier "d803df0a-b84f-4620-a9a0-229281c9535b"^^xsd:string ;
     schema:name "Renal"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a0a0418b-465c-49cf-897c-d7e33fc22137> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a0a0418b-465c-49cf-897c-d7e33fc22137> .
 
-<http://example.org/ServiceDept/db6510ab-9883-4701-a614-3d1e17e238c4> a schema:Department ;
+<http://example.org/ServiceDepartment/db6510ab-9883-4701-a614-3d1e17e238c4> a schema:Department ;
     schema:address <http://example.org/Address/9cb620d7-b5d5-4452-a87b-83e0cb11f6f9> ;
     schema:contactPoint <http://example.org/ContactPoint/5cfd8caa-4411-47f4-8fcd-f8763a6aef45> ;
     schema:identifier "db6510ab-9883-4701-a614-3d1e17e238c4"^^xsd:string ;
     schema:name "Musculoskeletaal"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/9a3318c8-478c-422e-8f51-952d6d41a3d6> .
 
-<http://example.org/ServiceDept/dc440a5d-a608-48c8-8487-2d3e94a6814e> a schema:Department ;
+<http://example.org/ServiceDepartment/dc440a5d-a608-48c8-8487-2d3e94a6814e> a schema:Department ;
     schema:address <http://example.org/Address/1ba17140-036e-4ff6-996b-79432de3bd33> ;
     schema:contactPoint <http://example.org/ContactPoint/d66ef928-b13f-45be-9697-c721c41524d7> ;
     schema:identifier "dc440a5d-a608-48c8-8487-2d3e94a6814e"^^xsd:string ;
     schema:name "Gehetic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> .
 
-<http://example.org/ServiceDept/e0d58d0d-e8b1-4d0b-a127-fed6a9221b22> a schema:Department ;
+<http://example.org/ServiceDepartment/e0d58d0d-e8b1-4d0b-a127-fed6a9221b22> a schema:Department ;
     schema:address <http://example.org/Address/d3c95480-9492-4177-a3c7-8c87409015e5> ;
     schema:contactPoint <http://example.org/ContactPoint/6bc5a4c1-8389-4a25-89b1-386ac6ed194f> ;
     schema:identifier "e0d58d0d-e8b1-4d0b-a127-fed6a9221b22"^^xsd:string ;
     schema:name "Genetic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/2a076937-facb-4ed6-bacd-c0df5716d803> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/2a076937-facb-4ed6-bacd-c0df5716d803> .
 
-<http://example.org/ServiceDept/e2118b50-a515-45d7-810c-fb364b5addb5> a schema:Department ;
+<http://example.org/ServiceDepartment/e2118b50-a515-45d7-810c-fb364b5addb5> a schema:Department ;
     schema:address <http://example.org/Address/3a0ade22-ae43-4151-a757-29c7000dc189> ;
     schema:contactPoint <http://example.org/ContactPoint/ff4ebda8-cb76-4e01-9aed-2ba01fed75e0> ;
     schema:identifier "e2118b50-a515-45d7-810c-fb364b5addb5"^^xsd:string ;
     schema:name "Pediasric"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/5ff2c470-00fd-489b-b0ec-4222934a629f> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/5ff2c470-00fd-489b-b0ec-4222934a629f> .
 
-<http://example.org/ServiceDept/e685af76-43e1-4ba0-9d77-0c98215c888c> a schema:Department ;
+<http://example.org/ServiceDepartment/e685af76-43e1-4ba0-9d77-0c98215c888c> a schema:Department ;
     schema:address <http://example.org/Address/4df258c3-387f-4ac6-a100-69d6584249f8> ;
     schema:contactPoint <http://example.org/ContactPoint/55e2b325-c6e5-4697-b755-86b1741d44f4> ;
     schema:identifier "e685af76-43e1-4ba0-9d77-0c98215c888c"^^xsd:string ;
     schema:name "Plastic Surgery"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> .
 
-<http://example.org/ServiceDept/e7258fb6-6a70-44ef-bc77-f26a09800e06> a schema:Department ;
+<http://example.org/ServiceDepartment/e7258fb6-6a70-44ef-bc77-f26a09800e06> a schema:Department ;
     schema:address <http://example.org/Address/1f3bc716-91d4-4fad-8810-b5549b4f7c79> ;
     schema:contactPoint <http://example.org/ContactPoint/983fa082-c8ea-4c95-bb37-e9965b979c8e> ;
     schema:identifier "e7258fb6-6a70-44ef-bc77-f26a09800e06"^^xsd:string ;
     schema:name "Pediatqic"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> .
 
-<http://example.org/ServiceDept/ef01c2ce-2b43-4d03-bc59-aaa94fe0ed95> a schema:Department ;
+<http://example.org/ServiceDepartment/ef01c2ce-2b43-4d03-bc59-aaa94fe0ed95> a schema:Department ;
     schema:address <http://example.org/Address/592f8b46-bf55-4c9d-aa03-1877a2f0b85e> ;
     schema:contactPoint <http://example.org/ContactPoint/d673e504-fd8e-494e-8652-96126e6c67b5> ;
     schema:identifier "ef01c2ce-2b43-4d03-bc59-aaa94fe0ed95"^^xsd:string ;
     schema:name "Optometrisch"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
 
-<http://example.org/ServiceDept/f5e8bc35-6d47-41d5-a3b1-4dbab4760802> a schema:Department ;
+<http://example.org/ServiceDepartment/f5e8bc35-6d47-41d5-a3b1-4dbab4760802> a schema:Department ;
     schema:address <http://example.org/Address/67cafd72-e84f-4f7e-9abe-f6016899454c> ;
     schema:contactPoint <http://example.org/ContactPoint/3806f4a5-7417-4807-9933-16fd6568d6f4> ;
     schema:identifier "f5e8bc35-6d47-41d5-a3b1-4dbab4760802"^^xsd:string ;
     schema:name "Radiografie"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> .
 
-<http://example.org/ServiceDept/f844e7a8-23dd-40b8-8132-02b77be3fc10> a schema:Department ;
+<http://example.org/ServiceDepartment/f844e7a8-23dd-40b8-8132-02b77be3fc10> a schema:Department ;
     schema:address <http://example.org/Address/ad0fe5c8-fa4b-4a00-b6c1-38c6c1ba3853> ;
     schema:contactPoint <http://example.org/ContactPoint/91ddd728-f50a-4759-becf-7d862cdcbed7> ;
     schema:identifier "f844e7a8-23dd-40b8-8132-02b77be3fc10"^^xsd:string ;
     schema:name "Cardiovasculair"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> .
 
-<http://example.org/ServiceDept/f84a6267-efc4-486b-9968-51a6be590650> a schema:Department ;
+<http://example.org/ServiceDepartment/f84a6267-efc4-486b-9968-51a6be590650> a schema:Department ;
     schema:address <http://example.org/Address/cfc97826-303f-475a-819d-1b3d32abc80c> ;
     schema:contactPoint <http://example.org/ContactPoint/117337ef-3c10-457e-b9a0-6d195253ce77> ;
     schema:identifier "f84a6267-efc4-486b-9968-51a6be590650"^^xsd:string ;
     schema:name "Pulmonayy"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/26715557-497c-45c7-94b5-4dc8420881ad> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/26715557-497c-45c7-94b5-4dc8420881ad> .
 
-<http://example.org/ServiceDept/fa30279b-a5a9-4491-8d0b-533a697c7865> a schema:Department ;
+<http://example.org/ServiceDepartment/fa30279b-a5a9-4491-8d0b-533a697c7865> a schema:Department ;
     schema:address <http://example.org/Address/66c9e773-304e-486f-8b52-12bbfe3d5ff2> ;
     schema:contactPoint <http://example.org/ContactPoint/1f584547-d9d9-4d22-9eb1-9664916942dc> ;
     schema:identifier "fa30279b-a5a9-4491-8d0b-533a697c7865"^^xsd:string ;
     schema:name "Pedaitric"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/0cb77bc7-68d0-4a04-a550-34d32533f83a> .
 
-<http://example.org/ServiceDept/fa461185-4dde-46a1-bff2-5a38c5db035a> a schema:Department ;
+<http://example.org/ServiceDepartment/fa461185-4dde-46a1-bff2-5a38c5db035a> a schema:Department ;
     schema:address <http://example.org/Address/a0304779-b079-4b0a-92e0-8f40d04aa386> ;
     schema:contactPoint <http://example.org/ContactPoint/b20340aa-3e53-4625-853e-b18437a89ec1> ;
     schema:identifier "fa461185-4dde-46a1-bff2-5a38c5db035a"^^xsd:string ;
     schema:name "Laboratoriumwetenschap"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/b6d0f5e9-d27f-4cf6-bec1-4dc18ba99063> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/b6d0f5e9-d27f-4cf6-bec1-4dc18ba99063> .
 
-<http://example.org/ServiceDept/fddd4827-46c0-4cf1-b17e-7a7caf3a4e2f> a schema:Department ;
+<http://example.org/ServiceDepartment/fddd4827-46c0-4cf1-b17e-7a7caf3a4e2f> a schema:Department ;
     schema:address <http://example.org/Address/ac6f915d-a1c7-4c13-9e6e-2b3c97320d9b> ;
     schema:contactPoint <http://example.org/ContactPoint/bd35b710-472c-4382-9bd6-f89fb73f88c4> ;
     schema:identifier "fddd4827-46c0-4cf1-b17e-7a7caf3a4e2f"^^xsd:string ;
     schema:name "Neurologisch"^^xsd:string ;
-    schema:parentOrganization <http://example.org/HealthcareOrg/a6bea3ff-cf9a-4ebd-9860-3d383d0c06f7> .
+    schema:parentOrganization <http://example.org/HealthcareOrganization/a6bea3ff-cf9a-4ebd-9860-3d383d0c06f7> .
 
 <http://example.org/Address/0039a34b-9878-4fbf-af59-3b19d1ea73df> a schema:PostalAddress ;
     schema:addressCountry "NL"^^xsd:string ;
@@ -7057,93 +7057,93 @@
     schema:identifier "ff7635ce-2880-42f4-8935-ccd97c394a38"^^xsd:string ;
     schema:telephone "+31(0)049 493858"^^xsd:string .
 
-<http://example.org/HealthcareOrg/894218bd-4f85-4d0f-92c6-5c427d263d9c> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/07e5efc2-f7a4-4ca5-a752-912160ba788a> ;
-    schema:contactPoint <http://example.org/ContactPoint/bea4aa80-6cb9-4337-b4fc-f9473fbf6b16> ;
-    schema:identifier "894218bd-4f85-4d0f-92c6-5c427d263d9c"^^xsd:string ;
-    schema:name "Allen Ltd Zorg"^^xsd:string .
-
-<http://example.org/HealthcareOrg/a6bea3ff-cf9a-4ebd-9860-3d383d0c06f7> a schema:MedicalOrganization ;
+<http://example.org/HealthcareOrganization/a6bea3ff-cf9a-4ebd-9860-3d383d0c06f7> a schema:MedicalOrganization ;
     schema:address <http://example.org/Address/d0e35e86-8bac-4ac4-a7da-481517197d71> ;
     schema:contactPoint <http://example.org/ContactPoint/3bf0cc24-b54b-4901-a26d-2c158074594f> ;
     schema:identifier "a6bea3ff-cf9a-4ebd-9860-3d383d0c06f7"^^xsd:string ;
     schema:name "KT Gesundheitszentrum"^^xsd:string .
 
-<http://example.org/HealthcareOrg/438326ba-199a-4a8c-9ff8-3999a0c8086c> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/d642ebdb-1ebe-4751-9728-4b55a203a49d> ;
-    schema:contactPoint <http://example.org/ContactPoint/e33d0458-e826-435a-9c00-1d3e04c08fde> ;
-    schema:identifier "438326ba-199a-4a8c-9ff8-3999a0c8086c"^^xsd:string ;
-    schema:name "Novak PLC Tervisekeskus"^^xsd:string .
+<http://example.org/HealthcareOrganization/894218bd-4f85-4d0f-92c6-5c427d263d9c> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/07e5efc2-f7a4-4ca5-a752-912160ba788a> ;
+    schema:contactPoint <http://example.org/ContactPoint/bea4aa80-6cb9-4337-b4fc-f9473fbf6b16> ;
+    schema:identifier "894218bd-4f85-4d0f-92c6-5c427d263d9c"^^xsd:string ;
+    schema:name "Allen Ltd Zorg"^^xsd:string .
 
-<http://example.org/HealthcareOrg/4f926cff-81a9-494f-92e5-713031262cce> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/2dc8afae-f32f-44ee-9de8-07e0d19180c8> ;
-    schema:contactPoint <http://example.org/ContactPoint/bf8fd4dd-cc81-4e30-917d-09221772d6da> ;
-    schema:identifier "4f926cff-81a9-494f-92e5-713031262cce"^^xsd:string ;
-    schema:name "Pexrez-Becker Gesundheitszentrum"^^xsd:string .
-
-<http://example.org/HealthcareOrg/5ff2c470-00fd-489b-b0ec-4222934a629f> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/3d9811d6-d297-4d1d-9e99-eaff30a4ab7c> ;
-    schema:contactPoint <http://example.org/ContactPoint/84bab7ee-d119-488f-9dc0-c5aa20dc754d> ;
-    schema:identifier "5ff2c470-00fd-489b-b0ec-4222934a629f"^^xsd:string ;
-    schema:name "Mcneil, Gonzalez and Howrd Tervisekeskus"^^xsd:string .
-
-<http://example.org/HealthcareOrg/b6d0f5e9-d27f-4cf6-bec1-4dc18ba99063> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/525c1ffa-6668-405a-81cc-f5295f5fa6ed> ;
-    schema:contactPoint <http://example.org/ContactPoint/6b6ce4a7-e8a9-4079-a3fe-9be479be323d> ;
-    schema:identifier "b6d0f5e9-d27f-4cf6-bec1-4dc18ba99063"^^xsd:string ;
-    schema:name "JJK Zorg"^^xsd:string .
-
-<http://example.org/HealthcareOrg/a0a0418b-465c-49cf-897c-d7e33fc22137> a schema:MedicalOrganization ;
+<http://example.org/HealthcareOrganization/a0a0418b-465c-49cf-897c-d7e33fc22137> a schema:MedicalOrganization ;
     schema:address <http://example.org/Address/eacb2980-7176-47fa-8edd-ff51cadb5c97> ;
     schema:contactPoint <http://example.org/ContactPoint/24d9ead1-ea4b-4864-b17e-f4e2f6bbb5f3> ;
     schema:identifier "a0a0418b-465c-49cf-897c-d7e33fc22137"^^xsd:string ;
     schema:name "RMW Gesundheitszentrum"^^xsd:string .
 
-<http://example.org/HealthcareOrg/26715557-497c-45c7-94b5-4dc8420881ad> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/a470c11d-2555-4052-93e0-538e67d2b601> ;
-    schema:contactPoint <http://example.org/ContactPoint/c8e11379-8fc7-418e-ae36-e41ef4608f9e> ;
-    schema:identifier "26715557-497c-45c7-94b5-4dc8420881ad"^^xsd:string ;
-    schema:name "Ibarra PLC Zorg"^^xsd:string .
-
-<http://example.org/HealthcareOrg/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/d2200252-3c43-4ef0-be6c-0ec9f60daba1> ;
-    schema:contactPoint <http://example.org/ContactPoint/fb294f41-5ac2-4b5e-92c1-2ec971864b34> ;
-    schema:identifier "afbe1806-36cc-4d7d-afa3-a05f2dfe4f64"^^xsd:string ;
-    schema:name "FS Zorg"^^xsd:string .
-
-<http://example.org/HealthcareOrg/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/a67b3f8b-d1f5-4fbe-acfc-ec8d418f0690> ;
-    schema:contactPoint <http://example.org/ContactPoint/c548a856-3ebf-4bf1-aa8d-ea565fb0cfa6> ;
-    schema:identifier "ef8fc9f0-d0fa-4332-bb2b-08e737c469b7"^^xsd:string ;
-    schema:name "PLLC Zorg"^^xsd:string .
-
-<http://example.org/HealthcareOrg/0cb77bc7-68d0-4a04-a550-34d32533f83a> a schema:MedicalOrganization ;
+<http://example.org/HealthcareOrganization/0cb77bc7-68d0-4a04-a550-34d32533f83a> a schema:MedicalOrganization ;
     schema:address <http://example.org/Address/9f51357b-6f7e-4cdf-b357-793725ed94d9> ;
     schema:contactPoint <http://example.org/ContactPoint/521e5b77-e1fa-45c8-a631-00e67118f56b> ;
     schema:identifier "0cb77bc7-68d0-4a04-a550-34d32533f83a"^^xsd:string ;
     schema:name "PMB Gesundheitszentrum"^^xsd:string .
 
-<http://example.org/HealthcareOrg/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> a schema:MedicalOrganization ;
+<http://example.org/HealthcareOrganization/4f926cff-81a9-494f-92e5-713031262cce> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/2dc8afae-f32f-44ee-9de8-07e0d19180c8> ;
+    schema:contactPoint <http://example.org/ContactPoint/bf8fd4dd-cc81-4e30-917d-09221772d6da> ;
+    schema:identifier "4f926cff-81a9-494f-92e5-713031262cce"^^xsd:string ;
+    schema:name "Pexrez-Becker Gesundheitszentrum"^^xsd:string .
+
+<http://example.org/HealthcareOrganization/ef8fc9f0-d0fa-4332-bb2b-08e737c469b7> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/a67b3f8b-d1f5-4fbe-acfc-ec8d418f0690> ;
+    schema:contactPoint <http://example.org/ContactPoint/c548a856-3ebf-4bf1-aa8d-ea565fb0cfa6> ;
+    schema:identifier "ef8fc9f0-d0fa-4332-bb2b-08e737c469b7"^^xsd:string ;
+    schema:name "PLLC Zorg"^^xsd:string .
+
+<http://example.org/HealthcareOrganization/b5aeb413-6af4-49fd-b79f-e7cec9b1c886> a schema:MedicalOrganization ;
     schema:address <http://example.org/Address/5568f4e2-eabe-4cdc-be7f-c98025019bf6> ;
     schema:contactPoint <http://example.org/ContactPoint/ec4a2390-02d4-45cf-b384-fa3a8265bf73> ;
     schema:identifier "b5aeb413-6af4-49fd-b79f-e7cec9b1c886"^^xsd:string ;
     schema:name "DGS Zorg"^^xsd:string .
 
-<http://example.org/HealthcareOrg/2a076937-facb-4ed6-bacd-c0df5716d803> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/71652e5d-2ceb-4e65-9d40-750d4caa9c1e> ;
-    schema:contactPoint <http://example.org/ContactPoint/5d4adbc2-082f-40af-87ba-74807c14d07f> ;
-    schema:identifier "2a076937-facb-4ed6-bacd-c0df5716d803"^^xsd:string ;
-    schema:name "BLM Tervisekeskus"^^xsd:string .
+<http://example.org/HealthcareOrganization/9a3318c8-478c-422e-8f51-952d6d41a3d6> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/29fe285b-600d-4b7e-9d9f-a4f0b743c011> ;
+    schema:contactPoint <http://example.org/ContactPoint/9601b651-b543-444f-8138-dbd77ba67ece> ;
+    schema:identifier "9a3318c8-478c-422e-8f51-952d6d41a3d6"^^xsd:string ;
+    schema:name "BLLC Zorg"^^xsd:string .
 
-<http://example.org/HealthcareOrg/383b04c2-1f5f-4d1e-91d2-996da454068e> a schema:MedicalOrganization ;
+<http://example.org/HealthcareOrganization/26715557-497c-45c7-94b5-4dc8420881ad> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/a470c11d-2555-4052-93e0-538e67d2b601> ;
+    schema:contactPoint <http://example.org/ContactPoint/c8e11379-8fc7-418e-ae36-e41ef4608f9e> ;
+    schema:identifier "26715557-497c-45c7-94b5-4dc8420881ad"^^xsd:string ;
+    schema:name "Ibarra PLC Zorg"^^xsd:string .
+
+<http://example.org/HealthcareOrganization/383b04c2-1f5f-4d1e-91d2-996da454068e> a schema:MedicalOrganization ;
     schema:address <http://example.org/Address/a4b65492-556e-4701-af1d-b171e242b9f8> ;
     schema:contactPoint <http://example.org/ContactPoint/598bb6c4-ad37-4d61-8c11-08cfe41ca37d> ;
     schema:identifier "383b04c2-1f5f-4d1e-91d2-996da454068e"^^xsd:string ;
     schema:name "Griffin, Ross and Saunxers Zorg"^^xsd:string .
 
-<http://example.org/HealthcareOrg/9a3318c8-478c-422e-8f51-952d6d41a3d6> a schema:MedicalOrganization ;
-    schema:address <http://example.org/Address/29fe285b-600d-4b7e-9d9f-a4f0b743c011> ;
-    schema:contactPoint <http://example.org/ContactPoint/9601b651-b543-444f-8138-dbd77ba67ece> ;
-    schema:identifier "9a3318c8-478c-422e-8f51-952d6d41a3d6"^^xsd:string ;
-    schema:name "BLLC Zorg"^^xsd:string .
+<http://example.org/HealthcareOrganization/5ff2c470-00fd-489b-b0ec-4222934a629f> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/3d9811d6-d297-4d1d-9e99-eaff30a4ab7c> ;
+    schema:contactPoint <http://example.org/ContactPoint/84bab7ee-d119-488f-9dc0-c5aa20dc754d> ;
+    schema:identifier "5ff2c470-00fd-489b-b0ec-4222934a629f"^^xsd:string ;
+    schema:name "Mcneil, Gonzalez and Howrd Tervisekeskus"^^xsd:string .
+
+<http://example.org/HealthcareOrganization/2a076937-facb-4ed6-bacd-c0df5716d803> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/71652e5d-2ceb-4e65-9d40-750d4caa9c1e> ;
+    schema:contactPoint <http://example.org/ContactPoint/5d4adbc2-082f-40af-87ba-74807c14d07f> ;
+    schema:identifier "2a076937-facb-4ed6-bacd-c0df5716d803"^^xsd:string ;
+    schema:name "BLM Tervisekeskus"^^xsd:string .
+
+<http://example.org/HealthcareOrganization/438326ba-199a-4a8c-9ff8-3999a0c8086c> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/d642ebdb-1ebe-4751-9728-4b55a203a49d> ;
+    schema:contactPoint <http://example.org/ContactPoint/e33d0458-e826-435a-9c00-1d3e04c08fde> ;
+    schema:identifier "438326ba-199a-4a8c-9ff8-3999a0c8086c"^^xsd:string ;
+    schema:name "Novak PLC Tervisekeskus"^^xsd:string .
+
+<http://example.org/HealthcareOrganization/afbe1806-36cc-4d7d-afa3-a05f2dfe4f64> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/d2200252-3c43-4ef0-be6c-0ec9f60daba1> ;
+    schema:contactPoint <http://example.org/ContactPoint/fb294f41-5ac2-4b5e-92c1-2ec971864b34> ;
+    schema:identifier "afbe1806-36cc-4d7d-afa3-a05f2dfe4f64"^^xsd:string ;
+    schema:name "FS Zorg"^^xsd:string .
+
+<http://example.org/HealthcareOrganization/b6d0f5e9-d27f-4cf6-bec1-4dc18ba99063> a schema:MedicalOrganization ;
+    schema:address <http://example.org/Address/525c1ffa-6668-405a-81cc-f5295f5fa6ed> ;
+    schema:contactPoint <http://example.org/ContactPoint/6b6ce4a7-e8a9-4079-a3fe-9be479be323d> ;
+    schema:identifier "b6d0f5e9-d27f-4cf6-bec1-4dc18ba99063"^^xsd:string ;
+    schema:name "JJK Zorg"^^xsd:string .
 

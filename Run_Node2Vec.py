@@ -11,7 +11,7 @@ noise_levels = ['low', 'medium', 'high']
 g1 = rdflib.Graph()
 
 master_graph = rdflib.Graph()
-g1.parse("data/healthcare_graph_original_v2.ttl")
+g1.parse("data/healthcare_graph_Main.ttl")
 #g2.parse("data/LLM_data/combined.ttl")
 
 master_graph.parse("data/master_data.ttl")
@@ -39,7 +39,7 @@ for noise_level in noise_levels:
             alpha=alpha,
             text_dim=384,
             threshold=0.5,
-            top_k=2,
+            top_k=5,
             filter_literals=True,
         )
         print(f"Found {len(matches)} filtered matches.")
