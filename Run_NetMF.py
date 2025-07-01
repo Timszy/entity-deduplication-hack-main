@@ -23,9 +23,8 @@ for noise_level in noise_levels:
     start_time = time.time()
     g2 = rdflib.Graph()
     g2.parse(f"data/healthcare_graph_replaced_{noise_level}.ttl")
-    # --- Graph embeddings (TransE)
-    print("Computing graph embeddings using TransE...")
-    # --- Graph embeddings (Node2Vec)
+    \
+    # --- Graph embeddings (NetMF)
     print("Computing graph embeddings...")
     combined_graph = phkg_graph + g2
     graph_embeddings = get_graph_embeddings_NetMF(combined_graph, dimensions=384)
