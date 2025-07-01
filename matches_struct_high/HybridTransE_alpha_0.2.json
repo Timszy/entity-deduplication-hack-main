@@ -1,0 +1,1498 @@
+[
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/3b6f2ad2-6ec1-47b0-99bb-f03db6d06615",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Appointments"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Jordan.Geriatric@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "0857 010951"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(0028)-499243"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/32881a6b-67cc-475b-9276-5235aba046a4",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Jordan.Geriatric@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "0857 010951"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(0028)-499243"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.621045708656311",
+    "status": "pass",
+    "avg_literal_similarity": "0.8533333333333333",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/8e13c327-b461-4c8f-ae16-25f34b4444b5",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Parker.Pathology@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "001-383-914-1966"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "890.346.0313x4830"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/cb91f901-221f-4363-be14-654f0a33dea1",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Parker.Pathology@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "001-383-914-1966"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "890.346.0313x4830"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6504461169242859",
+    "status": "pass",
+    "avg_literal_similarity": "0.8857142857142858",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/a1fa46f3-4668-4cdd-b5f9-8f4110a15299",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Peck.Radiography@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+31503 374495"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+31(0)327-020290"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/2d48c9de-3a9c-423e-939b-4369cbf35db0",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Peck.Radiography@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+31503 374495"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+31(0)327-020290"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6508876085281372",
+    "status": "pass",
+    "avg_literal_similarity": "0.8857142857142858",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/745c759a-691f-4f9a-9895-89611d03e632",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Appointments"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Burch.Dermatology@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+31567 806730"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "073-0946836"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/90cd4748-443d-4250-ae31-9cb95ea421c9",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Burch.Dermatology@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+31567 806730"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "073-0946836"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6234007477760315",
+    "status": "pass",
+    "avg_literal_similarity": "0.8533333333333333",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/23254d81-2bdf-4727-9501-e917496dc27b",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "General Inquiries"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Parker@healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "412.937.9332x36599"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "4884559026"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/3d7778a9-9968-42f8-a39a-ee5b54d4c231",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Parker@healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "412.937.9332x36599"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "4884559026"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.650007963180542",
+    "status": "pass",
+    "avg_literal_similarity": "0.86",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/5536212a-58d7-46da-8f01-3f4e73961f8e",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Staff"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Robinson.Obstetric@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "304-969-8825x98634"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "566-904-3319x238"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/d6565565-3194-43f9-90f5-094f92ef3437",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Robinson.Obstetric@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "304-969-8825x98634"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "566-904-3319x238"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6167389750480652",
+    "status": "pass",
+    "avg_literal_similarity": "0.85",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/ef151673-a1df-4da7-9d44-c93e7799a8e2",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "General Inquiries"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Ibarra@healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "067 5375100"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+31194-264183"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/37ef344b-2a41-42c7-8775-27db7bc01827",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Ibarra@healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "067 5375100"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+31194-264183"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6347004771232605",
+    "status": "pass",
+    "avg_literal_similarity": "0.86",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/8eb9556d-7da2-4999-9436-93c6b76cfca2",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Staff"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "PerezBecker.Speech@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "767-730-9628"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+1-558-923-7359x01116"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/aa2c32d1-abf1-49ff-8a7c-d33acaffd51d",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "PerezBecker.Speech@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "767-730-9628"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+1-558-923-7359x01116"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6161065697669983",
+    "status": "pass",
+    "avg_literal_similarity": "0.85",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/ea6d5565-3810-4725-952a-4ff52da4d7f2",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Jordan.Laboratory@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+31(0)089-028744"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+31(0)27-0623981"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/95314152-13b5-4ad1-8c18-6e0fd2f52e1e",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Jordan.Laboratory@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+31(0)089-028744"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+31(0)27-0623981"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6286101341247559",
+    "status": "pass",
+    "avg_literal_similarity": "0.8857142857142858",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/f714f11a-c923-4c39-80e9-889de42d1ba0",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Appointments"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Berg.Gastroenterologic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+1-538-735-7371"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "301.775.3660"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/e5697a8d-22b0-4565-8047-2255e69da497",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Berg.Gastroenterologic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+1-538-735-7371"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "301.775.3660"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6925263404846191",
+    "status": "pass",
+    "avg_literal_similarity": "0.8533333333333333",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/b00fecf4-d53a-4c3a-83ff-0b3a5380531c",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Staff"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Parker.Obstetric@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "001-711-383-9028"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+1-315-449-0142x7441"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/7edf3086-2294-4c9d-880e-895c863e0012",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Parker.Obstetric@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "001-711-383-9028"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+1-315-449-0142x7441"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6012578010559082",
+    "status": "pass",
+    "avg_literal_similarity": "0.85",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/5073fc2b-c647-4e3c-8e19-967b8102ce40",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Staff"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Berg.Genetic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "001-886-612-6113"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "842-242-8523x70724"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/2097863b-26dd-400a-ab98-98d1a22ede14",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Berg.Genetic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "001-886-612-6113"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "842-242-8523x70724"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6394369602203369",
+    "status": "pass",
+    "avg_literal_similarity": "0.85",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/24fa9196-f801-4987-8008-cccf565e5ae7",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Staff"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Mcneil.Diet@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+1-527-660-1015"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "9156573359"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/52868bbd-67cc-4186-8391-6ed6f51c3f21",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Mcneil.Diet@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+1-527-660-1015"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "9156573359"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.631990909576416",
+    "status": "pass",
+    "avg_literal_similarity": "0.85",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/64a335b5-a973-439e-a2c9-b2627ed24723",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Jordan.Laboratory@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "057 4317829"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "0484-926819"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/0c202d55-3b6a-4c48-a53a-961e7f7175dc",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Jordan.Laboratory@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "057 4317829"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "0484-926819"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6239663362503052",
+    "status": "pass",
+    "avg_literal_similarity": "0.8857142857142858",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/5351c342-5b7c-48ed-b239-6f882516de06",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Ibarra.Optometric@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(007) 7131339"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(0145) 901789"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/96164d19-89be-4da8-8fc0-815b34dbff50",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Ibarra.Optometric@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(007) 7131339"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(0145) 901789"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6098941564559937",
+    "status": "pass",
+    "avg_literal_similarity": "0.8857142857142858",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/92738995-ca89-4d11-8646-356bc28611fd",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Staff"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Jordan.Gastroenterologic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+3178-3605561"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(0918)-558554"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/f150034d-f441-4e20-bfdc-bc2c52a76da2",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Jordan.Gastroenterologic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+3178-3605561"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(0918)-558554"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.625102162361145",
+    "status": "pass",
+    "avg_literal_similarity": "0.85",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/8dfc0cb0-dc97-4aec-8fac-816ce2d371cc",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Griffin.Respiratory@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "074-3532772"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(051) 3322487"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/3d9651e4-2a4c-450d-88f7-3f16cbcf4eb3",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Griffin.Respiratory@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "074-3532772"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(051) 3322487"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.608268141746521",
+    "status": "pass",
+    "avg_literal_similarity": "0.8857142857142858",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/5b93822b-cec8-44aa-a000-4c9f716f9ea7",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Staff"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Novak.Hematologic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "813-315-4293"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "001-755-982-6187"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/1a41464f-5135-48d6-ba06-23ac8ffa123e",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "nan"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Novak.Hematologic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "813-315-4293"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "001-755-982-6187"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6347899436950684",
+    "status": "pass",
+    "avg_literal_similarity": "0.85",
+    "duplication_type": "similar"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/48d46113-b50a-4a15-a0ff-f2cb6857548c",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Ubbena"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "8664 SC"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Mathijsstraat 61"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/b9ec105c-1f34-46eb-9938-d4cef0e8982e",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Ubbena"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "8664 SC"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6104260683059692",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/7d859725-c707-4ef9-86c3-744cc88e03b6",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Den Velde"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "5324 WR"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Jordyring 13"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/bae76e1b-9d2d-4912-930c-268f299fff61",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Den Velde"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "5324 WR"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6036906242370605",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/b366dcbc-abbf-4882-affa-0875e4a7c828",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Lunteren"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "6148 FA"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Timboulevard 130"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/17e443a8-6b2d-418f-9f5b-50baffa5fdfc",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Lunteren"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "6148 FA"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6177468299865723",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/ef7e85ec-a417-456f-a9ee-7f3d0ff030b8",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Maasvlakte Rotterdam"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "2121 YN"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Majaring 76"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/6a85ce5b-f8da-4b0f-b300-a9ef1f132276",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Maasvlakte Rotterdam"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "2121 YN"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6244869232177734",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/aace1c9a-1c59-4fa1-b543-be48696b7284",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Sandermouth"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "60040"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Galina Landing 107"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/311ac277-2901-4f2d-a4e3-f93938bd20e4",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Sandermouth"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "60040"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6036686897277832",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/636164d8-bb88-41b8-9be5-f8a138462e03",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Abramovfurt"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "49182"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Priit Freeway 68"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/86416469-7a9a-4825-ac23-6792db58668c",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Abramovfurt"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "49182"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6019024848937988",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ServiceDepartment/ed6fe79b-8c56-4b92-8f32-2470a2334974",
+          "predicates": [
+            {
+              "predicate": "schema:name",
+              "object": "Midwifery"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ServiceDepartment/3bca27de-8174-4872-9f41-5cd4e8972ef8",
+          "predicates": [
+            {
+              "predicate": "schema:name",
+              "object": "nan"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6100386381149292",
+    "status": "fail",
+    "avg_literal_similarity": "0.0",
+    "duplication_type": "conflict"
+  }
+]

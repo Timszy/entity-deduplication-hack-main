@@ -1,1 +1,9 @@
 Total runtime: 61.32 seconds with noise being high
+Run with model = DistMult and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 614.60 seconds with noise being low
+Run with model = DistMult and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 650.97 seconds with noise being high
+Run with model = NetMF and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 383.89 seconds with noise being low
+Run with model = NetMF and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 386.51 seconds with noise being high
+Run with model = Node2Vec and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 735.72 seconds with noise being low
+Run with model = Node2Vec and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 722.86 seconds with noise being high
+Run with model = TransE and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 628.62 seconds with noise being low
+Run with model = TransE and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 629.25 seconds with noise being high
