@@ -1,0 +1,685 @@
+label,left_name,right_name
+,Toxicologic,Hema
+,Gastroenterologic,Onc
+,Laboratory Science,Community Care Services
+,Public Health,Family Medicine
+,Plastic Surgery,Skin Care Center
+,Gynecologic,Elderly Care Services
+,Midwifery,Elderly Care Services
+,Laboratory Science,Dental Services
+,Dermatology,Anesth Dept
+,Neurologic,Lab
+,Otolaryngologic,Endo
+,Laboratory Science,Elderly Care Services
+,Obstetric,MSK
+,Speech Pathology,Speech Path
+,Public Health,Poison Control Center
+,Plastic Surgery,Digestive Health Center
+,Anesthesia,Medical Imaging
+,Gynecologic,Plastics
+,Gastroenterologic,Midwifery & Birth Center
+,Dentistry,ENT
+,Infectious,Surgical Services
+,Public Health,Dental
+,Gastroenterologic,Tox
+,Geriatric,PCP
+,Plastic Surgery,Foot & Ankle Center
+,Physiotherapy,Hormone & Metabolism Center
+,Gastroenterologic,Dental Services
+,Geriatric,Pulm
+,Respiratory Therapy,Anesthesiology Department
+,Genetic,Geri
+,Toxicologic,Endo
+,Midwifery,Kidney Care Center
+,Geriatric,Midwifery & Birth Center
+,Dentistry,Diet & Nutr
+,Community Health,Clinical Laboratory
+,Pulmonary,"Ear, Nose & Throat"
+,Geriatric,"Ear, Nose & Throat"
+,Primary Care,Digestive Health Center
+,Infectious,Onc
+,Pathology,Opt
+,Physiotherapy,Digestive Health Center
+,Otolaryngologic,Anesth Dept
+,Obstetric,Infection Control & Prevention
+,Diet Nutrition,Foot Care
+,Psychiatric,ENT
+,Laboratory Science,Clinical Laboratory
+,Toxicologic,Brain & Spine Center
+,Infectious,Uro
+,Public Health,"Ear, Nose & Throat"
+,Community Health,Dental
+,Musculoskeletal,Plastics
+,Plastic Surgery,Pulm
+,Dentistry,Dental Services
+,Rheumatologic,Medical Imaging
+,Dentistry,PCP
+,Primary Care,MSK
+,Rheumatologic,Medical Genetics Department
+,Pulmonary,Family Medicine
+,Emergency,Respiratory Care Services
+,Public Health,Respiratory Care Services
+,Neurologic,MSK
+,Pediatric,Arthritis & Rheumatism Center
+,Pathology,Hormone & Metabolism Center
+,Midwifery,Anesth Dept
+,Obstetric,Community Care Services
+,Surgical,Derm
+,Respiratory Therapy,Hormone & Metabolism Center
+,Dentistry,Dental
+,Urologic,Lung & Breathing Center
+,Emergency,Vision Care Center
+,Musculoskeletal,Dental Services
+,Toxicologic,Speech Path
+,Public Health,Uro
+,Toxicologic,Uro
+,Infectious,GI
+,Obstetric,Poison Control Center
+,Optometric,Psych
+,Neurologic,Heart Center
+,Dermatology,Digestive Health Center
+,Rheumatologic,Endo
+,Nursing,Surg
+,Plastic Surgery,Anesth Dept
+,Physiotherapy,Dental Services
+,Otolaryngologic,Endo
+,Surgical,Speech Path
+,Gynecologic,Opt
+,Pathology,Kidney Care Center
+,Cardiovascular,GYN
+,Musculoskeletal,Opt
+,Toxicologic,Diet & Nutr
+,Musculoskeletal,OB
+,Physiotherapy,GYN
+,Surgical,Dental Services
+,Toxicologic,Tox
+,Public Health,Nutritional Services
+,Anesthesia,"Ear, Nose & Throat"
+,Pulmonary,Skin Care Center
+,Anesthesia,Rad
+,Public Health,Midwifery & Birth Center
+,Gastroenterologic,Comm Health
+,Midwifery,PCP
+,Endocrine,Arthritis & Rheumatism Center
+,Pulmonary,Uro
+,Speech Pathology,Urology & Kidney Health
+,Gastroenterologic,GI
+,Anesthesia,Resp
+,Musculoskeletal,Rad
+,Surgical,Midwifery & Birth Center
+,Oncologic,Dental
+,Primary Care,Dental
+,Gastroenterologic,Community Care Services
+,Podiatric,Hormone & Metabolism Center
+,Endocrine,Plastics
+,Oncologic,Mental Health Services
+,Geriatric,Anesthesiology Department
+,Community Health,Path
+,Obstetric,Brain & Spine Center
+,Pulmonary,Surg
+,Endocrine,MSK
+,Nursing,"Ear, Nose & Throat"
+,Dermatology,GYN
+,Pathology,Dental Services
+,Otolaryngologic,Plastics
+,Laboratory Science,Blood Disorders Clinic
+,Psychiatric,Emergency Services
+,Genetic,Endo
+,Hematologic,Endo
+,Surgical,Dental
+,Podiatric,PT
+,Primary Care,Uro
+,Respiratory Therapy,GI
+,Pulmonary,Midwife Svc
+,Primary Care,Psych
+,Primary Care,GYN
+,Infectious,Surg
+,Dermatology,Arthritis & Rheumatism Center
+,Gastroenterologic,Foot & Ankle Center
+,Gynecologic,ENT
+,Gastroenterologic,Digestive Health Center
+,Emergency,Skin Care Center
+,Gastroenterologic,GYN
+,Surgical,Resp
+,Optometric,Community Care Services
+,Respiratory Therapy,Nurs
+,Plastic Surgery,Maternity Care
+,Dermatology,Resp
+,Midwifery,Comm Health
+,Cardiovascular,MSK
+,Pediatric,Rad
+,Anesthesia,Lab
+,Physiotherapy,ID
+,Community Health,Rheum
+,Otolaryngologic,PT
+,Anesthesia,Diagnostic Pathology
+,Surgical,Family Medicine
+,Respiratory Therapy,Derm
+,Optometric,PCP
+,Primary Care,Pulm
+,Podiatric,Resp
+,Radiography,ID
+,Gastroenterologic,Tox
+,Gynecologic,Brain & Spine Center
+,Dermatology,Geri
+,Plastic Surgery,Surg
+,Neurologic,OB
+,Surgical,Nurs
+,Obstetric,Tox
+,Geriatric,Maternity Care
+,Emergency,GYN
+,Pathology,GYN
+,Surgical,Plastics
+,Pathology,GYN
+,Anesthesia,Comm Health
+,Infectious,Midwifery & Birth Center
+,Diet Nutrition,Emergency Services
+,Obstetric,Speech Path
+,Endocrine,MSK
+,Speech Pathology,Endo
+,Pathology,Anesth Dept
+,Gastroenterologic,Rheum
+,Toxicologic,PT
+,Community Health,Foot & Ankle Center
+,Optometric,Diet & Nutr
+,Obstetric,Midwife Svc
+,Podiatric,Emergency Services
+,Endocrine,GI
+,Dentistry,Hormone & Metabolism Center
+,Rheumatologic,Anesthesiology Department
+,Surgical,Opt
+,Pulmonary,Gen Med
+,Midwifery,ENT
+,Obstetric,Surg
+,Genetic,MSK
+,Cardiovascular,MSK
+,Gynecologic,GI
+,Gynecologic,Endo
+,Diet Nutrition,Diet & Nutr
+,Radiography,Peds
+,Geriatric,Rad
+,Pulmonary,OB
+,Infectious,Digestive Health Center
+,Community Health,Neuro
+,Gastroenterologic,Population Health Center
+,Anesthesia,Gen Med
+,Pathology,Medical Genetics Department
+,Podiatric,Respiratory Care Services
+,Primary Care,Foot & Ankle Center
+,Laboratory Science,"Ear, Nose & Throat"
+,Public Health,Poison Control Center
+,Gynecologic,GI
+,Emergency,Uro
+,Gynecologic,Rad
+,Emergency,Family Medicine
+,Toxicologic,Population Health Center
+,Physiotherapy,Geri
+,Respiratory Therapy,Neuro
+,Laboratory Science,Population Health Center
+,Gynecologic,Digestive Health Center
+,Dentistry,Hema
+,Pathology,ENT
+,Podiatric,MSK
+,Anesthesia,Digestive Health Center
+,Gastroenterologic,MSK
+,Toxicologic,"Ear, Nose & Throat"
+,Gynecologic,PCP
+,Hematologic,Pulm
+,Gynecologic,Emergency Services
+,Diet Nutrition,Tox
+,Gynecologic,MSK
+,Renal,GI
+,Otolaryngologic,PCP
+,Surgical,Endo
+,Anesthesia,Digestive Health Center
+,Community Health,Tox
+,Laboratory Science,"Ear, Nose & Throat"
+,Pulmonary,Respiratory Care Services
+,Podiatric,Emergency Services
+,Gynecologic,PCP
+,Gastroenterologic,Lab
+,Community Health,Skin Care Center
+,Pathology,Peds
+,Rheumatologic,Clinical Pharmacy
+,Diet Nutrition,Uro
+,Urologic,Digestive Health Center
+,Otolaryngologic,Lung & Breathing Center
+,Dentistry,Onc
+,Community Health,Speech & Language Therapy
+,Plastic Surgery,Comm Health
+,Emergency,Gen Med
+,Diet Nutrition,Anesthesiology Department
+,Laboratory Science,Anesth Dept
+,Infectious,Pulm
+,Plastic Surgery,Heart Center
+,Community Health,Poison Control Center
+,Nursing,Family Medicine
+,Public Health,Digestive Health Center
+,Community Health,Family Medicine
+,Pulmonary,Medical Imaging
+,Pathology,Dental Services
+,Diet Nutrition,Path
+,Infectious,GYN
+,Urologic,Hema
+,Speech Pathology,Arthritis & Rheumatism Center
+,Laboratory Science,GYN
+,Gynecologic,Reconstructive & Cosmetic Surgery
+,Laboratory Science,ER
+,Musculoskeletal,Surg
+,Emergency,Pulm
+,Dermatology,Foot & Ankle Center
+,Pediatric,Uro
+,Dentistry,Lung & Breathing Center
+,Podiatric,Opt
+,Dermatology,PT
+,Cardiovascular,Urology & Kidney Health
+,Oncologic,ENT
+,Nursing,Nurs
+,Anesthesia,Urology & Kidney Health
+,Community Health,"Ear, Nose & Throat"
+,Public Health,Blood Disorders Clinic
+,Laboratory Science,ENT
+,Diet Nutrition,Path
+,Primary Care,ENT
+,Pulmonary,GYN
+,Genetic,Endo
+,Toxicologic,GYN
+,Surgical,Midwifery & Birth Center
+,Psychiatric,Midwife Svc
+,Genetic,Tox
+,Psychiatric,Geri
+,Obstetric,Surg
+,Midwifery,Brain & Spine Center
+,Oncologic,Rheum
+,Genetic,Lab
+,Radiography,Tox
+,Renal,GYN
+,Primary Care,PCP
+,Midwifery,Community Care Services
+,Diet Nutrition,Diagnostic Pathology
+,Surgical,Dental
+,Dentistry,Tox
+,Infectious,"Ear, Nose & Throat"
+,Dentistry,Cardio
+,Obstetric,PCP
+,Toxicologic,Pub Health
+,Radiography,Infection Control & Prevention
+,Laboratory Science,Surg
+,Toxicologic,Lung & Breathing Center
+,Public Health,Lab
+,Surgical,Family Medicine
+,Pulmonary,PCP
+,Endocrine,Population Health Center
+,Infectious,Elderly Care Services
+,Gynecologic,Emergency Services
+,Community Health,PCP
+,Toxicologic,Speech Path
+,Infectious,Diagnostic Pathology
+,Oncologic,MSK
+,Endocrine,Respiratory Care Services
+,Community Health,Tox
+,Oncologic,Dental Services
+,Gynecologic,Skin Care Center
+,Gynecologic,MSK
+,Primary Care,Surg
+,Gastroenterologic,Infection Control & Prevention
+,Toxicologic,Midwifery & Birth Center
+,Rheumatologic,Diet & Nutr
+,Dentistry,Elderly Care Services
+,Laboratory Science,Diet & Nutr
+,Primary Care,PT
+,Gynecologic,OB
+,Diet Nutrition,Hema
+,Dermatology,Pub Health
+,Gynecologic,ER
+,Gastroenterologic,Women's Health Center
+,Psychiatric,OB
+,Laboratory Science,Family Medicine
+,Respiratory Therapy,Population Health Center
+,Genetic,Uro
+,Midwifery,Family Medicine
+,Musculoskeletal,Speech & Language Therapy
+,Pathology,Skin Care Center
+,Neurologic,Anesth Dept
+,Gastroenterologic,Pub Health
+,Gynecologic,Population Health Center
+,Primary Care,Digestive Health Center
+,Primary Care,Emergency Services
+,Gastroenterologic,Gen Med
+,Neurologic,Digestive Health Center
+,Obstetric,Family Medicine
+,Public Health,ENT
+,Midwifery,Hormone & Metabolism Center
+,Renal,Plastics
+,Community Health,Women's Health Center
+,Emergency,Gen Med
+,Optometric,Anesth Dept
+,Physiotherapy,Surg
+,Toxicologic,Medical Imaging
+,Toxicologic,Emergency Services
+,Midwifery,Diagnostic Pathology
+,Endocrine,Infection Control & Prevention
+,Respiratory Therapy,Community Care Services
+,Primary Care,Foot & Ankle Center
+,Cardiovascular,Midwifery & Birth Center
+,Public Health,Rheum
+,Emergency,Foot & Ankle Center
+,Renal,Digestive Health Center
+,Diet Nutrition,Path
+,Otolaryngologic,Path
+,Rheumatologic,Diagnostic Pathology
+,Obstetric,Lab
+,Dentistry,Brain & Spine Center
+,Midwifery,"Ear, Nose & Throat"
+,Pulmonary,"Ear, Nose & Throat"
+,Otolaryngologic,Population Health Center
+,Gastroenterologic,Medical Genetics Department
+,Psychiatric,Respiratory Care Services
+,Psychiatric,Dental Services
+,Gastroenterologic,ER
+,Toxicologic,Women's Health Center
+,Diet Nutrition,Comm Health
+,Musculoskeletal,Anesth Dept
+,Pediatric,Speech & Language Therapy
+,Gynecologic,Medical Imaging
+,Dermatology,Arthritis & Rheumatism Center
+,Toxicologic,Lab
+,Dentistry,Speech Path
+,Infectious,Clinical Laboratory
+,Infectious,Pub Health
+,Plastic Surgery,Population Health Center
+,Anesthesia,Midwife Svc
+,Gynecologic,MSK
+,Emergency,Skin Care Center
+,Otolaryngologic,Infection Control & Prevention
+,Emergency,Plastics
+,Respiratory Therapy,Maternity Care
+,Gastroenterologic,Women's Health Center
+,Geriatric,Diagnostic Pathology
+,Primary Care,Skin Care Center
+,Toxicologic,Pub Health
+,Respiratory Therapy,Kidney Care Center
+,Primary Care,PT
+,Community Health,ID
+,Gastroenterologic,Anesth Dept
+,Midwifery,Clinical Laboratory
+,Infectious,Anesth Dept
+,Genetic,Path
+,Diet Nutrition,Midwifery & Birth Center
+,Emergency,OB
+,Genetic,Community Care Services
+,Primary Care,Rheum
+,Midwifery,MSK
+,Primary Care,Opt
+,Hematologic,Comm Health
+,Optometric,Foot Care
+,Anesthesia,PCP
+,Radiography,Anesth Dept
+,Respiratory Therapy,Population Health Center
+,Gynecologic,Anesth Dept
+,Public Health,Nurs
+,Dentistry,Tox
+,Urologic,"Ear, Nose & Throat"
+,Genetic,GI
+,Toxicologic,MSK
+,Primary Care,Gen Med
+,Dermatology,Derm
+,Rheumatologic,GYN
+,Neurologic,Pub Health
+,Hematologic,Brain & Spine Center
+,Obstetric,Tox
+,Primary Care,Lab
+,Urologic,Speech Path
+,Obstetric,Digestive Health Center
+,Laboratory Science,GYN
+,Dermatology,Gen Med
+,Gastroenterologic,Uro
+,Surgical,Respiratory Care Services
+,Midwifery,Midwifery & Birth Center
+,Gastroenterologic,Derm
+,Endocrine,Foot & Ankle Center
+,Laboratory Science,Population Health Center
+,Primary Care,Arthritis & Rheumatism Center
+,Podiatric,Population Health Center
+,Gynecologic,Clinical Pharmacy
+,Public Health,Hormone & Metabolism Center
+,Pulmonary,Gen Med
+,Public Health,Midwifery & Birth Center
+,Obstetric,Speech Path
+,Respiratory Therapy,Hema
+,Anesthesia,PCP
+,Pathology,Children's Health
+,Respiratory Therapy,GYN
+,Anesthesia,Endo
+,Rheumatologic,Diagnostic Pathology
+,Pulmonary,Dental
+,Primary Care,OB
+,Dermatology,ID
+,Dentistry,Medical Imaging
+,Laboratory Science,Children's Health
+,Anesthesia,MSK
+,Public Health,ER
+,Otolaryngologic,MSK
+,Primary Care,GI
+,Podiatric,Peds
+,Endocrine,Infection Control & Prevention
+,Genetic,Plastics
+,Primary Care,Community Care Services
+,Anesthesia,Surg
+,Urologic,Women's Health Center
+,Primary Care,Foot & Ankle Center
+,Anesthesia,Infection Control & Prevention
+,Anesthesia,Geri
+,Pulmonary,Anesth Dept
+,Otolaryngologic,GI
+,Public Health,Foot & Ankle Center
+,Gynecologic,Surg
+,Pulmonary,Midwife Svc
+,Urologic,Skin Care Center
+,Neurologic,ID
+,Musculoskeletal,ENT
+,Pulmonary,ID
+,Dentistry,Digestive Health Center
+,Gynecologic,Midwifery & Birth Center
+,Otolaryngologic,Arthritis & Rheumatism Center
+,Pulmonary,Foot Care
+,Pediatric,MSK
+,Toxicologic,Family Medicine
+,Toxicologic,Midwifery & Birth Center
+,Geriatric,Lab
+,Urologic,Gen Med
+,Pulmonary,Resp
+,Surgical,Skin Care Center
+,Emergency,Skin Care Center
+,Primary Care,Anesthesiology Department
+,Anesthesia,Cardio
+,Community Health,ER
+,Endocrine,Anesth Dept
+,Laboratory Science,Lung & Breathing Center
+,Pulmonary,Midwifery & Birth Center
+,Surgical,Dental Services
+,Gastroenterologic,Elderly Care Services
+,Toxicologic,Endo
+,Gynecologic,ER
+,Genetic,ER
+,Toxicologic,MSK
+,Primary Care,Hema
+,Primary Care,Women's Health Center
+,Radiography,Diagnostic Pathology
+,Genetic,Tox
+,Anesthesia,Tox
+,Musculoskeletal,Emergency Services
+,Pharmacy Specialty,GYN
+,Midwifery,Opt
+,Diet Nutrition,Clinical Laboratory
+,Radiography,Population Health Center
+,Toxicologic,Family Medicine
+,Genetic,Clinical Laboratory
+,Genetic,Opt
+,Obstetric,Tox
+,Genetic,Women's Health Center
+,Musculoskeletal,Midwifery & Birth Center
+,Infectious,Foot & Ankle Center
+,Gynecologic,Midwifery & Birth Center
+,Gynecologic,Maternity Care
+,Toxicologic,Anesthesiology Department
+,Rheumatologic,Medical Imaging
+,Otolaryngologic,Onc
+,Gynecologic,PCP
+,Public Health,GI
+,Anesthesia,Surg
+,Laboratory Science,Dental
+,Toxicologic,Comm Health
+,Surgical,Path
+,Infectious,Foot & Ankle Center
+,Otolaryngologic,Midwifery & Birth Center
+,Obstetric,Lung & Breathing Center
+,Toxicologic,GYN
+,Physiotherapy,Respiratory Care Services
+,Infectious,ER
+,Gastroenterologic,Children's Health
+,Toxicologic,Population Health Center
+,Dentistry,Skin Care Center
+,Dermatology,Hormone & Metabolism Center
+,Infectious,Medical Genetics Department
+,Geriatric,PCP
+,Gastroenterologic,Tox
+,Hematologic,Foot & Ankle Center
+,Nursing,Onc
+,Plastic Surgery,Lab
+,Toxicologic,Dental
+,Nursing,Resp
+,Laboratory Science,Hema
+,Gastroenterologic,Family Medicine
+,Infectious,Dental Services
+,Otolaryngologic,GI
+,Primary Care,OB
+,Midwifery,OB
+,Gynecologic,Rad
+,Laboratory Science,Path
+,Public Health,ID
+,Dentistry,GI
+,Musculoskeletal,Anesthesiology Department
+,Gynecologic,Dental
+,Obstetric,Dental
+,Emergency,Children's Health
+,Pediatric,ID
+,Radiography,Respiratory Care Services
+,Laboratory Science,Rheum
+,Pulmonary,Lab
+,Emergency,PT
+,Obstetric,Plastics
+,Laboratory Science,Path
+,Public Health,Dental
+,Pulmonary,OB
+,Infectious,Infection Control & Prevention
+,Dermatology,Medical Imaging
+,Physiotherapy,Endo
+,Midwifery,Dental
+,Community Health,Rad
+,Optometric,Dental Services
+,Community Health,GI
+,Neurologic,ID
+,Speech Pathology,Dental Services
+,Primary Care,Pulm
+,Midwifery,Tox
+,Oncologic,MSK
+,Community Health,Nurs
+,Dermatology,Arthritis & Rheumatism Center
+,Hematologic,Onc
+,Neurologic,Arthritis & Rheumatism Center
+,Cardiovascular,Lab
+,Pulmonary,Speech Path
+,Pulmonary,Dental Services
+,Radiography,Gen Med
+,Endocrine,Derm
+,Rheumatologic,Hormone & Metabolism Center
+,Genetic,Tox
+,Infectious,Nurs
+,Physiotherapy,GYN
+,Optometric,Speech Path
+,Dentistry,"Ear, Nose & Throat"
+,Respiratory Therapy,Arthritis & Rheumatism Center
+,Toxicologic,Dental Services
+,Surgical,PCP
+,Gynecologic,Surg
+,Laboratory Science,Hormone & Metabolism Center
+,Toxicologic,Comm Health
+,Emergency,Foot & Ankle Center
+,Emergency,Uro
+,Dentistry,Comm Health
+,Community Health,GYN
+,Pulmonary,Population Health Center
+,Speech Pathology,Surg
+,Toxicologic,Respiratory Care Services
+,Pathology,Derm
+,Pulmonary,Elderly Care Services
+,Primary Care,ER
+,Radiography,Pulm
+,Pulmonary,Heart Center
+,Community Health,Medical Imaging
+,Primary Care,GI
+,Dentistry,Speech Path
+,Gynecologic,Community Care Services
+,Gastroenterologic,Geri
+,Emergency,Heart Center
+,Laboratory Science,Maternity Care
+,Urologic,Diet & Nutr
+,Endocrine,GYN
+,Emergency,Tox
+,Pulmonary,Emergency Services
+,Obstetric,Anesth Dept
+,Endocrine,Lab
+,Nursing,Blood Disorders Clinic
+,Gastroenterologic,Children's Health
+,Dentistry,ENT
+,Respiratory Therapy,MSK
+,Anesthesia,ID
+,Gastroenterologic,"Ear, Nose & Throat"
+,Otolaryngologic,Mental Health Services
+,Surgical,Tox
+,Pathology,Speech & Language Therapy
+,Psychiatric,Arthritis & Rheumatism Center
+,Otolaryngologic,Hormone & Metabolism Center
+,Public Health,Vision Care Center
+,Radiography,Path
+,Surgical,Diagnostic Pathology
+,Primary Care,Speech Path
+,Dermatology,Tox
+,Pathology,GYN
+,Primary Care,Dental
+,Dentistry,Tox
+,Toxicologic,Arthritis & Rheumatism Center
+,Respiratory Therapy,Kidney Care Center
+,Midwifery,GI
+,Laboratory Science,Foot & Ankle Center
+,Urologic,Speech Path
+,Surgical,Emergency Services
+,Anesthesia,Plastics
+,Geriatric,Nutritional Services
+,Gastroenterologic,GI
+,Speech Pathology,Pulm
+,Optometric,Rad
+,Obstetric,Midwifery & Birth Center
+,Gynecologic,Lab
+,Psychiatric,ID
+,Toxicologic,Emergency Services
+,Dentistry,Women's Health Center
+,Toxicologic,Medical Imaging
+,Anesthesia,Hormone & Metabolism Center
+,Gynecologic,Brain & Spine Center
+,Cardiovascular,Midwifery & Birth Center
+,Endocrine,Gen Med
+,Gynecologic,Poison Control Center
+,Geriatric,Psych
+,Community Health,Foot & Ankle Center
+,Endocrine,Derm
+,Pathology,Foot & Ankle Center
+,Toxicologic,GI
+,Laboratory Science,Speech Path
+,Neurologic,Comm Health
+,Gastroenterologic,Respiratory Care Services
+,Dentistry,Lung & Breathing Center
+,Pathology,Tox
+,Pulmonary,Digestive Health Center
+,Radiography,Comm Health

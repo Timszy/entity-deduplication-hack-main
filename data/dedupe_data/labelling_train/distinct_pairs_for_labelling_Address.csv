@@ -1,0 +1,769 @@
+label,left_addressCountry,left_addressLocality,left_postalCode,left_streetAddress,right_addressCountry,right_addressLocality,right_postalCode,right_streetAddress
+,AT,Kufstein,2617,Dana-Edlinger-Straße 95,AT,Trieben,6473 ,Frida-Yilmaz-Gasse 127
+,NL,Oppenhuizen,7639 KX,Milahof 74,AT,Zistersdorf,8052 ,Aleksandra-Friedrich-Straße 11
+,AT,Ybbs an der Donau,8336,Helmstr. 61,EE,Jevgenfort,84956,Kadri Island 34
+,NL,Jouswier,4694 LZ,Liseboulevard 99,EE,Viksburgh,72061 ,Viktor Points 24
+,AT,Poysdorf,9968,Reichlgasse 149,Austria,Schrattenthal,9535,Loiblplatz 8
+,EE,Lake Triin,47768,Aasa Land 144,AT,Marcchtrenk,4437,Hofstätterring 12
+,AT,Sankt Valentin,3787,Cornelius-Mitterer-Ring 83,EE,Remmelvieew,87595,Nurk Forges 31
+,NL,Echteld,7621 AK,Bilalring 122,NL,Echteeld,6042 AC,Berendpad 16
+,EE,Tiitside,89287,Valentina Stravenue 16,NL,Punthorst,2368YL,Suzepad 34
+,AT,Enns,6783,Reischlstr. 110,EE,Jaanusborough,52268,Diana Island 107C
+,AT,Mautern an der Donau,4451,Draxlergasse 17,NL,Punthrost,7086 LB,Larastraat 137
+,AT,Baden,1873,Barbara-Mitterlehner-Gasse 123,NL,Tienray,9511QK,Evelienpad 133
+,EE,Toomasberg,18879,Anu Trace 90,NL,Laag-Keppel,5912 EL,Emmabaan 11B
+,EE,North Irinaborough,12187,Priit Mount 91,EE,Vainmouth,72093 ,Aino Cape 70
+,NL,Sleen,5361 RW,Linnbaan 30,Austria,Rottenmann,6888,Maida-Kocher-Straße 11
+,AT,Oberwälz,7370,Schützstraße 103,Austria,Raabs an der Thaya,9317,Scharfstr. 101
+,AT,Pregarten,5773,Karoline-Horak-Gasse 146,AT,Leibnitz,7672,Doblerplatz 23B
+,NL,Tonden,6650 HE,Sophiepad 68,AT,DÃ¼rsntein,5667,Dana-Neumayr-Straße 111
+,NL,Nieuw-Weerdinge,1897 GE,Deandreef 26,AT,Leoben,7362 ,Konstantin-Koller-Ring 94
+,AT,Rottenmann,4988,Elina-Wurzer-Platz 107,NL,Echteld,7621 AK,Bilalring 122A
+,EE,Eveshire,98391,Tamara Trafficway 105,EE,West Sirjetown,55098,Kolk Stream 78C
+,EE,Port Viktor,23734,Anu Isle 106,Austria,Raabs an der Thaya,9317,Scharfstr. 101
+,AT,Innsbruck,2915,Leopold-Krainer-Platz 29,Austria,Purbach am Neusiedler See,2252,Milo-Jauk-Ring 63
+,NL,Nieuw-Weerdinge,1897 GE,Deandreef 26,EE,Port Alekseiand,37382,Aino Plains 117
+,NL,Renesse,9458 SS,Britthof 19,EE,Malldeton,24650,Raadik Junctions 95
+,NL,Meterik,9641 EG,Timpad 65,AT,Wiener Neustadt,1976,Kernring 18C
+,NL,Grubbenvorst,1868 RZ,Johannasingel 43,EE,Reetbury,64161 ,Kaasik Field 107
+,EE,Pulkmouth,57994,Kalmus Trail 111,AT,Feldkirchen,9505,WirthstraÃe 27C
+,EE,West Sirjetown,55098,Kolk Stream 78,Austria,Rottenmann,6888,Maida-Kocher-Straße 11
+,AT,Oberndorf bei Salzburg,2976,Franz-Marx-Straße 1,EE,Triinfurt,51891 ,Pukk Mission 3
+,EE,North Marekbury,94678,Jaan Lights 107,EE,Lake  Annelistad,34954,Laura Lodge 8
+,EE,East Sander,51250,Urb Point 70,AT,Leibnitz,5161,Pendlring 71C
+,EE,Viksburgh,72061,Viktor Points 24,EE,Kuuskmouth,18589,Olga Hollow 46A
+,AT,Rottenmann,4634,Lara-Schön-Weg 67,EE,New Valentina,32408,Suvi Springs 104A
+,EE,Annaview,19618,Aino Divide 11,AT,Bda Hall,7287,Fritschstraße 10
+,NL,Punthorst,2368 YL,Suzepad 34,AT,Dornbirn,6636 ,Erhartgasse 8
+,NL,Sint Jansklooster,9210 KF,Noorweg 85,NL,Laag-Keppel,5912 EL,Emmabaan 11B
+,NL,Sint Jansklooster,9210 KF,Noorweg 85,NL,Trijpscompagnie,8550 YW,Veerlehof 31
+,AT,Gmunden,9449,Aignergasse 94,Austria,Klagenfurt,4852,Klausring 2
+,AT,Mariazell,5414,Matilda-Scherzer-Gasse 129,Estonia,New Jelena,89190,Kristi Creek 38
+,AT,Bad Leonfelden,2034,Estelle-Suppan-Platz 79,AT,Zistersdorf,8052 ,Aleksandra-Friedrich-Straße 11
+,AT,Judenburg,8262,Jennifer-Bernhard-Gasse 77,AT,Mattersburg,6922,UrbanstraÃe 86B
+,AT,Wörgl,1110,Calvin-Mitter-Straße 50,EE,Annuscehster,41165,Laas Stream 41
+,AT,Baden,1873,Barbara-Mitterlehner-Gasse 123,NL,Blokzijl,8697EV,Madeliefstraat 141
+,EE,East Tiiuton,54724,Rand Point 116,Estonia,East Anneburgh,58498,Luik Garden 129
+,EE,Viksburgh,72061,Viktor Points 24,Netherlands,IJsselham,7370 DH,Merelhof 1
+,AT,Krems an der Donau,6060,Foidlstr. 65,AT,Schwanestadt,1006,Petra-Falkner-Straße 107
+,EE,Kristiinaburgh,43198,Reet Port 145,NL,Simpelveld,2743 UN,Sennasteeg 120B
+,AT,Marchtrenk,4437,Hofstätterring 12,Austria,Amstetten,9831,Reischlstraße 16
+,AT,Oberpullendorf,5724,Weissplatz 30,NL,Pietersbierum,2476 JN,Emmapad 48C
+,AT,Retz,6077,Steinlechnerring 79,NL,Westerhoven,4010 ND,Sebastiaanhof 113B
+,EE,West Andrei,67560,Jelena Rapid 28,AT,Waidhofen an der Thaya,5432 ,Wilfingerring 135
+,AT,Marchtrenk,4437,Hofstätterring 12,Estonia,Aderport,41550,Nikiforov Mountains 28
+,AT,Kufstein,2617,Dana-Edlinger-Straße 95,NL,Achtmaal,7277 QZ,Suzeweg 129C
+,AT,Gmunden,9449,Aignergasse 94,NL,Beek,8401 RT,Yaraweg 29B
+,EE,Eveshire,98391,Tamara Trafficway 105,NL,Wehl,3890QA,Martsingel 139
+,NL,Jouswier,4694 LZ,Liseboulevard 99,EE,Eveshire,98391,Tamara Trafficway 105C
+,NL,Echteld,6042 AC,Berendpad 16,AT,Fürstenfeld,2510 ,Marvin-Jahn-Straße 111
+,NL,Blesdijke,7031 CH,Carlijnsteeg 86,NL,Uithoorn,9783 DD,Sebastiaanhof 142C
+,AT,Ebenfurth,8571,Levi-Schweiger-Weg 114,NL,Wesens,5380 XN,Zakarialaan 46
+,AT,Landeck,2308,Fitzstraße 14,Austria,Altheim,2279,Manuel-Schwendinger-Weg 5
+,NL,Udenhout,8151 AR,Milanpad 127,EE,Ãunubrgh,72780,Nadežda Parkway 139
+,NL,Laag-Keppel,5912 EL,Emmabaan 11,NL,Hoofddorp,5788 LP,Saarsteeg 12B
+,NL,Farmsum,2103 QS,Esmeeweg 105,AT,Majriazell,5414,Matilda-Scherzer-Gasse 129
+,AT,Raabs an der Thaya,9317,Scharfstr. 101,EE,Sergejevmouth,87483 ,Toots Ridges 101
+,AT,Waidhofen an der Ybbs,2963,Steinkellnergasse 54,EE,North Kristia,78705,Rätsep Mill 49
+,AT,Schrattenthal,9535,Loiblplatz 8,NL,De Zik,5250 EI,Sennalaan 52
+,NL,Hoofddorp,5788 LP,Saarsteeg 12,AT,Ferlacch,6055,Fernando-Polzer-Platz 77
+,EE,West Sirjetown,55098,Kolk Stream 78,AT,Scrattenthal,5869,Elisabeth-Rössler-Ring 94
+,NL,Wehl,3890 QA,Martsingel 139,AT,Gmunden,9449 ,Aignergasse 94
+,AT,Rottenmann,4988,Elina-Wurzer-Platz 107,AT,Bischofshofen,8418 ,Stögergasse 56
+,AT,Dürnstein,1474,Grünwaldplatz 18,EE,North Kristia,78705,Rätsep Mill 49
+,AT,Mariazell,5458,Richard-Gamsjäger-Weg 134,NL,Sleen,5361RW,Linnbaan 30
+,AT,Fürstenfeld,9237,Nikolina-Kucera-Straße 39,AT,Rottenmann,4634 ,Lara-Schön-Weg 67
+,NL,Vuren,2498 UD,Aliciahof 116,AT,Sankt Valentlin,3787,Cornelius-Mitterer-Ring 83
+,NL,Beerze,2439 GU,Pepijnsteeg 115,NL,De Zik,5250 EI,Sennalaan 52
+,AT,Mariazell,5458,Richard-Gamsjäger-Weg 134,NL,Waspe,6493 TX,Aaliyahdreef 118
+,EE,Pulkmouth,57994,Kalmus Trail 111,EE,East Alexanderhavne,35134,Anne Manor 145
+,AT,Traun,9775,Igor-Grüner-Weg 111,NL,De Zik,5250 EI,Sennalaan 52
+,EE,East Juri,74582,Pavel Radial 80,AT,Baden,1873 ,Barbara-Mitterlehner-Gasse 123
+,AT,Altheim,2279,Manuel-Schwendinger-Weg 5,EE,Langton,76772,Anna Inlet 146
+,NL,Blokzijl,8697 EV,Madeliefstraat 141,NL,Deesst,4644 TX,Mayastraat 90
+,EE,East Alexanderhaven,35134,Anne Manor 145,Estonia,East Sander,51250,Urb Point 70
+,NL,Blesdijke,7031 CH,Carlijnsteeg 86,NL,Punthorst,2368YL,Suzepad 34
+,AT,Liezen,4309,Lily-Rechberger-Ring 65,Austria,Braunau am Inn,3125,Jasper-Heller-Gasse 49
+,AT,Waidhofen an der Ybbs,2963,Steinkellnergasse 54,Netherlands,Meterik,9641 EG,Timpad 65
+,AT,Wieselburg,2431,Ellergasse 123,Austria,Zistersdorf,7590,Rothstr. 97
+,NL,Echteld,6042 AC,Berendpad 16,NL,Grubbenvrst,1868 RZ,Johannasingel 43
+,AT,Raabs an der Thaya,5206,Tim-Scholz-Weg 102,AT,Oberwälz,7370 ,Schützstraße 103
+,AT,Völkermarkt,7251,John-Varga-Straße 113,AT,Wiener Neustadt,1976,Kernring 18C
+,NL,Blokzijl,8697 EV,Madeliefstraat 141,NL,Uithoorn,9783 DD,Sebastiaanhof 142C
+,AT,Jennersdorf,4114,Nikola-Schwab-Ring 3,AT,Stadtschlaining,3202 ,Joshua-Holzmann-Ring 35
+,EE,Vainmouth,72093,Aino Cape 70,Netherlands,Meterik,9641 EG,Timpad 65
+,EE,East Sander,51250,Urb Point 70,AT,Oberndorf bei Slazburg,2976,Franz-Marx-Straße 1
+,AT,Wieselburg,8804,Alexandra-Hartl-Ring 8,NL,Waspe,6493 TX,Aaliyahdreef 118
+,AT,Liezen,4309,Lily-Rechberger-Ring 65,Austria,Scheibbs,6984,Höflergasse 51
+,NL,Nieuwe Pekela,2569 KW,Rikdreef 97,EE,Jaanusborough,52268,Diana Island 107C
+,EE,New Valentina,32408,Suvi Springs 104,AT,Leibnitz,5161,Pendlring 71C
+,EE,Lake Dianastad,99041,Tatiana Viaduct 72,NL,Trijpscompagnie,8550 YW,Veerlehof 31
+,NL,Beek,8401 RT,Yaraweg 29,EE,Jevgenfort,84956,Kadri Island 34
+,EE,Indrekmouth,67144,Matvejev Orchard 138,EE,North Romanfurt,31917,Priit Street 91C
+,EE,Alexandermouth,54606,Jaan River 88,Netherlands,Nieuwe Wetering,7551 DV,Fatimasteeg 138
+,NL,Velserbroek,7518 QF,Damianhof 129,AT,Gföhl,7399 ,Rosa-Sorger-Straße 82
+,NL,Hekelingen,8055 SW,Azraweg 17,Estonia,Urmasland,21111,Anna Fork 68
+,AT,Schrattenthal,5869,Elisabeth-Rössler-Ring 94,NL,Krewred,4410 NO,Simonring 120
+,EE,Jaanusborough,52268,Diana Island 107,AT,Eggenburg,1653,Veronika-Himmelbauer-StraÃe 79C
+,AT,Bad Hall,7287,Fritschstraße 10,AT,Rottenmann,4634 ,Lara-Schön-Weg 67
+,NL,'s-Graveland,5492 CV,Mikepad 33,Austria,Gmunden,3043,Marie-Jung-Ring 148
+,AT,Klagenfurt,4852,Klausring 2,EE,East Alexanderhavne,35134,Anne Manor 145
+,NL,Angeren,9800 AU,Daniweg 69,AT,Waidhofen an der Ybbs,2963,Steinkellnergasse 54C
+,AT,Stadtschlaining,9765,Lisa-Wöhrer-Straße 147,AT,Pysdorf,9968,Reichlgasse 149
+,NL,Deest,4644 TX,Mayastraat 90,EE,North Irinaborough,12187,Priit Mount 91B
+,NL,Achtmaal,7277 QZ,Suzeweg 129,Estonia,Kasemaabury,83887,Tiiu Port 116
+,AT,Baden,2908,Danilo-Mitterlehner-Gasse 113,EE,West Sirjetown,55098,Kolk Stream 78C
+,AT,Bad Radkersburg,2617,Wöhrerplatz 23,EE,Reetbury,64161 ,Kaasik Field 107
+,NL,Echteld,6042 AC,Berendpad 16,NL,Basse,5137CW,Amirabaan 48
+,EE,Kristiinaburgh,43198,Reet Port 145,AT,Krems an der Donau,6060 ,Foidlstr. 65
+,EE,Annaview,92404,Nadežda Spring 67,AT,Bischofshofen,8418 ,Stögergasse 56
+,EE,North Kristina,64165,Kilk Corner 132,Estonia,Elenafort,10405,Sergey Forge 83
+,EE,Mägichester,53090,Sokolov Turnpike 148,AT,Majriazell,5414,Matilda-Scherzer-Gasse 129
+,EE,East Siimland,23309,Kondratjev Pike 122,AT,Grieskirchen,9040 ,Alexander-Kopf-Weg 18
+,EE,Annaview,19618,Aino Divide 11,AT,Köflach,1969,Fleischmanngasse 147B
+,AT,Grieskirchen,9040,Alexander-Kopf-Weg 18,EE,East Alexanderhavne,35134,Anne Manor 145
+,AT,Schwechat,3793,Laureen-Nowak-Weg 135,Estonia,Kasemaabury,83887,Tiiu Port 116
+,NL,Tonden,6650 HE,Sophiepad 68,EE,Tiitside,89287,Valentina Stravenue 16B
+,AT,Krems an der Donau,6060,Foidlstr. 65,Austria,Mank,3433,Voglring 145
+,AT,Ternitz,4294,Justin-Gross-Straße 126,AT,Badn,2908,Danilo-Mitterlehner-Gasse 113
+,EE,Sillasteberg,66820,Rein Trail 98,Austria,Neunkirchen,3226,Boris-Ladner-Platz 8
+,AT,Pregarten,5773,Karoline-Horak-Gasse 146,NL,Ewsijk,3850 RP,Lukahof 42
+,AT,Schrems,5265,Richard-Dorner-Weg 104,NL,Keerkrade,2575 PB,Lilysingel 63
+,AT,Krems an der Donau,6060,Foidlstr. 65,Estonia,Lake Triin,47768,Aasa Land 144
+,AT,Zwettl,9873,Jessica-Bachmann-Straße 83,Estonia,Andreiside,45067,Anne Stravenue 82
+,EE,Kristiinaburgh,43198,Reet Port 145,NL,Sleen,5361RW,Linnbaan 30
+,AT,Raabs an der Thaya,9317,Scharfstr. 101,EE,North Jekaterinastad,97935 ,Pavel Lock 86
+,NL,Meterik,9641 EG,Timpad 65,AT,Mank,9672 ,Hoferplatz 2
+,AT,Dornbirn,6636,Erhartgasse 8,EE,North Jekaterinastad,97935 ,Pavel Lock 86
+,AT,Zistersdorf,8052,Aleksandra-Friedrich-Straße 11,EE,Langton,76772,Anna Inlet 146
+,AT,Altheim,2279,Manuel-Schwendinger-Weg 5,NL,Vuren,2498UD,Aliciahof 116
+,EE,Lake Dianastad,99041,Tatiana Viaduct 72,NL,Grubbenvrst,1868 RZ,Johannasingel 43
+,AT,Gänserndorf,8049,Nikolai-Scheucher-Ring 93,AT,Dornbirn,6636 ,Erhartgasse 8
+,EE,North Kristina,78705,Rätsep Mill 49,Estonia,Tõnuland,95547,Riina Gardens 123
+,NL,Oppenhuizen,7639 KX,Milahof 74,AT,Enns,2160,Alara-Reif-Weg 88B
+,EE,Jevgenifort,84956,Kadri Island 34,NL,Krewred,4410 NO,Simonring 120
+,NL,Bakhuizen,2328 GS,Meikelaan 31,AT,Zistersdorf,8052 ,Aleksandra-Friedrich-Straße 11
+,AT,Mautern an der Donau,4451,Draxlergasse 17,EE,Remmelvieew,87595,Nurk Forges 31
+,NL,De Zilk,5250 EI,Sennalaan 52,EE,Vainmouth,72093 ,Aino Cape 70
+,NL,Barendrecht,9916 ZQ,Jeltesingel 32,AT,DÃ¼rsntein,5667,Dana-Neumayr-Straße 111
+,AT,Mautern an der Donau,4451,Draxlergasse 17,NL,Echteeld,6042 AC,Berendpad 16
+,AT,Bad Radkersburg,2617,Wöhrerplatz 23,EE,Westt Anna,34769,Olga Key 51
+,AT,Ebenfurth,8571,Levi-Schweiger-Weg 114,EE,West Mihkelton,89155,Maslov Walk 8A
+,NL,Nieuwe Pekela,2569 KW,Rikdreef 97,Austria,Braunau am Inn,3125,Jasper-Heller-Gasse 49
+,NL,Grootschermer,2812 AU,Isisring 85,AT,Mattesrburg,3850,Jasmine-Puntigam-Platz 74
+,NL,Makkum,2114 MG,Tarasteeg 102,AT,Dürnstein,6578,Calvin-Kasper-StraÃe 46B
+,AT,Raabs an der Thaya,5206,Tim-Scholz-Weg 102,Austria,Schärding,6152,Sabine-Burtscher-Gasse 108
+,AT,Innsbruck,2915,Leopold-Krainer-Platz 29,NL,Keerkrade,2575 PB,Lilysingel 63
+,NL,Tonden,6650 HE,Sophiepad 68,NL,Oppenhuizen,7639KX,Milahof 74
+,AT,Mattersburg,3850,Jasmine-Puntigam-Platz 74,EE,South Meelis,74495,Aleksandr Pines 41A
+,EE,Viktormouth,49275,Kiil Parks 137,AT,Ferlacch,6055,Fernando-Polzer-Platz 77
+,EE,Elenafort,10405,Sergey Forge 83,EE,East Alexanderhavne,35134,Anne Manor 145
+,NL,Oppenhuizen,7639 KX,Milahof 74,NL,Sleen,5361RW,Linnbaan 30
+,AT,Purkersdorf,1916,Henrik-Reinprecht-Straße 8,AT,Grieskirchen,9040 ,Alexander-Kopf-Weg 18
+,NL,Jouswier,4694 LZ,Liseboulevard 99,Netherlands,Makkum,2114 MG,Tarasteeg 102
+,NL,Achtmaal,7277 QZ,Suzeweg 129,NL,Echteeld,6042 AC,Berendpad 16
+,NL,Laag-Keppel,5912 EL,Emmabaan 11,NL,Echteld,7621 AK,Bilalring 122A
+,AT,Bad Leonfelden,2034,Estelle-Suppan-Platz 79,NL,Boeraker,1371 WB,Tijnring 65
+,NL,Jouswier,4694 LZ,Liseboulevard 99,EE,New Valentina,32408,Suvi Springs 104A
+,AT,Raabs an der Thaya,9317,Scharfstr. 101,Netherlands,Slijkenburg,9504 AE,Joëlboulevard 47
+,EE,Vainmouth,72093,Aino Cape 70,NL,Sint Jansklooster,9210KF,Noorweg 85
+,NL,Meterik,9641 EG,Timpad 65,AT,Groß-Enzersdorf,5588 ,Katharina-Stecher-Ring 136
+,NL,Beerze,2439 GU,Pepijnsteeg 115,AT,Gmunden,5878 ,Winterstr. 10
+,AT,Wieselburg,2431,Ellergasse 123,Austria,Rottenmann,6888,Maida-Kocher-Straße 11
+,EE,West Andrei,67560,Jelena Rapid 28,AT,Villach,2107 ,Verena-Riedmann-Straße 92
+,AT,Ternitz,7599,Blauensteinerweg 102,Estonia,Ülleview,82106,Valeri Locks 82
+,AT,Wiener Neustadt,1976,Kernring 18,Estonia,East Valentinaside,86682,Mihkel Well 135
+,AT,Groß-Enzersdorf,5588,Katharina-Stecher-Ring 136,EE,West Mihkelton,89155,Maslov Walk 8A
+,AT,Leibnitz,7672,Doblerplatz 23,AT,Trieben,3252 ,Melisa-Werner-Straße 111
+,EE,Lake Peeterfort,56464,Laura Ville 32,Netherlands,Renesse,9458 SS,Britthof 19
+,AT,Neunkirchen,3226,Boris-Ladner-Platz 8,AT,Neulengbach,1341,Haasstr. 75B
+,AT,Rottenmann,4634,Lara-Schön-Weg 67,EE,New Viktoria,59270 ,Marek Fords 19
+,EE,East Anneburgh,58498,Luik Garden 129,NL,Nieuwe Pekela,2569 KW,Rikdreef 97B
+,AT,Sankt Valentin,3787,Cornelius-Mitterer-Ring 83,EE,Eveshire,98391,Tamara Trafficway 105C
+,AT,Purkersdorf,1916,Henrik-Reinprecht-Straße 8,Estonia,Elenafort,10405,Sergey Forge 83
+,EE,Vainmouth,72093,Aino Cape 70,AT,Neulengbach,9365 ,Florentina-Schweitzer-Gasse 39
+,NL,Uithoorn,9783 DD,Sebastiaanhof 142,NL,Waspe,6493 TX,Aaliyahdreef 118
+,EE,East Sander,51250,Urb Point 70,NL,Farmsmu,2103 QS,Esmeeweg 105
+,AT,Leibnitz,7672,Doblerplatz 23,AT,Schrems,5265,Richard-Dorner-Weg 104B
+,EE,Tõnuland,95547,Riina Gardens 123,AT,Stadtschlaining,3202 ,Joshua-Holzmann-Ring 35
+,NL,Monster,6397 YM,Joepboulevard 18,NL,Hoofddorp,5788 LP,Saarsteeg 12B
+,NL,Wetsens,5380 XN,Zakarialaan 46,EE,Annuscehster,41165,Laas Stream 41
+,NL,Rijswijk (GLD),4124 IT,Charlottebaan 71,AT,Innbruck,6940,Ava-Schütz-Gasse 99
+,AT,Gänserndorf,8049,Nikolai-Scheucher-Ring 93,AT,Judenburg,8262,Jennifer-Bernhard-Gasse 77C
+,AT,Traun,9775,Igor-Grüner-Weg 111,NL,Beek,8401 RT,Yaraweg 29B
+,NL,Boerakker,1371 WB,Tijnring 65,EE,Reetbury,64161 ,Kaasik Field 107
+,AT,Frohnleiten,9094,Anita-Trattner-Straße 85,AT,Rottenmann,4634 ,Lara-Schön-Weg 67
+,EE,Vainmouth,72093,Aino Cape 70,Estonia,Aderport,41550,Nikiforov Mountains 28
+,AT,Purkersdorf,1916,Henrik-Reinprecht-Straße 8,NL,Hekelinegn,8055 SW,Azraweg 17
+,AT,Bad Radkersburg,2617,Wöhrerplatz 23,EE,Tiitside,89287,Valentina Stravenue 16B
+,EE,Lake Annelistad,34954,Laura Lodge 8,NL,Beek,8401 RT,Yaraweg 29B
+,EE,East Sander,51250,Urb Point 70,NL,Egmound-Binnen,6400 YE,Gerritring 67
+,NL,Mander,9197 HA,Mehmetstraat 86,NL,Wieringerwaard,4884 ND,Sennapad 149C
+,AT,Hartberg,4189,Arda-Haindl-Ring 86,AT,Fürstenfeld,2510 ,Marvin-Jahn-Straße 111
+,EE,Lake Irinatown,86538,Laht Mews 133,EE,Reetbury,64161 ,Kaasik Field 107
+,AT,Kindberg,3707,Selena-Rohrer-Gasse 137,Estonia,Lake Triin,47768,Aasa Land 144
+,NL,Renesse,9458 SS,Britthof 19,EE,North Kristia,78705,Rätsep Mill 49
+,NL,Boerakker,1371 WB,Tijnring 65,AT,Köflach,1969,Fleischmanngasse 147B
+,NL,Blokzijl,8697 EV,Madeliefstraat 141,AT,Allthofen,6456,Pachlergasse 7
+,AT,Oberndorf bei Salzburg,5038,Luise-Reiter-Ring 102,EE,Kristiinaburrgh,43198,Reet Port 145
+,EE,Port Viktor,23734,Anu Isle 106,Austria,Zistersdorf,7590,Rothstr. 97
+,AT,Bad Hall,9626,Voglerstr. 135,Estonia,Ülleview,82106,Valeri Locks 82
+,EE,North Irinaborough,12187,Priit Mount 91,Austria,Klagenfurt,4852,Klausring 2
+,AT,Mürzzuschlag,8603,Tiffany-Wimmer-Weg 50,AT,Dürnstein,1474 ,Grünwaldplatz 18
+,EE,Alexandermouth,54606,Jaan River 88,AT,Badn,2908,Danilo-Mitterlehner-Gasse 113
+,NL,Slijkenburg,9504 AE,Joëlboulevard 47,AT,Wieselburg,8804,Alexandra-Hartl-Ring 8C
+,AT,Leoben,7362,Konstantin-Koller-Ring 94,Estonia,Kasemaabury,83887,Tiiu Port 116
+,EE,Lake Triin,47768,Aasa Land 144,AT,Mattersburg,6922,UrbanstraÃe 86B
+,AT,Ternitz,4294,Justin-Gross-Straße 126,AT,Scrattenthal,5869,Elisabeth-Rössler-Ring 94
+,NL,Lobith,5348 TT,Samsteeg 87,Austria,Oberpullendorf,5724,Weissplatz 30
+,EE,South Meelis,74495,Aleksandr Pines 41,Estonia,Elenafort,10405,Sergey Forge 83
+,AT,Leibnitz,7672,Doblerplatz 23,Estonia,Urmasland,21111,Anna Fork 68
+,EE,Indrekmouth,67144,Matvejev Orchard 138,NL,Blesmdijke,7031 CH,Carlijnsteeg 86
+,AT,Baden,2908,Danilo-Mitterlehner-Gasse 113,NL,Berze,2439 GU,Pepijnsteeg 115
+,AT,Traun,9775,Igor-Grüner-Weg 111,AT,Rottenmann,4988,Elina-Wurzer-Platz 107A
+,NL,Sint Jansklooster,9210 KF,Noorweg 85,AT,Wieselburg,8804,Alexandra-Hartl-Ring 8C
+,NL,Slijkenburg,9504 AE,Joëlboulevard 47,AT,Zistersdorf,8052 ,Aleksandra-Friedrich-Straße 11
+,AT,Völkermarkt,7251,John-Varga-Straße 113,Estonia,South Marina,83491,Kuningas Pike 147
+,EE,Alexandermouth,54606,Jaan River 88,AT,Sankt Valentlin,3787,Cornelius-Mitterer-Ring 83
+,AT,Bad Hall,7287,Fritschstraße 10,NL,Nieuw-Weerdinge,1897 GE,Deandreef 26A
+,EE,Kuuskmouth,18589,Olga Hollow 46,AT,Allthofen,6456,Pachlergasse 7
+,NL,Makkum,2114 MG,Tarasteeg 102,EE,North iTiuville,20501,Reet Club 38
+,EE,Lake Annelistad,34954,Laura Lodge 8,AT,Rottenmann,4988,Elina-Wurzer-Platz 107A
+,EE,Lake Annelistad,34954,Laura Lodge 8,Netherlands,Meterik,9641 EG,Timpad 65
+,AT,Dürnstein,6578,Calvin-Kasper-Straße 46,NL,Pietersbierum,2476 JN,Emmapad 48C
+,AT,Groß-Enzersdorf,5588,Katharina-Stecher-Ring 136,Austria,Schrattenthal,9535,Loiblplatz 8
+,NL,Ewijk,3850 RP,Lukahof 42,EE,North Kristjan,19198 ,Tiina Fork 142
+,NL,Farmsum,2103 QS,Esmeeweg 105,NL,Bakhuizen,2328GS,Meikelaan 31
+,EE,West Andrei,67560,Jelena Rapid 28,AT,Dürnstein,1474 ,Grünwaldplatz 18
+,EE,Annuschester,41165,Laas Stream 41,EE,West Triin,45898 ,Nõmmik Views 107
+,NL,Hoofddorp,5788 LP,Saarsteeg 12,NL,Uithoorn,9783 DD,Sebastiaanhof 142C
+,NL,Tonden,6650 HE,Sophiepad 68,NL,Hekelinegn,8055 SW,Azraweg 17
+,EE,Jaanusborough,52268,Diana Island 107,AT,Liezn,4309,Lily-Rechberger-Ring 65
+,AT,Wiener Neustadt,1976,Kernring 18,AT,Marcchtrenk,4437,Hofstätterring 12
+,NL,Wapse,6493 TX,Aaliyahdreef 118,AT,Zwettl,9873,Jessica-Bachmann-StraÃe 83B
+,AT,Fürstenfeld,9237,Nikolina-Kucera-Straße 39,NL,Krewred,4410 NO,Simonring 120
+,EE,Lake Peeterfort,56464,Laura Ville 32,EE,South Meelis,74495,Aleksandr Pines 41A
+,AT,Grieskirchen,9040,Alexander-Kopf-Weg 18,Estonia,Andreiside,45067,Anne Stravenue 82
+,EE,Langtown,76772,Anna Inlet 146,Estonia,Pulkmouth,57994,Kalmus Trail 111
+,NL,Voorburg,8196 WK,Juulsteeg 36,NL,Egmound-Binnen,6400 YE,Gerritring 67
+,NL,Blesdijke,7031 CH,Carlijnsteeg 86,NL,Haen Gn,2740 RV,Merlehof 84
+,EE,Lake Dianastad,99041,Tatiana Viaduct 72,AT,Stadtschlaining,3202 ,Joshua-Holzmann-Ring 35
+,AT,Völkermarkt,7251,John-Varga-Straße 113,Estonia,East Sander,51250,Urb Point 70
+,NL,Rijswijk (GLD),4124 IT,Charlottebaan 71,Estonia,East Sander,51250,Urb Point 70
+,EE,Tuulikstad,28046,Novikov Place 120,EE,Malldeton,24650,Raadik Junctions 95
+,EE,Piretbury,76255,Laura Corners 45,Netherlands,Voorburg,8196 WK,Juulsteeg 36
+,EE,Lake Raivo,33773,Sutt Route 145,EE,Sergejevmouth,87483 ,Toots Ridges 101
+,AT,Ternitz,4294,Justin-Gross-Straße 126,EE,Ãunubrgh,72780,Nadežda Parkway 139
+,NL,Mander,9197 HA,Mehmetstraat 86,AT,Pregarten,5773,Karoline-Horak-Gasse 146C
+,AT,Neulengbach,1341,Haasstr. 75,NL,Trijpscompagnie,8550 YW,Veerlehof 31
+,EE,Õunburgh,72780,Nadežda Parkway 139,AT,Bad Vöslau,8890 ,Kainzring 49
+,NL,Tienray,9511 QK,Evelienpad 133,AT,Kuafstein,2617,Dana-Edlinger-Straße 95
+,EE,Annuschester,41165,Laas Stream 41,Austria,Schrattenthal,5709,Elyas-Pieber-Gasse 121
+,AT,Poysdorf,9968,Reichlgasse 149,AT,Ebefurth,8571,Levi-Schweiger-Weg 114
+,AT,Neulengbach,1341,Haasstr. 75,EE,North Irinaborough,12187,Priit Mount 91B
+,NL,Schaijk,2940 CD,Juliesingel 112,Austria,Herzogenburg,9244,Josef-Haderer-Ring 12
+,AT,Stadtschlaining,3202,Joshua-Holzmann-Ring 35,Estonia,East Sander,51250,Urb Point 70
+,AT,Wörgl,1110,Calvin-Mitter-Straße 50,EE,North Jekaterinastad,97935 ,Pavel Lock 86
+,AT,Schrems,6626,Matheo-Aschauer-Platz 119,NL,Pietersbierum,2476 JN,Emmapad 48C
+,NL,Ewijk,3850 RP,Lukahof 42,EE,North Romanfurt,31917,Priit Street 91C
+,AT,Schwechat,3793,Laureen-Nowak-Weg 135,EE,Lake Raivo,33773,Sutt Route 145A
+,EE,Sillasteberg,66820,Rein Trail 98,EE,Eveshire,98391,Tamara Trafficway 105C
+,EE,Eveshire,98391,Tamara Trafficway 105,NL,Lobith,5348 TT,Samsteeg 87C
+,AT,Schrattenthal,5869,Elisabeth-Rössler-Ring 94,NL,Punthorst,2368YL,Suzepad 34
+,EE,East Siimland,23309,Kondratjev Pike 122,AT,Ebefurth,8571,Levi-Schweiger-Weg 114
+,AT,Bad Vöslau,8890,Kainzring 49,Netherlands,Slijkenburg,9504 AE,Joëlboulevard 47
+,AT,Dürnstein,6578,Calvin-Kasper-Straße 46,NL,Bakhuizen,2328GS,Meikelaan 31
+,EE,New Valentina,32408,Suvi Springs 104,NL,Basse,5137CW,Amirabaan 48
+,AT,Traismauer,9714,Neumayerplatz 30,AT,Majriazell,5414,Matilda-Scherzer-Gasse 129
+,EE,West Anna,34769,Olga Key 51,NL,Schaijk,2940CD,Juliesingel 112
+,EE,Kuuskmouth,18589,Olga Hollow 46,AT,Mariazell,5458,Richard-GamsjÃ¤ger-Weg 134B
+,AT,Wieselburg,2431,Ellergasse 123,EE,North Romanfurt,31917,Priit Street 91C
+,EE,Alexandermouth,54606,Jaan River 88,AT,Zistersdorf,8052 ,Aleksandra-Friedrich-Straße 11
+,AT,Rottenmann,4988,Elina-Wurzer-Platz 107,NL,Simpelveld,2743 UN,Sennasteeg 120B
+,EE,Mägichester,53090,Sokolov Turnpike 148,EE,Langton,76772,Anna Inlet 146
+,AT,Altheim,2279,Manuel-Schwendinger-Weg 5,Netherlands,Nieuwe Wetering,7551 DV,Fatimasteeg 138
+,EE,Triinfurt,51891,Pukk Mission 3,EE,Viksburgh,72061 ,Viktor Points 24
+,EE,New Jelena,89190,Kristi Creek 38,AT,Dürnstein,1474 ,Grünwaldplatz 18
+,NL,Wetsens,5380 XN,Zakarialaan 46,Estonia,Aderport,41550,Nikiforov Mountains 28
+,NL,Boerakker,1371 WB,Tijnring 65,Austria,Traismauer,9714,Neumayerplatz 30
+,AT,Neulengbach,9365,Florentina-Schweitzer-Gasse 39,AT,Dürnstein,6578,Calvin-Kasper-StraÃe 46B
+,EE,Eveshire,98391,Tamara Trafficway 105,NL,Uithoorn,9783 DD,Sebastiaanhof 142C
+,NL,Kerkrade,2575 PB,Lilysingel 63,EE,Viksburgh,72061 ,Viktor Points 24
+,EE,North Marekbury,94678,Jaan Lights 107,NL,Vuren,2498UD,Aliciahof 116
+,EE,North Jekaterinastad,97935,Pavel Lock 86,AT,Frohnleiten,6578 ,Vito-Tanzer-Ring 46
+,AT,Köflach,1969,Fleischmanngasse 147,AT,Drosendorf-Zissersdorf 1,2067,MaurerstraÃe 58A
+,EE,Remmelview,87595,Nurk Forges 31,AT,Radentheein,3684,Stecherstraße 1
+,AT,Dornbirn,6636,Erhartgasse 8,AT,Sankt Valentin,2330 ,Kalteneggerring 37
+,NL,Velserbroek,7518 QF,Damianhof 129,AT,Villach,2107 ,Verena-Riedmann-Straße 92
+,EE,Õunburgh,72780,Nadežda Parkway 139,Estonia,Piretbury,76255,Laura Corners 45
+,AT,Waidhofen an der Ybbs,2963,Steinkellnergasse 54,EE,New Viktoria,59270 ,Marek Fords 19
+,NL,Ewijk,3850 RP,Lukahof 42,AT,Ternitz,7599,Blauensteinerweg 102C
+,AT,Rottenmann,6888,Maida-Kocher-Straße 11,Netherlands,Slijkenburg,9504 AE,Joëlboulevard 47
+,NL,Sleen,5361 RW,Linnbaan 30,AT,Freistadt,1267 ,Buchbergerring 81
+,AT,Gmunden,9449,Aignergasse 94,AT,Innbruck,6940,Ava-Schütz-Gasse 99
+,AT,Fürstenfeld,2510,Marvin-Jahn-Straße 111,NL,Barendrecht,9916 ZQ,Jeltesingel 32A
+,EE,New Jelena,89190,Kristi Creek 38,NL,Haen Gn,2740 RV,Merlehof 84
+,AT,Raabs an der Thaya,5206,Tim-Scholz-Weg 102,AT,Zwettl,9873,Jessica-Bachmann-StraÃe 83B
+,EE,Lake Tõnushire,94797,Aivar Street 42,Austria,Kindberg,3707,Selena-Rohrer-Gasse 137
+,EE,West Triin,45898,Nõmmik Views 107,EE,Gontšarovburgh,53738,Tiina Brooks 18B
+,AT,Radenthein,3684,Stecherstraße 1,NL,Grubbenvrst,1868 RZ,Johannasingel 43
+,NL,Slijkenburg,9504 AE,Joëlboulevard 47,Austria,Scheibbs,6984,Höflergasse 51
+,AT,Marchtrenk,4437,Hofstätterring 12,NL,De Zik,5250 EI,Sennalaan 52
+,AT,Trieben,3252,Melisa-Werner-Straße 111,NL,Wesens,5380 XN,Zakarialaan 46
+,EE,Piretbury,76255,Laura Corners 45,NL,Pietersbierum,2476 JN,Emmapad 48C
+,EE,New Valentina,32408,Suvi Springs 104,NL,Makkum,1350SM,Noortjesteeg 33
+,EE,Annaview,92404,Nadežda Spring 67,NL,Beek,8401 RT,Yaraweg 29B
+,EE,Eveshire,98391,Tamara Trafficway 105,NL,Punthorst,2368YL,Suzepad 34
+,AT,Amstetten,8952,Waldnergasse 42,Austria,Mautern an der Donau,4451,Draxlergasse 17
+,AT,Purkersdorf,1916,Henrik-Reinprecht-Straße 8,Austria,Rottenmann,6888,Maida-Kocher-Straße 11
+,AT,Oberwälz,7370,Schützstraße 103,AT,Tenritz,4294,Justin-Gross-Straße 126
+,NL,Beek,8401 RT,Yaraweg 29,AT,Schwanestadt,1006,Petra-Falkner-Straße 107
+,AT,Gänserndorf,8049,Nikolai-Scheucher-Ring 93,AT,Mattersburg,6922,UrbanstraÃe 86B
+,AT,Gmunden,5878,Winterstr. 10,AT,Wieselburg,2431 ,Ellergasse 123
+,AT,Traismauer,9714,Neumayerplatz 30,EE,Triinfurt,51891 ,Pukk Mission 3
+,AT,Dürnstein,6578,Calvin-Kasper-Straße 46,EE,South Meelis,74495,Aleksandr Pines 41A
+,AT,Schrattenthal,9535,Loiblplatz 8,Austria,Amstetten,9831,Reischlstraße 16
+,EE,Jaanusborough,52268,Diana Island 107,AT,Grieskirchen,9040 ,Alexander-Kopf-Weg 18
+,NL,Rijswijk (GLD),4124 IT,Charlottebaan 71,AT,Rottenmann,4634 ,Lara-Schön-Weg 67
+,EE,Lake Tõnushire,94797,Aivar Street 42,EE,Viktormouth,49275,Kiil Parks 137A
+,AT,Wörgl,1110,Calvin-Mitter-Straße 50,EE,Notrh Aivarstad,78822,Indrek Stream 2
+,EE,East Valentinaside,86682,Mihkel Well 135,Austria,Neunkirchen,3226,Boris-Ladner-Platz 8
+,NL,Meterik,9641 EG,Timpad 65,EE,Lake TÃµnshire,94797,Aivar Street 42
+,NL,Udenhout,8151 AR,Milanpad 127,Estonia,South Marina,83491,Kuningas Pike 147
+,EE,Indrekmouth,67144,Matvejev Orchard 138,AT,Pysdorf,9968,Reichlgasse 149
+,AT,Rottenmann,4634,Lara-Schön-Weg 67,Estonia,Andreiside,45067,Anne Stravenue 82
+,EE,Andreiside,45067,Anne Stravenue 82,EE,North Romanfurt,31917,Priit Street 91C
+,NL,Sint Jansklooster,9210 KF,Noorweg 85,NL,Grubbenvrst,1868 RZ,Johannasingel 43
+,EE,Lake Tõnushire,94797,Aivar Street 42,AT,Wieselburg,8804,Alexandra-Hartl-Ring 8C
+,AT,Baden,2908,Danilo-Mitterlehner-Gasse 113,Estonia,Aderport,41550,Nikiforov Mountains 28
+,AT,Amstetten,9831,Reischlstraße 16,AT,Dürnstein,6578,Calvin-Kasper-StraÃe 46B
+,NL,Velserbroek,7518 QF,Damianhof 129,Netherlands,Hidaard,1008 JC,Jasperhof 106
+,EE,Mägichester,53090,Sokolov Turnpike 148,AT,DÃ¼rsntein,5667,Dana-Neumayr-Straße 111
+,AT,Neulengbach,9365,Florentina-Schweitzer-Gasse 39,AT,Schwanestadt,1006,Petra-Falkner-Straße 107
+,AT,Bad Hall,9626,Voglerstr. 135,NL,Jouswiier,4694 LZ,Liseboulevard 99
+,NL,Den Horn,7237 IN,Lotpad 136,AT,Krems an der Donau,6060 ,Foidlstr. 65
+,NL,Voorburg,8196 WK,Juulsteeg 36,NL,Lobith,5348 TT,Samsteeg 87C
+,EE,Jaanusborough,52268,Diana Island 107,AT,Bischofshofen,8418 ,Stögergasse 56
+,AT,Ternitz,7599,Blauensteinerweg 102,NL,Makkum,1350SM,Noortjesteeg 33
+,AT,Sankt Pölten,2851,Timon-Ecker-Ring 43,NL,Udenhout,8151 AR,Milanpad 127C
+,NL,Blesdijke,7031 CH,Carlijnsteeg 86,AT,Purukersdorf,1916,Henrik-Reinprecht-Straße 8
+,NL,Haren Gn,2740 RV,Merlehof 84,AT,Gmunden,5878 ,Winterstr. 10
+,AT,Traismauer,9714,Neumayerplatz 30,NL,Nieuw-Weerdinge,1897 GE,Deandreef 26A
+,AT,Dürnstein,6578,Calvin-Kasper-Straße 46,EE,West Sirjetown,55098,Kolk Stream 78C
+,EE,Remmelview,87595,Nurk Forges 31,AT,Villach,2107 ,Verena-Riedmann-Straße 92
+,AT,Frohnleiten,9094,Anita-Trattner-Straße 85,EE,North Kristjan,19198 ,Tiina Fork 142
+,EE,Tõnuland,95547,Riina Gardens 123,NL,Boeraker,1371 WB,Tijnring 65
+,AT,Gmunden,9449,Aignergasse 94,NL,Wesens,5380 XN,Zakarialaan 46
+,EE,East Siimland,23309,Kondratjev Pike 122,Netherlands,Meterik,9641 EG,Timpad 65
+,NL,Tonden,6650 HE,Sophiepad 68,AT,Ebefurth,8571,Levi-Schweiger-Weg 114
+,EE,Kozlovborough,21696,Paju Court 56,NL,Ansen,8813 TF,Stefring 97C
+,NL,Haren Gn,2740 RV,Merlehof 84,NL,Velserbroek,7518 QF,Damianhof 129C
+,AT,Schwanenstadt,1006,Petra-Falkner-Straße 107,NL,Hekelinegn,8055 SW,Azraweg 17
+,NL,Nieuw-Weerdinge,1897 GE,Deandreef 26,NL,Westerhoven,4010 ND,Sebastiaanhof 113B
+,AT,Purbach am Neusiedler See,2252,Milo-Jauk-Ring 63,EE,North Jekaterinastad,97935 ,Pavel Lock 86
+,AT,Dürnstein,5667,Dana-Neumayr-Straße 111,Austria,Purbach am Neusiedler See,2252,Milo-Jauk-Ring 63
+,AT,Neunkirchen,3226,Boris-Ladner-Platz 8,NL,Echteeld,6042 AC,Berendpad 16
+,AT,Raabs an der Thaya,9317,Scharfstr. 101,EE,East Tiiuton,54724,Rand Point 116A
+,NL,Boerakker,1371 WB,Tijnring 65,Estonia,Piretbury,76255,Laura Corners 45
+,EE,North Marekbury,94678,Jaan Lights 107,AT,Gmunden,5878 ,Winterstr. 10
+,AT,Kindberg,3707,Selena-Rohrer-Gasse 137,NL,Echteeld,6042 AC,Berendpad 16
+,AT,Köflach,1969,Fleischmanngasse 147,AT,Rottenmann,4634 ,Lara-Schön-Weg 67
+,AT,Sankt Pölten,2851,Timon-Ecker-Ring 43,EE,Tiitside,89287,Valentina Stravenue 16B
+,EE,East Alexanderhaven,35134,Anne Manor 145,EE,Lakge Peeterfort,56464,Laura Ville 32
+,EE,East Sander,51250,Urb Point 70,AT,Gänserndorf,8049 ,Nikolai-Scheucher-Ring 93
+,AT,Bruck an der Leitha,3820,Larissa-Eberharter-Ring 62,Netherlands,Renesse,9458 SS,Britthof 19
+,EE,Annaview,92404,Nadežda Spring 67,NL,Farmsmu,2103 QS,Esmeeweg 105
+,EE,Lake Irinatown,86538,Laht Mews 133,EE,Vainmouth,72093 ,Aino Cape 70
+,AT,Bad Hall,9626,Voglerstr. 135,EE,Lake Andreshaven,70072 ,Nõmme Hollow 68
+,NL,Hoofddorp,5788 LP,Saarsteeg 12,EE,North iTiuville,20501,Reet Club 38
+,EE,Lake Irinatown,86538,Laht Mews 133,Estonia,New Jelena,89190,Kristi Creek 38
+,NL,Renesse,9458 SS,Britthof 19,AT,Judenburg,8262,Jennifer-Bernhard-Gasse 77C
+,EE,Aderport,41550,Nikiforov Mountains 28,AT,Fürstenfeld,9237 ,Nikolina-Kucera-Straße 39
+,EE,North Romanfurt,31917,Priit Street 91,Austria,Sankt Pölten,2851,Timon-Ecker-Ring 43
+,AT,Villach,2107,Verena-Riedmann-Straße 92,NL,De Zik,5250 EI,Sennalaan 52
+,NL,Makkum,1350 SM,Noortjesteeg 33,EE,Westt Anna,34769,Olga Key 51
+,NL,Den Horn,7237 IN,Lotpad 136,Estonia,Andreiside,45067,Anne Stravenue 82
+,EE,Toomasberg,18879,Anu Trace 90,EE,Kristiinaburrgh,43198,Reet Port 145
+,EE,North Marekbury,94678,Jaan Lights 107,EE,New Viktoria,59270 ,Marek Fords 19
+,EE,Mägichester,53090,Sokolov Turnpike 148,AT,Judenburg,8262,Jennifer-Bernhard-Gasse 77C
+,EE,West Triin,45898,Nõmmik Views 107,AT,Tmraun,9775,Igor-Grüner-Weg 111
+,EE,South Marina,83491,Kuningas Pike 147,AT,Trieben,6473 ,Frida-Yilmaz-Gasse 127
+,AT,Köflach,1969,Fleischmanngasse 147,NL,Punthrost,7086 LB,Larastraat 137
+,AT,Leibnitz,5161,Pendlring 71,AT,Fürstenfeld,9237 ,Nikolina-Kucera-Straße 39
+,AT,Oberwälz,7370,Schützstraße 103,AT,Fürstenfeld,2510 ,Marvin-Jahn-Straße 111
+,AT,Amstetten,9831,Reischlstraße 16,EE,West Triin,45898 ,Nõmmik Views 107
+,EE,Gontšarovburgh,53738,Tiina Brooks 18,EE,Reimannjtown,75020,Mäesalu Locks 135
+,AT,Waidhofen an der Ybbs,2963,Steinkellnergasse 54,Austria,Enns,6783,Reischlstr. 110
+,EE,Kozlovborough,21696,Paju Court 56,AT,Ybbs an der Donau,8336 ,Helmstr. 61
+,EE,East Siimland,23309,Kondratjev Pike 122,AT,Jennersdorf,4114,Nikola-Schwab-Ring 3B
+,NL,Tienray,9511 QK,Evelienpad 133,NL,Hoofddorp,5788 LP,Saarsteeg 12B
+,AT,Purkersdorf,1916,Henrik-Reinprecht-Straße 8,Estonia,East Valentinaside,86682,Mihkel Well 135
+,AT,Mürzzuschlag,8603,Tiffany-Wimmer-Weg 50,Estonia,New Jelena,89190,Kristi Creek 38
+,EE,Port Viktor,23734,Anu Isle 106,NL,Barendrecht,9916 ZQ,Jeltesingel 32A
+,NL,Wieringerwaard,4884 ND,Sennapad 149,EE,Vainmouth,72093 ,Aino Cape 70
+,AT,Fürstenfeld,2510,Marvin-Jahn-Straße 111,EE,Reetbury,64161 ,Kaasik Field 107
+,EE,Vainmouth,72093,Aino Cape 70,EE,Malldeton,24650,Raadik Junctions 95
+,AT,Dürnstein,1474,Grünwaldplatz 18,Austria,Neunkirchen,3226,Boris-Ladner-Platz 8
+,NL,Hekelingen,8055 SW,Azraweg 17,AT,Zistersdorf,8052 ,Aleksandra-Friedrich-Straße 11
+,NL,Basse,5137 CW,Amirabaan 48,Estonia,East Sander,51250,Urb Point 70
+,EE,Reetbury,64161,Kaasik Field 107,AT,Neulengbach,9365 ,Florentina-Schweitzer-Gasse 39
+,AT,Ternitz,4294,Justin-Gross-Straße 126,NL,Lobith,5348 TT,Samsteeg 87C
+,NL,Hoofddorp,5788 LP,Saarsteeg 12,EE,Lakge Peeterfort,56464,Laura Ville 32
+,EE,Port Viktor,23734,Anu Isle 106,NL,Tonden,6650HE,Sophiepad 68
+,AT,Leibnitz,5161,Pendlring 71,AT,Rottenmann,4988,Elina-Wurzer-Platz 107A
+,NL,Ewijk,3850 RP,Lukahof 42,AT,Ba dLeonfelden,2034,Estelle-Suppan-Platz 79
+,AT,Rottenmann,4634,Lara-Schön-Weg 67,AT,Tenritz,4294,Justin-Gross-Straße 126
+,EE,Gontšarovburgh,53738,Tiina Brooks 18,Estonia,East Valentinaside,86682,Mihkel Well 135
+,AT,Wieselburg,8804,Alexandra-Hartl-Ring 8,AT,Waidhofen an der Thaya,5432 ,Wilfingerring 135
+,NL,Lobith,5348 TT,Samsteeg 87,AT,Tenritz,4294,Justin-Gross-Straße 126
+,AT,Radenthein,3684,Stecherstraße 1,EE,Sillasteberg,66820 ,Rein Trail 98
+,AT,Neulengbach,1341,Haasstr. 75,AT,Pregarten,5773,Karoline-Horak-Gasse 146C
+,AT,Innsbruck,2915,Leopold-Krainer-Platz 29,EE,North Kristia,78705,Rätsep Mill 49
+,AT,Zistersdorf,8052,Aleksandra-Friedrich-Straße 11,Estonia,Annaview,19618,Aino Divide 11
+,AT,Landeck,2308,Fitzstraße 14,Netherlands,Voorburg,8196 WK,Juulsteeg 36
+,NL,Renesse,9458 SS,Britthof 19,NL,Velserbroek,7518 QF,Damianhof 129C
+,AT,Oberwälz,7370,Schützstraße 103,NL,Achtmaal,7277 QZ,Suzeweg 129C
+,EE,Tuulikstad,28046,Novikov Place 120,NL,Echteld,7621 AK,Bilalring 122A
+,AT,Ferlach,6055,Fernando-Polzer-Platz 77,Estonia,Aderport,41550,Nikiforov Mountains 28
+,AT,Mautern an der Donau,4451,Draxlergasse 17,AT,Bruck an der Leitha,3820,Larissa-Eberharter-Ring 62C
+,AT,Dürnstein,5667,Dana-Neumayr-Straße 111,Austria,Kindberg,3707,Selena-Rohrer-Gasse 137
+,EE,Port Viktor,23734,Anu Isle 106,NL,Ewsijk,3850 RP,Lukahof 42
+,NL,Broekhuizenvorst,6061 BU,Milanlaan 109,Estonia,Lake Triin,47768,Aasa Land 144
+,AT,Pregarten,5773,Karoline-Horak-Gasse 146,Estonia,Port Viktor,23734,Anu Isle 106
+,AT,Enns,6783,Reischlstr. 110,Estonia,Lake Triin,47768,Aasa Land 144
+,NL,Jouswier,4694 LZ,Liseboulevard 99,NL,Sleen,5361RW,Linnbaan 30
+,AT,Schrattenthal,5709,Elyas-Pieber-Gasse 121,Austria,Sankt Pölten,2851,Timon-Ecker-Ring 43
+,EE,Jaanusborough,52268,Diana Island 107,AT,Leibnitz,5161,Pendlring 71C
+,NL,Westerhoven,4010 ND,Sebastiaanhof 113,NL,Udenhout,8151 AR,Milanpad 127C
+,AT,Wieselburg,2431,Ellergasse 123,AT,Baden,1873 ,Barbara-Mitterlehner-Gasse 123
+,AT,Rottenmann,4988,Elina-Wurzer-Platz 107,AT,Oberwälz,7370 ,Schützstraße 103
+,EE,Aderport,41550,Nikiforov Mountains 28,Austria,Herzogenburg,9244,Josef-Haderer-Ring 12
+,NL,Den Horn,7237 IN,Lotpad 136,EE,Lake TÃµnshire,94797,Aivar Street 42
+,AT,Enns,6783,Reischlstr. 110,NL,De Zik,5250 EI,Sennalaan 52
+,NL,Tonden,6650 HE,Sophiepad 68,AT,Fürstenfeld,2510 ,Marvin-Jahn-Straße 111
+,EE,Lake Peeterfort,56464,Laura Ville 32,NL,Basse,5137CW,Amirabaan 48
+,AT,Zwettl,9873,Jessica-Bachmann-Straße 83,EE,Sillasteberg,66820 ,Rein Trail 98
+,NL,Simpelveld,2743 UN,Sennasteeg 120,AT,Schrems,6626,Matheo-Aschauer-Platz 119A
+,NL,Jouswier,4694 LZ,Liseboulevard 99,AT,Pysdorf,9968,Reichlgasse 149
+,EE,West Triin,45898,Nõmmik Views 107,NL,Mnster,6397 YM,Joepboulevard 18
+,AT,Ebenfurth,8571,Levi-Schweiger-Weg 114,AT,Pregarten,5773,Karoline-Horak-Gasse 146C
+,AT,Mattersburg,6922,Urbanstraße 86,AT,Fürstenfeld,2510 ,Marvin-Jahn-Straße 111
+,AT,Zistersdorf,8052,Aleksandra-Friedrich-Straße 11,Estonia,East Anneburgh,58498,Luik Garden 129
+,NL,Kerkrade,2575 PB,Lilysingel 63,NL,Bakhuizen,2328GS,Meikelaan 31
+,NL,Vuren,2498 UD,Aliciahof 116,NL,Pietersbierum,2476 JN,Emmapad 48C
+,AT,Zwettl,9873,Jessica-Bachmann-Straße 83,AT,Ebefurth,8571,Levi-Schweiger-Weg 114
+,NL,Lobith,5348 TT,Samsteeg 87,EE,North Jekaterinastad,97935 ,Pavel Lock 86
+,AT,Schrems,5265,Richard-Dorner-Weg 104,NL,Achtmaal,7277 QZ,Suzeweg 129C
+,AT,Gmunden,5878,Winterstr. 10,AT,Bda Hall,7287,Fritschstraße 10
+,EE,Lake Peeterfort,56464,Laura Ville 32,Austria,Enns,6783,Reischlstr. 110
+,EE,Port Alekseiland,37382,Aino Plains 117,AT,Freistadt,1267 ,Buchbergerring 81
+,EE,Indrekmouth,67144,Matvejev Orchard 138,NL,Oppenhuizen,7639KX,Milahof 74
+,EE,North Aivarstad,78822,Indrek Stream 2,Austria,Altheim,2279,Manuel-Schwendinger-Weg 5
+,AT,Ebenfurth,8571,Levi-Schweiger-Weg 114,AT,Ba dLeonfelden,2034,Estelle-Suppan-Platz 79
+,NL,Ewijk,3850 RP,Lukahof 42,NL,Beek,8401 RT,Yaraweg 29B
+,NL,Wehl,3890 QA,Martsingel 139,NL,Rjswijk (GLD),4124 IT,Charlottebaan 71
+,NL,Punthorst,7086 LB,Larastraat 137,AT,Trieben,6473 ,Frida-Yilmaz-Gasse 127
+,NL,Rijswijk (GLD),4124 IT,Charlottebaan 71,NL,Echteld,7621 AK,Bilalring 122A
+,AT,Poysdorf,9968,Reichlgasse 149,AT,Mattesrburg,3850,Jasmine-Puntigam-Platz 74
+,AT,Trieben,3252,Melisa-Werner-Straße 111,NL,Nieuwe Pekela,2569 KW,Rikdreef 97B
+,AT,Ternitz,7599,Blauensteinerweg 102,EE,Ãunubrgh,72780,Nadežda Parkway 139
+,AT,Schrems,5265,Richard-Dorner-Weg 104,Estonia,Toomasberg,18879,Anu Trace 90
+,NL,Makkum,1350 SM,Noortjesteeg 33,Austria,Frohnleiten,9094,Anita-Trattner-Straße 85
+,AT,Oberpullendorf,5724,Weissplatz 30,NL,Mnster,6397 YM,Joepboulevard 18
+,NL,Venhorst,1059 KC,Mikastraat 133,AT,Majriazell,5414,Matilda-Scherzer-Gasse 129
+,AT,Stadtschlaining,3202,Joshua-Holzmann-Ring 35,NL,Oppenhuizen,7639KX,Milahof 74
+,NL,Uithoorn,9783 DD,Sebastiaanhof 142,NL,Punthrost,7086 LB,Larastraat 137
+,NL,Uithoorn,9783 DD,Sebastiaanhof 142,AT,Badn,2908,Danilo-Mitterlehner-Gasse 113
+,AT,Poysdorf,9968,Reichlgasse 149,EE,Lake Dianasttad,99041,Tatiana Viaduct 72
+,EE,Lake Tõnushire,94797,Aivar Street 42,AT,Wörgl,1110 ,Calvin-Mitter-Straße 50
+,EE,Annaview,92404,Nadežda Spring 67,NL,Deesst,4644 TX,Mayastraat 90
+,NL,Grubbenvorst,1868 RZ,Johannasingel 43,EE,Langton,76772,Anna Inlet 146
+,AT,Rottenmann,4634,Lara-Schön-Weg 67,AT,Mattersburg,6922,UrbanstraÃe 86B
+,AT,Sankt Valentin,2330,Kalteneggerring 37,AT,Schrems,6626,Matheo-Aschauer-Platz 119A
+,NL,Monster,6397 YM,Joepboulevard 18,NL,Wehl,3890QA,Martsingel 139
+,EE,Jaanusborough,52268,Diana Island 107,AT,Leibnitz,7672,Doblerplatz 23B
+,AT,Innsbruck,2915,Leopold-Krainer-Platz 29,AT,Bruck an der Leitha,3820,Larissa-Eberharter-Ring 62C
+,NL,Velserbroek,7518 QF,Damianhof 129,EE,Eveshire,98391,Tamara Trafficway 105C
+,NL,Punthorst,7086 LB,Larastraat 137,NL,Blokzijl,8697EV,Madeliefstraat 141
+,AT,Poysdorf,9968,Reichlgasse 149,NL,Lobith,5348 TT,Samsteeg 87C
+,AT,Althofen,6456,Pachlergasse 7,Netherlands,Nieuwe Wetering,7551 DV,Fatimasteeg 138
+,AT,Mürzzuschlag,8603,Tiffany-Wimmer-Weg 50,NL,De Zik,5250 EI,Sennalaan 52
+,EE,North Marekbury,94678,Jaan Lights 107,Austria,Enns,6783,Reischlstr. 110
+,AT,Dornbirn,6636,Erhartgasse 8,Austria,Mank,3433,Voglring 145
+,AT,Schrattenthal,9535,Loiblplatz 8,AT,Allthofen,6456,Pachlergasse 7
+,AT,Bruck an der Leitha,3820,Larissa-Eberharter-Ring 62,AT,Ba dLeonfelden,2034,Estelle-Suppan-Platz 79
+,NL,Broekhuizenvorst,6061 BU,Milanlaan 109,NL,Udenhout,8151 AR,Milanpad 127C
+,EE,Lake Peeterfort,56464,Laura Ville 32,Austria,Amstetten,9831,Reischlstraße 16
+,NL,Achtmaal,7277 QZ,Suzeweg 129,NL,Waspe,6493 TX,Aaliyahdreef 118
+,EE,North Irinaborough,12187,Priit Mount 91,Austria,Oberpullendorf,5724,Weissplatz 30
+,EE,Remmelview,87595,Nurk Forges 31,Austria,Schrattenthal,9535,Loiblplatz 8
+,NL,Rijswijk (GLD),4124 IT,Charlottebaan 71,NL,Echteeld,6042 AC,Berendpad 16
+,NL,Achtmaal,7277 QZ,Suzeweg 129,AT,Mariazell,5458,Richard-GamsjÃ¤ger-Weg 134B
+,AT,Retz,6077,Steinlechnerring 79,NL,Echteeld,6042 AC,Berendpad 16
+,NL,Sleen,5361 RW,Linnbaan 30,AT,Leibnitz,5161,Pendlring 71C
+,AT,Baden,1873,Barbara-Mitterlehner-Gasse 123,EE,East Tiiuton,54724,Rand Point 116A
+,AT,Ternitz,4294,Justin-Gross-Straße 126,Austria,Schärding,6152,Sabine-Burtscher-Gasse 108
+,AT,Leoben,7362,Konstantin-Koller-Ring 94,AT,Bad Vöslau,8890 ,Kainzring 49
+,AT,Gmunden,5878,Winterstr. 10,Austria,Enns,6783,Reischlstr. 110
+,AT,Mank,9672,Hoferplatz 2,EE,North Kristina,64165 ,Kilk Corner 132
+,NL,Lobith,5348 TT,Samsteeg 87,EE,West Triin,45898 ,Nõmmik Views 107
+,EE,North Romanfurt,31917,Priit Street 91,EE,Triinfurt,51891 ,Pukk Mission 3
+,EE,Viksburgh,72061,Viktor Points 24,Netherlands,Westerbroek,8337 QD,Fennasteeg 133
+,EE,New Jelena,89190,Kristi Creek 38,Austria,Schrattenthal,5709,Elyas-Pieber-Gasse 121
+,AT,Mattersburg,6922,Urbanstraße 86,NL,Jouswiier,4694 LZ,Liseboulevard 99
+,EE,Lake Dianastad,99041,Tatiana Viaduct 72,AT,Judenburg,8262,Jennifer-Bernhard-Gasse 77C
+,AT,Herzogenburg,9244,Josef-Haderer-Ring 12,EE,Lake Dianasttad,99041,Tatiana Viaduct 72
+,EE,Kozlovborough,21696,Paju Court 56,Estonia,Lake Triin,47768,Aasa Land 144
+,NL,Blokzijl,8697 EV,Madeliefstraat 141,Austria,Purbach am Neusiedler See,2252,Milo-Jauk-Ring 63
+,NL,Oppenhuizen,7639 KX,Milahof 74,EE,Kuuskmouth,18589,Olga Hollow 46A
+,AT,Hartberg,4189,Arda-Haindl-Ring 86,AT,Wörgl,1110 ,Calvin-Mitter-Straße 50
+,NL,Westerbroek,8337 QD,Fennasteeg 133,Netherlands,Hidaard,1008 JC,Jasperhof 106
+,EE,North Romanfurt,31917,Priit Street 91,NL,'s-Graveland,5492CV,Mikepad 33
+,AT,Dürnstein,5667,Dana-Neumayr-Straße 111,AT,Leoben,7362 ,Konstantin-Koller-Ring 94
+,NL,Blesdijke,7031 CH,Carlijnsteeg 86,NL,Punthrost,7086 LB,Larastraat 137
+,NL,Wieringerwaard,4884 ND,Sennapad 149,EE,Lake Irinatown,86538 ,Laht Mews 133
+,EE,Mägichester,53090,Sokolov Turnpike 148,AT,Bruck an der Leitha,3820,Larissa-Eberharter-Ring 62C
+,NL,Basse,5137 CW,Amirabaan 48,Netherlands,Westerbroek,8337 QD,Fennasteeg 133
+,EE,Port Viktor,23734,Anu Isle 106,AT,Mattesrburg,3850,Jasmine-Puntigam-Platz 74
+,EE,Lake Raivo,33773,Sutt Route 145,NL,Nieuwe Pekela,2569 KW,Rikdreef 97B
+,EE,Lake Peeterfort,56464,Laura Ville 32,AT,Wieselburg,2431 ,Ellergasse 123
+,AT,Traun,9775,Igor-Grüner-Weg 111,EE,Notrh Aivarstad,78822,Indrek Stream 2
+,AT,Altheim,2279,Manuel-Schwendinger-Weg 5,AT,Ybbs an der Donau,8336 ,Helmstr. 61
+,AT,Leibnitz,5161,Pendlring 71,AT,Neulengbach,1341,Haasstr. 75B
+,NL,Haren Gn,2740 RV,Merlehof 84,EE,West Mihkelton,89155,Maslov Walk 8A
+,AT,Bad Radkersburg,2617,Wöhrerplatz 23,NL,Pietersbierum,2476 JN,Emmapad 48C
+,NL,Haren Gn,2740 RV,Merlehof 84,Austria,Rottenmann,2285,Madeleine-Teufl-Ring 6
+,NL,Simpelveld,2743 UN,Sennasteeg 120,EE,Ãunubrgh,72780,Nadežda Parkway 139
+,EE,Piretbury,76255,Laura Corners 45,EE,East Tiiuton,54724,Rand Point 116A
+,NL,Wehl,3890 QA,Martsingel 139,NL,Vehorst,1059 KC,Mikastraat 133
+,AT,Jennersdorf,4114,Nikola-Schwab-Ring 3,AT,Trieben,3252 ,Melisa-Werner-Straße 111
+,NL,Deest,4644 TX,Mayastraat 90,AT,Baden,1873 ,Barbara-Mitterlehner-Gasse 123
+,EE,Piretbury,76255,Laura Corners 45,EE,East Alexanderhavne,35134,Anne Manor 145
+,AT,Oberpullendorf,5724,Weissplatz 30,NL,Laag-Keppel,5912 EL,Emmabaan 11B
+,AT,Klagenfurt,4852,Klausring 2,EE,Sillasteberg,66820 ,Rein Trail 98
+,AT,Schrattenthal,5709,Elyas-Pieber-Gasse 121,AT,Waidhofen an der Thaya,5432 ,Wilfingerring 135
+,EE,New Viktoria,59270,Marek Fords 19,Austria,Raabs an der Thaya,5206,Tim-Scholz-Weg 102
+,AT,Ebenfurth,8571,Levi-Schweiger-Weg 114,AT,Trieben,6473 ,Frida-Yilmaz-Gasse 127
+,NL,Westerhoven,4010 ND,Sebastiaanhof 113,Estonia,New Jelena,89190,Kristi Creek 38
+,AT,Mürzzuschlag,8603,Tiffany-Wimmer-Weg 50,AT,Waidhofen an der Thaya,5432 ,Wilfingerring 135
+,AT,Mariazell,5458,Richard-Gamsjäger-Weg 134,Netherlands,Renesse,9458 SS,Britthof 19
+,NL,Uithoorn,9783 DD,Sebastiaanhof 142,AT,Zistersdorf,8052 ,Aleksandra-Friedrich-Straße 11
+,NL,Rijswijk (GLD),4124 IT,Charlottebaan 71,NL,Den Horn,7237IN,Lotpad 136
+,AT,Stadtschlaining,3202,Joshua-Holzmann-Ring 35,NL,Hekelinegn,8055 SW,Azraweg 17
+,NL,Schaijk,2940 CD,Juliesingel 112,EE,Malldeton,24650,Raadik Junctions 95
+,EE,Lake Raivo,33773,Sutt Route 145,NL,Nieuw-Weerdinge,1897 GE,Deandreef 26A
+,AT,Mürzzuschlag,8603,Tiffany-Wimmer-Weg 50,NL,Nieuwe Pekela,2569 KW,Rikdreef 97B
+,NL,Udenhout,8151 AR,Milanpad 127,AT,Althofen,2500 ,Mark-Rossmann-Ring 140
+,NL,Beerze,2439 GU,Pepijnsteeg 115,Austria,Raabs an der Thaya,5206,Tim-Scholz-Weg 102
+,EE,Tõnuland,95547,Riina Gardens 123,AT,Ybbs an der Donau,8336 ,Helmstr. 61
+,EE,South Marina,83491,Kuningas Pike 147,Austria,Retz,6077,Steinlechnerring 79
+,EE,West Mihkelton,89155,Maslov Walk 8,NL,Echteeld,6042 AC,Berendpad 16
+,AT,Grieskirchen,9040,Alexander-Kopf-Weg 18,EE,Sillasteberg,66820 ,Rein Trail 98
+,AT,Althofen,6456,Pachlergasse 7,AT,Rnadenthein,7127,Benjamin-Tischler-Platz 73
+,NL,Hoofddorp,5788 LP,Saarsteeg 12,NL,Keerkrade,2575 PB,Lilysingel 63
+,AT,Baden,1873,Barbara-Mitterlehner-Gasse 123,Estonia,Alexandermouth,54606,Jaan River 88
+,EE,Tiitside,89287,Valentina Stravenue 16,EE,Port Alekseiand,37382,Aino Plains 117
+,AT,Radenthein,3684,Stecherstraße 1,NL,Boeraker,1371 WB,Tijnring 65
+,AT,Grieskirchen,9040,Alexander-Kopf-Weg 18,AT,Ebefurth,8571,Levi-Schweiger-Weg 114
+,NL,Blokzijl,8697 EV,Madeliefstraat 141,Austria,Mürzzuschlag,8603,Tiffany-Wimmer-Weg 50
+,EE,Port Alekseiland,37382,Aino Plains 117,Netherlands,Angeren,9800 AU,Daniweg 69
+,EE,West Mihkelton,89155,Maslov Walk 8,Estonia,Tõnuland,95547,Riina Gardens 123
+,EE,Tiitside,89287,Valentina Stravenue 16,NL,Tienray,9511QK,Evelienpad 133
+,AT,Dornbirn,6636,Erhartgasse 8,EE,Sillasteberg,66820 ,Rein Trail 98
+,AT,Mattersburg,3850,Jasmine-Puntigam-Platz 74,EE,North Irinaborough,12187,Priit Mount 91B
+,NL,Renesse,9458 SS,Britthof 19,Estonia,Port Viktor,23734,Anu Isle 106
+,AT,Schrems,6626,Matheo-Aschauer-Platz 119,Austria,Schrattenthal,5709,Elyas-Pieber-Gasse 121
+,EE,East Siimland,23309,Kondratjev Pike 122,AT,Radentheein,3684,Stecherstraße 1
+,EE,Indrekmouth,67144,Matvejev Orchard 138,AT,Schrems,5265,Richard-Dorner-Weg 104B
+,AT,Oberwälz,7370,Schützstraße 103,Estonia,Kasemaabury,83887,Tiiu Port 116
+,EE,Tuulikstad,28046,Novikov Place 120,AT,Köflach,1969,Fleischmanngasse 147B
+,AT,Radenthein,7127,Benjamin-Tischler-Platz 73,Estonia,North Marekbury,94678,Jaan Lights 107
+,AT,Marchtrenk,4437,Hofstätterring 12,Austria,Oberndorf bei Salzburg,5038,Luise-Reiter-Ring 102
+,NL,Sleen,5361 RW,Linnbaan 30,NL,Keerkrade,2575 PB,Lilysingel 63
+,AT,Waidhofen an der Thaya,5432,Wilfingerring 135,NL,Ansen,8813 TF,Stefring 97C
+,AT,Dürnstein,5667,Dana-Neumayr-Straße 111,NL,Ewsijk,3850 RP,Lukahof 42
+,AT,Villach,2107,Verena-Riedmann-Straße 92,AT,Ternitz,7599,Blauensteinerweg 102C
+,EE,West Triin,45898,Nõmmik Views 107,Austria,Sankt Pölten,2851,Timon-Ecker-Ring 43
+,EE,Viktormouth,49275,Kiil Parks 137,AT,Sankt Valentin,2330 ,Kalteneggerring 37
+,AT,Baden,1873,Barbara-Mitterlehner-Gasse 123,Netherlands,Hidaard,1008 JC,Jasperhof 106
+,NL,Sleen,5361 RW,Linnbaan 30,AT,Althofen,2500 ,Mark-Rossmann-Ring 140
+,AT,Schrattenthal,9535,Loiblplatz 8,AT,Tmraun,9775,Igor-Grüner-Weg 111
+,AT,Bad Leonfelden,2034,Estelle-Suppan-Platz 79,EE,East Tiiuton,54724,Rand Point 116A
+,AT,Ybbs an der Donau,8336,Helmstr. 61,Austria,Oberndorf bei Salzburg,5038,Luise-Reiter-Ring 102
+,NL,Westerbroek,8337 QD,Fennasteeg 133,EE,Lake Irinatown,86538 ,Laht Mews 133
+,AT,Trieben,3252,Melisa-Werner-Straße 111,AT,Frohnleiten,6578 ,Vito-Tanzer-Ring 46
+,NL,Egmond-Binnen,6400 YE,Gerritring 67,AT,Wieselburg,2431 ,Ellergasse 123
+,EE,Port Alekseiland,37382,Aino Plains 117,AT,Rnadenthein,7127,Benjamin-Tischler-Platz 73
+,NL,Udenhout,8151 AR,Milanpad 127,AT,Landeck,2308,FitzstraÃe 14C
+,EE,Lake Dianastad,99041,Tatiana Viaduct 72,Austria,Oberpullendorf,5724,Weissplatz 30
+,AT,Radenthein,7127,Benjamin-Tischler-Platz 73,EE,New Viktoria,59270 ,Marek Fords 19
+,AT,Amstetten,9831,Reischlstraße 16,AT,Leoben,7362 ,Konstantin-Koller-Ring 94
+,NL,Kerkrade,2575 PB,Lilysingel 63,NL,Velserbroek,7518 QF,Damianhof 129C
+,EE,Remmelview,87595,Nurk Forges 31,Netherlands,Slijkenburg,9504 AE,Joëlboulevard 47
+,NL,Monster,6397 YM,Joepboulevard 18,Austria,Herzogenburg,9244,Josef-Haderer-Ring 12
+,NL,Echteld,6042 AC,Berendpad 16,Netherlands,Hidaard,1008 JC,Jasperhof 106
+,AT,Marchtrenk,4437,Hofstätterring 12,NL,Lobith,5348 TT,Samsteeg 87C
+,NL,Den Horn,7237 IN,Lotpad 136,AT,Rnadenthein,7127,Benjamin-Tischler-Platz 73
+,AT,Bad Hall,9626,Voglerstr. 135,Austria,Völkermarkt,7251,John-Varga-Straße 113
+,EE,North Jekaterinastad,97935,Pavel Lock 86,NL,Haen Gn,2740 RV,Merlehof 84
+,AT,Wieselburg,8804,Alexandra-Hartl-Ring 8,Estonia,East Valentinaside,86682,Mihkel Well 135
+,NL,Ansen,8813 TF,Stefring 97,EE,Notrh Aivarstad,78822,Indrek Stream 2
+,AT,Frohnleiten,9094,Anita-Trattner-Straße 85,Austria,Amstetten,8952,Waldnergasse 42
+,EE,Toomasberg,18879,Anu Trace 90,AT,Dürnstein,1474 ,Grünwaldplatz 18
+,AT,Gmunden,9449,Aignergasse 94,AT,Bad Hall,9626,Voglerstr. 135A
+,NL,Venhorst,1059 KC,Mikastraat 133,EE,North Romanfurt,31917,Priit Street 91C
+,NL,Wetsens,5380 XN,Zakarialaan 46,NL,Nieuwe Pekela,2569 KW,Rikdreef 97B
+,EE,Toomasberg,18879,Anu Trace 90,AT,Mariazell,5458,Richard-GamsjÃ¤ger-Weg 134B
+,NL,Broekhuizenvorst,6061 BU,Milanlaan 109,AT,Bischofshofen,8418 ,Stögergasse 56
+,AT,Traun,9775,Igor-Grüner-Weg 111,NL,Hoofddorp,5788 LP,Saarsteeg 12B
+,AT,Drosendorf-Zissersdorf 1,2067,Maurerstraße 58,Austria,Amstetten,9831,Reischlstraße 16
+,AT,Dürnstein,1474,Grünwaldplatz 18,NL,Echteeld,6042 AC,Berendpad 16
+,AT,Traismauer,9714,Neumayerplatz 30,NL,Ansen,8813 TF,Stefring 97C
+,AT,Mariazell,5414,Matilda-Scherzer-Gasse 129,Austria,Purbach am Neusiedler See,2252,Milo-Jauk-Ring 63
+,EE,Gontšarovburgh,53738,Tiina Brooks 18,NL,Mander,9197HA,Mehmetstraat 86
+,AT,Trieben,6473,Frida-Yilmaz-Gasse 127,EE,Annaview,92404,NadeÅ¾da Spring 67C
+,EE,West Anna,34769,Olga Key 51,NL,Udenhout,8151 AR,Milanpad 127C
+,NL,Lobith,5348 TT,Samsteeg 87,AT,Majriazell,5414,Matilda-Scherzer-Gasse 129
+,NL,Nieuw-Weerdinge,1897 GE,Deandreef 26,EE,Lakge Peeterfort,56464,Laura Ville 32
+,EE,Kristiinaburgh,43198,Reet Port 145,EE,Lakge Peeterfort,56464,Laura Ville 32
+,AT,Ternitz,4294,Justin-Gross-Straße 126,Austria,Amstetten,9831,Reischlstraße 16
+,EE,South Marina,83491,Kuningas Pike 147,AT,Innbruck,6940,Ava-Schütz-Gasse 99
+,NL,Tienray,9511 QK,Evelienpad 133,EE,North Kristina,64165 ,Kilk Corner 132
+,EE,Pulkmouth,57994,Kalmus Trail 111,AT,Groß-Enzersdorf,5588 ,Katharina-Stecher-Ring 136
+,EE,Remmelview,87595,Nurk Forges 31,AT,Bischofshofen,8418 ,Stögergasse 56
+,AT,Mank,3433,Voglring 145,Netherlands,Nieuwe Wetering,7551 DV,Fatimasteeg 138
+,EE,South Meelis,74495,Aleksandr Pines 41,Estonia,Kasemaabury,83887,Tiiu Port 116
+,AT,Leibnitz,7672,Doblerplatz 23,EE,Annuscehster,41165,Laas Stream 41
+,NL,Echteld,7621 AK,Bilalring 122,NL,Punthrost,7086 LB,Larastraat 137
+,AT,Rottenmann,2285,Madeleine-Teufl-Ring 6,AT,Bischofshofen,8418 ,Stögergasse 56
+,AT,Bruck an der Leitha,3820,Larissa-Eberharter-Ring 62,NL,Boeraker,1371 WB,Tijnring 65
+,EE,West Andrei,67560,Jelena Rapid 28,NL,Keerkrade,2575 PB,Lilysingel 63
+,AT,Leibnitz,5161,Pendlring 71,Netherlands,IJsselham,7370 DH,Merelhof 1
+,AT,Fürstenfeld,2510,Marvin-Jahn-Straße 111,AT,Rnadenthein,7127,Benjamin-Tischler-Platz 73
+,EE,Piretbury,76255,Laura Corners 45,NL,Sint Jansklooster,9210KF,Noorweg 85
+,AT,Dürnstein,1474,Grünwaldplatz 18,EE,North Romanfurt,31917,Priit Street 91C
+,NL,Egmond-Binnen,6400 YE,Gerritring 67,EE,Lake TÃµnshire,94797,Aivar Street 42
+,NL,Rijswijk (GLD),4124 IT,Charlottebaan 71,EE,Viksburgh,72061 ,Viktor Points 24
+,EE,Lake Irinatown,86538,Laht Mews 133,NL,Blokzijl,8697EV,Madeliefstraat 141
+,NL,Sint Jansklooster,9210 KF,Noorweg 85,NL,Waspe,6493 TX,Aaliyahdreef 118
+,NL,Nieuwe Wetering,7551 DV,Fatimasteeg 138,Austria,Bad Radkersburg,2617,Wöhrerplatz 23
+,NL,Tienray,9511 QK,Evelienpad 133,NL,Makkum,1350SM,Noortjesteeg 33
+,NL,Achtmaal,7277 QZ,Suzeweg 129,EE,East Tiiuton,54724,Rand Point 116A
+,NL,Venhorst,1059 KC,Mikastraat 133,AT,Jennersdorf,4114,Nikola-Schwab-Ring 3B
+,EE,Piretbury,76255,Laura Corners 45,AT,Rnadenthein,7127,Benjamin-Tischler-Platz 73
+,EE,Mägichester,53090,Sokolov Turnpike 148,EE,Westt Anna,34769,Olga Key 51
+,EE,New Viktoria,59270,Marek Fords 19,Austria,Rottenmann,6888,Maida-Kocher-Straße 11
+,EE,Lake Andreshaven,70072,Nõmme Hollow 68,AT,Kuafstein,2617,Dana-Edlinger-Straße 95
+,EE,West Sirjetown,55098,Kolk Stream 78,Estonia,Piretbury,76255,Laura Corners 45
+,AT,Neulengbach,9365,Florentina-Schweitzer-Gasse 39,Austria,Purbach am Neusiedler See,2252,Milo-Jauk-Ring 63
+,AT,Kufstein,2617,Dana-Edlinger-Straße 95,EE,Lake Irinatown,86538 ,Laht Mews 133
+,NL,Achtmaal,7277 QZ,Suzeweg 129,NL,Keerkrade,2575 PB,Lilysingel 63
+,NL,Wieringerwaard,4884 ND,Sennapad 149,Austria,Amstetten,8952,Waldnergasse 42
+,NL,Jouswier,4694 LZ,Liseboulevard 99,Estonia,Alexandermouth,54606,Jaan River 88
+,AT,Frohnleiten,6578,Vito-Tanzer-Ring 46,AT,Bda Hall,7287,Fritschstraße 10
+,AT,Rottenmann,6888,Maida-Kocher-Straße 11,EE,South Meelis,74495,Aleksandr Pines 41A
+,NL,Slijkenburg,9504 AE,Joëlboulevard 47,NL,Rjswijk (GLD),4124 IT,Charlottebaan 71
+,AT,Völkermarkt,7251,John-Varga-Straße 113,EE,Viktormouth,49275,Kiil Parks 137A
+,AT,Kufstein,2617,Dana-Edlinger-Straße 95,AT,Sankt Valentin,2330 ,Kalteneggerring 37
+,NL,Slijkenburg,9504 AE,Joëlboulevard 47,EE,Reetbury,64161 ,Kaasik Field 107
+,AT,Stadtschlaining,3202,Joshua-Holzmann-Ring 35,EE,Viksburgh,72061 ,Viktor Points 24
+,AT,Völkermarkt,7251,John-Varga-Straße 113,NL,Nieuwe Pekela,2569 KW,Rikdreef 97B
+,EE,East Juri,74582,Pavel Radial 80,AT,Mank,9672 ,Hoferplatz 2
+,EE,Jevgenifort,84956,Kadri Island 34,NL,Trijpscompagnie,8550 YW,Veerlehof 31
+,AT,Grieskirchen,9040,Alexander-Kopf-Weg 18,Austria,Bad Radkersburg,2617,Wöhrerplatz 23
+,AT,Völkermarkt,7251,John-Varga-Straße 113,AT,Ebefurth,8571,Levi-Schweiger-Weg 114
+,EE,East Anneburgh,58498,Luik Garden 129,Estonia,Urmasland,21111,Anna Fork 68
+,AT,Gföhl,7399,Rosa-Sorger-Straße 82,Netherlands,Hidaard,1008 JC,Jasperhof 106
+,EE,North Kristina,78705,Rätsep Mill 49,Estonia,Piretbury,76255,Laura Corners 45
+,AT,Rottenmann,6888,Maida-Kocher-Straße 11,AT,Wiener Neustadt,1976,Kernring 18C
+,EE,North Aivarstad,78822,Indrek Stream 2,AT,Bad Hall,9626,Voglerstr. 135A
+,EE,West Mihkelton,89155,Maslov Walk 8,AT,Pysdorf,9968,Reichlgasse 149
+,AT,Gföhl,7399,Rosa-Sorger-Straße 82,EE,Tuulikstad,28046,Novikov Place 120C
+,EE,Piretbury,76255,Laura Corners 45,EE,Reetbury,64161 ,Kaasik Field 107
+,NL,Westerbroek,8337 QD,Fennasteeg 133,AT,Oberndorf bei Slazburg,2976,Franz-Marx-Straße 1
+,NL,Deest,4644 TX,Mayastraat 90,Estonia,Toomasberg,18879,Anu Trace 90
+,NL,Hekelingen,8055 SW,Azraweg 17,NL,Punthorst,2368YL,Suzepad 34
+,AT,Sankt Pölten,2851,Timon-Ecker-Ring 43,NL,Tienray,9511QK,Evelienpad 133
+,AT,Zwettl,9873,Jessica-Bachmann-Straße 83,Austria,Oberndorf bei Salzburg,5038,Luise-Reiter-Ring 102
+,EE,Sergejevmouth,87483,Toots Ridges 101,EE,East Juri,74582 ,Pavel Radial 80
+,NL,Angeren,9800 AU,Daniweg 69,NL,Wesens,5380 XN,Zakarialaan 46
+,EE,South Meelis,74495,Aleksandr Pines 41,Estonia,East Valentinaside,86682,Mihkel Well 135
+,EE,East Siimland,23309,Kondratjev Pike 122,AT,Gföhl,7399 ,Rosa-Sorger-Straße 82
+,EE,Malleton,24650,Raadik Junctions 95,AT,Drosendorf-Zissersdorf 1,2067,MaurerstraÃe 58A
+,NL,Uithoorn,9783 DD,Sebastiaanhof 142,NL,Jouswiier,4694 LZ,Liseboulevard 99
+,AT,Traun,9775,Igor-Grüner-Weg 111,Estonia,Ülleview,82106,Valeri Locks 82
+,AT,Gmunden,3043,Marie-Jung-Ring 148,EE,Kozlovborough,21696,Paju Court 56B
+,NL,Achtmaal,7277 QZ,Suzeweg 129,AT,Drosendorf-Zissersdorf 1,2067,MaurerstraÃe 58A
+,AT,Neulengbach,1341,Haasstr. 75,AT,Ba dLeonfelden,2034,Estelle-Suppan-Platz 79
+,NL,Blesdijke,7031 CH,Carlijnsteeg 86,AT,Bischofshofen,8418 ,Stögergasse 56
+,EE,Annaview,19618,Aino Divide 11,AT,Ba dLeonfelden,2034,Estelle-Suppan-Platz 79
+,AT,Mautern an der Donau,4451,Draxlergasse 17,Estonia,Alexandermouth,54606,Jaan River 88
+,AT,Mank,3433,Voglring 145,NL,Hekelinegn,8055 SW,Azraweg 17
+,NL,Makkum,1350 SM,Noortjesteeg 33,EE,Jaanusborough,52268,Diana Island 107C
+,EE,Annaview,92404,Nadežda Spring 67,AT,Schrems,5265,Richard-Dorner-Weg 104B
+,NL,Meterik,9641 EG,Timpad 65,NL,Blokzijl,8697EV,Madeliefstraat 141
+,NL,Wehl,3890 QA,Martsingel 139,NL,Egmound-Binnen,6400 YE,Gerritring 67
+,AT,Leibnitz,7672,Doblerplatz 23,NL,Schaijk,2940CD,Juliesingel 112
+,NL,Venhorst,1059 KC,Mikastraat 133,AT,Dornbirn,6636 ,Erhartgasse 8
+,EE,Indrekmouth,67144,Matvejev Orchard 138,NL,Nieuw-Weerdinge,1897 GE,Deandreef 26A
+,AT,Innsbruck,2915,Leopold-Krainer-Platz 29,Estonia,South Marina,83491,Kuningas Pike 147
+,AT,Sankt Pölten,2851,Timon-Ecker-Ring 43,NL,Blokzijl,8697EV,Madeliefstraat 141
+,EE,Viksburgh,72061,Viktor Points 24,Austria,Purbach am Neusiedler See,2252,Milo-Jauk-Ring 63
+,EE,Tuulikstad,28046,Novikov Place 120,AT,Kuafstein,2617,Dana-Edlinger-Straße 95
+,AT,Kindberg,3707,Selena-Rohrer-Gasse 137,AT,DÃ¼rsntein,5667,Dana-Neumayr-Straße 111
+,EE,Tuulikstad,28046,Novikov Place 120,Austria,Oberpullendorf,5724,Weissplatz 30
+,EE,West Triin,45898,Nõmmik Views 107,NL,Wehl,3890QA,Martsingel 139
+,EE,North Kristjan,19198,Tiina Fork 142,EE,Viktormouth,49275,Kiil Parks 137A
+,EE,Lake Triin,47768,Aasa Land 144,AT,Bad Vöslau,8890 ,Kainzring 49
+,EE,Lake Peeterfort,56464,Laura Ville 32,NL,Hekelinegn,8055 SW,Azraweg 17
+,AT,Sankt Valentin,2330,Kalteneggerring 37,NL,Vehorst,1059 KC,Mikastraat 133
+,NL,Nieuw-Weerdinge,1897 GE,Deandreef 26,NL,Udenhout,8151 AR,Milanpad 127C
+,NL,Blokzijl,8697 EV,Madeliefstraat 141,EE,Annuscehster,41165,Laas Stream 41
+,AT,Fürstenfeld,2510,Marvin-Jahn-Straße 111,NL,Vehorst,1059 KC,Mikastraat 133
+,AT,Gänserndorf,8049,Nikolai-Scheucher-Ring 93,AT,Pregarten,5773,Karoline-Horak-Gasse 146C
+,EE,East Anneburgh,58498,Luik Garden 129,NL,Mander,9197HA,Mehmetstraat 86
+,EE,East Sander,51250,Urb Point 70,NL,Hekelinegn,8055 SW,Azraweg 17
+,NL,Egmond-Binnen,6400 YE,Gerritring 67,Netherlands,Nieuwe Wetering,7551 DV,Fatimasteeg 138
+,NL,Krewerd,4410 NO,Simonring 120,AT,Gmunden,9449 ,Aignergasse 94
+,EE,New Jelena,89190,Kristi Creek 38,NL,Echteeld,6042 AC,Berendpad 16
+,NL,Nieuw-Weerdinge,1897 GE,Deandreef 26,EE,Kuuskmouth,18589,Olga Hollow 46A
+,NL,Mander,9197 HA,Mehmetstraat 86,Austria,Rottenmann,2285,Madeleine-Teufl-Ring 6
+,AT,Frohnleiten,9094,Anita-Trattner-Straße 85,Estonia,Aderport,41550,Nikiforov Mountains 28
+,AT,Zistersdorf,7590,Rothstr. 97,AT,Wieselburg,2431 ,Ellergasse 123
+,NL,Nieuwe Pekela,2569 KW,Rikdreef 97,EE,Langton,76772,Anna Inlet 146
+,NL,Makkum,1350 SM,Noortjesteeg 33,NL,Beek,8401 RT,Yaraweg 29B
+,EE,Annaview,92404,Nadežda Spring 67,NL,Hoofddorp,5788 LP,Saarsteeg 12B
+,NL,Grootschermer,2812 AU,Isisring 85,AT,Zistersdorf,8052 ,Aleksandra-Friedrich-Straße 11
+,AT,Schrattenthal,5709,Elyas-Pieber-Gasse 121,NL,Sleen,5361RW,Linnbaan 30
+,AT,Althofen,6456,Pachlergasse 7,NL,Echteld,7621 AK,Bilalring 122A
+,AT,Mautern an der Donau,4451,Draxlergasse 17,AT,Mariazell,5458,Richard-GamsjÃ¤ger-Weg 134B
+,EE,South Marina,83491,Kuningas Pike 147,AT,DÃ¼rsntein,5667,Dana-Neumayr-Straße 111
+,AT,Amstetten,8952,Waldnergasse 42,EE,South Meelis,74495,Aleksandr Pines 41A
+,AT,Rottenmann,4634,Lara-Schön-Weg 67,AT,Fürstenfeld,2510 ,Marvin-Jahn-Straße 111
+,EE,New Valentina,32408,Suvi Springs 104,Netherlands,Slijkenburg,9504 AE,Joëlboulevard 47
+,AT,Dürnstein,6578,Calvin-Kasper-Straße 46,AT,Drosendorf-Zissersdorf 1,2067,MaurerstraÃe 58A
+,AT,Pregarten,5773,Karoline-Horak-Gasse 146,AT,Majriazell,5414,Matilda-Scherzer-Gasse 129
+,AT,Feldkirchen,9505,Wirthstraße 27,AT,Krems an der Donau,6060 ,Foidlstr. 65
+,AT,Mariazell,5458,Richard-Gamsjäger-Weg 134,Netherlands,Meterik,9641 EG,Timpad 65
+,AT,Oberndorf bei Salzburg,2976,Franz-Marx-Straße 1,EE,Lake Irinatown,86538 ,Laht Mews 133
+,NL,Westerbroek,8337 QD,Fennasteeg 133,NL,Tonden,6650HE,Sophiepad 68
+,EE,Vainmouth,72093,Aino Cape 70,Austria,Kindberg,3707,Selena-Rohrer-Gasse 137
+,AT,Gänserndorf,8049,Nikolai-Scheucher-Ring 93,AT,Gmunden,5878 ,Winterstr. 10
+,AT,Herzogenburg,9244,Josef-Haderer-Ring 12,AT,Tmraun,9775,Igor-Grüner-Weg 111
+,EE,West Mihkelton,89155,Maslov Walk 8,AT,Gmunden,5878 ,Winterstr. 10
+,EE,Port Viktor,23734,Anu Isle 106,NL,Haen Gn,2740 RV,Merlehof 84
+,EE,North Kristina,78705,Rätsep Mill 49,AT,Zwettl,9873,Jessica-Bachmann-StraÃe 83B
+,NL,Jouswier,4694 LZ,Liseboulevard 99,AT,Sankt Valentin,2330 ,Kalteneggerring 37
+,AT,Jennersdorf,4114,Nikola-Schwab-Ring 3,AT,Frohnleiten,6578 ,Vito-Tanzer-Ring 46
+,NL,Rijswijk (GLD),4124 IT,Charlottebaan 71,AT,Groß-Enzersdorf,5588 ,Katharina-Stecher-Ring 136
+,AT,Rottenmann,6888,Maida-Kocher-Straße 11,AT,Gänserndorf,8049 ,Nikolai-Scheucher-Ring 93
+,AT,Pregarten,5773,Karoline-Horak-Gasse 146,AT,Waidhofen an der Thaya,5432 ,Wilfingerring 135
+,NL,Deest,4644 TX,Mayastraat 90,AT,Oberwälz,7370 ,Schützstraße 103
+,AT,Sankt Pölten,2851,Timon-Ecker-Ring 43,AT,Enns,2160,Alara-Reif-Weg 88B
+,AT,Schrems,6626,Matheo-Aschauer-Platz 119,AT,Leoben,7362 ,Konstantin-Koller-Ring 94
+,AT,Villach,2107,Verena-Riedmann-Straße 92,EE,North Kristia,78705,Rätsep Mill 49
+,EE,West Anna,34769,Olga Key 51,NL,Achtmaal,7277 QZ,Suzeweg 129C
+,AT,Stadtschlaining,3202,Joshua-Holzmann-Ring 35,AT,Fürstenfeld,2510 ,Marvin-Jahn-Straße 111
+,AT,Sankt Valentin,2330,Kalteneggerring 37,NL,Nieuw-Weerdinge,1897 GE,Deandreef 26A
+,AT,Ferlach,6055,Fernando-Polzer-Platz 77,AT,Liezn,4309,Lily-Rechberger-Ring 65
+,AT,Oberndorf bei Salzburg,2976,Franz-Marx-Straße 1,Austria,Kindberg,3707,Selena-Rohrer-Gasse 137

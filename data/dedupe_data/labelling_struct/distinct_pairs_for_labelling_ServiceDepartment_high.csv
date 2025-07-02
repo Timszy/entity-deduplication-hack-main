@@ -1,0 +1,859 @@
+label,left_name,right_name
+,Public Health,nan
+,Physiotherapy,nan
+,Hematologic,nan
+,Genetic,nan
+,Primary Care,nan
+,Laboratory Science,nan
+,Infectious,nan
+,Midwifery,nan
+,Pathology,nan
+,Podiatric,nan
+,Infectious,nan
+,Oncologic,nan
+,Optometric,nan
+,Cardiovascular,nan
+,Community Health,nan
+,Hematologic,nan
+,Optometric,nan
+,Gynecologic,nan
+,Geriatric,nan
+,Gynecologic,nan
+,Emergency,nan
+,Optometric,nan
+,Renal,nan
+,Pulmonary,nan
+,Pediatric,nan
+,Infectious,nan
+,Infectious,nan
+,Speech Pathology,nan
+,Otolaryngologic,nan
+,Dentistry,nan
+,Anesthesia,nan
+,Plastic Surgery,nan
+,Gastroenterologic,nan
+,Physiotherapy,nan
+,Respiratory Therapy,nan
+,Radiography,nan
+,Primary Care,nan
+,Anesthesia,nan
+,Pharmacy Specialty,nan
+,Midwifery,nan
+,Gastroenterologic,nan
+,Midwifery,nan
+,Laboratory Science,nan
+,Rheumatologic,nan
+,Rheumatologic,nan
+,Endocrine,nan
+,Speech Pathology,nan
+,Emergency,nan
+,Toxicologic,nan
+,Respiratory Therapy,nan
+,Musculoskeletal,nan
+,Endocrine,nan
+,Surgical,nan
+,Hematologic,nan
+,Hematologic,nan
+,Infectious,nan
+,Renal,nan
+,Primary Care,nan
+,Podiatric,nan
+,Cardiovascular,nan
+,Obstetric,nan
+,Musculoskeletal,nan
+,Primary Care,nan
+,Speech Pathology,nan
+,Public Health,nan
+,Optometric,nan
+,Emergency,nan
+,Rheumatologic,nan
+,Diet Nutrition,nan
+,Obstetric,nan
+,Public Health,nan
+,Podiatric,nan
+,Dermatology,nan
+,Emergency,nan
+,Pediatric,nan
+,Optometric,nan
+,Gastroenterologic,nan
+,Musculoskeletal,nan
+,Community Health,nan
+,Anesthesia,nan
+,Dermatology,nan
+,Cardiovascular,nan
+,Rheumatologic,nan
+,Dermatology,nan
+,Otolaryngologic,nan
+,Gynecologic,nan
+,Gastroenterologic,nan
+,Surgical,nan
+,Pathology,nan
+,Emergency,nan
+,Infectious,nan
+,Gynecologic,nan
+,Urologic,nan
+,Public Health,nan
+,Respiratory Therapy,nan
+,Optometric,nan
+,Public Health,nan
+,Gastroenterologic,nan
+,Primary Care,nan
+,Hematologic,nan
+,Urologic,nan
+,Endocrine,nan
+,Midwifery,nan
+,Anesthesia,nan
+,Optometric,nan
+,Endocrine,nan
+,Rheumatologic,nan
+,Community Health,nan
+,Optometric,nan
+,Radiography,nan
+,Community Health,nan
+,Rheumatologic,nan
+,Pathology,nan
+,Endocrine,nan
+,Podiatric,nan
+,Public Health,nan
+,Radiography,nan
+,Pathology,nan
+,Surgical,nan
+,Gastroenterologic,nan
+,Otolaryngologic,nan
+,Gynecologic,nan
+,Psychiatric,nan
+,Pathology,nan
+,Gastroenterologic,nan
+,Gynecologic,nan
+,Urologic,nan
+,Hematologic,nan
+,Pediatric,nan
+,Anesthesia,nan
+,Toxicologic,nan
+,Dentistry,nan
+,Dermatology,nan
+,Hematologic,nan
+,Gastroenterologic,nan
+,Diet Nutrition,nan
+,Public Health,nan
+,Podiatric,nan
+,Midwifery,nan
+,Primary Care,nan
+,Speech Pathology,nan
+,Neurologic,nan
+,Emergency,nan
+,Rheumatologic,nan
+,Laboratory Science,nan
+,Anesthesia,nan
+,Gastroenterologic,nan
+,Dentistry,nan
+,Midwifery,nan
+,Endocrine,nan
+,Urologic,nan
+,Surgical,nan
+,Endocrine,nan
+,Optometric,nan
+,Primary Care,nan
+,Urologic,nan
+,Psychiatric,nan
+,Diet Nutrition,nan
+,Midwifery,nan
+,Community Health,nan
+,Renal,nan
+,Infectious,nan
+,Dermatology,nan
+,Midwifery,nan
+,Dentistry,nan
+,Primary Care,nan
+,Endocrine,nan
+,Laboratory Science,nan
+,Pathology,nan
+,Dentistry,nan
+,Physiotherapy,nan
+,Toxicologic,nan
+,Cardiovascular,nan
+,Dentistry,nan
+,Radiography,nan
+,Pulmonary,nan
+,Emergency,nan
+,Neurologic,nan
+,Community Health,nan
+,Nursing,nan
+,Musculoskeletal,nan
+,Gynecologic,nan
+,Obstetric,nan
+,Optometric,nan
+,Dentistry,nan
+,Obstetric,nan
+,Midwifery,nan
+,Hematologic,nan
+,Infectious,nan
+,Pathology,nan
+,Community Health,nan
+,Emergency,nan
+,Renal,nan
+,Anesthesia,nan
+,Rheumatologic,nan
+,Dermatology,nan
+,Radiography,nan
+,Infectious,nan
+,Radiography,nan
+,Gynecologic,nan
+,Otolaryngologic,nan
+,Endocrine,nan
+,Otolaryngologic,nan
+,Infectious,nan
+,Anesthesia,nan
+,Gastroenterologic,nan
+,Endocrine,nan
+,Laboratory Science,nan
+,Infectious,nan
+,Primary Care,nan
+,Surgical,nan
+,Laboratory Science,nan
+,Pathology,nan
+,Public Health,nan
+,Primary Care,nan
+,Laboratory Science,nan
+,Optometric,nan
+,Musculoskeletal,nan
+,Emergency,nan
+,Urologic,nan
+,Toxicologic,nan
+,Geriatric,nan
+,Respiratory Therapy,nan
+,Community Health,nan
+,Pulmonary,nan
+,Otolaryngologic,nan
+,Anesthesia,nan
+,Genetic,nan
+,Toxicologic,nan
+,Infectious,nan
+,Dentistry,nan
+,Respiratory Therapy,nan
+,Infectious,nan
+,Dentistry,nan
+,Community Health,nan
+,Geriatric,nan
+,Infectious,nan
+,Respiratory Therapy,nan
+,Plastic Surgery,nan
+,Neurologic,nan
+,Community Health,nan
+,Gastroenterologic,nan
+,Surgical,nan
+,Public Health,nan
+,Community Health,nan
+,Gynecologic,nan
+,Infectious,nan
+,Laboratory Science,nan
+,Gynecologic,nan
+,Respiratory Therapy,nan
+,Podiatric,nan
+,Obstetric,nan
+,Optometric,nan
+,Renal,nan
+,Primary Care,nan
+,Musculoskeletal,nan
+,Obstetric,nan
+,Pathology,nan
+,Optometric,nan
+,Psychiatric,nan
+,Physiotherapy,nan
+,Optometric,nan
+,Physiotherapy,nan
+,Gastroenterologic,nan
+,Dentistry,nan
+,Community Health,nan
+,Cardiovascular,nan
+,Dermatology,nan
+,Gynecologic,nan
+,Laboratory Science,nan
+,Psychiatric,nan
+,Neurologic,nan
+,Radiography,nan
+,Dermatology,nan
+,Gynecologic,nan
+,Optometric,nan
+,Podiatric,nan
+,Laboratory Science,nan
+,Obstetric,nan
+,Anesthesia,nan
+,Oncologic,nan
+,Psychiatric,nan
+,Gastroenterologic,nan
+,Gynecologic,nan
+,Emergency,nan
+,Emergency,nan
+,Dentistry,nan
+,Plastic Surgery,nan
+,Plastic Surgery,nan
+,Community Health,nan
+,Emergency,nan
+,Physiotherapy,nan
+,Pharmacy Specialty,nan
+,Pulmonary,nan
+,Midwifery,nan
+,Nursing,nan
+,Genetic,nan
+,Urologic,nan
+,Gastroenterologic,nan
+,Geriatric,nan
+,Oncologic,nan
+,Pulmonary,nan
+,Midwifery,nan
+,Neurologic,nan
+,Optometric,nan
+,Pathology,nan
+,Endocrine,nan
+,Public Health,nan
+,Respiratory Therapy,nan
+,Dentistry,nan
+,Anesthesia,nan
+,Diet Nutrition,nan
+,Psychiatric,nan
+,Anesthesia,nan
+,Pathology,nan
+,Toxicologic,nan
+,Toxicologic,nan
+,Community Health,nan
+,Pediatric,nan
+,Urologic,nan
+,Dentistry,nan
+,Emergency,nan
+,Cardiovascular,nan
+,Podiatric,nan
+,Emergency,nan
+,Infectious,nan
+,Speech Pathology,nan
+,Emergency,nan
+,Pulmonary,nan
+,Community Health,nan
+,Emergency,nan
+,Emergency,nan
+,Surgical,nan
+,Public Health,nan
+,Midwifery,nan
+,Rheumatologic,nan
+,Cardiovascular,nan
+,Dentistry,nan
+,Respiratory Therapy,nan
+,Gastroenterologic,nan
+,Dermatology,nan
+,Pulmonary,nan
+,Endocrine,nan
+,Urologic,nan
+,Endocrine,nan
+,Otolaryngologic,nan
+,Anesthesia,nan
+,Gynecologic,nan
+,Laboratory Science,nan
+,Respiratory Therapy,nan
+,Midwifery,nan
+,Community Health,nan
+,Hematologic,nan
+,Endocrine,nan
+,Rheumatologic,nan
+,Infectious,nan
+,Anesthesia,nan
+,Dermatology,nan
+,Community Health,nan
+,Community Health,nan
+,Musculoskeletal,nan
+,Community Health,nan
+,Rheumatologic,nan
+,Dermatology,nan
+,Rheumatologic,nan
+,Rheumatologic,nan
+,Diet Nutrition,nan
+,Infectious,nan
+,Neurologic,nan
+,Midwifery,nan
+,Radiography,nan
+,Speech Pathology,nan
+,Obstetric,nan
+,Anesthesia,nan
+,Obstetric,nan
+,Geriatric,nan
+,Urologic,nan
+,Rheumatologic,nan
+,Urologic,nan
+,Hematologic,nan
+,Hematologic,nan
+,Pharmacy Specialty,nan
+,Community Health,nan
+,Genetic,nan
+,Dermatology,nan
+,Cardiovascular,nan
+,Geriatric,nan
+,Dentistry,nan
+,Dermatology,nan
+,Anesthesia,nan
+,Speech Pathology,nan
+,Anesthesia,nan
+,Emergency,nan
+,Speech Pathology,nan
+,Laboratory Science,nan
+,Geriatric,nan
+,Primary Care,nan
+,Speech Pathology,nan
+,Genetic,nan
+,Emergency,nan
+,Radiography,nan
+,Psychiatric,nan
+,Gastroenterologic,nan
+,Optometric,nan
+,Speech Pathology,nan
+,Midwifery,nan
+,Renal,nan
+,Laboratory Science,nan
+,Physiotherapy,nan
+,Primary Care,nan
+,Gastroenterologic,nan
+,Obstetric,nan
+,Gynecologic,nan
+,Pulmonary,nan
+,Dermatology,nan
+,Toxicologic,nan
+,Genetic,nan
+,Primary Care,nan
+,Infectious,nan
+,Pathology,nan
+,Public Health,nan
+,Community Health,nan
+,Rheumatologic,nan
+,Neurologic,nan
+,Optometric,nan
+,Urologic,nan
+,Infectious,nan
+,Optometric,nan
+,Cardiovascular,nan
+,Laboratory Science,nan
+,Laboratory Science,nan
+,Genetic,nan
+,Gynecologic,nan
+,Primary Care,nan
+,Laboratory Science,nan
+,Public Health,nan
+,Toxicologic,nan
+,Public Health,nan
+,Emergency,nan
+,Rheumatologic,nan
+,Pharmacy Specialty,nan
+,Primary Care,nan
+,Endocrine,nan
+,Oncologic,nan
+,Endocrine,nan
+,Laboratory Science,nan
+,Gastroenterologic,nan
+,Pulmonary,nan
+,Community Health,nan
+,Surgical,nan
+,Endocrine,nan
+,Neurologic,nan
+,Speech Pathology,nan
+,Infectious,nan
+,Dentistry,nan
+,Community Health,nan
+,Neurologic,nan
+,Primary Care,nan
+,Midwifery,nan
+,Primary Care,nan
+,Genetic,nan
+,Anesthesia,nan
+,Anesthesia,nan
+,Gynecologic,nan
+,Gastroenterologic,nan
+,Gastroenterologic,nan
+,Neurologic,nan
+,Obstetric,nan
+,Podiatric,nan
+,Psychiatric,nan
+,Hematologic,nan
+,Surgical,nan
+,Midwifery,nan
+,Cardiovascular,nan
+,Pathology,nan
+,Rheumatologic,nan
+,Radiography,nan
+,Toxicologic,nan
+,Musculoskeletal,nan
+,Oncologic,nan
+,Optometric,nan
+,Pediatric,nan
+,Musculoskeletal,nan
+,Plastic Surgery,nan
+,Diet Nutrition,nan
+,Gastroenterologic,nan
+,Midwifery,nan
+,Cardiovascular,nan
+,Oncologic,nan
+,Toxicologic,nan
+,Surgical,nan
+,Infectious,nan
+,Urologic,nan
+,Geriatric,nan
+,Toxicologic,nan
+,Optometric,nan
+,Endocrine,nan
+,Pulmonary,nan
+,Midwifery,nan
+,Optometric,nan
+,Toxicologic,nan
+,Community Health,nan
+,Pediatric,nan
+,Respiratory Therapy,nan
+,Public Health,nan
+,Gastroenterologic,nan
+,Optometric,nan
+,Endocrine,nan
+,Pathology,nan
+,Midwifery,nan
+,Otolaryngologic,nan
+,Cardiovascular,nan
+,Dermatology,nan
+,Dentistry,nan
+,Gastroenterologic,nan
+,Public Health,nan
+,Surgical,nan
+,Community Health,nan
+,Hematologic,nan
+,Anesthesia,nan
+,Pulmonary,nan
+,Primary Care,nan
+,Gastroenterologic,nan
+,Physiotherapy,nan
+,Urologic,nan
+,Musculoskeletal,nan
+,Midwifery,nan
+,Toxicologic,nan
+,Anesthesia,nan
+,Plastic Surgery,nan
+,Respiratory Therapy,nan
+,Hematologic,nan
+,Public Health,nan
+,Obstetric,nan
+,Surgical,nan
+,Radiography,nan
+,Cardiovascular,nan
+,Gynecologic,nan
+,Infectious,nan
+,Toxicologic,nan
+,Infectious,nan
+,Podiatric,nan
+,Pulmonary,nan
+,Speech Pathology,nan
+,Toxicologic,nan
+,Psychiatric,nan
+,Respiratory Therapy,nan
+,Pathology,nan
+,Optometric,nan
+,Public Health,nan
+,Laboratory Science,nan
+,Infectious,nan
+,Gastroenterologic,nan
+,Gastroenterologic,nan
+,Primary Care,nan
+,Midwifery,nan
+,Midwifery,nan
+,Community Health,nan
+,Cardiovascular,nan
+,Toxicologic,nan
+,Gynecologic,nan
+,Psychiatric,nan
+,Endocrine,nan
+,Plastic Surgery,nan
+,Diet Nutrition,nan
+,Public Health,nan
+,Pathology,nan
+,Toxicologic,nan
+,Geriatric,nan
+,Nursing,nan
+,Psychiatric,nan
+,Infectious,nan
+,Gynecologic,nan
+,Gynecologic,nan
+,Urologic,nan
+,Respiratory Therapy,nan
+,Respiratory Therapy,nan
+,Musculoskeletal,nan
+,Speech Pathology,nan
+,Respiratory Therapy,nan
+,Cardiovascular,nan
+,Obstetric,nan
+,Midwifery,nan
+,Gastroenterologic,nan
+,Primary Care,nan
+,Urologic,nan
+,Oncologic,nan
+,Gastroenterologic,nan
+,Emergency,nan
+,Otolaryngologic,nan
+,Community Health,nan
+,Radiography,nan
+,Cardiovascular,nan
+,Gynecologic,nan
+,Endocrine,nan
+,Pathology,nan
+,Respiratory Therapy,nan
+,Nursing,nan
+,Endocrine,nan
+,Dermatology,nan
+,Anesthesia,nan
+,Primary Care,nan
+,Dentistry,nan
+,Endocrine,nan
+,Geriatric,nan
+,Public Health,nan
+,Neurologic,nan
+,Gastroenterologic,nan
+,Dentistry,nan
+,Endocrine,nan
+,Infectious,nan
+,Dermatology,nan
+,Laboratory Science,nan
+,Genetic,nan
+,Musculoskeletal,nan
+,Neurologic,nan
+,Cardiovascular,nan
+,Radiography,nan
+,Gastroenterologic,nan
+,Community Health,nan
+,Pulmonary,nan
+,Midwifery,nan
+,Laboratory Science,nan
+,Psychiatric,nan
+,Radiography,nan
+,Anesthesia,nan
+,Oncologic,nan
+,Dermatology,nan
+,Plastic Surgery,nan
+,Pulmonary,nan
+,Speech Pathology,nan
+,Obstetric,nan
+,Psychiatric,nan
+,Radiography,nan
+,Speech Pathology,nan
+,Endocrine,nan
+,Endocrine,nan
+,Hematologic,nan
+,Psychiatric,nan
+,Gastroenterologic,nan
+,Dentistry,nan
+,Otolaryngologic,nan
+,Laboratory Science,nan
+,Endocrine,nan
+,Geriatric,nan
+,Primary Care,nan
+,Gynecologic,nan
+,Hematologic,nan
+,Rheumatologic,nan
+,Dentistry,nan
+,Urologic,nan
+,Gastroenterologic,nan
+,Hematologic,nan
+,Rheumatologic,nan
+,Midwifery,nan
+,Pharmacy Specialty,nan
+,Geriatric,nan
+,Optometric,nan
+,Emergency,nan
+,Pulmonary,nan
+,Toxicologic,nan
+,Primary Care,nan
+,Toxicologic,nan
+,Dermatology,nan
+,Primary Care,nan
+,Primary Care,nan
+,Cardiovascular,nan
+,Genetic,nan
+,Renal,nan
+,Rheumatologic,nan
+,Plastic Surgery,nan
+,Toxicologic,nan
+,Primary Care,nan
+,Toxicologic,nan
+,Urologic,nan
+,Community Health,nan
+,Toxicologic,nan
+,Community Health,nan
+,Primary Care,nan
+,Dentistry,nan
+,Anesthesia,nan
+,Psychiatric,nan
+,Respiratory Therapy,nan
+,Gynecologic,nan
+,Gastroenterologic,nan
+,Rheumatologic,nan
+,Genetic,nan
+,Podiatric,nan
+,Physiotherapy,nan
+,Emergency,nan
+,Anesthesia,nan
+,Plastic Surgery,nan
+,Plastic Surgery,nan
+,Gastroenterologic,nan
+,Toxicologic,nan
+,Urologic,nan
+,Pediatric,nan
+,Musculoskeletal,nan
+,Public Health,nan
+,Laboratory Science,nan
+,Pulmonary,nan
+,Infectious,nan
+,Renal,nan
+,Primary Care,nan
+,Plastic Surgery,nan
+,Optometric,nan
+,Dentistry,nan
+,Nursing,nan
+,Community Health,nan
+,Midwifery,nan
+,Pathology,nan
+,Infectious,nan
+,Obstetric,nan
+,Otolaryngologic,nan
+,Gastroenterologic,nan
+,Physiotherapy,nan
+,Endocrine,nan
+,Pulmonary,nan
+,Obstetric,nan
+,Emergency,nan
+,Otolaryngologic,nan
+,Dentistry,nan
+,Nursing,nan
+,Gastroenterologic,nan
+,Endocrine,nan
+,Genetic,nan
+,Speech Pathology,nan
+,Pediatric,nan
+,Rheumatologic,nan
+,Dermatology,nan
+,Musculoskeletal,nan
+,Gastroenterologic,nan
+,Hematologic,nan
+,Pulmonary,nan
+,Pathology,nan
+,Community Health,nan
+,Dermatology,nan
+,Respiratory Therapy,nan
+,Endocrine,nan
+,Psychiatric,nan
+,Toxicologic,nan
+,Musculoskeletal,nan
+,Dentistry,nan
+,Midwifery,nan
+,Anesthesia,nan
+,Optometric,nan
+,Infectious,nan
+,Anesthesia,nan
+,Optometric,nan
+,Midwifery,nan
+,Genetic,nan
+,Obstetric,nan
+,Musculoskeletal,nan
+,Pulmonary,nan
+,Anesthesia,nan
+,Laboratory Science,nan
+,Endocrine,nan
+,Toxicologic,nan
+,Rheumatologic,nan
+,Diet Nutrition,nan
+,Infectious,nan
+,Optometric,nan
+,Community Health,nan
+,Surgical,nan
+,Anesthesia,nan
+,Surgical,nan
+,Toxicologic,nan
+,Endocrine,nan
+,Psychiatric,nan
+,Optometric,nan
+,Public Health,nan
+,Musculoskeletal,nan
+,Urologic,nan
+,Gastroenterologic,nan
+,Optometric,nan
+,Genetic,nan
+,Gynecologic,nan
+,Public Health,nan
+,Infectious,nan
+,Endocrine,nan
+,Podiatric,nan
+,Cardiovascular,nan
+,Geriatric,nan
+,Neurologic,nan
+,Toxicologic,nan
+,Rheumatologic,nan
+,Laboratory Science,nan
+,Public Health,nan
+,Public Health,nan
+,Cardiovascular,nan
+,Psychiatric,nan
+,Endocrine,nan
+,Cardiovascular,nan
+,Gastroenterologic,nan
+,Gynecologic,nan
+,Hematologic,nan
+,Cardiovascular,nan
+,Toxicologic,nan
+,Neurologic,nan
+,Public Health,nan
+,Primary Care,nan
+,Toxicologic,nan
+,Optometric,nan
+,Surgical,nan
+,Laboratory Science,nan
+,Laboratory Science,nan
+,Radiography,nan
+,Dermatology,nan
+,Rheumatologic,nan
+,Midwifery,nan
+,Rheumatologic,nan
+,Genetic,nan
+,Geriatric,nan
+,Dentistry,nan
+,Otolaryngologic,nan
+,Community Health,nan
+,Nursing,nan
+,Gastroenterologic,nan
+,Rheumatologic,nan
+,Endocrine,nan
+,Nursing,nan
+,Public Health,nan
+,Primary Care,nan
+,Optometric,nan
+,Gastroenterologic,nan
+,Speech Pathology,nan
+,Laboratory Science,nan
+,Nursing,nan
+,Speech Pathology,nan
+,Community Health,nan
+,Midwifery,nan
+,Pulmonary,nan
+,Physiotherapy,nan
+,Endocrine,nan
+,Nursing,nan
+,Community Health,nan
+,Rheumatologic,nan
+,Anesthesia,nan
+,Emergency,nan
+,Dentistry,nan
+,Hematologic,nan
+,Psychiatric,nan
+,Plastic Surgery,nan
+,Endocrine,nan
+,Toxicologic,nan
+,Surgical,nan
+,Pathology,nan
+,Dentistry,nan
+,Respiratory Therapy,nan
+,Speech Pathology,nan
+,Infectious,nan
+,Oncologic,nan
+,Obstetric,nan
+,Public Health,nan
+,Public Health,nan
+,Plastic Surgery,nan
+,Gastroenterologic,nan
+,Genetic,nan

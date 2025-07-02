@@ -1,0 +1,31 @@
+label,left_availableLanguage,left_contactType,left_email,left_faxNumber,left_telephone,right_availableLanguage,right_contactType,right_email,right_faxNumber,right_telephone
+,"['nl', 'en']",Emergency,Lam.Gynecologic@dept.healthcare.org,0481-166815,+3177-0494329,"['nl', 'en']",Emergency,Lam.Gynecollogic@dept.healthcare.org,0481-166815,+3177-0494329
+,['de'],Appointments,Guerrero.Public@dept.healthcare.org,(289)805-1688,442-706-5159x5631,['de'],Appointments,Guerrero.Publiic@dept.healthcare.org,(289)805-1688,442-706-5159x5631
+,['et'],Staff,LongMartinez.Primary@dept.healthcare.org,286.250.6068,819.719.8417,['et'],Staff,LngMartinez.Primary@dept.healthcare.org,286.250.6068,819.719.8417
+,"['nl', 'en']",Referrals,Nash.Gastroenterologic@dept.healthcare.org,+31(0)082 111913,0090 292719,"['nl', 'en']",Referrals,Nash.cGastroenterologic@dept.healthcare.org,+31(0)082 111913,0090 292719
+,['et'],Billing,Bishop@healthcare.org,(231)226-7835,+1-945-373-2585x7675,['et'],Billing,Bshop@healthcare.org,(231)226-7835,+1-945-373-2585x7675
+,['et'],Emergency,Green.Respiratory@dept.healthcare.org,742.994.3126x2390,544.622.9322,['et'],Emergency,Green.Repsiratory@dept.healthcare.org,742.994.3126x2390,544.622.9322
+,['nl'],Staff,BuckBurke.Primary@dept.healthcare.org,+31(0)733 359514,+31115 101824,['nl'],Staff,BluckBurke.Primary@dept.healthcare.org,+31(0)733 359514,+31115 101824
+,"['de', 'en']",Appointments,Baker.Optometric@dept.healthcare.org,001-677-770-8160x985,601.890.5258,"['de', 'en']",Appointments,Baker.Optometqric@dept.healthcare.org,001-677-770-8160x985,601.890.5258
+,"['de', 'en']",Billing,Garcia@healthcare.org,524.492.6947x11801,+1-768-275-7738x93055,"['de', 'en']",Billing,Garia@healthcare.org,524.492.6947x11801,+1-768-275-7738x93055
+,"['nl', 'en']",Referrals,WilliamsWilliams.Dentistry@dept.healthcare.org,+31(0)96 6558627,+31(0)77-5923559,"['nl', 'en']",Referrals,WilliamsWilliams.Dentitry@dept.healthcare.org,+31(0)96 6558627,+31(0)77-5923559
+,['de'],Appointments,LopezKey.Midwifery@dept.healthcare.org,+1-572-275-7274x758,001-379-429-0953x4613,['de'],Appointments,LopezKey.Midwifery@dept.healthcare.de,+1-572-275-7274x758,001-379-429-0953x4613
+,"['et', 'en']",Information,Austin.Rheumatologic@dept.healthcare.org,(853)964-3273x56003,651-245-5602x2960,"['et', 'en']",Information,Austin.Rheumatologic@dept.healthcare.et,(853)964-3273x56003,651-245-5602x2960
+,"['et', 'en']",Billing,Austin@healthcare.org,8826759451,416-588-2223,"['et', 'en']",Billing,Austin@healthcare.et,8826759451,416-588-2223
+,['de'],Information,Guerrero.Rheumatologic@dept.healthcare.org,(925)213-1356x2211,001-237-869-9643,['de'],Information,Guerrero.Rheumatologic@dept.healthcare.de,(925)213-1356x2211,001-237-869-9643
+,"['nl', 'en']",Appointments,PriceRobinson.Obstetric@dept.healthcare.org,0879 859362,(031)-9509423,"['nl', 'en']",Appointments,PriceRobinson.Obstetric@dept.healthcare.nl,0879 859362,(031)-9509423
+,"['et', 'en']",Information,Mathis.Laboratory@dept.healthcare.org,001-691-983-8727x95321,516.929.9513,"['et', 'en']",Information,Mathis.Laboratory@dept.healthcare.et,001-691-983-8727x95321,516.929.9513
+,['de'],Appointments,Williams.Emergency@dept.healthcare.org,(894)778-0476x370,713-613-7306,['de'],Appointments,Williams.Emergency@dept.healthcare.de,(894)778-0476x370,713-613-7306
+,['nl'],Information,Lam.Gynecologic@dept.healthcare.org,(061)-5012116,0411 389532,['nl'],Information,Lam.Gynecologic@dept.healthcare.nl,(061)-5012116,0411 389532
+,"['de', 'en']",Referrals,ReedFry.Midwifery@dept.healthcare.org,+1-654-297-7018,(206)249-1658x8042,"['de', 'en']",Referrals,ReedFry.Midwifery@dept.healthcare.de,+1-654-297-7018,(206)249-1658x8042
+,['de'],Appointments,Newton.Toxicologic@dept.healthcare.org,(867)714-4618,(901)538-2849,['de'],Appointments,Newton.Toxicologic@dept.healthcare.de,(867)714-4618,(901)538-2849
+,"['et', 'en']",Emergency,Arnold.Nursing@dept.healthcare.org,375-594-9393,+1-660-751-7435x7670,"['et', 'en']",hÃ¤daolukord,Arnold.Nursing@dept.healthcare.org,375-594-9393,+1-660-751-7435x7670
+,"['de', 'en']",Staff,Guerrero.Physiotherapy@dept.healthcare.org,+1-540-271-5120,356.276.1728,"['de', 'en']",Personal,Guerrero.Physiotherapy@dept.healthcare.org,+1-540-271-5120,356.276.1728
+,"['et', 'en']",Emergency,LongMartinez.Optometric@dept.healthcare.org,(986)831-3507x6668,(786)516-6261x65962,"['et', 'en']",hÃ¤daolukord,LongMartinez.Optometric@dept.healthcare.org,(986)831-3507x6668,(786)516-6261x65962
+,"['de', 'en']",Information,ReedFry.Radiography@dept.healthcare.org,(538)271-1821x53945,(834)636-1216x51002,"['de', 'en']",Information,ReedFry.Radiography@dept.healthcare.org,(538)271-1821x53945,(834)636-1216x51002
+,"['et', 'en']",Appointments,Brady.Toxicologic@dept.healthcare.org,553-308-3780x650,9047689415,"['et', 'en']",ametisse nimetamine,Brady.Toxicologic@dept.healthcare.org,553-308-3780x650,9047689415
+,"['de', 'en']",Emergency,Newton.Endocrine@dept.healthcare.org,9515762700,964-588-3497x992,"['de', 'en']",Notfall,Newton.Endocrine@dept.healthcare.org,9515762700,964-588-3497x992
+,"['nl', 'en']",General Inquiries,Nash@healthcare.org,+31(0)06-9602714,0935 233769,"['nl', 'en']",Algemene vragen,Nash@healthcare.org,+31(0)06-9602714,0935 233769
+,['de'],Referrals,GibbsReese.Gastroenterologic@dept.healthcare.org,596.854.9487,602.202.8187x957,['de'],Ãberweisungen,GibbsReese.Gastroenterologic@dept.healthcare.org,596.854.9487,602.202.8187x957
+,"['et', 'en']",Emergency,Fisher.Pathology@dept.healthcare.org,(468)305-3460x795,306-360-1684x334,"['et', 'en']",hÃ¤daolukord,Fisher.Pathology@dept.healthcare.org,(468)305-3460x795,306-360-1684x334
+,['de'],Referrals,Obrien.Gastroenterologic@dept.healthcare.org,+1-754-412-2438x90681,325.313.9825x177,['de'],Ãberweisungen,Obrien.Gastroenterologic@dept.healthcare.org,+1-754-412-2438x90681,325.313.9825x177

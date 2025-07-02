@@ -1,0 +1,4292 @@
+{
+  "http://example.org/Person/e65ee3fa-8760-4422-ac75-6f4ab90f6229": {
+    "gender": "Other",
+    "jobTitle": "Cardiac Nurse",
+    "knowsLanguage": "de",
+    "name": "Amy Rogers"
+  },
+  "http://example.org/Address/a88da0b0-8213-43f3-881e-bf6b1f6aa915": {
+    "addressCountry": "EE",
+    "addressLocality": "Toomasville",
+    "streetAddress": "Mati Inlet 51"
+  },
+  "http://example.org/ContactPoint/edb4e638-1632-4724-8a92-84725aa8953d": {
+    "availableLanguage": "['et', 'en']",
+    "contactType": "Referrals",
+    "email": "Berg.Endocrine@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+1-533-745-0510x528"
+  },
+  "http://example.org/Person/7648132c-8ed4-4a6b-a8eb-02676eca9e0d": {
+    "gender": "Male",
+    "jobTitle": "Cosmetic Surgery Nurse",
+    "knowsLanguage": "nl",
+    "name": "Stephanie Owen"
+  },
+  "http://example.org/Address/fc414e17-a981-488b-a88e-a8023ab28090": {
+    "addressCountry": "NL",
+    "addressLocality": "Munnekeburen",
+    "streetAddress": "Lindseydreef 49"
+  },
+  "http://example.org/Person/4e3e1a0d-2396-43bf-b48f-877bcbe8b4c4": {
+    "gender": "Other",
+    "jobTitle": "CT Scan Technician",
+    "knowsLanguage": "et",
+    "name": "Heather Hogan"
+  },
+  "http://example.org/Address/44cb8e91-e9b2-421f-b3ba-f42cd572e714": {
+    "addressCountry": "EE",
+    "addressLocality": "\u017dukovville",
+    "streetAddress": "Elena Station 124"
+  },
+  "http://example.org/ServiceDepartment/0d3d237c-2c8b-4baa-9f55-9d90cb2e8a92": {
+    "name": "Rheumatologic"
+  },
+  "http://example.org/ServiceDepartment/3d977ecb-2d6d-40b6-97d9-ecc25087ffd0": {
+    "name": "Respiratory Therapy"
+  },
+  "http://example.org/Person/1fa55dc4-dfe6-4c45-82c1-442afdeb2575": {
+    "gender": "Male",
+    "jobTitle": "Rheumatology Nurse",
+    "knowsLanguage": "nl",
+    "name": "Chad Wright"
+  },
+  "http://example.org/ServiceDepartment/3ee8a397-5442-4269-96b5-b29a91cb47ab": {
+    "name": "Genetic"
+  },
+  "http://example.org/Person/2dfc33a6-ecfd-4fdc-a689-56eb8f2ae4a6": {
+    "gender": "Female",
+    "jobTitle": "Pulmonary Function Technologist",
+    "knowsLanguage": "de",
+    "name": "Christine Lewis"
+  },
+  "http://example.org/HealthcareOrganization/cc5f1a49-5d85-43f8-bb6a-164b69730ecb": {
+    "name": "Jordan, Jackson and Kramer Zorg"
+  },
+  "http://example.org/ContactPoint/e6b106a7-9d6c-4916-8794-678c8cc57ce6": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Staff",
+    "email": "KimTodd.Geriatric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "001-322-740-5966x2026"
+  },
+  "http://example.org/Address/36de8513-1b60-4171-815d-3481a1659f13": {
+    "addressCountry": "AT",
+    "addressLocality": "Radstadt",
+    "streetAddress": "Widhalmstr. 51"
+  },
+  "http://example.org/Person/bc279a44-550c-4193-b358-846d2b9e7805": {
+    "gender": "Female",
+    "jobTitle": "Hematologist",
+    "knowsLanguage": "et",
+    "name": "Joseph Johnson"
+  },
+  "http://example.org/Person/185f7d0d-6c9b-4b1d-bb57-d95cbfa53a6a": {
+    "gender": "Other",
+    "jobTitle": "MRI Technologist",
+    "knowsLanguage": "nl",
+    "name": "Gail Gomez"
+  },
+  "http://example.org/Address/6ae711b9-5da6-4525-9d58-cde2b7e847e2": {
+    "addressCountry": "AT",
+    "addressLocality": "D\u00fcrnstein",
+    "streetAddress": "G\u00e4rtnerstr. 91"
+  },
+  "http://example.org/ServiceDepartment/33953689-e29f-4942-83e3-e7eb4775c19e": {
+    "name": "Obstetric"
+  },
+  "http://example.org/Address/677f9b06-6102-4eda-9cce-a40719163552": {
+    "addressCountry": "NL",
+    "addressLocality": "Hoogmade",
+    "streetAddress": "Lottering 12"
+  },
+  "http://example.org/Person/d037e43a-13c7-4a7e-ad31-151033a82d94": {
+    "gender": "Other",
+    "jobTitle": "Histology Technician",
+    "knowsLanguage": "et",
+    "name": "Nicole Garcia"
+  },
+  "http://example.org/Person/29611cf7-9db3-4cc7-b674-0b0eabc46a41": {
+    "gender": "Male",
+    "jobTitle": "Gynecologist",
+    "knowsLanguage": "de",
+    "name": "Robert Randall"
+  },
+  "http://example.org/Person/aa5d9480-b59d-4e6c-ae33-1ea6e56eb28b": {
+    "gender": "Other",
+    "jobTitle": "Child Life Specialist",
+    "knowsLanguage": "de",
+    "name": "Brandon Fuller"
+  },
+  "http://example.org/Person/7103fdb8-bf63-4291-b591-b1a7430bf210": {
+    "gender": "Male",
+    "jobTitle": "Otolaryngologist",
+    "knowsLanguage": "nl",
+    "name": "Brandon Jackson"
+  },
+  "http://example.org/Person/d9139e83-fc71-4133-95d3-5e9107c72dcb": {
+    "gender": "Other",
+    "jobTitle": "Urology Nurse",
+    "knowsLanguage": "et",
+    "name": "Michael Dunn"
+  },
+  "http://example.org/ServiceDepartment/d00163c4-a018-4f0f-ad4d-7bdd14fe6086": {
+    "name": "Podiatric"
+  },
+  "http://example.org/Person/50db2975-50a2-456e-b065-f74aeee2a165": {
+    "gender": "Other",
+    "jobTitle": "Orthopedic Surgeon",
+    "knowsLanguage": "nl",
+    "name": "Zachary Bates"
+  },
+  "http://example.org/Person/684bff02-4556-42d7-b6ba-dda584162cd1": {
+    "gender": "Male",
+    "jobTitle": "Reconstructive Specialist",
+    "knowsLanguage": "nl",
+    "name": "Kristin Lopez"
+  },
+  "http://example.org/ServiceDepartment/66746d3f-98ec-4bf4-9e82-e6d115c50729": {
+    "name": "Gastroenterologic"
+  },
+  "http://example.org/Person/199efa9d-6969-4182-a70c-dcdcbf0dc8d7": {
+    "gender": "Male",
+    "jobTitle": "Orthopedic Surgeon",
+    "knowsLanguage": "nl",
+    "name": "Kevin Nguyen"
+  },
+  "http://example.org/Person/36e0f15b-ae77-4b6f-81ed-e7f5419449e2": {
+    "gender": "Female",
+    "jobTitle": "Neurological Nurse",
+    "knowsLanguage": "nl",
+    "name": "Jonathon Hutchinson"
+  },
+  "http://example.org/Person/ea1cf1b7-0e63-44a1-a0f1-a9be405354be": {
+    "gender": "Male",
+    "jobTitle": "GI Nurse",
+    "knowsLanguage": "nl",
+    "name": "Marvin Martin"
+  },
+  "http://example.org/ServiceDepartment/3bb5bd36-57bb-49a1-82f2-3c7146048e9a": {
+    "name": "Diet Nutrition"
+  },
+  "http://example.org/Person/961cd7c2-f15b-4d5a-bb1e-140197c7bdea": {
+    "gender": "Female",
+    "jobTitle": "Plastic Surgeon",
+    "knowsLanguage": "et",
+    "name": "Brittany Kim"
+  },
+  "http://example.org/Person/6e6dd727-937f-47a6-b0f1-899999ab0772": {
+    "gender": "Male",
+    "jobTitle": "Renal Dietitian",
+    "knowsLanguage": "nl",
+    "name": "Cole Price"
+  },
+  "http://example.org/Person/10e1d8f0-aa3a-4727-92e7-6a346e09f213": {
+    "gender": "Female",
+    "jobTitle": "Ophthalmologist",
+    "knowsLanguage": "de",
+    "name": "Pamela York"
+  },
+  "http://example.org/Address/945922c1-8226-48a2-8e1c-30996abcd821": {
+    "addressCountry": "AT",
+    "addressLocality": "Drosendorf-Zissersdorf 1",
+    "streetAddress": "Constanze-Hirschmann-Gasse 142"
+  },
+  "http://example.org/Address/e25d3885-e9f0-4d36-a3d6-3d3a6d089445": {
+    "addressCountry": "NL",
+    "addressLocality": "Bunschoten-Spakenburg",
+    "streetAddress": "Marinusstraat 115"
+  },
+  "http://example.org/Address/f9a48e3e-82a2-4cf4-b207-6144122abe68": {
+    "addressCountry": "NL",
+    "addressLocality": "Legemeer",
+    "streetAddress": "Puckboulevard 64"
+  },
+  "http://example.org/Person/906570ba-7176-4913-8921-3c976ae0e903": {
+    "gender": "Female",
+    "jobTitle": "Neurologist",
+    "knowsLanguage": "et",
+    "name": "Robin Meyer"
+  },
+  "http://example.org/Person/1150ecc9-56ad-4381-b385-3f1bdcf8adbb": {
+    "gender": "Male",
+    "jobTitle": "Cardiologist",
+    "knowsLanguage": "nl",
+    "name": "Amanda Fowler"
+  },
+  "http://example.org/Person/9b47ab2f-3d2e-4ffd-8828-d8a55fdacb35": {
+    "gender": "Female",
+    "jobTitle": "EEG Technician",
+    "knowsLanguage": "de",
+    "name": "Deborah Lewis"
+  },
+  "http://example.org/Person/3db2b296-411b-4699-8051-bc1d24233ff8": {
+    "gender": "Other",
+    "jobTitle": "Nutritionist",
+    "knowsLanguage": "de",
+    "name": "Phillip Richardson"
+  },
+  "http://example.org/Person/09c01125-46be-455f-83f2-15f3e0e35a40": {
+    "gender": "Female",
+    "jobTitle": "Endocrinologist",
+    "knowsLanguage": "nl",
+    "name": "Timothy Nash"
+  },
+  "http://example.org/ContactPoint/b8d1ce6c-54a9-4937-a85d-d7f437214c60": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Information",
+    "email": "Robinson.Midwifery@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "001-883-421-4756x8056"
+  },
+  "http://example.org/ServiceDepartment/28d1ba9e-a7fc-478f-8786-31ef2fd7973f": {
+    "name": "Obstetric"
+  },
+  "http://example.org/Person/7cd01dae-517e-4c93-a1fb-4664487ff8c6": {
+    "gender": "Other",
+    "jobTitle": "Environmental Health Officer",
+    "knowsLanguage": "nl",
+    "name": "Alyssa Anderson"
+  },
+  "http://example.org/ContactPoint/5d1f0045-734f-4710-9de4-da778a5c86c6": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Emergency",
+    "email": "Griffin.Respiratory@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31956-110289"
+  },
+  "http://example.org/Person/c07849e7-cf9d-4f8d-8cef-d87587f0eaef": {
+    "gender": "Male",
+    "jobTitle": "Arthritis Specialist",
+    "knowsLanguage": "et",
+    "name": "Edgar Cowan"
+  },
+  "http://example.org/Person/b0174b3a-14e1-41ec-97e6-d28826b873b6": {
+    "gender": "Other",
+    "jobTitle": "Dialysis Nurse",
+    "knowsLanguage": "nl",
+    "name": "Jason Larson"
+  },
+  "http://example.org/Person/2d6ea075-498d-4e13-9e7d-c81debc45e95": {
+    "gender": "Other",
+    "jobTitle": "ER Nurse",
+    "knowsLanguage": "de",
+    "name": "Kristin Parker"
+  },
+  "http://example.org/ServiceDepartment/a01b8b76-422e-40b8-a00d-e51ee1841e2e": {
+    "name": "Gastroenterologic"
+  },
+  "http://example.org/ServiceDepartment/99c6c7e2-9237-4b51-b4bf-604bb88d4b0a": {
+    "name": "Psychiatric"
+  },
+  "http://example.org/Person/e374d77e-6372-44f2-83b6-dcbbc88d9ae4": {
+    "gender": "Male",
+    "jobTitle": "Communication Disorders Specialist",
+    "knowsLanguage": "de",
+    "name": "Meghan Hamilton"
+  },
+  "http://example.org/Person/a8c9d6b1-e4e0-4714-a80b-51f598b1fbd6": {
+    "gender": "Female",
+    "jobTitle": "Trauma Surgeon",
+    "knowsLanguage": "nl",
+    "name": "William Collins"
+  },
+  "http://example.org/Address/7c48fff0-2053-4523-a6f0-f22718e64a9e": {
+    "addressCountry": "NL",
+    "addressLocality": "Pernis Rotterdam",
+    "streetAddress": "Leahbaan 26"
+  },
+  "http://example.org/Person/3337be03-1fe4-4829-b0cc-35be74f1a93c": {
+    "gender": "Male",
+    "jobTitle": "Diet Technician",
+    "knowsLanguage": "de",
+    "name": "James Whitaker"
+  },
+  "http://example.org/Person/8895f65d-c1a5-49e0-8a36-843a114734bf": {
+    "gender": "Male",
+    "jobTitle": "Podiatrist",
+    "knowsLanguage": "nl",
+    "name": "Gregory Little"
+  },
+  "http://example.org/Person/fe94423c-a371-478c-98a7-c51391cf28a8": {
+    "gender": "Female",
+    "jobTitle": "Physical Therapist",
+    "knowsLanguage": "de",
+    "name": "Anthony Conley"
+  },
+  "http://example.org/Person/bbfe3a41-c861-42e9-9961-7fe9474f136f": {
+    "gender": "Male",
+    "jobTitle": "Nephrologist",
+    "knowsLanguage": "de",
+    "name": "Jessica Bradley"
+  },
+  "http://example.org/Address/a454d33b-2ba1-4120-a6ab-1d3e879eb153": {
+    "addressCountry": "NL",
+    "addressLocality": "Go\u00ebnga",
+    "streetAddress": "Suusbaan 58"
+  },
+  "http://example.org/Person/6eecca4f-4690-48f7-9b94-d40eba039a34": {
+    "gender": "Male",
+    "jobTitle": "Neurosurgeon",
+    "knowsLanguage": "nl",
+    "name": "Colton Travis"
+  },
+  "http://example.org/ContactPoint/2505a895-7cf0-4064-a8c8-25c0ed7b2f84": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Staff",
+    "email": "PerezBecker.Rheumatologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "816.677.9769x2660"
+  },
+  "http://example.org/Address/5cd9fc97-9e5d-420e-99e9-77159d64fe18": {
+    "addressCountry": "NL",
+    "addressLocality": "Loon",
+    "streetAddress": "Pienweg 7"
+  },
+  "http://example.org/Person/e44b2c38-2e35-4537-b5b2-03835a870447": {
+    "gender": "Other",
+    "jobTitle": "Renal Dietitian",
+    "knowsLanguage": "et",
+    "name": "Megan Fisher"
+  },
+  "http://example.org/Person/2ba50f8d-067c-418e-b21f-5f0ed15b7398": {
+    "gender": "Male",
+    "jobTitle": "Medical Laboratory Scientist",
+    "knowsLanguage": "nl",
+    "name": "Daniel Parker"
+  },
+  "http://example.org/Person/a78a9347-b440-436a-8aa4-8e5ecb66422e": {
+    "gender": "Male",
+    "jobTitle": "Obstetrics Technician",
+    "knowsLanguage": "de",
+    "name": "Melody Thompson"
+  },
+  "http://example.org/Address/3ac82c74-158e-4a77-add9-626e2185ada5": {
+    "addressCountry": "AT",
+    "addressLocality": "Voitsberg",
+    "streetAddress": "Luisa-St\u00f6ckl-Ring 60"
+  },
+  "http://example.org/Person/3c14ebd0-d650-4a33-8450-485316419839": {
+    "gender": "Female",
+    "jobTitle": "Nutritionist",
+    "knowsLanguage": "nl",
+    "name": "Jessica Wilson"
+  },
+  "http://example.org/Person/629998ee-c7a6-478b-bed8-99872745c98e": {
+    "gender": "Male",
+    "jobTitle": "Ophthalmologist",
+    "knowsLanguage": "nl",
+    "name": "Erin Anderson"
+  },
+  "http://example.org/ContactPoint/8fb5125c-8477-4401-8f14-7dfcca74bd85": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Information",
+    "email": "Allen.Pathology@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)153 066453"
+  },
+  "http://example.org/ContactPoint/d7e471fa-21c9-4fef-8689-3f7a4aa286f7": {
+    "availableLanguage": "['nl']",
+    "contactType": "Information",
+    "email": "Burch.Toxicologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+3194-1929490"
+  },
+  "http://example.org/ContactPoint/80100694-c40c-4ffd-9f04-707ab10d689f": {
+    "availableLanguage": "['et', 'en']",
+    "contactType": "Appointments",
+    "email": "Berg.Gastroenterologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "301.775.3660"
+  },
+  "http://example.org/Person/7ad2656a-7037-4868-9213-3765d36b6099": {
+    "gender": "Other",
+    "jobTitle": "Nutrition Counselor",
+    "knowsLanguage": "de",
+    "name": "James Knapp"
+  },
+  "http://example.org/Person/de4dc60d-d205-4fe5-b8a5-71aafe94099e": {
+    "gender": "Female",
+    "jobTitle": "Diabetes Educator",
+    "knowsLanguage": "nl",
+    "name": "Andrew Newton"
+  },
+  "http://example.org/Address/fab579c0-b935-49c8-8951-66682abcf723": {
+    "addressCountry": "NL",
+    "addressLocality": "Oudwoude",
+    "streetAddress": "Jolijnsteeg 97"
+  },
+  "http://example.org/Person/11105e8f-cae6-4ebf-b8fa-0d353361500a": {
+    "gender": "Other",
+    "jobTitle": "Midwife",
+    "knowsLanguage": "et",
+    "name": "Victoria Ward"
+  },
+  "http://example.org/ServiceDepartment/a95677e1-2671-4404-9d6e-239ca01c4081": {
+    "name": "Musculoskeletal"
+  },
+  "http://example.org/ServiceDepartment/7dbb4bbf-15f2-4703-83fa-e485fb323457": {
+    "name": "Endocrine"
+  },
+  "http://example.org/ServiceDepartment/d118a8e9-2a18-4710-84f8-7624a45d9e73": {
+    "name": "Geriatric"
+  },
+  "http://example.org/ContactPoint/cabc7c88-4d42-4606-a2af-d8179998c610": {
+    "availableLanguage": "['et', 'en']",
+    "contactType": "Media Relations",
+    "email": "Mcneil@healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "001-323-902-2584"
+  },
+  "http://example.org/Address/18dca48a-b9f8-4199-8f0f-8a331d9d6d35": {
+    "addressCountry": "EE",
+    "addressLocality": "Lake Matiport",
+    "streetAddress": "Jefimov Locks 88"
+  },
+  "http://example.org/Address/1d056231-c7f8-4806-a107-987015ee08c4": {
+    "addressCountry": "AT",
+    "addressLocality": "Lienz",
+    "streetAddress": "Richard-Hummer-Weg 9"
+  },
+  "http://example.org/Address/789a94db-99e9-424c-95ef-69fa11c0dde9": {
+    "addressCountry": "NL",
+    "addressLocality": "Uithuizermeeden",
+    "streetAddress": "Lexdreef 34"
+  },
+  "http://example.org/Person/260e1952-b9ab-47b9-b352-82638b5cc4bb": {
+    "gender": "Other",
+    "jobTitle": "Endocrine Nurse",
+    "knowsLanguage": "de",
+    "name": "Barbara Howard"
+  },
+  "http://example.org/Person/5a22ffdb-a44d-4865-9a28-db98d9779565": {
+    "gender": "Other",
+    "jobTitle": "Optician",
+    "knowsLanguage": "et",
+    "name": "Samuel Freeman"
+  },
+  "http://example.org/Person/91d6a180-a265-44fc-a093-f7e35ace6f9d": {
+    "gender": "Male",
+    "jobTitle": "Speech Therapist",
+    "knowsLanguage": "et",
+    "name": "Jessica Martinez"
+  },
+  "http://example.org/ServiceDepartment/8d83b5fe-5569-4aab-be99-e9bd4dc9506c": {
+    "name": "Gastroenterologic"
+  },
+  "http://example.org/Person/87891791-c60d-459a-8ea1-bf93656bbf35": {
+    "gender": "Male",
+    "jobTitle": "Endocrine Nurse",
+    "knowsLanguage": "de",
+    "name": "Brandy Taylor"
+  },
+  "http://example.org/Person/3479236a-2c6d-4ca5-900d-864ff5110cbe": {
+    "gender": "Female",
+    "jobTitle": "Optician",
+    "knowsLanguage": "nl",
+    "name": "Kendra Lopez"
+  },
+  "http://example.org/Person/a3caf394-4047-4b95-ac94-c3ab0633638a": {
+    "gender": "Male",
+    "jobTitle": "Nephrologist",
+    "knowsLanguage": "de",
+    "name": "John Anderson"
+  },
+  "http://example.org/Person/399654ec-0721-4793-b6c1-9142f7f89150": {
+    "gender": "Female",
+    "jobTitle": "Sleep Technician",
+    "knowsLanguage": "nl",
+    "name": "Kent Carr"
+  },
+  "http://example.org/Person/c030c08b-f926-4b46-b030-0109bdbf6d72": {
+    "gender": "Female",
+    "jobTitle": "Vision Therapist",
+    "knowsLanguage": "et",
+    "name": "Mr. Larry Sanford"
+  },
+  "http://example.org/Person/7973667f-4ba7-42d9-87a8-fb4977d9e951": {
+    "gender": "Other",
+    "jobTitle": "Obstetrics Technician",
+    "knowsLanguage": "de",
+    "name": "Christopher Barnes"
+  },
+  "http://example.org/ServiceDepartment/cc38abcd-c747-43cd-b370-074c1ff46f86": {
+    "name": "Pediatric"
+  },
+  "http://example.org/Person/f6f4d18d-b834-454a-8968-f6c595e450f2": {
+    "gender": "Other",
+    "jobTitle": "Gynecologist",
+    "knowsLanguage": "et",
+    "name": "Terry Hughes"
+  },
+  "http://example.org/ContactPoint/6daeda9c-f101-4e98-96fe-05a01d28f69c": {
+    "availableLanguage": "['nl']",
+    "contactType": "Information",
+    "email": "Burch.Public@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(0097)-410786"
+  },
+  "http://example.org/ServiceDepartment/c0541484-dbde-4b8e-9de0-575065288d74": {
+    "name": "Neurologic"
+  },
+  "http://example.org/Address/3af8c97d-1527-417e-9bfb-0594026aa070": {
+    "addressCountry": "NL",
+    "addressLocality": "Leons",
+    "streetAddress": "Finnbaan 52"
+  },
+  "http://example.org/Address/6c96c897-5d71-4bd4-b275-c534cbe4e0fc": {
+    "addressCountry": "EE",
+    "addressLocality": "M\u00f5ttustown",
+    "streetAddress": "Linda Expressway 107"
+  },
+  "http://example.org/Person/130c522b-3b4e-44a5-ba6a-3d9e2ed81f16": {
+    "gender": "Other",
+    "jobTitle": "Neurological Nurse",
+    "knowsLanguage": "nl",
+    "name": "Christopher Steele"
+  },
+  "http://example.org/ContactPoint/a978404b-7e6b-419a-8d88-d1e189c03e78": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Staff",
+    "email": "Peck.Musculoskeletal@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+3118 9245783"
+  },
+  "http://example.org/Address/35f778b1-9b75-4615-9f2c-ac02de602ef3": {
+    "addressCountry": "NL",
+    "addressLocality": "Hantumeruitburen",
+    "streetAddress": "Dewilaan 36"
+  },
+  "http://example.org/Person/02308baa-46d1-4189-8831-fa744902a65e": {
+    "gender": "Other",
+    "jobTitle": "Dialysis Nurse",
+    "knowsLanguage": "de",
+    "name": "Donna Harrington"
+  },
+  "http://example.org/ServiceDepartment/a5aac044-7e35-4e24-805a-a48493e21b02": {
+    "name": "Plastic Surgery"
+  },
+  "http://example.org/ContactPoint/4dee8e0c-8bf2-4b4f-8bb8-00055b7b78a4": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Referrals",
+    "email": "FigueroaStrong.Pulmonary@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "0469 145886"
+  },
+  "http://example.org/Person/314654a9-8666-4d27-a816-bfe5d369c8e3": {
+    "gender": "Male",
+    "jobTitle": "Obstetrics Technician",
+    "knowsLanguage": "de",
+    "name": "Tammy Brooks"
+  },
+  "http://example.org/Person/35a4006a-3bec-4f29-a88d-a12731fe79fe": {
+    "gender": "Other",
+    "jobTitle": "Orthopedic Nurse",
+    "knowsLanguage": "nl",
+    "name": "Tina Preston"
+  },
+  "http://example.org/Person/49cc8993-4a19-44da-aad4-6477f7b7fabd": {
+    "gender": "Other",
+    "jobTitle": "Gastroenterologist",
+    "knowsLanguage": "et",
+    "name": "Jessica Cooper"
+  },
+  "http://example.org/ServiceDepartment/8185103a-e372-4117-ac0d-8cfb4eb0226f": {
+    "name": "Diet Nutrition"
+  },
+  "http://example.org/Person/8b4105ac-5827-48a0-afd9-de6bedd698e4": {
+    "gender": "Other",
+    "jobTitle": "Dialysis Nurse",
+    "knowsLanguage": "de",
+    "name": "Joseph Brown"
+  },
+  "http://example.org/Address/d2b76380-fd4d-4301-8148-0029bc17033d": {
+    "addressCountry": "NL",
+    "addressLocality": "Muntendam",
+    "streetAddress": "Bilalhof 68"
+  },
+  "http://example.org/Person/f31c3d32-0327-4ee9-9df0-2da7feac0b86": {
+    "gender": "Male",
+    "jobTitle": "Hematologist",
+    "knowsLanguage": "nl",
+    "name": "Carrie Austin"
+  },
+  "http://example.org/Address/ce3d5089-f5c0-444a-ae4e-0e365d1fb92a": {
+    "addressCountry": "NL",
+    "addressLocality": "Vorchten",
+    "streetAddress": "Benteboulevard 95"
+  },
+  "http://example.org/Person/dd02cdb0-f5fe-49a4-b488-b33e35d0d413": {
+    "gender": "Male",
+    "jobTitle": "Gynecologist",
+    "knowsLanguage": "nl",
+    "name": "Bethany Herring"
+  },
+  "http://example.org/Address/3581890c-348d-42d0-b175-90f6eea0e9bd": {
+    "addressCountry": "AT",
+    "addressLocality": "Frauenkirchen",
+    "streetAddress": "Beatrice-Aschauer-Gasse 40"
+  },
+  "http://example.org/Person/95bef3ee-8b45-4341-8418-1e7ef7ab50a0": {
+    "gender": "Female",
+    "jobTitle": "Community Outreach Specialist",
+    "knowsLanguage": "de",
+    "name": "Gabriel Hunt"
+  },
+  "http://example.org/ServiceDepartment/7a25747d-3f15-4e23-acf2-455c78458fdc": {
+    "name": "Anesthesia"
+  },
+  "http://example.org/Address/9e309ff4-fbfa-4372-b599-86272c90e9f7": {
+    "addressCountry": "EE",
+    "addressLocality": "New Vello",
+    "streetAddress": "Nina Courts 41"
+  },
+  "http://example.org/ServiceDepartment/af1859f4-5f85-473f-a2e1-2970817548c1": {
+    "name": "Respiratory Therapy"
+  },
+  "http://example.org/ServiceDepartment/62023cdb-3469-4bfa-8bbb-d835969a82d7": {
+    "name": "Speech Pathology"
+  },
+  "http://example.org/Address/d5795130-61f4-4601-b703-3fb93d241ea9": {
+    "addressCountry": "NL",
+    "addressLocality": "Emmeloord",
+    "streetAddress": "Morrisboulevard 110"
+  },
+  "http://example.org/Address/1188cc82-9444-4c8c-acea-700d256195d2": {
+    "addressCountry": "NL",
+    "addressLocality": "Noorden",
+    "streetAddress": "Wesselhof 101"
+  },
+  "http://example.org/Person/6fc17d07-2dfa-474b-8196-caa074b43c2a": {
+    "gender": "Female",
+    "jobTitle": "Dialysis Nurse",
+    "knowsLanguage": "de",
+    "name": "Julie Duarte"
+  },
+  "http://example.org/Person/0f0cc6d7-9b06-4461-9543-cc30d2bfb516": {
+    "gender": "Other",
+    "jobTitle": "Optometrist",
+    "knowsLanguage": "nl",
+    "name": "Cynthia Moreno"
+  },
+  "http://example.org/Person/6eeacd42-6fff-4756-b8e5-c62311a88705": {
+    "gender": "Other",
+    "jobTitle": "Vision Therapist",
+    "knowsLanguage": "de",
+    "name": "Tyler Rodriguez"
+  },
+  "http://example.org/Person/8d6831ea-76f0-452c-beb1-e4afa1f44489": {
+    "gender": "Other",
+    "jobTitle": "Arthritis Specialist",
+    "knowsLanguage": "de",
+    "name": "Jeffery Jackson"
+  },
+  "http://example.org/ContactPoint/8a36ef71-cdb0-45ae-ac4b-38e0a56c60a0": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Emergency",
+    "email": "PerezBecker.Infectious@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "625-782-5920"
+  },
+  "http://example.org/Person/f6008f0d-68d0-403f-8c13-5cf98e413e9e": {
+    "gender": "Female",
+    "jobTitle": "EKG Technician",
+    "knowsLanguage": "de",
+    "name": "Helen Allison"
+  },
+  "http://example.org/Person/387af943-91fc-4388-86ce-0139d7ad3400": {
+    "gender": "Male",
+    "jobTitle": "Doula",
+    "knowsLanguage": "de",
+    "name": "Mark Cortez"
+  },
+  "http://example.org/Person/9e847708-e78d-48e3-b2e6-92fb1fe26a23": {
+    "gender": "Female",
+    "jobTitle": "GI Technician",
+    "knowsLanguage": "de",
+    "name": "Ashley Clay"
+  },
+  "http://example.org/Address/66cd92b1-60b2-44e2-8897-c0e8f7666abe": {
+    "addressCountry": "EE",
+    "addressLocality": "North Dmitrihaven",
+    "streetAddress": "Ojala Mall 143"
+  },
+  "http://example.org/Person/1079cb35-2d7a-4adb-9322-635dfc59467f": {
+    "gender": "Male",
+    "jobTitle": "Licensed Practical Nurse",
+    "knowsLanguage": "de",
+    "name": "Timothy Ho"
+  },
+  "http://example.org/ContactPoint/007ccf28-8d54-4d8f-8ed6-d7bbc3b87469": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Staff",
+    "email": "FigueroaStrong.Pharmacy@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "0978 055579"
+  },
+  "http://example.org/Person/66d0ab87-e075-46fe-87a5-be177df0aa0d": {
+    "gender": "Male",
+    "jobTitle": "Toxicologist",
+    "knowsLanguage": "de",
+    "name": "Marissa Foley"
+  },
+  "http://example.org/Person/da939a0c-ffcf-4669-90f3-ebaf0310df92": {
+    "gender": "Female",
+    "jobTitle": "Therapist",
+    "knowsLanguage": "nl",
+    "name": "Janet Hill"
+  },
+  "http://example.org/ContactPoint/dbd36621-b750-4b8d-ae64-3340d1b6963f": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Information",
+    "email": "Burch.Endocrine@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+3152 2748501"
+  },
+  "http://example.org/Person/b2c68d6d-ac77-4099-aae5-807c466af9d9": {
+    "gender": "Other",
+    "jobTitle": "Neonatal Nurse",
+    "knowsLanguage": "et",
+    "name": "Debra Greene"
+  },
+  "http://example.org/Person/c2bc8e29-5fe0-4186-bda1-f7922dad31c1": {
+    "gender": "Male",
+    "jobTitle": "Cosmetic Surgery Nurse",
+    "knowsLanguage": "nl",
+    "name": "Lindsay Scott"
+  },
+  "http://example.org/Person/3b32e60a-5979-47b7-aaad-f25635bdb4a6": {
+    "gender": "Male",
+    "jobTitle": "Endocrine Nurse",
+    "knowsLanguage": "et",
+    "name": "Brooke Fisher"
+  },
+  "http://example.org/Person/3748fb05-c29c-471e-831d-e03876c3523e": {
+    "gender": "Other",
+    "jobTitle": "Psychiatrist",
+    "knowsLanguage": "nl",
+    "name": "April James"
+  },
+  "http://example.org/ServiceDepartment/a6f448e1-6474-48c2-b065-f450f1efe5df": {
+    "name": "Neurologic"
+  },
+  "http://example.org/Person/2a3a4fa9-1321-4c65-853f-40a0be6369fe": {
+    "gender": "Male",
+    "jobTitle": "Surgical Nurse",
+    "knowsLanguage": "de",
+    "name": "Paul Burton"
+  },
+  "http://example.org/HealthcareOrganization/0a6d917c-99ef-4e39-80ed-3b6ac3266fbf": {
+    "name": "Griffin, Ross and Saunders Zorg"
+  },
+  "http://example.org/Person/3476e7ad-e69b-452f-bf75-293d001fd5b5": {
+    "gender": "Female",
+    "jobTitle": "Gerontology Nurse",
+    "knowsLanguage": "et",
+    "name": "Martha Williams"
+  },
+  "http://example.org/Person/0606b914-d2ea-4796-9448-5ea69cf73989": {
+    "gender": "Male",
+    "jobTitle": "Optician",
+    "knowsLanguage": "et",
+    "name": "Kevin Carter"
+  },
+  "http://example.org/Person/21ad20e2-dfb9-4ee7-8aaa-2058456f6384": {
+    "gender": "Male",
+    "jobTitle": "Medical Laboratory Scientist",
+    "knowsLanguage": "nl",
+    "name": "David Vasquez"
+  },
+  "http://example.org/Address/14fc8674-ba32-4aee-928b-5f3f3647d1be": {
+    "addressCountry": "AT",
+    "addressLocality": "Sch\u00e4rding",
+    "streetAddress": "Alexa-Grassl-Stra\u00dfe 18"
+  },
+  "http://example.org/Person/1b6c49eb-4fb9-44d2-9c62-8514e5ab5b4c": {
+    "gender": "Other",
+    "jobTitle": "Pulmonary Function Technologist",
+    "knowsLanguage": "nl",
+    "name": "Elizabeth Kennedy"
+  },
+  "http://example.org/Person/0475bef5-8336-4c38-ba56-8b3404faf624": {
+    "gender": "Male",
+    "jobTitle": "Mental Health Nurse",
+    "knowsLanguage": "et",
+    "name": "Alex Garcia"
+  },
+  "http://example.org/Address/b56fae1e-bc30-4a8d-9767-3b41f1abc9b1": {
+    "addressCountry": "NL",
+    "addressLocality": "Eext",
+    "streetAddress": "Jortring 2"
+  },
+  "http://example.org/Address/c0f2cf90-2c10-4243-848b-8928837a5bd7": {
+    "addressCountry": "NL",
+    "addressLocality": "Meerssen",
+    "streetAddress": "Elizaweg 94"
+  },
+  "http://example.org/ContactPoint/d5fe454d-9642-4ec0-b695-4809e22ef00c": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Appointments",
+    "email": "Burch.Dermatology@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "073-0946836"
+  },
+  "http://example.org/Person/b2c38c9d-197d-4269-a736-2d55ac63a393": {
+    "gender": "Female",
+    "jobTitle": "Optometrist",
+    "knowsLanguage": "de",
+    "name": "Richard Espinoza"
+  },
+  "http://example.org/Address/6b7e6c7b-8a01-4b4a-90cc-c7dacef53837": {
+    "addressCountry": "EE",
+    "addressLocality": "Port Martin",
+    "streetAddress": "Bondarenko Dam 122"
+  },
+  "http://example.org/ContactPoint/1ba2c869-806b-4615-8f7f-dec6e85bd813": {
+    "availableLanguage": "['nl']",
+    "contactType": "Staff",
+    "email": "Ibarra.Gynecologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(0884) 832251"
+  },
+  "http://example.org/Person/88530d14-2c4a-4d65-aa98-131d12e446e6": {
+    "gender": "Male",
+    "jobTitle": "Diet Technician",
+    "knowsLanguage": "de",
+    "name": "Brent Jones"
+  },
+  "http://example.org/Person/19c8cf1a-2ecf-44d7-8483-d37b1d4446f6": {
+    "gender": "Other",
+    "jobTitle": "Physical Therapist",
+    "knowsLanguage": "nl",
+    "name": "Kevin Solis"
+  },
+  "http://example.org/Address/212dc47d-388f-4eb9-a01a-4e2566d36156": {
+    "addressCountry": "NL",
+    "addressLocality": "Woltersum",
+    "streetAddress": "Michaelweg 27"
+  },
+  "http://example.org/Address/c748b74e-9a4b-42f5-a368-61b4b6095388": {
+    "addressCountry": "NL",
+    "addressLocality": "Lutjebroek",
+    "streetAddress": "Olafstraat 113"
+  },
+  "http://example.org/Person/268f242b-7bb2-49a9-a59d-df85a2b724ce": {
+    "gender": "Female",
+    "jobTitle": "Nutrition Counselor",
+    "knowsLanguage": "et",
+    "name": "Christine Kim"
+  },
+  "http://example.org/Person/4e854dc1-d859-4b21-8baa-8402027ad519": {
+    "gender": "Other",
+    "jobTitle": "Endocrine Nurse",
+    "knowsLanguage": "nl",
+    "name": "Timothy Miles"
+  },
+  "http://example.org/Address/f787a17f-2389-41bf-a0f6-e149585a1aeb": {
+    "addressCountry": "NL",
+    "addressLocality": "Maasvlakte Rotterdam",
+    "streetAddress": "Majaring 76"
+  },
+  "http://example.org/Person/fc8462cb-85a4-4d07-9f07-fa076e0b3004": {
+    "gender": "Female",
+    "jobTitle": "Rheumatology Nurse",
+    "knowsLanguage": "et",
+    "name": "Janice Mitchell"
+  },
+  "http://example.org/Person/393321ee-78a6-431b-a064-8c7278187133": {
+    "gender": "Other",
+    "jobTitle": "Orthopedic Surgeon",
+    "knowsLanguage": "et",
+    "name": "Gary Gibson"
+  },
+  "http://example.org/Person/adcf807c-971e-4aa0-bd38-f54221ba2f66": {
+    "gender": "Male",
+    "jobTitle": "GI Technician",
+    "knowsLanguage": "et",
+    "name": "Nicholas Watson"
+  },
+  "http://example.org/Person/071b125a-2090-4f68-8ad8-e456dd832da0": {
+    "gender": "Male",
+    "jobTitle": "GI Nurse",
+    "knowsLanguage": "nl",
+    "name": "Kimberly Watson"
+  },
+  "http://example.org/Person/2d2f3b46-0030-4f2b-9302-a87c415ed72e": {
+    "gender": "Female",
+    "jobTitle": "Urodynamics Technician",
+    "knowsLanguage": "de",
+    "name": "Melissa Richardson"
+  },
+  "http://example.org/Person/886f19d8-8830-4d95-b683-176758be397f": {
+    "gender": "Female",
+    "jobTitle": "Poison Control Specialist",
+    "knowsLanguage": "et",
+    "name": "Brittany Bennett"
+  },
+  "http://example.org/Person/d809cbf2-49cb-4f04-b81d-a4df151480fb": {
+    "gender": "Other",
+    "jobTitle": "Optician",
+    "knowsLanguage": "et",
+    "name": "Aaron Jacobs"
+  },
+  "http://example.org/Person/17d4c691-a9d6-4fac-bd48-bc690a68d3d2": {
+    "gender": "Male",
+    "jobTitle": "Speech Therapist",
+    "knowsLanguage": "nl",
+    "name": "Alicia Roach"
+  },
+  "http://example.org/ContactPoint/69c56aea-de51-4af9-bfa9-6dc1ab854f5e": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Staff",
+    "email": "Delgado.Physiotherapy@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(0997)-391880"
+  },
+  "http://example.org/Person/447b18d1-b569-4f96-a736-774989580bae": {
+    "gender": "Female",
+    "jobTitle": "Communication Disorders Specialist",
+    "knowsLanguage": "nl",
+    "name": "Stephanie Mendoza"
+  },
+  "http://example.org/Person/515cb49c-6fe3-4386-851f-8d47b2380c7c": {
+    "gender": "Male",
+    "jobTitle": "Endocrinologist",
+    "knowsLanguage": "et",
+    "name": "Derrick Fleming PhD"
+  },
+  "http://example.org/ServiceDepartment/901f9c4e-e20d-49d5-be53-2c943b02470c": {
+    "name": "Endocrine"
+  },
+  "http://example.org/Person/b38af17f-d9c9-4373-84a1-c048bc5367dd": {
+    "gender": "Male",
+    "jobTitle": "Physical Therapy Assistant",
+    "knowsLanguage": "et",
+    "name": "Dr. Angela Cruz DVM"
+  },
+  "http://example.org/Person/740a2e41-06e8-48b0-8cc0-8c27d7e1ca2e": {
+    "gender": "Other",
+    "jobTitle": "Pharmacy Technician",
+    "knowsLanguage": "et",
+    "name": "Anita Boyd DDS"
+  },
+  "http://example.org/Address/0bff044c-7cfb-482e-89b4-15b1d7e27181": {
+    "addressCountry": "NL",
+    "addressLocality": "Eppenhuizen",
+    "streetAddress": "Maritboulevard 50"
+  },
+  "http://example.org/Person/25a48dcb-d6bf-425c-8769-5ef1135fe369": {
+    "gender": "Male",
+    "jobTitle": "Cosmetic Surgery Nurse",
+    "knowsLanguage": "et",
+    "name": "Juan Miller"
+  },
+  "http://example.org/Person/22008039-3dcd-4707-86d4-3d6787777e64": {
+    "gender": "Female",
+    "jobTitle": "Orthopedic Surgeon",
+    "knowsLanguage": "et",
+    "name": "Mr. Eric Roman DDS"
+  },
+  "http://example.org/Address/285423ff-9471-4905-af97-ecac3aad7b0f": {
+    "addressCountry": "AT",
+    "addressLocality": "Amstetten",
+    "streetAddress": "Engelring 10"
+  },
+  "http://example.org/Person/d12f02f3-3060-4481-8f94-c97472d98112": {
+    "gender": "Male",
+    "jobTitle": "Plastic Surgeon",
+    "knowsLanguage": "et",
+    "name": "Dawn Richards"
+  },
+  "http://example.org/Person/e74355f0-0196-4fac-a15d-7697f5ee42b7": {
+    "gender": "Male",
+    "jobTitle": "Sleep Technician",
+    "knowsLanguage": "et",
+    "name": "Kyle Arnold"
+  },
+  "http://example.org/Address/af74e105-7c9a-4889-b7ae-0bc3ee7dff73": {
+    "addressCountry": "NL",
+    "addressLocality": "Weiteveen",
+    "streetAddress": "Saarbaan 80"
+  },
+  "http://example.org/Person/daad4653-1a00-401d-981e-c3822f3d0edd": {
+    "gender": "Other",
+    "jobTitle": "Renal Dietitian",
+    "knowsLanguage": "et",
+    "name": "Mark Rhodes"
+  },
+  "http://example.org/Person/1ffcb23e-677e-4435-901c-3638e940e8ad": {
+    "gender": "Female",
+    "jobTitle": "Endocrinologist",
+    "knowsLanguage": "de",
+    "name": "Richard Austin"
+  },
+  "http://example.org/ServiceDepartment/3c3668d6-2e3d-4823-9775-fa8c80af2c5b": {
+    "name": "Hematologic"
+  },
+  "http://example.org/HealthcareOrganization/2232415b-7983-4b41-a2f2-5232be6b529e": {
+    "name": "Mcneil, Gonzalez and Howard Tervisekeskus"
+  },
+  "http://example.org/ContactPoint/48a56890-2058-44d1-bc26-7718e211b57a": {
+    "availableLanguage": "['et']",
+    "contactType": "Emergency",
+    "email": "Berg.Gastroenterologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+1-975-205-2623x3784"
+  },
+  "http://example.org/Person/5f845a3c-cd46-4e27-b920-3f7d40607b1b": {
+    "gender": "Male",
+    "jobTitle": "Pathologist",
+    "knowsLanguage": "et",
+    "name": "Cynthia Mathis"
+  },
+  "http://example.org/ServiceDepartment/fb8768d5-c7d5-40ce-82b2-917e8c483526": {
+    "name": "Midwifery"
+  },
+  "http://example.org/Address/45fb435a-a3ff-4d07-85da-3fc8f3e37d41": {
+    "addressCountry": "NL",
+    "addressLocality": "Rien",
+    "streetAddress": "Elizelaan 2"
+  },
+  "http://example.org/ServiceDepartment/8c5268d0-4e4e-43e2-8f3c-5cfd9f58ad2a": {
+    "name": "Speech Pathology"
+  },
+  "http://example.org/Address/ffc36948-24ac-4654-9590-a26d773febeb": {
+    "addressCountry": "NL",
+    "addressLocality": "Hoofddorp",
+    "streetAddress": "F\u00e9lineweg 114"
+  },
+  "http://example.org/ServiceDepartment/12df7a5e-115b-4d94-925c-36a931ede732": {
+    "name": "Gastroenterologic"
+  },
+  "http://example.org/Address/e563d9b6-f449-45f9-8c2d-deca27021809": {
+    "addressCountry": "NL",
+    "addressLocality": "Lunteren",
+    "streetAddress": "Timboulevard 130"
+  },
+  "http://example.org/Person/bc53acf9-8669-4d07-be35-e7774045ce3b": {
+    "gender": "Other",
+    "jobTitle": "Anesthesiologist",
+    "knowsLanguage": "nl",
+    "name": "Mary Campbell"
+  },
+  "http://example.org/Person/1a05558a-dceb-4915-9c9f-9cef8ebfde43": {
+    "gender": "Female",
+    "jobTitle": "Medical Laboratory Scientist",
+    "knowsLanguage": "nl",
+    "name": "Frances Bullock"
+  },
+  "http://example.org/Person/54a56b72-e923-4ff3-8abf-bca43f5340cc": {
+    "gender": "Other",
+    "jobTitle": "CT Scan Technician",
+    "knowsLanguage": "nl",
+    "name": "Kathleen Mullins"
+  },
+  "http://example.org/Person/d3060442-afb1-49f6-bdaa-c299546f5648": {
+    "gender": "Female",
+    "jobTitle": "Midwife",
+    "knowsLanguage": "nl",
+    "name": "Alex Baldwin"
+  },
+  "http://example.org/Address/ac5f80dc-104f-4042-81c0-3f1aefc212fc": {
+    "addressCountry": "AT",
+    "addressLocality": "Mattighofen",
+    "streetAddress": "Anabella-Hartl-Gasse 91"
+  },
+  "http://example.org/Person/b3e20868-f528-4b4e-b33e-4fab2049a9fb": {
+    "gender": "Male",
+    "jobTitle": "School Nurse",
+    "knowsLanguage": "nl",
+    "name": "Dr. David Glenn"
+  },
+  "http://example.org/Person/4877d419-862e-4fcc-a22e-ae40f13a4908": {
+    "gender": "Female",
+    "jobTitle": "Endocrine Nurse",
+    "knowsLanguage": "nl",
+    "name": "Patricia Wilson"
+  },
+  "http://example.org/Person/40e662a3-b8eb-4118-9472-688c84c3167b": {
+    "gender": "Female",
+    "jobTitle": "Speech Pathologist",
+    "knowsLanguage": "et",
+    "name": "Michael Sanchez"
+  },
+  "http://example.org/Person/d60058fa-9677-4f84-84df-6aaffc7a6a0b": {
+    "gender": "Female",
+    "jobTitle": "Pharmacy Technician",
+    "knowsLanguage": "et",
+    "name": "Tiffany Rojas"
+  },
+  "http://example.org/Person/3314fb64-5b7c-4502-a26a-b93c95597746": {
+    "gender": "Other",
+    "jobTitle": "Speech Therapist",
+    "knowsLanguage": "nl",
+    "name": "Michael Williams"
+  },
+  "http://example.org/ServiceDepartment/66842554-edfe-4685-8a55-3b375a3d3487": {
+    "name": "Dentistry"
+  },
+  "http://example.org/ContactPoint/a4289cb2-19c3-4c9b-92f7-f12f130699fa": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Information",
+    "email": "PerezBecker.Gynecologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+1-650-470-0550"
+  },
+  "http://example.org/Person/32eaebb1-5578-4fbd-b416-158f74655648": {
+    "gender": "Female",
+    "jobTitle": "Foot Care Nurse",
+    "knowsLanguage": "nl",
+    "name": "Tamara Anderson"
+  },
+  "http://example.org/ContactPoint/e978c309-8d9c-4348-aef2-0bd11fb2b515": {
+    "availableLanguage": "['et']",
+    "contactType": "Appointments",
+    "email": "Berg.Gynecologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "725.722.5268"
+  },
+  "http://example.org/Person/4c39efc1-d243-481e-abfa-0a44dd1e53b1": {
+    "gender": "Female",
+    "jobTitle": "Gastroenterologist",
+    "knowsLanguage": "nl",
+    "name": "Michael Richardson"
+  },
+  "http://example.org/ServiceDepartment/c4734859-3521-4aff-a104-45335d542d21": {
+    "name": "Psychiatric"
+  },
+  "http://example.org/ContactPoint/81427485-bf6b-4e99-912b-5a7fd721e1fe": {
+    "availableLanguage": "['nl']",
+    "contactType": "Staff",
+    "email": "FigueroaStrong.Cardiovascular@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "049 7612433"
+  },
+  "http://example.org/Person/3b00c9f5-8a7c-4c14-8047-bed376681d4b": {
+    "gender": "Male",
+    "jobTitle": "Neurosurgeon",
+    "knowsLanguage": "et",
+    "name": "Kristina Jones"
+  },
+  "http://example.org/ContactPoint/15b90af7-2fa9-4291-a2c1-4312a98730cc": {
+    "availableLanguage": "['nl']",
+    "contactType": "Emergency",
+    "email": "Burch.Toxicologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+3138 8353878"
+  },
+  "http://example.org/ContactPoint/bcc69461-bb52-4e6f-998b-247879c971b7": {
+    "availableLanguage": "['de']",
+    "contactType": "Appointments",
+    "email": "Parker.Public@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+1-461-782-8173"
+  },
+  "http://example.org/ServiceDepartment/67fc2a66-f5cc-480b-abc8-9fedd6ca03cc": {
+    "name": "Nursing"
+  },
+  "http://example.org/Person/7168e70e-1f7d-47fc-a199-0de7b34ed132": {
+    "gender": "Female",
+    "jobTitle": "Gastroenterologist",
+    "knowsLanguage": "de",
+    "name": "Elizabeth Randolph"
+  },
+  "http://example.org/Address/e4284dea-3112-4a0a-a1ec-54136a319877": {
+    "addressCountry": "AT",
+    "addressLocality": "Ferlach",
+    "streetAddress": "Hauserweg 75"
+  },
+  "http://example.org/Address/84035d5d-5d00-470b-9d57-6a1252ecdf22": {
+    "addressCountry": "EE",
+    "addressLocality": "Liivtown",
+    "streetAddress": "Triin Road 77"
+  },
+  "http://example.org/Person/818524d4-002d-488e-8fc1-1fb945b05f04": {
+    "gender": "Female",
+    "jobTitle": "Gynecologist",
+    "knowsLanguage": "de",
+    "name": "James Barrera"
+  },
+  "http://example.org/ServiceDepartment/6d7dc2fb-42cf-4098-b362-2cb2263afb64": {
+    "name": "Renal"
+  },
+  "http://example.org/Person/a2782598-982a-4ced-a41d-801b16d0287a": {
+    "gender": "Female",
+    "jobTitle": "Sleep Technician",
+    "knowsLanguage": "nl",
+    "name": "Jillian Jackson"
+  },
+  "http://example.org/Person/745e2d6c-c467-4040-be79-b14cd66d4399": {
+    "gender": "Male",
+    "jobTitle": "Obstetric Nurse",
+    "knowsLanguage": "nl",
+    "name": "Sarah Phillips"
+  },
+  "http://example.org/Address/b74df810-16e5-42c4-8ae1-83cd234cbd5a": {
+    "addressCountry": "NL",
+    "addressLocality": "Abbenbroek",
+    "streetAddress": "Chlo\u00e9laan 150"
+  },
+  "http://example.org/ContactPoint/df7cc604-c60f-4337-ac15-f357200ab3a9": {
+    "availableLanguage": "['de']",
+    "contactType": "Emergency",
+    "email": "Robinson.Neurologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(771)442-8397"
+  },
+  "http://example.org/Address/5238c064-f72e-42c8-bac3-67ff0ba84c12": {
+    "addressCountry": "EE",
+    "addressLocality": "Antsside",
+    "streetAddress": "Siim Corners 52"
+  },
+  "http://example.org/ContactPoint/101d7952-451e-4145-a13b-441e4b491a56": {
+    "availableLanguage": "['nl']",
+    "contactType": "Emergency",
+    "email": "Delgado.Dentistry@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(0714)-163115"
+  },
+  "http://example.org/HealthcareOrganization/bf3206ba-1e0d-4c22-992b-594d2752dd0d": {
+    "name": "Berg, Long and Middleton Tervisekeskus"
+  },
+  "http://example.org/Person/2e99cc1b-42ec-4b94-9ec2-46abe70b20bd": {
+    "gender": "Male",
+    "jobTitle": "Neurologist",
+    "knowsLanguage": "de",
+    "name": "Henry Banks"
+  },
+  "http://example.org/ContactPoint/2630dd6c-6ff8-4971-8d46-18751a0d2c72": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Patient Services",
+    "email": "Griffin@healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31825-717340"
+  },
+  "http://example.org/Person/9543312c-cbdd-49a4-9cea-0c56952ffb17": {
+    "gender": "Male",
+    "jobTitle": "Renal Dietitian",
+    "knowsLanguage": "de",
+    "name": "Karen Howard"
+  },
+  "http://example.org/Person/c73c5411-c055-4163-b060-131cc045f2b2": {
+    "gender": "Other",
+    "jobTitle": "Psychologist",
+    "knowsLanguage": "et",
+    "name": "Jonathan Burton"
+  },
+  "http://example.org/ServiceDepartment/46a83582-f8c6-473f-999a-fd79a6c399e3": {
+    "name": "Cardiovascular"
+  },
+  "http://example.org/Person/19fbaee1-f310-4dab-873c-e0c9c312e874": {
+    "gender": "Other",
+    "jobTitle": "GI Nurse",
+    "knowsLanguage": "nl",
+    "name": "Benjamin Barnes"
+  },
+  "http://example.org/ServiceDepartment/66881b97-25b1-49f5-935a-568e47943bba": {
+    "name": "Hematologic"
+  },
+  "http://example.org/ServiceDepartment/08a3b91b-ac8f-450c-a38e-70a312e9214d": {
+    "name": "Pediatric"
+  },
+  "http://example.org/Address/b14c21b1-0200-44c9-b120-b7715ac1d72b": {
+    "addressCountry": "NL",
+    "addressLocality": "Riethoven",
+    "streetAddress": "Silstraat 6"
+  },
+  "http://example.org/Address/aca59720-ce00-43ba-a401-0fcf58810afb": {
+    "addressCountry": "EE",
+    "addressLocality": "Lake Aleksander",
+    "streetAddress": "J\u00f5gi Causeway 101"
+  },
+  "http://example.org/Person/331d13fd-e272-4548-9bee-10668dee8d05": {
+    "gender": "Other",
+    "jobTitle": "Orthopedic Surgeon",
+    "knowsLanguage": "de",
+    "name": "Carrie Oneill"
+  },
+  "http://example.org/ContactPoint/3431101e-c3eb-455d-a3a6-359e137ab8c9": {
+    "availableLanguage": "['et']",
+    "contactType": "Staff",
+    "email": "Novak.Hematologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "001-755-982-6187"
+  },
+  "http://example.org/Person/de4cb327-10a0-476f-9a14-e392f9356224": {
+    "gender": "Other",
+    "jobTitle": "Dental Hygienist",
+    "knowsLanguage": "de",
+    "name": "Gina Bentley MD"
+  },
+  "http://example.org/Address/eb83e24e-abd8-49cb-a0a6-846ac75f75c2": {
+    "addressCountry": "NL",
+    "addressLocality": "Ameide",
+    "streetAddress": "Colinbaan 105"
+  },
+  "http://example.org/ServiceDepartment/702b5a53-423b-4878-bb62-e5c18deaf4c5": {
+    "name": "Optometric"
+  },
+  "http://example.org/Person/7248f633-d792-466e-8445-788877c746b1": {
+    "gender": "Other",
+    "jobTitle": "Orthopedic Nurse",
+    "knowsLanguage": "et",
+    "name": "Curtis Sanchez"
+  },
+  "http://example.org/ServiceDepartment/7d4b63f3-aec9-468a-b4e5-fe3198c012ba": {
+    "name": "Podiatric"
+  },
+  "http://example.org/Person/4ca7202c-8038-4d67-ae67-813810693d30": {
+    "gender": "Male",
+    "jobTitle": "Genetic Counselor",
+    "knowsLanguage": "et",
+    "name": "Patricia Ball"
+  },
+  "http://example.org/Person/d1d400a4-efc8-4ac5-9e24-898d08e19716": {
+    "gender": "Male",
+    "jobTitle": "Pediatric Nurse",
+    "knowsLanguage": "de",
+    "name": "Patricia Mckenzie"
+  },
+  "http://example.org/Person/cf433f6c-9ba0-4a34-ae51-ad12f5b764c9": {
+    "gender": "Other",
+    "jobTitle": "Pulmonologist",
+    "knowsLanguage": "et",
+    "name": "Herbert Galloway"
+  },
+  "http://example.org/ContactPoint/43ee3a98-f7fd-4730-808e-e2f0b4682696": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "General Inquiries",
+    "email": "Parker@healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "4884559026"
+  },
+  "http://example.org/ServiceDepartment/26783910-1ca1-4bd6-aa06-21db01886621": {
+    "name": "Psychiatric"
+  },
+  "http://example.org/Person/13fa8b33-a015-4f8f-a593-e41ecc9f9562": {
+    "gender": "Female",
+    "jobTitle": "Orthopedic Nurse",
+    "knowsLanguage": "de",
+    "name": "Sue Peters"
+  },
+  "http://example.org/ServiceDepartment/1e027afc-c1fd-42aa-9fd7-049f0321bcce": {
+    "name": "Cardiovascular"
+  },
+  "http://example.org/ContactPoint/12139cc8-257c-48e3-8268-ebcd3f64b1f7": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Staff",
+    "email": "Allen.Renal@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "009-3476195"
+  },
+  "http://example.org/Person/3ba970f9-750b-4aa7-83b3-8006c1b729c1": {
+    "gender": "Female",
+    "jobTitle": "Pulmonary Function Technologist",
+    "knowsLanguage": "de",
+    "name": "Heidi Howard"
+  },
+  "http://example.org/ServiceDepartment/c96c2415-6849-46e7-a3ce-ec290e11892f": {
+    "name": "Psychiatric"
+  },
+  "http://example.org/ContactPoint/c293b8f9-ef44-4a4b-8833-bcb1ff4006a8": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Appointments",
+    "email": "Robinson.Respiratory@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+1-438-533-7131"
+  },
+  "http://example.org/Person/39ab9fbc-ba76-40f0-a694-3b5ea79c5b6f": {
+    "gender": "Female",
+    "jobTitle": "Lung Function Technician",
+    "knowsLanguage": "nl",
+    "name": "Lisa Burke"
+  },
+  "http://example.org/ContactPoint/9ebbc757-b59b-4386-b239-47b1d07b139f": {
+    "availableLanguage": "['et', 'en']",
+    "contactType": "Patient Services",
+    "email": "Berg@healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(757)762-9481"
+  },
+  "http://example.org/ServiceDepartment/cd275982-d537-4657-9002-6aef0a5a1cfd": {
+    "name": "Rheumatologic"
+  },
+  "http://example.org/ContactPoint/e5b057bf-1cab-4116-98c6-3196f8daa82b": {
+    "availableLanguage": "['de']",
+    "contactType": "General Inquiries",
+    "email": "PerezBecker@healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "001-293-368-4735"
+  },
+  "http://example.org/Person/3d6ef480-d851-4b20-9591-c757aaa21c46": {
+    "gender": "Male",
+    "jobTitle": "Optician",
+    "knowsLanguage": "et",
+    "name": "Justin Lawson"
+  },
+  "http://example.org/Address/e714ae05-bd6b-4419-aaa3-8f8b6f9159df": {
+    "addressCountry": "NL",
+    "addressLocality": "Den Hoorn",
+    "streetAddress": "Ravisteeg 77"
+  },
+  "http://example.org/ContactPoint/7e8bea48-cded-4505-99a3-9f86933794b7": {
+    "availableLanguage": "['nl']",
+    "contactType": "Staff",
+    "email": "Peck.Infectious@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31913-064853"
+  },
+  "http://example.org/ContactPoint/2e03bd4f-9c4c-4817-ac03-a96444e0228c": {
+    "availableLanguage": "['et']",
+    "contactType": "Emergency",
+    "email": "Berg.Geriatric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "689.351.5075x482"
+  },
+  "http://example.org/Person/63492b36-b99c-4ee1-b23a-8073c4b8e9d6": {
+    "gender": "Other",
+    "jobTitle": "Neurological Nurse",
+    "knowsLanguage": "et",
+    "name": "Diana White"
+  },
+  "http://example.org/Person/c18975d6-0073-4e66-bd1a-328bf9eb2f4e": {
+    "gender": "Male",
+    "jobTitle": "Radiologist",
+    "knowsLanguage": "de",
+    "name": "Kathryn Gonzalez"
+  },
+  "http://example.org/Person/50a4bb54-5c86-4215-86b5-6a44c4343179": {
+    "gender": "Male",
+    "jobTitle": "Midwife",
+    "knowsLanguage": "nl",
+    "name": "Kara Martin"
+  },
+  "http://example.org/Person/93272fda-bb15-4457-a630-7e5b5f2f3e94": {
+    "gender": "Female",
+    "jobTitle": "Endocrinologist",
+    "knowsLanguage": "de",
+    "name": "Jerry Bell"
+  },
+  "http://example.org/Address/2fb2e908-4ffb-4ba9-bc7d-21df4bf426e3": {
+    "addressCountry": "NL",
+    "addressLocality": "Den Velde",
+    "streetAddress": "Jordyring 13"
+  },
+  "http://example.org/Person/2d508723-0bf2-4c20-88d8-67b489f1e0a7": {
+    "gender": "Male",
+    "jobTitle": "Women's Health Nurse",
+    "knowsLanguage": "nl",
+    "name": "Diana Paul"
+  },
+  "http://example.org/Person/c52dfc8d-d350-4c22-b163-0e3bbd78ce83": {
+    "gender": "Other",
+    "jobTitle": "Pathologist",
+    "knowsLanguage": "nl",
+    "name": "Oscar Chavez"
+  },
+  "http://example.org/Person/779dd795-97ca-40d5-9918-62d80d95ca96": {
+    "gender": "Female",
+    "jobTitle": "Neurological Nurse",
+    "knowsLanguage": "et",
+    "name": "Cory Silva"
+  },
+  "http://example.org/ContactPoint/e69586d8-f5e4-4c13-9cee-77ebf15e2936": {
+    "availableLanguage": "['et']",
+    "contactType": "Information",
+    "email": "Berg.Podiatric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "7549738569"
+  },
+  "http://example.org/Person/92773759-deed-43d8-9e67-bd3fa9ea9d0c": {
+    "gender": "Male",
+    "jobTitle": "Lab Technician",
+    "knowsLanguage": "de",
+    "name": "Susan Campos"
+  },
+  "http://example.org/Person/8736e561-498c-42a3-8a5a-6f0ac0fca659": {
+    "gender": "Female",
+    "jobTitle": "Gastroenterologist",
+    "knowsLanguage": "de",
+    "name": "Richard Curtis"
+  },
+  "http://example.org/ServiceDepartment/9874e21a-b90c-4054-9691-3d182e3583bd": {
+    "name": "Pharmacy Specialty"
+  },
+  "http://example.org/Person/a364209d-0c7e-40f9-bc16-7b3d081d633d": {
+    "gender": "Female",
+    "jobTitle": "Anesthesiology Assistant",
+    "knowsLanguage": "et",
+    "name": "Megan Patel"
+  },
+  "http://example.org/Person/6233637a-ddd2-46e8-b46e-50a463edad22": {
+    "gender": "Female",
+    "jobTitle": "Reconstructive Specialist",
+    "knowsLanguage": "nl",
+    "name": "Mr. William Flores II"
+  },
+  "http://example.org/ContactPoint/ea348d1c-5c3e-4d74-b3f3-cac56fb29b7d": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Information",
+    "email": "Delgado.Nursing@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31752-042438"
+  },
+  "http://example.org/Person/db2c5b5d-ef8b-4912-9221-e5a7cace4300": {
+    "gender": "Other",
+    "jobTitle": "Emergency Physician",
+    "knowsLanguage": "et",
+    "name": "Julia Ross"
+  },
+  "http://example.org/ContactPoint/72bf86a2-0b24-4fd4-a517-7c6d95d5ce45": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Staff",
+    "email": "Ibarra.Optometric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(000) 0035114"
+  },
+  "http://example.org/Person/ca5c4bb6-8e68-4308-829f-706e9a61974e": {
+    "gender": "Male",
+    "jobTitle": "Pulmonary Function Technologist",
+    "knowsLanguage": "nl",
+    "name": "Amanda Thomas"
+  },
+  "http://example.org/ContactPoint/92c7f5c9-f6ac-4a43-930e-bbd3339d59ab": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Information",
+    "email": "Delgado.Renal@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)68 3502676"
+  },
+  "http://example.org/Person/42e31d9a-63ed-4e88-8324-1402742e0e50": {
+    "gender": "Male",
+    "jobTitle": "Midwife",
+    "knowsLanguage": "nl",
+    "name": "Ralph Russell"
+  },
+  "http://example.org/Person/a225918e-a955-4d4f-a470-b9c0bc77bdd3": {
+    "gender": "Other",
+    "jobTitle": "Gynecologist",
+    "knowsLanguage": "et",
+    "name": "Teresa Davis"
+  },
+  "http://example.org/ServiceDepartment/6ec80d0c-e696-4a7c-aacc-0d09da332bc7": {
+    "name": "Laboratory Science"
+  },
+  "http://example.org/Person/6d9a941e-4e9c-4b0c-92c9-b0313c95b0a6": {
+    "gender": "Other",
+    "jobTitle": "Infectious Disease Specialist",
+    "knowsLanguage": "de",
+    "name": "Dawn Yoder"
+  },
+  "http://example.org/ContactPoint/868f5f59-6919-4c21-b086-1d538c89f3eb": {
+    "availableLanguage": "['et', 'en']",
+    "contactType": "Staff",
+    "email": "Berg.Genetic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "842-242-8523x70724"
+  },
+  "http://example.org/ServiceDepartment/6e1c7343-aacb-4240-8b49-13d8136b7bc2": {
+    "name": "Renal"
+  },
+  "http://example.org/Person/9c8ec723-b57f-446a-9b60-0de10d457d5e": {
+    "gender": "Other",
+    "jobTitle": "Podiatrist",
+    "knowsLanguage": "de",
+    "name": "Heather Barron"
+  },
+  "http://example.org/Person/9cbaa134-1189-4417-8a4a-793fd6be6383": {
+    "gender": "Male",
+    "jobTitle": "Anesthesiology Assistant",
+    "knowsLanguage": "et",
+    "name": "Melissa Erickson"
+  },
+  "http://example.org/Person/84307f61-3e03-4844-8d5b-adfdbab54f84": {
+    "gender": "Female",
+    "jobTitle": "School Nurse",
+    "knowsLanguage": "et",
+    "name": "Lindsey Watts"
+  },
+  "http://example.org/Person/73946c72-1344-4e06-b5e4-46d504e57ef7": {
+    "gender": "Female",
+    "jobTitle": "Rheumatology Nurse",
+    "knowsLanguage": "de",
+    "name": "Tara Butler"
+  },
+  "http://example.org/Person/c3ccc0d2-7529-465d-88a5-84f3df47b774": {
+    "gender": "Male",
+    "jobTitle": "Cosmetic Surgery Nurse",
+    "knowsLanguage": "et",
+    "name": "Patrick Mcdonald"
+  },
+  "http://example.org/Person/556c943c-a1e5-4caa-8b6c-dbf54e25e7c9": {
+    "gender": "Female",
+    "jobTitle": "Neurosurgeon",
+    "knowsLanguage": "nl",
+    "name": "Andrea Lewis"
+  },
+  "http://example.org/Person/f3499fc9-85de-4450-a345-0954c1c36435": {
+    "gender": "Female",
+    "jobTitle": "Hematologist",
+    "knowsLanguage": "et",
+    "name": "Mario Bond"
+  },
+  "http://example.org/Person/e5df1de6-2d7c-4630-a820-bff0c8f3d444": {
+    "gender": "Other",
+    "jobTitle": "Geneticist",
+    "knowsLanguage": "nl",
+    "name": "Collin Fisher"
+  },
+  "http://example.org/ContactPoint/dcb9dd84-bcd5-4e43-bf4e-b99f252cd433": {
+    "availableLanguage": "['et']",
+    "contactType": "Referrals",
+    "email": "Novak.Respiratory@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(759)234-0792"
+  },
+  "http://example.org/Address/2c397bc3-bdb3-406b-babb-4fa6efe7db23": {
+    "addressCountry": "AT",
+    "addressLocality": "Vils",
+    "streetAddress": "Chris-Gr\u00fcnberger-Platz 54"
+  },
+  "http://example.org/Address/b7137f56-ad16-44d6-8c52-496eaf75b879": {
+    "addressCountry": "EE",
+    "addressLocality": "Markomouth",
+    "streetAddress": "Natalja Turnpike 77"
+  },
+  "http://example.org/Person/c873536c-236a-4891-b2f4-d05d86082db6": {
+    "gender": "Other",
+    "jobTitle": "Urodynamics Technician",
+    "knowsLanguage": "de",
+    "name": "Miss Alyssa Simmons"
+  },
+  "http://example.org/Person/7729c204-fc96-405c-9e5c-2580f11e09aa": {
+    "gender": "Female",
+    "jobTitle": "Gerontology Nurse",
+    "knowsLanguage": "et",
+    "name": "Brenda Benton"
+  },
+  "http://example.org/Person/9bf3c494-888c-49a1-8e96-b40a9b890feb": {
+    "gender": "Other",
+    "jobTitle": "Foot Care Nurse",
+    "knowsLanguage": "de",
+    "name": "Tina Dean"
+  },
+  "http://example.org/HealthcareOrganization/8c9bb66f-8360-453b-bbe3-1fd1492b8f43": {
+    "name": "Perez-Becker Gesundheitszentrum"
+  },
+  "http://example.org/ContactPoint/ec6321ea-60aa-423d-8d7a-999c5ab5ed01": {
+    "availableLanguage": "['nl']",
+    "contactType": "Patient Services",
+    "email": "Allen@healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(062)-7912560"
+  },
+  "http://example.org/Address/052c0f4d-cf8d-41cc-b29e-d721282280d9": {
+    "addressCountry": "EE",
+    "addressLocality": "Abramovfurt",
+    "streetAddress": "Priit Freeway 68"
+  },
+  "http://example.org/Person/fa06be6e-797e-4653-958d-c9a90e602ce3": {
+    "gender": "Female",
+    "jobTitle": "Infectious Disease Specialist",
+    "knowsLanguage": "et",
+    "name": "James Kim"
+  },
+  "http://example.org/Person/535cac28-56d9-424c-8bd7-dde59d995c8c": {
+    "gender": "Male",
+    "jobTitle": "Gastroenterologist",
+    "knowsLanguage": "de",
+    "name": "Daniel Green"
+  },
+  "http://example.org/Person/662ae4a1-aa39-4584-9046-9cdd61dc540e": {
+    "gender": "Female",
+    "jobTitle": "Pediatrician",
+    "knowsLanguage": "et",
+    "name": "Jason Shannon"
+  },
+  "http://example.org/Person/172650bf-a510-494a-9259-4588c2fa94e6": {
+    "gender": "Male",
+    "jobTitle": "Community Outreach Specialist",
+    "knowsLanguage": "de",
+    "name": "Shannon Reid"
+  },
+  "http://example.org/Person/78f23185-bb44-43b9-bb03-be45a5f87b1b": {
+    "gender": "Other",
+    "jobTitle": "Environmental Health Officer",
+    "knowsLanguage": "de",
+    "name": "Garrett Barron"
+  },
+  "http://example.org/ContactPoint/57b20ab0-1e72-450d-ab1e-517c3ffd3c7c": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Emergency",
+    "email": "Peck.Anesthesia@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(059)-4724061"
+  },
+  "http://example.org/HealthcareOrganization/4aafddd1-9809-425a-a352-24b87fdfc4bb": {
+    "name": "Robinson, Montoya and Walters Gesundheitszentrum"
+  },
+  "http://example.org/Address/30d8ff0f-8565-4ced-bdf0-c626bf7704b0": {
+    "addressCountry": "NL",
+    "addressLocality": "Nispen",
+    "streetAddress": "Jensweg 69"
+  },
+  "http://example.org/Person/cf5a69dd-21f0-428e-b4b6-bd73898aa927": {
+    "gender": "Female",
+    "jobTitle": "Licensed Practical Nurse",
+    "knowsLanguage": "nl",
+    "name": "Laura Cooke"
+  },
+  "http://example.org/ServiceDepartment/991e293e-5335-490d-9fc1-a27ecf544dcf": {
+    "name": "Optometric"
+  },
+  "http://example.org/ServiceDepartment/2f058f6d-ac4c-48ac-9084-4137e1bdaa60": {
+    "name": "Gynecologic"
+  },
+  "http://example.org/ContactPoint/31e927a1-489f-4bf4-89a7-11804ded3807": {
+    "availableLanguage": "['nl']",
+    "contactType": "Staff",
+    "email": "Griffin.Anesthesia@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)049 493858"
+  },
+  "http://example.org/ServiceDepartment/43553ed3-bdc8-4ccc-bcff-b743856bdea1": {
+    "name": "Nursing"
+  },
+  "http://example.org/Person/e8e0b34b-6f73-4d55-8185-84664e8eba8e": {
+    "gender": "Female",
+    "jobTitle": "Cardiac Nurse",
+    "knowsLanguage": "nl",
+    "name": "Heather Gardner"
+  },
+  "http://example.org/Person/abc8d74d-8484-4822-936d-0a9019761cb8": {
+    "gender": "Male",
+    "jobTitle": "Renal Dietitian",
+    "knowsLanguage": "et",
+    "name": "Heather Griffith"
+  },
+  "http://example.org/ContactPoint/5d01f96e-84d2-4ff8-b18d-fe48ca730040": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Patient Services",
+    "email": "Peck@healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "065-4611877"
+  },
+  "http://example.org/Person/e7535a43-d5a4-4942-92c8-7a15c2f76c47": {
+    "gender": "Other",
+    "jobTitle": "Dialysis Nurse",
+    "knowsLanguage": "et",
+    "name": "Jonathan Davidson"
+  },
+  "http://example.org/Person/e13aff56-1699-4ff2-89ad-3eab9ad6d506": {
+    "gender": "Female",
+    "jobTitle": "ER Nurse",
+    "knowsLanguage": "nl",
+    "name": "Daniel James"
+  },
+  "http://example.org/ContactPoint/fecaaec6-ec7b-4cb6-bf57-d64c6b8386ca": {
+    "availableLanguage": "['nl']",
+    "contactType": "Staff",
+    "email": "Jordan.Gastroenterologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(0918)-558554"
+  },
+  "http://example.org/Address/7aea3fbf-3ed6-45a8-aff7-085ad61fbc25": {
+    "addressCountry": "NL",
+    "addressLocality": "Barendrecht",
+    "streetAddress": "Juliebaan 30"
+  },
+  "http://example.org/Person/ca99c443-f31e-4dfc-9407-bf892e5e005b": {
+    "gender": "Female",
+    "jobTitle": "Midwife",
+    "knowsLanguage": "nl",
+    "name": "Kenneth Thompson"
+  },
+  "http://example.org/ContactPoint/8b2133d1-7a05-4f44-9ef0-f5cf1adf729d": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Media Relations",
+    "email": "Burch@healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+3192-6902906"
+  },
+  "http://example.org/Person/e444b71c-565a-447c-9f67-a4d0de6ec0fd": {
+    "gender": "Female",
+    "jobTitle": "Respiratory Therapist",
+    "knowsLanguage": "de",
+    "name": "Shannon Pratt"
+  },
+  "http://example.org/Person/f8a70157-b724-42e5-b862-dcb2bdf731c0": {
+    "gender": "Male",
+    "jobTitle": "Neurologist",
+    "knowsLanguage": "nl",
+    "name": "Timothy Thompson"
+  },
+  "http://example.org/Person/8dda9738-f4b9-49b1-92b0-262801ac4328": {
+    "gender": "Male",
+    "jobTitle": "Lung Function Technician",
+    "knowsLanguage": "nl",
+    "name": "Kendra Skinner"
+  },
+  "http://example.org/ServiceDepartment/db0048d0-9069-4e3a-9a67-ac751908a009": {
+    "name": "Laboratory Science"
+  },
+  "http://example.org/Address/b749c0a8-8eb6-4c65-9fda-64d4d8947558": {
+    "addressCountry": "NL",
+    "addressLocality": "Tiel",
+    "streetAddress": "Elifboulevard 29"
+  },
+  "http://example.org/Person/a2d0cbaf-e281-4b59-a0ce-98c034d985d7": {
+    "gender": "Male",
+    "jobTitle": "Otolaryngologist",
+    "knowsLanguage": "et",
+    "name": "Donna Morgan"
+  },
+  "http://example.org/Person/70cadd8f-7b40-4451-bbf9-b39e7b990a68": {
+    "gender": "Male",
+    "jobTitle": "Lung Function Technician",
+    "knowsLanguage": "et",
+    "name": "Michael Brown"
+  },
+  "http://example.org/ServiceDepartment/f4d1e25b-d075-49ef-970a-4ba060f08103": {
+    "name": "Pulmonary"
+  },
+  "http://example.org/Address/50353c17-420e-4e5d-8eda-f69efb04f2ce": {
+    "addressCountry": "NL",
+    "addressLocality": "Ouderkerk aan den IJssel",
+    "streetAddress": "Merelring 6"
+  },
+  "http://example.org/ServiceDepartment/7e5fcab2-91f0-4e63-81a8-7b9419820746": {
+    "name": "Endocrine"
+  },
+  "http://example.org/Person/e77fa4c7-d3e0-485c-a33c-baadab25c797": {
+    "gender": "Female",
+    "jobTitle": "Child Life Specialist",
+    "knowsLanguage": "de",
+    "name": "Terry Ball"
+  },
+  "http://example.org/Address/5a90a5f7-e23f-45bf-9f2f-4db09f6243d4": {
+    "addressCountry": "EE",
+    "addressLocality": "Markberg",
+    "streetAddress": "Meelis Haven 129"
+  },
+  "http://example.org/Person/07475100-afe3-461d-8554-a897945477ca": {
+    "gender": "Male",
+    "jobTitle": "Podiatrist",
+    "knowsLanguage": "et",
+    "name": "Theresa Brooks"
+  },
+  "http://example.org/Person/a1d20d43-d088-4c00-8ab6-75b566e5d760": {
+    "gender": "Male",
+    "jobTitle": "Community Outreach Specialist",
+    "knowsLanguage": "nl",
+    "name": "Bethany Matthews"
+  },
+  "http://example.org/ServiceDepartment/924e8dba-2bbf-4ee5-bb76-26b644605174": {
+    "name": "Plastic Surgery"
+  },
+  "http://example.org/ContactPoint/f6d0e273-32a8-4e0b-beea-26d734630a5b": {
+    "availableLanguage": "['nl']",
+    "contactType": "Information",
+    "email": "Ibarra.Optometric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(0145) 901789"
+  },
+  "http://example.org/Address/2ed1d23b-5ef6-4060-a0ab-fea6612d28ef": {
+    "addressCountry": "EE",
+    "addressLocality": "K\u00fctttown",
+    "streetAddress": "Raivo Ford 78"
+  },
+  "http://example.org/HealthcareOrganization/a41e6ccd-d0c1-44b9-a7da-c8d53626810d": {
+    "name": "Ibarra PLC Zorg"
+  },
+  "http://example.org/ContactPoint/e99f8beb-c132-4441-8c8e-ce8d7fdbd2dd": {
+    "availableLanguage": "['et']",
+    "contactType": "Emergency",
+    "email": "Mcneil.Plastic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "001-645-542-2375x0579"
+  },
+  "http://example.org/ServiceDepartment/f5d86ecd-f357-4c54-8a6a-45b5e8dc33eb": {
+    "name": "Toxicologic"
+  },
+  "http://example.org/Address/6cfb3ba7-0ac6-440c-b4ad-0960ffd8a4ec": {
+    "addressCountry": "NL",
+    "addressLocality": "Dirksland",
+    "streetAddress": "Rikpad 149"
+  },
+  "http://example.org/Person/447add71-090b-4634-87f7-bc4a592e741f": {
+    "gender": "Female",
+    "jobTitle": "Urologist",
+    "knowsLanguage": "et",
+    "name": "Michael Cobb"
+  },
+  "http://example.org/ContactPoint/47bc7296-e9b2-400d-aeb6-88f0d5d3a06b": {
+    "availableLanguage": "['nl']",
+    "contactType": "Emergency",
+    "email": "FigueroaStrong.Renal@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "0546-698497"
+  },
+  "http://example.org/Person/af6ca498-d277-480f-a522-b0d2af0ae954": {
+    "gender": "Other",
+    "jobTitle": "Genetic Counselor",
+    "knowsLanguage": "nl",
+    "name": "Samuel Mejia"
+  },
+  "http://example.org/ContactPoint/efa8ab87-89ce-40a3-b4fb-af5ff05faa92": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Patient Services",
+    "email": "Robinson@healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "3132991615"
+  },
+  "http://example.org/Person/c12aa057-2958-40ac-8e1a-248a302560cf": {
+    "gender": "Other",
+    "jobTitle": "Lab Technician",
+    "knowsLanguage": "de",
+    "name": "Norma Meyer"
+  },
+  "http://example.org/ContactPoint/24933f15-da43-4001-9f2a-17526c43de75": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Staff",
+    "email": "PerezBecker.Renal@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "001-332-215-0490"
+  },
+  "http://example.org/Address/e0f3a212-7793-4afe-9487-7c7414c402b7": {
+    "addressCountry": "NL",
+    "addressLocality": "Deursen-Dennenburg",
+    "streetAddress": "Tijnboulevard 98"
+  },
+  "http://example.org/Person/e8e9d050-0bf9-4789-9fcc-e692205d6a6f": {
+    "gender": "Female",
+    "jobTitle": "Cardiac Nurse",
+    "knowsLanguage": "et",
+    "name": "Nicole Dean"
+  },
+  "http://example.org/Person/033ed080-3b8c-4355-868e-baed016f5145": {
+    "gender": "Female",
+    "jobTitle": "Cardiovascular Surgeon",
+    "knowsLanguage": "de",
+    "name": "Sheila Ortiz"
+  },
+  "http://example.org/Person/441e92e7-c261-4e80-a609-c1e7b370e924": {
+    "gender": "Male",
+    "jobTitle": "GI Technician",
+    "knowsLanguage": "de",
+    "name": "Lisa Buck"
+  },
+  "http://example.org/ContactPoint/8a75f05d-04c6-472a-9925-83d8922ad7a1": {
+    "availableLanguage": "['et', 'en']",
+    "contactType": "Media Relations",
+    "email": "Novak@healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "510.425.0592x76367"
+  },
+  "http://example.org/ContactPoint/87aca87a-5ea3-4a8c-91e0-340f57dc4108": {
+    "availableLanguage": "['nl']",
+    "contactType": "Emergency",
+    "email": "FigueroaStrong.Urologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31076 342977"
+  },
+  "http://example.org/Address/4cac1dc5-53c1-47e9-ba1b-eb9c4468e387": {
+    "addressCountry": "NL",
+    "addressLocality": "Warstiens",
+    "streetAddress": "Timosingel 89"
+  },
+  "http://example.org/Person/6a98680b-fe50-4d0c-94d7-de5fe645fca2": {
+    "gender": "Male",
+    "jobTitle": "Speech Therapist",
+    "knowsLanguage": "de",
+    "name": "Alexis Hammond"
+  },
+  "http://example.org/ContactPoint/b09eed71-e07f-4027-b7a5-ca7063895c7d": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Information",
+    "email": "Peck.Radiography@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)327-020290"
+  },
+  "http://example.org/Person/f93013e4-b547-4f7d-9e9d-1e0807686a72": {
+    "gender": "Male",
+    "jobTitle": "Obstetric Nurse",
+    "knowsLanguage": "de",
+    "name": "Ronald Moreno"
+  },
+  "http://example.org/Person/82f0c350-2698-4314-bbbc-90f9788c3eba": {
+    "gender": "Other",
+    "jobTitle": "Infectious Disease Specialist",
+    "knowsLanguage": "et",
+    "name": "Tina Moore"
+  },
+  "http://example.org/ContactPoint/688735ff-7711-4104-a6d6-280b27f73d30": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Appointments",
+    "email": "Peck.Neurologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)984-690815"
+  },
+  "http://example.org/Address/3b73f0c9-575f-4051-8e67-73d6d3505125": {
+    "addressCountry": "AT",
+    "addressLocality": "Wilhelmsburg",
+    "streetAddress": "Pascal-Krammer-Platz 68"
+  },
+  "http://example.org/ContactPoint/518b425a-849a-4c47-b314-61dc24c85468": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Referrals",
+    "email": "Griffin.Toxicologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)378 207287"
+  },
+  "http://example.org/Person/9b618fd7-98a4-4fd7-b3fb-87966f2c466f": {
+    "gender": "Other",
+    "jobTitle": "Licensed Practical Nurse",
+    "knowsLanguage": "de",
+    "name": "Kathryn Griffin"
+  },
+  "http://example.org/Address/3ce3693d-5883-4aee-9ca3-8f328be4d466": {
+    "addressCountry": "NL",
+    "addressLocality": "Haringhuizen",
+    "streetAddress": "Lunaring 21"
+  },
+  "http://example.org/ContactPoint/7e3af6ff-5c49-4d45-9065-0d22f73d63ce": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Administrative",
+    "email": "Delgado@healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31429 635460"
+  },
+  "http://example.org/Person/b073a1a2-1a60-4efe-b8bd-4bfc489ad555": {
+    "gender": "Other",
+    "jobTitle": "Women's Health Nurse",
+    "knowsLanguage": "nl",
+    "name": "Bradley Diaz"
+  },
+  "http://example.org/Person/aad3060d-2d7a-4b19-ae49-33f8119889ad": {
+    "gender": "Male",
+    "jobTitle": "ER Nurse",
+    "knowsLanguage": "et",
+    "name": "Joseph Martin"
+  },
+  "http://example.org/Address/60e65aed-4a1e-4719-8d22-012d42a58039": {
+    "addressCountry": "AT",
+    "addressLocality": "Schrattenthal",
+    "streetAddress": "Biedermannweg 31"
+  },
+  "http://example.org/ContactPoint/5564d2f1-e2ad-4bb4-9182-a02645963c7f": {
+    "availableLanguage": "['nl']",
+    "contactType": "Information",
+    "email": "Griffin.Psychiatric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(0904) 980790"
+  },
+  "http://example.org/ContactPoint/9adc90a9-495a-4fa9-bc73-252ca23e4f9c": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Appointments",
+    "email": "Parker.Midwifery@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "516-234-0158"
+  },
+  "http://example.org/Address/cebd120a-6e2d-47ec-9406-0bcd76563f03": {
+    "addressCountry": "NL",
+    "addressLocality": "Ulrum",
+    "streetAddress": "Joeyboulevard 98"
+  },
+  "http://example.org/ServiceDepartment/dc5d1a8a-1384-4158-ab61-1012ca5d72b0": {
+    "name": "Infectious"
+  },
+  "http://example.org/ServiceDepartment/5e94ad46-8975-4661-80c8-023bf4535264": {
+    "name": "Infectious"
+  },
+  "http://example.org/ServiceDepartment/d7164d03-1f8d-4c08-aacb-a3a54b24f46f": {
+    "name": "Neurologic"
+  },
+  "http://example.org/ContactPoint/58dce020-d670-474c-a069-3e43b7c43c14": {
+    "availableLanguage": "['nl']",
+    "contactType": "Appointments",
+    "email": "Griffin.Musculoskeletal@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(0806) 446410"
+  },
+  "http://example.org/ContactPoint/ba2fe2f9-803b-478d-8ff7-adac1e61b12f": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Emergency",
+    "email": "Allen.Gastroenterologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)872-208716"
+  },
+  "http://example.org/Person/d8c6bef4-dad6-4baf-9544-d8826086a2cc": {
+    "gender": "Female",
+    "jobTitle": "Respiratory Therapist",
+    "knowsLanguage": "nl",
+    "name": "Cheyenne Jenkins"
+  },
+  "http://example.org/Person/bbe04af0-3cc2-4f00-9a5a-0e6b6d11c062": {
+    "gender": "Male",
+    "jobTitle": "Infectious Disease Specialist",
+    "knowsLanguage": "et",
+    "name": "Joshua Lucas"
+  },
+  "http://example.org/ContactPoint/9d9ac159-322e-4b6f-a538-79094ca1c800": {
+    "availableLanguage": "['de']",
+    "contactType": "Staff",
+    "email": "Parker.Obstetric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+1-315-449-0142x7441"
+  },
+  "http://example.org/Person/38f4fe0a-5c95-48bf-aee9-83e561e95790": {
+    "gender": "Male",
+    "jobTitle": "Neurosurgeon",
+    "knowsLanguage": "et",
+    "name": "Jason Harper"
+  },
+  "http://example.org/Person/ad189fba-7626-4533-8bf5-3eda630bbe32": {
+    "gender": "Male",
+    "jobTitle": "Lab Technician",
+    "knowsLanguage": "nl",
+    "name": "Christine Morgan"
+  },
+  "http://example.org/ServiceDepartment/5c2756af-969a-49a1-9fa1-27d968fca245": {
+    "name": "Gastroenterologic"
+  },
+  "http://example.org/Person/4da86f17-3f76-4cab-b548-a24041b44782": {
+    "gender": "Other",
+    "jobTitle": "Rheumatologist",
+    "knowsLanguage": "nl",
+    "name": "Lauren Kelley"
+  },
+  "http://example.org/Person/d41354e6-64cb-4525-ad71-4ad2bde98ab4": {
+    "gender": "Male",
+    "jobTitle": "Gynecologist",
+    "knowsLanguage": "et",
+    "name": "Angela Scott"
+  },
+  "http://example.org/ServiceDepartment/6c652801-4c02-410a-8e77-f8755ca3364e": {
+    "name": "Emergency"
+  },
+  "http://example.org/ServiceDepartment/c2a6b8d1-6881-422b-9aeb-9aa02419eb6b": {
+    "name": "Primary Care"
+  },
+  "http://example.org/Person/a7cf1c3b-9253-4a7d-864c-3da4ab5a8f86": {
+    "gender": "Male",
+    "jobTitle": "Physical Therapist",
+    "knowsLanguage": "nl",
+    "name": "Jose Ward"
+  },
+  "http://example.org/Person/71c4d8da-50aa-49f4-bcad-70a5cfeba781": {
+    "gender": "Male",
+    "jobTitle": "Audiologist",
+    "knowsLanguage": "de",
+    "name": "Daisy Guzman"
+  },
+  "http://example.org/ContactPoint/3e77c91f-2572-4689-ab64-96839c4ca518": {
+    "availableLanguage": "['et', 'en']",
+    "contactType": "Information",
+    "email": "Novak.Otolaryngologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "309.961.9742"
+  },
+  "http://example.org/Person/705b3a9c-a0c5-4db4-b2b6-9268ed73691e": {
+    "gender": "Male",
+    "jobTitle": "Anesthesiology Assistant",
+    "knowsLanguage": "nl",
+    "name": "Shelby Leblanc"
+  },
+  "http://example.org/Person/6b15a629-ff20-435a-924b-0f90c2d7f035": {
+    "gender": "Male",
+    "jobTitle": "Dialysis Nurse",
+    "knowsLanguage": "nl",
+    "name": "Eric Moore"
+  },
+  "http://example.org/Address/c8344666-0e0b-4427-b5b4-96d0c226c559": {
+    "addressCountry": "NL",
+    "addressLocality": "Zuidland",
+    "streetAddress": "Evipad 110"
+  },
+  "http://example.org/ContactPoint/9b968e8f-35e5-45ad-bb84-d0171b20945f": {
+    "availableLanguage": "['nl']",
+    "contactType": "Staff",
+    "email": "Allen.Speech@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31747 857914"
+  },
+  "http://example.org/ContactPoint/14d82166-bc98-4933-8d3d-c78bc91f9e56": {
+    "availableLanguage": "['nl']",
+    "contactType": "Referrals",
+    "email": "Griffin.Respiratory@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(029) 7657829"
+  },
+  "http://example.org/ContactPoint/9d4b5a27-c315-4e47-9b04-a845ed3176b5": {
+    "availableLanguage": "['de']",
+    "contactType": "Emergency",
+    "email": "Robinson.Renal@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "001-848-696-7998x32041"
+  },
+  "http://example.org/Person/0ad7714c-b116-474c-a09f-d117c57d820b": {
+    "gender": "Male",
+    "jobTitle": "GI Technician",
+    "knowsLanguage": "et",
+    "name": "Theodore Gonzalez"
+  },
+  "http://example.org/ServiceDepartment/b8ef58fd-2e69-45f4-b700-bc231c94dfbd": {
+    "name": "Neurologic"
+  },
+  "http://example.org/Person/590df1e6-1f68-4e86-910c-4ccbb627abb3": {
+    "gender": "Female",
+    "jobTitle": "Pulmonary Function Technologist",
+    "knowsLanguage": "nl",
+    "name": "Mary Gonzalez"
+  },
+  "http://example.org/Address/9d8ea94b-b8bd-4a8a-a199-6a8fba00309c": {
+    "addressCountry": "EE",
+    "addressLocality": "South Kadriport",
+    "streetAddress": "Katrin Parks 68"
+  },
+  "http://example.org/ContactPoint/9b297b93-5e9b-48ce-861f-00bf339bf9fe": {
+    "availableLanguage": "['et']",
+    "contactType": "Staff",
+    "email": "Berg.Musculoskeletal@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(596)958-8188x425"
+  },
+  "http://example.org/Address/326fcc6d-19f6-4faa-9f15-9d373a9410b9": {
+    "addressCountry": "NL",
+    "addressLocality": "Den Dungen",
+    "streetAddress": "Maritweg 143"
+  },
+  "http://example.org/ServiceDepartment/7099d522-928b-4f26-8550-e05d6b478bdf": {
+    "name": "Gynecologic"
+  },
+  "http://example.org/ContactPoint/28574d17-fb07-4c83-95fc-04624840005c": {
+    "availableLanguage": "['nl']",
+    "contactType": "Information",
+    "email": "Griffin.Respiratory@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(051) 3322487"
+  },
+  "http://example.org/Address/2fa7a7d0-9bc1-4302-bd30-b8feb6179b4e": {
+    "addressCountry": "NL",
+    "addressLocality": "Beilen",
+    "streetAddress": "Sennaring 75"
+  },
+  "http://example.org/Person/34551105-ffa7-4b5d-8216-571d2114afbe": {
+    "gender": "Female",
+    "jobTitle": "Psychiatrist",
+    "knowsLanguage": "et",
+    "name": "Christopher Vasquez"
+  },
+  "http://example.org/Address/31e6570d-b380-454c-918d-076c5fae62e9": {
+    "addressCountry": "NL",
+    "addressLocality": "Ubbena",
+    "streetAddress": "Mathijsstraat 61"
+  },
+  "http://example.org/Person/57c988e0-d1ca-4c0d-a0e4-150e4fda9748": {
+    "gender": "Female",
+    "jobTitle": "Gastroenterologist",
+    "knowsLanguage": "et",
+    "name": "Carolyn Smith"
+  },
+  "http://example.org/ContactPoint/6c2840cb-bb19-406b-9819-12ebbd625d7c": {
+    "availableLanguage": "['et', 'en']",
+    "contactType": "Staff",
+    "email": "Berg.Endocrine@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "9353528260"
+  },
+  "http://example.org/Address/d6bd5755-a95e-42e9-8f28-b89cfc9eacf3": {
+    "addressCountry": "NL",
+    "addressLocality": "Snakkerburen",
+    "streetAddress": "Corneliahof 35"
+  },
+  "http://example.org/ContactPoint/bd3de010-785f-420c-8a0f-585a95ed8a57": {
+    "availableLanguage": "['de']",
+    "contactType": "Appointments",
+    "email": "PerezBecker.Laboratory@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "001-846-228-0242"
+  },
+  "http://example.org/ServiceDepartment/2686c180-5a2f-4a02-b4cd-0258da40b84b": {
+    "name": "Pediatric"
+  },
+  "http://example.org/ServiceDepartment/59b292fb-dcfb-4825-92b4-63d91f0608ea": {
+    "name": "Renal"
+  },
+  "http://example.org/ContactPoint/85e36f25-ae80-4319-a8d3-fc56802ff95d": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Appointments",
+    "email": "Delgado.Cardiovascular@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(022)-5402417"
+  },
+  "http://example.org/ServiceDepartment/d0497225-5b65-4037-bb07-fcb21a65f8d0": {
+    "name": "Urologic"
+  },
+  "http://example.org/Person/47895077-ce11-4e97-92dd-0e5beafb2d2a": {
+    "gender": "Other",
+    "jobTitle": "Skin Care Specialist",
+    "knowsLanguage": "nl",
+    "name": "Geoffrey Fritz"
+  },
+  "http://example.org/Person/8ac0de28-ba92-4edf-9f64-45202e02bed0": {
+    "gender": "Female",
+    "jobTitle": "Renal Dietitian",
+    "knowsLanguage": "nl",
+    "name": "David George"
+  },
+  "http://example.org/Person/c6f21cd1-7762-4073-bddd-369048802b1a": {
+    "gender": "Female",
+    "jobTitle": "Pulmonary Function Technologist",
+    "knowsLanguage": "et",
+    "name": "Daniel Martinez"
+  },
+  "http://example.org/ServiceDepartment/abbc3cdb-ea0f-4e05-b68e-6f6a1c677aec": {
+    "name": "Endocrine"
+  },
+  "http://example.org/ServiceDepartment/6e898dc7-3f10-4662-8457-fbcdb688f924": {
+    "name": "Pulmonary"
+  },
+  "http://example.org/Address/7d6c8c01-098e-4f05-ba57-1444e5dd63ac": {
+    "addressCountry": "EE",
+    "addressLocality": "Sandermouth",
+    "streetAddress": "Galina Landing 107"
+  },
+  "http://example.org/Person/81afbccd-9308-4ae0-9843-93b0df8f9d3f": {
+    "gender": "Female",
+    "jobTitle": "Rheumatology Nurse",
+    "knowsLanguage": "nl",
+    "name": "Debbie Ruiz"
+  },
+  "http://example.org/Address/cc5f8814-69ca-449d-84ce-e898089bff76": {
+    "addressCountry": "NL",
+    "addressLocality": "Oosterland",
+    "streetAddress": "Jesselaan 86"
+  },
+  "http://example.org/Address/47878627-d92a-4e80-a58e-2f26e0354d37": {
+    "addressCountry": "NL",
+    "addressLocality": "Oudemolen",
+    "streetAddress": "Hannalaan 34"
+  },
+  "http://example.org/Person/29b154ee-0286-4898-9e42-1bf2e4f31606": {
+    "gender": "Other",
+    "jobTitle": "Optometrist",
+    "knowsLanguage": "de",
+    "name": "Kathleen Fowler"
+  },
+  "http://example.org/Person/cf5dd51a-68f2-47f0-b958-25776b216656": {
+    "gender": "Female",
+    "jobTitle": "Speech Pathologist",
+    "knowsLanguage": "de",
+    "name": "Matthew Sharp"
+  },
+  "http://example.org/ServiceDepartment/2694e0ba-a439-4e8f-a7cf-14e81e57e290": {
+    "name": "Geriatric"
+  },
+  "http://example.org/ContactPoint/028abe50-d209-43a2-a2b7-14c1dc532c16": {
+    "availableLanguage": "['nl']",
+    "contactType": "Referrals",
+    "email": "FigueroaStrong.Plastic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+3118 3273954"
+  },
+  "http://example.org/Person/3920df2e-2764-4b7d-9239-4081378777ab": {
+    "gender": "Female",
+    "jobTitle": "Urology Nurse",
+    "knowsLanguage": "nl",
+    "name": "Amy Coleman"
+  },
+  "http://example.org/Person/ebcf0e2c-432e-4db2-a0c1-6f038cb233b7": {
+    "gender": "Female",
+    "jobTitle": "Poison Control Specialist",
+    "knowsLanguage": "et",
+    "name": "Kristin Martinez"
+  },
+  "http://example.org/ContactPoint/c579424d-6270-4079-84c6-c2ecb2600588": {
+    "availableLanguage": "['nl']",
+    "contactType": "Staff",
+    "email": "Ibarra.Neurologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)119-890522"
+  },
+  "http://example.org/Person/f9aa9a05-f88b-4499-8713-f26b043a1ce6": {
+    "gender": "Female",
+    "jobTitle": "Morgue Attendant",
+    "knowsLanguage": "de",
+    "name": "Nicole Jacobs"
+  },
+  "http://example.org/ServiceDepartment/78c613df-1ca1-44ae-98a2-9c2943c1136d": {
+    "name": "Musculoskeletal"
+  },
+  "http://example.org/Person/ca09f883-8342-4a33-809a-b965be58d975": {
+    "gender": "Female",
+    "jobTitle": "Therapist",
+    "knowsLanguage": "et",
+    "name": "Taylor Thornton"
+  },
+  "http://example.org/Person/1b56dbde-b505-4e0b-9c46-a81736693d64": {
+    "gender": "Male",
+    "jobTitle": "Epidemiologist",
+    "knowsLanguage": "nl",
+    "name": "Jacqueline Williams"
+  },
+  "http://example.org/Address/84602dbe-46fd-479c-b606-b1caf073d43e": {
+    "addressCountry": "NL",
+    "addressLocality": "Gapinge",
+    "streetAddress": "Femkelaan 52"
+  },
+  "http://example.org/Person/7da9706c-09cc-4874-9cd1-2b9d138518b1": {
+    "gender": "Female",
+    "jobTitle": "Urodynamics Technician",
+    "knowsLanguage": "nl",
+    "name": "Justin Yang"
+  },
+  "http://example.org/ServiceDepartment/509fd504-5c32-4cdd-b8a7-c5b207a79096": {
+    "name": "Respiratory Therapy"
+  },
+  "http://example.org/Address/d9e9161b-6071-4502-9087-d0fbc6636939": {
+    "addressCountry": "AT",
+    "addressLocality": "Perg",
+    "streetAddress": "Katarina-Rohrer-Gasse 42"
+  },
+  "http://example.org/Person/abfdffe9-c985-4a72-a1bd-4b847f5c645d": {
+    "gender": "Male",
+    "jobTitle": "Optometrist",
+    "knowsLanguage": "de",
+    "name": "Michael Marquez"
+  },
+  "http://example.org/Address/2cddbc0b-3978-42f5-9bc3-c41709e500e1": {
+    "addressCountry": "EE",
+    "addressLocality": "V\u00f5subury",
+    "streetAddress": "Kuus Passage 1"
+  },
+  "http://example.org/Person/7bf67575-a06d-497b-99a0-7323d7c91b9e": {
+    "gender": "Male",
+    "jobTitle": "Nephrologist",
+    "knowsLanguage": "de",
+    "name": "Nathan Serrano"
+  },
+  "http://example.org/ServiceDepartment/6ed5a953-be1f-485f-86aa-0bc242a1818e": {
+    "name": "Optometric"
+  },
+  "http://example.org/Person/9f2b80ef-59c1-48d5-aee4-edeceac54636": {
+    "gender": "Female",
+    "jobTitle": "Anesthesiology Nurse",
+    "knowsLanguage": "nl",
+    "name": "Alison Ryan"
+  },
+  "http://example.org/Person/93a56f92-d7f7-4b93-8e71-e8f6e7401503": {
+    "gender": "Male",
+    "jobTitle": "Nephrologist",
+    "knowsLanguage": "et",
+    "name": "Stephanie Kelly"
+  },
+  "http://example.org/ContactPoint/9d6acf61-69f3-4924-a5d7-8cffe90ff783": {
+    "availableLanguage": "['nl']",
+    "contactType": "Patient Services",
+    "email": "FigueroaStrong@healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)211 669728"
+  },
+  "http://example.org/Person/56188f35-2d61-4826-8bd5-4a43e1c63853": {
+    "gender": "Female",
+    "jobTitle": "Renal Dietitian",
+    "knowsLanguage": "et",
+    "name": "Melissa West"
+  },
+  "http://example.org/Address/f966a11f-ac8e-448f-b0eb-ca727052cb26": {
+    "addressCountry": "NL",
+    "addressLocality": "Arcen",
+    "streetAddress": "Zakariasingel 13"
+  },
+  "http://example.org/ContactPoint/5098644f-9975-4fd5-b5b3-2346e031ad08": {
+    "availableLanguage": "['et']",
+    "contactType": "Appointments",
+    "email": "Berg.Hematologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "388.634.5531x592"
+  },
+  "http://example.org/Address/23a3d120-206b-499d-b5de-d4099f200e46": {
+    "addressCountry": "NL",
+    "addressLocality": "Losser",
+    "streetAddress": "Sethring 78"
+  },
+  "http://example.org/Person/36a98da3-318c-4954-9f20-18641c3822b0": {
+    "gender": "Female",
+    "jobTitle": "Cytotechnologist",
+    "knowsLanguage": "de",
+    "name": "Jessica Farrell"
+  },
+  "http://example.org/Person/bf0ef7b7-c072-4f2d-af16-8dfcb4a001da": {
+    "gender": "Female",
+    "jobTitle": "Morgue Attendant",
+    "knowsLanguage": "nl",
+    "name": "Bryan Cole"
+  },
+  "http://example.org/ContactPoint/2410a9c3-4d20-4e1b-b962-4b56b3025119": {
+    "availableLanguage": "['et']",
+    "contactType": "Referrals",
+    "email": "Mcneil.Optometric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "001-999-947-8546x92506"
+  },
+  "http://example.org/ServiceDepartment/c937db77-5d68-469a-bc2c-808ebc1ee81f": {
+    "name": "Musculoskeletal"
+  },
+  "http://example.org/ContactPoint/946d02e5-378a-4eb1-98d4-d705478a3511": {
+    "availableLanguage": "['et', 'en']",
+    "contactType": "Emergency",
+    "email": "Mcneil.Pediatric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "001-286-594-3160x875"
+  },
+  "http://example.org/Person/c77238ca-f433-4152-be51-982cdaab12b9": {
+    "gender": "Other",
+    "jobTitle": "Respiratory Therapist",
+    "knowsLanguage": "de",
+    "name": "Jorge Leon"
+  },
+  "http://example.org/Person/09872886-af27-4393-9fef-f5523022891c": {
+    "gender": "Other",
+    "jobTitle": "Cardiologist",
+    "knowsLanguage": "nl",
+    "name": "Michael Lee"
+  },
+  "http://example.org/HealthcareOrganization/9b59dbd2-1235-44b2-9540-b19964f6692d": {
+    "name": "Figueroa-Strong Zorg"
+  },
+  "http://example.org/ContactPoint/2c9b9c29-8d87-4aea-9a53-ee6e5cc33b1e": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "General Inquiries",
+    "email": "KimTodd@healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "2709436666"
+  },
+  "http://example.org/ServiceDepartment/82deff6d-0642-49bc-8c9e-b588f93aade7": {
+    "name": "Speech Pathology"
+  },
+  "http://example.org/Person/5a4fae7a-27d6-4483-bd44-d89332706ca0": {
+    "gender": "Other",
+    "jobTitle": "Psychologist",
+    "knowsLanguage": "nl",
+    "name": "Wayne Shaw"
+  },
+  "http://example.org/ContactPoint/09c4f895-1d9a-49a7-b9b7-3d0c4656e92a": {
+    "availableLanguage": "['nl']",
+    "contactType": "Staff",
+    "email": "Ibarra.Pulmonary@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)778 505017"
+  },
+  "http://example.org/Address/c7539de1-eaed-491e-a4dd-713af05121f8": {
+    "addressCountry": "AT",
+    "addressLocality": "Langenlois",
+    "streetAddress": "Anabella-Klug-Ring 92"
+  },
+  "http://example.org/ServiceDepartment/9991a8e3-8d46-45ca-8c11-3f90ccfae21d": {
+    "name": "Pathology"
+  },
+  "http://example.org/Address/18974313-e0c3-4b13-9c06-9b569195ebdd": {
+    "addressCountry": "AT",
+    "addressLocality": "Wilhelmsburg",
+    "streetAddress": "Raphael-Lengauer-Platz 79"
+  },
+  "http://example.org/ContactPoint/1c887dae-122f-4393-a593-daaf8a42a83e": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Referrals",
+    "email": "KimTodd.Gynecologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "972-699-7024"
+  },
+  "http://example.org/ServiceDepartment/d19ef30a-64d6-4931-aeb9-e370242900bc": {
+    "name": "Midwifery"
+  },
+  "http://example.org/ServiceDepartment/d64a5264-86eb-406a-9219-7bcb12dedb70": {
+    "name": "Cardiovascular"
+  },
+  "http://example.org/ContactPoint/1d038d7e-a715-442a-a8e3-660089971c11": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Appointments",
+    "email": "Parker.Cardiovascular@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "875.885.5906"
+  },
+  "http://example.org/Person/9b8105aa-37be-4ead-877e-d69499b410a7": {
+    "gender": "Female",
+    "jobTitle": "Urodynamics Technician",
+    "knowsLanguage": "de",
+    "name": "Brian Lopez"
+  },
+  "http://example.org/Person/8069c669-88b0-47d0-8a3c-ac377f7d149f": {
+    "gender": "Female",
+    "jobTitle": "Infectious Disease Specialist",
+    "knowsLanguage": "de",
+    "name": "Brianna Mendez"
+  },
+  "http://example.org/Person/3a2dc35c-5406-4a4d-8f1b-23e185b8561a": {
+    "gender": "Male",
+    "jobTitle": "Lab Technician",
+    "knowsLanguage": "nl",
+    "name": "Aaron Russell"
+  },
+  "http://example.org/Person/c4a4ce97-2aa0-4cd9-a9db-e003a99ea55e": {
+    "gender": "Other",
+    "jobTitle": "Plastic Surgeon",
+    "knowsLanguage": "de",
+    "name": "Michael Garcia"
+  },
+  "http://example.org/ContactPoint/2c29f5d0-b67b-4aad-8281-0bf765648dc8": {
+    "availableLanguage": "['de']",
+    "contactType": "Information",
+    "email": "Parker.Pathology@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "890.346.0313x4830"
+  },
+  "http://example.org/Person/0bcfeedd-d05c-41ea-8ae2-c932d9af4420": {
+    "gender": "Female",
+    "jobTitle": "Vision Therapist",
+    "knowsLanguage": "et",
+    "name": "Austin Drake"
+  },
+  "http://example.org/ContactPoint/9d2a8bf9-e8b0-4c88-b291-dc8d28731522": {
+    "availableLanguage": "['et', 'en']",
+    "contactType": "Referrals",
+    "email": "Novak.Podiatric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(280)351-9921x4987"
+  },
+  "http://example.org/Person/9dfb221a-f24a-444c-b463-8a2d73a95379": {
+    "gender": "Female",
+    "jobTitle": "GI Nurse",
+    "knowsLanguage": "de",
+    "name": "David Estrada"
+  },
+  "http://example.org/Person/a519a8ea-f1a7-49da-be59-7c4e5404ba30": {
+    "gender": "Other",
+    "jobTitle": "EEG Technician",
+    "knowsLanguage": "de",
+    "name": "Darryl Bell"
+  },
+  "http://example.org/HealthcareOrganization/8fcfaef8-12e8-4104-b70b-b270885f2cc3": {
+    "name": "Kim-Todd Gesundheitszentrum"
+  },
+  "http://example.org/Person/b1b09a93-8df9-446f-aff8-e101e2517cfa": {
+    "gender": "Other",
+    "jobTitle": "Audiologist",
+    "knowsLanguage": "de",
+    "name": "Jennifer Bradford"
+  },
+  "http://example.org/ServiceDepartment/8ac6148f-ddf7-4fda-b4b0-0606e7c7fb31": {
+    "name": "Renal"
+  },
+  "http://example.org/Person/106b5a1d-385d-42a6-819c-2449874930dd": {
+    "gender": "Female",
+    "jobTitle": "Orthopedic Surgeon",
+    "knowsLanguage": "nl",
+    "name": "Gabriella Padilla"
+  },
+  "http://example.org/Person/8bc0687a-1b3a-4dff-9231-21982e41378c": {
+    "gender": "Female",
+    "jobTitle": "Neonatal Nurse",
+    "knowsLanguage": "de",
+    "name": "Jade Gardner"
+  },
+  "http://example.org/Person/7d2cc848-7197-460f-ae84-de7ee730afa5": {
+    "gender": "Female",
+    "jobTitle": "Respiratory Therapist",
+    "knowsLanguage": "et",
+    "name": "Lynn Hicks"
+  },
+  "http://example.org/Person/ad9382ce-2106-4e21-a520-0918633a2c7e": {
+    "gender": "Female",
+    "jobTitle": "Speech Pathologist",
+    "knowsLanguage": "et",
+    "name": "Peter Bush"
+  },
+  "http://example.org/ServiceDepartment/cfde5e56-9869-4a41-871f-6f0d2e3302f2": {
+    "name": "Speech Pathology"
+  },
+  "http://example.org/ServiceDepartment/e5bd69b3-14d4-4c0d-8176-a724849e41a9": {
+    "name": "Public Health"
+  },
+  "http://example.org/Person/dd686395-9aa6-4e1b-9138-6ed491de5665": {
+    "gender": "Other",
+    "jobTitle": "Nutritionist",
+    "knowsLanguage": "de",
+    "name": "Tammy Padilla"
+  },
+  "http://example.org/Address/12b878c0-06f0-46ff-a82c-499a3c868ca5": {
+    "addressCountry": "NL",
+    "addressLocality": "Elburg",
+    "streetAddress": "Ilseboulevard 58"
+  },
+  "http://example.org/Person/3ec9a3e8-4295-412f-97d4-10cdca9a8993": {
+    "gender": "Other",
+    "jobTitle": "Pharmacist",
+    "knowsLanguage": "de",
+    "name": "Michelle Castro"
+  },
+  "http://example.org/Person/3a5c50dd-70f0-4327-abe3-0dbbfb697527": {
+    "gender": "Female",
+    "jobTitle": "Skin Care Specialist",
+    "knowsLanguage": "de",
+    "name": "Michael Mccall"
+  },
+  "http://example.org/Address/1b45cd98-4629-49b5-90be-cd5fefddf8ee": {
+    "addressCountry": "AT",
+    "addressLocality": "Kindberg",
+    "streetAddress": "Katharina-Foidl-Stra\u00dfe 113"
+  },
+  "http://example.org/Person/a91cb858-c45f-4cf1-8329-4545c6b24e54": {
+    "gender": "Female",
+    "jobTitle": "Cardiovascular Surgeon",
+    "knowsLanguage": "et",
+    "name": "Joseph Johnson"
+  },
+  "http://example.org/ServiceDepartment/9ef51f2a-713b-4247-8f89-d309ec515fa7": {
+    "name": "Pediatric"
+  },
+  "http://example.org/Person/9775ecb2-69b7-4cd3-8358-971d69e02dc7": {
+    "gender": "Other",
+    "jobTitle": "Epidemiologist",
+    "knowsLanguage": "de",
+    "name": "Melissa Jordan"
+  },
+  "http://example.org/Address/6ff829f0-c07e-446a-9f0e-a47f81ecaf8a": {
+    "addressCountry": "AT",
+    "addressLocality": "Litschau",
+    "streetAddress": "Johann-Neulinger-Platz 32"
+  },
+  "http://example.org/Person/9ea0cbd8-ac69-44be-bdf7-e0589bfa0f2d": {
+    "gender": "Female",
+    "jobTitle": "GI Technician",
+    "knowsLanguage": "et",
+    "name": "Mr. Darius Graves"
+  },
+  "http://example.org/Person/a9240ce4-8d52-4641-9e09-1bdddb7c706f": {
+    "gender": "Male",
+    "jobTitle": "Pediatrician",
+    "knowsLanguage": "de",
+    "name": "Carolyn Moore"
+  },
+  "http://example.org/Person/1c6e4800-fe0d-4d03-bab2-e1ee0bb29528": {
+    "gender": "Female",
+    "jobTitle": "Anesthesiologist",
+    "knowsLanguage": "de",
+    "name": "Julie Valencia"
+  },
+  "http://example.org/Person/39461844-85b1-417f-8d2f-cf5dda861b2c": {
+    "gender": "Male",
+    "jobTitle": "Surgical Nurse",
+    "knowsLanguage": "de",
+    "name": "Stuart Hutchinson"
+  },
+  "http://example.org/Address/a04dd443-049b-4997-b20a-1e787b9bd75d": {
+    "addressCountry": "NL",
+    "addressLocality": "Anerveen",
+    "streetAddress": "Emirring 54"
+  },
+  "http://example.org/Person/be1839ed-570c-4a2c-a93f-70a229684d61": {
+    "gender": "Female",
+    "jobTitle": "Anesthesiology Nurse",
+    "knowsLanguage": "et",
+    "name": "Caroline Wade"
+  },
+  "http://example.org/ServiceDepartment/eb823ab0-5b4a-4a00-a329-0aac6baf033e": {
+    "name": "Public Health"
+  },
+  "http://example.org/ContactPoint/67456fbe-add2-486b-9297-8601887401a6": {
+    "availableLanguage": "['nl']",
+    "contactType": "Information",
+    "email": "Jordan.Urologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(0263) 334006"
+  },
+  "http://example.org/Person/5a11c769-c4c7-4d7f-a03a-0518e3bb735a": {
+    "gender": "Other",
+    "jobTitle": "Gynecologist",
+    "knowsLanguage": "et",
+    "name": "Adriana Conway"
+  },
+  "http://example.org/Address/a335eaf2-1359-4df0-9d28-085eef460eff": {
+    "addressCountry": "AT",
+    "addressLocality": "Ternitz",
+    "streetAddress": "Ina-Hager-Ring 132"
+  },
+  "http://example.org/Person/e216b01c-2484-4d4c-838c-7285af91b61d": {
+    "gender": "Female",
+    "jobTitle": "X-Ray Technician",
+    "knowsLanguage": "nl",
+    "name": "Jason White"
+  },
+  "http://example.org/Address/00e90abb-c7c6-4363-be17-723416c5c2fe": {
+    "addressCountry": "NL",
+    "addressLocality": "Rottum",
+    "streetAddress": "Robinsteeg 109"
+  },
+  "http://example.org/ServiceDepartment/97a4264b-acf7-4ffc-9bc3-ee1226ecff00": {
+    "name": "Urologic"
+  },
+  "http://example.org/Person/e65353d6-7968-48cc-9e04-edce5176cc83": {
+    "gender": "Male",
+    "jobTitle": "Urology Nurse",
+    "knowsLanguage": "et",
+    "name": "Jessica King"
+  },
+  "http://example.org/Person/b3dd094d-6129-4068-bcaf-af80f6020702": {
+    "gender": "Female",
+    "jobTitle": "CT Scan Technician",
+    "knowsLanguage": "et",
+    "name": "Justin Huber"
+  },
+  "http://example.org/Address/d5028aa9-699e-4844-93fe-c1e9afd1981f": {
+    "addressCountry": "EE",
+    "addressLocality": "Mihkeltown",
+    "streetAddress": "Salumets Ramp 103"
+  },
+  "http://example.org/Person/dc371f29-c2f4-4761-ac5e-9771282500cd": {
+    "gender": "Female",
+    "jobTitle": "Nutritionist",
+    "knowsLanguage": "nl",
+    "name": "Latoya Wright"
+  },
+  "http://example.org/Address/1d01e117-e567-4252-b326-714ed92632ea": {
+    "addressCountry": "EE",
+    "addressLocality": "Lake Kristiinaburgh",
+    "streetAddress": "Klaas Pine 145"
+  },
+  "http://example.org/Person/980ac4d8-c408-4969-b9b1-372cd35e17dd": {
+    "gender": "Male",
+    "jobTitle": "Reconstructive Specialist",
+    "knowsLanguage": "et",
+    "name": "Dr. Robert Watson DVM"
+  },
+  "http://example.org/Person/5c4b1049-7a4f-4439-aea0-84c5eeb201f6": {
+    "gender": "Female",
+    "jobTitle": "Clinical Genetics Specialist",
+    "knowsLanguage": "et",
+    "name": "Robert Anderson"
+  },
+  "http://example.org/ContactPoint/fe32623c-f320-4f3e-b8a1-60abd914a7c7": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Emergency",
+    "email": "Ibarra.Speech@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(0359)-559906"
+  },
+  "http://example.org/Address/9793c564-aca9-455b-be69-ce1ac3b35987": {
+    "addressCountry": "NL",
+    "addressLocality": "IJlst",
+    "streetAddress": "Annemijnring 16"
+  },
+  "http://example.org/Person/e82eef73-004b-432a-89b9-fe8cde7927a0": {
+    "gender": "Male",
+    "jobTitle": "Podiatrist",
+    "knowsLanguage": "et",
+    "name": "Tristan Gilbert"
+  },
+  "http://example.org/ServiceDepartment/70812a68-1e70-4a84-8bd8-3ac925488a93": {
+    "name": "Toxicologic"
+  },
+  "http://example.org/Person/bb2b22ad-7db5-435a-9d0d-abd28df0870c": {
+    "gender": "Female",
+    "jobTitle": "Otolaryngologist",
+    "knowsLanguage": "et",
+    "name": "George Morse"
+  },
+  "http://example.org/Person/5dfff8fa-fd03-47f1-8e58-ba0836971052": {
+    "gender": "Female",
+    "jobTitle": "Clinical Pharmacologist",
+    "knowsLanguage": "et",
+    "name": "Jose Reyes"
+  },
+  "http://example.org/Person/4b87b288-fbd5-424c-84c3-fed56f7cb659": {
+    "gender": "Other",
+    "jobTitle": "Midwife",
+    "knowsLanguage": "et",
+    "name": "Jeffery Russo"
+  },
+  "http://example.org/HealthcareOrganization/30e89979-4a7e-418c-acaa-f979a331e54f": {
+    "name": "Novak PLC Tervisekeskus"
+  },
+  "http://example.org/Person/57917d28-6370-438c-b537-3add0addb8d3": {
+    "gender": "Other",
+    "jobTitle": "Dermatology Nurse",
+    "knowsLanguage": "nl",
+    "name": "Matthew Sanders"
+  },
+  "http://example.org/ContactPoint/fae01595-304b-40d9-9a5e-c9a00ccb6f67": {
+    "availableLanguage": "['nl']",
+    "contactType": "Referrals",
+    "email": "Griffin.Plastic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)325 583390"
+  },
+  "http://example.org/Person/e67802b9-2d68-42ba-8324-1046b11e4eba": {
+    "gender": "Other",
+    "jobTitle": "GI Technician",
+    "knowsLanguage": "nl",
+    "name": "Rebecca Aguirre"
+  },
+  "http://example.org/Person/0337bfd7-da69-4efb-974a-d6b98d18df58": {
+    "gender": "Female",
+    "jobTitle": "Renal Dietitian",
+    "knowsLanguage": "et",
+    "name": "Barbara White"
+  },
+  "http://example.org/Person/a51dac1e-e516-4881-a94e-2aa86cf4beac": {
+    "gender": "Female",
+    "jobTitle": "Optician",
+    "knowsLanguage": "et",
+    "name": "Kristi Henderson"
+  },
+  "http://example.org/Person/751abf7c-60bf-4ab0-bef9-ffead38b6d91": {
+    "gender": "Female",
+    "jobTitle": "General Practitioner",
+    "knowsLanguage": "et",
+    "name": "Joseph Perez"
+  },
+  "http://example.org/Person/e8267077-d5a7-473c-a5bd-dafe5f6f618b": {
+    "gender": "Male",
+    "jobTitle": "Clinical Genetics Specialist",
+    "knowsLanguage": "et",
+    "name": "Jacob Thomas"
+  },
+  "http://example.org/Address/97b11d83-d53d-4af0-ba4f-d6a9db60f1e7": {
+    "addressCountry": "NL",
+    "addressLocality": "De Bult",
+    "streetAddress": "Masonboulevard 35"
+  },
+  "http://example.org/Address/dbe1c240-1d54-455e-9286-aa2d24d06052": {
+    "addressCountry": "EE",
+    "addressLocality": "Gerassimovville",
+    "streetAddress": "Vaht Prairie 14"
+  },
+  "http://example.org/Person/39e83444-72b1-4ebb-a5ba-df96ccd08bea": {
+    "gender": "Other",
+    "jobTitle": "Psychiatrist",
+    "knowsLanguage": "de",
+    "name": "Alyssa Rowe"
+  },
+  "http://example.org/ContactPoint/10552d42-fcbb-4a03-8edb-d6ad46d5a5d5": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Emergency",
+    "email": "Robinson.Obstetric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "319.544.6541x9175"
+  },
+  "http://example.org/Person/4f2c6434-721d-4d8f-829f-813547f04415": {
+    "gender": "Male",
+    "jobTitle": "Pulmonologist",
+    "knowsLanguage": "et",
+    "name": "Manuel Moody"
+  },
+  "http://example.org/Address/0aa2215a-1504-4df6-b5c7-d64c0150766c": {
+    "addressCountry": "AT",
+    "addressLocality": "Langenlois",
+    "streetAddress": "Anna-Maria-Nussbaumer-Stra\u00dfe 19"
+  },
+  "http://example.org/Person/72b9cd8b-66e4-40df-89ff-6fde55c3cbf0": {
+    "gender": "Female",
+    "jobTitle": "Obstetrician",
+    "knowsLanguage": "nl",
+    "name": "Renee Johnson"
+  },
+  "http://example.org/Person/4c943b4b-c26a-4443-9721-bb832497f3a2": {
+    "gender": "Male",
+    "jobTitle": "Gerontology Nurse",
+    "knowsLanguage": "et",
+    "name": "Natalie Bishop"
+  },
+  "http://example.org/Address/99ca8865-d9fb-43a4-b1ab-0b8341e98a1e": {
+    "addressCountry": "AT",
+    "addressLocality": "Gerasdorf bei Wien",
+    "streetAddress": "Stockerstr. 105"
+  },
+  "http://example.org/Person/5077256c-7c8c-4dcd-9121-bb871f0a0534": {
+    "gender": "Male",
+    "jobTitle": "Emergency Physician",
+    "knowsLanguage": "de",
+    "name": "Diana Navarro"
+  },
+  "http://example.org/Address/3b335e26-1adb-46dd-9277-6999a263b92e": {
+    "addressCountry": "AT",
+    "addressLocality": "Kufstein",
+    "streetAddress": "Sulzergasse 127"
+  },
+  "http://example.org/Person/67171f91-e4c1-427d-acb3-27ff35795905": {
+    "gender": "Male",
+    "jobTitle": "Rheumatologist",
+    "knowsLanguage": "et",
+    "name": "Eric Garcia"
+  },
+  "http://example.org/ContactPoint/fbedf518-f496-4a43-9b13-b39d83a11494": {
+    "availableLanguage": "['de']",
+    "contactType": "Information",
+    "email": "KimTodd.Midwifery@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(734)345-2016x733"
+  },
+  "http://example.org/Address/642f6e66-6dcc-4b77-bce1-1fa1283f3c36": {
+    "addressCountry": "NL",
+    "addressLocality": "Boekel",
+    "streetAddress": "Barthof 44"
+  },
+  "http://example.org/ContactPoint/1478eb7d-89cf-4960-9f8d-c2316f2a76f8": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Appointments",
+    "email": "Burch.Midwifery@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)54-7591563"
+  },
+  "http://example.org/Person/1369f0a4-32d5-4bdc-97da-29974474cbe3": {
+    "gender": "Other",
+    "jobTitle": "Gynecologist",
+    "knowsLanguage": "de",
+    "name": "Raymond Williams"
+  },
+  "http://example.org/ServiceDepartment/d628c6d6-310f-471b-97c3-b4f059e326e7": {
+    "name": "Infectious"
+  },
+  "http://example.org/Person/716641c1-d25c-47ef-a93b-ee3bbe5fa448": {
+    "gender": "Female",
+    "jobTitle": "Neurological Nurse",
+    "knowsLanguage": "nl",
+    "name": "Aaron Harrison"
+  },
+  "http://example.org/ServiceDepartment/979ea0bd-a7c0-4c40-b1ff-b3867a528d52": {
+    "name": "Pediatric"
+  },
+  "http://example.org/Person/62c34ee7-65fe-460d-bb87-425449bc740d": {
+    "gender": "Other",
+    "jobTitle": "Communication Disorders Specialist",
+    "knowsLanguage": "et",
+    "name": "Morgan Ward"
+  },
+  "http://example.org/Person/295acfa7-2866-46de-9264-bb7b72f02237": {
+    "gender": "Male",
+    "jobTitle": "Nephrologist",
+    "knowsLanguage": "nl",
+    "name": "Thomas Villarreal"
+  },
+  "http://example.org/ServiceDepartment/935db22c-0839-4ff8-a5a2-c54710fefa63": {
+    "name": "Neurologic"
+  },
+  "http://example.org/Address/dcbd737e-edc7-48a6-bada-c87e3c1bde59": {
+    "addressCountry": "AT",
+    "addressLocality": "Friedberg",
+    "streetAddress": "Vincent-Friedrich-Ring 121"
+  },
+  "http://example.org/Person/3b696e7c-e5ad-43ac-bac9-9606b191346e": {
+    "gender": "Female",
+    "jobTitle": "Pediatric Nurse",
+    "knowsLanguage": "nl",
+    "name": "David Davila"
+  },
+  "http://example.org/ServiceDepartment/13baeec0-cf6b-4dde-9cf1-56f9389a66cd": {
+    "name": "Diet Nutrition"
+  },
+  "http://example.org/Person/4842a888-2dfd-4c1f-b271-4ed549996a98": {
+    "gender": "Female",
+    "jobTitle": "Psychologist",
+    "knowsLanguage": "et",
+    "name": "Suzanne Hale"
+  },
+  "http://example.org/Person/a23d788d-2bd2-4a52-b4c4-6d9d90a1ca81": {
+    "gender": "Other",
+    "jobTitle": "Respiratory Therapist",
+    "knowsLanguage": "de",
+    "name": "Angela Reed"
+  },
+  "http://example.org/Person/682cbd43-4686-442f-b32f-d30259bcff7a": {
+    "gender": "Male",
+    "jobTitle": "Pulmonary Function Technologist",
+    "knowsLanguage": "et",
+    "name": "Kurt Gibbs"
+  },
+  "http://example.org/Address/a65ce637-6395-4f09-b3e1-b869cb50a13d": {
+    "addressCountry": "NL",
+    "addressLocality": "Nijeholtpade",
+    "streetAddress": "Aim\u00e9esingel 113"
+  },
+  "http://example.org/Person/6ba5a903-b8bf-4d1e-b5a9-8388321dc07d": {
+    "gender": "Male",
+    "jobTitle": "Physical Therapy Assistant",
+    "knowsLanguage": "nl",
+    "name": "Michael Paul"
+  },
+  "http://example.org/ServiceDepartment/eb49dd1b-d966-4c05-8148-99ef85a94132": {
+    "name": "Genetic"
+  },
+  "http://example.org/ContactPoint/9e62243f-3262-45dc-9f4e-8f832ca9a68a": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Referrals",
+    "email": "Ibarra.Endocrine@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "054-0275331"
+  },
+  "http://example.org/Address/b576880c-02ff-4079-8614-bb826d9cbee9": {
+    "addressCountry": "NL",
+    "addressLocality": "Kattendijke",
+    "streetAddress": "Kyaraweg 147"
+  },
+  "http://example.org/Address/2d76151a-e40d-4070-8ee1-5fc56442c0a1": {
+    "addressCountry": "AT",
+    "addressLocality": "Linz",
+    "streetAddress": "Annika-Schuler-Gasse 17"
+  },
+  "http://example.org/ServiceDepartment/e641874c-5856-4341-ad29-1fb24721c0c1": {
+    "name": "Gynecologic"
+  },
+  "http://example.org/Person/75a92ab3-3437-49c6-85d5-ffaa0ee8fd3a": {
+    "gender": "Other",
+    "jobTitle": "Gynecologist",
+    "knowsLanguage": "nl",
+    "name": "Christopher Nunez"
+  },
+  "http://example.org/Person/2e5edd1e-8f65-4e79-b77c-ea2869d4441b": {
+    "gender": "Male",
+    "jobTitle": "Gastroenterologist",
+    "knowsLanguage": "et",
+    "name": "Crystal Alexander"
+  },
+  "http://example.org/Person/f389a922-12bf-4aed-a47a-fa573dc2eb72": {
+    "gender": "Male",
+    "jobTitle": "Nephrologist",
+    "knowsLanguage": "de",
+    "name": "Brian Church MD"
+  },
+  "http://example.org/Address/554e5497-162e-4ed4-873a-3a30009cf472": {
+    "addressCountry": "NL",
+    "addressLocality": "Achterveld",
+    "streetAddress": "Rensring 147"
+  },
+  "http://example.org/Person/2a1e14a9-b257-4147-9f3e-9ef66958b97b": {
+    "gender": "Female",
+    "jobTitle": "Lab Technician",
+    "knowsLanguage": "et",
+    "name": "Kayla Hernandez"
+  },
+  "http://example.org/ServiceDepartment/0207fa00-a7ca-42c9-988b-656789f55178": {
+    "name": "Toxicologic"
+  },
+  "http://example.org/Person/517a89b1-11c8-4a03-9f25-2259d5711115": {
+    "gender": "Male",
+    "jobTitle": "Medical Laboratory Scientist",
+    "knowsLanguage": "de",
+    "name": "David Morgan"
+  },
+  "http://example.org/Person/a50d50af-1a3e-4eae-bbe6-963094b0dcde": {
+    "gender": "Female",
+    "jobTitle": "Gerontology Nurse",
+    "knowsLanguage": "et",
+    "name": "Jeremiah Franco"
+  },
+  "http://example.org/Person/160051db-d2af-49aa-8aa7-10f8e72da773": {
+    "gender": "Male",
+    "jobTitle": "Endocrinologist",
+    "knowsLanguage": "de",
+    "name": "Amanda Wilson"
+  },
+  "http://example.org/Person/ea7c5992-616e-4bf0-bf45-76fb33ca0cc0": {
+    "gender": "Other",
+    "jobTitle": "Pathologist",
+    "knowsLanguage": "nl",
+    "name": "Alison Young"
+  },
+  "http://example.org/ServiceDepartment/23cb59af-0296-4620-b0d3-0fedfae169b7": {
+    "name": "Pathology"
+  },
+  "http://example.org/Person/9c61d89d-106d-4c4b-b127-c017f4ce5cf4": {
+    "gender": "Other",
+    "jobTitle": "Clinical Genetics Specialist",
+    "knowsLanguage": "et",
+    "name": "Timothy Spears"
+  },
+  "http://example.org/Address/d22fe3b0-1a04-407f-aa0e-4de7a252e809": {
+    "addressCountry": "AT",
+    "addressLocality": "Oberpullendorf",
+    "streetAddress": "Zimmermannstr. 33"
+  },
+  "http://example.org/ServiceDepartment/3596304a-1aca-48e6-8f6c-e283aca5d171": {
+    "name": "Surgical"
+  },
+  "http://example.org/ContactPoint/9a415724-de70-4224-8d0e-b602a11472d3": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Emergency",
+    "email": "Burch.Diet@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "0029-619693"
+  },
+  "http://example.org/Person/b2a3942d-7f59-4c88-b1a5-61f9a8c761bb": {
+    "gender": "Female",
+    "jobTitle": "GI Nurse",
+    "knowsLanguage": "nl",
+    "name": "Amy Wong"
+  },
+  "http://example.org/Person/0cf9b87d-0fb0-42f6-b145-4c83d278c17f": {
+    "gender": "Other",
+    "jobTitle": "Optician",
+    "knowsLanguage": "de",
+    "name": "Nicole Benton"
+  },
+  "http://example.org/ServiceDepartment/bbdb26c4-02b9-487e-8de4-fd6a4b3a6889": {
+    "name": "Podiatric"
+  },
+  "http://example.org/Person/33d6eb53-4802-492f-897c-e01752e09168": {
+    "gender": "Other",
+    "jobTitle": "Sleep Technician",
+    "knowsLanguage": "nl",
+    "name": "Gregory Jackson"
+  },
+  "http://example.org/Person/41d42cd2-8768-479f-b8df-9d8313ba669a": {
+    "gender": "Female",
+    "jobTitle": "Medical Assistant",
+    "knowsLanguage": "de",
+    "name": "Kayla Frederick"
+  },
+  "http://example.org/ContactPoint/0bda206f-1178-4507-a496-6ce1b61c48e7": {
+    "availableLanguage": "['nl']",
+    "contactType": "Referrals",
+    "email": "Burch.Psychiatric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(0164) 630310"
+  },
+  "http://example.org/ContactPoint/60b4b633-da39-463c-b661-751ae7a2c014": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Referrals",
+    "email": "FigueroaStrong.Emergency@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(0089) 969726"
+  },
+  "http://example.org/ContactPoint/b52a6579-50e4-411f-bb85-d619746b2920": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Referrals",
+    "email": "KimTodd.Renal@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "934-832-8041"
+  },
+  "http://example.org/Person/9d836c02-9a5c-4c0e-b7a4-c7412592da3c": {
+    "gender": "Other",
+    "jobTitle": "Urologist",
+    "knowsLanguage": "nl",
+    "name": "Angela Brown"
+  },
+  "http://example.org/HealthcareOrganization/2f3d4c7c-23db-4e0a-83c6-a92cfd9aec3d": {
+    "name": "Peck LLC Zorg"
+  },
+  "http://example.org/HealthcareOrganization/e9db2757-e0c5-4ea0-8ee7-29c07d09a465": {
+    "name": "Delgado, Guerrero and Simpson Zorg"
+  },
+  "http://example.org/Person/d95227d3-82f8-4123-985c-05bfc82a102a": {
+    "gender": "Other",
+    "jobTitle": "Foot Care Nurse",
+    "knowsLanguage": "et",
+    "name": "Dawn Jackson"
+  },
+  "http://example.org/Person/5424f7d2-2a99-4f68-ae7e-f2546be83215": {
+    "gender": "Female",
+    "jobTitle": "Urology Nurse",
+    "knowsLanguage": "de",
+    "name": "Robert Moreno"
+  },
+  "http://example.org/ServiceDepartment/5e0638d7-622f-4001-bc30-f078672d8196": {
+    "name": "Respiratory Therapy"
+  },
+  "http://example.org/Person/aeac38b1-51d2-4f05-a6cb-30fba02e9d0e": {
+    "gender": "Female",
+    "jobTitle": "Urology Nurse",
+    "knowsLanguage": "de",
+    "name": "Vincent Bautista"
+  },
+  "http://example.org/ContactPoint/5b3b68c1-6fc7-429e-b17b-f9c0c9bc0860": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Emergency",
+    "email": "FigueroaStrong.Genetic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)26 8525237"
+  },
+  "http://example.org/Person/f341099c-a0e4-48cc-a38c-a9eb9a178708": {
+    "gender": "Female",
+    "jobTitle": "Urologist",
+    "knowsLanguage": "de",
+    "name": "Rhonda Shelton"
+  },
+  "http://example.org/ServiceDepartment/02758d7d-84e0-4727-b280-4b5aa4045094": {
+    "name": "Gynecologic"
+  },
+  "http://example.org/ServiceDepartment/fc0962ef-f243-4b8c-a244-abbf95d967d6": {
+    "name": "Respiratory Therapy"
+  },
+  "http://example.org/ServiceDepartment/c7869410-ff96-404a-b20e-3493fe7a902c": {
+    "name": "Renal"
+  },
+  "http://example.org/Person/b85b3ed4-6599-4cd6-b1fc-fac2087c2b96": {
+    "gender": "Other",
+    "jobTitle": "Radiologist",
+    "knowsLanguage": "et",
+    "name": "Gloria Foster"
+  },
+  "http://example.org/Person/39c2b752-7592-455b-951a-136e3dd62052": {
+    "gender": "Other",
+    "jobTitle": "Labor & Delivery Nurse",
+    "knowsLanguage": "de",
+    "name": "Breanna Mitchell"
+  },
+  "http://example.org/Person/4060f9e7-8f6a-40fe-bfa2-07e25b01749e": {
+    "gender": "Other",
+    "jobTitle": "Pathologist",
+    "knowsLanguage": "nl",
+    "name": "Jack Reynolds"
+  },
+  "http://example.org/Person/f5c10655-703d-4a9a-b2e7-c5dd6ac0f4da": {
+    "gender": "Female",
+    "jobTitle": "Diabetes Educator",
+    "knowsLanguage": "et",
+    "name": "Diana Taylor"
+  },
+  "http://example.org/ContactPoint/670608cd-20d9-4835-95fc-1f74f941fe30": {
+    "availableLanguage": "['et', 'en']",
+    "contactType": "Information",
+    "email": "Novak.Gynecologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(445)726-5176"
+  },
+  "http://example.org/Address/a17419b3-a050-4ffe-b957-1f92d47ed3aa": {
+    "addressCountry": "AT",
+    "addressLocality": "Sankt Veit an der Glan",
+    "streetAddress": "Buchbergergasse 123"
+  },
+  "http://example.org/Address/0e94e287-320d-45c9-9adc-5e48083c759a": {
+    "addressCountry": "EE",
+    "addressLocality": "Viiraburgh",
+    "streetAddress": "Kaljuvee Valley 79"
+  },
+  "http://example.org/Person/1c8a6fa2-bae2-426d-a6cf-c17a1ce55bea": {
+    "gender": "Female",
+    "jobTitle": "Pulmonary Function Technologist",
+    "knowsLanguage": "de",
+    "name": "Amy Jacobs"
+  },
+  "http://example.org/Person/4f3b5956-24d2-4319-800e-bb1ed7baaa90": {
+    "gender": "Other",
+    "jobTitle": "Doula",
+    "knowsLanguage": "nl",
+    "name": "Kenneth Glover"
+  },
+  "http://example.org/Person/968473df-6c79-4045-b117-9cadebc79727": {
+    "gender": "Female",
+    "jobTitle": "Speech Therapist",
+    "knowsLanguage": "et",
+    "name": "Robert Miller"
+  },
+  "http://example.org/Address/b23f93da-9655-44ad-9c27-3ccbd1e66908": {
+    "addressCountry": "AT",
+    "addressLocality": "Grein",
+    "streetAddress": "Hahnweg 92"
+  },
+  "http://example.org/Person/e79e39b9-5431-4b1d-a8fc-a9031ff84e33": {
+    "gender": "Male",
+    "jobTitle": "Doula",
+    "knowsLanguage": "nl",
+    "name": "Ashley Williams"
+  },
+  "http://example.org/Person/df42ba31-9585-4ff2-8d44-19ae5aeba3e5": {
+    "gender": "Female",
+    "jobTitle": "Nephrologist",
+    "knowsLanguage": "nl",
+    "name": "Lauren Leon"
+  },
+  "http://example.org/ContactPoint/95c74004-b43c-4548-af2a-a68d731e27ae": {
+    "availableLanguage": "['nl']",
+    "contactType": "Emergency",
+    "email": "Delgado.Pediatric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)54 8182562"
+  },
+  "http://example.org/Address/55ad3e9f-be20-4136-ae57-43b5e2c87754": {
+    "addressCountry": "NL",
+    "addressLocality": "Mill",
+    "streetAddress": "Kikipad 130"
+  },
+  "http://example.org/Person/20387a3c-a54d-4ca7-9a20-47e93978f02f": {
+    "gender": "Other",
+    "jobTitle": "Optometrist",
+    "knowsLanguage": "de",
+    "name": "Kimberly Carney"
+  },
+  "http://example.org/Person/ddf8b668-4ad2-49ba-9e73-e77265d35d5f": {
+    "gender": "Female",
+    "jobTitle": "Registered Nurse",
+    "knowsLanguage": "de",
+    "name": "Jasmine Wells"
+  },
+  "http://example.org/Person/80844f47-4356-4385-a4c9-ea6bab1e5bab": {
+    "gender": "Female",
+    "jobTitle": "Respiratory Therapist",
+    "knowsLanguage": "de",
+    "name": "Miss Dawn Evans"
+  },
+  "http://example.org/Person/ed8e56f0-80dd-48a5-803d-1ea39485c567": {
+    "gender": "Male",
+    "jobTitle": "Gastroenterologist",
+    "knowsLanguage": "nl",
+    "name": "Brittany Miller"
+  },
+  "http://example.org/ContactPoint/ce0d07aa-6837-4c57-bd5f-8d857d997183": {
+    "availableLanguage": "['de']",
+    "contactType": "Information",
+    "email": "KimTodd.Neurologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "305.568.6116"
+  },
+  "http://example.org/Person/9ea4a21b-8359-40ca-b6e3-de60fbb06aaa": {
+    "gender": "Female",
+    "jobTitle": "Endocrine Nurse",
+    "knowsLanguage": "nl",
+    "name": "Robert Garner"
+  },
+  "http://example.org/Person/b01c3640-2eec-4e0d-911d-f34d9dadbf37": {
+    "gender": "Other",
+    "jobTitle": "Geriatrician",
+    "knowsLanguage": "nl",
+    "name": "Michelle Gutierrez"
+  },
+  "http://example.org/ServiceDepartment/f14a3c09-2f2a-47a0-a60c-27b959520ef6": {
+    "name": "Optometric"
+  },
+  "http://example.org/Person/f4524cc5-d297-4cc1-99de-396db0c8f3ca": {
+    "gender": "Other",
+    "jobTitle": "Child Life Specialist",
+    "knowsLanguage": "de",
+    "name": "Linda Cunningham"
+  },
+  "http://example.org/ServiceDepartment/b1e7e10c-3943-4af4-bb7a-4cb9f36709c6": {
+    "name": "Radiography"
+  },
+  "http://example.org/ContactPoint/418e0c4d-0fc5-42d6-8a63-b0fa4ab0c5ff": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Staff",
+    "email": "Peck.Speech@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)85-2214427"
+  },
+  "http://example.org/ContactPoint/58716907-8c3b-4c36-8471-d4f8e5cd853c": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Staff",
+    "email": "Robinson.Obstetric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "566-904-3319x238"
+  },
+  "http://example.org/ServiceDepartment/b32d773a-6d24-4536-9ac3-0cbdf664aaf1": {
+    "name": "Public Health"
+  },
+  "http://example.org/Person/f9322eec-f07b-44b8-affb-2c5cac5e6c23": {
+    "gender": "Female",
+    "jobTitle": "Vision Therapist",
+    "knowsLanguage": "nl",
+    "name": "Anthony Gilbert"
+  },
+  "http://example.org/ServiceDepartment/c89735d9-e0bd-4c9c-a288-53a2617597e4": {
+    "name": "Obstetric"
+  },
+  "http://example.org/ContactPoint/b40736bd-7ee3-4af6-8c02-732e06e721df": {
+    "availableLanguage": "['nl']",
+    "contactType": "Information",
+    "email": "Jordan.Laboratory@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)27-0623981"
+  },
+  "http://example.org/Person/a17eed44-b1be-41f9-906c-01dfe8f87c11": {
+    "gender": "Male",
+    "jobTitle": "Dialysis Nurse",
+    "knowsLanguage": "et",
+    "name": "Chad Green"
+  },
+  "http://example.org/Person/4199b7b9-c315-4261-a7f6-9f64e169dbcf": {
+    "gender": "Other",
+    "jobTitle": "Women's Health Nurse",
+    "knowsLanguage": "et",
+    "name": "Matthew Lyons"
+  },
+  "http://example.org/Person/cbe57e54-117b-45fa-9201-f106e2012274": {
+    "gender": "Male",
+    "jobTitle": "Public Health Officer",
+    "knowsLanguage": "de",
+    "name": "Michaela Jones"
+  },
+  "http://example.org/Person/0cd13c90-f3ae-435c-9079-48099e5c3aa6": {
+    "gender": "Other",
+    "jobTitle": "Medical Laboratory Scientist",
+    "knowsLanguage": "et",
+    "name": "Kristen Boyle"
+  },
+  "http://example.org/Person/b2cfe3b8-87b4-4bd7-8893-1652f93798c1": {
+    "gender": "Other",
+    "jobTitle": "Respiratory Therapist",
+    "knowsLanguage": "et",
+    "name": "Katrina Nguyen"
+  },
+  "http://example.org/ContactPoint/497a587c-2792-4284-8ae7-3bfbec2d410d": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Referrals",
+    "email": "Peck.Podiatric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+3140-4154353"
+  },
+  "http://example.org/Person/22c0aaa8-b762-40fe-97c2-4d34befbc695": {
+    "gender": "Male",
+    "jobTitle": "Poison Control Specialist",
+    "knowsLanguage": "et",
+    "name": "Carol Diaz"
+  },
+  "http://example.org/Person/ee6e9bc7-4d13-4c70-9497-9603dbc4813a": {
+    "gender": "Female",
+    "jobTitle": "Optician",
+    "knowsLanguage": "de",
+    "name": "Austin Carney"
+  },
+  "http://example.org/ContactPoint/0d3858d7-050b-4714-bed8-c758bde9c80c": {
+    "availableLanguage": "['et']",
+    "contactType": "Emergency",
+    "email": "Mcneil.Radiography@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(813)857-7256"
+  },
+  "http://example.org/Person/ba1bcb92-1b69-4d7a-afef-226a64207e65": {
+    "gender": "Other",
+    "jobTitle": "EEG Technician",
+    "knowsLanguage": "nl",
+    "name": "Barry Peters"
+  },
+  "http://example.org/ServiceDepartment/e72cb879-6765-438b-b928-52469aa3d7e9": {
+    "name": "Anesthesia"
+  },
+  "http://example.org/Person/feb85dfa-0384-4d06-8ff8-08913284d0d4": {
+    "gender": "Other",
+    "jobTitle": "Lab Technician",
+    "knowsLanguage": "et",
+    "name": "Gloria Petersen"
+  },
+  "http://example.org/ContactPoint/2b614a3c-ce74-4ddc-89fb-02b1049b233e": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Appointments",
+    "email": "Peck.Rheumatologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31996 776098"
+  },
+  "http://example.org/Person/b707e622-6040-40a9-886e-cb283f5ba137": {
+    "gender": "Male",
+    "jobTitle": "Cytotechnologist",
+    "knowsLanguage": "et",
+    "name": "Mary Porter"
+  },
+  "http://example.org/Address/6bcdbdc2-6525-455e-bd3b-863d1771b0fd": {
+    "addressCountry": "NL",
+    "addressLocality": "IJsselstein",
+    "streetAddress": "Stanpad 81"
+  },
+  "http://example.org/Person/c57b083a-fb16-4876-b846-ee3761ad3023": {
+    "gender": "Female",
+    "jobTitle": "Psychologist",
+    "knowsLanguage": "nl",
+    "name": "Mathew Gomez"
+  },
+  "http://example.org/Person/c042378b-95f3-49f0-b84f-15e963d10942": {
+    "gender": "Female",
+    "jobTitle": "Hematologist",
+    "knowsLanguage": "nl",
+    "name": "Amanda Williams"
+  },
+  "http://example.org/ContactPoint/3661dddb-bfa4-4354-959e-50211eb9724e": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Emergency",
+    "email": "Robinson.Surgical@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+1-491-974-9486x23198"
+  },
+  "http://example.org/ContactPoint/55ff371e-4bf1-484e-92dd-e8680d7b29de": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Information",
+    "email": "Parker.Pediatric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "856.355.2393"
+  },
+  "http://example.org/Person/54692db5-e840-41f8-be96-eadab0857bae": {
+    "gender": "Other",
+    "jobTitle": "Orthotic Specialist",
+    "knowsLanguage": "et",
+    "name": "Debra Mccall"
+  },
+  "http://example.org/ContactPoint/09154c79-0e12-4632-9048-f6e4fe1c6d51": {
+    "availableLanguage": "['nl']",
+    "contactType": "Emergency",
+    "email": "Griffin.Diet@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)339 698220"
+  },
+  "http://example.org/Person/aadc8c2c-0ad0-4f6e-806a-53f90e1d2d4f": {
+    "gender": "Male",
+    "jobTitle": "Orthopedic Nurse",
+    "knowsLanguage": "et",
+    "name": "Randy Stein"
+  },
+  "http://example.org/Person/92ddbd9b-73a6-4c79-8a2f-1a58af9f3280": {
+    "gender": "Female",
+    "jobTitle": "Pathologist",
+    "knowsLanguage": "nl",
+    "name": "Chloe Rodriguez"
+  },
+  "http://example.org/Person/09ca4c01-5765-404d-be5a-9ad393332c41": {
+    "gender": "Other",
+    "jobTitle": "GI Nurse",
+    "knowsLanguage": "et",
+    "name": "Christina Cooper"
+  },
+  "http://example.org/Person/9b43ddfa-633e-4a34-a4cd-43f31d37d144": {
+    "gender": "Female",
+    "jobTitle": "Respiratory Therapist",
+    "knowsLanguage": "de",
+    "name": "Vincent Copeland"
+  },
+  "http://example.org/Address/6a178459-bd92-4eb3-b70b-9df119338f38": {
+    "addressCountry": "EE",
+    "addressLocality": "Maiechester",
+    "streetAddress": "Andrei Parkway 88"
+  },
+  "http://example.org/Person/45829314-44b7-46aa-a43f-176e9ce06fef": {
+    "gender": "Female",
+    "jobTitle": "Obstetrics Technician",
+    "knowsLanguage": "et",
+    "name": "Rachel Williams"
+  },
+  "http://example.org/Person/15a34fb8-98a7-4bf8-afad-3db951f5c55f": {
+    "gender": "Male",
+    "jobTitle": "Plastic Surgeon",
+    "knowsLanguage": "de",
+    "name": "Mrs. Robyn Gardner"
+  },
+  "http://example.org/ContactPoint/5b7873de-a409-43e6-8606-8dd13e5dbfa3": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Staff",
+    "email": "Burch.Psychiatric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31188-086167"
+  },
+  "http://example.org/HealthcareOrganization/615b2b92-fe9e-4ec7-a99b-a7136217c34b": {
+    "name": "Parker, Murphy and Brooks Gesundheitszentrum"
+  },
+  "http://example.org/ContactPoint/313ecd68-4461-44be-9968-06eb3fe778bd": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Emergency",
+    "email": "Parker.Optometric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "2434536754"
+  },
+  "http://example.org/ContactPoint/91447032-d11a-4156-adf9-e2f30fc3381f": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Referrals",
+    "email": "Delgado.Pediatric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+3117 6632510"
+  },
+  "http://example.org/Person/2dfdd2f9-e4eb-47f5-b8f4-36612e155793": {
+    "gender": "Other",
+    "jobTitle": "Optometrist",
+    "knowsLanguage": "de",
+    "name": "Thomas Bell"
+  },
+  "http://example.org/Person/fa259480-24ec-416c-b820-8b400485114a": {
+    "gender": "Male",
+    "jobTitle": "Pathologist",
+    "knowsLanguage": "nl",
+    "name": "Angela Adams"
+  },
+  "http://example.org/Person/4b98a096-ad7c-42c7-9fa8-2393f893879c": {
+    "gender": "Other",
+    "jobTitle": "Pediatrician",
+    "knowsLanguage": "nl",
+    "name": "Judy King"
+  },
+  "http://example.org/Person/2cddde7b-2bc5-47a7-99d0-e128befbf9b2": {
+    "gender": "Male",
+    "jobTitle": "GI Nurse",
+    "knowsLanguage": "nl",
+    "name": "Travis Williams"
+  },
+  "http://example.org/Person/06ec1054-ba38-4826-8787-a66a0021185f": {
+    "gender": "Female",
+    "jobTitle": "Elderly Care Specialist",
+    "knowsLanguage": "et",
+    "name": "Carol Williams"
+  },
+  "http://example.org/ContactPoint/cb6471aa-8a2e-4e2b-a0c2-29bd7c3bec73": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Emergency",
+    "email": "Burch.Musculoskeletal@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(035) 7800046"
+  },
+  "http://example.org/ServiceDepartment/307012d7-d59e-452d-96a9-24facb93d00e": {
+    "name": "Physiotherapy"
+  },
+  "http://example.org/Person/e5f26657-59bd-4e50-8957-f390cb3c107e": {
+    "gender": "Male",
+    "jobTitle": "Gerontology Nurse",
+    "knowsLanguage": "de",
+    "name": "Kenneth Fletcher"
+  },
+  "http://example.org/Person/5c1c644e-4c52-44ca-b705-ec838b2f250b": {
+    "gender": "Male",
+    "jobTitle": "Geriatrician",
+    "knowsLanguage": "et",
+    "name": "Jeffrey Pierce"
+  },
+  "http://example.org/Person/908d3464-23b9-4f1e-9369-2556433e92b1": {
+    "gender": "Female",
+    "jobTitle": "Optometrist",
+    "knowsLanguage": "nl",
+    "name": "Mrs. Amy White PhD"
+  },
+  "http://example.org/ServiceDepartment/8b76cef1-375c-4dae-9879-53a77320f27a": {
+    "name": "Renal"
+  },
+  "http://example.org/Person/b6ae2b2d-00fb-4d8a-bac1-e4d6fd776559": {
+    "gender": "Male",
+    "jobTitle": "Gynecologist",
+    "knowsLanguage": "nl",
+    "name": "Melanie Martinez"
+  },
+  "http://example.org/Person/538b7e78-4177-4097-9acd-e9c6d75eef26": {
+    "gender": "Male",
+    "jobTitle": "Pediatrician",
+    "knowsLanguage": "nl",
+    "name": "Stephanie Rodriguez"
+  },
+  "http://example.org/Person/147c7a92-e669-4d37-8f26-9b5f2882cbf9": {
+    "gender": "Female",
+    "jobTitle": "Pulmonary Function Technologist",
+    "knowsLanguage": "nl",
+    "name": "Susan Dominguez"
+  },
+  "http://example.org/Person/28ccb4f6-4a3f-46b5-8be2-37d60e837a3b": {
+    "gender": "Male",
+    "jobTitle": "Obstetrics Technician",
+    "knowsLanguage": "nl",
+    "name": "Jessica Fisher"
+  },
+  "http://example.org/Person/5825318f-8d91-4347-8779-c6864e28a35a": {
+    "gender": "Other",
+    "jobTitle": "Hematology Nurse",
+    "knowsLanguage": "nl",
+    "name": "Pamela Adams"
+  },
+  "http://example.org/Address/7e514bdf-5d48-486a-b9b6-6ab421b11d1a": {
+    "addressCountry": "NL",
+    "addressLocality": "Warmond",
+    "streetAddress": "Youssefhof 97"
+  },
+  "http://example.org/ContactPoint/0f2cb91a-47d5-47d9-bc2e-590e06a4549f": {
+    "availableLanguage": "['et', 'en']",
+    "contactType": "Referrals",
+    "email": "Mcneil.Optometric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(274)327-9086"
+  },
+  "http://example.org/Address/855345dc-42bb-4b0b-8c56-762706db2b38": {
+    "addressCountry": "NL",
+    "addressLocality": "Akersloot",
+    "streetAddress": "Aydendreef 123"
+  },
+  "http://example.org/ServiceDepartment/1c63198f-f39d-4079-8b72-4a5652320ee2": {
+    "name": "Midwifery"
+  },
+  "http://example.org/Address/d34a3277-f299-4afa-b34f-c819236e179d": {
+    "addressCountry": "NL",
+    "addressLocality": "Opende",
+    "streetAddress": "Kaisingel 138"
+  },
+  "http://example.org/ServiceDepartment/9e992e2b-341b-4868-9b23-2c6baa14b111": {
+    "name": "Gynecologic"
+  },
+  "http://example.org/ContactPoint/8668d8f1-7f74-4e34-96cb-403a1b5456ee": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Information",
+    "email": "Griffin.Rheumatologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)25-1238274"
+  },
+  "http://example.org/Address/20ae6c59-2102-49f0-ba91-05a7c834207f": {
+    "addressCountry": "AT",
+    "addressLocality": "Zwettl",
+    "streetAddress": "Florentina-Haider-Stra\u00dfe 18"
+  },
+  "http://example.org/Person/66f41040-6880-4f53-a5ce-c2bd27af2ba1": {
+    "gender": "Other",
+    "jobTitle": "Gerontology Nurse",
+    "knowsLanguage": "nl",
+    "name": "Natalie Lee"
+  },
+  "http://example.org/ContactPoint/a0b46a06-12fc-4aa6-a72b-080cab8f3ef4": {
+    "availableLanguage": "['nl']",
+    "contactType": "Information",
+    "email": "Jordan.Laboratory@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "0484-926819"
+  },
+  "http://example.org/ServiceDepartment/a2dd5d33-3390-44af-8d41-37baf4944344": {
+    "name": "Plastic Surgery"
+  },
+  "http://example.org/Person/482ec232-19e1-4d5f-836e-ea14b8a52318": {
+    "gender": "Other",
+    "jobTitle": "Community Outreach Specialist",
+    "knowsLanguage": "de",
+    "name": "William Riley"
+  },
+  "http://example.org/ContactPoint/1aecad37-babe-4e22-9286-19a3e23966bd": {
+    "availableLanguage": "['nl']",
+    "contactType": "Staff",
+    "email": "Delgado.Public@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31(0)00 9244496"
+  },
+  "http://example.org/Person/9bfb4593-af74-4456-a56d-0194efa46829": {
+    "gender": "Female",
+    "jobTitle": "Hematologist",
+    "knowsLanguage": "nl",
+    "name": "Andrea Hunter"
+  },
+  "http://example.org/Person/dafa9bdd-b13f-4344-a5e1-4a75aefece7a": {
+    "gender": "Male",
+    "jobTitle": "Plastic Surgeon",
+    "knowsLanguage": "de",
+    "name": "Christopher Espinoza"
+  },
+  "http://example.org/Person/e1213b2f-93ca-4ef4-ba7d-929be6464e3f": {
+    "gender": "Male",
+    "jobTitle": "General Practitioner",
+    "knowsLanguage": "et",
+    "name": "Sarah Hudson"
+  },
+  "http://example.org/ServiceDepartment/fe2a1877-5f68-47d8-ba7b-c972fde7ff09": {
+    "name": "Radiography"
+  },
+  "http://example.org/ContactPoint/4b8a0e27-7300-47c9-bb6e-0475f267546c": {
+    "availableLanguage": "['nl']",
+    "contactType": "Information",
+    "email": "Allen.Pediatric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(0874)-206546"
+  },
+  "http://example.org/Address/9dab494d-c30c-4d5a-ae58-e42c3cb3e058": {
+    "addressCountry": "NL",
+    "addressLocality": "Zuidlaren",
+    "streetAddress": "Ceylindreef 78"
+  },
+  "http://example.org/Person/95c52244-666e-4b65-b003-bfda9ce95122": {
+    "gender": "Female",
+    "jobTitle": "Midwife",
+    "knowsLanguage": "nl",
+    "name": "Ashley Meyers"
+  },
+  "http://example.org/Person/945754df-e87b-4ee6-abc9-447627e1e7c6": {
+    "gender": "Male",
+    "jobTitle": "EEG Technician",
+    "knowsLanguage": "de",
+    "name": "James Navarro"
+  },
+  "http://example.org/Address/0baf00d9-76b4-4da5-af88-a3bca6eecadc": {
+    "addressCountry": "NL",
+    "addressLocality": "Heenvliet",
+    "streetAddress": "Ceylinsingel 98"
+  },
+  "http://example.org/Address/87c00c9e-c4a2-408f-b290-4590a452645f": {
+    "addressCountry": "NL",
+    "addressLocality": "Wernhout",
+    "streetAddress": "Ashleyhof 106"
+  },
+  "http://example.org/Person/8d05e112-1b4f-4973-92b5-5306b85325d4": {
+    "gender": "Female",
+    "jobTitle": "Anesthesiology Assistant",
+    "knowsLanguage": "de",
+    "name": "Cathy Mckenzie"
+  },
+  "http://example.org/ContactPoint/20d392e5-6102-433b-b06a-803967ff65cb": {
+    "availableLanguage": "['et']",
+    "contactType": "Staff",
+    "email": "Mcneil.Diet@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "9156573359"
+  },
+  "http://example.org/Person/3e02e588-581e-43ad-9e5f-2139dd15c024": {
+    "gender": "Other",
+    "jobTitle": "Dental Hygienist",
+    "knowsLanguage": "et",
+    "name": "Keith Sloan"
+  },
+  "http://example.org/ContactPoint/96027825-2b06-4f72-a0c8-79551bc3fad4": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Appointments",
+    "email": "Parker.Nursing@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(829)381-9675x49717"
+  },
+  "http://example.org/Person/993f3da5-1ad7-4361-89e2-dbc6c8b6d2d2": {
+    "gender": "Male",
+    "jobTitle": "School Nurse",
+    "knowsLanguage": "nl",
+    "name": "Kathleen Meyer"
+  },
+  "http://example.org/Address/cd148768-ebf3-4ece-ab94-09ae342cdee3": {
+    "addressCountry": "EE",
+    "addressLocality": "Anneville",
+    "streetAddress": "Sarv Circle 23"
+  },
+  "http://example.org/ContactPoint/f597b72d-d645-4736-821c-2bd32610c766": {
+    "availableLanguage": "['de']",
+    "contactType": "Staff",
+    "email": "PerezBecker.Speech@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+1-558-923-7359x01116"
+  },
+  "http://example.org/HealthcareOrganization/9e1ae78f-ed83-4d01-afce-3a5ec5f4b3ad": {
+    "name": "Allen Ltd Zorg"
+  },
+  "http://example.org/Address/97dcae0c-015a-43de-a2aa-44d9bd269202": {
+    "addressCountry": "NL",
+    "addressLocality": "Wilp",
+    "streetAddress": "Katepad 61"
+  },
+  "http://example.org/ServiceDepartment/f8df3896-3c90-4e6c-913f-b083a288d4d8": {
+    "name": "Otolaryngologic"
+  },
+  "http://example.org/Address/fc75e551-ea84-4a27-9fcb-2c094eae77f7": {
+    "addressCountry": "EE",
+    "addressLocality": "Roosilehtside",
+    "streetAddress": "Andreev Mountains 144"
+  },
+  "http://example.org/Person/301979af-6c12-40f2-be81-ac33a882be4c": {
+    "gender": "Other",
+    "jobTitle": "EKG Technician",
+    "knowsLanguage": "nl",
+    "name": "Ashlee Brown"
+  },
+  "http://example.org/Person/a5630d48-c3ae-44e1-a04f-b035d7bf4368": {
+    "gender": "Female",
+    "jobTitle": "EEG Technician",
+    "knowsLanguage": "nl",
+    "name": "Timothy Khan"
+  },
+  "http://example.org/Person/6240c423-b3c6-4ea9-8ca9-4a215d17457c": {
+    "gender": "Female",
+    "jobTitle": "Reconstructive Specialist",
+    "knowsLanguage": "et",
+    "name": "Morgan Hill"
+  },
+  "http://example.org/Person/5a4c78f1-baa6-445d-8e33-2bb62e92a382": {
+    "gender": "Female",
+    "jobTitle": "Ophthalmologist",
+    "knowsLanguage": "nl",
+    "name": "Alyssa Elliott"
+  },
+  "http://example.org/ServiceDepartment/40798d19-abc7-4452-8d97-fbe7191ba634": {
+    "name": "Dermatology"
+  },
+  "http://example.org/ContactPoint/80df3db1-4da5-4ddc-a618-d6e93f36c16b": {
+    "availableLanguage": "['de', 'en']",
+    "contactType": "Referrals",
+    "email": "Parker.Infectious@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "646.246.0066"
+  },
+  "http://example.org/ServiceDepartment/4e438488-43a2-44eb-a62a-878f34459f85": {
+    "name": "Musculoskeletal"
+  },
+  "http://example.org/ServiceDepartment/e2220bc5-7d23-4e6b-a26d-486265d2318e": {
+    "name": "Geriatric"
+  },
+  "http://example.org/ServiceDepartment/dead91c4-8b7a-44b0-b0ff-cf0f6c203c45": {
+    "name": "Rheumatologic"
+  },
+  "http://example.org/Person/bc7eaade-7508-49d0-b94a-034dab4f4d1e": {
+    "gender": "Male",
+    "jobTitle": "Community Outreach Specialist",
+    "knowsLanguage": "de",
+    "name": "Randy Hill"
+  },
+  "http://example.org/ContactPoint/1421edd8-4917-4b35-a34a-e6e9da391146": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Administrative",
+    "email": "Jordan@healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "0749 318642"
+  },
+  "http://example.org/Person/194f2e12-8c83-4800-a064-4e2f8f2ca216": {
+    "gender": "Female",
+    "jobTitle": "Speech Therapist",
+    "knowsLanguage": "de",
+    "name": "Gregory Copeland"
+  },
+  "http://example.org/Person/d783ab86-287b-4210-9566-c7b55a99c58d": {
+    "gender": "Female",
+    "jobTitle": "Epidemiologist",
+    "knowsLanguage": "nl",
+    "name": "Cameron Hawkins"
+  },
+  "http://example.org/Person/344d18a4-b88c-493f-85ac-84a2b65bf1d0": {
+    "gender": "Female",
+    "jobTitle": "Communication Disorders Specialist",
+    "knowsLanguage": "et",
+    "name": "Joseph Allen"
+  },
+  "http://example.org/Person/f0c1cf7a-20e5-4c0d-84b0-dff7cc4e549e": {
+    "gender": "Other",
+    "jobTitle": "Infection Control Nurse",
+    "knowsLanguage": "nl",
+    "name": "Betty Gonzalez"
+  },
+  "http://example.org/Address/07c36e2f-3481-40a2-ae42-b6f2828aa07a": {
+    "addressCountry": "NL",
+    "addressLocality": "Geldrop",
+    "streetAddress": "Jurrelaan 50"
+  },
+  "http://example.org/Address/f7164c06-47e7-481d-8f63-5e0629b0d073": {
+    "addressCountry": "AT",
+    "addressLocality": "Bad Leonfelden",
+    "streetAddress": "Emilija-Mayerhofer-Gasse 80"
+  },
+  "http://example.org/Person/901da49f-c7f0-4238-83c2-004defef417f": {
+    "gender": "Male",
+    "jobTitle": "Labor & Delivery Nurse",
+    "knowsLanguage": "de",
+    "name": "Brianna Thompson"
+  },
+  "http://example.org/Person/816f7128-1bc2-4457-94fc-85073937e9e4": {
+    "gender": "Other",
+    "jobTitle": "Diet Technician",
+    "knowsLanguage": "et",
+    "name": "Gerald Gill"
+  },
+  "http://example.org/ServiceDepartment/1fcd04a0-469b-45bd-b7c8-202f8d2d944c": {
+    "name": "Midwifery"
+  },
+  "http://example.org/Address/2d8424ba-d473-49b4-8845-91547ceeb748": {
+    "addressCountry": "NL",
+    "addressLocality": "Garsthuizen",
+    "streetAddress": "Mirteweg 112"
+  },
+  "http://example.org/Address/6b26d7b1-f908-4240-ac47-fddc1bc7a27e": {
+    "addressCountry": "EE",
+    "addressLocality": "Tomingasview",
+    "streetAddress": "Tilk Gardens 128"
+  },
+  "http://example.org/Person/84d33703-f390-4445-b715-e71909e0c4e9": {
+    "gender": "Female",
+    "jobTitle": "Sleep Technician",
+    "knowsLanguage": "de",
+    "name": "Olivia Lee"
+  },
+  "http://example.org/Person/19b71898-9f62-44ed-ae12-a6993e55c19d": {
+    "gender": "Female",
+    "jobTitle": "Blood Bank Technologist",
+    "knowsLanguage": "nl",
+    "name": "Christopher Flores"
+  },
+  "http://example.org/ContactPoint/7c781d92-534a-4aaf-a61c-bce5c63631ee": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "General Inquiries",
+    "email": "Ibarra@healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+31194-264183"
+  },
+  "http://example.org/Person/9e08275a-f86e-45d5-9120-bbfab9fb4a05": {
+    "gender": "Other",
+    "jobTitle": "Ophthalmologist",
+    "knowsLanguage": "et",
+    "name": "Daniel Glover"
+  },
+  "http://example.org/Address/a5bb0d19-ea0e-4387-8fcb-0ea14e9687ca": {
+    "addressCountry": "NL",
+    "addressLocality": "Zandpol",
+    "streetAddress": "Novapad 64"
+  },
+  "http://example.org/Person/0832fec0-aabb-447d-80e7-0f345370628c": {
+    "gender": "Female",
+    "jobTitle": "Nutrition Counselor",
+    "knowsLanguage": "nl",
+    "name": "Lori Hill"
+  },
+  "http://example.org/ContactPoint/9128ded9-b5fd-487f-98ba-461ca1f6bcc5": {
+    "availableLanguage": "['nl']",
+    "contactType": "Staff",
+    "email": "Delgado.Psychiatric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "+3181 7857028"
+  },
+  "http://example.org/Person/d85ef9ff-7603-48be-8a36-76e6d015b786": {
+    "gender": "Other",
+    "jobTitle": "Hematology Nurse",
+    "knowsLanguage": "et",
+    "name": "Brandon Caldwell"
+  },
+  "http://example.org/Person/d1138b96-d28c-4db6-b818-d12baf6525ce": {
+    "gender": "Female",
+    "jobTitle": "Medical Laboratory Scientist",
+    "knowsLanguage": "nl",
+    "name": "John Nunez"
+  },
+  "http://example.org/Person/f1892f97-c5db-4823-8c1e-f53a586b5bed": {
+    "gender": "Male",
+    "jobTitle": "GI Technician",
+    "knowsLanguage": "nl",
+    "name": "Thomas Adams"
+  },
+  "http://example.org/ContactPoint/e3478f12-bad6-448c-82cd-9a4d07dbb7dc": {
+    "availableLanguage": "['et']",
+    "contactType": "Referrals",
+    "email": "Novak.Gastroenterologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "815.536.9489x002"
+  },
+  "http://example.org/Address/50284bea-72eb-4b79-b707-d0de80912105": {
+    "addressCountry": "AT",
+    "addressLocality": "G\u00e4nserndorf",
+    "streetAddress": "Maryam-Buchegger-Stra\u00dfe 80"
+  },
+  "http://example.org/HealthcareOrganization/aa60aed9-81c1-4fb8-b023-b08b9998c8e8": {
+    "name": "Burch LLC Zorg"
+  },
+  "http://example.org/Person/fd4f6823-9aff-43e8-ade2-a34245cc5bd8": {
+    "gender": "Other",
+    "jobTitle": "Lab Technician",
+    "knowsLanguage": "et",
+    "name": "Brianna Barr"
+  },
+  "http://example.org/Address/c735a5a6-35d9-45ea-ad58-a6a3cf0c17a4": {
+    "addressCountry": "NL",
+    "addressLocality": "Dearsum",
+    "streetAddress": "Nikkiweg 141"
+  },
+  "http://example.org/Person/0881f78f-46de-43c6-a3e7-ea1df155425c": {
+    "gender": "Other",
+    "jobTitle": "Rheumatology Nurse",
+    "knowsLanguage": "et",
+    "name": "Jenna Rojas"
+  },
+  "http://example.org/Person/0b3accf9-2326-4496-abfb-d2d9dc26a27e": {
+    "gender": "Male",
+    "jobTitle": "Ophthalmologist",
+    "knowsLanguage": "et",
+    "name": "Angel Weaver"
+  },
+  "http://example.org/Person/df377869-441a-4174-b709-c2e2c5e2cc11": {
+    "gender": "Female",
+    "jobTitle": "Optometrist",
+    "knowsLanguage": "et",
+    "name": "Nicholas Bowen"
+  },
+  "http://example.org/ContactPoint/da4818c1-bdfd-4e5f-80d4-0ecbcc54729e": {
+    "availableLanguage": "['nl', 'en']",
+    "contactType": "Appointments",
+    "email": "Jordan.Neurologic@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(045) 1726813"
+  },
+  "http://example.org/ServiceDepartment/0974976c-a372-458d-974d-48c0ef7eec48": {
+    "name": "Laboratory Science"
+  },
+  "http://example.org/Person/f385b7df-1dfe-4bf7-92cb-87ece5ea7263": {
+    "gender": "Other",
+    "jobTitle": "Gerontology Nurse",
+    "knowsLanguage": "et",
+    "name": "Katherine Ford"
+  },
+  "http://example.org/ContactPoint/0b2eea40-8a78-43c3-85ec-65b153700617": {
+    "availableLanguage": "['nl']",
+    "contactType": "Emergency",
+    "email": "Ibarra.Primary@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(0338) 007752"
+  },
+  "http://example.org/Person/c0ff1294-1399-4000-b327-eeec7da9eccf": {
+    "gender": "Other",
+    "jobTitle": "Obstetrics Technician",
+    "knowsLanguage": "nl",
+    "name": "Dawn Conner"
+  },
+  "http://example.org/Address/c66c6f90-43f3-49a7-ab4c-72f7033fa4b9": {
+    "addressCountry": "AT",
+    "addressLocality": "Sankt P\u00f6lten",
+    "streetAddress": "Obermayrring 94"
+  },
+  "http://example.org/Person/b0099ef9-eb03-4407-8b27-b7a3e42cec4c": {
+    "gender": "Male",
+    "jobTitle": "Obstetrician",
+    "knowsLanguage": "et",
+    "name": "Paul Morris"
+  },
+  "http://example.org/Person/81a81af4-f283-4e7f-956d-76591b41094e": {
+    "gender": "Male",
+    "jobTitle": "GI Nurse",
+    "knowsLanguage": "de",
+    "name": "Justin Mcknight"
+  },
+  "http://example.org/ContactPoint/b67f1711-edd4-4cbd-884f-6b50a2607217": {
+    "availableLanguage": "['nl']",
+    "contactType": "Appointments",
+    "email": "Jordan.Geriatric@dept.healthcare.org",
+    "faxNumber": "nan",
+    "telephone": "(0028)-499243"
+  },
+  "http://example.org/Person/5abee759-f7e0-4770-8593-1151f087585a": {
+    "gender": "Female",
+    "jobTitle": "Child Life Specialist",
+    "knowsLanguage": "et",
+    "name": "Olivia Nelson"
+  },
+  "http://example.org/ServiceDepartment/2ee10f23-5fab-4377-b016-b1616c26e5ed": {
+    "name": "Optometric"
+  },
+  "http://example.org/Person/f0bb49ea-a2f4-409c-8f7e-5537b1699807": {
+    "gender": "Other",
+    "jobTitle": "Therapist",
+    "knowsLanguage": "de",
+    "name": "Adrian Ramirez"
+  },
+  "http://example.org/Person/01a0af87-50a4-438e-ac6e-a762dc0bcbbf": {
+    "gender": "Other",
+    "jobTitle": "Geriatrician",
+    "knowsLanguage": "nl",
+    "name": "Karen Anderson"
+  },
+  "http://example.org/Person/7b3e88c5-d50c-4680-9927-1828e9933d91": {
+    "gender": "Other",
+    "jobTitle": "Neurologist",
+    "knowsLanguage": "et",
+    "name": "Brian Santiago"
+  },
+  "http://example.org/Person/891a0c84-4d61-4075-bf94-e6e1b84387ab": {
+    "gender": "Female",
+    "jobTitle": "Lab Technician",
+    "knowsLanguage": "nl",
+    "name": "Todd Murphy"
+  },
+  "http://example.org/Address/d211e0ef-d5ee-445d-a442-3f07e310b656": {
+    "addressCountry": "NL",
+    "addressLocality": "Beinsdorp",
+    "streetAddress": "Lucashof 89"
+  },
+  "http://example.org/Person/eac61cf5-7763-4829-82a8-0b60b45df42d": {
+    "gender": "Male",
+    "jobTitle": "Emergency Physician",
+    "knowsLanguage": "de",
+    "name": "Timothy Pena MD"
+  },
+  "http://example.org/Person/a5701383-af1d-42ac-b012-c4e18b4cadbe": {
+    "gender": "Female",
+    "jobTitle": "Pediatrician",
+    "knowsLanguage": "nl",
+    "name": "Luis Atkinson"
+  }
+}

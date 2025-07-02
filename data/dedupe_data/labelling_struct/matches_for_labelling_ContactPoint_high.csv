@@ -1,0 +1,11 @@
+label,left_availableLanguage,left_contactType,left_email,left_faxNumber,left_telephone,right_availableLanguage,right_contactType,right_email,right_faxNumber,right_telephone
+,['nl'],Administrative,FaulknerHoward@healthcare.org,+31578 156593,021-9489241,['nl'],nan,FaulknerHoward@healthcare.org,+31578 156593,021-9489241
+,['et'],Administrative,Garrett@healthcare.org,671.948.4185x83989,339-733-2871,['et'],nan,Garrett@healthcare.org,671.948.4185x83989,339-733-2871
+,['et'],General Inquiries,Green@healthcare.org,275.615.9179x533,886-684-8339,['et'],nan,Green@healthcare.org,275.615.9179x533,886-684-8339
+,"['nl', 'en']",General Inquiries,Nash@healthcare.org,+31(0)06-9602714,0935 233769,"['nl', 'en']",nan,Nash@healthcare.org,+31(0)06-9602714,0935 233769
+,"['de', 'en']",General Inquiries,LopezKey@healthcare.org,393-244-2176,(306)565-0300,"['de', 'en']",nan,LopezKey@healthcare.org,393-244-2176,(306)565-0300
+,"['de', 'en']",General Inquiries,Williams@healthcare.org,(224)255-5159,(690)297-7658x236,"['de', 'en']",nan,Williams@healthcare.org,(224)255-5159,(690)297-7658x236
+,['et'],General Inquiries,Brady@healthcare.org,610-587-3176,547.779.3615x34926,['et'],nan,Brady@healthcare.org,610-587-3176,547.779.3615x34926
+,"['de', 'en']",Billing,Garcia@healthcare.org,524.492.6947x11801,+1-768-275-7738x93055,"['de', 'en']",nan,Garcia@healthcare.org,524.492.6947x11801,+1-768-275-7738x93055
+,"['nl', 'en']",Administrative,SantanaShaw@healthcare.org,(000) 2489451,+31634 896769,"['nl', 'en']",nan,SantanaShaw@healthcare.org,(000) 2489451,+31634 896769
+,['nl'],General Inquiries,Chan@healthcare.org,+31(0)60-7541511,+31(0)11-6116207,['nl'],nan,Chan@healthcare.org,+31(0)60-7541511,+31(0)11-6116207
