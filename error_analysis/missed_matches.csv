@@ -1,129 +1,152 @@
-entity_type,original_id,duplicate_id,variation_type,field_name
-ContactPoint,12f175ff-ae3b-46ec-9a27-d85888c132ad,efa8ab87-89ce-40a3-b4fb-af5ff05faa92,omission,fax
-ContactPoint,eb21a3f6-e6fd-48e8-969c-91c278601602,cabc7c88-4d42-4606-a2af-d8179998c610,omission,fax
-ContactPoint,122411e6-ba89-42dd-85e6-9ea9db66bfda,5d01f96e-84d2-4ff8-b18d-fe48ca730040,omission,fax
-ContactPoint,0932f5b6-f11d-4ff7-8e37-05265582a3bd,ec6321ea-60aa-423d-8d7a-999c5ab5ed01,omission,fax
-ContactPoint,ef151673-a1df-4da7-9d44-c93e7799a8e2,7c781d92-534a-4aaf-a61c-bce5c63631ee,omission,fax
-ContactPoint,74151acc-f5a3-4893-bf7a-27482cbb93c2,2630dd6c-6ff8-4971-8d46-18751a0d2c72,omission,fax
-ContactPoint,9177b6d4-5f2e-4167-b13e-ceb14ad12b4c,9d6acf61-69f3-4924-a5d7-8cffe90ff783,omission,fax
-ContactPoint,23254d81-2bdf-4727-9501-e917496dc27b,43ee3a98-f7fd-4730-808e-e2f0b4682696,omission,fax
-ContactPoint,b4480761-505e-4c9b-8bc8-8bcf7b1d4049,7e3af6ff-5c49-4d45-9065-0d22f73d63ce,omission,fax
-ContactPoint,57627626-2037-4089-b11f-a10a0b2975c6,1421edd8-4917-4b35-a34a-e6e9da391146,omission,fax
-ContactPoint,4e98ce25-1733-4a7c-93e8-36639c14940d,2c9b9c29-8d87-4aea-9a53-ee6e5cc33b1e,omission,fax
-ContactPoint,7680891b-6bb6-404e-a0db-22d329e316ad,8b2133d1-7a05-4f44-9ef0-f5cf1adf729d,omission,fax
-ContactPoint,29502326-7644-4183-9aab-d22d75ef8aab,9ebbc757-b59b-4386-b239-47b1d07b139f,omission,fax
-ContactPoint,fae3fcee-7636-4fd9-8376-ffa876fe579f,e5b057bf-1cab-4116-98c6-3196f8daa82b,omission,fax
-ContactPoint,eec9fa67-4cc6-42fc-b006-ff85166a1a98,8a75f05d-04c6-472a-9925-83d8922ad7a1,omission,fax
-ContactPoint,42f81126-6c2c-40a7-a4e9-031675f80092,b8d1ce6c-54a9-4937-a85d-d7f437214c60,omission,fax
-ContactPoint,d41cc2bc-e335-4f8b-91d5-6acf680fe5e2,c293b8f9-ef44-4a4b-8833-bcb1ff4006a8,omission,fax
-ContactPoint,74286356-3c91-4458-a4b2-7e8301cbd9c2,10552d42-fcbb-4a03-8edb-d6ad46d5a5d5,omission,fax
-ContactPoint,091523be-650f-4375-a0fc-01e2bcd635cc,df7cc604-c60f-4337-ac15-f357200ab3a9,omission,fax
-ContactPoint,b5eca796-dc5f-4db7-87b5-2a8b0af01e69,3661dddb-bfa4-4354-959e-50211eb9724e,omission,fax
-ContactPoint,5536212a-58d7-46da-8f01-3f4e73961f8e,58716907-8c3b-4c36-8471-d4f8e5cd853c,omission,fax
-ContactPoint,c6d82ceb-a1ac-4d49-8d4d-daab72824622,9d4b5a27-c315-4e47-9b04-a845ed3176b5,omission,fax
-ContactPoint,c784499d-6909-4290-9496-a305314a332e,0d3858d7-050b-4714-bed8-c758bde9c80c,omission,fax
-ContactPoint,24fa9196-f801-4987-8008-cccf565e5ae7,20d392e5-6102-433b-b06a-803967ff65cb,omission,fax
-ContactPoint,2a630fd1-71cf-439d-aa1f-ff41af1b7013,0f2cb91a-47d5-47d9-bc2e-590e06a4549f,omission,fax
-ContactPoint,e16e3336-77b1-4e21-bccc-c53ac36a4162,e99f8beb-c132-4441-8c8e-ce8d7fdbd2dd,omission,fax
-ContactPoint,84ddf869-b816-4f1a-9677-013ba8e19b83,946d02e5-378a-4eb1-98d4-d705478a3511,omission,fax
-ContactPoint,eb5d11e8-b6d2-4ba9-a517-3d1cf7fc0bd9,2410a9c3-4d20-4e1b-b962-4b56b3025119,omission,fax
-ContactPoint,7df8b7f0-44a1-44d0-96df-fc21b1c2ed56,497a587c-2792-4284-8ae7-3bfbec2d410d,omission,fax
-ContactPoint,80082244-1ac5-443b-b7dd-3c21e618d25d,418e0c4d-0fc5-42d6-8a63-b0fa4ab0c5ff,omission,fax
-ContactPoint,66ab247a-75fe-400c-8407-32b4ef1772f4,57b20ab0-1e72-450d-ab1e-517c3ffd3c7c,omission,fax
-ContactPoint,a7486875-29bd-4604-bed2-7848c6950d85,a978404b-7e6b-419a-8d88-d1e189c03e78,omission,fax
-ContactPoint,49556582-7e54-4d03-aef4-2592ec1c6fe4,7e8bea48-cded-4505-99a3-9f86933794b7,omission,fax
-ContactPoint,047595fb-338b-4372-a00c-ea03b7d52dce,688735ff-7711-4104-a6d6-280b27f73d30,omission,fax
-ContactPoint,a1fa46f3-4668-4cdd-b5f9-8f4110a15299,b09eed71-e07f-4027-b7a5-ca7063895c7d,omission,fax
-ContactPoint,0aa1ee6f-1b04-4aa4-a3f3-3d5519248947,2b614a3c-ce74-4ddc-89fb-02b1049b233e,omission,fax
-ContactPoint,5aa970d9-801a-4ff7-a6cd-d662c4e813db,8fb5125c-8477-4401-8f14-7dfcca74bd85,omission,fax
-ContactPoint,cec1871a-b5c8-4060-89c7-35079d592a7b,12139cc8-257c-48e3-8268-ebcd3f64b1f7,omission,fax
-ContactPoint,d24f6919-7d1d-439e-b453-6a9b7ecbcd45,ba2fe2f9-803b-478d-8ff7-adac1e61b12f,omission,fax
-ContactPoint,7e39fd94-f850-4bec-a7f5-794c007ea2cb,9b968e8f-35e5-45ad-bb84-d0171b20945f,omission,fax
-ContactPoint,c47090c6-bad8-4464-959b-0d078f022246,4b8a0e27-7300-47c9-bb6e-0475f267546c,omission,fax
-ContactPoint,28986430-fabd-4787-bd5a-95ecc315c8b0,0b2eea40-8a78-43c3-85ec-65b153700617,omission,fax
-ContactPoint,88bf1035-d8cf-4d5c-b35c-f88bfae203e1,1ba2c869-806b-4615-8f7f-dec6e85bd813,omission,fax
-ContactPoint,50bbd1c7-f01c-4cc7-bb87-c961fa17e092,72bf86a2-0b24-4fd4-a517-7c6d95d5ce45,omission,fax
-ContactPoint,689f2d23-100a-4f24-8dd1-5beb5d98abc9,9e62243f-3262-45dc-9f4e-8f832ca9a68a,omission,fax
-ContactPoint,e9e1a3d1-1a12-4068-815c-77ed779571dd,fe32623c-f320-4f3e-b8a1-60abd914a7c7,omission,fax
-ContactPoint,da47b8f9-cee4-4404-9648-1f4b0c747a90,c579424d-6270-4079-84c6-c2ecb2600588,omission,fax
-ContactPoint,5351c342-5b7c-48ed-b239-6f882516de06,f6d0e273-32a8-4e0b-beea-26d734630a5b,omission,fax
-ContactPoint,6efeb18f-aaa6-4ef9-bbb6-ba4c140ab78e,09c4f895-1d9a-49a7-b9b7-3d0c4656e92a,omission,fax
-ContactPoint,4f5ab827-3b33-445b-952b-c38cce0790d7,58dce020-d670-474c-a069-3e43b7c43c14,omission,fax
-ContactPoint,8dfc0cb0-dc97-4aec-8fac-816ce2d371cc,28574d17-fb07-4c83-95fc-04624840005c,omission,fax
-ContactPoint,68aeb048-72ec-4932-a075-44b56eb7b98b,5564d2f1-e2ad-4bb4-9182-a02645963c7f,omission,fax
-ContactPoint,d7c5a147-ebd2-452e-b18f-3aee34a25626,14d82166-bc98-4933-8d3d-c78bc91f9e56,omission,fax
-ContactPoint,46c91999-4187-4dc0-aa20-ccea22e87c8d,fae01595-304b-40d9-9a5e-c9a00ccb6f67,omission,fax
-ContactPoint,c40421fb-18fb-4f2c-9602-a43750ea62aa,518b425a-849a-4c47-b314-61dc24c85468,omission,fax
-ContactPoint,9e3589b2-eb14-4394-bd70-57fbc7caa96b,5d1f0045-734f-4710-9de4-da778a5c86c6,omission,fax
-ContactPoint,91db735e-dc21-43e8-902e-4f400a013a86,31e927a1-489f-4bf4-89a7-11804ded3807,omission,fax
-ContactPoint,e1f51fdc-c203-453a-8b78-44b004747134,8668d8f1-7f74-4e34-96cb-403a1b5456ee,omission,fax
-ContactPoint,b11826f6-66c3-400c-9cae-80b846695f55,09154c79-0e12-4632-9048-f6e4fe1c6d51,omission,fax
-ContactPoint,77059fa8-56be-4bee-a67c-4de762f8d20a,028abe50-d209-43a2-a2b7-14c1dc532c16,omission,fax
-ContactPoint,c46e1738-790b-4990-a428-da2ed8900991,87aca87a-5ea3-4a8c-91e0-340f57dc4108,omission,fax
-ContactPoint,8a8ed273-ece1-4e8b-85cc-70a1a49266c9,5b3b68c1-6fc7-429e-b17b-f9c0c9bc0860,omission,fax
-ContactPoint,8e95ef6a-b675-4f65-b8e1-c5e6648b1a36,4dee8e0c-8bf2-4b4f-8bb8-00055b7b78a4,omission,fax
-ContactPoint,6db16e7a-23e0-484e-bc30-9d334ea8c3b1,47bc7296-e9b2-400d-aeb6-88f0d5d3a06b,omission,fax
-ContactPoint,fef5a551-87a9-4185-9166-465bb0464634,81427485-bf6b-4e99-912b-5a7fd721e1fe,omission,fax
-ContactPoint,6278f95a-7438-4b47-aa83-c504ebbc854b,60b4b633-da39-463c-b661-751ae7a2c014,omission,fax
-ContactPoint,15f66e23-75e6-43b6-b952-7fba397ce787,007ccf28-8d54-4d8f-8ed6-d7bbc3b87469,omission,fax
-ContactPoint,11d0fd54-750e-41b1-997e-b2fc26fc574c,bcc69461-bb52-4e6f-998b-247879c971b7,omission,fax
-ContactPoint,16b9315a-eea6-4d23-aaf3-913e301c8730,9adc90a9-495a-4fa9-bc73-252ca23e4f9c,omission,fax
-ContactPoint,3d550d82-be18-4b30-93b7-9970dd8159b8,80df3db1-4da5-4ddc-a618-d6e93f36c16b,omission,fax
-ContactPoint,cb628a19-a79e-431f-86ad-ad4a37c6c427,1d038d7e-a715-442a-a8e3-660089971c11,omission,fax
-ContactPoint,a76f80a9-1db9-4322-ad85-ceb25291b049,55ff371e-4bf1-484e-92dd-e8680d7b29de,omission,fax
-ContactPoint,b00fecf4-d53a-4c3a-83ff-0b3a5380531c,9d9ac159-322e-4b6f-a538-79094ca1c800,omission,fax
-ContactPoint,c23ce929-89bc-44b6-9da4-01e9b331cf4d,313ecd68-4461-44be-9968-06eb3fe778bd,omission,fax
-ContactPoint,e354f6ae-6d19-4acc-9167-c254a9800a11,96027825-2b06-4f72-a0c8-79551bc3fad4,omission,fax
-ContactPoint,8e13c327-b461-4c8f-ae16-25f34b4444b5,2c29f5d0-b67b-4aad-8281-0bf765648dc8,omission,fax
-ContactPoint,367cf088-7f4a-41b5-a72f-abab25edfea9,85e36f25-ae80-4319-a8d3-fc56802ff95d,omission,fax
-ContactPoint,af2dd8f0-1d19-4eec-929f-efba97bf86b3,95c74004-b43c-4548-af2a-a68d731e27ae,omission,fax
-ContactPoint,51b0a3c5-c9e7-4aba-b5da-3e50822bbc3d,101d7952-451e-4145-a13b-441e4b491a56,omission,fax
-ContactPoint,322515a5-3a89-491e-b7b9-387b677bd216,ea348d1c-5c3e-4d74-b3f3-cac56fb29b7d,omission,fax
-ContactPoint,0a4d3590-f9b4-4573-878a-2aafd8dc0cb1,1aecad37-babe-4e22-9286-19a3e23966bd,omission,fax
-ContactPoint,a0e33935-f515-49fd-b68b-604992edb418,69c56aea-de51-4af9-bfa9-6dc1ab854f5e,omission,fax
-ContactPoint,07d9fab3-fccd-4ab0-b13b-40ac30cceeb3,92c7f5c9-f6ac-4a43-930e-bbd3339d59ab,omission,fax
-ContactPoint,8aa97d3f-bd63-47b3-9595-7c157d3e3711,9128ded9-b5fd-487f-98ba-461ca1f6bcc5,omission,fax
-ContactPoint,4d668807-a68f-4bb3-8cb6-cfc37e49eb8d,91447032-d11a-4156-adf9-e2f30fc3381f,omission,fax
-ContactPoint,659185b7-664e-4107-99a6-f4165e66ddc3,67456fbe-add2-486b-9297-8601887401a6,omission,fax
-ContactPoint,3b6f2ad2-6ec1-47b0-99bb-f03db6d06615,b67f1711-edd4-4cbd-884f-6b50a2607217,omission,fax
-ContactPoint,64a335b5-a973-439e-a2c9-b2627ed24723,a0b46a06-12fc-4aa6-a72b-080cab8f3ef4,omission,fax
-ContactPoint,ea6d5565-3810-4725-952a-4ff52da4d7f2,b40736bd-7ee3-4af6-8c02-732e06e721df,omission,fax
-ContactPoint,92738995-ca89-4d11-8646-356bc28611fd,fecaaec6-ec7b-4cb6-bf57-d64c6b8386ca,omission,fax
-ContactPoint,095e2e87-c893-485b-acbb-85648b3941d5,da4818c1-bdfd-4e5f-80d4-0ecbcc54729e,omission,fax
-ContactPoint,d44b5548-066d-4e1e-a16b-347d9babbdab,1c887dae-122f-4393-a593-daaf8a42a83e,omission,fax
-ContactPoint,089f8b86-b99e-43e5-a908-a3aa20adb06e,e6b106a7-9d6c-4916-8794-678c8cc57ce6,omission,fax
-ContactPoint,31692d4e-9b24-4fa1-b264-5654489d80b6,b52a6579-50e4-411f-bb85-d619746b2920,omission,fax
-ContactPoint,51c756d4-6dda-4925-86d2-5fcc6714224c,fbedf518-f496-4a43-9b13-b39d83a11494,omission,fax
-ContactPoint,749ef679-c161-4767-b28a-85434a974df5,ce0d07aa-6837-4c57-bd5f-8d857d997183,omission,fax
-ContactPoint,52c71bbd-94b2-4c54-be2b-0f3a655ff99f,6daeda9c-f101-4e98-96fe-05a01d28f69c,omission,fax
-ContactPoint,8a624be8-c7e2-4825-8fd2-64ff06fb6410,cb6471aa-8a2e-4e2b-a0c2-29bd7c3bec73,omission,fax
-ContactPoint,3ab88289-7324-4b18-96b1-a336ba2831ca,dbd36621-b750-4b8d-ae64-3340d1b6963f,omission,fax
-ContactPoint,b81b7f03-fb0a-4705-8e9a-a076faac8f76,0bda206f-1178-4507-a496-6ce1b61c48e7,omission,fax
-ContactPoint,e558abe1-7fc8-42e7-8a2d-e86e6910124a,d7e471fa-21c9-4fef-8689-3f7a4aa286f7,omission,fax
-ContactPoint,6706e199-9aaa-4aa8-9bec-11a0d5bccf5e,1478eb7d-89cf-4960-9f8d-c2316f2a76f8,omission,fax
-ContactPoint,68f111c6-ddef-4680-9eb8-39597f119389,9a415724-de70-4224-8d0e-b602a11472d3,omission,fax
-ContactPoint,10d44b3d-8aca-4410-9c10-126197762b3a,5b7873de-a409-43e6-8606-8dd13e5dbfa3,omission,fax
-ContactPoint,745c759a-691f-4f9a-9895-89611d03e632,d5fe454d-9642-4ec0-b695-4809e22ef00c,omission,fax
-ContactPoint,f929fb27-3e4a-4540-b8b5-c1dece9c85a7,15b90af7-2fa9-4291-a2c1-4312a98730cc,omission,fax
-ContactPoint,1010e768-13f1-4080-bc0d-d51a9e00559b,48a56890-2058-44d1-bc26-7718e211b57a,omission,fax
-ContactPoint,b0a7ff0b-74e0-420a-8cca-24df24e60c17,e69586d8-f5e4-4c13-9cee-77ebf15e2936,omission,fax
-ContactPoint,6b5bc344-01bb-47e2-bf69-cd8fa4b4da1c,edb4e638-1632-4724-8a92-84725aa8953d,omission,fax
-ContactPoint,5555ee5d-84b5-4c83-9eb8-3dd2a1dec0c1,9b297b93-5e9b-48ce-861f-00bf339bf9fe,omission,fax
-ContactPoint,a9e80538-880b-4ff9-b4b7-d61da17256a8,6c2840cb-bb19-406b-9819-12ebbd625d7c,omission,fax
-ContactPoint,5e573ddd-6b60-4f72-948e-40eb1fe43d64,2e03bd4f-9c4c-4817-ac03-a96444e0228c,omission,fax
-ContactPoint,5073fc2b-c647-4e3c-8e19-967b8102ce40,868f5f59-6919-4c21-b086-1d538c89f3eb,omission,fax
-ContactPoint,f714f11a-c923-4c39-80e9-889de42d1ba0,80100694-c40c-4ffd-9f04-707ab10d689f,omission,fax
-ContactPoint,5aeb3613-9cc4-4f93-8fd9-ba8f6dc6e925,5098644f-9975-4fd5-b5b3-2346e031ad08,omission,fax
-ContactPoint,76800d7a-bb11-4dbc-bd0f-8012f3cf3c33,e978c309-8d9c-4348-aef2-0bd11fb2b515,omission,fax
-ContactPoint,93c1d25b-124b-44fc-8571-605af163875c,8a36ef71-cdb0-45ae-ac4b-38e0a56c60a0,omission,fax
-ContactPoint,8eb9556d-7da2-4999-9436-93c6b76cfca2,f597b72d-d645-4736-821c-2bd32610c766,omission,fax
-ContactPoint,2622126b-79e6-465b-85ac-ec616238495b,bd3de010-785f-420c-8a0f-585a95ed8a57,omission,fax
-ContactPoint,ab8c6b16-cc35-4ea7-a17d-8ad2c9d9d2a6,2505a895-7cf0-4064-a8c8-25c0ed7b2f84,omission,fax
-ContactPoint,09237dcc-b77c-4af1-b5fa-5ae843ff4aa7,a4289cb2-19c3-4c9b-92f7-f12f130699fa,omission,fax
-ContactPoint,e92df0d8-5553-477b-8dfb-3ddd1fd512eb,24933f15-da43-4001-9f2a-17526c43de75,omission,fax
-ContactPoint,918b59ec-2b6a-48a8-a8e1-19f70df23548,dcb9dd84-bcd5-4e43-bf4e-b99f252cd433,omission,fax
-ContactPoint,799c82ee-f742-453b-a7a1-28de18310104,3e77c91f-2572-4689-ab64-96839c4ca518,omission,fax
-ContactPoint,5b93822b-cec8-44aa-a000-4c9f716f9ea7,3431101e-c3eb-455d-a3a6-359e137ab8c9,omission,fax
-ContactPoint,b0ca76f7-17f9-4524-8332-ed33bba6e752,9d2a8bf9-e8b0-4c88-b291-dc8d28731522,omission,fax
-ContactPoint,87e87d1f-9af4-402a-8703-a4230fa8aee9,e3478f12-bad6-448c-82cd-9a4d07dbb7dc,omission,fax
-ContactPoint,21f04ef1-e253-4910-9e10-c49316197d45,670608cd-20d9-4835-95fc-1f74f941fe30,omission,fax
+original_id,duplicate_id,entity_type,variation_type,field_name,original_value,varied_value
+09463e6f-3215-400e-a272-e2af92126ff1,cdb463db-a440-4cbe-93c4-598eedd32e33,ServiceDepartment,alternative_naming,serviceDepartmentName,Psychiatric,Mental Health Services
+0d0fbbe9-6b7d-4713-8ba1-527dad7114db,39a18f9e-cae8-4c5e-8502-1938b17b7c8b,ServiceDepartment,translation,serviceDepartmentName,Gastroenterologic,Gastro -enterologisch
+bf7b6b3c-b1ca-41c3-8061-d029cb1d6d78,fd85d57d-1847-4560-90b7-8c153c43f9dd,ServiceDepartment,department_typo,serviceDepartmentName,Geriatric,Geiatric
+767d3080-74d5-4980-b2ac-96120fc54496,9c45bcdd-36eb-49e3-96bc-577e97f7b49b,ServiceDepartment,department_abbreviation,serviceDepartmentName,Geriatric,Geri
+f5492fe4-471d-4312-aeee-86d52536c20e,d943ab83-4b0c-45ca-9d6a-fa3f55f3e636,ServiceDepartment,department_abbreviation,serviceDepartmentName,Genetic,Gen Med
+de9ac8b8-640b-4b28-8322-b4ff856df911,fc62388a-1bad-4a19-92c1-8e81c7351050,ServiceDepartment,translation,serviceDepartmentName,Renal,Nieren
+da6b236d-18a8-4f2e-843a-69ea1a6ed48d,dd0d5c4f-e30b-4f62-a628-c61b25046ac9,ServiceDepartment,department_abbreviation,serviceDepartmentName,Gastroenterologic,GI
+5b30f894-8122-408e-b24f-550f4e7aef59,665f32fb-023c-4d0f-b3f0-22fe6a7c357f,ServiceDepartment,department_typo,serviceDepartmentName,Cardiovascular,Cardiovasuclar
+15362c1f-90b3-49d9-bf0a-837a3e0f7488,492dae95-8aa0-4cb3-833e-d46699a9a2a3,ServiceDepartment,alternative_naming,serviceDepartmentName,Neurologic,Brain & Spine Center
+b07ce4cb-bc28-4c8c-9e6a-0f46a893e447,efa2f45f-9112-4449-b120-02dae2a87113,ServiceDepartment,department_typo,serviceDepartmentName,Podiatric,Poiatric
+9b3e6605-5083-4669-836c-d6021a54acb2,0a9c1869-c4c3-4515-8f3f-2c6e6d0ef120,ServiceDepartment,alternative_naming,serviceDepartmentName,Musculoskeletal,Bone & Joint Center
+01df3805-5f18-4cea-9b28-9a8432a88b74,9d80cf81-5fc8-4543-a95a-36af4a8a1675,ServiceDepartment,department_abbreviation,serviceDepartmentName,Optometric,Opt
+6689ef79-f8c3-4461-bc15-b016487eb3df,a56e3fcc-d5c5-4f3a-8e10-a9dea407e939,ServiceDepartment,department_typo,serviceDepartmentName,Pediatric,Pldiatric
+c21f2252-6321-4a69-b151-f48f111566e4,20cd3b59-b941-496d-9990-716b5ba53af3,ServiceDepartment,department_typo,serviceDepartmentName,Gynecologic,Gynecololic
+827254df-3830-4e4b-83d4-540a526aea43,80e93367-96cf-438d-891a-f6d47d1a2e42,ServiceDepartment,translation,serviceDepartmentName,Renal,Nier
+12d06ce5-dff4-4562-8464-77d001f59b1c,be206704-db92-49cc-b94e-3678d65a4e23,ServiceDepartment,translation,serviceDepartmentName,Pediatric,Pediatrisch
+edabf3d2-53e4-4dd3-ae51-bca044c0a5ed,dc57c641-ae3c-4c9f-ae28-362563f7d8ae,ServiceDepartment,department_typo,serviceDepartmentName,Speech Pathology,Speech Patology
+9505de76-3ae0-4936-8170-b9484f130b23,8b769843-47a5-48e1-97e2-db4dd5e383a2,ServiceDepartment,translation,serviceDepartmentName,Nursing,Verzorging
+5516c1a6-45d3-4a2c-8826-8550d171a798,d5b2b30a-d638-4f95-94e7-6ecc762913d9,ServiceDepartment,translation,serviceDepartmentName,Psychiatric,Psychiatrisch
+0f32e315-7a2b-45d6-926d-076cd58cf189,421a8085-11cd-431f-bdb8-e9c504f2fd34,ServiceDepartment,alternative_naming,serviceDepartmentName,Respiratory Therapy,Respiratory Care Services
+3a94f14b-0830-4ee6-9a9c-1d73f173d2fe,b0563e9c-5b52-472d-bcc5-6d2fead82159,ServiceDepartment,alternative_naming,serviceDepartmentName,Optometric,Vision Care Center
+93c3150d-77c3-404f-9f7a-46b8450000a1,9d4779da-d237-4bbc-ae49-d70be503ef26,ServiceDepartment,translation,serviceDepartmentName,Surgical,Chirurgisch
+f0c53802-4474-4ac6-9df7-327635ba9da1,a5d2e8ee-c690-4670-9e33-b16af0cdd0c0,ServiceDepartment,alternative_naming,serviceDepartmentName,Pediatric,Children's Health
+7766f556-ce51-4ffc-943d-da2a7bacbd85,6be7c42c-4cbd-4e7a-a800-cdd91018f9ce,ServiceDepartment,alternative_naming,serviceDepartmentName,Toxicologic,Poison Control Center
+85bd8d14-3cd3-45dc-8368-557f39795e8c,f65999ee-21a9-4016-9c7c-4c91f94ca92c,ServiceDepartment,alternative_naming,serviceDepartmentName,Gynecologic,Women's Health Center
+bdfdb88e-ae4f-40d7-bad0-e4d2f9dbd648,acc8fb72-25a1-4a18-81aa-3ef505d3174f,ServiceDepartment,department_typo,serviceDepartmentName,Optometric,Optomebric
+02246f10-ce65-4211-a3c9-c8d76ceb1865,80c9baa6-cef7-400f-af6b-a7b36b831142,ServiceDepartment,department_typo,serviceDepartmentName,Optometric,Optoemtric
+6850f3a3-4507-4b46-b271-3810c5030168,f7adb544-13f5-47f3-ba45-5369bfe0ec9a,ServiceDepartment,department_abbreviation,serviceDepartmentName,Gynecologic,GYN
+5041b3d0-8950-4262-a797-765abc854e3f,9a8f25f2-d935-4a87-8a40-f5166418cee4,ServiceDepartment,department_typo,serviceDepartmentName,Radiography,Radiograpyh
+fc961495-3051-4587-bec9-787d2a0f12d3,6058ee5b-13a4-4ee1-807f-a9ac20c3fc90,ServiceDepartment,department_typo,serviceDepartmentName,Psychiatric,Psyxchiatric
+350b62e7-9712-41a9-aecb-26826fe47e69,b1b1999a-b811-4ad4-97da-0a67ad686c26,ServiceDepartment,translation,serviceDepartmentName,Physiotherapy,Fysiotherapie
+4d543a0e-b3e5-47e4-a261-a3d28bdbf1f8,76be8a0e-ed64-4bd1-a1b6-29a8fadd6ac1,ServiceDepartment,department_typo,serviceDepartmentName,Plastic Surgery,Pllstic Surgery
+4c8909e3-1d54-4d05-b0de-ca69debcb6d2,7005145c-3f80-4549-a76d-322f3172facb,ServiceDepartment,translation,serviceDepartmentName,Genetic,Genetisch
+fc1f14ac-a6bb-429a-8a6e-e1d2b7815143,6ff9d8e8-fb8c-44c1-a6e5-acd1218bd3fc,ServiceDepartment,department_typo,serviceDepartmentName,Midwifery,Midwifrey
+d49d81b9-54d5-4ee1-b160-77f5d07aae7f,ba7e5fb7-c175-4376-a84b-665f1cefdd74,ServiceDepartment,alternative_naming,serviceDepartmentName,Public Health,Population Health Center
+56123a73-379e-44d2-a764-10c23f6b772a,fdc68520-994e-4d48-b79a-0941e91af764,ServiceDepartment,alternative_naming,serviceDepartmentName,Diet Nutrition,Nutritional Services
+09cef0ea-d6ca-4f41-adf1-fe3fefd9373e,2b54035a-154c-4f6e-9d1a-6a050fe0f3d4,ServiceDepartment,alternative_naming,serviceDepartmentName,Neurologic,Brain & Spine Center
+b9be64e1-b08d-4f95-8d8f-1e8bcac8d101,a0e748f3-a0fa-4b97-8a29-461298e80e5b,ServiceDepartment,alternative_naming,serviceDepartmentName,Public Health,Population Health Center
+1f217475-66f0-4769-8909-c1ba18fa5472,2b377d81-9879-4fa8-9fdf-91f7a3f1e16c,ServiceDepartment,department_abbreviation,serviceDepartmentName,Midwifery,Midwife Svc
+b4fecb14-b2b4-40cc-a636-c72f584ca7a8,d0343c05-8b60-4562-bf41-1222bf54aa31,ServiceDepartment,alternative_naming,serviceDepartmentName,Midwifery,Midwifery & Birth Center
+a97e76ef-ebef-4ae1-89c3-a12df0bed3ed,cd9c8773-4182-453d-b4ec-7438f47500a4,ServiceDepartment,translation,serviceDepartmentName,Musculoskeletal,Musculoskeletaal
+f6ef5d0a-25a1-4101-bf57-4e77fac49cf7,3958c085-d2ab-461f-a6df-adcb6d2a9186,ServiceDepartment,department_typo,serviceDepartmentName,Rheumatologic,Rheumatologxc
+ad21e2ab-aac3-4d22-bbb4-7ebfce0efed3,d5092199-ec6d-4375-90b1-c7f94d43c81d,ServiceDepartment,alternative_naming,serviceDepartmentName,Optometric,Vision Care Center
+ab46afee-8898-4682-a096-8f2106e090ea,8f546db1-def0-43ba-aa91-af23bea4b861,ServiceDepartment,department_typo,serviceDepartmentName,Podiatric,Podaitric
+8034f222-b4a4-45c3-b4dc-5b1949523e70,5e681aa2-4b3f-4154-968c-b9421016fb47,ServiceDepartment,alternative_naming,serviceDepartmentName,Endocrine,Hormone & Metabolism Center
+aef82d2e-51f8-4e44-924b-ba5b82042c0b,fced4a38-fe6f-4d32-bf62-3dfc7b416b7a,ServiceDepartment,department_typo,serviceDepartmentName,Obstetric,Obstetirc
+4c407098-5dd6-4593-b1f2-c908e38dbb7e,ba16f676-d7aa-439b-93b0-5344313bfba0,ServiceDepartment,translation,serviceDepartmentName,Nursing,Pflege
+ca9553d2-44e8-4777-83b2-67e216396b7a,fee0220a-08b4-4be2-b194-13e8538b9f9f,ServiceDepartment,department_abbreviation,serviceDepartmentName,Pathology,Path
+29ae1d3a-2512-4961-880b-6a4cfcec2c1d,e6846d7e-ad1c-44e8-b8b6-c3f85a86c35d,ServiceDepartment,translation,serviceDepartmentName,Laboratory Science,Laboratoriumwetenschap
+7166c54b-9305-4571-9e69-b4b0b54d83e5,ac5769f7-458b-4c99-8349-f0a9e8dc968e,ServiceDepartment,department_typo,serviceDepartmentName,Toxicologic,Toxicologgic
+3408850e-0fdc-46f4-aee6-0ff3492cd84e,46a6c03d-1a45-4b46-b6e1-ef8858156b18,ServiceDepartment,department_typo,serviceDepartmentName,Psychiatric,Pyschiatric
+76c6bf55-a9b9-42bc-a350-0fcaad785312,f8af4153-a284-450c-92fc-9d9701d36459,ServiceDepartment,translation,serviceDepartmentName,Neurologic,Neurologisch
+97e379e9-f919-4ea4-9d0b-bc0c6635897f,03a51cb4-fa89-4f4c-b6a1-d44ec359f483,ServiceDepartment,alternative_naming,serviceDepartmentName,Infectious,Infection Control & Prevention
+816c03df-3e33-4680-85c0-826ac67c6d5a,fb69b9d5-79bf-4934-b92f-50fe561d6267,ServiceDepartment,translation,serviceDepartmentName,Hematologic,Hematoloogiline
+690aae3f-ade5-4235-84d4-09975748c032,3a4ca321-d584-4de1-a3b9-e775577909e6,ServiceDepartment,alternative_naming,serviceDepartmentName,Respiratory Therapy,Respiratory Care Services
+3ca58162-4509-47a7-a2bc-5350a627e31d,fd984477-e4e4-4a17-a100-800213f743fa,ServiceDepartment,alternative_naming,serviceDepartmentName,Obstetric,Maternity Care
+32c973a4-2580-4532-a7c0-16ad9e4b4102,1ee31bc4-1f72-4925-bff0-8b8dc61aea53,ServiceDepartment,department_abbreviation,serviceDepartmentName,Endocrine,Endo
+e675e7e7-f848-419a-91fa-1e143cde8704,5d31950e-3797-4dac-b680-f92ce476a533,ServiceDepartment,department_abbreviation,serviceDepartmentName,Rheumatologic,Rheum
+6bfed001-18bc-4a21-b887-d3e9a3171056,9711c99f-e6f8-4820-bed7-aba15b414500,ServiceDepartment,alternative_naming,serviceDepartmentName,Radiography,Medical Imaging
+c736e166-8042-402f-9d73-22518b763f63,06bfbca8-9467-402d-87f7-8820a562cc8e,ServiceDepartment,department_abbreviation,serviceDepartmentName,Diet Nutrition,Diet & Nutr
+1745c170-d7bc-4fdf-8948-aff1182e1a8e,681ca095-e915-4f63-8152-12ef2727274c,ServiceDepartment,translation,serviceDepartmentName,Infectious,InfektiÃ¶s
+5447353b-c9dc-4fb4-b567-7aaf4f462933,ef4e694e-2446-472c-90c0-e24be541fb32,ServiceDepartment,translation,serviceDepartmentName,Toxicologic,Toxicologisch
+7d79ab44-c633-4f19-9958-07d2be77e40e,8fd7a270-aa78-4f07-8e5c-d0b7418a1085,ServiceDepartment,department_abbreviation,serviceDepartmentName,Cardiovascular,Cardio
+101efc05-873e-40dd-bdcb-54acb369907d,e7791f55-601c-48d3-80cf-ee12e17618fe,ServiceDepartment,department_typo,serviceDepartmentName,Public Health,Pulbic Health
+abe520ec-1fe1-49cd-8a54-e75953bdfba8,01746a8f-ffdf-4f9d-ab65-b93d16bc9601,ServiceDepartment,alternative_naming,serviceDepartmentName,Neurologic,Brain & Spine Center
+711f02ac-e905-4731-bd38-7e53f882006a,e95abddc-de46-4865-b92a-939d655b8ce9,ServiceDepartment,department_abbreviation,serviceDepartmentName,Pediatric,Peds
+91340a41-9333-4293-ba04-a0d5d997e4bf,bdf372db-b358-45dd-afd3-d5aa056cbc53,ServiceDepartment,department_abbreviation,serviceDepartmentName,Pulmonary,Pulm
+0604b061-30d2-4eb7-9449-5504b90c55bf,1f6e0dbf-75ee-42ca-a9d8-ae2e00ee74dc,ServiceDepartment,alternative_naming,serviceDepartmentName,Laboratory Science,Clinical Laboratory
+c9d4e1bb-c4d3-4ec2-baf3-d90e586a7302,a9805c98-4425-4f78-af54-5ae25a5582ee,ServiceDepartment,department_abbreviation,serviceDepartmentName,Respiratory Therapy,Resp
+7ffd5e75-5fee-4d78-8052-1e37dddfc648,49ded0f1-8ae1-49e4-b30a-f6382994973d,ServiceDepartment,department_typo,serviceDepartmentName,Geriatric,Geiatric
+daacae0c-c983-43fa-9102-9ff49930036a,0201218a-90bc-4640-80a1-08782d712a7d,ServiceDepartment,translation,serviceDepartmentName,Endocrine,Endocrijns
+cb89ba42-095b-4ec0-8b7f-62c4a371e89d,16741a39-64de-4864-87a0-b843c51a3ef4,ServiceDepartment,alternative_naming,serviceDepartmentName,Musculoskeletal,Bone & Joint Center
+a9c0fdec-6c25-4ad6-9dcc-668fa4007b48,2a400a93-616b-47b4-9d8b-7eadd6ddc484,ServiceDepartment,department_typo,serviceDepartmentName,Emergency,Emeregncy
+ec319b23-c7ff-4268-b14b-bea9404f72f3,dbc5194a-545a-45e1-ae9a-b37d2a388578,ServiceDepartment,department_typo,serviceDepartmentName,Renal,Reqal
+57630d70-0eb7-4062-a807-74606da638b2,04a903ce-ad02-4a19-b9c1-2b4b3071bbc1,ServiceDepartment,department_abbreviation,serviceDepartmentName,Midwifery,Midwife Svc
+f117f274-1840-4ff8-966d-a609aa80ddfc,fdc8d008-61aa-4069-8e3a-131cb8a7b622,ServiceDepartment,department_typo,serviceDepartmentName,Pharmacy Specialty,Phcrmacy Specialty
+c1402fa6-756a-49be-a8c7-d9f108e0eb59,3827c10a-0e16-455c-9f20-c8d11023c5e2,ServiceDepartment,alternative_naming,serviceDepartmentName,Endocrine,Hormone & Metabolism Center
+3b4590c6-7380-427c-af25-a8cdde699e1e,7e58c848-fe10-43e7-abe5-8ae096e1b78b,ServiceDepartment,department_abbreviation,serviceDepartmentName,Pathology,Path
+c17c1820-23f6-40e8-8978-25ad137e21d5,0d90b6b5-2da1-46d0-b52d-da1547f472f0,ServiceDepartment,translation,serviceDepartmentName,Obstetric,Geburtshilfe
+9b4a4276-da41-4bbc-b40b-5ddba649ec91,e09203b8-9d57-402c-a945-0940f6c52606,ServiceDepartment,translation,serviceDepartmentName,Hematologic,Hematoloogiline
+7159cd07-cb44-402b-b69e-14bce47d7cfe,354e7aa7-6edd-4779-921e-b29f59b7c20f,ServiceDepartment,translation,serviceDepartmentName,Renal,Nieren
+d1da4bba-1ed9-4ae6-a5f4-4940f5114a9a,ec548d23-34e0-4050-bfa0-df7edcee8bb7,ServiceDepartment,translation,serviceDepartmentName,Gynecologic,Gynaecologisch
+1f1472db-c7ff-4f21-8839-e2b5409d108c,07034c7f-7fdb-46aa-b6c2-45f3c9f58115,ServiceDepartment,translation,serviceDepartmentName,Pediatric,Pediatrisch
+473d6d85-56d2-4bf9-9b82-7bb955fc6343,c3b5840f-2d52-4c3a-9092-9fc81d71aef5,ServiceDepartment,department_typo,serviceDepartmentName,Gastroenterologic,Gastroenteroilogic
+778d028c-e45e-45b9-a9f8-2b8b7dd5d97e,ed8a3ffa-3ceb-4ab5-a0a0-f6e2fa5c31fd,ServiceDepartment,department_typo,serviceDepartmentName,Plastic Surgery,Plastci Surgery
+a2ab116f-f0d6-4eb0-8629-9940a6a48f65,5a16ddd4-4de2-46cf-960f-eb6c277264cd,ServiceDepartment,translation,serviceDepartmentName,Urologic,Urologisch
+e5a2a4ef-a5fd-4acb-98a4-85f5a72125ce,e1f5dd04-902f-41c2-b120-a2bebb97a8c5,ServiceDepartment,alternative_naming,serviceDepartmentName,Gastroenterologic,Digestive Health Center
+57e061c6-0494-405d-b194-a9f14114fa10,de96bf41-95f7-4802-8f46-039e31fdd7ad,ServiceDepartment,department_typo,serviceDepartmentName,Infectious,Infectious
+7236c9fd-cfd3-4fcf-9720-e54564ddeda8,1d78e1f3-0809-489d-a61a-06bb2d65a8f0,Person,language_expansion,knowsLanguage,nl,Dutch
+7236c9fd-cfd3-4fcf-9720-e54564ddeda8,1d78e1f3-0809-489d-a61a-06bb2d65a8f0,HealthcarePersonnel,email_typo,email,jillianjackson@healthcare.org,jlilianjackson@healthcare.org
+2f2f9420-23e4-4313-8b29-94f5bf6bee62,d47679d6-f84b-405d-a716-c34b08a70e1d,Person,language_expansion,knowsLanguage,nl,Dutch
+2f2f9420-23e4-4313-8b29-94f5bf6bee62,d47679d6-f84b-405d-a716-c34b08a70e1d,HealthcarePersonnel,email_typo,email,janethill@healthcare.org,janthill@healthcare.org
+db8a4c7f-f41d-47b3-b083-75a3556744ac,59636b2f-de8b-4854-ba9c-37e0760d1020,Person,language_expansion,knowsLanguage,nl,Dutch
+db8a4c7f-f41d-47b3-b083-75a3556744ac,59636b2f-de8b-4854-ba9c-37e0760d1020,HealthcarePersonnel,email_typo,email,kevinsolis@healthcare.org,kevnsolis@healthcare.org
+ac96167d-a574-4898-916c-91da2c601312,501f267a-ba70-4a95-88b7-1dd6e8d98793,Person,language_expansion,knowsLanguage,nl,Dutch
+a4d7c5eb-9fa3-44e5-b181-3e9814b0ed91,056d070f-504e-41b6-8829-a7425148da82,Person,language_expansion,knowsLanguage,nl,Dutch
+a4d7c5eb-9fa3-44e5-b181-3e9814b0ed91,056d070f-504e-41b6-8829-a7425148da82,HealthcarePersonnel,email_typo,email,angelaadams@healthcare.org,angelaadamms@healthcare.org
+b5c9e921-de1b-4215-904f-6274886b00e6,09d962da-bdad-4303-a19d-92adf5ff85b9,Person,language_expansion,knowsLanguage,nl,Dutch
+b5c9e921-de1b-4215-904f-6274886b00e6,09d962da-bdad-4303-a19d-92adf5ff85b9,HealthcarePersonnel,email_typo,email,chloerodriguez@healthcare.org,chloerordiguez@healthcare.org
+ff6581ca-1748-4b1c-9d61-b002011b529e,8736b090-a94a-45e9-84a5-e98f94c6fc4e,Person,language_expansion,knowsLanguage,nl,Dutch
+7c53fa9f-047a-4a05-8794-b23adee42457,d4531f5d-67bc-4d23-be6f-10ab8b343b07,Person,language_expansion,knowsLanguage,nl,Dutch
+7c53fa9f-047a-4a05-8794-b23adee42457,d4531f5d-67bc-4d23-be6f-10ab8b343b07,HealthcarePersonnel,email_typo,email,christinemorgan@healthcare.org,christinemorggan@healthcare.org
+380b588e-11f0-4ec1-a525-c0f89f851d5f,eebbc93b-f71a-4e06-99f7-9b3e1d08355d,Person,language_expansion,knowsLanguage,nl,Dutch
+380b588e-11f0-4ec1-a525-c0f89f851d5f,eebbc93b-f71a-4e06-99f7-9b3e1d08355d,HealthcarePersonnel,email_typo,email,drdavidglenn@healthcare.org,ddavidglenn@healthcare.org
+0d94bd4b-56b8-4e72-851c-53c18e479952,4e72562c-aa03-4d2e-9dad-ac09e7222768,Person,language_expansion,knowsLanguage,nl,Dutch
+0d94bd4b-56b8-4e72-851c-53c18e479952,4e72562c-aa03-4d2e-9dad-ac09e7222768,HealthcarePersonnel,email_typo,email,alyssaelliott@healthcare.org,aloyssaelliott@healthcare.org
+0c4a89ce-0597-40f5-b096-840aec8dd76e,90f19caf-0b75-4f9d-a21c-0f751236895e,Person,language_expansion,knowsLanguage,nl,Dutch
+ad2c53ec-1bd5-4871-9053-78ae62b7e142,6007d0f3-d113-4d41-8cda-0584eee0a4ef,Person,language_expansion,knowsLanguage,nl,Dutch
+2789e561-747a-439a-aadf-28328271b43b,f3f92e15-a22f-4799-b9cb-8eff761acbca,Person,language_expansion,knowsLanguage,nl,Dutch
+2789e561-747a-439a-aadf-28328271b43b,f3f92e15-a22f-4799-b9cb-8eff761acbca,HealthcarePersonnel,email_typo,email,gabriellapadilla@healthcare.org,gabrielllapadilla@healthcare.org
+7bbb5c50-cb8a-4f19-980f-a40fc333af1f,355142ab-49a9-402b-8184-cb82baf13b71,Person,language_expansion,knowsLanguage,nl,Dutch
+7bbb5c50-cb8a-4f19-980f-a40fc333af1f,355142ab-49a9-402b-8184-cb82baf13b71,HealthcarePersonnel,email_typo,email,michaellee@healthcare.org,mihcaellee@healthcare.org
+53163b07-5e76-41ec-ad6f-4334d70e4112,71d7c4db-3296-4893-a41b-faa6f25eddc4,Person,language_expansion,knowsLanguage,nl,Dutch
+3bf56c91-c4ab-41df-8ed2-07d57378928b,53db875e-3fa9-4d44-a84d-9d73e19bb6f8,Person,language_expansion,knowsLanguage,nl,Dutch
+3bf56c91-c4ab-41df-8ed2-07d57378928b,53db875e-3fa9-4d44-a84d-9d73e19bb6f8,HealthcarePersonnel,email_typo,email,timothythompson@healthcare.org,timothythhompson@healthcare.org
+fbc481d0-c2ee-4c58-acea-7b078534af6a,b434e162-7873-428f-a412-84c0315b4cf8,Person,language_expansion,knowsLanguage,nl,Dutch
+3a98d017-c7de-4502-b74f-31a7726c928e,c0191882-a2d9-4a86-bda7-f1f8182c1419,Person,language_expansion,knowsLanguage,nl,Dutch
+74fae37f-a1c2-49c5-9ad9-8fed600827bb,dcdeb4bc-cb8a-45a7-8b9a-403a9efc0831,Person,language_expansion,knowsLanguage,nl,Dutch
+74fae37f-a1c2-49c5-9ad9-8fed600827bb,dcdeb4bc-cb8a-45a7-8b9a-403a9efc0831,HealthcarePersonnel,email_typo,email,davidvasquez@healthcare.org,daidvasquez@healthcare.org
+adee1674-f3ba-487f-ad92-ee67815caa30,ceec7476-3683-4262-9b61-54d62e5c9644,Person,language_expansion,knowsLanguage,nl,Dutch
+adee1674-f3ba-487f-ad92-ee67815caa30,ceec7476-3683-4262-9b61-54d62e5c9644,HealthcarePersonnel,email_typo,email,amandathomas@healthcare.org,aandathomas@healthcare.org
+c5b86ef6-50ae-4aad-9624-ad65684ba126,ba78c78a-dcc0-43c9-aa95-09311a518d19,Person,language_expansion,knowsLanguage,nl,Dutch
+c5b86ef6-50ae-4aad-9624-ad65684ba126,ba78c78a-dcc0-43c9-aa95-09311a518d19,HealthcarePersonnel,email_typo,email,alexbaldwin@healthcare.org,alexabldwin@healthcare.org
+ac8822f8-2831-4bdf-b3b7-c415367a413f,98415cab-25d0-42bc-b490-257119c004f5,Person,language_expansion,knowsLanguage,nl,Dutch
+ac8822f8-2831-4bdf-b3b7-c415367a413f,98415cab-25d0-42bc-b490-257119c004f5,HealthcarePersonnel,email_typo,email,jasonwhite@healthcare.org,jasonwhhite@healthcare.org
+84963570-b411-4eaf-ad72-65db081f7d48,ecf29dd5-9330-4bd3-96bc-2a1cf9aee388,Person,language_expansion,knowsLanguage,nl,Dutch
+84963570-b411-4eaf-ad72-65db081f7d48,ecf29dd5-9330-4bd3-96bc-2a1cf9aee388,HealthcarePersonnel,email_typo,email,kennethglover@healthcare.org,kennethglovter@healthcare.org
+9dd10b5c-444a-4860-9426-35bc708cd1b7,7db40228-f6ad-439d-83a4-d00d20037c13,Person,language_expansion,knowsLanguage,nl,Dutch
+9dd10b5c-444a-4860-9426-35bc708cd1b7,7db40228-f6ad-439d-83a4-d00d20037c13,HealthcarePersonnel,email_typo,email,danielparker@healthcare.org,daniielparker@healthcare.org
+203fb98a-a752-41de-9966-323ddeb26469,bb26cb7a-e220-48fd-aab8-b52735c3991f,Person,language_expansion,knowsLanguage,nl,Dutch
+203fb98a-a752-41de-9966-323ddeb26469,bb26cb7a-e220-48fd-aab8-b52735c3991f,HealthcarePersonnel,email_typo,email,michaelpaul@healthcare.org,micchaelpaul@healthcare.org
+ef151673-a1df-4da7-9d44-c93e7799a8e2,76e7c605-d1ad-4a39-ac8e-a2f1bbde1ef0,ContactPoint,translation,contactType,general inquiries,Algemene vragen
+7df8b7f0-44a1-44d0-96df-fc21b1c2ed56,66375d95-22b8-49f0-ab1b-dce8d5d3bad2,ContactPoint,translation,contactType,referrals,verwijzingen
+9e3589b2-eb14-4394-bd70-57fbc7caa96b,38eb9f66-3bd9-47a6-a4f2-6ec795960db8,ContactPoint,translation,contactType,emergency,noodgeval
+2a630fd1-71cf-439d-aa1f-ff41af1b7013,747d546c-4ee7-40d7-9d56-b8782fb60472,ContactPoint,translation,contactType,referrals,suunamine
+6db16e7a-23e0-484e-bc30-9d334ea8c3b1,5524d7a3-c28a-4a47-85f3-de9a922e5c93,ContactPoint,translation,contactType,emergency,noodgeval
+c46e1738-790b-4990-a428-da2ed8900991,d56ebdf4-0835-497c-b7c4-2aa1a752a750,ContactPoint,translation,contactType,emergency,noodgeval
+b5eca796-dc5f-4db7-87b5-2a8b0af01e69,286beb97-caf6-4f5b-8e88-c4b176f36c1d,ContactPoint,translation,contactType,emergency,Notfall
+b11826f6-66c3-400c-9cae-80b846695f55,296b174b-f7b0-42c4-bb09-143a25a13a8b,ContactPoint,translation,contactType,emergency,noodgeval
+77059fa8-56be-4bee-a67c-4de762f8d20a,6b3a2029-ac27-4f31-b199-75a8f55b8b07,ContactPoint,translation,contactType,referrals,verwijzingen
+68f111c6-ddef-4680-9eb8-39597f119389,95d8be27-eb19-42d3-83aa-e0772ec2da9e,ContactPoint,translation,contactType,emergency,noodgeval
+4e98ce25-1733-4a7c-93e8-36639c14940d,10859a90-2e7a-4f80-b25a-8fb175a54982,ContactPoint,translation,contactType,general inquiries,Allgemeine Anfragen
+8a8ed273-ece1-4e8b-85cc-70a1a49266c9,b23e0e74-704c-4812-878c-927167a66f65,ContactPoint,translation,contactType,emergency,noodgeval
+6278f95a-7438-4b47-aa83-c504ebbc854b,df1ba677-2a2c-44cf-b893-1c95fe821600,ContactPoint,translation,contactType,referrals,verwijzingen
+91db735e-dc21-43e8-902e-4f400a013a86,57c0fe86-f829-44a1-aad3-6f6e5578a361,ContactPoint,translation,contactType,staff,personeel
+80082244-1ac5-443b-b7dd-3c21e618d25d,647f3cd1-4359-45c8-add8-0b5042a73145,ContactPoint,translation,contactType,staff,personeel
+da47b8f9-cee4-4404-9648-1f4b0c747a90,5171b7ad-fdfa-4d79-af7d-c2965f675adf,ContactPoint,translation,contactType,staff,personeel
+799c82ee-f742-453b-a7a1-28de18310104,044ffa08-ce4d-4371-9951-07cbd3935bf7,ContactPoint,translation,contactType,information,teave
+b0ca76f7-17f9-4524-8332-ed33bba6e752,bc0e7311-0f1b-4d24-acb9-ca7b91ba5b96,ContactPoint,translation,contactType,referrals,suunamine
+84ddf869-b816-4f1a-9677-013ba8e19b83,1d3976f9-6b44-49dc-ae74-13f04b65e378,ContactPoint,translation,contactType,emergency,hÃ¤daolukord
+6efeb18f-aaa6-4ef9-bbb6-ba4c140ab78e,0a671326-68dd-4e6f-ac93-fd83642e2475,ContactPoint,translation,contactType,staff,personeel
