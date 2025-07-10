@@ -1,1 +1,4 @@
-Total runtime: 58.07 seconds with noise being low
+Total runtime: 57.10 seconds with noise being low
+Run with model = Node2Vec and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 598.30 seconds with noise being low
+Run with model = DistMult and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 574.56 seconds with noise being low
+Run with model = NetMF and alpha=[0.0, 0.2, 0.35, 0.5, 0.65, 0.8] took 349.80 seconds with noise being low
