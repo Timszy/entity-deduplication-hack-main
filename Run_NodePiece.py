@@ -27,7 +27,7 @@ for noise_level in noise_levels:
     # --- Graph embeddings (DistMult)
     print("Computing graph embeddings using DistMult...")
     combined_graph = phkg_graph + g2
-    graph_embeddings = get_graph_embeddings_PyKEEN(combined_graph, model ="DistMult", dimensions=384, num_epochs=60)
+    graph_embeddings = get_graph_embeddings_PyKEEN(combined_graph, model ="", dimensions=384, num_epochs=60)
 
     # --- Run deduplication for multiple alpha values
     alpha_values = [0.0, 0.2, 0.35, 0.5, 0.65, 0.8]  # Change as needed
@@ -56,7 +56,7 @@ for noise_level in noise_levels:
         )
 
         # --- Save as JSON
-        output_path = f"matches_struct_{noise_level}/HybridDistMult_alpha_{alpha}.json"
+        output_path = f"matches_struct_{noise_level}/HybridNodePiece_alpha_{alpha}.json"
         save_matches(final_result, output_path)
         print(f"Saved matches to {output_path}")
 
@@ -66,4 +66,4 @@ for noise_level in noise_levels:
 
     # Save runtime to file
     with open("runtimes.txt", "a") as f:
-        f.write(f"Run with model = DistMult and alpha={alpha_values} took {runtime:.2f} seconds with noise being {noise_level}\n")
+        f.write(f"Run with model = NodePiece and alpha={alpha_values} took {runtime:.2f} seconds with noise being {noise_level}\n")
