@@ -171,4 +171,4 @@ def Levenshtein_filter(matches, literals1, literals2, filter=True, acronym_boost
                 filtered.append((ent1, ent2, score, avg_sim, "pass", duplicate_type))
             elif avg_sim < threshold:
                 filtered.append((ent1, ent2, score, avg_sim, "fail", duplicate_type))
-    return
+    return filtered

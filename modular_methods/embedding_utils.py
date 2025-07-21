@@ -1,5 +1,5 @@
 from node2vec import Node2Vec
-from karateclub import FirstOrderLINE, DeepWalk, NetMF
+from karateclub import NetMF
 import networkx as nx
 import numpy as np
 from pykeen.pipeline import pipeline
@@ -7,22 +7,32 @@ from pykeen.triples import TriplesFactory
 from pykeen.models import NodePiece
 import numpy as np
 import rdflib
+from rdflib.term import URIRef
 
 # from pyrdf2vec import RDF2VecTransformer
 # from pyrdf2vec.embedders import Word2Vec
 # from pyrdf2vec.graphs import KG
 # from pyrdf2vec.walkers import RandomWalker
 
-def rdf_to_nx(graph):
+def rdf_to_nx_old(graph):
     G = nx.Graph()
     for s, p, o in graph:
         if isinstance(s, (str, int)) and isinstance(o, (str, int)):
             G.add_edge(str(s), str(o), predicate=str(p))
     return G
 
+
+
+def rdf_to_nx(graph):
+    G = nx.Graph()
+    for s, p, o in graph:
+        if isinstance(s, URIRef) and isinstance(o, URIRef):
+            G.add_edge(str(s), str(o), predicate=str(p))
+    return G
+
 def get_graph_embeddings_Node2vec(graph, dimensions=384):
     G_nx = rdf_to_nx(graph)
-    node2vec = Node2Vec(G_nx, dimensions=dimensions, walk_length=10, num_walks=60, workers=1)
+    node2vec = Node2Vec(G_nx, dimensions=dimensions, walk_length=10, num_walks=100, workers=1)
     model = node2vec.fit()
     embeddings = {node: model.wv[node] for node in model.wv.index_to_key}
     return embeddings
@@ -41,76 +51,12 @@ def get_hybrid_vectors(entities, text_vectors, graph_embeddings, alpha=0.5, text
         for e, t in zip(entities, text_vectors)
     ])
 
-# def get_graph_embeddings_rdf2vec(graph, entities=None, dimensions=200, max_depth=4, max_walks=100):
-   
-
-#     kg = KG()
-#     kg.from_rdflib(graph)
-
-#     if entities is None:
-#         # Get all unique URIRefs in the graph
-#         entities = list(set(str(s) for s in graph.subjects() if isinstance(s, rdflib.URIRef)))
-
-#     walker = RandomWalker(max_depth=max_depth, max_walks=max_walks)
-#     embedder = Word2Vec(vector_size=dimensions)
-#     runner = Runner(walkers=[walker], embedder=embedder)
-#     embeddings, _ = runner.fit_transform(kg, entities)
-#     # Map from entity URI to embedding vector
-#     return {uri: emb for uri, emb in zip(entities, embeddings)}
-
-def get_graph_embeddings_LINE(graph, dimensions=384, epochs=60):
-    # Convert RDFLib graph to NetworkX graph as usual
-    G = nx.Graph()
-    for s, p, o in graph:
-        G.add_edge(str(s), str(o))  # Ensures nodes are strings
-
-    # Map node labels to integers
-    node2id = {node: idx for idx, node in enumerate(G.nodes())}
-    id2node = {idx: node for node, idx in node2id.items()}
-    G_int = nx.relabel_nodes(G, node2id)
-
-    # Karate Club expects integer node labels
-    
-    model = FirstOrderLINE(dimensions=dimensions, seed=69, epochs=epochs)
-    model.fit(G_int)
-
-    # Get embeddings and remap to original node labels
-    embeddings = model.get_embedding()  # shape: (num_nodes, dimensions)
-    return {id2node[idx]: emb for idx, emb in enumerate(embeddings)}
 
 
-from karateclub import DeepWalk
-import networkx as nx
-
-def get_graph_embeddings_DeepWalk(graph, dimensions=384, walk_length=3, num_walks=20):
-    # Convert RDFLib graph to NetworkX
-    G_nx = nx.Graph()
-    for s, p, o in graph:
-        G_nx.add_edge(str(s), str(o))
-    
-    # Relabel nodes as 0...N-1 integers and keep mapping
-    mapping = {node: idx for idx, node in enumerate(G_nx.nodes())}
-    inv_mapping = {idx: node for node, idx in mapping.items()}
-    G_int = nx.relabel_nodes(G_nx, mapping)
-    
-    model = DeepWalk(dimensions=dimensions, walk_length=walk_length, walk_number=num_walks)
-    model.fit(G_int)
-    embeddings = model.get_embedding()
-    
-    # Map embeddings back to original node labels
-    return {inv_mapping[idx]: emb for idx, emb in enumerate(embeddings)}
-
-
-
-from karateclub import NetMF
-import networkx as nx
 
 def get_graph_embeddings_NetMF(graph, dimensions=384):
     # Convert RDFLib graph to NetworkX
-    G_nx = nx.Graph()
-    for s, p, o in graph:
-        G_nx.add_edge(str(s), str(o))
-    
+    G_nx = rdf_to_nx(graph)
     # Relabel nodes as 0...N-1 integers and keep mapping
     node_list = list(G_nx.nodes())
     mapping = {node: idx for idx, node in enumerate(node_list)}
@@ -127,11 +73,11 @@ def get_graph_embeddings_NetMF(graph, dimensions=384):
 
 
 
-def get_graph_embeddings_PyKEEN(graph, model, dimensions=384, num_epochs=60):
+def get_graph_embeddings_PyKEEN(graph, model, dimensions=384, num_epochs=100):
     triples = [
-        (str(s), str(p), str(o))
-        for s, p, o in graph
-        if not isinstance(s, rdflib.BNode) and not isinstance(o, rdflib.BNode)
+    (str(s), str(p), str(o))
+    for s, p, o in graph
+    if isinstance(s, rdflib.URIRef) and isinstance(o, rdflib.URIRef)
     ]
     triples_array = np.array(triples, dtype=str)
     triples_factory = TriplesFactory.from_labeled_triples(triples_array)
