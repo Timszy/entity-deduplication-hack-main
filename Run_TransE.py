@@ -6,7 +6,7 @@ from modular_methods.output_utils import build_final_result
 import time
 
 
-noise_levels = ['high']
+noise_levels = ['low']
 # --- Load RDF graphs
 g1 = rdflib.Graph()
 
@@ -22,7 +22,7 @@ model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
 for noise_level in noise_levels:
     start_time = time.time()
     g2 = rdflib.Graph()
-    g2.parse(f"data/healthcare_graph_replaced_{noise_level}.ttl")
+    g2.parse(f"data/healthcare_graph_relation.ttl")
     # --- Graph embeddings (TransE)
     print("Computing graph embeddings using TransE...")
     combined_graph = phkg_graph + g2
@@ -56,7 +56,7 @@ for noise_level in noise_levels:
         )
 
         # --- Save as JSON
-        output_path = f"matches_{noise_level}/HybridTransE_alpha_{alpha}.json"
+        output_path = f"matches_relation/HybridTransE_alpha_{alpha}.json"
         save_matches(final_result, output_path)
         print(f"Saved matches to {output_path}")
 

@@ -1,0 +1,62 @@
+[
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/541d1a81-4815-442c-a2bb-62833d83ad7c",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Muntendam"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "1625 AP"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Bilalhof 68"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/96548a69-8020-470b-91a0-71a39a41c300",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Bilalhof 68"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Muntendam"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "1625 AP"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Bilalhof 68"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5204445719718933",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  }
+]

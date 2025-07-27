@@ -5,7 +5,7 @@ from sentence_transformers import SentenceTransformer
 from modular_methods.dedup_pipeline import deduplicate_graphs, save_matches
 from modular_methods.output_utils import build_final_result
 start_time = time.time()
-noise_levels = ['high']
+noise_levels = ['low']
 g1 = rdflib.Graph()
 
 master_graph = rdflib.Graph()
@@ -19,7 +19,7 @@ model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
 for noise_level in noise_levels:
     start_time = time.time()
     g2 = rdflib.Graph()
-    g2.parse(f"data/healthcare_graph_replaced_{noise_level}.ttl")
+    g2.parse(f"data/healthcare_graph_relation.ttl")
     matches = deduplicate_graphs(
         phkg_graph=phkg_graph,
         skg_graph=g2,
@@ -40,7 +40,7 @@ for noise_level in noise_levels:
         graph2_name="g2"
     )
 
-    save_matches(final_result, f"matches_{noise_level}/SentenceEmbedding.json")
+    save_matches(final_result, f"matches_relation/SentenceEmbedding.json")
 
     end_time = time.time()
     runtime = end_time - start_time

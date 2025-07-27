@@ -53,77 +53,7 @@ def literal_based_threshold(n_literals):
     thresholds = {1:0.4, 2: 0.55, 3: 0.7, 4: 0.8, 5: 0.85}
     return thresholds.get(n_literals, 0.85)  # default to 0.85 if out of range
 
-def Levenshtein_filter_flag(matches, literals1, literals2, acronym_boost=0.95):
-    """
-    Post-process entity matches by comparing their predicates using Levenshtein and acronym matching.
-    Threshold is adjusted based on the number of literals in each entity (from 1 to 5).
-    """
-    filtered = []
-    for ent1, ent2, score in matches:
-        preds1 = literals1.get(str(ent1), {})
-        preds2 = literals2.get(str(ent2), {})
-        common_preds = set(preds1.keys()) & set(preds2.keys())
-        if not common_preds:
-            continue
-        sim_scores = []
-        for p in common_preds:
-            val1 = str(preds1[p]).lower()
-            val2 = str(preds2[p]).lower()
-            sim = normalized_levenshtein(val1, val2)
-            # Acronym check
-            acronym1 = get_acronym(val1)
-            acronym2 = get_acronym(val2)
-            if acronym1 == val2.replace(" ", "").upper() or acronym2 == val1.replace(" ", "").upper():
-                sim = max(sim, acronym_boost)
-            sim_scores.append(sim)
-        avg_sim = sum(sim_scores) / len(sim_scores) if sim_scores else 0
-        n_literals = len(common_preds)
-        threshold = literal_based_threshold(n_literals)
-        
-        if avg_sim >= threshold:
-            filtered.append((ent1, ent2, score, avg_sim, "pass"))
-        elif avg_sim < threshold and n_literals < 3:
-            filtered.append((ent1, ent2, score, avg_sim, "fail"))
-    return filtered
 
-def Levenshtein_filter_old(matches, literals1, literals2, filter=True, acronym_boost=0.95 ):
-    """
-    Post-process entity matches by comparing their predicates using Levenshtein and acronym matching.
-    Threshold is adjusted based on the number of literals in each entity (from 1 to 5).
-    """
-    filtered = []
-    for ent1, ent2, score in matches:
-        preds1 = literals1.get(str(ent1), {})
-        preds2 = literals2.get(str(ent2), {})
-        common_preds = set(preds1.keys()) & set(preds2.keys())
-        if not common_preds:
-            continue
-        sim_scores = []
-        for p in common_preds:
-            val1 = str(preds1[p]).lower()
-            val2 = str(preds2[p]).lower()
-            sim = normalized_levenshtein(val1, val2)
-            # Acronym check
-            acronym1 = get_acronym(val1)
-            acronym2 = get_acronym(val2)
-            if acronym1 == val2.replace(" ", "").upper() or acronym2 == val1.replace(" ", "").upper():
-                sim = max(sim, acronym_boost)
-            sim_scores.append(sim)
-        avg_sim = sum(sim_scores) / len(sim_scores) if sim_scores else 0
-        n_literals = len(common_preds)
-        threshold = literal_based_threshold(n_literals)
-        
-        if filter:
-            if avg_sim >= threshold:
-                filtered.append((ent1, ent2, score, avg_sim, "pass"))
-            elif avg_sim < threshold and n_literals < 3:
-                filtered.append((ent1, ent2, score, avg_sim, "fail"))
-        else:
-            if avg_sim >= threshold:
-                filtered.append((ent1, ent2, score, avg_sim, "pass"))
-            elif avg_sim < threshold:
-                filtered.append((ent1, ent2, score, avg_sim, "fail"))
-    return filtered 
 
 def Levenshtein_filter(matches, literals1, literals2, filter=True, acronym_boost=0.95):
     """

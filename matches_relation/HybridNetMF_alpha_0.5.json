@@ -1,0 +1,258 @@
+[
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/74286356-3c91-4458-a4b2-7e8301cbd9c2",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Robinson.Obstetric@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(463)307-4285"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "319.544.6541x9175"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/ef99a6bd-e99a-4498-b77d-42cad98b4d0c",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Robinson.Obstetric@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(463)307-4285"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "319.544.6541x9175"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5430291891098022",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/11d0fd54-750e-41b1-997e-b2fc26fc574c",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Appointments"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Parker.Public@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "001-529-904-6603x8172"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+1-461-782-8173"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/964a2731-c6bf-4d2d-8113-8709aa04f788",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Appointments"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Appointments"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Parker.Public@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "001-529-904-6603x8172"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+1-461-782-8173"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5233800411224365",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/d35f581e-3648-431f-ae9e-8d0384983111",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Wilhelmsburg"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "9664"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Raphael-Lengauer-Platz 79"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/426ecb76-860b-4a15-8256-3bfab478e46e",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Raphael-Lengauer-Platz 79"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Wilhelmsburg"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "9664"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Raphael-Lengauer-Platz 79"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5365076065063477",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/faa83536-d3d7-49d5-a430-1b871322439a",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Schrattenthal"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "5842"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Biedermannweg 31"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/c97863d4-c688-414b-9f3e-51a0ae63a3e8",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Biedermannweg 31"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Schrattenthal"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "5842"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Biedermannweg 31"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5069909691810608",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  }
+]
