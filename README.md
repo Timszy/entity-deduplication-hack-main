@@ -1,4 +1,4 @@
-# Entity De-duplication Tool Specifications
+# Entity De-duplication Testing  Specifications
 
 ## Sections
 
