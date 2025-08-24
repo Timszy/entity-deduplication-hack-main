@@ -1,0 +1,182 @@
+[
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/6bc9e970-c48a-4374-86dc-1579647640a1",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "\u017dukovville"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "95238"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Elena Station 124"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/c8328ef2-f146-4b7c-a512-01ebdf5596f1",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Elena Station 124"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "\u017dukovville"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "95238"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Elena Station 124"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5570578575134277",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/bb0378eb-7a62-422e-9d69-d9fc4b1cb8bd",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Zuidlaren"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "1398 JL"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Ceylindreef 78"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/207ecd90-a2f0-4b0b-ad85-8b38622839a8",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Ceylindreef 78"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Zuidlaren"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "1398 JL"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Ceylindreef 78"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5595431327819824",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/eedbba8b-0f83-41ee-b2ac-89bdb2998fa3",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "M\u00f5ttustown"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "82276"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Linda Expressway 107"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/9ccf9007-a23d-4d5f-acd3-f3d45508b009",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Linda Expressway 107"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "M\u00f5ttustown"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "82276"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Linda Expressway 107"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5174614787101746",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  }
+]

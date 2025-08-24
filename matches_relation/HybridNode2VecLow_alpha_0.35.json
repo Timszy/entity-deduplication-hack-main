@@ -4,2007 +4,167 @@
       {
         "entity1": {
           "from": "phkg_graph",
-          "subject": "http://example.org/ContactPoint/12f175ff-ae3b-46ec-9a27-d85888c132ad",
-          "predicates": [
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['de', 'en']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "Patient Services"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "Robinson@healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "+1-303-621-7300x869"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "3132991615"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/ContactPoint/865cb814-badc-453a-bb7a-ebadc1b1866d",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Patient Services"
-            },
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['de', 'en']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "Patient Services"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "Robinson@healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "+1-303-621-7300x869"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "3132991615"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5069280862808228",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/ContactPoint/8dfc0cb0-dc97-4aec-8fac-816ce2d371cc",
-          "predicates": [
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['nl']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "Information"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "Griffin.Respiratory@dept.healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "074-3532772"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "(051) 3322487"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/ContactPoint/268f616c-77cf-44bf-8c1d-41ab65e0b7f6",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Information"
-            },
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['nl']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "Information"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "Griffin.Respiratory@dept.healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "074-3532772"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "(051) 3322487"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5450482964515686",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/ContactPoint/c47090c6-bad8-4464-959b-0d078f022246",
-          "predicates": [
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['nl']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "Information"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "Allen.Pediatric@dept.healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "000 3610679"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "(0874)-206546"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/ContactPoint/e8e1cc19-2a4e-43ab-9ce5-d0b172839cfd",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Information"
-            },
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['nl']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "Information"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "Allen.Pediatric@dept.healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "000 3610679"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "(0874)-206546"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.549680233001709",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/ContactPoint/e354f6ae-6d19-4acc-9167-c254a9800a11",
-          "predicates": [
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['de', 'en']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "Appointments"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "Parker.Nursing@dept.healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "(314)574-2692x96322"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "(829)381-9675x49717"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/ContactPoint/ff14daed-bca8-4ab7-824b-5f9fd40f93cd",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Appointments"
-            },
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['de', 'en']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "Appointments"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "Parker.Nursing@dept.healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "(314)574-2692x96322"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "(829)381-9675x49717"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.529533863067627",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/ContactPoint/c6d82ceb-a1ac-4d49-8d4d-daab72824622",
-          "predicates": [
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['de']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "Emergency"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "Robinson.Renal@dept.healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "677.448.6297"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "001-848-696-7998x32041"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/ContactPoint/19f13f17-ac05-4597-84de-d9d19bb056c1",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Emergency"
-            },
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['de']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "Emergency"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "Robinson.Renal@dept.healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "677.448.6297"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "001-848-696-7998x32041"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5610373020172119",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/ContactPoint/918b59ec-2b6a-48a8-a8e1-19f70df23548",
-          "predicates": [
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['et']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "Referrals"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "Novak.Respiratory@dept.healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "001-688-826-8379x6355"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "(759)234-0792"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/ContactPoint/bb4b11ff-5d74-4861-80bd-070d9ada5fa9",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Referrals"
-            },
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['et']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "Referrals"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "Novak.Respiratory@dept.healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "001-688-826-8379x6355"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "(759)234-0792"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5012513995170593",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/ContactPoint/93c1d25b-124b-44fc-8571-605af163875c",
-          "predicates": [
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['de', 'en']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "Emergency"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "PerezBecker.Infectious@dept.healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "321-651-4018x70599"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "625-782-5920"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/ContactPoint/951eec73-e084-458a-92d3-d1e50bb7d4b6",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Emergency"
-            },
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['de', 'en']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "Emergency"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "PerezBecker.Infectious@dept.healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "321-651-4018x70599"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "625-782-5920"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5384200811386108",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/ContactPoint/23254d81-2bdf-4727-9501-e917496dc27b",
-          "predicates": [
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['de', 'en']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "General Inquiries"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "Parker@healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "412.937.9332x36599"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "4884559026"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/ContactPoint/1ceca7c4-5760-4f63-b520-01ccccb550cf",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "General Inquiries"
-            },
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['de', 'en']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "General Inquiries"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "Parker@healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "412.937.9332x36599"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "4884559026"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5418134927749634",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/ContactPoint/d44b5548-066d-4e1e-a16b-347d9babbdab",
-          "predicates": [
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['de', 'en']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "Referrals"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "KimTodd.Gynecologic@dept.healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "535.296.8119x81658"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "972-699-7024"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/ContactPoint/8cf4b069-e1f4-48bd-b40b-29e22c04f341",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Referrals"
-            },
-            {
-              "predicate": "schema:availableLanguage",
-              "object": "['de', 'en']"
-            },
-            {
-              "predicate": "schema:contactType",
-              "object": "Referrals"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "KimTodd.Gynecologic@dept.healthcare.org"
-            },
-            {
-              "predicate": "schema:faxNumber",
-              "object": "535.296.8119x81658"
-            },
-            {
-              "predicate": "schema:telephone",
-              "object": "972-699-7024"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5335248112678528",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/0e1cae7a-8122-4b3a-a0b8-024401e32354",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "AT"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Wilhelmsburg"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "1802"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Pascal-Krammer-Platz 68"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/63402070-2db2-4ce3-9a42-9adcfbb6641e",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Pascal-Krammer-Platz 68"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "AT"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Wilhelmsburg"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "1802"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Pascal-Krammer-Platz 68"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5221326351165771",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/4598244b-f0bd-4405-a50d-d400a27ee80d",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "AT"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "G\u00e4nserndorf"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "2354"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Maryam-Buchegger-Stra\u00dfe 80"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/7047b23c-9e5e-437c-a2a9-29927524ae85",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Maryam-Buchegger-Stra\u00dfe 80"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "AT"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "G\u00e4nserndorf"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "2354"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Maryam-Buchegger-Stra\u00dfe 80"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5734406113624573",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/a7fd116e-d8f5-417f-85bd-ca63a100ba8f",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Wilp"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "3670 EC"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Katepad 61"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/ca658403-2e38-418a-b38e-cf7d5ddc5505",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Katepad 61"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Wilp"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "3670 EC"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Katepad 61"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5110713243484497",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/d35f581e-3648-431f-ae9e-8d0384983111",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "AT"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Wilhelmsburg"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "9664"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Raphael-Lengauer-Platz 79"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/426ecb76-860b-4a15-8256-3bfab478e46e",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Raphael-Lengauer-Platz 79"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "AT"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Wilhelmsburg"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "9664"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Raphael-Lengauer-Platz 79"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5116487145423889",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/568d6f3e-f4b4-45aa-adfd-a2912fdb5c0d",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "AT"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Ferlach"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "8522"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Hauserweg 75"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/8b011b71-4a93-4bee-b0e7-346f09407fcb",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Hauserweg 75"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "AT"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Ferlach"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "8522"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Hauserweg 75"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5895203351974487",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/9883502e-7f32-4e78-a7fe-651efd8c2a6f",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Go\u00ebnga"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "1048 FS"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Suusbaan 58"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/cb607cdc-6374-4f40-b2d1-226bcd530c71",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Suusbaan 58"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Go\u00ebnga"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "1048 FS"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Suusbaan 58"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5252174139022827",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/bb0378eb-7a62-422e-9d69-d9fc4b1cb8bd",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Zuidlaren"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "1398 JL"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Ceylindreef 78"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/207ecd90-a2f0-4b0b-ad85-8b38622839a8",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Ceylindreef 78"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Zuidlaren"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "1398 JL"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Ceylindreef 78"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5875499248504639",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/c44117e6-2c98-49d9-bd88-deb7fc584d66",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "EE"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Port Martin"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "56228"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Bondarenko Dam 122"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/7d3cbff6-5df4-4424-ab59-4ffb929a5d05",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Bondarenko Dam 122"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "EE"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Port Martin"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "56228"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Bondarenko Dam 122"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5381098389625549",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/541d1a81-4815-442c-a2bb-62833d83ad7c",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Muntendam"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "1625 AP"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Bilalhof 68"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/96548a69-8020-470b-91a0-71a39a41c300",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Bilalhof 68"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Muntendam"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "1625 AP"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Bilalhof 68"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.6066322922706604",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/e31b328e-3a32-4205-9e26-b29d8615ad73",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Losser"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "9549 RA"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Sethring 78"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/c2c6802e-6f60-4b3e-b12b-f47dfee92499",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Sethring 78"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Losser"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "9549 RA"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Sethring 78"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5112674236297607",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/df66946a-0116-4168-bac8-a7602d5df04a",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Elburg"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "6941 VQ"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Ilseboulevard 58"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/2ea58f51-7249-4b76-b3eb-29bf8dd4123f",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Ilseboulevard 58"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Elburg"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "6941 VQ"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Ilseboulevard 58"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5157189965248108",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/db03dadf-a10f-4588-b1e1-9146f654f453",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Loon"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "2678 UN"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Pienweg 7"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/23d66bed-7830-4db0-adda-07a922c0a1b1",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Pienweg 7"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Loon"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "2678 UN"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Pienweg 7"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5138219594955444",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/b95a9bfb-827f-4f52-b905-b6dc9e888d32",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "EE"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Lake Aleksander"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "55297"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "J\u00f5gi Causeway 101"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/502cabc0-9355-4375-954a-8617a173d8aa",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "J\u00f5gi Causeway 101"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "EE"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Lake Aleksander"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "55297"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "J\u00f5gi Causeway 101"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5124854445457458",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/a4b0c73b-f74e-41a1-a2e5-b72606b9370b",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "AT"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Kindberg"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "8973"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Katharina-Foidl-Stra\u00dfe 113"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/6f4ca604-0718-4e1d-9786-559f529ae78b",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Katharina-Foidl-Stra\u00dfe 113"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "AT"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Kindberg"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "8973"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Katharina-Foidl-Stra\u00dfe 113"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5373581051826477",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/eb9fc88e-b877-4b59-9f3d-a6ae5295dcaf",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "EE"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Toomasville"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "82891"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Mati Inlet 51"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/ee77c51a-4fe3-434a-8a0b-d9a1c5b083c1",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Mati Inlet 51"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "EE"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Toomasville"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "82891"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Mati Inlet 51"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5356860756874084",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/1095e497-3d79-4f0b-a6cd-3595d4f0d65d",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "AT"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Grein"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "3985"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Hahnweg 92"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/f79ec9c5-0f1a-454b-8a40-ac857a72070c",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Hahnweg 92"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "AT"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Grein"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "3985"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Hahnweg 92"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5819547176361084",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/61ef4435-69ea-4db8-9541-b40f7635abe4",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "IJlst"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "2946 BJ"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Annemijnring 16"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/270e163d-4fec-4b0c-9517-60dcada95c94",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Annemijnring 16"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "IJlst"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "2946 BJ"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Annemijnring 16"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.503713846206665",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/636164d8-bb88-41b8-9be5-f8a138462e03",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "EE"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Abramovfurt"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "49182"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Priit Freeway 68"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/d4e73cf5-1c96-44cc-a17f-2dc06a0c1903",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Priit Freeway 68"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "EE"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Abramovfurt"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "49182"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Priit Freeway 68"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5001043677330017",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/f84b85e7-da12-4d3a-bcaa-db1a7dcd07ad",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "EE"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "South Kadriport"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "72226"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Katrin Parks 68"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/6f74cee2-9b8e-42ee-bbc4-5e144f594ab7",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Katrin Parks 68"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "EE"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "South Kadriport"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "72226"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Katrin Parks 68"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5451374053955078",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/8057b537-92ec-41d0-b2bb-8a67ec5b03af",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "AT"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Gerasdorf bei Wien"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "6380"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Stockerstr. 105"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/d0a79cad-bbf1-4c89-8714-cb1bcbaee211",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Stockerstr. 105"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "AT"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Gerasdorf bei Wien"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "6380"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Stockerstr. 105"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.500844419002533",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/572b4813-53e1-4084-8089-a684556ec366",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "EE"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Mihkeltown"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "71568"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Salumets Ramp 103"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/289b6151-13e7-48b2-90a9-1ef63d7ccedd",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Salumets Ramp 103"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "EE"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Mihkeltown"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "71568"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Salumets Ramp 103"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5088357925415039",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/1c7bc6c8-d62f-4e8c-abca-09663eef04eb",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "EE"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Anneville"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "83054"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Sarv Circle 23"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/019c8390-14eb-4d93-b33c-3f94db0a4ea9",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Sarv Circle 23"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "EE"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Anneville"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "83054"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Sarv Circle 23"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5040973424911499",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Address/35152cba-ec4f-46ab-aa07-cfddee9cee1f",
-          "predicates": [
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Meerssen"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "6745 ZI"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Elizaweg 94"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Address/415f9237-3742-4825-a712-896ee93a29d2",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Elizaweg 94"
-            },
-            {
-              "predicate": "schema:addressCountry",
-              "object": "NL"
-            },
-            {
-              "predicate": "schema:addressLocality",
-              "object": "Meerssen"
-            },
-            {
-              "predicate": "schema:postalCode",
-              "object": "6745 ZI"
-            },
-            {
-              "predicate": "schema:streetAddress",
-              "object": "Elizaweg 94"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5353063344955444",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Person/a948ba9a-f697-450c-81cb-171a2125ec3a",
+          "subject": "http://example.org/Person/ec58cdb4-2fc6-42c0-a32c-21f087b967f8",
           "predicates": [
             {
               "predicate": "schema:birthDate",
-              "object": "1994-10-14"
+              "object": "1994-06-09"
             },
             {
               "predicate": "schema:email",
-              "object": "davidestrada@healthcare.org"
+              "object": "lisaburke@healthcare.org"
+            },
+            {
+              "predicate": "schema:gender",
+              "object": "Female"
+            },
+            {
+              "predicate": "schema:jobTitle",
+              "object": "Lung Function Technician"
+            },
+            {
+              "predicate": "schema:knowsLanguage",
+              "object": "nl"
+            },
+            {
+              "predicate": "schema:name",
+              "object": "Lisa Burke"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Person/afdf8b6a-035b-415b-af16-e1af33ccd537",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Lisa Burke"
+            },
+            {
+              "predicate": "schema:birthDate",
+              "object": "1994-06-09"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "lisaburke@healthcare.org"
+            },
+            {
+              "predicate": "schema:gender",
+              "object": "Female"
+            },
+            {
+              "predicate": "schema:jobTitle",
+              "object": "Lung Function Technician"
+            },
+            {
+              "predicate": "schema:knowsLanguage",
+              "object": "nl"
+            },
+            {
+              "predicate": "schema:name",
+              "object": "Lisa Burke"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5105473399162292",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Person/ffdbf61f-bb4b-451f-b3aa-90815cabce60",
+          "predicates": [
+            {
+              "predicate": "schema:birthDate",
+              "object": "1973-12-15"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "olivianelson@healthcare.org"
+            },
+            {
+              "predicate": "schema:gender",
+              "object": "Female"
+            },
+            {
+              "predicate": "schema:jobTitle",
+              "object": "Child Life Specialist"
+            },
+            {
+              "predicate": "schema:knowsLanguage",
+              "object": "et"
+            },
+            {
+              "predicate": "schema:name",
+              "object": "Olivia Nelson"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Person/30960ac0-bf46-450a-8d9f-2dde9a4d67b6",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Olivia Nelson"
+            },
+            {
+              "predicate": "schema:birthDate",
+              "object": "1973-12-15"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "olivianelson@healthcare.org"
+            },
+            {
+              "predicate": "schema:gender",
+              "object": "Female"
+            },
+            {
+              "predicate": "schema:jobTitle",
+              "object": "Child Life Specialist"
+            },
+            {
+              "predicate": "schema:knowsLanguage",
+              "object": "et"
+            },
+            {
+              "predicate": "schema:name",
+              "object": "Olivia Nelson"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5169183015823364",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Person/30fda442-d2ea-47a5-9fb0-e79dc40de12c",
+          "predicates": [
+            {
+              "predicate": "schema:birthDate",
+              "object": "1973-08-04"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "amywong@healthcare.org"
             },
             {
               "predicate": "schema:gender",
@@ -2016,11 +176,11 @@
             },
             {
               "predicate": "schema:knowsLanguage",
-              "object": "de"
+              "object": "nl"
             },
             {
               "predicate": "schema:name",
-              "object": "David Estrada"
+              "object": "Amy Wong"
             }
           ]
         }
@@ -2028,19 +188,19 @@
       {
         "entity2": {
           "from": "g2",
-          "subject": "http://example.org/Person/1d165950-c7aa-46d7-a0ab-7156c3f60f2e",
+          "subject": "http://example.org/Person/3ee421ad-785e-480b-b413-b8c75e18e334",
           "predicates": [
             {
               "predicate": "label",
-              "object": "David Estrada"
+              "object": "Amy Wong"
             },
             {
               "predicate": "schema:birthDate",
-              "object": "1994-10-14"
+              "object": "1973-08-04"
             },
             {
               "predicate": "schema:email",
-              "object": "davidestrada@healthcare.org"
+              "object": "amywong@healthcare.org"
             },
             {
               "predicate": "schema:gender",
@@ -2052,17 +212,17 @@
             },
             {
               "predicate": "schema:knowsLanguage",
-              "object": "de"
+              "object": "nl"
             },
             {
               "predicate": "schema:name",
-              "object": "David Estrada"
+              "object": "Amy Wong"
             }
           ]
         }
       }
     ],
-    "similarity_score": "0.525955319404602",
+    "similarity_score": "0.5178530812263489",
     "status": "pass",
     "avg_literal_similarity": "1.0",
     "duplication_type": "near-exact"
@@ -2072,91 +232,15 @@
       {
         "entity1": {
           "from": "phkg_graph",
-          "subject": "http://example.org/Person/d0bae318-7d35-407d-801a-e817903099c4",
+          "subject": "http://example.org/Person/ff6581ca-1748-4b1c-9d61-b002011b529e",
           "predicates": [
             {
               "predicate": "schema:birthDate",
-              "object": "1980-03-04"
+              "object": "1998-11-03"
             },
             {
               "predicate": "schema:email",
-              "object": "brandoncaldwell@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Other"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Hematology Nurse"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "et"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Brandon Caldwell"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Person/87ad69b1-74aa-41c1-ab84-2835422bb8db",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Brandon Caldwell"
-            },
-            {
-              "predicate": "schema:birthDate",
-              "object": "1980-03-04"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "brandoncaldwell@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Other"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Hematology Nurse"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "et"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Brandon Caldwell"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5076829791069031",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Person/7ff53d7d-b2f9-4c4f-89b6-c468195a84cb",
-          "predicates": [
-            {
-              "predicate": "schema:birthDate",
-              "object": "1977-09-08"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "amandawilliams@healthcare.org"
+              "object": "anthonygilbert@healthcare.org"
             },
             {
               "predicate": "schema:gender",
@@ -2164,7 +248,7 @@
             },
             {
               "predicate": "schema:jobTitle",
-              "object": "Hematologist"
+              "object": "Vision Therapist"
             },
             {
               "predicate": "schema:knowsLanguage",
@@ -2172,7 +256,7 @@
             },
             {
               "predicate": "schema:name",
-              "object": "Amanda Williams"
+              "object": "Anthony Gilbert"
             }
           ]
         }
@@ -2180,19 +264,19 @@
       {
         "entity2": {
           "from": "g2",
-          "subject": "http://example.org/Person/4a4ae94c-bc91-4c11-8a8b-ec2caf3aa50f",
+          "subject": "http://example.org/Person/a4f2784a-c8c6-45d9-b0b4-30485ab4ccb6",
           "predicates": [
             {
               "predicate": "label",
-              "object": "Amanda Williams"
+              "object": "Anthony Gilbert"
             },
             {
               "predicate": "schema:birthDate",
-              "object": "1977-09-08"
+              "object": "1998-11-03"
             },
             {
               "predicate": "schema:email",
-              "object": "amandawilliams@healthcare.org"
+              "object": "anthonygilbert@healthcare.org"
             },
             {
               "predicate": "schema:gender",
@@ -2200,7 +284,7 @@
             },
             {
               "predicate": "schema:jobTitle",
-              "object": "Hematologist"
+              "object": "Vision Therapist"
             },
             {
               "predicate": "schema:knowsLanguage",
@@ -2208,13 +292,13 @@
             },
             {
               "predicate": "schema:name",
-              "object": "Amanda Williams"
+              "object": "Anthony Gilbert"
             }
           ]
         }
       }
     ],
-    "similarity_score": "0.502202033996582",
+    "similarity_score": "0.506229043006897",
     "status": "pass",
     "avg_literal_similarity": "1.0",
     "duplication_type": "near-exact"
@@ -2224,15 +308,15 @@
       {
         "entity1": {
           "from": "phkg_graph",
-          "subject": "http://example.org/Person/18ad5597-8099-4a05-a0cb-fcb1b4d365eb",
+          "subject": "http://example.org/Person/20f163d3-18d5-45a7-a487-01f94c729ad7",
           "predicates": [
             {
               "predicate": "schema:birthDate",
-              "object": "1962-11-05"
+              "object": "1959-09-12"
             },
             {
               "predicate": "schema:email",
-              "object": "jorgeleon@healthcare.org"
+              "object": "katrinanguyen@healthcare.org"
             },
             {
               "predicate": "schema:gender",
@@ -2244,11 +328,11 @@
             },
             {
               "predicate": "schema:knowsLanguage",
-              "object": "de"
+              "object": "et"
             },
             {
               "predicate": "schema:name",
-              "object": "Jorge Leon"
+              "object": "Katrina Nguyen"
             }
           ]
         }
@@ -2256,19 +340,19 @@
       {
         "entity2": {
           "from": "g2",
-          "subject": "http://example.org/Person/177b893c-4f9d-4540-ac54-85b3a783226b",
+          "subject": "http://example.org/Person/0680349a-b508-4773-ae72-755235205e1b",
           "predicates": [
             {
               "predicate": "label",
-              "object": "Jorge Leon"
+              "object": "Katrina Nguyen"
             },
             {
               "predicate": "schema:birthDate",
-              "object": "1962-11-05"
+              "object": "1959-09-12"
             },
             {
               "predicate": "schema:email",
-              "object": "jorgeleon@healthcare.org"
+              "object": "katrinanguyen@healthcare.org"
             },
             {
               "predicate": "schema:gender",
@@ -2280,17 +364,17 @@
             },
             {
               "predicate": "schema:knowsLanguage",
-              "object": "de"
+              "object": "et"
             },
             {
               "predicate": "schema:name",
-              "object": "Jorge Leon"
+              "object": "Katrina Nguyen"
             }
           ]
         }
       }
     ],
-    "similarity_score": "0.5013086795806885",
+    "similarity_score": "0.5057511329650879",
     "status": "pass",
     "avg_literal_similarity": "1.0",
     "duplication_type": "near-exact"
@@ -2366,7 +450,7 @@
         }
       }
     ],
-    "similarity_score": "0.5437479019165039",
+    "similarity_score": "0.5105686187744141",
     "status": "pass",
     "avg_literal_similarity": "1.0",
     "duplication_type": "near-exact"
@@ -2376,703 +460,19 @@
       {
         "entity1": {
           "from": "phkg_graph",
-          "subject": "http://example.org/Person/1b3e39be-ace2-41fb-ba2f-8debdf30bfa3",
+          "subject": "http://example.org/Person/3a3e41a9-69cc-4315-a805-fa4b895f5005",
           "predicates": [
             {
               "predicate": "schema:birthDate",
-              "object": "1998-01-06"
+              "object": "1974-07-19"
             },
             {
               "predicate": "schema:email",
-              "object": "julieduarte@healthcare.org"
+              "object": "olivialee@healthcare.org"
             },
             {
               "predicate": "schema:gender",
               "object": "Female"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Dialysis Nurse"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "de"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Julie Duarte"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Person/d646b491-1caf-4f6c-95f2-d52ae140a4aa",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Julie Duarte"
-            },
-            {
-              "predicate": "schema:birthDate",
-              "object": "1998-01-06"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "julieduarte@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Female"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Dialysis Nurse"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "de"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Julie Duarte"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.510660707950592",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Person/b4275c48-9ebf-4683-939f-aef5d3cce919",
-          "predicates": [
-            {
-              "predicate": "schema:birthDate",
-              "object": "1971-07-31"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "juliaross@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Other"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Emergency Physician"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "et"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Julia Ross"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Person/c16c1068-9891-4261-87bf-36e729370ce8",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Julia Ross"
-            },
-            {
-              "predicate": "schema:birthDate",
-              "object": "1971-07-31"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "juliaross@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Other"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Emergency Physician"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "et"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Julia Ross"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5138571262359619",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Person/53163b07-5e76-41ec-ad6f-4334d70e4112",
-          "predicates": [
-            {
-              "predicate": "schema:birthDate",
-              "object": "1983-01-17"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "mrsamywhitephd@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Female"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Optometrist"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "nl"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Mrs. Amy White PhD"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Person/054c893c-ebb4-4835-8d78-91faa7446d3c",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Mrs. Amy White PhD"
-            },
-            {
-              "predicate": "schema:birthDate",
-              "object": "1983-01-17"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "mrsamywhitephd@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Female"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Optometrist"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "nl"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Mrs. Amy White PhD"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5007449388504028",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Person/19df697e-68f7-49c9-87a9-35f1cd8ed7a4",
-          "predicates": [
-            {
-              "predicate": "schema:birthDate",
-              "object": "1984-09-14"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "amycoleman@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Female"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Urology Nurse"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "nl"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Amy Coleman"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Person/379f21ab-b9e9-44c0-a425-25626aaa0f22",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Amy Coleman"
-            },
-            {
-              "predicate": "schema:birthDate",
-              "object": "1984-09-14"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "amycoleman@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Female"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Urology Nurse"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "nl"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Amy Coleman"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5158130526542664",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Person/3609a69d-3b08-402b-adbd-3b474750fc5e",
-          "predicates": [
-            {
-              "predicate": "schema:birthDate",
-              "object": "1985-11-30"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "jamesbarrera@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Female"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Gynecologist"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "de"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "James Barrera"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Person/86b2d4f5-dc27-4be2-bf7c-ab38fdcbdd1a",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "James Barrera"
-            },
-            {
-              "predicate": "schema:birthDate",
-              "object": "1985-11-30"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "jamesbarrera@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Female"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Gynecologist"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "de"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "James Barrera"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5177805423736572",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Person/7f3f3a7a-d2b0-4249-a813-3fac30edc402",
-          "predicates": [
-            {
-              "predicate": "schema:birthDate",
-              "object": "1973-03-24"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "danielmartinez@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Female"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Pulmonary Function Technologist"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "et"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Daniel Martinez"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Person/011277c2-87b7-41ed-ba3c-88dfb572680e",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Daniel Martinez"
-            },
-            {
-              "predicate": "schema:birthDate",
-              "object": "1973-03-24"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "danielmartinez@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Female"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Pulmonary Function Technologist"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "et"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Daniel Martinez"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5084818005561829",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Person/0395edd8-10a0-41e4-81bc-9e48e84ddfc8",
-          "predicates": [
-            {
-              "predicate": "schema:birthDate",
-              "object": "1973-05-04"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "angelweaver@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Male"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Ophthalmologist"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "et"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Angel Weaver"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Person/0a3a008c-9271-4f07-a840-932427966e45",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Angel Weaver"
-            },
-            {
-              "predicate": "schema:birthDate",
-              "object": "1973-05-04"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "angelweaver@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Male"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Ophthalmologist"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "et"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Angel Weaver"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5330805778503418",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Person/8d9fc5bb-b04e-4114-92b2-52e20bef77b9",
-          "predicates": [
-            {
-              "predicate": "schema:birthDate",
-              "object": "1975-07-18"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "michaelmarquez@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Male"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Optometrist"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "de"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Michael Marquez"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Person/497cf465-df8a-447f-808e-27a910e76c5d",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Michael Marquez"
-            },
-            {
-              "predicate": "schema:birthDate",
-              "object": "1975-07-18"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "michaelmarquez@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Male"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Optometrist"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "de"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Michael Marquez"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5151585936546326",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Person/adee1674-f3ba-487f-ad92-ee67815caa30",
-          "predicates": [
-            {
-              "predicate": "schema:birthDate",
-              "object": "1962-05-29"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "amandathomas@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Male"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Pulmonary Function Technologist"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "nl"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Amanda Thomas"
-            }
-          ]
-        }
-      },
-      {
-        "entity2": {
-          "from": "g2",
-          "subject": "http://example.org/Person/b8dec99e-7bea-4538-b8bf-82fd0221a74e",
-          "predicates": [
-            {
-              "predicate": "label",
-              "object": "Amanda Thomas"
-            },
-            {
-              "predicate": "schema:birthDate",
-              "object": "1962-05-29"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "amandathomas@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Male"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Pulmonary Function Technologist"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "nl"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Amanda Thomas"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5451704263687134",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Person/829aaeb0-9c85-412e-9d92-ce4d9fad50a7",
-          "predicates": [
-            {
-              "predicate": "schema:birthDate",
-              "object": "1964-02-29"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "gregoryjackson@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Other"
             },
             {
               "predicate": "schema:jobTitle",
@@ -3080,11 +480,11 @@
             },
             {
               "predicate": "schema:knowsLanguage",
-              "object": "nl"
+              "object": "de"
             },
             {
               "predicate": "schema:name",
-              "object": "Gregory Jackson"
+              "object": "Olivia Lee"
             }
           ]
         }
@@ -3092,23 +492,23 @@
       {
         "entity2": {
           "from": "g2",
-          "subject": "http://example.org/Person/956923ba-ef9e-48b0-97f4-b913b5baa703",
+          "subject": "http://example.org/Person/f2d9892d-e7c7-4d0f-8c78-3a258dded087",
           "predicates": [
             {
               "predicate": "label",
-              "object": "Gregory Jackson"
+              "object": "Olivia Lee"
             },
             {
               "predicate": "schema:birthDate",
-              "object": "1964-02-29"
+              "object": "1974-07-19"
             },
             {
               "predicate": "schema:email",
-              "object": "gregoryjackson@healthcare.org"
+              "object": "olivialee@healthcare.org"
             },
             {
               "predicate": "schema:gender",
-              "object": "Other"
+              "object": "Female"
             },
             {
               "predicate": "schema:jobTitle",
@@ -3116,51 +516,51 @@
             },
             {
               "predicate": "schema:knowsLanguage",
+              "object": "de"
+            },
+            {
+              "predicate": "schema:name",
+              "object": "Olivia Lee"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5176575779914856",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Person/caabf1a2-e31e-4d64-9f64-d38fbeeab4a5",
+          "predicates": [
+            {
+              "predicate": "schema:birthDate",
+              "object": "1960-07-21"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "brandonjackson@healthcare.org"
+            },
+            {
+              "predicate": "schema:gender",
+              "object": "Male"
+            },
+            {
+              "predicate": "schema:jobTitle",
+              "object": "Otolaryngologist"
+            },
+            {
+              "predicate": "schema:knowsLanguage",
               "object": "nl"
             },
             {
               "predicate": "schema:name",
-              "object": "Gregory Jackson"
-            }
-          ]
-        }
-      }
-    ],
-    "similarity_score": "0.5191038846969604",
-    "status": "pass",
-    "avg_literal_similarity": "1.0",
-    "duplication_type": "near-exact"
-  },
-  {
-    "entities": [
-      {
-        "entity1": {
-          "from": "phkg_graph",
-          "subject": "http://example.org/Person/335e9218-950e-4154-8d9e-437045f80f9b",
-          "predicates": [
-            {
-              "predicate": "schema:birthDate",
-              "object": "1965-03-29"
-            },
-            {
-              "predicate": "schema:email",
-              "object": "lynnhicks@healthcare.org"
-            },
-            {
-              "predicate": "schema:gender",
-              "object": "Female"
-            },
-            {
-              "predicate": "schema:jobTitle",
-              "object": "Respiratory Therapist"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "et"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Lynn Hicks"
+              "object": "Brandon Jackson"
             }
           ]
         }
@@ -3168,41 +568,41 @@
       {
         "entity2": {
           "from": "g2",
-          "subject": "http://example.org/Person/da31efa6-a754-4077-aa1a-c2e2a55c8fae",
+          "subject": "http://example.org/Person/7df6e0e9-4b80-4170-bb6f-e7069bc6dfa7",
           "predicates": [
             {
               "predicate": "label",
-              "object": "Lynn Hicks"
+              "object": "Brandon Jackson"
             },
             {
               "predicate": "schema:birthDate",
-              "object": "1965-03-29"
+              "object": "1960-07-21"
             },
             {
               "predicate": "schema:email",
-              "object": "lynnhicks@healthcare.org"
+              "object": "brandonjackson@healthcare.org"
             },
             {
               "predicate": "schema:gender",
-              "object": "Female"
+              "object": "Male"
             },
             {
               "predicate": "schema:jobTitle",
-              "object": "Respiratory Therapist"
+              "object": "Otolaryngologist"
             },
             {
               "predicate": "schema:knowsLanguage",
-              "object": "et"
+              "object": "nl"
             },
             {
               "predicate": "schema:name",
-              "object": "Lynn Hicks"
+              "object": "Brandon Jackson"
             }
           ]
         }
       }
     ],
-    "similarity_score": "0.5531043410301208",
+    "similarity_score": "0.5066853761672974",
     "status": "pass",
     "avg_literal_similarity": "1.0",
     "duplication_type": "near-exact"
@@ -3212,23 +612,23 @@
       {
         "entity1": {
           "from": "phkg_graph",
-          "subject": "http://example.org/Person/2bc0668a-ad9e-4ee0-9dd7-d64aa7357ac1",
+          "subject": "http://example.org/Person/31a6c415-ce0b-4962-865b-23d226972a37",
           "predicates": [
             {
               "predicate": "schema:birthDate",
-              "object": "1973-02-06"
+              "object": "1965-05-17"
             },
             {
               "predicate": "schema:email",
-              "object": "kaylafrederick@healthcare.org"
+              "object": "danielgreen@healthcare.org"
             },
             {
               "predicate": "schema:gender",
-              "object": "Female"
+              "object": "Male"
             },
             {
               "predicate": "schema:jobTitle",
-              "object": "Medical Assistant"
+              "object": "Gastroenterologist"
             },
             {
               "predicate": "schema:knowsLanguage",
@@ -3236,7 +636,7 @@
             },
             {
               "predicate": "schema:name",
-              "object": "Kayla Frederick"
+              "object": "Daniel Green"
             }
           ]
         }
@@ -3244,27 +644,27 @@
       {
         "entity2": {
           "from": "g2",
-          "subject": "http://example.org/Person/508a0dbf-58dd-4291-bd5d-b16a2bdd27fa",
+          "subject": "http://example.org/Person/618a5080-f171-4c6a-a32e-4a9663a128ff",
           "predicates": [
             {
               "predicate": "label",
-              "object": "Kayla Frederick"
+              "object": "Daniel Green"
             },
             {
               "predicate": "schema:birthDate",
-              "object": "1973-02-06"
+              "object": "1965-05-17"
             },
             {
               "predicate": "schema:email",
-              "object": "kaylafrederick@healthcare.org"
+              "object": "danielgreen@healthcare.org"
             },
             {
               "predicate": "schema:gender",
-              "object": "Female"
+              "object": "Male"
             },
             {
               "predicate": "schema:jobTitle",
-              "object": "Medical Assistant"
+              "object": "Gastroenterologist"
             },
             {
               "predicate": "schema:knowsLanguage",
@@ -3272,13 +672,13 @@
             },
             {
               "predicate": "schema:name",
-              "object": "Kayla Frederick"
+              "object": "Daniel Green"
             }
           ]
         }
       }
     ],
-    "similarity_score": "0.5231103301048279",
+    "similarity_score": "0.5201781988143921",
     "status": "pass",
     "avg_literal_similarity": "1.0",
     "duplication_type": "near-exact"
@@ -3288,31 +688,23 @@
       {
         "entity1": {
           "from": "phkg_graph",
-          "subject": "http://example.org/Person/8e82356c-baaf-461a-96e9-f83c78313397",
+          "subject": "http://example.org/Address/f2aaaaf0-e8eb-4ae2-9bc1-c77afa29fad9",
           "predicates": [
             {
-              "predicate": "schema:birthDate",
-              "object": "1975-09-07"
+              "predicate": "schema:addressCountry",
+              "object": "NL"
             },
             {
-              "predicate": "schema:email",
-              "object": "aaronjacobs@healthcare.org"
+              "predicate": "schema:addressLocality",
+              "object": "Mill"
             },
             {
-              "predicate": "schema:gender",
-              "object": "Other"
+              "predicate": "schema:postalCode",
+              "object": "8908 UH"
             },
             {
-              "predicate": "schema:jobTitle",
-              "object": "Optician"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "et"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Aaron Jacobs"
+              "predicate": "schema:streetAddress",
+              "object": "Kikipad 130"
             }
           ]
         }
@@ -3320,41 +712,2133 @@
       {
         "entity2": {
           "from": "g2",
-          "subject": "http://example.org/Person/9c0bfaf2-fdf6-47d8-8499-89b4593e002e",
+          "subject": "http://example.org/Address/6178e054-f145-47ac-aad1-3746be766405",
           "predicates": [
             {
               "predicate": "label",
-              "object": "Aaron Jacobs"
+              "object": "Kikipad 130"
             },
             {
-              "predicate": "schema:birthDate",
-              "object": "1975-09-07"
+              "predicate": "schema:addressCountry",
+              "object": "NL"
             },
             {
-              "predicate": "schema:email",
-              "object": "aaronjacobs@healthcare.org"
+              "predicate": "schema:addressLocality",
+              "object": "Mill"
             },
             {
-              "predicate": "schema:gender",
-              "object": "Other"
+              "predicate": "schema:postalCode",
+              "object": "8908 UH"
             },
             {
-              "predicate": "schema:jobTitle",
-              "object": "Optician"
-            },
-            {
-              "predicate": "schema:knowsLanguage",
-              "object": "et"
-            },
-            {
-              "predicate": "schema:name",
-              "object": "Aaron Jacobs"
+              "predicate": "schema:streetAddress",
+              "object": "Kikipad 130"
             }
           ]
         }
       }
     ],
-    "similarity_score": "0.526194155216217",
+    "similarity_score": "0.5110024213790894",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/55e4ddc4-3d71-4abb-9ace-f37c8d61adb6",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Markomouth"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "53409"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Natalja Turnpike 77"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/8663daf5-daf6-425f-bb25-8bcf9ee50e6d",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Natalja Turnpike 77"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Markomouth"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "53409"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Natalja Turnpike 77"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5136722326278687",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/daf66c5f-2577-4ffa-887a-746319c16a0d",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Kufstein"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "9573"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Sulzergasse 127"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/827e01d0-98db-4aef-910f-8a592789128c",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Sulzergasse 127"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Kufstein"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "9573"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Sulzergasse 127"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6110882759094238",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/6bc9e970-c48a-4374-86dc-1579647640a1",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "\u017dukovville"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "95238"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Elena Station 124"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/c8328ef2-f146-4b7c-a512-01ebdf5596f1",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Elena Station 124"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "\u017dukovville"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "95238"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Elena Station 124"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.635464072227478",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/a7176911-8230-488e-8b29-03f37d2c1e7e",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Wernhout"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "4372 TZ"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Ashleyhof 106"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/73147f9e-5a37-4230-96ea-15b52c397708",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Ashleyhof 106"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Wernhout"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "4372 TZ"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Ashleyhof 106"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5371408462524414",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/a2d4870a-e360-4ea5-a600-bef84b4e2db2",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Viiraburgh"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "86485"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Kaljuvee Valley 79"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/965ae581-244d-4622-8319-0b42f4ca2913",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Kaljuvee Valley 79"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Viiraburgh"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "86485"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Kaljuvee Valley 79"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5540598630905151",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/eee13dc0-e1e4-49cf-8dba-6d8f7ab8572c",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Warstiens"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "6328 KH"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Timosingel 89"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/6b74324c-1f24-44dc-952f-776147d2d3d5",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Timosingel 89"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Warstiens"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "6328 KH"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Timosingel 89"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5255187153816223",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/bb0378eb-7a62-422e-9d69-d9fc4b1cb8bd",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Zuidlaren"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "1398 JL"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Ceylindreef 78"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/207ecd90-a2f0-4b0b-ad85-8b38622839a8",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Ceylindreef 78"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Zuidlaren"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "1398 JL"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Ceylindreef 78"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6175822019577026",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/61ef4435-69ea-4db8-9541-b40f7635abe4",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "IJlst"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "2946 BJ"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Annemijnring 16"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/270e163d-4fec-4b0c-9517-60dcada95c94",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Annemijnring 16"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "IJlst"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "2946 BJ"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Annemijnring 16"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5122594833374023",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/269dc3b6-c740-43ac-b14f-7e995a24e786",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Geldrop"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "7340 LP"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Jurrelaan 50"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/4d4e4761-29a4-40d5-8994-b9b0b0238c36",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Jurrelaan 50"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Geldrop"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "7340 LP"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Jurrelaan 50"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.506346583366394",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/2c12129c-487b-4acf-8535-c13d4d697998",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Tomingasview"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "46417"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Tilk Gardens 128"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/934f391c-f6ae-4200-9391-6ae894f15c11",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Tilk Gardens 128"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Tomingasview"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "46417"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Tilk Gardens 128"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5194451808929443",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/48d46113-b50a-4a15-a0ff-f2cb6857548c",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Ubbena"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "8664 SC"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Mathijsstraat 61"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/5026abe0-c3cd-4d07-93ac-ee6f30cb931a",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Mathijsstraat 61"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Ubbena"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "8664 SC"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Mathijsstraat 61"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5059489607810974",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/c44117e6-2c98-49d9-bd88-deb7fc584d66",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Port Martin"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "56228"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Bondarenko Dam 122"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/7d3cbff6-5df4-4424-ab59-4ffb929a5d05",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Bondarenko Dam 122"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Port Martin"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "56228"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Bondarenko Dam 122"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5001892447471619",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/6f30a7a2-5853-40c4-b053-7fbb2bcdacf3",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Munnekeburen"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "4505 YN"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Lindseydreef 49"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/cc77d0a3-d5d7-44aa-8ba7-b3cce0167220",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Lindseydreef 49"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Munnekeburen"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "4505 YN"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Lindseydreef 49"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5277562737464905",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/99755cb9-7c76-4592-a73e-3f3b5c27761d",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Markberg"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "37304"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Meelis Haven 129"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/21688cd0-aa5d-4f6c-b215-eaea6b2f5513",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Meelis Haven 129"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Markberg"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "37304"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Meelis Haven 129"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5953736305236816",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/eedbba8b-0f83-41ee-b2ac-89bdb2998fa3",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "M\u00f5ttustown"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "82276"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Linda Expressway 107"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/9ccf9007-a23d-4d5f-acd3-f3d45508b009",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Linda Expressway 107"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "M\u00f5ttustown"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "82276"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Linda Expressway 107"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.578060507774353",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/fbfa7549-13ee-4ee8-950e-18400e60f583",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "IJsselstein"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "1567 IW"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Stanpad 81"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/8e435138-88ba-4e5c-b503-324f5a091193",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Stanpad 81"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "IJsselstein"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "1567 IW"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Stanpad 81"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5041184425354004",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/3e903735-4716-4271-b69c-39b9a73d23a6",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Langenlois"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "7071"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Anna-Maria-Nussbaumer-Stra\u00dfe 19"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/7877a7b8-8b1d-4cf6-a0b9-92040c35476b",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Anna-Maria-Nussbaumer-Stra\u00dfe 19"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Langenlois"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "7071"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Anna-Maria-Nussbaumer-Stra\u00dfe 19"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5256991982460022",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/cc552e29-1187-4fe4-81b4-f9bd2a80c809",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Bad Leonfelden"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "3548"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Emilija-Mayerhofer-Gasse 80"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/b69cf185-2fb1-4a4a-9dae-30a1e4ec0f7c",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Emilija-Mayerhofer-Gasse 80"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Bad Leonfelden"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "3548"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Emilija-Mayerhofer-Gasse 80"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5198790431022644",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/fae3fcee-7636-4fd9-8376-ffa876fe579f",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "General Inquiries"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "PerezBecker@healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "456.336.0906x1435"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "001-293-368-4735"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/61f3be6a-7e57-4d58-b912-605a6fcf89ac",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "General Inquiries"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "General Inquiries"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "PerezBecker@healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "456.336.0906x1435"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "001-293-368-4735"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5134980082511902",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/76800d7a-bb11-4dbc-bd0f-8012f3cf3c33",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Appointments"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Berg.Gynecologic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "562-376-2752x90074"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "725.722.5268"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/15d53ba5-1664-4fd0-a00d-739ca957d262",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Appointments"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Appointments"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Berg.Gynecologic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "562-376-2752x90074"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "725.722.5268"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5652806162834167",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/c784499d-6909-4290-9496-a305314a332e",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Mcneil.Radiography@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(591)818-7210x867"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(813)857-7256"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/cd33f5e3-b068-4a18-937b-c6dabb4ba4c2",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Mcneil.Radiography@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(591)818-7210x867"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(813)857-7256"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5553518533706665",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/29502326-7644-4183-9aab-d22d75ef8aab",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Patient Services"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Berg@healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(757)680-3429"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(757)762-9481"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/220db0fd-bb4c-4367-b148-1a88565cc2fa",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Patient Services"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Patient Services"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Berg@healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(757)680-3429"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(757)762-9481"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5379429459571838",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/15f66e23-75e6-43b6-b952-7fba397ce787",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Staff"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "FigueroaStrong.Pharmacy@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "098-1014243"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "0978 055579"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/e9d54723-8783-4660-8ace-b006510479b6",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Staff"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Staff"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "FigueroaStrong.Pharmacy@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "098-1014243"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "0978 055579"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.515216588973999",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/749ef679-c161-4767-b28a-85434a974df5",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "KimTodd.Neurologic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(486)630-9419"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "305.568.6116"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/aefce61b-d605-44c5-8118-75519de811db",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "KimTodd.Neurologic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(486)630-9419"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "305.568.6116"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5559698343276978",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/84ddf869-b816-4f1a-9677-013ba8e19b83",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Mcneil.Pediatric@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+1-846-578-4101x566"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "001-286-594-3160x875"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/0068ff21-a816-484c-b96c-1f49d1425fea",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Mcneil.Pediatric@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+1-846-578-4101x566"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "001-286-594-3160x875"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5089946985244751",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/5073fc2b-c647-4e3c-8e19-967b8102ce40",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Staff"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Berg.Genetic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "001-886-612-6113"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "842-242-8523x70724"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/14270877-3051-4e8d-95cb-7fa761f35b75",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Staff"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Staff"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Berg.Genetic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "001-886-612-6113"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "842-242-8523x70724"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5565509796142578",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/5aa970d9-801a-4ff7-a6cd-d662c4e813db",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Allen.Pathology@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(099) 9073342"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+31(0)153 066453"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/e1019d0b-75f8-4d7d-a2ad-bb43b8c563ae",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Allen.Pathology@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(099) 9073342"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+31(0)153 066453"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5486369132995605",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/cb628a19-a79e-431f-86ad-ad4a37c6c427",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Appointments"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Parker.Cardiovascular@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "001-876-452-0336"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "875.885.5906"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/297d896b-32e4-484d-b734-49c58f47942a",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Appointments"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Appointments"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Parker.Cardiovascular@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "001-876-452-0336"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "875.885.5906"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5455009341239929",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/d44b5548-066d-4e1e-a16b-347d9babbdab",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Referrals"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "KimTodd.Gynecologic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "535.296.8119x81658"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "972-699-7024"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/8cf4b069-e1f4-48bd-b40b-29e22c04f341",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Referrals"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Referrals"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "KimTodd.Gynecologic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "535.296.8119x81658"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "972-699-7024"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5401763319969177",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/122411e6-ba89-42dd-85e6-9ea9db66bfda",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Patient Services"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Peck@healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+31517-176045"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "065-4611877"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/04b0133a-baed-4ac9-bc41-b76632fbb2ed",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Patient Services"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Patient Services"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Peck@healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+31517-176045"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "065-4611877"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5408921837806702",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/5b93822b-cec8-44aa-a000-4c9f716f9ea7",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Staff"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Novak.Hematologic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "813-315-4293"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "001-755-982-6187"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/310c6c40-69de-48dc-849f-7c261d54018d",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Staff"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Staff"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Novak.Hematologic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "813-315-4293"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "001-755-982-6187"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5316764116287231",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/b0ca76f7-17f9-4524-8332-ed33bba6e752",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Referrals"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Novak.Podiatric@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(203)841-5253"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(280)351-9921x4987"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/9e4bb427-772c-4baa-a337-0e765a2af1b0",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Referrals"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['et', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Referrals"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Novak.Podiatric@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(203)841-5253"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(280)351-9921x4987"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5455297827720642",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/c40421fb-18fb-4f2c-9602-a43750ea62aa",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Referrals"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Griffin.Toxicologic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+31(0)032 390557"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+31(0)378 207287"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/f921a1e6-a27e-4bc8-9bf0-0dee075e5646",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Referrals"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Referrals"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Griffin.Toxicologic@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+31(0)032 390557"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+31(0)378 207287"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.550378680229187",
     "status": "pass",
     "avg_literal_similarity": "1.0",
     "duplication_type": "near-exact"

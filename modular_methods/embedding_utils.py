@@ -22,7 +22,6 @@ def rdf_to_nx_old(graph):
     return G
 
 
-
 def rdf_to_nx(graph):
     G = nx.Graph()
     for s, p, o in graph:

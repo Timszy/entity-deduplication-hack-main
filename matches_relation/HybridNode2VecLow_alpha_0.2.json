@@ -4,7 +4,7 @@
       {
         "entity1": {
           "from": "phkg_graph",
-          "subject": "http://example.org/Address/541d1a81-4815-442c-a2bb-62833d83ad7c",
+          "subject": "http://example.org/Address/bb0378eb-7a62-422e-9d69-d9fc4b1cb8bd",
           "predicates": [
             {
               "predicate": "schema:addressCountry",
@@ -12,15 +12,15 @@
             },
             {
               "predicate": "schema:addressLocality",
-              "object": "Muntendam"
+              "object": "Zuidlaren"
             },
             {
               "predicate": "schema:postalCode",
-              "object": "1625 AP"
+              "object": "1398 JL"
             },
             {
               "predicate": "schema:streetAddress",
-              "object": "Bilalhof 68"
+              "object": "Ceylindreef 78"
             }
           ]
         }
@@ -28,11 +28,11 @@
       {
         "entity2": {
           "from": "g2",
-          "subject": "http://example.org/Address/96548a69-8020-470b-91a0-71a39a41c300",
+          "subject": "http://example.org/Address/207ecd90-a2f0-4b0b-ad85-8b38622839a8",
           "predicates": [
             {
               "predicate": "label",
-              "object": "Bilalhof 68"
+              "object": "Ceylindreef 78"
             },
             {
               "predicate": "schema:addressCountry",
@@ -40,21 +40,21 @@
             },
             {
               "predicate": "schema:addressLocality",
-              "object": "Muntendam"
+              "object": "Zuidlaren"
             },
             {
               "predicate": "schema:postalCode",
-              "object": "1625 AP"
+              "object": "1398 JL"
             },
             {
               "predicate": "schema:streetAddress",
-              "object": "Bilalhof 68"
+              "object": "Ceylindreef 78"
             }
           ]
         }
       }
     ],
-    "similarity_score": "0.5204445719718933",
+    "similarity_score": "0.5394087433815002",
     "status": "pass",
     "avg_literal_similarity": "1.0",
     "duplication_type": "near-exact"

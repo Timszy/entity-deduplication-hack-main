@@ -1,0 +1,130 @@
+[
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/51b0a3c5-c9e7-4aba-b5da-3e50822bbc3d",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Delgado.Dentistry@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+31666 357058"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(0714)-163115"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/fb81f259-279d-46e8-89a4-92fd4815df02",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Delgado.Dentistry@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+31666 357058"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(0714)-163115"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5099731683731079",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/62d55697-ec36-42c8-ad3f-a0b6de8a6d76",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "New Vello"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "49095"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Nina Courts 41"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/e6913785-7b2c-47e1-8ca9-f62de0dd68c5",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Nina Courts 41"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "New Vello"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "49095"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Nina Courts 41"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.563432514667511",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  }
+]

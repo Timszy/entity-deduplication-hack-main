@@ -6,7 +6,7 @@ from modular_methods.output_utils import build_final_result
 import time
 
 start_time = time.time()
-noise_levels = ['low']
+noise_levels = ['low', 'high']
 # --- Load RDF graphs
 g1 = rdflib.Graph()
 
@@ -22,8 +22,9 @@ model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
 for noise_level in noise_levels:
     start_time = time.time()
     g2 = rdflib.Graph()
-    g2.parse(f"data/healthcare_graph_relation.ttl")
-    
+    #g2.parse(f"data/healthcare_graph_replaced_high.ttl")
+    #g2.parse(f"data/healthcare_graph_relation.ttl")
+    g2.parse(f"data/healthcare_graph_struct_{noise_levels}.ttl")
     # --- Graph embeddings (NetMF)
     print("Computing graph embeddings...")
     combined_graph = phkg_graph + g2
@@ -31,7 +32,7 @@ for noise_level in noise_levels:
 
 
     # --- Run deduplication for multiple alpha values
-    alpha_values = [0.0, 0.2, 0.35, 0.5, 0.65, 0.8] # Change as needed
+    alpha_values = [round(i * 0.05, 2) for i in range(20)] # Change as needed
     for alpha in alpha_values:
         matches = deduplicate_graphs(
             phkg_graph=phkg_graph,
@@ -56,7 +57,7 @@ for noise_level in noise_levels:
             graph2_name="g2"
         )
 
-        output_path = f"matches_relation/HybridNetMF_alpha_{alpha}.json"
+        output_path = f"matches_struct_{noise_level}/HybridNetMF_alpha_{alpha}.json"
         save_matches(final_result, output_path)
         print(f"Saved matches to {output_path}")
 

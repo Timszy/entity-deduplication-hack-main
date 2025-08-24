@@ -1,0 +1,1414 @@
+[
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/db03dadf-a10f-4588-b1e1-9146f654f453",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Loon"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "2678 UN"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Pienweg 7"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/23d66bed-7830-4db0-adda-07a922c0a1b1",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Pienweg 7"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Loon"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "2678 UN"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Pienweg 7"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5130922198295593",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/47006868-578e-451a-8a99-908598f1d552",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Oberpullendorf"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "5885"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Zimmermannstr. 33"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/02e8d7d1-ed4a-4a13-82b9-5b0bcaac80df",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Zimmermannstr. 33"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Oberpullendorf"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "5885"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Zimmermannstr. 33"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5520292520523071",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/0e8cff18-9e9d-4b77-ba34-b580eda0a0af",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Pernis Rotterdam"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "4372 KD"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Leahbaan 26"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/2e01e5ab-be07-4030-b4de-64dc387c95f5",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Leahbaan 26"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Pernis Rotterdam"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "4372 KD"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Leahbaan 26"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5168793201446533",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/98e63241-243f-4229-ace4-8fdc68d60b08",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Sch\u00e4rding"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "6073"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Alexa-Grassl-Stra\u00dfe 18"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/b83b8236-c9f4-4251-af05-6cce5ebd2dcc",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Alexa-Grassl-Stra\u00dfe 18"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Sch\u00e4rding"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "6073"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Alexa-Grassl-Stra\u00dfe 18"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5478283762931824",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/a4b0c73b-f74e-41a1-a2e5-b72606b9370b",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Kindberg"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "8973"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Katharina-Foidl-Stra\u00dfe 113"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/6f4ca604-0718-4e1d-9786-559f529ae78b",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Katharina-Foidl-Stra\u00dfe 113"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Kindberg"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "8973"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Katharina-Foidl-Stra\u00dfe 113"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5728503465652466",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/faa83536-d3d7-49d5-a430-1b871322439a",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Schrattenthal"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "5842"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Biedermannweg 31"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/c97863d4-c688-414b-9f3e-51a0ae63a3e8",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Biedermannweg 31"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Schrattenthal"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "5842"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Biedermannweg 31"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5958625078201294",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/aace1c9a-1c59-4fa1-b543-be48696b7284",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Sandermouth"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "60040"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Galina Landing 107"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/c9555286-ae16-4c83-8be5-18d7759315f1",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Galina Landing 107"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Sandermouth"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "60040"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Galina Landing 107"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5876199007034302",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/853a9135-3ee2-451b-be88-c93319db1d7b",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Perg"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "9956"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Katarina-Rohrer-Gasse 42"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/65b3c535-4efb-4ed6-ab94-a087c4e57bc2",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Katarina-Rohrer-Gasse 42"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Perg"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "9956"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Katarina-Rohrer-Gasse 42"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6112285256385803",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/a7176911-8230-488e-8b29-03f37d2c1e7e",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Wernhout"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "4372 TZ"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Ashleyhof 106"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/73147f9e-5a37-4230-96ea-15b52c397708",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Ashleyhof 106"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Wernhout"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "4372 TZ"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Ashleyhof 106"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5134719014167786",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/6a2ca004-0465-46d5-a086-f2af3059c498",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Voitsberg"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "7486"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Luisa-St\u00f6ckl-Ring 60"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/0fb25ba1-cdd4-4102-bc90-8184e0f3a2ba",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Luisa-St\u00f6ckl-Ring 60"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Voitsberg"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "7486"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Luisa-St\u00f6ckl-Ring 60"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5156669616699219",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/d35f581e-3648-431f-ae9e-8d0384983111",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Wilhelmsburg"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "9664"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Raphael-Lengauer-Platz 79"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/426ecb76-860b-4a15-8256-3bfab478e46e",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Raphael-Lengauer-Platz 79"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Wilhelmsburg"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "9664"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Raphael-Lengauer-Platz 79"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6723946332931519",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/bc67b332-a89d-4114-9841-c24912882f60",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Mattighofen"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "1357"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Anabella-Hartl-Gasse 91"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/4351c5b2-9bf9-4772-91f0-35756f277a82",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Anabella-Hartl-Gasse 91"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Mattighofen"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "1357"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Anabella-Hartl-Gasse 91"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5253880023956299",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/09fa0833-e2fe-46d1-8b64-acd73331cc05",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Langenlois"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "3169"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Anabella-Klug-Ring 92"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/ff1779e2-9be9-4aaf-8ff6-578195e74674",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Anabella-Klug-Ring 92"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Langenlois"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "3169"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Anabella-Klug-Ring 92"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5372416973114014",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/de4452be-1567-43c9-af7a-98c53abe5a8d",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Roosilehtside"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "42298"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Andreev Mountains 144"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/a09f273d-a0d8-473c-ac4e-19b8d5d52a17",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Andreev Mountains 144"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Roosilehtside"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "42298"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Andreev Mountains 144"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5279244184494019",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/62fe8d68-95f4-4a1f-a1d2-92ab36f4851f",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Amstetten"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "8231"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Engelring 10"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/e536c5f7-8404-46bd-8d33-88f47ac964bb",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Engelring 10"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Amstetten"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "8231"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Engelring 10"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6065233945846558",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/60c36cdd-9937-4592-985a-eb983d9f3e80",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Vils"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "3867"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Chris-Gr\u00fcnberger-Platz 54"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/05ac8f60-e6cc-4a7c-b88f-d75a830a3c77",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Chris-Gr\u00fcnberger-Platz 54"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "AT"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Vils"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "3867"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Chris-Gr\u00fcnberger-Platz 54"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6047138571739197",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/eb9fc88e-b877-4b59-9f3d-a6ae5295dcaf",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Toomasville"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "82891"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Mati Inlet 51"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/ee77c51a-4fe3-434a-8a0b-d9a1c5b083c1",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Mati Inlet 51"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Toomasville"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "82891"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Mati Inlet 51"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5440478324890137",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/541d1a81-4815-442c-a2bb-62833d83ad7c",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Muntendam"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "1625 AP"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Bilalhof 68"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/96548a69-8020-470b-91a0-71a39a41c300",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Bilalhof 68"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Muntendam"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "1625 AP"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Bilalhof 68"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5273361802101135",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/2985c817-a937-4c86-9f40-ec4712d527a0",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Boekel"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "6770 LM"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Barthof 44"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/9fe389dd-e9d4-4325-8b33-cf2b638a11ed",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Barthof 44"
+            },
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Boekel"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "6770 LM"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Barthof 44"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5490162372589111",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/d41cc2bc-e335-4f8b-91d5-6acf680fe5e2",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Appointments"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Robinson.Respiratory@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+1-298-796-9647"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+1-438-533-7131"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/18035dfe-3453-4969-bf13-1096d8cf64ce",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Appointments"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Appointments"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Robinson.Respiratory@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+1-298-796-9647"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+1-438-533-7131"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6239726543426514",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/51b0a3c5-c9e7-4aba-b5da-3e50822bbc3d",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Delgado.Dentistry@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+31666 357058"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(0714)-163115"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/fb81f259-279d-46e8-89a4-92fd4815df02",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Delgado.Dentistry@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+31666 357058"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "(0714)-163115"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5846236944198608",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/74286356-3c91-4458-a4b2-7e8301cbd9c2",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Robinson.Obstetric@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(463)307-4285"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "319.544.6541x9175"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/ef99a6bd-e99a-4498-b77d-42cad98b4d0c",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Robinson.Obstetric@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(463)307-4285"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "319.544.6541x9175"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.6761469841003418",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/c6d82ceb-a1ac-4d49-8d4d-daab72824622",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Robinson.Renal@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "677.448.6297"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "001-848-696-7998x32041"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/19f13f17-ac05-4597-84de-d9d19bb056c1",
+          "predicates": [
+            {
+              "predicate": "label",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Emergency"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Robinson.Renal@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "677.448.6297"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "001-848-696-7998x32041"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.630297064781189",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  }
+]

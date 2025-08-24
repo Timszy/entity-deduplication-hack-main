@@ -1,0 +1,306 @@
+[
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/ea6d5565-3810-4725-952a-4ff52da4d7f2",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Jordan.Laboratory@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+31(0)089-028744"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+31(0)27-0623981"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/00362891-be41-4084-bcd4-0312ff739937",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['nl']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Jordan.Laboratory@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "+31(0)089-028744"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "+31(0)27-0623981"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5294382572174072",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "true_duplicate"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/8e13c327-b461-4c8f-ae16-25f34b4444b5",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Parker.Pathology@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "001-383-914-1966"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "890.346.0313x4830"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/4c0f3837-1b18-4abc-a1a4-517441d2135e",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Parker.Pathology@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "001-383-914-1966"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "890.346.0313x4830"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5146057605743408",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "true_duplicate"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/ContactPoint/a76f80a9-1db9-4322-ad85-ceb25291b049",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Parker.Pediatric@dept.healthcare.org"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(798)893-4029x4558"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "856.355.2393"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/ContactPoint/85f7ec5c-2991-4d8e-903a-ee173fdd3a66",
+          "predicates": [
+            {
+              "predicate": "schema:availableLanguage",
+              "object": "['de', 'en']"
+            },
+            {
+              "predicate": "schema:contactType",
+              "object": "Information"
+            },
+            {
+              "predicate": "schema:email",
+              "object": "Parker.Pediatric@dept.healthcare.de"
+            },
+            {
+              "predicate": "schema:faxNumber",
+              "object": "(798)893-4029x4558"
+            },
+            {
+              "predicate": "schema:telephone",
+              "object": "856.355.2393"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5332306027412415",
+    "status": "pass",
+    "avg_literal_similarity": "0.9859154929577464",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/1ba43eaf-84f4-4346-9301-6d9e87d3b238",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Gerassimovville"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "28799"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Vaht Prairie 14"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/cea8b11a-777b-4a26-bc28-f332eef4d305",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Gerassimovville"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "28799"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Vaht Prairie 14A"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5210912823677063",
+    "status": "pass",
+    "avg_literal_similarity": "0.9919354838709677",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/9883502e-7f32-4e78-a7fe-651efd8c2a6f",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Go\u00ebnga"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "1048 FS"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Suusbaan 58"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/69e76b16-133b-458e-9156-81f7ff518ea8",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Go\u00ebnga"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "1048 FS"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Suusbaan 58C"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5136076211929321",
+    "status": "pass",
+    "avg_literal_similarity": "0.9891304347826086",
+    "duplication_type": "near-exact"
+  }
+]
