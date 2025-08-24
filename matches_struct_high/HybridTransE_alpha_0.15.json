@@ -1,0 +1,106 @@
+[
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/69259d81-2a2e-4ea7-9834-aeaf0f332bab",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Lutjebroek"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "6617 WI"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Olafstraat 113"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/b98b36dd-4a3f-42e8-aa95-02c09c2d3f31",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "NL"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Lutjebroek"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "6617 WI"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.508015513420105",
+    "status": "pass",
+    "avg_literal_similarity": "1.0",
+    "duplication_type": "near-exact"
+  },
+  {
+    "entities": [
+      {
+        "entity1": {
+          "from": "phkg_graph",
+          "subject": "http://example.org/Address/9a0500d0-a29d-44c0-98a6-00384d94fd8e",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Lake Triin"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "47768"
+            },
+            {
+              "predicate": "schema:streetAddress",
+              "object": "Aasa Land 144"
+            }
+          ]
+        }
+      },
+      {
+        "entity2": {
+          "from": "g2",
+          "subject": "http://example.org/Address/1862e1b6-d576-4c50-b5da-c602caada913",
+          "predicates": [
+            {
+              "predicate": "schema:addressCountry",
+              "object": "EE"
+            },
+            {
+              "predicate": "schema:addressLocality",
+              "object": "Lake Kristiinaburgh"
+            },
+            {
+              "predicate": "schema:postalCode",
+              "object": "77679"
+            }
+          ]
+        }
+      }
+    ],
+    "similarity_score": "0.5213480591773987",
+    "status": "pass",
+    "avg_literal_similarity": "0.7402298850574712",
+    "duplication_type": "similar"
+  }
+]

@@ -6,7 +6,7 @@ from modular_methods.output_utils import build_final_result
 import time
 
 start_time = time.time()
-noise_levels = ['low', 'high']
+noise_levels = ['low']
 # --- Load RDF graphs
 g1 = rdflib.Graph()
 
@@ -23,8 +23,8 @@ for noise_level in noise_levels:
     start_time = time.time()
     g2 = rdflib.Graph()
     # g2.parse(f"data/healthcare_graph_replaced_high.ttl")
-    # g2.parse(f"data/healthcare_graph_relation.ttl")
-    g2.parse(f"data/healthcare_graph_struct_{noise_levels}.ttl")
+    g2.parse(f"data/healthcare_graph_relation.ttl")
+    # g2.parse(f"data/healthcare_graph_struct_{noise_level}.ttl")
     # --- Graph embeddings (DistMult)
     print("Computing graph embeddings using DistMult...")
     combined_graph = phkg_graph + g2
@@ -57,7 +57,7 @@ for noise_level in noise_levels:
         )
 
         # --- Save as JSON
-        output_path = f"matches_struct_{noise_level}/HybridDistMult_alpha_{alpha}.json"
+        output_path = f"matches_relation/HybridDistMult_alpha_{alpha}.json"
         save_matches(final_result, output_path)
         print(f"Saved matches to {output_path}")
 

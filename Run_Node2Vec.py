@@ -24,7 +24,7 @@ for noise_level in noise_levels:
     g2 = rdflib.Graph()
     #g2.parse(f"data/healthcare_graph_replaced_high.ttl")
     #g2.parse(f"data/healthcare_graph_relation.ttl")
-    g2.parse(f"data/healthcare_graph_struct_{noise_levels}.ttl")
+    g2.parse(f"data/healthcare_graph_struct_{noise_level}.ttl")
     # --- Graph embeddings (Node2Vec)
     print("Computing graph embeddings...")
     combined_graph = phkg_graph + g2
