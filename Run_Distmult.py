@@ -31,7 +31,8 @@ for noise_level in noise_levels:
     graph_embeddings = get_graph_embeddings_PyKEEN(combined_graph, model ="DistMult", dimensions=384, num_epochs=100)
 
     # --- Run deduplication for multiple alpha values
-    alpha_values = [round(i * 0.05, 2) for i in range(20)]  # Change as needed
+    #alpha_values = [round(i * 0.05, 2) for i in range(1)]  # Change as needed
+    alpha_values = [0.5]
     for alpha in alpha_values:
         matches = deduplicate_graphs(
             phkg_graph=phkg_graph,

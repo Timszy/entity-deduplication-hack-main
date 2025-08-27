@@ -6,7 +6,7 @@ from modular_methods.output_utils import build_final_result
 import time
 
 start_time = time.time()
-noise_levels = ['low', 'high']
+noise_levels = ['low']
 # --- Load RDF graphs
 g1 = rdflib.Graph()
 
@@ -30,7 +30,8 @@ for noise_level in noise_levels:
     combined_graph = phkg_graph + g2
     graph_embeddings = get_graph_embeddings_Node2vec(combined_graph, dimensions=384)
     # --- Run deduplication for multiple alpha values
-    alpha_values = [round(i * 0.05, 2) for i in range(20)]  # Change as needed
+    #alpha_values = [round(i * 0.05, 2) for i in range(1)]  # Change as needed
+    alpha_values = [0.5]
     for alpha in alpha_values:
         matches = deduplicate_graphs(
             phkg_graph=phkg_graph,

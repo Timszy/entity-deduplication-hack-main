@@ -5,7 +5,7 @@ from sentence_transformers import SentenceTransformer
 from modular_methods.dedup_pipeline import deduplicate_graphs, save_matches
 from modular_methods.output_utils import build_final_result
 start_time = time.time()
-noise_levels = ['low', 'high']
+noise_levels = ['low']
 g1 = rdflib.Graph()
 
 master_graph = rdflib.Graph()
