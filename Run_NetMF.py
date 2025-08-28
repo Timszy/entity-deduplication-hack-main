@@ -58,7 +58,7 @@ for noise_level in noise_levels:
             graph2_name="g2"
         )
 
-        output_path = f"matches_struct_{noise_level}/HybridNetMF_alpha_{alpha}.json"
+        output_path = f"matches/matches_struct_{noise_level}/HybridNetMF_alpha_{alpha}.json"
         save_matches(final_result, output_path)
         print(f"Saved matches to {output_path}")
 

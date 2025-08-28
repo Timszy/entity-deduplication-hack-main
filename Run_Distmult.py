@@ -58,7 +58,7 @@ for noise_level in noise_levels:
         )
 
         # --- Save as JSON
-        output_path = f"matches_relation/HybridDistMult_alpha_{alpha}.json"
+        output_path = f"matches/matches_relation/HybridDistMult_alpha_{alpha}.json"
         save_matches(final_result, output_path)
         print(f"Saved matches to {output_path}")
 

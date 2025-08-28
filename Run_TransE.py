@@ -5,7 +5,7 @@ from modular_methods.dedup_pipeline import deduplicate_graphs, save_matches
 from modular_methods.output_utils import build_final_result
 import time
 
-
+### specify noise levels when dealing with completeness 
 noise_levels = ['low']
 # --- Load RDF graphs
 g1 = rdflib.Graph()
@@ -59,7 +59,7 @@ for noise_level in noise_levels:
         )
 
         # --- Save as JSON
-        output_path = f"matches_struct_{noise_level}/HybridTransE_alpha_{alpha}.json"
+        output_path = f"matches/matches_struct_{noise_level}/HybridTransE_alpha_{alpha}.json"
         save_matches(final_result, output_path)
         print(f"Saved matches to {output_path}")
 

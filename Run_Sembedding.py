@@ -42,7 +42,7 @@ for noise_level in noise_levels:
         graph2_name="g2"
     )
 
-    save_matches(final_result, f"matches_struct_{noise_level}/SentenceEmbedding.json")
+    save_matches(final_result, f"matches/matches_struct_{noise_level}/SentenceEmbedding.json")
 
     end_time = time.time()
     runtime = end_time - start_time
