@@ -97,35 +97,3 @@ def get_graph_embeddings_PyKEEN(graph, model, dimensions=384, num_epochs=100):
     graph_embeddings = {e: graph_embedding_matrix[i] for e, i in entity_to_id.items()}
     return graph_embeddings
 
-def get_graph_embeddings_PyKEEN_nodepiece(graph, dimensions=384, num_epochs=60):
-    triples = [ (str(s), str(p), str(o))
-        for s, p, o in graph
-        if not isinstance(s, rdflib.BNode) and not isinstance(o, rdflib.BNode)]
-    triples_array = np.array(triples, dtype=str)
-    triples_factory = TriplesFactory.from_labeled_triples(
-        triples_array,
-        create_inverse_triples=True
-    )
-    training_factory, testing_factory = triples_factory.split([0.8, 0.2], random_state=69)
-
-    model = NodePiece(
-        triples_factory=training_factory,
-        tokenizers=["AnchorTokenizer", "RelationTokenizer"],
-        num_tokens=[20, 12],
-        embedding_dim=dimensions,
-        interaction="DistMult",
-    )
-
-    result = pipeline(
-        training=training_factory,
-        testing=testing_factory,
-        model=model,
-        training_loop="slcwa",
-        training_kwargs=dict(num_epochs=num_epochs),
-        evaluator_kwargs=dict(filtered=True),
-        random_seed=69,
-    )
-
-    entity_to_id = triples_factory.entity_to_id
-    graph_embedding_matrix = result.model.entity_representations[0]().detach().cpu().numpy().real
-    return {e: graph_embedding_matrix[i] for e, i in entity_to_id.items()}
