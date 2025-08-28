@@ -119,7 +119,7 @@ Results are exported as JSON-like structures, making them easy to inspect or fee
 ---
 
 ### Evaluation
-To measure effectiveness, we evaluate the models against a **ground-truth golden standard** of known duplicates.  
+To measure effectiveness, we evaluate the models against a **ground-truth golden standard** of known duplicates, that can be found in the data folder.  
 Key aspects include:
 
 - **Precision, Recall, F1**  
@@ -140,7 +140,7 @@ Key aspects include:
 To illustrate the workflow, here is a run using the **Hybrid + TransE** setup.
 
 ### Input
-- **Graphs**
+- **Graphs found in data**
   - `data/healthcare_graph_Main.ttl` – primary knowledge graph  
   - `data/master_data.ttl` – reference/master data  
   - `data/healthcare_graph_struct_low.ttl` – noisy/perturbed graph (structural noise, low level)  
